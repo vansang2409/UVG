@@ -1,0 +1,57 @@
+[
+  {
+    "path": "data/Du lieu Amis/So_chi_tiet_ban_hang 2024.xlsx",
+    "bytes": 8866819,
+    "sha256": "a6d803b2ebe1da3ac2db27bc85a5ccbc3bf4452314970e97e753f6e4fdf20843"
+  },
+  {
+    "path": "data/Du lieu Amis/So_chi_tiet_ban_hang T1-6.2025.xlsx",
+    "bytes": 7044383,
+    "sha256": "67c88efb9740f096ae0f4f4e5f99fa4230a9e9d45f6261eee70b9ffc5b716504"
+  },
+  {
+    "path": "data/Du lieu Meinvoice/Bang_ke_hoa_don_da_su_dung_2024-T6.2025.xls",
+    "bytes": 724906,
+    "sha256": "69d773ad99651fc6c7114905180382ee41f7fd6e347c0878614f0275e79e05b3"
+  },
+  {
+    "path": "data/Du lieu Meinvoice/Bang_ke_hoa_don_da_su_dung_T6.2025 L2.xls",
+    "bytes": 134558,
+    "sha256": "e967fbf64f7982822f0926caafb54daec520c2678fb964ca2d2ddca4de194978"
+  },
+  {
+    "path": "data/Du lieu Meinvoice/Bang_ke_hoa_don_da_su_dung_T6.2025.xls",
+    "bytes": 728829,
+    "sha256": "27d04698c4bfcb71d7de7c6a4c561a1c966a92a16898477531bede373da121df"
+  },
+  {
+    "path": "data/Du lieu Meinvoice/Bảng kê chi tiết hóa đơn 2024.xls",
+    "bytes": 3718197,
+    "sha256": "78ad1335b64bd1bc1218e8919df43bbe6feae0d4e6e2ca5dd6d0bd4bba9614a1"
+  },
+  {
+    "path": "data/Du lieu Meinvoice/Bảng kê chi tiết hóa đơn 2025.xls",
+    "bytes": 2940750,
+    "sha256": "37eed40fcda1bb41aa148be4a16bdf54d823a8729befe256bb60777ef58711c6"
+  },
+  {
+    "path": "data/Du lieu Meinvoice/DS bị thay thế 2024.xls",
+    "bytes": 11451,
+    "sha256": "ee1ab9593abdbfb4b6b2df72934874721e1b6830d9e74769d61691ae0af9a44c"
+  },
+  {
+    "path": "data/Du lieu Meinvoice/DS bị điều chỉnh 2024.xls",
+    "bytes": 111820,
+    "sha256": "325a732bb24b92d8110da1d7d4999675fd29c7f1329f5b217646a95e3f11ff22"
+  },
+  {
+    "path": "data/Du lieu Meinvoice/DS bị điều chỉnh 2025.xls",
+    "bytes": 79650,
+    "sha256": "515810785086a194d2cf4300248566b20e2534e71c503dd4c5a3a543c0aa9050"
+  },
+  {
+    "path": "data/Du lieu Meinvoice/Mau HD Dieu chinh.xls",
+    "bytes": 21300,
+    "sha256": "d513debd672a0a73c46198014acea08d930264a4aa52fc0404e05382302e336b"
+  }
+]
