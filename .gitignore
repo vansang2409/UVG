@@ -3,3 +3,7 @@ __pycache__/
 *.pyc
 .env
 *.zip
+
+# Giữ dữ liệu gốc tại thư mục dự án; bản đưa lên Git nằm trong data/.
+/Du lieu Amis/
+/Du lieu Meinvoice/
