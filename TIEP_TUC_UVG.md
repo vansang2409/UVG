@@ -1,3 +1,30 @@
+# UVG – trạng thái hiện tại ngày 07/10/2026
+
+Ưu tiên xử lý hóa đơn gốc năm 2024. Dữ liệu nguồn giữ nguyên, 11 file khớp SHA-256. Tạm dùng bộ nguồn hiện có; chưa cập nhật đến hiện tại. Bảng tổng đến 30/06/2025, DS có ít nhất một ngoại lệ điều chỉnh ngày 15/07/2025.
+
+## Bảng đang dùng
+
+1. `outputs/ngoai-le-meinvoice-2024/NGOAI_LE_2024_THEO_CHUOI_GON.xlsx`: 118 gốc, 190 hóa đơn trong chuỗi; nhóm công ty/cá nhân có MST giữ nguyên. Đây là nhận diện từ file, chưa xác thực MST. Có lịch sử sửa năm 2025 liên quan gốc 2024.
+2. `outputs/hoa-don-dieu-chinh-2024/HOA_DON_DA_DIEU_CHINH_2024_BO_SUNG_TEN.xlsx`: 590 gốc đã bị điều chỉnh ngoài ngoại lệ, 1.187 hóa đơn. Bố cục 2 hàng tiêu đề phân màu F0/F1/F2; bỏ tên/MST và cột tham chiếu trên bảng chính, chi tiết vẫn ở tab nguồn. Không xử lý chuỗi thay thế.
+
+## Quyết định người dùng và phần còn lại
+
+- Mục tiêu người dùng: đưa nhóm ngoài ngoại lệ về 0, sau đó xuất mới từ AMIS; loại doanh thu đã nằm trong ngoại lệ giữ nguyên để tránh trùng. Chưa chốt nghiệp vụ phát hành.
+- Chỉ xử lý nhóm đã điều chỉnh trong bước hiện tại; chưa xử lý thay thế hoặc nhóm chưa sửa.
+- 5 chuỗi gốc 93, 228, 283, 285, 535 có lệch số học cần xác minh.
+- Riêng 1C24TUV/00000574: người dùng xác nhận tạm tính thanh toán gốc trống = 0. Cộng dồn 1.839.000 đồng; giữ ô nguồn trống và ghi chú quy ước. Không áp dụng mọi ô trống.
+- Đã đối chiếu mẫu hóa đơn số 3: cộng dồn 11.856.288 đồng; hai hóa đơn trong file mẫu cộng -11.856.288 đồng. Mẫu không được tính là đã phát hành.
+- Bước tiếp: làm mẫu chuỗi số 3, tính phương án đưa về 0 cho nhóm còn lại; chưa tạo file import, ký hoặc phát hành.
+- Mỗi nhóm giữ một file Excel đang dùng. Đóng Excel trước khi lưu đè; không tự tạo nhiều bản mới. Báo cáo cũ đã xóa theo yêu cầu, có thể tra lịch sử Git.
+
+Tái tính: `python scripts/prepare_adjusted_2024.py`. Xuất lại đúng bố cục: `node scripts/layout-tools/build-adjusted.mjs` với Node và artifact-tool từ runtime Codex. Xem README.md.
+
+---
+
+## Bàn giao cũ – chỉ để tra cứu lịch sử
+
+Các đường dẫn báo cáo cũ trong phần dưới có thể đã bị xóa. Trạng thái ở đầu tài liệu này thay thế phần bàn giao cũ.
+
 # UVG – tiếp tục công việc trên máy ở nhà
 
 Cập nhật ngày 06/10/2026. Repo: https://github.com/vansang2409/UVG, nhánh `master`.
@@ -97,6 +124,14 @@ Lệnh này tái tạo CSV và thống kê, không cập nhật bản Excel có 
 > Tôi đang tiếp tục dự án UVG. Hãy đọc TIEP_TUC_UVG.md, README.md và báo cáo kiểm tra ưu tiên trước. AMIS là số liệu khách hàng đã chốt; không ghép theo mã đơn sàn. Tiếp tục kiểm tra danh sách ưu tiên bằng các file bổ sung trong data/Bo sung, giữ nguyên dữ liệu nguồn và ghi rõ bằng chứng cho từng kết luận. Chưa tạo chỉ định phát hành khi còn thiếu lịch sử hoặc chưa giải thích được chênh lệch.
 
 ## Trạng thái thực hiện
+
+### Tiếp tục ngày 07/10/2026 – rà soát bộ file hiện có
+
+Đã rà 321/321 hóa đơn ưu tiên và xác nhận SHA-256 của 11 file nguồn khớp bản bàn giao. Kết quả ở `outputs/uvg-kiem-tra-uu-tien/ra-soat-2026-10-07/KET_QUA_KIEM_TRA.md`; bảng 321 dòng ở `KET_QUA_RA_SOAT_321.csv` trong cùng thư mục, giữ nguyên 21 cột cũ và thêm căn cứ/kết quả phía cuối. Excel và CSV ưu tiên ban đầu giữ nguyên.
+
+299 hóa đơn vẫn thiếu liên kết trong các bảng DS; 39 hóa đơn trong nhóm này có số tham chiếu trong diễn giải, mới là ứng viên tra cứu, chưa xác nhận ký hiệu. 14 hóa đơn thiếu tiền chưa có bảng tổng khác bổ sung đủ giá trị. 8 lệch số học được xác nhận lại; `1C25TUV/00000649` có tiền hàng/thuế âm nhưng thanh toán dương cần ưu tiên XML. Có 4 hóa đơn không có dòng chi tiết. Chưa có dữ liệu trong `data/Bo sung`.
+
+Bước tiếp theo: lấy XML cho lô 22 hóa đơn trong `outputs/uvg-kiem-tra-uu-tien/ra-soat-2026-10-07/LO_22_CAN_LAY_XML.csv`, gồm 8 lệch tiền và 14 thiếu tiền; lấy cả XML tham chiếu và lịch sử sửa sau 06/2025. Sau đó kiểm tra 39 hóa đơn có số tham chiếu trong diễn giải. Chưa thay đổi tổng đối chiếu, chưa chốt nghiệp vụ xử lý, chưa import/ký/phát hành. Script rà soát: `scripts/audit_priority_sources.py`.
 
 Đã phân tích file và lập danh sách cần kiểm tra. Chưa kết nối CQT, chưa xác minh từng hóa đơn bằng XML, chưa chốt số lượng cần phát hành, chưa import, ký hay phát hành hóa đơn. Xem commit mới nhất trên GitHub để biết phiên bản tài liệu đã nhận.
 
