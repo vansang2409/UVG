@@ -4,6 +4,8 @@ Dự án gồm toàn bộ dữ liệu nguồn từ thư mục D:\UVG, các scrip
 
 ## Tiếp tục trên máy khác
 
+Đọc **[TIEP_TUC_UVG.md](TIEP_TUC_UVG.md)** để tiếp tục đúng bước. Bảng làm việc ưu tiên ở `outputs/uvg-kiem-tra-uu-tien/HOA_DON_CAN_KIEM_TRA_UU_TIEN.xlsx`, thống kê và cách dùng ở `outputs/uvg-kiem-tra-uu-tien/KIEM_TRA_UU_TIEN.md`.
+
 Cài Python 3.11 trở lên, rồi chạy trong PowerShell:
 
 ```powershell
