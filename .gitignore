@@ -12,6 +12,8 @@ __pycache__/
 node_modules/
 ~$*
 *.inspect.ndjson
+/scripts/data/invoice_reports.json
+/scripts/data/*.png
 /scripts/layout-tools/*
 !/scripts/layout-tools/build-adjusted.mjs
 /outputs/**/_build/

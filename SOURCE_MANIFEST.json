@@ -10,48 +10,83 @@
     "sha256": "67c88efb9740f096ae0f4f4e5f99fa4230a9e9d45f6261eee70b9ffc5b716504"
   },
   {
-    "path": "data/Du lieu Meinvoice/Bang_ke_hoa_don_da_su_dung_2024-T6.2025.xls",
-    "bytes": 724906,
-    "sha256": "69d773ad99651fc6c7114905180382ee41f7fd6e347c0878614f0275e79e05b3"
+    "path": "data/Du lieu Meinvoice/Bang_ke_chi_tiet_HD_da_su_dung_2024.xls",
+    "bytes": 4275259,
+    "sha256": "fc7feb270db809582813ed3658e4c1febeb6a1bdc66d938c8a399918a9366bf5"
   },
   {
-    "path": "data/Du lieu Meinvoice/Bang_ke_hoa_don_da_su_dung_T6.2025 L2.xls",
-    "bytes": 134558,
-    "sha256": "e967fbf64f7982822f0926caafb54daec520c2678fb964ca2d2ddca4de194978"
+    "path": "data/Du lieu Meinvoice/Bang_ke_chi_tiet_HD_da_su_dung_2025.xls",
+    "bytes": 3620900,
+    "sha256": "ddff45352ffa1a0310ea5883b86d44267e4cf736e9750f1e7d7438ccacade34c"
   },
   {
-    "path": "data/Du lieu Meinvoice/Bang_ke_hoa_don_da_su_dung_T6.2025.xls",
-    "bytes": 728829,
-    "sha256": "27d04698c4bfcb71d7de7c6a4c561a1c966a92a16898477531bede373da121df"
+    "path": "data/Du lieu Meinvoice/Bang_ke_chi_tiet_HD_da_su_dung_2025_MTT.xls",
+    "bytes": 7631133,
+    "sha256": "982d1e4725fca090a22e16fff15eb8efc82cc3b3462a0636c21439fc336a608d"
   },
   {
-    "path": "data/Du lieu Meinvoice/Bảng kê chi tiết hóa đơn 2024.xls",
-    "bytes": 3718197,
-    "sha256": "78ad1335b64bd1bc1218e8919df43bbe6feae0d4e6e2ca5dd6d0bd4bba9614a1"
+    "path": "data/Du lieu Meinvoice/Bang_ke_hoa_don_da_su_dung_2024_2025/Bang_ke_hoa_don_da_su_dung_1791380301707_1.xlsx",
+    "bytes": 725340,
+    "sha256": "99bc8550b4dae85793b7b5baebf27b0543116e4a70956750092f1e259b948918"
   },
   {
-    "path": "data/Du lieu Meinvoice/Bảng kê chi tiết hóa đơn 2025.xls",
-    "bytes": 2940750,
-    "sha256": "37eed40fcda1bb41aa148be4a16bdf54d823a8729befe256bb60777ef58711c6"
+    "path": "data/Du lieu Meinvoice/Bang_ke_hoa_don_da_su_dung_2024_2025/Bang_ke_hoa_don_da_su_dung_1791380301707_10.xlsx",
+    "bytes": 606740,
+    "sha256": "96475567ed78e1276c126bf04fc416c131b5eb2dfa6e35f2fa88952dde568a4f"
   },
   {
-    "path": "data/Du lieu Meinvoice/DS bị thay thế 2024.xls",
-    "bytes": 11451,
-    "sha256": "ee1ab9593abdbfb4b6b2df72934874721e1b6830d9e74769d61691ae0af9a44c"
+    "path": "data/Du lieu Meinvoice/Bang_ke_hoa_don_da_su_dung_2024_2025/Bang_ke_hoa_don_da_su_dung_1791380301707_2.xlsx",
+    "bytes": 728833,
+    "sha256": "55447835cba9a69f2d0a0057760769c33139837687259f8259b97a8506a7042e"
   },
   {
-    "path": "data/Du lieu Meinvoice/DS bị điều chỉnh 2024.xls",
-    "bytes": 111820,
-    "sha256": "325a732bb24b92d8110da1d7d4999675fd29c7f1329f5b217646a95e3f11ff22"
+    "path": "data/Du lieu Meinvoice/Bang_ke_hoa_don_da_su_dung_2024_2025/Bang_ke_hoa_don_da_su_dung_1791380301707_3.xlsx",
+    "bytes": 692059,
+    "sha256": "ac315d8ccbd6f4d77ed0584d09b268beae39276507bd43529fce16d78011d303"
   },
   {
-    "path": "data/Du lieu Meinvoice/DS bị điều chỉnh 2025.xls",
-    "bytes": 79650,
-    "sha256": "515810785086a194d2cf4300248566b20e2534e71c503dd4c5a3a543c0aa9050"
+    "path": "data/Du lieu Meinvoice/Bang_ke_hoa_don_da_su_dung_2024_2025/Bang_ke_hoa_don_da_su_dung_1791380301707_4.xlsx",
+    "bytes": 607156,
+    "sha256": "5bc2275ade60933ab2bbfe39d3de1cdfa260da6db0fa7e6ba4a689fe4582a9bc"
   },
   {
-    "path": "data/Du lieu Meinvoice/Mau HD Dieu chinh.xls",
-    "bytes": 21300,
-    "sha256": "d513debd672a0a73c46198014acea08d930264a4aa52fc0404e05382302e336b"
+    "path": "data/Du lieu Meinvoice/Bang_ke_hoa_don_da_su_dung_2024_2025/Bang_ke_hoa_don_da_su_dung_1791380301707_5.xlsx",
+    "bytes": 638903,
+    "sha256": "1a92fc7536b78441354c9cc2a1d6bff8b0d8c2cd4d9655bf1e6d154f0070407f"
+  },
+  {
+    "path": "data/Du lieu Meinvoice/Bang_ke_hoa_don_da_su_dung_2024_2025/Bang_ke_hoa_don_da_su_dung_1791380301707_6.xlsx",
+    "bytes": 616282,
+    "sha256": "8c4b280b4c256c4cf780b0032b0329786c74ac6b2527955b523bbf41152137cd"
+  },
+  {
+    "path": "data/Du lieu Meinvoice/Bang_ke_hoa_don_da_su_dung_2024_2025/Bang_ke_hoa_don_da_su_dung_1791380301707_7.xlsx",
+    "bytes": 655479,
+    "sha256": "eaedcd7cbeaed3679451024f2dd5a752bc3308b57926551e88f97615200c18f2"
+  },
+  {
+    "path": "data/Du lieu Meinvoice/Bang_ke_hoa_don_da_su_dung_2024_2025/Bang_ke_hoa_don_da_su_dung_1791380301707_8.xlsx",
+    "bytes": 686360,
+    "sha256": "07b8bf38067d19d75f1bbaa0f6ff9ff8b46b18987c901ea7ee04105aa2bd881a"
+  },
+  {
+    "path": "data/Du lieu Meinvoice/Bang_ke_hoa_don_da_su_dung_2024_2025/Bang_ke_hoa_don_da_su_dung_1791380301707_9.xlsx",
+    "bytes": 655122,
+    "sha256": "515ee38914bace28f767d502c89573c8cbd499b60264178a6ec69cd8e73c3631"
+  },
+  {
+    "path": "data/Du lieu Meinvoice/Bang_ke_hoa_don_dieu_chinh_xuat_theo_HD_dieu_chinh_2024.xls",
+    "bytes": 287721,
+    "sha256": "755a717e2f64bcac36448e9187f675048816b9adfa6ad0f5ee26d3d1af7f5ea3"
+  },
+  {
+    "path": "data/Du lieu Meinvoice/Bang_ke_hoa_don_dieu_chinh_xuat_theo_HD_dieu_chinh_2025.xls",
+    "bytes": 287701,
+    "sha256": "791d20968ca2f6ca29b4116c63803c00166150fac45ac9716e04fc0383c94e4d"
+  },
+  {
+    "path": "data/Du lieu Meinvoice/Bang_ke_hoa_don_thay_the_xuat_theo_HD_thay_the_2024_2025.xls",
+    "bytes": 26215,
+    "sha256": "519402e85435b628546dcace62460c3b54e4d665c75f6f819940075afc087193"
   }
 ]
