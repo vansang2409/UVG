@@ -1,0 +1,56 @@
+[
+  {
+    "key": "1C24TUV/00000671",
+    "row": 38,
+    "note": "Đã chốt thanh toán tổng = 0 theo xác nhận người dùng ngày 08/10/2026. Bảng kê tổng nguyên bản để trống thanh toán; lấy số 0 ghi rõ trong dòng chi tiết. Tiền hàng = 0, thuế = 0; giữ nguyên dữ liệu nguồn. Quy tắc khuyến mãi: thành tiền dòng gốc = 0 thì nhập 1. Căn cứ: Bang_ke_chi_tiet_HD_da_su_dung_2024.xls | dòng 6229.",
+    "confirmed_on": "08/10/2026",
+    "payment": 0,
+    "source_payment": null,
+    "evidence": "Bang_ke_chi_tiet_HD_da_su_dung_2024.xls | dòng 6229"
+  },
+  {
+    "key": "1C24TUV/00000744",
+    "row": 52,
+    "note": "Đã chốt thanh toán tổng = 0 theo xác nhận người dùng ngày 08/10/2026. Bảng kê tổng nguyên bản để trống thanh toán; lấy số 0 ghi rõ trong dòng chi tiết. Tiền hàng = 0, thuế = 0; giữ nguyên dữ liệu nguồn. Quy tắc khuyến mãi: thành tiền dòng gốc = 0 thì nhập 1. Căn cứ: Bang_ke_chi_tiet_HD_da_su_dung_2024.xls | dòng 1733.",
+    "confirmed_on": "08/10/2026",
+    "payment": 0,
+    "source_payment": null,
+    "evidence": "Bang_ke_chi_tiet_HD_da_su_dung_2024.xls | dòng 1733"
+  },
+  {
+    "key": "1C25TUV/00000391",
+    "row": 264,
+    "note": "Đã chốt thanh toán tổng = 0 theo xác nhận người dùng ngày 08/10/2026. Bảng kê tổng nguyên bản để trống thanh toán; lấy số 0 ghi rõ trong dòng chi tiết. Tiền hàng = 0, thuế = 0; giữ nguyên dữ liệu nguồn. Quy tắc khuyến mãi: thành tiền dòng gốc = 0 thì nhập 1. Căn cứ: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 19122.",
+    "confirmed_on": "08/10/2026",
+    "payment": 0,
+    "source_payment": null,
+    "evidence": "Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 19122"
+  },
+  {
+    "key": "1C25TUV/00000761",
+    "row": 386,
+    "note": "Đã chốt thanh toán tổng = 0 theo xác nhận người dùng ngày 08/10/2026. Bảng kê tổng nguyên bản để trống thanh toán; lấy số 0 ghi rõ trong dòng chi tiết. Tiền hàng = 0, thuế = 0; giữ nguyên dữ liệu nguồn. Quy tắc khuyến mãi: thành tiền dòng gốc = 0 thì nhập 1. Căn cứ: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14885.",
+    "confirmed_on": "08/10/2026",
+    "payment": 0,
+    "source_payment": null,
+    "evidence": "Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14885"
+  },
+  {
+    "key": "1C25TUV/00000835",
+    "row": 412,
+    "note": "Đã chốt thanh toán tổng = 0 theo xác nhận người dùng ngày 08/10/2026. Bảng kê tổng nguyên bản để trống thanh toán; lấy số 0 ghi rõ trong dòng chi tiết. Tiền hàng = 0, thuế = 0; giữ nguyên dữ liệu nguồn. Quy tắc khuyến mãi: thành tiền dòng gốc = 0 thì nhập 1. Căn cứ: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14479.",
+    "confirmed_on": "08/10/2026",
+    "payment": 0,
+    "source_payment": null,
+    "evidence": "Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14479"
+  },
+  {
+    "key": "1C25TUV/00004748",
+    "row": 3460,
+    "note": "Đã chốt thanh toán tổng = 0 theo xác nhận người dùng ngày 08/10/2026. Bảng kê tổng nguyên bản để trống thanh toán; lấy số 0 ghi rõ trong dòng chi tiết. Tiền hàng = 0, thuế = 0; giữ nguyên dữ liệu nguồn. Quy tắc khuyến mãi: thành tiền dòng gốc = 0 thì nhập 1. Căn cứ: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 9649.",
+    "confirmed_on": "08/10/2026",
+    "payment": 0,
+    "source_payment": null,
+    "evidence": "Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 9649"
+  }
+]

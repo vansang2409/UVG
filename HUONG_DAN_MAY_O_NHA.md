@@ -1,77 +1,43 @@
-# UVG – thiết lập máy ở nhà và tiếp tục công việc
+# UVG – tiếp tục ở nhà, cập nhật 08/10/2026
 
-Cập nhật ngày 08/10/2026. Tài liệu này dùng khi thiết lập hoặc tiếp tục dự án trên máy khác. Repo: https://github.com/vansang2409/UVG.git, nhánh `master`.
+Repo: https://github.com/vansang2409/UVG.git – nhánh master.
 
-## 1. Lấy dự án về máy ở nhà
+## Nhận bản mới
 
-Cài Git và ứng dụng Codex. Trong PowerShell, chạy:
-
-```powershell
-git clone https://github.com/vansang2409/UVG.git "$HOME\Documents\UVG"
-Set-Location "$HOME\Documents\UVG"
-git log -3 --oneline
-```
-
-Nếu GitHub yêu cầu đăng nhập, dùng tài khoản có quyền truy cập repo. Repo đã chứa dữ liệu nguồn, script, hai bảng Excel đang dùng và tài liệu bàn giao. Không cần sao chép riêng dữ liệu từ máy công ty.
-
-Nếu đã clone dự án, cập nhật trong thư mục dự án:
+Nếu đã clone, chạy trong thư mục UVG:
 
 ```powershell
 git status --short
 git pull --ff-only origin master
+git log -1 --oneline
 ```
 
-Nếu có thay đổi chưa lưu vào Git hoặc lệnh pull báo lỗi, nhờ Codex kiểm tra trước; không xóa hay reset thay đổi.
-
-## 2. Cho Codex hiểu công việc
-
-Mở thư mục `Documents\UVG` làm project trong Codex. Dán nguyên nội dung sau vào chat:
-
-```text
-Đọc AGENTS.md nếu có, HUONG_DAN_MAY_O_NHA.md, phần trạng thái hiện tại ở đầu TIEP_TUC_UVG.md và README.md.
-
-Đây là dự án UVG chuyển giữa hai máy. Thư mục làm việc là project đang mở; đường dẫn D:\UVG trong tài liệu cần đổi theo thư mục hiện tại. Kiểm tra SOURCE_MANIFEST.json và trạng thái hiện tại ở đầu TIEP_TUC_UVG.md; không khôi phục nguồn cũ đã được thay bằng bộ xuất mới.
-
-Phạm vi: F0 từ 01/01/2024 đến 30/06/2025; hóa đơn liên quan đến những F0 này đến 31/12/2025. Nhóm đang xử lý là đã điều chỉnh ngoài ngoại lệ; chưa xử lý thay thế. Bảng ngoại lệ có 238 F0 / 326 hóa đơn; bảng đã điều chỉnh có 1.047 F0 / 2.113 hóa đơn.
-
-Ngoại lệ là hóa đơn xuất cho công ty hoặc cá nhân có MST, giữ nguyên. Khi xuất mới từ AMIS sau này phải loại doanh thu đã nằm trong ngoại lệ để tránh xuất trùng. Nhận diện ngoại lệ hiện từ file nguồn, chưa xác thực MST bên ngoài.
-
-Dữ liệu nguồn giữ nguyên. Bộ meInvoice đã xuất lại đến 31/12/2025; ba file chi tiết khớp 48.874 hóa đơn trong 10 phần bảng tổng. Kiểm 18 file bằng SOURCE_MANIFEST.json. Script có thêm 8 liên kết lịch sử năm 2024 từ Git tại commit cố định 9c50b0424a242695fa31182ab826613bf0fa699f; provenance ở tab nguồn. Không tự tính các lần điều chỉnh/thay thế năm 2026 theo nhãn trạng thái hiện tại.
-
-Riêng 1C24TUV/00000574: người dùng đã đồng ý tạm tính thanh toán gốc trống = 0; thanh toán cộng dồn 1.839.000 đồng. Ô nguồn vẫn trống. Không áp dụng quy ước này cho mọi ô trống. Report điều chỉnh có 16 chuỗi có ghi chú; ngoại lệ có 2. Đọc cột Cần kiểm tra và tab nguồn để xác minh tiền/ngày.
-
-Phần đang dở: kiểm tra 8 hóa đơn lệch giữa Tổng tiền (R) và Doanh số bán chưa thuế (P) + Thuế GTGT (Q), có đủ ký hiệu/số và giá trị trong phần đầu TIEP_TUC_UVG.md; ưu tiên 1C25TUV/00000649 và 00000561. Ngày bảng chính của 1C25TUV/00012885 đã dùng 05/07/2025 theo xác nhận và ảnh người dùng, nguồn tổng vẫn ghi 18/08/2025; chưa đối chiếu XML. Bảy hóa đơn có Tổng tiền trống ở bảng tổng nhưng thanh toán 0 ghi rõ ở bảng chi tiết; report chưa dùng số 0 này để bổ sung cộng dồn. Sau khi xác minh ghi chú mới xem phương án đưa nhóm ngoài ngoại lệ về 0, trong đó có mẫu điều chỉnh của gốc số 3 chưa được phát hành. Chưa tạo file import, ký hoặc phát hành hóa đơn.
-
-Mỗi nhóm chỉ giữ một Excel, trực tiếp ở outputs, không tạo thư mục con. Nếu Excel khóa file thì yêu cầu tôi đóng, không tạo thêm bản. Giữ format chuẩn hai hàng tiêu đề phân màu F0/F1/F2, mở F3 khi cần. Bảng điều chỉnh không thêm tên/MST hoặc loại/tham chiếu trên bảng chính; bảng ngoại lệ thêm đúng hai cột đầu Tên người mua và MST/CCCD chủ hộ nguyên bản. Chi tiết ở tab nguồn, hướng dẫn ở tab Huong dan. Chỉ đọc bàn giao trước, chưa tự tái tạo Excel hay tạo import, ký hoặc phát hành.
-```
-
-Lịch sử chat cũ không tự nằm trong bản clone. Các tài liệu bàn giao và lời nhắn trên cung cấp ngữ cảnh để Codex mới tiếp tục.
-
-## 3. Hai file Excel đang dùng
-
-- Ngoại lệ giữ nguyên: `outputs/NGOAI_LE_F0_2024_T6_2025.xlsx`.
-- Nhóm đã điều chỉnh: `outputs/HOA_DON_DA_DIEU_CHINH_F0_2024_T6_2025.xlsx`.
-
-Đây là hai report đã làm lại theo bộ xuất mới. Output cũ đã dọn; chưa tạo import hoặc phát hành hóa đơn.
-
-Nguồn nằm trong `data/Du lieu Amis/` và `data/Du lieu Meinvoice/`. Phần bàn giao cũ phía dưới TIEP_TUC_UVG.md chỉ dùng tra lịch sử; trạng thái ở đầu file được ưu tiên.
-
-## 4. Khi cần chạy lại script
-
-Chỉ đọc tài liệu và mở Excel thì chưa cần cài Python/Node. Khi cần tái tính, nhờ Codex kiểm tra runtime sẵn có và chuẩn bị thư viện theo README.md.
-
-- Phân tích: Python với thư viện trong `requirements.txt`.
-- Xuất Excel: Node với `@oai/artifact-tool`; thư viện không nằm trong Git. Codex cần tìm runtime đi kèm hoặc báo rõ nếu thiếu.
-
-Các lệnh cho workflow đang làm, chạy từ thư mục project:
+Nếu có thay đổi cục bộ, nhờ Codex kiểm tra và bảo toàn trước khi pull; không reset/xóa thay đổi. Nếu chưa clone:
 
 ```powershell
-python scripts/prepare_invoice_reports.py
-node scripts/layout-tools/build-adjusted.mjs
+git clone https://github.com/vansang2409/UVG.git
+cd UVG
 ```
 
-Đóng bảng Excel trước khi xuất lại. Không chạy `run.py` để tiếp tục nhóm này vì lệnh đó tái tạo các báo cáo đối chiếu cũ.
+## Cho Codex tiếp tục đúng ngữ cảnh
 
-## 5. Chuyển qua lại giữa hai máy
+Dán đoạn này vào chat trong project UVG:
 
-Khi kết thúc trên một máy, yêu cầu Codex commit và push đúng các thay đổi cần giữ. Trên máy còn lại, pull trước khi làm tiếp. File chưa commit/push sẽ không tự xuất hiện trên máy kia.
+> Đọc TIEP_TUC_UVG.md từ đầu, README.md và HUONG_DAN_MAY_O_NHA.md. Đây là bàn giao toàn dự án, không chỉ 00000508. Ưu tiên trạng thái mới nhất hơn lịch sử. Kiểm tra nguồn theo SOURCE_MANIFEST.json và mở workbook hiện tại; không tái chạy builder cũ ghi đè ghi chú/sheet import. AMIS là mục tiêu, meInvoice là lịch sử; F0 thuộc 01/01/2024–30/06/2025, liên quan đến31/12/2025. Nhóm ngoại lệ giữ riêng; thay thế chưa xử lý. Người dùng đã gửi kế toán kiểm tra, chờ phản hồi về237chuỗi bằng0 và19chuỗi đang chờ. Hai sheet import đã chuẩn bị: nhóm chưa điều chỉnh8404hóa đơn/13543dòng (6hóa đơn sốlượng0 táchriêng); nhóm đã điều chỉnh791chuỗi/1600hóa đơn dựkiến/40777dòng. Với00000508 phải kiểm cả dòng chi tiết, tính chất dòng và tổng trongXML, không chỉ số học về0. Chưa import/ký/phát hành. Giữ nguồn, ôtrống và số0đầu. Đường dẫnD:\UVG trong script cũ cần đổi theo project máy này, tra runtime bằng load_workspace_dependencies. Đọc phần việc còn lại rồi tiếp tục theo yêu cầu tôi.
+
+## File chính
+
+- outputs/HOA_DON_CHUA_DIEU_CHINH_F0_2024_T6_2025.xlsx
+- outputs/HOA_DON_DA_DIEU_CHINH_F0_2024_T6_2025.xlsx
+- outputs/NGOAI_LE_F0_2024_T6_2025.xlsx
+- outputs/kiem-tra-20261008/CAC_TRUONG_HOP_CAN_KIEM_TRA.xlsx (bảng kiểm tra đã tạo trước khi chuyển sang sheet).
+
+Chỉ mở file/tài liệu thì không cần tái tạo Excel. Script/dataJSON hiện hành được bàn giao; ảnhpreview/log và bảnxlsx trunggian là filetạm, không cần chuyển. Các verify cũ có thể phụ thuộc snapshot và ghi đè output: không chạy tùy tiện. Dùng kiểm tra chỉ đọc mới:
+
+```powershell
+python scripts/verify_handoff.py
+```
+
+Cần Python với openpyxl; có thể dùng runtime Codex từ load_workspace_dependencies. Script mới tự xác định root repo, kiểm manifest18nguồn, sốlượngimport, số0đầu, tênKH=ngườimua, hàngkhuyếnmãi, loạiSL0 và sốhọc về0 nhóm791chuỗi. Đây là kiểm tra dữ liệu, không xác nhận quy định hay nội dungXML.
+
+Trước sửa hoặc tạo file: xác minh phản hồiKT, phiênbảnworkbook và ngày phát hành dự kiến. Ngày08/10/2026 là ngày trong bản dự thảo hiện tại.

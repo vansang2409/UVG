@@ -1,0 +1,45 @@
+{
+  "sheetnames_old": [
+    "Bảng kê chi tiết HĐ đã sử dụng",
+    "Sheet2"
+  ],
+  "sheetnames_new": [
+    "Bảng kê chi tiết HĐ đã sử dụng",
+    "Sheet2"
+  ],
+  "dimensions_old": [
+    [
+      "Bảng kê chi tiết HĐ đã sử dụng",
+      34159,
+      26
+    ],
+    [
+      "Sheet2",
+      1,
+      1
+    ]
+  ],
+  "dimensions_new": [
+    [
+      "Bảng kê chi tiết HĐ đã sử dụng",
+      34159,
+      26
+    ],
+    [
+      "Sheet2",
+      1,
+      1
+    ]
+  ],
+  "changed_cells": 0,
+  "examples": [],
+  "manifest_changes": [
+    {
+      "path": "data/Du lieu Meinvoice/Bang_ke_chi_tiet_HD_da_su_dung_2024.xls",
+      "bytes": 4381618,
+      "oldbytes": 4275259,
+      "sha256": "0667285dec31e8b0ff5b463c21a405ef15c0a86ff1f84a25eac33866d10dede4",
+      "oldsha256": "fc7feb270db809582813ed3658e4c1febeb6a1bdc66d938c8a399918a9366bf5"
+    }
+  ]
+}

@@ -18,3 +18,11 @@ node_modules/
 !/scripts/layout-tools/build-adjusted.mjs
 /outputs/**/_build/
 /outputs/ngoai-le-meinvoice-2024/NGOAI_LE_2024_THEO_CHUOI.xlsx
+
+# Snapshot/preview/log cục bộ; bàn giao workbook chính, script và JSON căn cứ.
+/scripts/data/check-review/*.xlsx
+/scripts/data/check-review/*.png
+/scripts/data/check-review/*.log
+/scripts/data/untreated/*.xlsx
+/scripts/data/untreated/*.png
+/scripts/data/untreated/*.log

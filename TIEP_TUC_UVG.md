@@ -1,3 +1,121 @@
+# Chốt bộ bàn giao để commit/push ngày 08/10/2026
+
+Đã kiểm tra lại bằng `scripts/verify_handoff.py`: 18 nguồn khớp manifest hiện tại; nhóm chưa điều chỉnh8404hóa đơn/13543dòng, nhóm đã điều chỉnh1600hóa đơn dự kiến/40777dòng/791chuỗi, sốhọc sau kếhoạch về0. Chưa import/ký/phát hành.
+
+File chi tiết2024 khác commit cũ về định dạng/cấu trúcExcel, nhưng so sánh từng ô cả hai sheet không có giá trị thay đổi, kích thước cácsheet giữ nguyên. Đã cập nhật bytes/hash trongSOURCE_MANIFEST.json theo file đang bàn giao; bằng chứng `scripts/data/source-handoff-check.json` giữ hash cũ vàmới. Điều này giải quyết ghi chú “nguồn modified chưa xác minh” ở phần lịch sử phía dưới.
+
+Bàn giao gồm nguồn,3workbook chính, bảng kiểmtra đã tạo, script/JSON căn cứ và tài liệu. Ảnh/log/snapshotExcel trunggian không đưa lênGit; các verifycũ phụthuộc snapshot không dùng trực tiếp trênmáy mới. Dùng verify_handoff.py đểkiểm tra chỉ đọc, không chạy lại builder đểghiđè kếtquảKT.
+
+Riêng00000508: vẫn phải kiểm dòng chi tiết, tính chất dòng và phần tổng trongXML. Phương án đảoF1 rồi giảmF0 chỉ làdựthảo sốhọc, chưachốt cách sửa nội dung. Chưa mở19chuỗi chờ hoặc237chuỗi bằng0 vàoimport vì còn chờKT.
+
+Phần “chưa commit/push” bên dưới mô tả lúc ghi nhớ trước bước đồngbộ; xem commit nhận được và xác nhậnpush trongchat để biết bộ này đã lênremote chưa. Máy ởnhà đọc HUONG_DAN_MAY_O_NHA.md và phần tổngquan ngay dưới.
+
+---
+# Tổng quan bàn giao TOÀN BỘ dự án UVG
+
+Người dùng yêu cầu ngày 08/10/2026: ghi nhớ tất cả công việc và kinh nghiệm của dự án để qua máy khác vẫn hiểu, không chỉ ca 00000508. Tài liệu này là điểm vào chung; phần cập nhật trạng thái ngay dưới và lịch sử phía sau bổ sung chi tiết. Trạng thái mới nhất ưu tiên hơn phần lịch sử. Không hiểu “đã làm” là đã phát hành: hiện làm phân tích và chuẩn bị file.
+
+## Mục tiêu kinh doanh và nguồn sự thật
+
+Công ty bán máy lọc không khí qua TikTok, Shopee, Lazada và ngoài sàn. AMIS là sổ được đội kế toán làm lại, khách hàng chốt; meInvoice là lịch sử xuất của kế toán cũ. Có hóa đơn gộp và các lần điều chỉnh cũ cần rà. Mục tiêu đang làm: tách ngoại lệ, đưa nhóm ngoài ngoại lệ về 0 bằng kế hoạch điều chỉnh có kiểm tra, rồi chuẩn bị hóa đơn mới theo AMIS để tránh trùng doanh thu. Số 70.000 hóa đơn mới/10.500 điều chỉnh từng được nêu là quy mô ban đầu, không phải số đã chốt phát hành.
+
+Bằng chứng phải tách rõ: file xuất nguồn, kết quả tính toán, XML đã ký, dữ liệu CQT, dự thảo import và hóa đơn đã phát hành. Đồng bộ thành công/có mã CQT không tự chứng minh đầy đủ hoặc đúng nội dung. Không xóa rồi nạp lại meInvoice theo suy đoán. Chưa có xác minh trực tiếp toàn bộ CQT/XML.
+
+## Những giai đoạn đã làm
+
+| Giai đoạn | Đã làm và bài học cần chuyển tiếp |
+|---|---|
+| Đọc nguồn và đối chiếu AMIS–meInvoice | Đã phân tích dữ liệu theo tháng, model, kênh khi có căn cứ. Bộ đối chiếu ban đầu có AMIS 93.194.013.744, meInvoice 95.594.027.824, chênh −2.400.014.080 đồng; đây là số lịch sử cần giải thích, không phải lệnh xuất giảm/bù và chưa tái khẳng định trên toàn bộ nguồn mới. Không ghép theo mã đơn sàn hoặc chỉ vì giống hàng/giá. |
+| Rà bộ ưu tiên | Đã rà 321 hóa đơn ưu tiên trong đợt đầu: 299 thiếu liên kết, 14 thiếu tiền, 8 lệch số học (các nhóm có giao nhau); 39 mô tả có số tham chiếu chỉ là ứng viên, không phải liên kết đã chứng minh. Nhiều output lịch sử đã dọn; xem phần lịch sử/Git, không mặc định đường dẫn cũ còn tồn tại. |
+| Chốt phạm vi và cập nhật nguồn | F0 01/01/2024–30/06/2025; theo chuỗi liên quan đến hết31/12/2025. Đợt nguồn mới gồm 18 file theo manifest: 2 AMIS,16 meInvoice; chi tiết phủ48.874 hóa đơn của10 phần bảng tổng. Loại trùng2 bảng điều chỉnh;8 liên kết2024 bổ sung từ Git có provenance. Số48.874 là bộ xuất, không phải sốF0 cần xử lý. |
+| Tách ngoại lệ và dựng chuỗi | Nhận diện tên công ty/doanh nghiệp hoặc định danh dạngMST trong nguồn, giữ chuỗi liên quan; chưa xác thựcMST. Ngoại lệ238F0/326hóa đơn. Đã điều chỉnh ngoài ngoại lệ1047F0/2113hóa đơn. Loại6chuỗi thay thế khỏi workflow điều chỉnh; nghiệp vụ thay thế chưa xử lý. F1/F2/F3 là vị trí hóa đơn liên quan, không tự suy ra F2 sửaF1. |
+| Lập kế hoạch điều chỉnh cũ | Dùng bảng tổng cho tiền từngF, cộng dồn hiện tại và sau kế hoạch. Thêm số khối mới theo thực tế từng chuỗi, không giới hạnF4–F6. Bỏ từ “sửa” ở tiêu đề. Số học bằng0 không đồng nghĩa nội dung đúng. Kế hoạch đảoF cũ rồi giảmF0 đang là dự thảo, không phải kết luận bắt buộc về pháp lý. |
+| Rà237chuỗi bằng0 | Đã kiểm tra dòng bán/khuyến mãi và điều chỉnh tổng/chi tiết; noteAB đểKT rà. 185F0 có tất cả dòng thành tiền khác0 chỉ mô tả chi tiếtgốc; không kết luận điều chỉnhcũ đúng. Các thống kê kiểm tra nằm trong JSON và phần cập nhật dưới. Người dùng đã gửifile choKT, cần nhận phản hồi trước khi mở nhóm chờ. |
+| Nhóm chưa điều chỉnh | Đã dựng8410F0, kiểm tra dòng0, xác nhận sáu thanh toán tổngtrống=0 theouser, tạo sheetimport. Tách6hóa đơn sốlượng0 sang sheetriêng và loại toàn bộ27dòng; còn8404hóa đơn/13543dòng. Đã rà lại mộtvòng đối chiếu nguồn, sốtiền, thamchiếu, tên, ngày, khuyếnmãi và loại trừ; final-audit.json ghi passed=true. |
+| Nhóm đã điều chỉnh | Đã chuẩn bị sheetimport791chuỗi/1600hóa đơn dự kiến/40777dòng; sheetchờ19chuỗi. Kiểm kếhoạch về0 và bảo toàn cácsheet/cột trước. Không tự gộp lại nhóm237bằng0 vào đợtimport. |
+| Hướng dẫn meInvoice và nghiên cứu nghiệp vụ | Đã trao đổi bước chọn mẫu, chọn trạng thái Hóa đơn điều chỉnh, ghép cột/xem trước. Kýhiệu hóađơn mới chọn theo mẫu đang áp dụng; thamchiếu gốc vẫn đúng1C24TUV/1C25TUV. Phải kiểm cấu hình môi trường thực, ngày, tùychọn tựtính trước khi nhập. Đã tìm nguồnMISA và cơquanthuế; không tự kết luận một dòng điều chỉnh tổng sai, không coi Excelchi tiết là XML. 508 là một ca minh họa, không phải toàn bộ dự án. |
+
+## Quy tắc dữ liệu/import đã chốt trong quá trình làm
+
+- Mẫu người dùng cung cấp: `data/Du lieu Meinvoice/Mau HD Dieu chinh.xls`. Sheet import ánh xạ24cột A:X: STT; ngày mới; tênKH; địachỉ; MST; ngườimua; email; phươngthức; cờHĐngoàihệthống; kýhiệugốc; sốgốc; ngàygốc; mãCQT; lýdo; tênhàng; đơnvị; sốlượng; đơngiá; thànhtiền; tổngtiềnhàng; thuếsuất; tổngthuế; tổngthanhtoán; hàngkhuyếnmãi. Kiểm lại tiêuđề trongworkbook trước khi ghép.
+- Dòng đầu mỗi hóa đơn chứa tổng tiền hàng/thuế suất/tổng thuế/tổng thanh toán; dòng sau để trống phần tổng. Lấy phần tổng từ bảng kê tổng, không SUM chi tiết để thay số nguồn.
+- Giảm gốc theo chi tiết: số lượng/thành tiền lấy dấu giảm, giữ đơn giá nguồn; thành tiền nguồn0 thì cột khuyến mãi1. Khác biệt sốlượng×đơngiá do làm tròn phải giữ tiền nguồn và kiểm tính tựđộng trong meInvoice.
+- Đảo khoản điều chỉnhcũ: dùng số tổng đã kiểm của hóađơn cầnđảo; dòng diễn giải nêu khoản cũ; thamchiếu đúnggốc. Cần KT chốt bảnchất vàXML, không xem quytrình dựthảo này là bắtbuộc mọi trườnghợp.
+- Không đoán phần thiếu; ngoại lệ được user xác nhận phải ghi rõ. Gốc574 có quyước riêng từ đợt trước, không áp cho các hóa đơnkhác. Gốc1314 ngày05/07/2025 đã đượcuser xác nhận theoảnh; nguồn tổng/liênkết18/08/2025 giữởnguồn.
+- File nguồn có đuôi.xls nhưng bộ hiện có chứaOOXML; đọc theo nội dung thực tế, không tự đổi/sửa file nguồn. GiữSHA256/provenance theo từng đợt kiểm, không khẳng định hashcũ xác nhận trạngthái hômnay.
+
+## Việc còn lại và cách tiếp tục
+
+1. Nhận phản hồiKT về237chuỗi bằng0 và19chuỗi đangchờ; cập nhật ghi chú, căn cứ và quyếtđịnh theo từngchuỗi. Không chỉ dựa vào tổng0.
+2. Bổ sungXML/bản hiển thị vàlịch sửCQT cho nhóm lệch/thiếu/không rõ. Đọc cả phần dòng vàtổng, phânbiệt lỗi xuấtbảng/mẫu với lỗi dữliệu đãký. Kiểm các lầnxử lý2026 trước khi thựcphát hành để tránh làmtrùng lịch sử ngoài kỳxuất.
+3. Kiểm ngày/mẫu/cột/tựtính trên meInvoice thực dùng; xemtrước mộtlô nhỏ và đốichiếu sốtiền/thuế/khuyếnmãi trước khi chốt áp dụng. Chưa thao tácimport/ký/phát hành trongphiên này.
+4. Chỉ chuyển nhómchờ vàoimport khi đã có kếtquả; xửlý ngoại lệ/thaythế hoặc xuấtmới AMIS làphần tiếp theo chưa hoànthành, không tự dùng tổngchênh làm sốphát hành.
+5. Trước chuyể máy: đồngbộ tài liệu này,3workbook chính,script,nguồn/manifest cầnthiết vàghi chúKT. KiểmGit trạngthái, bảo toàn thayđổi; không resetpull đèfile. Memorycục bộ không thaythế bộ dựán chuyểnmáy.
+
+Prompt để mở trên máy khác:
+
+> Tiếp tục toàn bộ dự án UVG. Đọc TIEP_TUC_UVG.md từ đầu và README.md, ưu tiên trạng thái mới nhất hơn phần lịch sử. Kiểm tra các workbook hiện tại và ghi chú kế toán trước khi sửa. Giữ nguồn/số 0 đầu/ô trống; không tái tạo đè sheet import hoặc ghi chú. AMIS là mục tiêu, meInvoice là lịch sử; tổng bằng 0 không xác nhận pháp lý. Tiếp tục từ việc còn lại đã ghi, không chỉ xử lý 00000508. Phân biệt phân tích, dự thảo import, xác minh XML/CQT và phát hành. Kiểm tra việc đã nhận đủ thay đổi chưa commit/push trên máy trước.
+
+---
+# Bàn giao cập nhật 08/10/2026 – sau khi chuẩn bị import
+
+Phần này thay thế các trạng thái cũ phía dưới về số file, sheet import và bước đang làm. Các số dưới đây là kết quả đã kiểm tra trong phiên làm việc, cần kiểm tra lại file nếu đã được kế toán/người dùng sửa sau đó.
+
+## Quyết định và kinh nghiệm cần giữ
+
+- Phạm vi F0: 01/01/2024–30/06/2025; theo hóa đơn liên quan đến 31/12/2025. Chưa xác minh các lần xử lý năm 2026 trên hệ thống sống.
+- Mục tiêu: đưa nhóm ngoài ngoại lệ về 0, sau đó chuẩn bị xuất mới theo AMIS; không tự phát hành chỉ dựa vào tổng chênh lệch.
+- Dùng các workbook hiện tại; thêm sheet, không tạo nhiều file báo cáo. Giữ số hóa đơn dạng text đủ 8 chữ số, giữ nguồn và ô trống. Giả định tiền trống thành 0 chỉ áp dụng các trường hợp người dùng xác nhận.
+- Tổng tiền hàng, thuế, thanh toán của F0 và F cũ lấy từ bảng kê hóa đơn đã sử dụng (bảng tổng), không cộng chi tiết thay thế. Chi tiết dùng để chuẩn bị hàng hóa và phát hiện lệch; chưa đủ để phủ định XML đã ký.
+- Cột Hàng khuyến mãi = 1 khi thành tiền nguồn của dòng = 0, theo quy ước import người dùng đã chốt; không suy luận chỉ từ tên sản phẩm. Đây là quy tắc xử lý file, không tự xác nhận bản chất pháp lý khuyến mãi.
+- Tên khách hàng = Người mua hàng. Người mua trống thì giữ trống, không tự bịa tên. Ngày import đã dùng 08/10/2026; phải kiểm tra lại ngày khi thực tế nhập.
+- F4/F5/F6 chỉ là ví dụ tên khối, số lần dự kiến phải theo từng chuỗi. Đã bỏ từ “sửa” ở tiêu đề các F. Cột AB của bảng đã điều chỉnh là ghi chú kiểm tra.
+- Chuỗi cộng dồn bằng 0 chỉ xác nhận số học, không chứng minh hóa đơn điều chỉnh cũ đúng nội dung/quy định. Một dòng điều chỉnh tổng không tự động là sai.
+- Khi số lượng 0: tách toàn bộ hóa đơn sang sheet kiểm tra và loại toàn bộ hóa đơn khỏi import; không chỉ bỏ dòng 0.
+
+## File và trạng thái đang tiếp tục
+
+1. `outputs/HOA_DON_CHUA_DIEU_CHINH_F0_2024_T6_2025.xlsx`
+   - `Chua dieu chinh`: 8.410 F0 / 13.570 dòng nguồn.
+   - `Import dieu chinh`: 8.404 hóa đơn / 13.543 dòng; 1.275 dòng thành tiền 0 được đánh dấu khuyến mãi.
+   - `Kiem tra SL 0`: 6 hóa đơn / 27 dòng bị loại toàn bộ khỏi import: 1C24TUV/00000774, 00000783, 00000784, 00000786; 1C25TUV/00002796, 00002797.
+   - Người dùng xác nhận thanh toán tổng = 0 cho sáu trường hợp nguồn trống: 1C24TUV/00000671, 00000744; 1C25TUV/00000391, 00000761, 00000835, 00004748. Đã ghi chú, không thay ô nguồn.
+   - Audit `scripts/data/untreated/final-audit.json` ghi passed=true. Có 931 dòng / 209 hóa đơn mà số lượng × đơn giá khác thành tiền nguồn (tối đa 52 đồng); giữ thành tiền nguồn và kiểm tra tùy chọn tự tính khi nhập.
+2. `outputs/HOA_DON_DA_DIEU_CHINH_F0_2024_T6_2025.xlsx`
+   - 1.047 F0 / 2.113 hóa đơn cũ. Trạng thái cộng dồn: 804 khác 0, 237 bằng 0, 6 thiếu căn cứ tổng.
+   - `Import dieu chinh`: 791 chuỗi / 1.600 hóa đơn dự kiến / 40.777 dòng. Kế hoạch hiện tại đảo các điều chỉnh cũ rồi giảm chi tiết F0; đã kiểm tra cộng dồn dự kiến về 0, chưa phải phê duyệt phát hành.
+   - `Cho KT xac nhan`: 19 chuỗi giữ ngoài import; xem lý do từng dòng.
+   - 237 chuỗi bằng 0 gồm 237 F0 + 237 F1 = 474 hóa đơn cũ. Đã note AB để kế toán rà. Audit ghi 196 điều chỉnh dạng tổng, 195 lệch tiền chi tiết/bảng tổng, 41 có tên hàng; các nhóm không phải kết luận pháp lý và có thể giao nhau.
+   - Người dùng đã gửi file cho kế toán kiểm tra. Chờ kết quả, không tự đưa nhóm đang chờ vào import.
+3. `outputs/NGOAI_LE_F0_2024_T6_2025.xlsx`: 238 F0 / 326 hóa đơn; giữ riêng.
+
+## Trường hợp 00000508 – chưa được chốt bằng XML
+
+`1C25TUV/00000508`, ngày 26/04/2025, điều chỉnh `1C24TUV/00000003`, ngày 10/01/2024.
+
+- Bảng tổng: tiền hàng −356.085; thuế −28.487; thanh toán −384.572.
+- Chi tiết nguồn: một dòng “Điều chỉnh giảm thành tiền hoá đơn số 00000003”, số lượng/đơn giá/tiền hàng 0; thuế và thanh toán đều −28.487.
+- F0: 11.334.130 / 906.730 / 12.240.860. Cộng dồn theo bảng tổng: 10.978.045 / 878.243 / 11.856.288.
+- Chưa có XML/PDF hóa đơn trong dữ liệu đã kiểm tra. Không kết luận hóa đơn sai chỉ từ Excel, không tự đảo khoản thuế lần nữa. Chuỗi này vẫn ở sheet chờ kế toán; kế hoạch đảo F1 rồi giảm F0 đang là dự kiến.
+- XML cần đối chiếu cả nhóm hàng hóa và nhóm tổng tiền, tính chất dòng ghi chú/diễn giải, số đã ký/gửi CQT. Nếu chỉ xuất báo cáo sai thì sửa lỗi báo cáo; nếu dữ liệu hóa đơn sai thì xác định phần chênh lệch và xử lý tiếp theo quy định tại thời điểm thực hiện.
+
+Các nguồn đã nghiên cứu (phải đọc lại nếu áp dụng về sau):
+- MISA đã ghi nhận thiếu tiền hàng/thuế khi xuất chi tiết hóa đơn điều chỉnh giảm ở phân hệ xử lý đầu vào; sửa từ R35 ngày 03/10/2023. Chỉ là lỗi tương tự, chưa chứng minh 508 mắc đúng lỗi: https://helpv4.meinvoice.vn/kb/tinh-nang-moi-inbots/
+- MISA hướng dẫn phân biệt lỗi mẫu hiển thị và XML thực sự thiếu tiền; mẫu Web mở sửa rồi lưu, Desktop liên hệ MISA, XML đã phát hành thiếu tiền thì điều chỉnh bổ sung: https://helpv4.meinvoice.vn/kb/web-hoa-don-dieu-chinh-khong-hien-thi-so-lieu-o-dong-tong-tien-hang-tien-thue-gtgt-va-dong-tong-tien-thanh-toan/
+- Chỉ điều chỉnh tiền thuế có thể có tiền hàng 0, thuế âm bằng thanh toán âm. Điều chỉnh thành tiền toàn hóa đơn có thể dùng dòng Ghi chú/diễn giải: https://helpv4.meinvoice.vn/kb/cach-ghi-thong-tin-tren-hoa-don-dieu-chinh-noi-dung-ve-gia-tri-tren-hoa-don-2/
+- Doanh nghiệp từng điều chỉnh sai tiếp, được cơ quan thuế giải đáp tiếp tục điều chỉnh đúng thực tế năm 2023: https://qlg.mof.gov.vn/hoidapcstc/home/cthoidap/137315 . Không mặc định dùng văn bản năm 2023 để phát hành năm 2026.
+
+## Tiếp tục trên máy khác
+
+- Đọc phần cập nhật này trước; mở đúng workbook hiện tại và xem ghi chú/chờ kế toán. Không tái chạy script cũ để ghi đè các sheet import/ghi chú mới.
+- Đường dẫn dự án trên máy mới có thể khác D:\UVG; dùng đường dẫn tương đối trong repo. Runtime Node/Python và node_modules phải cài/tra lại trên máy đó, không mang đường dẫn cache của máy cũ sang.
+- Script liên quan: `scripts/data/untreated/add-import.mjs`, `final-audit.py`; `scripts/data/check-review/prepare-adjusted-import.py`, `add-adjusted-import.mjs`, `verify-adjusted-import.py`, `zero-adjustment-review.json`. JSON lớn đọc bằng parser, không in toàn bộ.
+- Xuất workbook lớn bằng artifact-tool từng khối; Node đã cần heap 8–12 GB. Python dùng đọc/đối chiếu. Kiểm tra bảo toàn sheet cũ, số tham chiếu, tiền, khuyến mãi, loại trừ và tổng dự kiến sau mỗi sửa.
+- Chưa nhập vào meInvoice, ký hoặc phát hành. Sheet import là dự thảo đã kiểm tra dữ liệu, không chứng minh phát hành hợp lệ.
+- Kiểm tra `git status` trước khi bàn giao. Phiên này thấy file nguồn `data/Du lieu Meinvoice/Bang_ke_chi_tiet_HD_da_su_dung_2024.xls` đang modified: chưa xác minh nguyên nhân; không reset/ghi đè hoặc khẳng định nguồn hiện khớp manifest khi chưa kiểm hash.
+- Tài liệu, workbook và script mới hiện lưu cục bộ. Chưa commit/push trong lần ghi nhớ này; clone/pull máy khác chưa tự có các thay đổi. Cần đồng bộ nguyên bộ thay đổi trước khi chuyển máy.
+
+---
 # UVG – trạng thái hiện tại ngày 08/10/2026
 
 Phạm vi người dùng chốt ngày 07/10/2026: chỉ chọn hóa đơn gốc F0 có ngày từ 01/01/2024 đến hết 30/06/2025; theo các hóa đơn liên quan đến những F0 này đến hết 31/12/2025.

@@ -1,3 +1,7 @@
+Trạng thái bàn giao 08/10/2026: có 3 workbook chính, sheet import cho hai nhóm, nhóm chờ kế toán và tài liệu toàn dự án. Đọc [TIEP_TUC_UVG.md](TIEP_TUC_UVG.md) từ đầu và [HUONG_DAN_MAY_O_NHA.md](HUONG_DAN_MAY_O_NHA.md). Kiểm tra chỉ đọc: python scripts/verify_handoff.py. Các mô tả lịch sử bên dưới chưa phản ánh toàn bộ bước mới.
+
+Cập nhật 08/10/2026: đã chuẩn bị sheet import cho nhóm chưa điều chỉnh và nhóm đã điều chỉnh. Đọc phần mới nhất ở đầu [TIEP_TUC_UVG.md](TIEP_TUC_UVG.md) trước khi tiếp tục; các mô tả cũ bên dưới chưa phản ánh toàn bộ sheet mới. Thay đổi lần này chưa commit/push.
+
 # UVG – đối chiếu AMIS và meInvoice
 
 Dự án ở `D:\UVG`, gồm dữ liệu nguồn, các script phân tích và hai report hiện tại. Phân tích và xuất report từ file, giữ nguyên dữ liệu nguồn; chưa kết nối CQT, tạo import, ký hoặc phát hành hóa đơn.
