@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "old_cells_checked": 1064309,
+  "allowed_changed_cells": 982,
+  "new_chains": 195,
+  "new_invoices": 390,
+  "new_lines": 491,
+  "total_invoices": 1990,
+  "total_roots": 986,
+  "total_lines": 41268,
+  "all_195_cumulative_zero": true,
+  "old_sheet_values_formulas_styles_preserved": true,
+  "xml_hashes_verified": 195,
+  "base_sha256": "e0c72d36b5679c120d90b8d5c12bd9eb97c73e43ff8857c4c84e6edd9a9dac28",
+  "output_sha256": "a501847ecfad88b5411997bb2c1c6316aa82f26d59ae51122334a9d26ce370e2"
+}

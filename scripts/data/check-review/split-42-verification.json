@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "new_sheets": {
+    "42 - Da khop 31": 31,
+    "42 - Can check 11": 11
+  },
+  "old_cells_preserved": 1076093,
+  "import_and_AB_unchanged": true,
+  "all_42_cumulative_zero": true,
+  "sha256": "4ab99f27a803c626fccd3c69bf6cc15a20939329fdf27e7a10a9870e2fae307b"
+}

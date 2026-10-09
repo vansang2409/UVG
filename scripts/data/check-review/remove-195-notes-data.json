@@ -1,0 +1,980 @@
+{
+  "sha256": "a501847ecfad88b5411997bb2c1c6316aa82f26d59ae51122334a9d26ce370e2",
+  "changes": [
+    {
+      "row": 139,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 28 dòng chi tiết: 18 dòng thành tiền khác 0, 10 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán và dòng 0; chỉ dòng thành tiền gốc = 0 mới nhập 1 cột Hàng khuyến mãi. Cờ KM nguyên bản: 0/28 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2024.xls | dòng 30173–30200.; Rà điều chỉnh cũ: 1C25TUV/00001361: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 13819). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 102.0
+    },
+    {
+      "row": 177,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2024.xls | dòng 28546.; Rà điều chỉnh cũ: 1C25TUV/00002618: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 12042). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 214,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 2 dòng chi tiết: 2 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/2 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2024.xls | dòng 27356–27357.; Rà điều chỉnh cũ: 1C25TUV/00001810: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 13175). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 102.0
+    },
+    {
+      "row": 302,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 5 dòng chi tiết: 3 dòng thành tiền khác 0, 2 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán và dòng 0; chỉ dòng thành tiền gốc = 0 mới nhập 1 cột Hàng khuyến mãi. Cờ KM nguyên bản: 0/5 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2024.xls | dòng 22288–22292.; Rà điều chỉnh cũ: 1C25TUV/00002063: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 12844). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 102.0
+    },
+    {
+      "row": 377,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 10 dòng chi tiết: 8 dòng thành tiền khác 0, 2 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán và dòng 0; chỉ dòng thành tiền gốc = 0 mới nhập 1 cột Hàng khuyến mãi. Cờ KM nguyên bản: 0/10 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2024.xls | dòng 17290–17299.; Rà điều chỉnh cũ: 1C25TUV/00002120: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 12787). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 102.0
+    },
+    {
+      "row": 413,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2024.xls | dòng 13335.; Rà điều chỉnh cũ: 1C25TUV/00002157: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 12750). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 417,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 2 dòng chi tiết: 2 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/2 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2024.xls | dòng 12962–12963.; Rà điều chỉnh cũ: 1C25TUV/00002158: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 12749). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 102.0
+    },
+    {
+      "row": 447,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 2 dòng chi tiết: 2 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/2 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2024.xls | dòng 10571–10572.; Rà điều chỉnh cũ: 1C25TUV/00002190: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 12715). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 102.0
+    },
+    {
+      "row": 467,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 4 dòng chi tiết: 3 dòng thành tiền khác 0, 1 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán và dòng 0; chỉ dòng thành tiền gốc = 0 mới nhập 1 cột Hàng khuyến mãi. Cờ KM nguyên bản: 0/4 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2024.xls | dòng 9372–9375.; Rà điều chỉnh cũ: 1C25TUV/00002200: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 12705). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 102.0
+    },
+    {
+      "row": 497,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2024.xls | dòng 6562.; Rà điều chỉnh cũ: 1C25TUV/00002242: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 12663). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 507,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 2 dòng chi tiết: 1 dòng thành tiền khác 0, 1 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán và dòng 0; chỉ dòng thành tiền gốc = 0 mới nhập 1 cột Hàng khuyến mãi. Cờ KM nguyên bản: 0/2 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2024.xls | dòng 6238–6239.; Rà điều chỉnh cũ: 1C25TUV/00002244: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 12661). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 102.0
+    },
+    {
+      "row": 555,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2024.xls | dòng 2045.; Rà điều chỉnh cũ: 1C25TUV/00002286: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 12619). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 579,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 3 dòng chi tiết: 3 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/3 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2024.xls | dòng 639–641.; Rà điều chỉnh cũ: 1C25TUV/00002309: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 12593). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 102.0
+    },
+    {
+      "row": 690,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 22361.; Rà điều chỉnh cũ: 1C25TUV/00000601: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 15992). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 691,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 2 dòng chi tiết: 2 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/2 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 22359–22360.; Rà điều chỉnh cũ: 1C25TUV/00000602: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 15991). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 102.0
+    },
+    {
+      "row": 692,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 2 dòng chi tiết: 1 dòng thành tiền khác 0, 1 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán và dòng 0; chỉ dòng thành tiền gốc = 0 mới nhập 1 cột Hàng khuyến mãi. Cờ KM nguyên bản: 0/2 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 22357–22358.; Rà điều chỉnh cũ: 1C25TUV/00000603: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 15990). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 102.0
+    },
+    {
+      "row": 693,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 4 dòng chi tiết: 3 dòng thành tiền khác 0, 1 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán và dòng 0; chỉ dòng thành tiền gốc = 0 mới nhập 1 cột Hàng khuyến mãi. Cờ KM nguyên bản: 0/4 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 22353–22356.; Rà điều chỉnh cũ: 1C25TUV/00000604: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 15989). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 102.0
+    },
+    {
+      "row": 696,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 2 dòng chi tiết: 2 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/2 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 22348–22349.; Rà điều chỉnh cũ: 1C25TUV/00000605: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 15988). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 102.0
+    },
+    {
+      "row": 801,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14221.; Rà điều chỉnh cũ: 1C25TUV/00012832: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 440). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 802,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14220.; Rà điều chỉnh cũ: 1C25TUV/00012833: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 439). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 803,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14219.; Rà điều chỉnh cũ: 1C25TUV/00012834: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 438). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 805,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14217.; Rà điều chỉnh cũ: 1C25TUV/00012836: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 436). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 806,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14216.; Rà điều chỉnh cũ: 1C25TUV/00012837: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 435). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 807,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14215.; Rà điều chỉnh cũ: 1C25TUV/00012838: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 434). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 808,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14214.; Rà điều chỉnh cũ: 1C25TUV/00012839: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 433). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 809,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14213.; Rà điều chỉnh cũ: 1C25TUV/00012840: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 432). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 810,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14212.; Rà điều chỉnh cũ: 1C25TUV/00012841: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 431). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 811,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14211.; Rà điều chỉnh cũ: 1C25TUV/00012842: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 430). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 812,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14209.; Rà điều chỉnh cũ: 1C25TUV/00012843: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 429). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 813,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14208.; Rà điều chỉnh cũ: 1C25TUV/00012844: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 428). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 814,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14207.; Rà điều chỉnh cũ: 1C25TUV/00012845: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 427). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 815,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14206.; Rà điều chỉnh cũ: 1C25TUV/00012846: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 426). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 816,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14205.; Rà điều chỉnh cũ: 1C25TUV/00012847: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 425). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 817,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14204.; Rà điều chỉnh cũ: 1C25TUV/00012848: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 424). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 818,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14203.; Rà điều chỉnh cũ: 1C25TUV/00012849: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 423). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 819,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14202.; Rà điều chỉnh cũ: 1C25TUV/00012850: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 422). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 820,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14201.; Rà điều chỉnh cũ: 1C25TUV/00012851: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 421). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 821,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14200.; Rà điều chỉnh cũ: 1C25TUV/00012852: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 420). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 822,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14199.; Rà điều chỉnh cũ: 1C25TUV/00012853: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 419). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 823,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14198.; Rà điều chỉnh cũ: 1C25TUV/00012854: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 418). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 824,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14197.; Rà điều chỉnh cũ: 1C25TUV/00012855: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 417). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 825,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14196.; Rà điều chỉnh cũ: 1C25TUV/00012856: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 416). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 826,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14195.; Rà điều chỉnh cũ: 1C25TUV/00012857: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 415). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 827,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14194.; Rà điều chỉnh cũ: 1C25TUV/00012858: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 414). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 828,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14193.; Rà điều chỉnh cũ: 1C25TUV/00012859: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 413). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 829,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14192.; Rà điều chỉnh cũ: 1C25TUV/00012860: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 412). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 830,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14190.; Rà điều chỉnh cũ: 1C25TUV/00012861: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 411). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 831,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14189.; Rà điều chỉnh cũ: 1C25TUV/00012862: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 410). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 832,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14187.; Rà điều chỉnh cũ: 1C25TUV/00012863: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 409). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 833,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14186.; Rà điều chỉnh cũ: 1C25TUV/00012864: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 408). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 835,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14184.; Rà điều chỉnh cũ: 1C25TUV/00012865: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 407). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 836,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14183.; Rà điều chỉnh cũ: 1C25TUV/00012866: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 406). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 837,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14182.; Rà điều chỉnh cũ: 1C25TUV/00012867: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 405). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 838,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14181.; Rà điều chỉnh cũ: 1C25TUV/00012868: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 404). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 839,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14180.; Rà điều chỉnh cũ: 1C25TUV/00012778: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 494). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 840,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14179.; Rà điều chỉnh cũ: 1C25TUV/00012779: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 493). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 841,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14178.; Rà điều chỉnh cũ: 1C25TUV/00012780: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 492). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 842,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14177.; Rà điều chỉnh cũ: 1C25TUV/00012781: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 491). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 843,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14176.; Rà điều chỉnh cũ: 1C25TUV/00012782: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 490). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 844,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14175.; Rà điều chỉnh cũ: 1C25TUV/00012783: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 489). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 845,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14174.; Rà điều chỉnh cũ: 1C25TUV/00012784: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 488). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 846,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14173.; Rà điều chỉnh cũ: 1C25TUV/00012785: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 487). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 847,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14172.; Rà điều chỉnh cũ: 1C25TUV/00012786: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 486). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 848,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14171.; Rà điều chỉnh cũ: 1C25TUV/00012787: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 485). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 849,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14170.; Rà điều chỉnh cũ: 1C25TUV/00012788: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 484). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 850,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14169.; Rà điều chỉnh cũ: 1C25TUV/00012789: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 483). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 851,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14168.; Rà điều chỉnh cũ: 1C25TUV/00012790: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 482). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 865,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14151.; Rà điều chỉnh cũ: 1C25TUV/00012804: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 468). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 866,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14149.; Rà điều chỉnh cũ: 1C25TUV/00012805: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 467). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 867,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 2 dòng chi tiết: 1 dòng thành tiền khác 0, 1 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán và dòng 0; chỉ dòng thành tiền gốc = 0 mới nhập 1 cột Hàng khuyến mãi. Cờ KM nguyên bản: 0/2 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14147–14148.; Rà điều chỉnh cũ: 1C25TUV/00012806: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 466). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 102.0
+    },
+    {
+      "row": 868,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 2 dòng chi tiết: 1 dòng thành tiền khác 0, 1 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán và dòng 0; chỉ dòng thành tiền gốc = 0 mới nhập 1 cột Hàng khuyến mãi. Cờ KM nguyên bản: 0/2 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14145–14146.; Rà điều chỉnh cũ: 1C25TUV/00012807: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 465). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 102.0
+    },
+    {
+      "row": 869,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 2 dòng chi tiết: 1 dòng thành tiền khác 0, 1 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán và dòng 0; chỉ dòng thành tiền gốc = 0 mới nhập 1 cột Hàng khuyến mãi. Cờ KM nguyên bản: 0/2 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14143–14144.; Rà điều chỉnh cũ: 1C25TUV/00012808: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 464). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 102.0
+    },
+    {
+      "row": 870,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 2 dòng chi tiết: 1 dòng thành tiền khác 0, 1 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán và dòng 0; chỉ dòng thành tiền gốc = 0 mới nhập 1 cột Hàng khuyến mãi. Cờ KM nguyên bản: 0/2 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14141–14142.; Rà điều chỉnh cũ: 1C25TUV/00012809: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 463). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 102.0
+    },
+    {
+      "row": 871,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 2 dòng chi tiết: 1 dòng thành tiền khác 0, 1 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán và dòng 0; chỉ dòng thành tiền gốc = 0 mới nhập 1 cột Hàng khuyến mãi. Cờ KM nguyên bản: 0/2 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14137–14138.; Rà điều chỉnh cũ: 1C25TUV/00012810: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 462). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 102.0
+    },
+    {
+      "row": 872,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 2 dòng chi tiết: 1 dòng thành tiền khác 0, 1 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán và dòng 0; chỉ dòng thành tiền gốc = 0 mới nhập 1 cột Hàng khuyến mãi. Cờ KM nguyên bản: 0/2 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14135–14136.; Rà điều chỉnh cũ: 1C25TUV/00012811: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 461). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 102.0
+    },
+    {
+      "row": 873,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 2 dòng chi tiết: 1 dòng thành tiền khác 0, 1 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán và dòng 0; chỉ dòng thành tiền gốc = 0 mới nhập 1 cột Hàng khuyến mãi. Cờ KM nguyên bản: 0/2 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14133–14134.; Rà điều chỉnh cũ: 1C25TUV/00012812: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 460). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 102.0
+    },
+    {
+      "row": 874,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 2 dòng chi tiết: 1 dòng thành tiền khác 0, 1 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán và dòng 0; chỉ dòng thành tiền gốc = 0 mới nhập 1 cột Hàng khuyến mãi. Cờ KM nguyên bản: 0/2 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14131–14132.; Rà điều chỉnh cũ: 1C25TUV/00012813: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 459). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 102.0
+    },
+    {
+      "row": 875,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 2 dòng chi tiết: 1 dòng thành tiền khác 0, 1 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán và dòng 0; chỉ dòng thành tiền gốc = 0 mới nhập 1 cột Hàng khuyến mãi. Cờ KM nguyên bản: 0/2 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14129–14130.; Rà điều chỉnh cũ: 1C25TUV/00012814: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 458). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 102.0
+    },
+    {
+      "row": 876,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 2 dòng chi tiết: 1 dòng thành tiền khác 0, 1 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán và dòng 0; chỉ dòng thành tiền gốc = 0 mới nhập 1 cột Hàng khuyến mãi. Cờ KM nguyên bản: 0/2 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14127–14128.; Rà điều chỉnh cũ: 1C25TUV/00012815: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 457). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 102.0
+    },
+    {
+      "row": 877,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 2 dòng chi tiết: 1 dòng thành tiền khác 0, 1 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán và dòng 0; chỉ dòng thành tiền gốc = 0 mới nhập 1 cột Hàng khuyến mãi. Cờ KM nguyên bản: 0/2 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14125–14126.; Rà điều chỉnh cũ: 1C25TUV/00012816: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 456). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 102.0
+    },
+    {
+      "row": 878,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 2 dòng chi tiết: 1 dòng thành tiền khác 0, 1 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán và dòng 0; chỉ dòng thành tiền gốc = 0 mới nhập 1 cột Hàng khuyến mãi. Cờ KM nguyên bản: 0/2 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14123–14124.; Rà điều chỉnh cũ: 1C25TUV/00012817: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 455). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 102.0
+    },
+    {
+      "row": 879,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 2 dòng chi tiết: 1 dòng thành tiền khác 0, 1 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán và dòng 0; chỉ dòng thành tiền gốc = 0 mới nhập 1 cột Hàng khuyến mãi. Cờ KM nguyên bản: 0/2 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14121–14122.; Rà điều chỉnh cũ: 1C25TUV/00012818: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 454). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 102.0
+    },
+    {
+      "row": 880,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14075.; Rà điều chỉnh cũ: 1C25TUV/00012887: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 386). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 882,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 13979.; Rà điều chỉnh cũ: 1C25TUV/00012910: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 363). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 883,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 13978.; Rà điều chỉnh cũ: 1C25TUV/00012909: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 364). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 884,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 13977.; Rà điều chỉnh cũ: 1C25TUV/00012906: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 367). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 885,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 13976.; Rà điều chỉnh cũ: 1C25TUV/00012905: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 368). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 886,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 13975.; Rà điều chỉnh cũ: 1C25TUV/00012904: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 369). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 887,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 13974.; Rà điều chỉnh cũ: 1C25TUV/00012903: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 370). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 888,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 13972.; Rà điều chỉnh cũ: 1C25TUV/00012902: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 371). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 889,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 13971.; Rà điều chỉnh cũ: 1C25TUV/00012901: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 372). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 890,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 13968.; Rà điều chỉnh cũ: 1C25TUV/00012900: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 373). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 891,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 13965.; Rà điều chỉnh cũ: 1C25TUV/00012899: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 374). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 892,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 13962.; Rà điều chỉnh cũ: 1C25TUV/00012896: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 377). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 893,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 13961.; Rà điều chỉnh cũ: 1C25TUV/00012895: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 378). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 894,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 13959.; Rà điều chỉnh cũ: 1C25TUV/00012882: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 390). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 895,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 13957.; Rà điều chỉnh cũ: 1C25TUV/00012876: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 396). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 896,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 13953.; Rà điều chỉnh cũ: 1C25TUV/00012959: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 314). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 897,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 2 dòng chi tiết: 1 dòng thành tiền khác 0, 1 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán và dòng 0; chỉ dòng thành tiền gốc = 0 mới nhập 1 cột Hàng khuyến mãi. Cờ KM nguyên bản: 0/2 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 13936–13937.; Rà điều chỉnh cũ: 1C25TUV/00012898: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 375). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 102.0
+    },
+    {
+      "row": 898,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 2 dòng chi tiết: 1 dòng thành tiền khác 0, 1 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán và dòng 0; chỉ dòng thành tiền gốc = 0 mới nhập 1 cột Hàng khuyến mãi. Cờ KM nguyên bản: 0/2 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 13924–13925.; Rà điều chỉnh cũ: 1C25TUV/00012892: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 381). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 102.0
+    },
+    {
+      "row": 899,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 2 dòng chi tiết: 1 dòng thành tiền khác 0, 1 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán và dòng 0; chỉ dòng thành tiền gốc = 0 mới nhập 1 cột Hàng khuyến mãi. Cờ KM nguyên bản: 0/2 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 13922–13923.; Rà điều chỉnh cũ: 1C25TUV/00012891: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 382). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 102.0
+    },
+    {
+      "row": 900,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 2 dòng chi tiết: 1 dòng thành tiền khác 0, 1 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán và dòng 0; chỉ dòng thành tiền gốc = 0 mới nhập 1 cột Hàng khuyến mãi. Cờ KM nguyên bản: 0/2 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 13918–13919.; Rà điều chỉnh cũ: 1C25TUV/00012889: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 384). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 102.0
+    },
+    {
+      "row": 901,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 2 dòng chi tiết: 1 dòng thành tiền khác 0, 1 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán và dòng 0; chỉ dòng thành tiền gốc = 0 mới nhập 1 cột Hàng khuyến mãi. Cờ KM nguyên bản: 0/2 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 13914–13915.; Rà điều chỉnh cũ: 1C25TUV/00012888: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 385). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 102.0
+    },
+    {
+      "row": 902,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 2 dòng chi tiết: 1 dòng thành tiền khác 0, 1 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán và dòng 0; chỉ dòng thành tiền gốc = 0 mới nhập 1 cột Hàng khuyến mãi. Cờ KM nguyên bản: 0/2 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 13912–13913.; Rà điều chỉnh cũ: 1C25TUV/00012886: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 387). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 102.0
+    },
+    {
+      "row": 903,
+      "note": "1C25TUV/00012885: ngày đúng 18/08/2025, người dùng xác nhận lại 09/10/2026. Bộ xuất mới tổng/chi tiết/liên kết đều 18/08/2025; thay xác nhận cũ 05/07/2025. Chưa kiểm XML.; Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 2 dòng chi tiết: 1 dòng thành tiền khác 0, 1 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán và dòng 0; chỉ dòng thành tiền gốc = 0 mới nhập 1 cột Hàng khuyến mãi. Cờ KM nguyên bản: 0/2 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 13910–13911.; Rà điều chỉnh cũ: 1C25TUV/00012885: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 2445). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 117.0
+    },
+    {
+      "row": 904,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 2 dòng chi tiết: 1 dòng thành tiền khác 0, 1 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán và dòng 0; chỉ dòng thành tiền gốc = 0 mới nhập 1 cột Hàng khuyến mãi. Cờ KM nguyên bản: 0/2 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 13908–13909.; Rà điều chỉnh cũ: 1C25TUV/00012881: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 391). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 102.0
+    },
+    {
+      "row": 905,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 2 dòng chi tiết: 1 dòng thành tiền khác 0, 1 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán và dòng 0; chỉ dòng thành tiền gốc = 0 mới nhập 1 cột Hàng khuyến mãi. Cờ KM nguyên bản: 0/2 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 13906–13907.; Rà điều chỉnh cũ: 1C25TUV/00012880: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 392). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 102.0
+    },
+    {
+      "row": 906,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 2 dòng chi tiết: 1 dòng thành tiền khác 0, 1 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán và dòng 0; chỉ dòng thành tiền gốc = 0 mới nhập 1 cột Hàng khuyến mãi. Cờ KM nguyên bản: 0/2 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 13904–13905.; Rà điều chỉnh cũ: 1C25TUV/00012878: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 394). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 102.0
+    },
+    {
+      "row": 907,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 2 dòng chi tiết: 1 dòng thành tiền khác 0, 1 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán và dòng 0; chỉ dòng thành tiền gốc = 0 mới nhập 1 cột Hàng khuyến mãi. Cờ KM nguyên bản: 0/2 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 13902–13903.; Rà điều chỉnh cũ: 1C25TUV/00012877: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 395). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 102.0
+    },
+    {
+      "row": 908,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 2 dòng chi tiết: 1 dòng thành tiền khác 0, 1 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán và dòng 0; chỉ dòng thành tiền gốc = 0 mới nhập 1 cột Hàng khuyến mãi. Cờ KM nguyên bản: 0/2 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 13898–13899.; Rà điều chỉnh cũ: 1C25TUV/00012875: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 397). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 102.0
+    },
+    {
+      "row": 909,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 2 dòng chi tiết: 1 dòng thành tiền khác 0, 1 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán và dòng 0; chỉ dòng thành tiền gốc = 0 mới nhập 1 cột Hàng khuyến mãi. Cờ KM nguyên bản: 0/2 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 13892–13893.; Rà điều chỉnh cũ: 1C25TUV/00012873: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 399). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 102.0
+    },
+    {
+      "row": 910,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 2 dòng chi tiết: 1 dòng thành tiền khác 0, 1 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán và dòng 0; chỉ dòng thành tiền gốc = 0 mới nhập 1 cột Hàng khuyến mãi. Cờ KM nguyên bản: 0/2 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 13890–13891.; Rà điều chỉnh cũ: 1C25TUV/00012870: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 402). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 102.0
+    },
+    {
+      "row": 912,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 2 dòng chi tiết: 1 dòng thành tiền khác 0, 1 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán và dòng 0; chỉ dòng thành tiền gốc = 0 mới nhập 1 cột Hàng khuyến mãi. Cờ KM nguyên bản: 0/2 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 13862–13863.; Rà điều chỉnh cũ: 1C25TUV/00012894: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 379). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 102.0
+    },
+    {
+      "row": 913,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 2 dòng chi tiết: 1 dòng thành tiền khác 0, 1 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán và dòng 0; chỉ dòng thành tiền gốc = 0 mới nhập 1 cột Hàng khuyến mãi. Cờ KM nguyên bản: 0/2 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 13860–13861.; Rà điều chỉnh cũ: 1C25TUV/00012893: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 380). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 102.0
+    },
+    {
+      "row": 915,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 2 dòng chi tiết: 1 dòng thành tiền khác 0, 1 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán và dòng 0; chỉ dòng thành tiền gốc = 0 mới nhập 1 cột Hàng khuyến mãi. Cờ KM nguyên bản: 0/2 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 13846–13847.; Rà điều chỉnh cũ: 1C25TUV/00012884: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 388). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 102.0
+    },
+    {
+      "row": 916,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 2 dòng chi tiết: 1 dòng thành tiền khác 0, 1 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán và dòng 0; chỉ dòng thành tiền gốc = 0 mới nhập 1 cột Hàng khuyến mãi. Cờ KM nguyên bản: 0/2 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 13844–13845.; Rà điều chỉnh cũ: 1C25TUV/00012883: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 389). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 102.0
+    },
+    {
+      "row": 918,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 2 dòng chi tiết: 1 dòng thành tiền khác 0, 1 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán và dòng 0; chỉ dòng thành tiền gốc = 0 mới nhập 1 cột Hàng khuyến mãi. Cờ KM nguyên bản: 0/2 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 13838–13839.; Rà điều chỉnh cũ: 1C25TUV/00012872: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 400). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 102.0
+    },
+    {
+      "row": 919,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 2 dòng chi tiết: 1 dòng thành tiền khác 0, 1 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán và dòng 0; chỉ dòng thành tiền gốc = 0 mới nhập 1 cột Hàng khuyến mãi. Cờ KM nguyên bản: 0/2 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 13832–13833.; Rà điều chỉnh cũ: 1C25TUV/00012874: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 398). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 102.0
+    },
+    {
+      "row": 920,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 2 dòng chi tiết: 1 dòng thành tiền khác 0, 1 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán và dòng 0; chỉ dòng thành tiền gốc = 0 mới nhập 1 cột Hàng khuyến mãi. Cờ KM nguyên bản: 0/2 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 13830–13831.; Rà điều chỉnh cũ: 1C25TUV/00012890: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 383). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 102.0
+    },
+    {
+      "row": 921,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 2 dòng chi tiết: 1 dòng thành tiền khác 0, 1 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán và dòng 0; chỉ dòng thành tiền gốc = 0 mới nhập 1 cột Hàng khuyến mãi. Cờ KM nguyên bản: 0/2 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 13828–13829.; Rà điều chỉnh cũ: 1C25TUV/00012879: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 393). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 102.0
+    },
+    {
+      "row": 922,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 2 dòng chi tiết: 1 dòng thành tiền khác 0, 1 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán và dòng 0; chỉ dòng thành tiền gốc = 0 mới nhập 1 cột Hàng khuyến mãi. Cờ KM nguyên bản: 0/2 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 13822–13823.; Rà điều chỉnh cũ: 1C25TUV/00012897: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 376). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 102.0
+    },
+    {
+      "row": 923,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 13489.; Rà điều chỉnh cũ: 1C25TUV/00012960: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 313). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 924,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 13485.; Rà điều chỉnh cũ: 1C25TUV/00012961: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 312). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 927,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 2 dòng chi tiết: 1 dòng thành tiền khác 0, 1 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán và dòng 0; chỉ dòng thành tiền gốc = 0 mới nhập 1 cột Hàng khuyến mãi. Cờ KM nguyên bản: 0/2 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 13318–13319.; Rà điều chỉnh cũ: 1C25TUV/00012819: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 453). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 102.0
+    },
+    {
+      "row": 928,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 2 dòng chi tiết: 1 dòng thành tiền khác 0, 1 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán và dòng 0; chỉ dòng thành tiền gốc = 0 mới nhập 1 cột Hàng khuyến mãi. Cờ KM nguyên bản: 0/2 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 13316–13317.; Rà điều chỉnh cũ: 1C25TUV/00012820: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 452). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 102.0
+    },
+    {
+      "row": 932,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 2 dòng chi tiết: 1 dòng thành tiền khác 0, 1 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán và dòng 0; chỉ dòng thành tiền gốc = 0 mới nhập 1 cột Hàng khuyến mãi. Cờ KM nguyên bản: 0/2 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 13304–13305.; Rà điều chỉnh cũ: 1C25TUV/00012824: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 448). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 102.0
+    },
+    {
+      "row": 934,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 2 dòng chi tiết: 1 dòng thành tiền khác 0, 1 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán và dòng 0; chỉ dòng thành tiền gốc = 0 mới nhập 1 cột Hàng khuyến mãi. Cờ KM nguyên bản: 0/2 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 13300–13301.; Rà điều chỉnh cũ: 1C25TUV/00012826: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 446). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 102.0
+    },
+    {
+      "row": 935,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 2 dòng chi tiết: 1 dòng thành tiền khác 0, 1 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán và dòng 0; chỉ dòng thành tiền gốc = 0 mới nhập 1 cột Hàng khuyến mãi. Cờ KM nguyên bản: 0/2 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 13296–13297.; Rà điều chỉnh cũ: 1C25TUV/00012827: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 445). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 102.0
+    },
+    {
+      "row": 937,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 2 dòng chi tiết: 1 dòng thành tiền khác 0, 1 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán và dòng 0; chỉ dòng thành tiền gốc = 0 mới nhập 1 cột Hàng khuyến mãi. Cờ KM nguyên bản: 0/2 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 12924–12925.; Rà điều chỉnh cũ: 1C25TUV/00012954: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 319). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 102.0
+    },
+    {
+      "row": 941,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 11905.; Rà điều chỉnh cũ: 1C25TUV/00012962: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 311). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 942,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 11834.; Rà điều chỉnh cũ: 1C25TUV/00012963: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 310). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 947,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 11443.; Rà điều chỉnh cũ: 1C25TUV/00012964: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 309). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 951,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 11251.; Rà điều chỉnh cũ: 1C25TUV/00012965: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 308). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 952,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 11242.; Rà điều chỉnh cũ: 1C25TUV/00013003: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 269). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 953,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 11229.; Rà điều chỉnh cũ: 1C25TUV/00012966: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 307). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 960,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 10714.; Rà điều chỉnh cũ: 1C25TUV/00012967: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 306). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 965,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 10402.; Rà điều chỉnh cũ: 1C25TUV/00012969: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 304). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 966,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 10382.; Rà điều chỉnh cũ: 1C25TUV/00012968: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 305). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 967,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 10363.; Rà điều chỉnh cũ: 1C25TUV/00012971: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 302). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 968,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 10335.; Rà điều chỉnh cũ: 1C25TUV/00012973: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 300). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 971,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 10139.; Rà điều chỉnh cũ: 1C25TUV/00012976: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 297). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 974,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 9835.; Rà điều chỉnh cũ: 1C25TUV/00012981: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 292). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 975,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 9821.; Rà điều chỉnh cũ: 1C25TUV/00012985: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 288). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 976,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 9810.; Rà điều chỉnh cũ: 1C25TUV/00012978: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 295). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 977,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 9800.; Rà điều chỉnh cũ: 1C25TUV/00012980: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 293). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 981,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 9535.; Rà điều chỉnh cũ: 1C25TUV/00012917: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 356). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 983,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 9299.; Rà điều chỉnh cũ: 1C25TUV/00012979: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 294). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 984,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 9275.; Rà điều chỉnh cũ: 1C25TUV/00012983: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 290). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 985,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 9273.; Rà điều chỉnh cũ: 1C25TUV/00012984: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 289). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 988,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 9026.; Rà điều chỉnh cũ: 1C25TUV/00012987: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 286). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 989,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 9001.; Rà điều chỉnh cũ: 1C25TUV/00012974: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 299). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 990,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 8980.; Rà điều chỉnh cũ: 1C25TUV/00012982: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 291). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 991,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 8965.; Rà điều chỉnh cũ: 1C25TUV/00005661: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 8645). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 992,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 8920.; Rà điều chỉnh cũ: 1C25TUV/00012972: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 301). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 993,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 8901.; Rà điều chỉnh cũ: 1C25TUV/00012975: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 298). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 994,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 8879.; Rà điều chỉnh cũ: 1C25TUV/00012977: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 296). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 995,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 8875.; Rà điều chỉnh cũ: 1C25TUV/00012999: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 274). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 996,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 8841.; Rà điều chỉnh cũ: 1C25TUV/00012986: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 287). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 997,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 8788.; Rà điều chỉnh cũ: 1C25TUV/00012989: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 284). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 998,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 8776.; Rà điều chỉnh cũ: 1C25TUV/00012869: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 403). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 1004,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 8283.; Rà điều chỉnh cũ: 1C25TUV/00012988: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 285). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 1005,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 8216.; Rà điều chỉnh cũ: 1C25TUV/00012996: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 277). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 1006,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 8215.; Rà điều chỉnh cũ: 1C25TUV/00012997: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 276). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 1007,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 2 dòng chi tiết: 2 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/2 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 8200–8201.; Rà điều chỉnh cũ: 1C25TUV/00013000: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 273). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 102.0
+    },
+    {
+      "row": 1008,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 2 dòng chi tiết: 1 dòng thành tiền khác 0, 1 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán và dòng 0; chỉ dòng thành tiền gốc = 0 mới nhập 1 cột Hàng khuyến mãi. Cờ KM nguyên bản: 0/2 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 8198–8199.; Rà điều chỉnh cũ: 1C25TUV/00013001: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 272). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 102.0
+    },
+    {
+      "row": 1010,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 7831.; Rà điều chỉnh cũ: 1C25TUV/00012970: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 303). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 1011,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 7800.; Rà điều chỉnh cũ: 1C25TUV/00012992: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 281). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 1012,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 7787.; Rà điều chỉnh cũ: 1C25TUV/00012993: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 280). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 1013,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 7783.; Rà điều chỉnh cũ: 1C25TUV/00012994: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 279). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 1014,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 7782.; Rà điều chỉnh cũ: 1C25TUV/00012995: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 278). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 1016,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 7433.; Rà điều chỉnh cũ: 1C25TUV/00012990: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 283). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 1017,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 7420.; Rà điều chỉnh cũ: 1C25TUV/00012991: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 282). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 1018,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 7359.; Rà điều chỉnh cũ: 1C25TUV/00012998: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 275). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 1019,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 7092.; Rà điều chỉnh cũ: 1C25TUV/00013004: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 268). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 1020,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 7079.; Rà điều chỉnh cũ: 1C25TUV/00013005: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 267). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 1021,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 7042.; Rà điều chỉnh cũ: 1C25TUV/00013007: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 265). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 1022,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 6783.; Rà điều chỉnh cũ: 1C25TUV/00013006: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 266). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 1023,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 6491.; Rà điều chỉnh cũ: 1C25TUV/00013010: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 262). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 1024,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 2 dòng chi tiết: 1 dòng thành tiền khác 0, 1 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán và dòng 0; chỉ dòng thành tiền gốc = 0 mới nhập 1 cột Hàng khuyến mãi. Cờ KM nguyên bản: 0/2 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 6466–6467.; Rà điều chỉnh cũ: 1C25TUV/00013008: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 264). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 102.0
+    },
+    {
+      "row": 1029,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 6150.; Rà điều chỉnh cũ: 1C25TUV/00013014: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 258). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 1032,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 5787.; Rà điều chỉnh cũ: 1C25TUV/00013009: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 263). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 1033,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 5769.; Rà điều chỉnh cũ: 1C25TUV/00013011: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 261). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 1034,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 5701.; Rà điều chỉnh cũ: 1C25TUV/00012923: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 350). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 1035,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 5691.; Rà điều chỉnh cũ: 1C25TUV/00013012: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 260). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 1037,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 2 dòng chi tiết: 1 dòng thành tiền khác 0, 1 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán và dòng 0; chỉ dòng thành tiền gốc = 0 mới nhập 1 cột Hàng khuyến mãi. Cờ KM nguyên bản: 0/2 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 5286–5287.; Rà điều chỉnh cũ: 1C25TUV/00013016: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 256). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 102.0
+    },
+    {
+      "row": 1038,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 5270.; Rà điều chỉnh cũ: 1C25TUV/00013015: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 257). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 1039,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 5257.; Rà điều chỉnh cũ: 1C25TUV/00013018: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 246). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 1040,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 5238.; Rà điều chỉnh cũ: 1C25TUV/00013019: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 245). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 1041,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 5226.; Rà điều chỉnh cũ: 1C25TUV/00013020: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 244). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 1042,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 5050.; Rà điều chỉnh cũ: 1C25TUV/00012920: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 353). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 1043,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 5048.; Rà điều chỉnh cũ: 1C25TUV/00012921: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 352). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 1044,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 5015.; Rà điều chỉnh cũ: 1C25TUV/00013021: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 243). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 1045,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 5009.; Rà điều chỉnh cũ: 1C25TUV/00013022: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 242). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 1048,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 4192.; Rà điều chỉnh cũ: 1C25TUV/00013024: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 240). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    },
+    {
+      "row": 1049,
+      "note": "Rà 237 chuỗi: F0–F3 đã cộng dồn 0. Gốc có 1 dòng chi tiết: 1 dòng thành tiền khác 0, 0 dòng bằng 0, 0 dòng thiếu thành tiền. Có chi tiết bán; không đánh dấu khuyến mãi theo quy tắc thành tiền = 0. Cờ KM nguyên bản: 0/1 dòng có giá trị. Nguồn: Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 4172.; Rà điều chỉnh cũ: 1C25TUV/00013023: chỉ điều chỉnh khoản tổng, 1 dòng; SL/đơn giá đều 0 hoặc trống, không ghi lại từng hàng gốc; tiền chi tiết khác bảng tổng (Bang_ke_chi_tiet_HD_da_su_dung_2025.xls dòng 241). Chuỗi bằng 0 ở bảng tổng không chứng minh đã giảm chi tiết hàng.",
+      "height": 87.0
+    }
+  ]
+}

@@ -25,9 +25,9 @@ ZERO = Decimal(0)
 HISTORICAL_REVISION = '9c50b0424a242695fa31182ab826613bf0fa699f'
 USER_CONFIRMED_DATES = {
     ('1C25TUV', '00012885'): {
-        'date': date(2025, 7, 5),
-        'confirmed_on': '07/10/2026',
-        'evidence': 'Người dùng xác nhận và gửi ảnh danh sách Hóa đơn bán hàng có mã CQT trên meInvoice; chưa đối chiếu XML độc lập',
+        'date': date(2025, 8, 18),
+        'confirmed_on': '09/10/2026',
+        'evidence': 'Người dùng xác nhận lại ngày đúng 18/08/2025 ngày 09/10/2026; bảng tổng/chi tiết/liên kết mới đều 18/08/2025, thay xác nhận cũ 05/07/2025; chưa đối chiếu XML độc lập',
     },
 }
 

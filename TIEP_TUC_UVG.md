@@ -1,3 +1,108 @@
+# Bộ bàn giao Git ngày 09/10/2026
+
+Đã chạy verify_handoff.py trên bản cuối: 18 nguồn nền khớp manifest; import chưa điều chỉnh 8404 hóa đơn / 13543 dòng; import đã điều chỉnh 1990 hóa đơn / 41268 dòng / 986 chuỗi / 7019 dòng khuyến mãi. Workbook đã có hai sheet 42 - Da khop 31 và 42 - Can check 11. Nguồn xuất lại 10 file (gồm 3 ZIP), XML237 và bộ XML/ZIP3-508 được đưa cùng workbook, script, kết quả kiểm tra và tài liệu bàn giao. ZIP lớn tải ở Downloads không cần đưa lên Git vì đã lưu XML237 liên quan nguyên byte trong data.
+
+Qua máy khác: git pull --ff-only origin master, đọc phần cập nhật đầu tài liệu này, chạy python scripts/verify_handoff.py. Không chạy các builder cũ để ghi đè import hoặc ghi chú. Việc còn lại: cập nhật nhóm 19 chuỗi đang giữ riêng (phương án3-508 đã được người dùng chốt), quyết định xử lý11chuỗi còn lại, bổ sung57F0nếu yêu cầu import chỉ từ nguồn mới, kiểm tra xem trước meInvoice trước khi nhập cả lô. Chưa import/ký/phát hành.
+
+Các câu chưa commit/push ở các mục phía dưới ghi trạng thái lịch sử trước bộ bàn giao này; xem kết quả commit và xác nhận remote trong chat để xác định việc push hoàn tất.
+
+---
+# Tách 42 chuỗi vào hai sheet kiểm tra — 09/10/2026
+
+Theo yêu cầu người dùng, đã thêm hai sheet trong workbook chính HOA_DON_DA_DIEU_CHINH_F0_2024_T6_2025.xlsx: 42 - Da khop 31 (31 chuỗi, A4:AA34) và 42 - Can check 11 (11 chuỗi, A4:AA14). Mỗi dòng có định danh/ngày hóa đơn gốc và điều chỉnh, tên hàng, ĐVT, số lượng, đơn giá, tiền hàng/thuế/thanh toán hai phía, thuế suất, phân nhóm, cộng dồn W:Y bằng công thức, kết quả cần kiểm tra và tên XML. 31 chuỗi là khớp các chỉ tiêu đã rà, không phải xác nhận toàn bộ hồ sơ pháp lý. 11 chuỗi gồm2khác loại hàng,3khácmô tả,5đơn giá âm và1khoản tổng.
+
+Đã render và kiểm tra đủ42khôngtrùng, giữ nguyên1.076.093ôcũ cảgiátrị/côngthức/địnhdạng, bảng/ôgộp/pane/datavalidation/chiềucaodòng. Không sửa AB hoặc import. Các công thức cộng dồn cả42chuỗiđều0. Bản chính chỉ lưu sau kiểm tra đạt. Bằng chứng scripts/data/check-review/split-42-verification.json; dữ liệu split-42-data.json, builder split-42.mjs, verifier verify-split-42.py. Không tạo thêm workbook báo cáo riêng. Chưa commit/push.
+
+---
+# Rà XML 42 chuỗi đã 0 còn lại — 09/10/2026
+
+Đã đọc lại và kiểm hash XML42, đối chiếu nguồn chi tiết F0: cả42 có tổng dòng tiền hàng/thuế/thanh toán khớp tổng XML, tổng XML đảo đúng tiền F0; không cùng lỗi195/508. Phân nhóm:31 khớp tên hàng, ĐVT, đơn giá giữ nguyên, SL âm đảo đúng số lượng gốc, thuế8%, không có dòng tiền0 cần đánh dấu KM. 2khác loại hàng rõ: gốc3548→13072 (máy thành lõi lọcKA150S), gốc5905→13095 (lõi lọc thành máyKA600). 3khác mô tả:4026→13079 và7766→13099 thêm màn hìnhLCD;4953→13089 khác ProUpgrade/Pro-Upgrade. 5giảm bằng đơn giá âm nhưng SL+1:1094→13038,3113→13032,4081→13033,5555→13034,5918→13035. Đơn giá âm không tự nó là sai, cần phân biệt giảm giá với giảmSLtheo mục tiêu người dùng. 1giảm tổng:1061→12835, SL/đơn giá0 nhưng thành tiền dòng−499074, thuế−39926, thanh toán−539000, khớp tổng; khác508vì thành tiền dòng không0.
+
+Kết quả scripts/data/check-review/remaining-42-xml-review.json. Chưa sửa workbook/AB/import. Không xác nhận toàn bộ hồ sơ pháp lý/chữ ký mật mã. Hướng dẫnMISA cho phép nghiệp vụ giảm đơn giá âm và điều chỉnh tổng nhưng phải đúng bản chất; không kết luận cứâmhoặcghi tổnglàsai. Đề xuất31 giữ nguyên về các chỉ tiêu đã kiểm,2khác loại hàng cần xửlý,9khácmô tả/giảmgiá/giảmtổng cần xácđịnh đúng nghiệp vụ trước khi thêmhóađơn mới.
+
+---
+# Bỏ ghi chú mới ở AB theo yêu cầu người dùng — 09/10/2026
+
+Người dùng không cần note CHỐT LÀM LẠI. Đã bỏ phần ghi chú mới trên đúng 195 ô AB, giữ ghi chú cũ và phục hồi chiều cao dòng trước khi thêm note. F4/F5, ngày dự thảo và toàn bộ 390 hóa đơn / 491 dòng bổ sung giữ nguyên. Sheet import vẫn 1990 hóa đơn / 41268 dòng / 986 chuỗi; nhóm mới STT1601–1990. Không dùng nhãn CHỐT LÀM LẠI ở AB để lọc nữa. Mục bên dưới mô tả bước bổ sung trước khi người dùng yêu cầu bỏ note.
+
+Đã so sánh 1.076.093 ô với bản trước: chỉ 195 giá trị AB thay đổi, toàn bộ giá trị/công thức/định dạng và cấu trúc khác giữ nguyên, trừ chiều cao đúng các dòng khôi phục. Bằng chứng scripts/data/check-review/remove-195-notes-verification.json. File chính đã lưu; chưa import hoặc phát hành.
+
+---
+# Đã bổ sung 195 chuỗi làm lại theo XML — 09/10/2026
+
+Người dùng chốt áp dụng phương án như mẫu gốc 00000003 và điều chỉnh 00000508 cho 195 chuỗi cùng dạng: đảo khoản điều chỉnh giảm cũ bằng tổng tiền XML đổi dấu, sau đó giảm đầy đủ chi tiết F0. Đây là chốt chuẩn bị dữ liệu, chưa import, ký hoặc phát hành.
+
+Đã đọc hai ZIP Hoa_don_dien_tu_09.10.2026_02.51.zip và 02.52.zip: 999 + 437 XML, số PDF tương ứng. Có đủ 237 điều chỉnh mục tiêu (19 + 218), không trùng, không lỗi đọc. Cả 237 khớp số tổng, tham chiếu gốc và ngày trong workbook hiện tại. Có 195 XML tiền hàng chi tiết 0 nhưng tổng tiền hàng khác 0; 42 trường hợp còn lại chưa thêm import. XML 00012885 xác nhận ngày 18/08/2025. Chưa kiểm tra mật mã chữ ký hoặc CQT trực tiếp. Các ghi chú cũ bên dưới về chờ XML237 đã được thay bằng kết quả này.
+
+Workbook chính HOA_DON_DA_DIEU_CHINH_F0_2024_T6_2025.xlsx:
+
+- Sheet Dieu chinh: cập nhật AB đúng 195 dòng, bắt đầu bằng CHỐT LÀM LẠI 09/10/2026; giữ ghi chú trước đó dưới nhãn lịch sử. F4/F5 ghi phương án đã chốt và ngày dự thảo 09/10/2026. Số tiền dự kiến giữ đúng XML/gốc; BA:BC đều 0.
+- Sheet Import dieu chinh: thêm STT 1601–1990, tức 390 hóa đơn / 491 dòng, vào A40787:X41277. Có 63 dòng khuyến mãi, chỉ đánh dấu 1 khi thành tiền gốc bằng 0. Hóa đơn đảo khoản có SL và đơn giá trống, thành tiền dòng bằng tiền hàng đảo từ tổng XML. Hóa đơn giảm gốc đủ dòng, SL đổi dấu, đơn giá giữ nguyên, thành tiền đổi dấu đúng nguồn. Các tổng chỉ ở dòng đầu mỗi hóa đơn. Tên khách hàng bằng Người mua hàng, giữ trống nếu nguồn trống.
+- Toàn sheet hiện có 986 chuỗi / 1.990 hóa đơn / 41.268 dòng; ngày 08/10/2026 ở nhóm cũ giữ nguyên, nhóm mới 09/10/2026. Có thể sửa đồng nhất ngày các dòng cùng STT trước khi import.
+- 19 chuỗi ở Cho KT xac nhan giữ nguyên, gồm chuỗi 00000003/00000508; lượt này chỉ mở đúng 195 chuỗi XML đã 0 được chốt. 42 chuỗi đã 0 còn lại vẫn ngoài import.
+
+Nguồn XML đã lưu byte gốc trong data/Bo sung/meInvoice/2026-10-09-237-XML. Kết quả đọc XML tại scripts/data/check-review/zip-237-xml-review-20261009.json. Dữ liệu và quyết định 195 chuỗi tại 195-xml-data.json; script prepare-195-xml.py / apply-195-xml.mjs / verify-195-xml.py. Chi tiết F0 dùng nguồn đang có đã đối chiếu; không khẳng định import chỉ dùng bộ xuất mới. 57 F0 thiếu chi tiết trong bộ xuất mới vẫn chưa được bổ sung bởi hai ZIP này.
+
+Đã xác minh 1.064.309 ô cũ: chỉ 982 ô thuộc phạm vi thay đổi (195 dòng x 5 ô, 7 ô hướng dẫn). Giá trị, công thức, format số, font/màu/viền, căn lề ngoài phạm vi, bảng, ô gộp, pane và data validation được bảo toàn. Đã render các phần sửa. 195 hash XML đối chiếu lại, 390 STT không trùng, tổng chi tiết từng hóa đơn bằng tổng tiền hàng, cả 195 chuỗi tiền hàng/thuế/thanh toán vẫn 0; không có lỗi công thức. Bằng chứng 195-xml-verification.json. Bản chính chỉ được thay sau khi đạt. verify_handoff.py cập nhật kỳ vọng mới 1990/41268/986.
+
+Không chạy builder cũ prepare-adjusted-import.py / add-adjusted-import.mjs để ghi lại sheet: chúng còn quy tắc bỏ toàn bộ chuỗi đã 0 và số đếm 1600, sẽ làm mất 195 chuỗi mới nếu tái tạo không cập nhật logic. Đọc mục này và chạy verify_handoff.py trước khi tiếp tục. Các bổ sung ngày09/10 vẫn cục bộ, chưa commit/push.
+
+---
+# Chốt ngày00012885 theo xác nhận mới của người dùng09/10/2026
+
+Người dùng xác nhận18/08/2025 làngàyđúng, thayxácnhậncũ05/07/2025. Đã sửa workbookchính `HOA_DON_DA_DIEU_CHINH_F0_2024_T6_2025.xlsx`: `Dieu chinh!I903`=18/08/2025, `AB903`ghi xácnhậnmới vàgiữtoànbộghi chú237; `Chi tiet nguon!M1822`bổ sung căn cứ, `E1822`vốnđã18/08/2025 nênkhôngđổi. Sửa `USER_CONFIRMED_DATES` trongprepare_invoice_reports.py vàquyướcngày trongaudit_outputs_new_data.py đểkhôngquayvềngàycũ. Khôngchạy builder.
+
+Artifact-tool sửa bản tạm; đã rendertrước/sau vàso sánh629.330ôcó dữliệu/toàn bộsheet: chỉI903,AB903,M1822thayđổi, thànhtiền/thuế/thanh toán/import giữnguyên. Bằngchứng `scripts/data/check-review/date-12885-verification.json`. Đãthayfilechínhsaukhiđối chiếu. Các kếtquảaudittrướcđó ghi05/07vsl18/08 làsnapshottrước xácnhận, đọc cậpnhậtnày trước. Khôngcònđểngày12885chờuserchốt; việcđọcXMLđộc lập vẫnchờlôtảixong.
+
+Giải thích“thiếuchi tiết”: data mới cóhóađơn ởbảngtổng nhưngkhôngcódòngtrongbảngchi tiết, trongkhinguồncũcó. 8F0ởimportchưađiềuchỉnhvà49F0ởimportđãđiềuchỉnhđangdùngnguồncũ; khôngphảidòngimportbịbỏmất. Chưayêucầungườidùngxuấtthêmphầnnày.
+
+---
+# Kiểm tra trực tiếp toàn bộ outputs với data mới09/10/2026
+
+Đã đối chiếu3workbook chính và2workbook lịch sử đang còn trongoutputs. Bằng chứng chi tiết/hash: `scripts/data/check-review/outputs-vs-new-data-20261009.json`; script chính `scripts/audit_outputs_new_data.py`. Không sửa output.
+
+- Chưađiềuchỉnh:8.410F0 đối chiếu header;6giảđịnh thanh toántrống=0 giữ đúnguser. Import8.404hóađơn/13.543dòng khớptổnggiảmdấu, thamchiếu, ngàyF0, tên/ngườimua/MST vàhànghóa/SL/đơngiá/thànhtiền theo dữliệu kiểmđược.8hóađơn import lấychi tiết từnguồncũ vìbộmớithiếu;945hóađơn cókhác0/trống nguồn mới nhưng giữsố0nguồncũ, không tự chuyểntrống=0.
+- Đãđiềuchỉnh:1.047F0/2.113hóađơn cũ khớp tiền tổng. I903/00012885 vẫn05/07/2025 theo xácnhậnuser trongkhi nguồn mới18/08/2025; chờXML, khôngsửangày. Import1.600hóađơn/40.777dòng gồm791giảmgốc và809đảo khoảncũ, không thấy lệchthamchiếungàyF0, người mua/MST hoặc tiền/dòng trongphạmvi kiểm.49gốc import dùngchi tiết cũ vìbộmớithiếu;534gốc cókhác0/trống.
+- Ngoại lệ hiện tại:238F0/326hóađơn khớp tiền vàngày. Liênkết60→61 năm2024 chưa cótrongbộxuấtmới, nhưng đãcócăn cứGit9c50b042:DS bị thay thế2024 dòng7, giữnguyên. Liênkết61→2605 cótrongbảngthaythếmới2025 dòng19; khôngnhầm yêu cầuF2thamchiếutrựctiếpF0.
+- Output lịch sử `outputs/ngoai-le-meinvoice-2024/NGOAI_LE_2024_THEO_CHUOI.xlsx`:190khối hóađơn, mộtkhối dòng112 là1C25TUV/00012764 còntrốngcả3tiền; datamớicó−416667/−33333/−450000, workbookngoạilệchính đãcósố. Khôngdùngfilelịch sửthayfilechính.
+- Output lịch sử `outputs/kiem-tra-20261008/CAC_TRUONG_HOP_CAN_KIEM_TRA.xlsx`:19hóađơn phần tiền vàngày khớpbảngtổngmới; ghi chú508“lấyXML/chưakếtluận ởhóađơn haybảngkê” đãcũvì cóXML09/10. Ghi chú12885cầnđối chiếuXML vẫnápdụng nhưng cầnđọc kèmkếtquảnguồnmới đồngnhất18/08.
+
+Không kếtluận mọioutputkhớp100%; không ghiđènguồncũ/ghi chúKT. ChờZIP237đểrà nội dungvà cậpnhậtAB khi cóbằngchứng.
+
+---
+# Bổ sung liên kết năm 2026 — đã kiểm tra ngày09/10/2026
+
+Đã nhận bảng điều chỉnh `Bang_ke_hoa_don_dieu_chinh_xuat_theo_HD_dieu_chinh_1791535046109.xls` và thay thế `Bang_ke_hoa_don_thay_the_xuat_theo_HD_thay_the_1791535075764.xls`, đều xuất theo hóa đơn mới01/01/2026–09/10/2026. Đọc được1.288liên kết điều chỉnh và416liên kết thay thế, tổng1.704. Lần theo cả liên kết2024/2025/2026 không tìm thấy liên kết2026 thuộc nhómF0 ngày01/01/2024–30/06/2025. Kiểm tra chéo định danh với3workbook hiện có cũngkhông cóthamchiếu2026 tới các hóađơn trongbộđangxửlý.
+
+Có60liên kết2026 thamchiếu hóađơn năm2025, nhưng ngàycủacác hóađơnđó từ11/10/2025–31/12/2025, ngoài kỳF0;1.644liên kếtcòn lại thamchiếuhóađơn2026. Vì vậy khôngcần thêmhóađơn2026 vàocácchuỗi/import hiện tại dựatrên bộxuấtđến09/10/2026. Bằng chứng vàhashnguồn: `scripts/data/check-review/links-2026-review.json`. Ghi chú trước đây “chưa đủliênkết2026” đã đượcgiảiquyết bằngđợtxuất này; không suy ra lịch sử sau09/10/2026. Khôngsửaworkbook hoặcpháthành. VẫnchờZIP/XML đểrà nội dung237chuỗi vàchốtngày00012885.
+
+---
+# Đối chiếu bộ xuất lại 09/10/2026 — tiền và ngày
+
+Phạm vi người dùng chốt: chỉ F0 01/01/2024–30/06/2025 và hóa đơn liên quan; không xử lý mọi hóa đơn 2026. Đã đọc toàn bộ Excel/ZIP trong `data/Du lieu Meinvoice/Xuat_lai_2026-10-09`, đối chiếu với nguồn nền. Script chỉ đọc: `scripts/audit_source_refresh.py`; bằng chứng/hash và vị trí dòng: `scripts/data/check-review/source-refresh-review-20261009.json`.
+
+- Bảng tổng trong phạm vi có tiền hàng/thuế/thanh toán, ngày và trạng thái không đổi so với nguồn cũ. Có 2.677 hóa đơn khác chi tiết chỉ do giá trị 0 ở nguồn cũ xuất thành ô trống ở nguồn mới; không tự áp giả định trống=0, không dùng bộ mới ghi đè builder/import. Không phát hiện thay đổi tên, đơn vị, số lượng hay số tiền khác ngoài nhóm 0/trống này ở các chi tiết cùng có trong hai bộ.
+- Bộ mới có 65 hóa đơn tổng nhưng thiếu chi tiết; trong phạm vi gốc/chuỗi xác định bằng liên kết hiện có là 64. Cả 65 đều có chi tiết ở nguồn cũ nên bảo toàn nguồn cũ, không bỏ hóa đơn thiếu chi tiết khi cập nhật.
+- 00012885 (gốc 00001314): chi tiết mới dòng35386, bảng tổng mới phần5 dòng1628 và liên kết mới dòng1238 đều ghi18/08/2025. Nguồn cũ chi tiết05/07/2025, tổng/liên kết18/08/2025. Bộ xuất mới đã đồng nhất nội bộ, nhưng vẫn khác ngày05/07/2025 người dùng xác nhận theo ảnh. Bảng chính `Dieu chinh!I903` vẫn05/07/2025; giữAB903 và chờXML, không tuyên bố ngày pháp lý đã được chốt hoặc đã sửa workbook.
+- Không phát hiện lệch ngày nội bộ khác trong phạm vi xác định hiện tại. Chi tiết12885 là trường hợp duy nhất đổi ngày giữa bộ cũ và mới.
+- Liên kết gốc77→186 nay xuất được trong bảng2024; workbook đã có tại dòng68 từ nguồn lịch sử, không phải chuỗi mới cần cộng thêm lần nữa.
+- Chưa có liên kết điều chỉnh/thay thế2026: không thể khẳng định không có xử lý2026 liên quanF0 trong phạm vi chỉ từ bảng tổng2026. Không yêu cầu toàn bộ chi tiết2026; cần bổ sung liên kết nếu có phát sinh.
+- `scripts/verify_handoff.py` vẫnpassed,18nguồn nền khớpmanifest; import chưađiềuchỉnh8404hóađơn/13543dòng và đãđiềuchỉnh1600hóađơn/40777dòng/791chuỗi giữ nguyên. Rà này không sửa workbook, không import/ký/phát hành. ZIP tải hàngloạt đang chờmeInvoice xử lý; sau khi cóXML mới cập nhật kếtluậnAB về237chuỗi.
+
+---
+# Bổ sung bằng chứng XML ngày09/10/2026
+
+Người dùng đã cung cấp ZIP gốc00000003 và điều chỉnh00000508. Đã lưu nguyênZIP/XML dưới `data/Bo sung/meInvoice/2026-10-09-00000003-00000508`; đọc `KET_QUA_DOI_CHIEU.md` và `DOI_CHIEU_XML.json`. Các ghi chú lịch sử “chưa cóXML3/508” phía dưới đã được thay bằng kết quả này. Manifest18file vẫn là bộ nguồn nền; hashfilebổsung nằm trongJSON riêng.
+
+508thamchiếu đúngF0; XML vàHTML đều có dòngTChat1=Hànghóa,dịchvụ, SL/đơngiá/thànhtiền0, thuếdòng−28487; phần tổng và tổnghợpthuếsuất ghi tiềnhàng−356085,thuế−28487,thanhtoán−384572. Chênh lệch đã xác nhận ngay trong dữliệuhóađơn, không chỉExcel. Không có trường tổngthanhtoáncấpdòng chuẩn ghi−28487 trongXML. Gốc7dòng có tổngchi tiết khớptổng11334130/906730/12240860.
+
+Đang chờ chốt cách sửa nội dung/tínhchất/thànhtiền dòng và phần tổng vớiKT/MISA; chưa tự đưa chuỗi này vàoimport hoặc phát hành. Không kết luận cả195hóađơn khác giống508 nếu chưaXML. Vụlệchngày12885 vẫn chưa cóXML.
+
+Đã rà lại237điềuchỉnh ngày09/10: tổng tất cả đảo đúngF0;196dạngtổng (195lệchchi tiết/bảngtổng);41cótênhàng,5kháctênmô tả gồm2đổi rõmáy/lõilọc: gốc3548→13072 và5905→13095. Có5đơngiáâm cầnđối chiếunghiệpvụ. Căn cứ và records tại `scripts/data/check-review/zero-compliance-review.json`. Rà này không sửaworkbook/AB, không chốtpháplý thayXML.
+
+Các bổ sung09/10 hiện cục bộ, chưa commit/push; commitbe9ba64 đã push là bản bàn giao08/10.
+
+---
 # Chốt bộ bàn giao để commit/push ngày 08/10/2026
 
 Đã kiểm tra lại bằng `scripts/verify_handoff.py`: 18 nguồn khớp manifest hiện tại; nhóm chưa điều chỉnh8404hóa đơn/13543dòng, nhóm đã điều chỉnh1600hóa đơn dự kiến/40777dòng/791chuỗi, sốhọc sau kếhoạch về0. Chưa import/ký/phát hành.

@@ -1,0 +1,2276 @@
+{
+  "review_date": "2026-10-09",
+  "scope": 42,
+  "counts": {
+    "detail_match": 31,
+    "unit_mismatch": 0,
+    "qty_match": 31,
+    "lump": 1,
+    "negative_price": 5,
+    "name_difference": 5
+  },
+  "records": [
+    {
+      "root": [
+        "1C25TUV",
+        "00000850"
+      ],
+      "adjustment": [
+        "1C25TUV",
+        "00013065"
+      ],
+      "date": "2025-09-30",
+      "category": "detail_match",
+      "money_inverse_original": true,
+      "line_totals_match_header": true,
+      "name_amounts_match": true,
+      "qty_inverse_match": true,
+      "units_match": true,
+      "xml_lines": [
+        {
+          "name": "Đèn bắt muỗi, ruồi và các loại côn trùng - KM300",
+          "unit": "Cái",
+          "qty": "-1.000000",
+          "price": "499073.000000",
+          "goods": "-499073.000000",
+          "tax": "-39926.0",
+          "pay": "-538999.000000",
+          "rate": "8%",
+          "nature": "1"
+        }
+      ],
+      "original_lines": [
+        {
+          "name": "Đèn bắt muỗi, ruồi và các loại côn trùng KM300",
+          "unit": "Cái",
+          "qty": 1,
+          "price": 499073,
+          "goods": 499073,
+          "rate": "8%",
+          "tax": 39926,
+          "pay": 538999,
+          "discount": 0,
+          "buyer": "",
+          "address": "",
+          "taxid": "",
+          "email": null,
+          "method": "TM/CK",
+          "date": "2025-05-25",
+          "source": "Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14464"
+        }
+      ],
+      "original_zero_goods_lines": 0,
+      "all_rates_8": true,
+      "all_line_nature_1": true,
+      "unit_price_preserved": true
+    },
+    {
+      "root": [
+        "1C25TUV",
+        "00001061"
+      ],
+      "adjustment": [
+        "1C25TUV",
+        "00012835"
+      ],
+      "date": "2025-08-16",
+      "category": "lump",
+      "money_inverse_original": true,
+      "line_totals_match_header": true,
+      "name_amounts_match": false,
+      "qty_inverse_match": false,
+      "units_match": null,
+      "xml_lines": [
+        {
+          "name": "Điều chỉnh giảm giá trị hoá đơn số 00001061",
+          "unit": null,
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "-499074.000000",
+          "tax": "-39926.0",
+          "pay": "-539000.000000",
+          "rate": "8%",
+          "nature": "1"
+        }
+      ],
+      "original_lines": [
+        {
+          "name": "Đèn bắt muỗi, ruồi và các loại côn trùng KM300",
+          "unit": "Cái",
+          "qty": 1,
+          "price": 499074,
+          "goods": 499074,
+          "rate": "8%",
+          "tax": 39926,
+          "pay": 539000,
+          "discount": 0,
+          "buyer": "",
+          "address": "",
+          "taxid": "",
+          "email": null,
+          "method": "TM/CK",
+          "date": "2025-05-26",
+          "source": "Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14218"
+        }
+      ],
+      "original_zero_goods_lines": 0,
+      "all_rates_8": true,
+      "all_line_nature_1": true
+    },
+    {
+      "root": [
+        "1C25TUV",
+        "00001094"
+      ],
+      "adjustment": [
+        "1C25TUV",
+        "00013038"
+      ],
+      "date": "2025-09-26",
+      "category": "negative_price",
+      "money_inverse_original": true,
+      "line_totals_match_header": true,
+      "name_amounts_match": true,
+      "qty_inverse_match": false,
+      "units_match": true,
+      "xml_lines": [
+        {
+          "name": "Lõi lọc diệt khuẩn Filter KA350S",
+          "unit": "Cái",
+          "qty": "1.000000",
+          "price": "-509259.000000",
+          "goods": "-509259.000000",
+          "tax": "-40741.0",
+          "pay": "-550000.000000",
+          "rate": "8%",
+          "nature": "1"
+        }
+      ],
+      "original_lines": [
+        {
+          "name": "Lõi lọc diệt khuẩn Filter KA350S",
+          "unit": "Cái",
+          "qty": 1,
+          "price": 509259,
+          "goods": 509259,
+          "rate": "8%",
+          "tax": 40741,
+          "pay": 550000,
+          "discount": 0,
+          "buyer": "",
+          "address": "",
+          "taxid": "",
+          "email": null,
+          "method": "TM/CK",
+          "date": "2025-05-26",
+          "source": "Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 14185"
+        }
+      ],
+      "original_zero_goods_lines": 0,
+      "all_rates_8": true,
+      "all_line_nature_1": true
+    },
+    {
+      "root": [
+        "1C25TUV",
+        "00001640"
+      ],
+      "adjustment": [
+        "1C25TUV",
+        "00013066"
+      ],
+      "date": "2025-09-30",
+      "category": "detail_match",
+      "money_inverse_original": true,
+      "line_totals_match_header": true,
+      "name_amounts_match": true,
+      "qty_inverse_match": true,
+      "units_match": true,
+      "xml_lines": [
+        {
+          "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - KA150P",
+          "unit": "CÁI",
+          "qty": "-1.000000",
+          "price": "1276852.000000",
+          "goods": "-1276852.000000",
+          "tax": "-102148.0",
+          "pay": "-1379000.000000",
+          "rate": "8%",
+          "nature": "1"
+        }
+      ],
+      "original_lines": [
+        {
+          "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - KA150P",
+          "unit": "CÁI",
+          "qty": 1,
+          "price": 1276852,
+          "goods": 1276852,
+          "rate": "8%",
+          "tax": 102148,
+          "pay": 1379000,
+          "discount": 0,
+          "buyer": "",
+          "address": "",
+          "taxid": "",
+          "email": null,
+          "method": "TM/CK",
+          "date": "2025-05-28",
+          "source": "Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 13413"
+        }
+      ],
+      "original_zero_goods_lines": 0,
+      "all_rates_8": true,
+      "all_line_nature_1": true,
+      "unit_price_preserved": true
+    },
+    {
+      "root": [
+        "1C25TUV",
+        "00001680"
+      ],
+      "adjustment": [
+        "1C25TUV",
+        "00013067"
+      ],
+      "date": "2025-09-30",
+      "category": "detail_match",
+      "money_inverse_original": true,
+      "line_totals_match_header": true,
+      "name_amounts_match": true,
+      "qty_inverse_match": true,
+      "units_match": true,
+      "xml_lines": [
+        {
+          "name": "Lõi lọc diệt khuẩn - Filter - KA150S",
+          "unit": "CÁI",
+          "qty": "-1.000000",
+          "price": "449099.000000",
+          "goods": "-449099.000000",
+          "tax": "-35928.0",
+          "pay": "-485027.000000",
+          "rate": "8%",
+          "nature": "1"
+        }
+      ],
+      "original_lines": [
+        {
+          "name": "Lõi lọc diệt khuẩn - Filter - KA150S",
+          "unit": "CÁI",
+          "qty": 1,
+          "price": 449099,
+          "goods": 449099,
+          "rate": "8%",
+          "tax": 35928,
+          "pay": 485027,
+          "discount": 0,
+          "buyer": "",
+          "address": "",
+          "taxid": "",
+          "email": null,
+          "method": "TM/CK",
+          "date": "2025-05-28",
+          "source": "Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 13373"
+        }
+      ],
+      "original_zero_goods_lines": 0,
+      "all_rates_8": true,
+      "all_line_nature_1": true,
+      "unit_price_preserved": true
+    },
+    {
+      "root": [
+        "1C25TUV",
+        "00001892"
+      ],
+      "adjustment": [
+        "1C25TUV",
+        "00013069"
+      ],
+      "date": "2025-09-30",
+      "category": "detail_match",
+      "money_inverse_original": true,
+      "line_totals_match_header": true,
+      "name_amounts_match": true,
+      "qty_inverse_match": true,
+      "units_match": true,
+      "xml_lines": [
+        {
+          "name": "Máy phun sương tạo độ ẩm không khí diệt khuẩn bằng tia UVC với màn hình LCD - KH200",
+          "unit": "CÁI",
+          "qty": "-1.000000",
+          "price": "628704.000000",
+          "goods": "-628704.000000",
+          "tax": "-50296.0",
+          "pay": "-679000.000000",
+          "rate": "8%",
+          "nature": "1"
+        }
+      ],
+      "original_lines": [
+        {
+          "name": "Máy phun sương tạo độ ẩm không khí diệt khuẩn bằng tia UVC với màn hình LCD KH200",
+          "unit": "Cái",
+          "qty": 1,
+          "price": 628704,
+          "goods": 628704,
+          "rate": "8%",
+          "tax": 50296,
+          "pay": 679000,
+          "discount": 0,
+          "buyer": "",
+          "address": "",
+          "taxid": "",
+          "email": null,
+          "method": "TM/CK",
+          "date": "2025-05-29",
+          "source": "Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 13093"
+        }
+      ],
+      "original_zero_goods_lines": 0,
+      "all_rates_8": true,
+      "all_line_nature_1": true,
+      "unit_price_preserved": true
+    },
+    {
+      "root": [
+        "1C25TUV",
+        "00002500"
+      ],
+      "adjustment": [
+        "1C25TUV",
+        "00013068"
+      ],
+      "date": "2025-09-30",
+      "category": "detail_match",
+      "money_inverse_original": true,
+      "line_totals_match_header": true,
+      "name_amounts_match": true,
+      "qty_inverse_match": true,
+      "units_match": true,
+      "xml_lines": [
+        {
+          "name": "Máy phun sương tạo độ ẩm không khí diệt khuẩn bằng tia UVC với màn hình LCD - KH200",
+          "unit": "CÁI",
+          "qty": "-1.000000",
+          "price": "606070.000000",
+          "goods": "-606070.000000",
+          "tax": "-48486.0",
+          "pay": "-654556.000000",
+          "rate": "8%",
+          "nature": "1"
+        }
+      ],
+      "original_lines": [
+        {
+          "name": "Máy phun sương tạo độ ẩm không khí diệt khuẩn bằng tia UVC với màn hình LCD KH200",
+          "unit": "Cái",
+          "qty": 1,
+          "price": 606070,
+          "goods": 606070,
+          "rate": "8%",
+          "tax": 48486,
+          "pay": 654556,
+          "discount": 0,
+          "buyer": "user36rz1dl4oi",
+          "address": "",
+          "taxid": "",
+          "email": null,
+          "method": "TM/CK",
+          "date": "2025-05-30",
+          "source": "Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 12335"
+        }
+      ],
+      "original_zero_goods_lines": 0,
+      "all_rates_8": true,
+      "all_line_nature_1": true,
+      "unit_price_preserved": true
+    },
+    {
+      "root": [
+        "1C25TUV",
+        "00003113"
+      ],
+      "adjustment": [
+        "1C25TUV",
+        "00013032"
+      ],
+      "date": "2025-09-26",
+      "category": "negative_price",
+      "money_inverse_original": true,
+      "line_totals_match_header": true,
+      "name_amounts_match": true,
+      "qty_inverse_match": false,
+      "units_match": true,
+      "xml_lines": [
+        {
+          "name": "Vợt bắt muỗi tự động 2 trong 1 thu hút các loại côn trùng - KM002",
+          "unit": "CÁI",
+          "qty": "1.000000",
+          "price": "-163889.000000",
+          "goods": "-163889.000000",
+          "tax": "-13111.0",
+          "pay": "-177000.000000",
+          "rate": "8%",
+          "nature": "1"
+        }
+      ],
+      "original_lines": [
+        {
+          "name": "Vợt bắt muỗi tự động 2 trong 1 thu hút các loại côn trùng KM002",
+          "unit": "Cái",
+          "qty": 1,
+          "price": 163889,
+          "goods": 163889,
+          "rate": "8%",
+          "tax": 13111,
+          "pay": 177000,
+          "discount": 0,
+          "buyer": "lovehueluyhuenhohue755",
+          "address": "",
+          "taxid": "",
+          "email": null,
+          "method": "TM/CK",
+          "date": "2025-06-04",
+          "source": "Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 11503"
+        }
+      ],
+      "original_zero_goods_lines": 0,
+      "all_rates_8": true,
+      "all_line_nature_1": true
+    },
+    {
+      "root": [
+        "1C25TUV",
+        "00003139"
+      ],
+      "adjustment": [
+        "1C25TUV",
+        "00013071"
+      ],
+      "date": "2025-09-30",
+      "category": "detail_match",
+      "money_inverse_original": true,
+      "line_totals_match_header": true,
+      "name_amounts_match": true,
+      "qty_inverse_match": true,
+      "units_match": true,
+      "xml_lines": [
+        {
+          "name": "Máy phun sương tạo độ ẩm không khí diệt khuẩn bằng tia UVC với màn hình LCD - KH200",
+          "unit": "CÁI",
+          "qty": "-1.000000",
+          "price": "628704.000000",
+          "goods": "-628704.000000",
+          "tax": "-50296.0",
+          "pay": "-679000.000000",
+          "rate": "8%",
+          "nature": "1"
+        }
+      ],
+      "original_lines": [
+        {
+          "name": "Máy phun sương tạo độ ẩm không khí diệt khuẩn bằng tia UVC với màn hình LCD KH200",
+          "unit": "Cái",
+          "qty": 1,
+          "price": 628704,
+          "goods": 628704,
+          "rate": "8%",
+          "tax": 50296,
+          "pay": 679000,
+          "discount": 0,
+          "buyer": "30397014153",
+          "address": "",
+          "taxid": "",
+          "email": null,
+          "method": "TM/CK",
+          "date": "2025-06-04",
+          "source": "Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 11477"
+        }
+      ],
+      "original_zero_goods_lines": 0,
+      "all_rates_8": true,
+      "all_line_nature_1": true,
+      "unit_price_preserved": true
+    },
+    {
+      "root": [
+        "1C25TUV",
+        "00003256"
+      ],
+      "adjustment": [
+        "1C25TUV",
+        "00013074"
+      ],
+      "date": "2025-09-30",
+      "category": "detail_match",
+      "money_inverse_original": true,
+      "line_totals_match_header": true,
+      "name_amounts_match": true,
+      "qty_inverse_match": true,
+      "units_match": true,
+      "xml_lines": [
+        {
+          "name": "Máy phun sương tạo độ ẩm không khí diệt khuẩn bằng tia UVC với màn hình LCD - KH200",
+          "unit": "CÁI",
+          "qty": "-1.000000",
+          "price": "606069.000000",
+          "goods": "-606069.000000",
+          "tax": "-48486.0",
+          "pay": "-654555.000000",
+          "rate": "8%",
+          "nature": "1"
+        }
+      ],
+      "original_lines": [
+        {
+          "name": "Máy phun sương tạo độ ẩm không khí diệt khuẩn bằng tia UVC với màn hình LCD KH200",
+          "unit": "Cái",
+          "qty": 1,
+          "price": 606069,
+          "goods": 606069,
+          "rate": "8%",
+          "tax": 48486,
+          "pay": 654555,
+          "discount": 0,
+          "buyer": "hanggxinhgai",
+          "address": "",
+          "taxid": "",
+          "email": null,
+          "method": "TM/CK",
+          "date": "2025-06-05",
+          "source": "Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 11352"
+        }
+      ],
+      "original_zero_goods_lines": 0,
+      "all_rates_8": true,
+      "all_line_nature_1": true,
+      "unit_price_preserved": true
+    },
+    {
+      "root": [
+        "1C25TUV",
+        "00003267"
+      ],
+      "adjustment": [
+        "1C25TUV",
+        "00013075"
+      ],
+      "date": "2025-09-30",
+      "category": "detail_match",
+      "money_inverse_original": true,
+      "line_totals_match_header": true,
+      "name_amounts_match": true,
+      "qty_inverse_match": true,
+      "units_match": true,
+      "xml_lines": [
+        {
+          "name": "Máy phun sương tạo độ ẩm không khí diệt khuẩn bằng tia UVC với màn hình LCD - KH200",
+          "unit": "CÁI",
+          "qty": "-1.000000",
+          "price": "628703.000000",
+          "goods": "-628703.000000",
+          "tax": "-50296.0",
+          "pay": "-678999.000000",
+          "rate": "8%",
+          "nature": "1"
+        }
+      ],
+      "original_lines": [
+        {
+          "name": "Máy phun sương tạo độ ẩm không khí diệt khuẩn bằng tia UVC với màn hình LCD KH200",
+          "unit": "Cái",
+          "qty": 1,
+          "price": 628703,
+          "goods": 628703,
+          "rate": "8%",
+          "tax": 50296,
+          "pay": 678999,
+          "discount": 0,
+          "buyer": "nhatle.196",
+          "address": "",
+          "taxid": "",
+          "email": null,
+          "method": "TM/CK",
+          "date": "2025-06-05",
+          "source": "Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 11341"
+        }
+      ],
+      "original_zero_goods_lines": 0,
+      "all_rates_8": true,
+      "all_line_nature_1": true,
+      "unit_price_preserved": true
+    },
+    {
+      "root": [
+        "1C25TUV",
+        "00003271"
+      ],
+      "adjustment": [
+        "1C25TUV",
+        "00013077"
+      ],
+      "date": "2025-09-30",
+      "category": "detail_match",
+      "money_inverse_original": true,
+      "line_totals_match_header": true,
+      "name_amounts_match": true,
+      "qty_inverse_match": true,
+      "units_match": true,
+      "xml_lines": [
+        {
+          "name": "Máy phun sương tạo độ ẩm không khí diệt khuẩn bằng tia UVC với màn hình LCD - KH200",
+          "unit": "CÁI",
+          "qty": "-1.000000",
+          "price": "628703.000000",
+          "goods": "-628703.000000",
+          "tax": "-50296.0",
+          "pay": "-678999.000000",
+          "rate": "8%",
+          "nature": "1"
+        }
+      ],
+      "original_lines": [
+        {
+          "name": "Máy phun sương tạo độ ẩm không khí diệt khuẩn bằng tia UVC với màn hình LCD KH200",
+          "unit": "Cái",
+          "qty": 1,
+          "price": 628703,
+          "goods": 628703,
+          "rate": "8%",
+          "tax": 50296,
+          "pay": 678999,
+          "discount": 0,
+          "buyer": "anhngoc0623",
+          "address": "",
+          "taxid": "",
+          "email": null,
+          "method": "TM/CK",
+          "date": "2025-06-05",
+          "source": "Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 11337"
+        }
+      ],
+      "original_zero_goods_lines": 0,
+      "all_rates_8": true,
+      "all_line_nature_1": true,
+      "unit_price_preserved": true
+    },
+    {
+      "root": [
+        "1C25TUV",
+        "00003433"
+      ],
+      "adjustment": [
+        "1C25TUV",
+        "00013078"
+      ],
+      "date": "2025-09-30",
+      "category": "detail_match",
+      "money_inverse_original": true,
+      "line_totals_match_header": true,
+      "name_amounts_match": true,
+      "qty_inverse_match": true,
+      "units_match": true,
+      "xml_lines": [
+        {
+          "name": "Máy phun sương tạo độ ẩm không khí diệt khuẩn bằng tia UVC với màn hình LCD - KH200",
+          "unit": "Cái",
+          "qty": "-1.000000",
+          "price": "628704.000000",
+          "goods": "-628704.000000",
+          "tax": "-50296.0",
+          "pay": "-679000.000000",
+          "rate": "8%",
+          "nature": "1"
+        }
+      ],
+      "original_lines": [
+        {
+          "name": "Máy phun sương tạo độ ẩm không khí diệt khuẩn bằng tia UVC với màn hình LCD KH200",
+          "unit": "Cái",
+          "qty": 1,
+          "price": 628704,
+          "goods": 628704,
+          "rate": "8%",
+          "tax": 50296,
+          "pay": 679000,
+          "discount": 0,
+          "buyer": "user2283455024951",
+          "address": "",
+          "taxid": "",
+          "email": null,
+          "method": "TM/CK",
+          "date": "2025-06-06",
+          "source": "Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 11166"
+        }
+      ],
+      "original_zero_goods_lines": 0,
+      "all_rates_8": true,
+      "all_line_nature_1": true,
+      "unit_price_preserved": true
+    },
+    {
+      "root": [
+        "1C25TUV",
+        "00003498"
+      ],
+      "adjustment": [
+        "1C25TUV",
+        "00013076"
+      ],
+      "date": "2025-09-30",
+      "category": "detail_match",
+      "money_inverse_original": true,
+      "line_totals_match_header": true,
+      "name_amounts_match": true,
+      "qty_inverse_match": true,
+      "units_match": true,
+      "xml_lines": [
+        {
+          "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - KA350 Standard",
+          "unit": "CÁI",
+          "qty": "-1.000000",
+          "price": "1795370.000000",
+          "goods": "-1795370.000000",
+          "tax": "-143630.0",
+          "pay": "-1939000.000000",
+          "rate": "8%",
+          "nature": "1"
+        }
+      ],
+      "original_lines": [
+        {
+          "name": "Máy lọc không khí diệt khuẩn bằng tia UVC KA350 Standard",
+          "unit": "Cái",
+          "qty": 1,
+          "price": 1795370,
+          "goods": 1795370,
+          "rate": "8%",
+          "tax": 143630,
+          "pay": 1939000,
+          "discount": 0,
+          "buyer": "trung4502",
+          "address": "",
+          "taxid": "",
+          "email": null,
+          "method": "TM/CK",
+          "date": "2025-06-06",
+          "source": "Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 11101"
+        }
+      ],
+      "original_zero_goods_lines": 0,
+      "all_rates_8": true,
+      "all_line_nature_1": true,
+      "unit_price_preserved": true
+    },
+    {
+      "root": [
+        "1C25TUV",
+        "00003510"
+      ],
+      "adjustment": [
+        "1C25TUV",
+        "00013073"
+      ],
+      "date": "2025-09-30",
+      "category": "detail_match",
+      "money_inverse_original": true,
+      "line_totals_match_header": true,
+      "name_amounts_match": true,
+      "qty_inverse_match": true,
+      "units_match": true,
+      "xml_lines": [
+        {
+          "name": "Máy phun sương tạo độ ẩm không khí diệt khuẩn bằng tia UVC với màn hình LCD - KH200",
+          "unit": "CÁI",
+          "qty": "-1.000000",
+          "price": "606069.000000",
+          "goods": "-606069.000000",
+          "tax": "-48486.0",
+          "pay": "-654555.000000",
+          "rate": "8%",
+          "nature": "1"
+        }
+      ],
+      "original_lines": [
+        {
+          "name": "Máy phun sương tạo độ ẩm không khí diệt khuẩn bằng tia UVC với màn hình LCD KH200",
+          "unit": "Cái",
+          "qty": 1,
+          "price": 606069,
+          "goods": 606069,
+          "rate": "8%",
+          "tax": 48486,
+          "pay": 654555,
+          "discount": 0,
+          "buyer": "khanhhuu999",
+          "address": "",
+          "taxid": "",
+          "email": null,
+          "method": "TM/CK",
+          "date": "2025-06-06",
+          "source": "Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 11089"
+        }
+      ],
+      "original_zero_goods_lines": 0,
+      "all_rates_8": true,
+      "all_line_nature_1": true,
+      "unit_price_preserved": true
+    },
+    {
+      "root": [
+        "1C25TUV",
+        "00003548"
+      ],
+      "adjustment": [
+        "1C25TUV",
+        "00013072"
+      ],
+      "date": "2025-09-30",
+      "category": "name_difference",
+      "money_inverse_original": true,
+      "line_totals_match_header": true,
+      "name_amounts_match": false,
+      "qty_inverse_match": false,
+      "units_match": null,
+      "xml_lines": [
+        {
+          "name": "Lõi lọc diệt khuẩn - Filter - KA150S",
+          "unit": "CÁI",
+          "qty": "-1.000000",
+          "price": "962037.000000",
+          "goods": "-962037.000000",
+          "tax": "-76963.0",
+          "pay": "-1039000.000000",
+          "rate": "8%",
+          "nature": "1"
+        }
+      ],
+      "original_lines": [
+        {
+          "name": "Máy lọc không khí diệt khuẩn bằng tia UVC KA150S",
+          "unit": "Cái",
+          "qty": 1,
+          "price": 962037,
+          "goods": 962037,
+          "rate": "8%",
+          "tax": 76963,
+          "pay": 1039000,
+          "discount": 0,
+          "buyer": "ngc.nh.888.qunh.an",
+          "address": "",
+          "taxid": "",
+          "email": null,
+          "method": "TM/CK",
+          "date": "2025-06-06",
+          "source": "Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 11051"
+        }
+      ],
+      "original_zero_goods_lines": 0,
+      "all_rates_8": true,
+      "all_line_nature_1": true
+    },
+    {
+      "root": [
+        "1C25TUV",
+        "00003673"
+      ],
+      "adjustment": [
+        "1C25TUV",
+        "00013086"
+      ],
+      "date": "2025-09-30",
+      "category": "detail_match",
+      "money_inverse_original": true,
+      "line_totals_match_header": true,
+      "name_amounts_match": true,
+      "qty_inverse_match": true,
+      "units_match": true,
+      "xml_lines": [
+        {
+          "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - KA150P",
+          "unit": "Cái",
+          "qty": "-1.000000",
+          "price": "1147222.000000",
+          "goods": "-1147222.000000",
+          "tax": "-91778.0",
+          "pay": "-1239000.000000",
+          "rate": "8%",
+          "nature": "1"
+        }
+      ],
+      "original_lines": [
+        {
+          "name": "Máy lọc không khí diệt khuẩn bằng tia UVC KA150P",
+          "unit": "Cái",
+          "qty": 1,
+          "price": 1147222,
+          "goods": 1147222,
+          "rate": "8%",
+          "tax": 91778,
+          "pay": 1239000,
+          "discount": 0,
+          "buyer": "thhuyntrangnguyn06",
+          "address": "",
+          "taxid": "",
+          "email": null,
+          "method": "TM/CK",
+          "date": "2025-06-07",
+          "source": "Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 10907"
+        }
+      ],
+      "original_zero_goods_lines": 0,
+      "all_rates_8": true,
+      "all_line_nature_1": true,
+      "unit_price_preserved": true
+    },
+    {
+      "root": [
+        "1C25TUV",
+        "00003746"
+      ],
+      "adjustment": [
+        "1C25TUV",
+        "00013080"
+      ],
+      "date": "2025-09-30",
+      "category": "detail_match",
+      "money_inverse_original": true,
+      "line_totals_match_header": true,
+      "name_amounts_match": true,
+      "qty_inverse_match": true,
+      "units_match": true,
+      "xml_lines": [
+        {
+          "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - KA350 Standard",
+          "unit": "CÁI",
+          "qty": "-1.000000",
+          "price": "1881528.000000",
+          "goods": "-1881528.000000",
+          "tax": "-150522.0",
+          "pay": "-2032050.000000",
+          "rate": "8%",
+          "nature": "1"
+        }
+      ],
+      "original_lines": [
+        {
+          "name": "Máy lọc không khí diệt khuẩn bằng tia UVC KA350 Standard",
+          "unit": "Cái",
+          "qty": 1,
+          "price": 1881528,
+          "goods": 1881528,
+          "rate": "8%",
+          "tax": 150522,
+          "pay": 2032050,
+          "discount": 0,
+          "buyer": "nguyn.v.m.anh83",
+          "address": "",
+          "taxid": "",
+          "email": null,
+          "method": "TM/CK",
+          "date": "2025-06-07",
+          "source": "Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 10834"
+        }
+      ],
+      "original_zero_goods_lines": 0,
+      "all_rates_8": true,
+      "all_line_nature_1": true,
+      "unit_price_preserved": true
+    },
+    {
+      "root": [
+        "1C25TUV",
+        "00004002"
+      ],
+      "adjustment": [
+        "1C25TUV",
+        "00013083"
+      ],
+      "date": "2025-09-30",
+      "category": "detail_match",
+      "money_inverse_original": true,
+      "line_totals_match_header": true,
+      "name_amounts_match": true,
+      "qty_inverse_match": true,
+      "units_match": true,
+      "xml_lines": [
+        {
+          "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - KA150S",
+          "unit": "CÁI",
+          "qty": "-1.000000",
+          "price": "758333.000000",
+          "goods": "-758333.000000",
+          "tax": "-60667.0",
+          "pay": "-819000.000000",
+          "rate": "8%",
+          "nature": "1"
+        }
+      ],
+      "original_lines": [
+        {
+          "name": "Máy lọc không khí diệt khuẩn bằng tia UVC KA150S",
+          "unit": "Cái",
+          "qty": 1,
+          "price": 758333,
+          "goods": 758333,
+          "rate": "8%",
+          "tax": 60667,
+          "pay": 819000,
+          "discount": 0,
+          "buyer": "naaa_316",
+          "address": "",
+          "taxid": "",
+          "email": null,
+          "method": "TM/CK",
+          "date": "2025-06-08",
+          "source": "Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 10544"
+        }
+      ],
+      "original_zero_goods_lines": 0,
+      "all_rates_8": true,
+      "all_line_nature_1": true,
+      "unit_price_preserved": true
+    },
+    {
+      "root": [
+        "1C25TUV",
+        "00004005"
+      ],
+      "adjustment": [
+        "1C25TUV",
+        "00013084"
+      ],
+      "date": "2025-09-30",
+      "category": "detail_match",
+      "money_inverse_original": true,
+      "line_totals_match_header": true,
+      "name_amounts_match": true,
+      "qty_inverse_match": true,
+      "units_match": true,
+      "xml_lines": [
+        {
+          "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - KA150S",
+          "unit": "CÁI",
+          "qty": "-1.000000",
+          "price": "758333.000000",
+          "goods": "-758333.000000",
+          "tax": "-60667.0",
+          "pay": "-819000.000000",
+          "rate": "8%",
+          "nature": "1"
+        }
+      ],
+      "original_lines": [
+        {
+          "name": "Máy lọc không khí diệt khuẩn bằng tia UVC KA150S",
+          "unit": "Cái",
+          "qty": 1,
+          "price": 758333,
+          "goods": 758333,
+          "rate": "8%",
+          "tax": 60667,
+          "pay": 819000,
+          "discount": 0,
+          "buyer": "_foxie.td4",
+          "address": "",
+          "taxid": "",
+          "email": null,
+          "method": "TM/CK",
+          "date": "2025-06-08",
+          "source": "Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 10541"
+        }
+      ],
+      "original_zero_goods_lines": 0,
+      "all_rates_8": true,
+      "all_line_nature_1": true,
+      "unit_price_preserved": true
+    },
+    {
+      "root": [
+        "1C25TUV",
+        "00004026"
+      ],
+      "adjustment": [
+        "1C25TUV",
+        "00013079"
+      ],
+      "date": "2025-09-30",
+      "category": "name_difference",
+      "money_inverse_original": true,
+      "line_totals_match_header": true,
+      "name_amounts_match": false,
+      "qty_inverse_match": false,
+      "units_match": null,
+      "xml_lines": [
+        {
+          "name": "Máy phun sương tạo độ ẩm không khí diệt khuẩn bằng tia UVC với màn hình LCD - KH100",
+          "unit": "CÁI",
+          "qty": "-1.000000",
+          "price": "499074.000000",
+          "goods": "-499074.000000",
+          "tax": "-39926.0",
+          "pay": "-539000.000000",
+          "rate": "8%",
+          "nature": "1"
+        }
+      ],
+      "original_lines": [
+        {
+          "name": "Máy phun sương tạo độ ẩm không khí diệt khuẩn bằng tia UVC KH100",
+          "unit": "Cái",
+          "qty": 1,
+          "price": 499074,
+          "goods": 499074,
+          "rate": "8%",
+          "tax": 39926,
+          "pay": 539000,
+          "discount": 0,
+          "buyer": "1268boutique",
+          "address": "",
+          "taxid": "",
+          "email": null,
+          "method": "TM/CK",
+          "date": "2025-06-08",
+          "source": "Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 10520"
+        }
+      ],
+      "original_zero_goods_lines": 0,
+      "all_rates_8": true,
+      "all_line_nature_1": true
+    },
+    {
+      "root": [
+        "1C25TUV",
+        "00004081"
+      ],
+      "adjustment": [
+        "1C25TUV",
+        "00013033"
+      ],
+      "date": "2025-09-26",
+      "category": "negative_price",
+      "money_inverse_original": true,
+      "line_totals_match_header": true,
+      "name_amounts_match": true,
+      "qty_inverse_match": false,
+      "units_match": true,
+      "xml_lines": [
+        {
+          "name": "Vợt bắt muỗi tự động 2 trong 1 thu hút các loại côn trùng - KM002",
+          "unit": "Cái",
+          "qty": "1.000000",
+          "price": "-165741.000000",
+          "goods": "-165741.000000",
+          "tax": "-13259.0",
+          "pay": "-179000.000000",
+          "rate": "8%",
+          "nature": "1"
+        }
+      ],
+      "original_lines": [
+        {
+          "name": "Vợt bắt muỗi tự động 2 trong 1 thu hút các loại côn trùng KM002",
+          "unit": "Cái",
+          "qty": 1,
+          "price": 165741,
+          "goods": 165741,
+          "rate": "8%",
+          "tax": 13259,
+          "pay": 179000,
+          "discount": 0,
+          "buyer": "ngodan9495",
+          "address": "",
+          "taxid": "",
+          "email": null,
+          "method": "TM/CK",
+          "date": "2025-06-08",
+          "source": "Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 10465"
+        }
+      ],
+      "original_zero_goods_lines": 0,
+      "all_rates_8": true,
+      "all_line_nature_1": true
+    },
+    {
+      "root": [
+        "1C25TUV",
+        "00004266"
+      ],
+      "adjustment": [
+        "1C25TUV",
+        "00013085"
+      ],
+      "date": "2025-09-30",
+      "category": "detail_match",
+      "money_inverse_original": true,
+      "line_totals_match_header": true,
+      "name_amounts_match": true,
+      "qty_inverse_match": true,
+      "units_match": true,
+      "xml_lines": [
+        {
+          "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - KA150S",
+          "unit": "CÁI",
+          "qty": "-1.000000",
+          "price": "767593.000000",
+          "goods": "-767593.000000",
+          "tax": "-61407.0",
+          "pay": "-829000.000000",
+          "rate": "8%",
+          "nature": "1"
+        }
+      ],
+      "original_lines": [
+        {
+          "name": "Máy lọc không khí diệt khuẩn bằng tia UVC KA150S",
+          "unit": "Cái",
+          "qty": 1,
+          "price": 767593,
+          "goods": 767593,
+          "rate": "8%",
+          "tax": 61407,
+          "pay": 829000,
+          "discount": 0,
+          "buyer": "__th.nhan__",
+          "address": "",
+          "taxid": "",
+          "email": null,
+          "method": "TM/CK",
+          "date": "2025-06-09",
+          "source": "Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 10244"
+        }
+      ],
+      "original_zero_goods_lines": 0,
+      "all_rates_8": true,
+      "all_line_nature_1": true,
+      "unit_price_preserved": true
+    },
+    {
+      "root": [
+        "1C25TUV",
+        "00004269"
+      ],
+      "adjustment": [
+        "1C25TUV",
+        "00013081"
+      ],
+      "date": "2025-09-30",
+      "category": "detail_match",
+      "money_inverse_original": true,
+      "line_totals_match_header": true,
+      "name_amounts_match": true,
+      "qty_inverse_match": true,
+      "units_match": true,
+      "xml_lines": [
+        {
+          "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - KA150P",
+          "unit": "CÁI",
+          "qty": "-1.000000",
+          "price": "1213008.000000",
+          "goods": "-1213008.000000",
+          "tax": "-97041.0",
+          "pay": "-1310049.000000",
+          "rate": "8%",
+          "nature": "1"
+        }
+      ],
+      "original_lines": [
+        {
+          "name": "Máy lọc không khí diệt khuẩn bằng tia UVC KA150P",
+          "unit": "Cái",
+          "qty": 1,
+          "price": 1213008,
+          "goods": 1213008,
+          "rate": "8%",
+          "tax": 97041,
+          "pay": 1310049,
+          "discount": 0,
+          "buyer": "kimkhoido",
+          "address": "",
+          "taxid": "",
+          "email": null,
+          "method": "TM/CK",
+          "date": "2025-06-09",
+          "source": "Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 10241"
+        }
+      ],
+      "original_zero_goods_lines": 0,
+      "all_rates_8": true,
+      "all_line_nature_1": true,
+      "unit_price_preserved": true
+    },
+    {
+      "root": [
+        "1C25TUV",
+        "00004494"
+      ],
+      "adjustment": [
+        "1C25TUV",
+        "00013088"
+      ],
+      "date": "2025-09-30",
+      "category": "detail_match",
+      "money_inverse_original": true,
+      "line_totals_match_header": true,
+      "name_amounts_match": true,
+      "qty_inverse_match": true,
+      "units_match": true,
+      "xml_lines": [
+        {
+          "name": "Máy phun sương tạo độ ẩm không khí diệt khuẩn bằng tia UVC với màn hình LCD - KH200",
+          "unit": "CÁI",
+          "qty": "-1.000000",
+          "price": "608585.000000",
+          "goods": "-608585.000000",
+          "tax": "-48687.0",
+          "pay": "-657272.000000",
+          "rate": "8%",
+          "nature": "1"
+        }
+      ],
+      "original_lines": [
+        {
+          "name": "Máy phun sương tạo độ ẩm không khí diệt khuẩn bằng tia UVC với màn hình LCD KH200",
+          "unit": "Cái",
+          "qty": 1,
+          "price": 608585,
+          "goods": 608585,
+          "rate": "8%",
+          "tax": 48687,
+          "pay": 657272,
+          "discount": 0,
+          "buyer": "thukem668",
+          "address": "",
+          "taxid": "",
+          "email": null,
+          "method": "TM/CK",
+          "date": "2025-06-10",
+          "source": "Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 9974"
+        }
+      ],
+      "original_zero_goods_lines": 0,
+      "all_rates_8": true,
+      "all_line_nature_1": true,
+      "unit_price_preserved": true
+    },
+    {
+      "root": [
+        "1C25TUV",
+        "00004526"
+      ],
+      "adjustment": [
+        "1C25TUV",
+        "00013082"
+      ],
+      "date": "2025-09-30",
+      "category": "detail_match",
+      "money_inverse_original": true,
+      "line_totals_match_header": true,
+      "name_amounts_match": true,
+      "qty_inverse_match": true,
+      "units_match": true,
+      "xml_lines": [
+        {
+          "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - KA150S",
+          "unit": "CÁI",
+          "qty": "-1.000000",
+          "price": "878704.000000",
+          "goods": "-878704.000000",
+          "tax": "-70296.0",
+          "pay": "-949000.000000",
+          "rate": "8%",
+          "nature": "1"
+        }
+      ],
+      "original_lines": [
+        {
+          "name": "Máy lọc không khí diệt khuẩn bằng tia UVC KA150S",
+          "unit": "Cái",
+          "qty": 1,
+          "price": 878704,
+          "goods": 878704,
+          "rate": "8%",
+          "tax": 70296,
+          "pay": 949000,
+          "discount": 0,
+          "buyer": "nam.anh9442",
+          "address": "",
+          "taxid": "",
+          "email": null,
+          "method": "TM/CK",
+          "date": "2025-06-10",
+          "source": "Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 9942"
+        }
+      ],
+      "original_zero_goods_lines": 0,
+      "all_rates_8": true,
+      "all_line_nature_1": true,
+      "unit_price_preserved": true
+    },
+    {
+      "root": [
+        "1C25TUV",
+        "00004719"
+      ],
+      "adjustment": [
+        "1C25TUV",
+        "00013090"
+      ],
+      "date": "2025-09-30",
+      "category": "detail_match",
+      "money_inverse_original": true,
+      "line_totals_match_header": true,
+      "name_amounts_match": true,
+      "qty_inverse_match": true,
+      "units_match": true,
+      "xml_lines": [
+        {
+          "name": "Máy phun sương tạo độ ẩm không khí diệt khuẩn bằng tia UVC với màn hình LCD - KH200",
+          "unit": "CÁI",
+          "qty": "-1.000000",
+          "price": "628704.000000",
+          "goods": "-628704.000000",
+          "tax": "-50296.0",
+          "pay": "-679000.000000",
+          "rate": "8%",
+          "nature": "1"
+        }
+      ],
+      "original_lines": [
+        {
+          "name": "Máy phun sương tạo độ ẩm không khí diệt khuẩn bằng tia UVC với màn hình LCD KH200",
+          "unit": "Cái",
+          "qty": 1,
+          "price": 628704,
+          "goods": 628704,
+          "rate": "8%",
+          "tax": 50296,
+          "pay": 679000,
+          "discount": 0,
+          "buyer": "huynhnhu99nguyen",
+          "address": "",
+          "taxid": "",
+          "email": null,
+          "method": "TM/CK",
+          "date": "2025-06-11",
+          "source": "Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 9678"
+        }
+      ],
+      "original_zero_goods_lines": 0,
+      "all_rates_8": true,
+      "all_line_nature_1": true,
+      "unit_price_preserved": true
+    },
+    {
+      "root": [
+        "1C25TUV",
+        "00004730"
+      ],
+      "adjustment": [
+        "1C25TUV",
+        "00013091"
+      ],
+      "date": "2025-09-30",
+      "category": "detail_match",
+      "money_inverse_original": true,
+      "line_totals_match_header": true,
+      "name_amounts_match": true,
+      "qty_inverse_match": true,
+      "units_match": true,
+      "xml_lines": [
+        {
+          "name": "Đèn bắt muỗi, ruồi và các loại côn trùng - KM300",
+          "unit": "CÁI",
+          "qty": "-1.000000",
+          "price": "499073.000000",
+          "goods": "-499073.000000",
+          "tax": "-39926.0",
+          "pay": "-538999.000000",
+          "rate": "8%",
+          "nature": "1"
+        }
+      ],
+      "original_lines": [
+        {
+          "name": "Đèn bắt muỗi, ruồi và các loại côn trùng KM300",
+          "unit": "Cái",
+          "qty": 1,
+          "price": 499073,
+          "goods": 499073,
+          "rate": "8%",
+          "tax": 39926,
+          "pay": 538999,
+          "discount": 0,
+          "buyer": "ltv201020004",
+          "address": "",
+          "taxid": "",
+          "email": null,
+          "method": "TM/CK",
+          "date": "2025-06-11",
+          "source": "Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 9667"
+        }
+      ],
+      "original_zero_goods_lines": 0,
+      "all_rates_8": true,
+      "all_line_nature_1": true,
+      "unit_price_preserved": true
+    },
+    {
+      "root": [
+        "1C25TUV",
+        "00004795"
+      ],
+      "adjustment": [
+        "1C25TUV",
+        "00013087"
+      ],
+      "date": "2025-09-30",
+      "category": "detail_match",
+      "money_inverse_original": true,
+      "line_totals_match_header": true,
+      "name_amounts_match": true,
+      "qty_inverse_match": true,
+      "units_match": true,
+      "xml_lines": [
+        {
+          "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - KA350 Light",
+          "unit": "Cái",
+          "qty": "-1.000000",
+          "price": "1617639.000000",
+          "goods": "-1617639.000000",
+          "tax": "-129411.0",
+          "pay": "-1747050.000000",
+          "rate": "8%",
+          "nature": "1"
+        }
+      ],
+      "original_lines": [
+        {
+          "name": "Máy lọc không khí diệt khuẩn bằng tia UVC KA350 Light",
+          "unit": "Cái",
+          "qty": 1,
+          "price": 1617639,
+          "goods": 1617639,
+          "rate": "8%",
+          "tax": 129411,
+          "pay": 1747050,
+          "discount": 0,
+          "buyer": "hthuquynh05",
+          "address": "",
+          "taxid": "",
+          "email": null,
+          "method": "TM/CK",
+          "date": "2025-06-11",
+          "source": "Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 9602"
+        }
+      ],
+      "original_zero_goods_lines": 0,
+      "all_rates_8": true,
+      "all_line_nature_1": true,
+      "unit_price_preserved": true
+    },
+    {
+      "root": [
+        "1C25TUV",
+        "00004953"
+      ],
+      "adjustment": [
+        "1C25TUV",
+        "00013089"
+      ],
+      "date": "2025-09-30",
+      "category": "name_difference",
+      "money_inverse_original": true,
+      "line_totals_match_header": true,
+      "name_amounts_match": false,
+      "qty_inverse_match": false,
+      "units_match": null,
+      "xml_lines": [
+        {
+          "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - KA350 Pro-Upgrade",
+          "unit": "Cái",
+          "qty": "-1.000000",
+          "price": "2295369.000000",
+          "goods": "-2295369.000000",
+          "tax": "-183630.0",
+          "pay": "-2478999.000000",
+          "rate": "8%",
+          "nature": "1"
+        }
+      ],
+      "original_lines": [
+        {
+          "name": "Máy lọc không khí diệt khuẩn bằng tia UVC KA350 ProUpgrade",
+          "unit": "Cái",
+          "qty": 1,
+          "price": 2295369,
+          "goods": 2295369,
+          "rate": "8%",
+          "tax": 183630,
+          "pay": 2478999,
+          "discount": 0,
+          "buyer": "thipham702",
+          "address": "",
+          "taxid": "",
+          "email": null,
+          "method": "TM/CK",
+          "date": "2025-06-12",
+          "source": "Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 9418"
+        }
+      ],
+      "original_zero_goods_lines": 0,
+      "all_rates_8": true,
+      "all_line_nature_1": true
+    },
+    {
+      "root": [
+        "1C25TUV",
+        "00005154"
+      ],
+      "adjustment": [
+        "1C25TUV",
+        "00013094"
+      ],
+      "date": "2025-09-30",
+      "category": "detail_match",
+      "money_inverse_original": true,
+      "line_totals_match_header": true,
+      "name_amounts_match": true,
+      "qty_inverse_match": true,
+      "units_match": true,
+      "xml_lines": [
+        {
+          "name": "Vợt bắt muỗi tự động 2 trong 1 thu hút các loại côn trùng - KM003",
+          "unit": "CÁI",
+          "qty": "-1.000000",
+          "price": "221296.000000",
+          "goods": "-221296.000000",
+          "tax": "-17704.0",
+          "pay": "-239000.000000",
+          "rate": "8%",
+          "nature": "1"
+        }
+      ],
+      "original_lines": [
+        {
+          "name": "Vợt bắt muỗi tự động 2 trong 1 thu hút các loại côn trùng KM003",
+          "unit": "Cái",
+          "qty": 1,
+          "price": 221296,
+          "goods": 221296,
+          "rate": "8%",
+          "tax": 17704,
+          "pay": 239000,
+          "discount": 0,
+          "buyer": "1601hien.hien",
+          "address": "",
+          "taxid": "",
+          "email": null,
+          "method": "TM/CK",
+          "date": "2025-06-13",
+          "source": "Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 9184"
+        }
+      ],
+      "original_zero_goods_lines": 0,
+      "all_rates_8": true,
+      "all_line_nature_1": true,
+      "unit_price_preserved": true
+    },
+    {
+      "root": [
+        "1C25TUV",
+        "00005212"
+      ],
+      "adjustment": [
+        "1C25TUV",
+        "00013092"
+      ],
+      "date": "2025-09-30",
+      "category": "detail_match",
+      "money_inverse_original": true,
+      "line_totals_match_header": true,
+      "name_amounts_match": true,
+      "qty_inverse_match": true,
+      "units_match": true,
+      "xml_lines": [
+        {
+          "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - KA150P",
+          "unit": "CÁI",
+          "qty": "-1.000000",
+          "price": "1369444.000000",
+          "goods": "-1369444.000000",
+          "tax": "-109556.0",
+          "pay": "-1479000.000000",
+          "rate": "8%",
+          "nature": "1"
+        }
+      ],
+      "original_lines": [
+        {
+          "name": "Máy lọc không khí diệt khuẩn bằng tia UVC KA150P",
+          "unit": "Cái",
+          "qty": 1,
+          "price": 1369444,
+          "goods": 1369444,
+          "rate": "8%",
+          "tax": 109556,
+          "pay": 1479000,
+          "discount": 0,
+          "buyer": "tamle26121988",
+          "address": "",
+          "taxid": "",
+          "email": null,
+          "method": "TM/CK",
+          "date": "2025-06-13",
+          "source": "Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 9126"
+        }
+      ],
+      "original_zero_goods_lines": 0,
+      "all_rates_8": true,
+      "all_line_nature_1": true,
+      "unit_price_preserved": true
+    },
+    {
+      "root": [
+        "1C25TUV",
+        "00005555"
+      ],
+      "adjustment": [
+        "1C25TUV",
+        "00013034"
+      ],
+      "date": "2025-09-26",
+      "category": "negative_price",
+      "money_inverse_original": true,
+      "line_totals_match_header": true,
+      "name_amounts_match": true,
+      "qty_inverse_match": false,
+      "units_match": true,
+      "xml_lines": [
+        {
+          "name": "Vợt bắt muỗi tự động 2 trong 1 thu hút các loại côn trùng - KM002",
+          "unit": "Cái",
+          "qty": "1.000000",
+          "price": "-165740.000000",
+          "goods": "-165740.000000",
+          "tax": "-13259.0",
+          "pay": "-178999.000000",
+          "rate": "8%",
+          "nature": "1"
+        }
+      ],
+      "original_lines": [
+        {
+          "name": "Vợt bắt muỗi tự động 2 trong 1 thu hút các loại côn trùng KM002",
+          "unit": "Cái",
+          "qty": 1,
+          "price": 165740,
+          "goods": 165740,
+          "rate": "8%",
+          "tax": 13259,
+          "pay": 178999,
+          "discount": 0,
+          "buyer": "loc1430",
+          "address": "",
+          "taxid": "",
+          "email": null,
+          "method": "TM/CK",
+          "date": "2025-06-14",
+          "source": "Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 8755"
+        }
+      ],
+      "original_zero_goods_lines": 0,
+      "all_rates_8": true,
+      "all_line_nature_1": true
+    },
+    {
+      "root": [
+        "1C25TUV",
+        "00005577"
+      ],
+      "adjustment": [
+        "1C25TUV",
+        "00013093"
+      ],
+      "date": "2025-09-30",
+      "category": "detail_match",
+      "money_inverse_original": true,
+      "line_totals_match_header": true,
+      "name_amounts_match": true,
+      "qty_inverse_match": true,
+      "units_match": true,
+      "xml_lines": [
+        {
+          "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - KA150P",
+          "unit": "CÁI",
+          "qty": "-1.000000",
+          "price": "1276852.000000",
+          "goods": "-1276852.000000",
+          "tax": "-102148.0",
+          "pay": "-1379000.000000",
+          "rate": "8%",
+          "nature": "1"
+        }
+      ],
+      "original_lines": [
+        {
+          "name": "Máy lọc không khí diệt khuẩn bằng tia UVC KA150P",
+          "unit": "Cái",
+          "qty": 1,
+          "price": 1276852,
+          "goods": 1276852,
+          "rate": "8%",
+          "tax": 102148,
+          "pay": 1379000,
+          "discount": 0,
+          "buyer": "thaoanh141998",
+          "address": "",
+          "taxid": "",
+          "email": null,
+          "method": "TM/CK",
+          "date": "2025-06-14",
+          "source": "Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 8733"
+        }
+      ],
+      "original_zero_goods_lines": 0,
+      "all_rates_8": true,
+      "all_line_nature_1": true,
+      "unit_price_preserved": true
+    },
+    {
+      "root": [
+        "1C25TUV",
+        "00005905"
+      ],
+      "adjustment": [
+        "1C25TUV",
+        "00013095"
+      ],
+      "date": "2025-09-30",
+      "category": "name_difference",
+      "money_inverse_original": true,
+      "line_totals_match_header": true,
+      "name_amounts_match": false,
+      "qty_inverse_match": false,
+      "units_match": null,
+      "xml_lines": [
+        {
+          "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - KA600",
+          "unit": "CÁI",
+          "qty": "-1.000000",
+          "price": "509259.000000",
+          "goods": "-509259.000000",
+          "tax": "-40741.0",
+          "pay": "-550000.000000",
+          "rate": "8%",
+          "nature": "1"
+        }
+      ],
+      "original_lines": [
+        {
+          "name": "Lõi lọc diệt khuẩn  Filter KA600",
+          "unit": "Cái",
+          "qty": 1,
+          "price": 509259,
+          "goods": 509259,
+          "rate": "8%",
+          "tax": 40741,
+          "pay": 550000,
+          "discount": 0,
+          "buyer": "lothinhat4",
+          "address": "",
+          "taxid": "",
+          "email": null,
+          "method": "TM/CK",
+          "date": "2025-06-16",
+          "source": "Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 8390"
+        }
+      ],
+      "original_zero_goods_lines": 0,
+      "all_rates_8": true,
+      "all_line_nature_1": true
+    },
+    {
+      "root": [
+        "1C25TUV",
+        "00005918"
+      ],
+      "adjustment": [
+        "1C25TUV",
+        "00013035"
+      ],
+      "date": "2025-09-26",
+      "category": "negative_price",
+      "money_inverse_original": true,
+      "line_totals_match_header": true,
+      "name_amounts_match": true,
+      "qty_inverse_match": false,
+      "units_match": true,
+      "xml_lines": [
+        {
+          "name": "Vợt bắt muỗi tự động 2 trong 1 thu hút các loại côn trùng - KM002",
+          "unit": "Cái",
+          "qty": "1.000000",
+          "price": "-165741.000000",
+          "goods": "-165741.000000",
+          "tax": "-13259.0",
+          "pay": "-179000.000000",
+          "rate": "8%",
+          "nature": "1"
+        }
+      ],
+      "original_lines": [
+        {
+          "name": "Vợt bắt muỗi tự động 2 trong 1 thu hút các loại côn trùng KM002",
+          "unit": "Cái",
+          "qty": 1,
+          "price": 165741,
+          "goods": 165741,
+          "rate": "8%",
+          "tax": 13259,
+          "pay": 179000,
+          "discount": 0,
+          "buyer": "tongkhotrangmin",
+          "address": "",
+          "taxid": "",
+          "email": null,
+          "method": "TM/CK",
+          "date": "2025-06-16",
+          "source": "Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 8377"
+        }
+      ],
+      "original_zero_goods_lines": 0,
+      "all_rates_8": true,
+      "all_line_nature_1": true
+    },
+    {
+      "root": [
+        "1C25TUV",
+        "00005925"
+      ],
+      "adjustment": [
+        "1C25TUV",
+        "00013096"
+      ],
+      "date": "2025-09-30",
+      "category": "detail_match",
+      "money_inverse_original": true,
+      "line_totals_match_header": true,
+      "name_amounts_match": true,
+      "qty_inverse_match": true,
+      "units_match": true,
+      "xml_lines": [
+        {
+          "name": "Đèn bắt muỗi, ruồi và các loại côn trùng - KM420",
+          "unit": "CÁI",
+          "qty": "-1.000000",
+          "price": "405556.000000",
+          "goods": "-405556.000000",
+          "tax": "-32444.0",
+          "pay": "-438000.000000",
+          "rate": "8%",
+          "nature": "1"
+        }
+      ],
+      "original_lines": [
+        {
+          "name": "Đèn bắt muỗi, ruồi và các loại côn trùng KM420",
+          "unit": "Cái",
+          "qty": 1,
+          "price": 405556,
+          "goods": 405556,
+          "rate": "8%",
+          "tax": 32444,
+          "pay": 438000,
+          "discount": 0,
+          "buyer": "kurobakaito226",
+          "address": "",
+          "taxid": "",
+          "email": null,
+          "method": "TM/CK",
+          "date": "2025-06-16",
+          "source": "Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 8370"
+        }
+      ],
+      "original_zero_goods_lines": 0,
+      "all_rates_8": true,
+      "all_line_nature_1": true,
+      "unit_price_preserved": true
+    },
+    {
+      "root": [
+        "1C25TUV",
+        "00006593"
+      ],
+      "adjustment": [
+        "1C25TUV",
+        "00013097"
+      ],
+      "date": "2025-09-30",
+      "category": "detail_match",
+      "money_inverse_original": true,
+      "line_totals_match_header": true,
+      "name_amounts_match": true,
+      "qty_inverse_match": true,
+      "units_match": true,
+      "xml_lines": [
+        {
+          "name": "Máy phun sương tạo độ ẩm không khí diệt khuẩn bằng tia UVC với màn hình LCD - KH200",
+          "unit": "CÁI",
+          "qty": "-1.000000",
+          "price": "597269.000000",
+          "goods": "-597269.000000",
+          "tax": "-47781.0",
+          "pay": "-645050.000000",
+          "rate": "8%",
+          "nature": "1"
+        }
+      ],
+      "original_lines": [
+        {
+          "name": "Máy phun sương tạo độ ẩm không khí diệt khuẩn bằng tia UVC với màn hình LCD KH200",
+          "unit": "Cái",
+          "qty": 1,
+          "price": 597269,
+          "goods": 597269,
+          "rate": "8%",
+          "tax": 47781,
+          "pay": 645050,
+          "discount": 0,
+          "buyer": "di.i78",
+          "address": "",
+          "taxid": "",
+          "email": null,
+          "method": "TM/CK",
+          "date": "2025-06-18",
+          "source": "Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 7614"
+        }
+      ],
+      "original_zero_goods_lines": 0,
+      "all_rates_8": true,
+      "all_line_nature_1": true,
+      "unit_price_preserved": true
+    },
+    {
+      "root": [
+        "1C25TUV",
+        "00007718"
+      ],
+      "adjustment": [
+        "1C25TUV",
+        "00013098"
+      ],
+      "date": "2025-09-30",
+      "category": "detail_match",
+      "money_inverse_original": true,
+      "line_totals_match_header": true,
+      "name_amounts_match": true,
+      "qty_inverse_match": true,
+      "units_match": true,
+      "xml_lines": [
+        {
+          "name": "Máy phun sương tạo độ ẩm không khí diệt khuẩn bằng tia UVC với màn hình LCD - KH200",
+          "unit": "CÁI",
+          "qty": "-1.000000",
+          "price": "628704.000000",
+          "goods": "-628704.000000",
+          "tax": "-50296.0",
+          "pay": "-679000.000000",
+          "rate": "8%",
+          "nature": "1"
+        }
+      ],
+      "original_lines": [
+        {
+          "name": "Máy phun sương tạo độ ẩm không khí diệt khuẩn bằng tia UVC với màn hình LCD KH200",
+          "unit": "Cái",
+          "qty": 1,
+          "price": 628704,
+          "goods": 628704,
+          "rate": "8%",
+          "tax": 50296,
+          "pay": 679000,
+          "discount": 0,
+          "buyer": "1***hhhh",
+          "address": "",
+          "taxid": "",
+          "email": null,
+          "method": "TM/CK",
+          "date": "2025-06-22",
+          "source": "Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 6427"
+        }
+      ],
+      "original_zero_goods_lines": 0,
+      "all_rates_8": true,
+      "all_line_nature_1": true,
+      "unit_price_preserved": true
+    },
+    {
+      "root": [
+        "1C25TUV",
+        "00007766"
+      ],
+      "adjustment": [
+        "1C25TUV",
+        "00013099"
+      ],
+      "date": "2025-09-30",
+      "category": "name_difference",
+      "money_inverse_original": true,
+      "line_totals_match_header": true,
+      "name_amounts_match": false,
+      "qty_inverse_match": false,
+      "units_match": null,
+      "xml_lines": [
+        {
+          "name": "Máy phun sương tạo độ ẩm không khí diệt khuẩn bằng tia UVC với màn hình LCD - KH100",
+          "unit": "CÁI",
+          "qty": "-1.000000",
+          "price": "486110.000000",
+          "goods": "-486110.000000",
+          "tax": "-38889.0",
+          "pay": "-524999.000000",
+          "rate": "8%",
+          "nature": "1"
+        }
+      ],
+      "original_lines": [
+        {
+          "name": "Máy phun sương tạo độ ẩm không khí diệt khuẩn bằng tia UVC KH100",
+          "unit": "Cái",
+          "qty": 1,
+          "price": 486110,
+          "goods": 486110,
+          "rate": "8%",
+          "tax": 38889,
+          "pay": 524999,
+          "discount": 0,
+          "buyer": "h***762",
+          "address": "",
+          "taxid": "",
+          "email": null,
+          "method": "TM/CK",
+          "date": "2025-06-22",
+          "source": "Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 6379"
+        }
+      ],
+      "original_zero_goods_lines": 0,
+      "all_rates_8": true,
+      "all_line_nature_1": true
+    },
+    {
+      "root": [
+        "1C25TUV",
+        "00007810"
+      ],
+      "adjustment": [
+        "1C25TUV",
+        "00013100"
+      ],
+      "date": "2025-09-30",
+      "category": "detail_match",
+      "money_inverse_original": true,
+      "line_totals_match_header": true,
+      "name_amounts_match": true,
+      "qty_inverse_match": true,
+      "units_match": true,
+      "xml_lines": [
+        {
+          "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - KA150S",
+          "unit": "CÁI",
+          "qty": "-1.000000",
+          "price": "962036.000000",
+          "goods": "-962036.000000",
+          "tax": "-76963.0",
+          "pay": "-1038999.000000",
+          "rate": "8%",
+          "nature": "1"
+        }
+      ],
+      "original_lines": [
+        {
+          "name": "Máy lọc không khí diệt khuẩn bằng tia UVC KA150S",
+          "unit": "Cái",
+          "qty": 1,
+          "price": 962036,
+          "goods": 962036,
+          "rate": "8%",
+          "tax": 76963,
+          "pay": 1038999,
+          "discount": 0,
+          "buyer": "l***ucaviar",
+          "address": "",
+          "taxid": "",
+          "email": null,
+          "method": "TM/CK",
+          "date": "2025-06-22",
+          "source": "Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 6335"
+        }
+      ],
+      "original_zero_goods_lines": 0,
+      "all_rates_8": true,
+      "all_line_nature_1": true,
+      "unit_price_preserved": true
+    },
+    {
+      "root": [
+        "1C25TUV",
+        "00009565"
+      ],
+      "adjustment": [
+        "1C25TUV",
+        "00013101"
+      ],
+      "date": "2025-09-30",
+      "category": "detail_match",
+      "money_inverse_original": true,
+      "line_totals_match_header": true,
+      "name_amounts_match": true,
+      "qty_inverse_match": true,
+      "units_match": true,
+      "xml_lines": [
+        {
+          "name": "Lõi lọc diệt khuẩn - Filter - KA600",
+          "unit": "CÁI",
+          "qty": "-1.000000",
+          "price": "508333.000000",
+          "goods": "-508333.000000",
+          "tax": "-40667.0",
+          "pay": "-549000.000000",
+          "rate": "8%",
+          "nature": "1"
+        }
+      ],
+      "original_lines": [
+        {
+          "name": "Lõi lọc diệt khuẩn  Filter KA600",
+          "unit": "Cái",
+          "qty": 1,
+          "price": 508333,
+          "goods": 508333,
+          "rate": "8%",
+          "tax": 40667,
+          "pay": 549000,
+          "discount": 0,
+          "buyer": "anh_quan.1004",
+          "address": "",
+          "taxid": "",
+          "email": null,
+          "method": "TM/CK",
+          "date": "2025-06-30",
+          "source": "Bang_ke_chi_tiet_HD_da_su_dung_2025.xls | dòng 4208"
+        }
+      ],
+      "original_zero_goods_lines": 0,
+      "all_rates_8": true,
+      "all_line_nature_1": true,
+      "unit_price_preserved": true
+    }
+  ],
+  "limits": [
+    "Đối chiếu XML điều chỉnh với chi tiết gốc trong nguồn đã rà; không có XML gốc riêng cho tất cả42.",
+    "Chưa xác minh mật mã chữ ký, hồ sơ nghiệp vụ hoặc tra cứu CQT.",
+    "Không sửa workbook và không thêm ghi chú AB."
+  ]
+}

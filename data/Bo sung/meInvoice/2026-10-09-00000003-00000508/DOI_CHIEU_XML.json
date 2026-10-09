@@ -1,0 +1,160 @@
+[
+  {
+    "key": "1C25TUV/00000508",
+    "date": "2025-04-26",
+    "reference": {
+      "TCHDon": "2",
+      "LHDCLQuan": "1",
+      "KHMSHDCLQuan": "1",
+      "KHHDCLQuan": "C24TUV",
+      "SHDCLQuan": "00000003",
+      "NLHDCLQuan": "2024-01-10",
+      "GChu": "Điều chỉnh giảm thành tiền cho hoá đơn số 00000003"
+    },
+    "lines": [
+      {
+        "STT": "1",
+        "TChat": "1",
+        "THHDVu": "Điều chỉnh giảm thành tiền hoá đơn số 00000003 ",
+        "DVTinh": null,
+        "SLuong": "0.000000",
+        "DGia": "0.000000",
+        "ThTien": "0.000000",
+        "TSuat": "8%",
+        "VATAmount": "-28487.0",
+        "VATAmountOC": "-28487.0"
+      }
+    ],
+    "totals": {
+      "TgTCThue": "-356085.000000",
+      "TgTThue": "-28487.000000",
+      "TgTTTBSo": "-384572.000000",
+      "TgTTTBChu": "Điều chỉnh giảm ba trăm tám mươi bốn nghìn năm trăm bảy mươi hai đồng chẵn."
+    },
+    "tax_breakdown": [
+      {
+        "TSuat": "8%",
+        "ThTien": "-356085.000000",
+        "TThue": "-28487.000000"
+      }
+    ],
+    "sum_line_goods": "0.000000",
+    "sum_line_VATAmount": "-28487.0",
+    "signature_elements": 2,
+    "signature_verification": "Không kiểm chứng mật mã/chứng thư trong lần đọc này",
+    "xml_sha256": "1a40b5a1bf289f1959de7bab551587b2fba7a9d129df778a6f0eccb72c22ec5b",
+    "zip_sha256": "746d6fee35b0f632c33ef00600ef1e2cde5ac36788c2d67aca82bbd2df860a0c",
+    "xml_path": "data\\Bo sung\\meInvoice\\2026-10-09-00000003-00000508\\1C25TUV_00000508.xml"
+  },
+  {
+    "key": "1C24TUV/00000003",
+    "date": "2024-01-10",
+    "reference": null,
+    "lines": [
+      {
+        "STT": "1",
+        "TChat": "1",
+        "THHDVu": "Máy Lọc Không Khí Diệt Khuẩn UVGREEN KA600 60m2 - Công Nghệ UVC LED, Ion Âm, HEPA H13 Lọc Sạch Bụi Mịn, Mùi, Khói, Lông Thú Cưng, Bảo Hành 24 Tháng\n",
+        "DVTinh": "Cái",
+        "SLuong": "1.000000",
+        "DGia": "2573148.000000",
+        "ThTien": "2573148.000000",
+        "TSuat": "8%",
+        "VATAmount": "205852.0",
+        "VATAmountOC": "205852.0"
+      },
+      {
+        "STT": "2",
+        "TChat": "1",
+        "THHDVu": "Máy Lọc Không Khí Diệt Khuẩn UVGREEN KA350 40m2 - Công Nghệ UVC LED, Lõi Lọc HEPA H13 Lọc Sạch Bụi Mịn, Mùi, Khói, Lông Thú Cưng, Bảo Hành 24 Tháng\n",
+        "DVTinh": "Cái",
+        "SLuong": "1.000000",
+        "DGia": "1605069.000000",
+        "ThTien": "1605069.000000",
+        "TSuat": "8%",
+        "VATAmount": "128406.0",
+        "VATAmountOC": "128406.0"
+      },
+      {
+        "STT": "3",
+        "TChat": "1",
+        "THHDVu": "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA350 FT - Bộ Lọc 3 Lớp, Lọc Sạch 99,97% Bụi Mịn\n",
+        "DVTinh": "Cái",
+        "SLuong": "1.000000",
+        "DGia": "267294.000000",
+        "ThTien": "267294.000000",
+        "TSuat": "8%",
+        "VATAmount": "21384.0",
+        "VATAmountOC": "21384.0"
+      },
+      {
+        "STT": "4",
+        "TChat": "1",
+        "THHDVu": "Máy Lọc Không Khí Diệt Khuẩn UVGREEN KA350 40m2 - Công Nghệ UVC LED, Lõi Lọc HEPA H13 Lọc Sạch Bụi Mịn, Mùi, Khói, Lông Thú Cưng, Bảo Hành 24 Tháng\n",
+        "DVTinh": "Cái",
+        "SLuong": "1.000000",
+        "DGia": "1447094.000000",
+        "ThTien": "1447094.000000",
+        "TSuat": "8%",
+        "VATAmount": "115768.0",
+        "VATAmountOC": "115768.0"
+      },
+      {
+        "STT": "5",
+        "TChat": "1",
+        "THHDVu": "Máy Lọc Không Khí Diệt Khuẩn UVGREEN KA600 60m2 - Công Nghệ UVC LED, Ion Âm, HEPA H13 Lọc Sạch Bụi Mịn, Mùi, Khói, Lông Thú Cưng, Bảo Hành 24 Tháng\n",
+        "DVTinh": "Cái",
+        "SLuong": "1.000000",
+        "DGia": "2435193.000000",
+        "ThTien": "2435193.000000",
+        "TSuat": "8%",
+        "VATAmount": "194815.0",
+        "VATAmountOC": "194815.0"
+      },
+      {
+        "STT": "6",
+        "TChat": "1",
+        "THHDVu": "Máy Lọc Không Khí Diệt Khuẩn UVGREEN KA350 40m2 - Công Nghệ UVC LED, Lõi Lọc HEPA H13 Lọc Sạch Bụi Mịn, Mùi, Khói, Lông Thú Cưng, Bảo Hành 24 Tháng\n",
+        "DVTinh": "Cái",
+        "SLuong": "1.000000",
+        "DGia": "1457500.000000",
+        "ThTien": "1457500.000000",
+        "TSuat": "8%",
+        "VATAmount": "116600.0",
+        "VATAmountOC": "116600.0"
+      },
+      {
+        "STT": "7",
+        "TChat": "1",
+        "THHDVu": "Máy Lọc Không Khí Diệt Khuẩn UVGREEN KA350 40m2 - Công Nghệ UVC LED, Lõi Lọc HEPA H13 Lọc Sạch Bụi Mịn, Mùi, Khói, Lông Thú Cưng, Bảo Hành 24 Tháng\n",
+        "DVTinh": "Cái",
+        "SLuong": "1.000000",
+        "DGia": "1548832.000000",
+        "ThTien": "1548832.000000",
+        "TSuat": "8%",
+        "VATAmount": "123905.0",
+        "VATAmountOC": "123905.0"
+      }
+    ],
+    "totals": {
+      "TgTCThue": "11334130.000000",
+      "TgTThue": "906730.000000",
+      "TgTTTBSo": "12240860.000000",
+      "TgTTTBChu": "Mười hai triệu hai trăm bốn mươi nghìn tám trăm sáu mươi đồng chẵn."
+    },
+    "tax_breakdown": [
+      {
+        "TSuat": "8%",
+        "ThTien": "11334130.000000",
+        "TThue": "906730.000000"
+      }
+    ],
+    "sum_line_goods": "11334130.000000",
+    "sum_line_VATAmount": "906730.0",
+    "signature_elements": 2,
+    "signature_verification": "Không kiểm chứng mật mã/chứng thư trong lần đọc này",
+    "xml_sha256": "6c7d5e1ad62e5c5093e453dd8c87bd04fb98a8517fc548f0db96bf8f3af40155",
+    "zip_sha256": "a3e1593250f9336dfb4b657249ea01c9a2a8a5251ea4f726da2a214407dea53b",
+    "xml_path": "data\\Bo sung\\meInvoice\\2026-10-09-00000003-00000508\\1C24TUV_00000003.xml"
+  }
+]
