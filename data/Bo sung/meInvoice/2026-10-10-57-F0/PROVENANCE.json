@@ -1,0 +1,113 @@
+{
+  "received_on": "2026-10-10",
+  "zip_name": "Hoa_don_dien_tu_10.10.2026_9.32.zip",
+  "zip_sha256": "258da3b2200725bdfa92dda28b399b188ca6ae461b417f13ca5f0960e02ed641",
+  "zip_xml_count": 31,
+  "zip_pdf_count": 31,
+  "saved_target_xml": [
+    {
+      "path": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\1C24TUV_00000724.xml",
+      "zip_entry": "1C24TUV_00000724.xml",
+      "sha256": "7ecd5673721832e7da2368f2ff31b57e7589226d911e5ac680081277f8888e29"
+    },
+    {
+      "path": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\1C24TUV_00000725.xml",
+      "zip_entry": "1C24TUV_00000725.xml",
+      "sha256": "15c47b6c36d0fdf24fa7f89159c3760b83a9efe79139b501eb5cd56af1130a83"
+    },
+    {
+      "path": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\1C24TUV_00000726.xml",
+      "zip_entry": "1C24TUV_00000726.xml",
+      "sha256": "bf5a618ca4f8e3837846ce3357362dfee685971d78030451b0d4a658cebc6de9"
+    },
+    {
+      "path": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\1C24TUV_00000727.xml",
+      "zip_entry": "1C24TUV_00000727.xml",
+      "sha256": "d1a7ffac5f4b5820a76c789401207ff00e2bf271f71214a7cbb6da89c0188a15"
+    },
+    {
+      "path": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\1C24TUV_00000728.xml",
+      "zip_entry": "1C24TUV_00000728.xml",
+      "sha256": "a19742aead5a858beb41774e5bce37e73b4c3bf05a105fd57e9607034c7b60a0"
+    },
+    {
+      "path": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\1C24TUV_00000729.xml",
+      "zip_entry": "1C24TUV_00000729.xml",
+      "sha256": "6c658de3e4a6bfaddb1ee80e5baf755b1a7b414a5fa9ad25eb6cb911db7a75e9"
+    },
+    {
+      "path": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\1C24TUV_00000730.xml",
+      "zip_entry": "1C24TUV_00000730.xml",
+      "sha256": "a56dcec513ba885fa50c4aabe98063bc45c7c06b65a1e3ce7fbee767b525cc6d"
+    },
+    {
+      "path": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\1C24TUV_00000731.xml",
+      "zip_entry": "1C24TUV_00000731.xml",
+      "sha256": "d4d3af8fd9620f14d01439cdb312e55db70f8a6846d35548649fdb76b79e8bca"
+    },
+    {
+      "path": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\1C24TUV_00000732.xml",
+      "zip_entry": "1C24TUV_00000732.xml",
+      "sha256": "c5b4e15fe29a92cf0968f54b87f68b82c9efff9839f91fb0a14e4cfe3b9f60b0"
+    },
+    {
+      "path": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\1C24TUV_00000734.xml",
+      "zip_entry": "1C24TUV_00000734.xml",
+      "sha256": "418d4f42ab8e9584721415e6164464d49dcd3b0584f8d811b701cb494c40c8a7"
+    },
+    {
+      "path": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\1C24TUV_00000735.xml",
+      "zip_entry": "1C24TUV_00000735.xml",
+      "sha256": "1fb339d429725a1ae8a9f547965f00004950e5b67314394253acf9355287cc8c"
+    },
+    {
+      "path": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\1C24TUV_00000736.xml",
+      "zip_entry": "1C24TUV_00000736.xml",
+      "sha256": "ce106db976ca01316bc3c9099011149ddba5d8d068f0a604490f7c8f213de023"
+    },
+    {
+      "path": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\1C24TUV_00000737.xml",
+      "zip_entry": "1C24TUV_00000737.xml",
+      "sha256": "ec3a3297b64e03ea2aaaa743ca6b506ff21083139baf0765fca9f99fbfe2627b"
+    },
+    {
+      "path": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\1C24TUV_00000738.xml",
+      "zip_entry": "1C24TUV_00000738.xml",
+      "sha256": "30f18a41e79c36fd3b7315648cf6587b8a88b8d4e6b006550024e66e444bd3b3"
+    },
+    {
+      "path": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\1C24TUV_00000739.xml",
+      "zip_entry": "1C24TUV_00000739.xml",
+      "sha256": "abd8a55a70c54c4a4e2d6960d0758d47a6d4969b56fb45a39cc7c1ffd701d1a4"
+    },
+    {
+      "path": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\1C24TUV_00000740.xml",
+      "zip_entry": "1C24TUV_00000740.xml",
+      "sha256": "7ac562cfe1fac514d48aebfed079e7239a61f05b7caab9354301cabe9eb479a5"
+    },
+    {
+      "path": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\1C24TUV_00000741.xml",
+      "zip_entry": "1C24TUV_00000741.xml",
+      "sha256": "73859166894d2a5feccf2f2aca8b14c13e00e3df096ec9c79718327b163d8dfd"
+    },
+    {
+      "path": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\1C24TUV_00000742.xml",
+      "zip_entry": "1C24TUV_00000742.xml",
+      "sha256": "d0d0688f5d867ed889498f4d9f88c8864e60fb4cf654b9a81a461a967474cd38"
+    },
+    {
+      "path": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\1C24TUV_00000743.xml",
+      "zip_entry": "1C24TUV_00000743.xml",
+      "sha256": "051564c49902cb5d0c3c7035d879123da6af392e9f2b5c78d9364f7b8a73058f"
+    }
+  ],
+  "export_sha256": "8d6eef9d069e8eee3aca67db2b897d51b41e78daef8dd5992b396e934ea2a9c5",
+  "note": "19 initially missing target XML plus original733 retained byte for byte; original ZIP remains in Downloads. Export also covers original608 and exception609.",
+  "saved_additional_xml": [
+    {
+      "path": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\1C24TUV_00000733.xml",
+      "zip_entry": "1C24TUV_00000733.xml",
+      "sha256": "ca15ffd599c7e5bd6f18a92c4ada5dd4b1b083fe1562a1e7c8f329831761c254"
+    }
+  ]
+}

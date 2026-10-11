@@ -1,4 +1,4 @@
-Trạng thái bàn giao 08/10/2026: có 3 workbook chính, sheet import cho hai nhóm, nhóm chờ kế toán và tài liệu toàn dự án. Đọc [TIEP_TUC_UVG.md](TIEP_TUC_UVG.md) từ đầu và [HUONG_DAN_MAY_O_NHA.md](HUONG_DAN_MAY_O_NHA.md). Kiểm tra chỉ đọc: python scripts/verify_handoff.py. Các mô tả lịch sử bên dưới chưa phản ánh toàn bộ bước mới.
+Trạng thái mới ngày 10/10/2026: đã bổ sung đủ nguồn chi tiết cho 57 F0 trước đây dùng nguồn cũ; đã sửa 11 đơn giá làm tròn ở 8 F0 theo XML, kiểm tra bảo toàn workbook và verify_handoff đều PASS. Đọc [TIEP_TUC_UVG.md](TIEP_TUC_UVG.md) từ đầu để xem bằng chứng và phần còn lại. Kiểm tra chỉ đọc: python scripts/audit_supplement_57.py và python scripts/verify_handoff.py. Các mô tả lịch sử bên dưới chưa phản ánh toàn bộ bước mới.
 
 Cập nhật 08/10/2026: đã chuẩn bị sheet import cho nhóm chưa điều chỉnh và nhóm đã điều chỉnh. Đọc phần mới nhất ở đầu [TIEP_TUC_UVG.md](TIEP_TUC_UVG.md) trước khi tiếp tục; các mô tả cũ bên dưới chưa phản ánh toàn bộ sheet mới. Thay đổi lần này chưa commit/push.
 

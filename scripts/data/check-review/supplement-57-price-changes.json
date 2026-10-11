@@ -1,0 +1,115 @@
+{
+  "base_sha256": "4ab99f27a803c626fccd3c69bf6cc15a20939329fdf27e7a10a9870e2fae307b",
+  "changes": [
+    {
+      "sheet": "Import dieu chinh",
+      "cell": "R30739",
+      "root": [
+        "1C24TUV",
+        "00000724"
+      ],
+      "old": 184445,
+      "new": 184444.5
+    },
+    {
+      "sheet": "Import dieu chinh",
+      "cell": "R30795",
+      "root": [
+        "1C24TUV",
+        "00000725"
+      ],
+      "old": 1054630,
+      "new": 1054629.5
+    },
+    {
+      "sheet": "Import dieu chinh",
+      "cell": "R31031",
+      "root": [
+        "1C24TUV",
+        "00000728"
+      ],
+      "old": 1230556,
+      "new": 1230555.5
+    },
+    {
+      "sheet": "Import dieu chinh",
+      "cell": "R31065",
+      "root": [
+        "1C24TUV",
+        "00000728"
+      ],
+      "old": 267593,
+      "new": 267592.5
+    },
+    {
+      "sheet": "Import dieu chinh",
+      "cell": "R31116",
+      "root": [
+        "1C24TUV",
+        "00000729"
+      ],
+      "old": 509260,
+      "new": 509259.5
+    },
+    {
+      "sheet": "Import dieu chinh",
+      "cell": "R31212",
+      "root": [
+        "1C24TUV",
+        "00000731"
+      ],
+      "old": 865834,
+      "new": 865833.5
+    },
+    {
+      "sheet": "Import dieu chinh",
+      "cell": "R31394",
+      "root": [
+        "1C24TUV",
+        "00000735"
+      ],
+      "old": 892592,
+      "new": 892591.5
+    },
+    {
+      "sheet": "Import dieu chinh",
+      "cell": "R31417",
+      "root": [
+        "1C24TUV",
+        "00000735"
+      ],
+      "old": 430093,
+      "new": 430092.5
+    },
+    {
+      "sheet": "Import dieu chinh",
+      "cell": "R31528",
+      "root": [
+        "1C24TUV",
+        "00000737"
+      ],
+      "old": 407408,
+      "new": 407407.5
+    },
+    {
+      "sheet": "Import dieu chinh",
+      "cell": "R31551",
+      "root": [
+        "1C24TUV",
+        "00000737"
+      ],
+      "old": 868519,
+      "new": 868518.5
+    },
+    {
+      "sheet": "Import dieu chinh",
+      "cell": "R31618",
+      "root": [
+        "1C24TUV",
+        "00000739"
+      ],
+      "old": 509260,
+      "new": 509259.5
+    }
+  ]
+}

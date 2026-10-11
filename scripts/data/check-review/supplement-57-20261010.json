@@ -1,0 +1,3751 @@
+{
+  "date": "2026-10-10",
+  "source_hashes": {
+    "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\1C24TUV_00000724.xml": "7ecd5673721832e7da2368f2ff31b57e7589226d911e5ac680081277f8888e29",
+    "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\1C24TUV_00000725.xml": "15c47b6c36d0fdf24fa7f89159c3760b83a9efe79139b501eb5cd56af1130a83",
+    "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\1C24TUV_00000726.xml": "bf5a618ca4f8e3837846ce3357362dfee685971d78030451b0d4a658cebc6de9",
+    "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\1C24TUV_00000727.xml": "d1a7ffac5f4b5820a76c789401207ff00e2bf271f71214a7cbb6da89c0188a15",
+    "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\1C24TUV_00000728.xml": "a19742aead5a858beb41774e5bce37e73b4c3bf05a105fd57e9607034c7b60a0",
+    "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\1C24TUV_00000729.xml": "6c658de3e4a6bfaddb1ee80e5baf755b1a7b414a5fa9ad25eb6cb911db7a75e9",
+    "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\1C24TUV_00000730.xml": "a56dcec513ba885fa50c4aabe98063bc45c7c06b65a1e3ce7fbee767b525cc6d",
+    "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\1C24TUV_00000731.xml": "d4d3af8fd9620f14d01439cdb312e55db70f8a6846d35548649fdb76b79e8bca",
+    "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\1C24TUV_00000732.xml": "c5b4e15fe29a92cf0968f54b87f68b82c9efff9839f91fb0a14e4cfe3b9f60b0",
+    "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\1C24TUV_00000734.xml": "418d4f42ab8e9584721415e6164464d49dcd3b0584f8d811b701cb494c40c8a7",
+    "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\1C24TUV_00000735.xml": "1fb339d429725a1ae8a9f547965f00004950e5b67314394253acf9355287cc8c",
+    "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\1C24TUV_00000736.xml": "ce106db976ca01316bc3c9099011149ddba5d8d068f0a604490f7c8f213de023",
+    "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\1C24TUV_00000737.xml": "ec3a3297b64e03ea2aaaa743ca6b506ff21083139baf0765fca9f99fbfe2627b",
+    "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\1C24TUV_00000738.xml": "30f18a41e79c36fd3b7315648cf6587b8a88b8d4e6b006550024e66e444bd3b3",
+    "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\1C24TUV_00000739.xml": "abd8a55a70c54c4a4e2d6960d0758d47a6d4969b56fb45a39cc7c1ffd701d1a4",
+    "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\1C24TUV_00000740.xml": "7ac562cfe1fac514d48aebfed079e7239a61f05b7caab9354301cabe9eb479a5",
+    "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\1C24TUV_00000741.xml": "73859166894d2a5feccf2f2aca8b14c13e00e3df096ec9c79718327b163d8dfd",
+    "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\1C24TUV_00000742.xml": "d0d0688f5d867ed889498f4d9f88c8864e60fb4cf654b9a81a461a967474cd38",
+    "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\1C24TUV_00000743.xml": "051564c49902cb5d0c3c7035d879123da6af392e9f2b5c78d9364f7b8a73058f",
+    "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\Bang_ke_chi_tiet_hoa_don_da_su_dung_1791595024735.xls": "8d6eef9d069e8eee3aca67db2b897d51b41e78daef8dd5992b396e934ea2a9c5",
+    "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\PROVENANCE.json": "fb3d3a375b10aae07713c8a4134ff4b3af77634a356d189a2950e10ac382d06c"
+  },
+  "workbooks": {
+    "HOA_DON_CHUA_DIEU_CHINH_F0_2024_T6_2025.xlsx": {
+      "sha256": "f4fd4dd2c80031e3fa46aa4b56d7dde4ecea9c592e65baf2af2fa66f2b0c1f0a",
+      "unchanged": true,
+      "targets": 8
+    },
+    "HOA_DON_DA_DIEU_CHINH_F0_2024_T6_2025.xlsx": {
+      "sha256": "ee4c9ea51a4869298bccc041e99ee040da8c3ee0a3d65b2e3a6813a74e6f0fd4",
+      "unchanged": true,
+      "targets": 49
+    }
+  },
+  "summary": {
+    "exact": 31,
+    "blank_vs_zero_only": 26
+  },
+  "source_kinds": {
+    "Excel": 38,
+    "XML": 19
+  },
+  "records": [
+    {
+      "workbook": "HOA_DON_CHUA_DIEU_CHINH_F0_2024_T6_2025.xlsx",
+      "key": [
+        "1C24TUV",
+        "00000610"
+      ],
+      "seq": 24,
+      "import_lines": 1,
+      "source_kind": "Excel",
+      "source": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\Bang_ke_chi_tiet_hoa_don_da_su_dung_1791595024735.xls",
+      "source_lines": 1,
+      "date_match": true,
+      "source_money": [
+        "509259",
+        "40741",
+        "550000"
+      ],
+      "header_match": true,
+      "exact_detail_match": true,
+      "status": "exact",
+      "import_only": [],
+      "source_only": []
+    },
+    {
+      "workbook": "HOA_DON_CHUA_DIEU_CHINH_F0_2024_T6_2025.xlsx",
+      "key": [
+        "1C24TUV",
+        "00000611"
+      ],
+      "seq": 25,
+      "import_lines": 1,
+      "source_kind": "Excel",
+      "source": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\Bang_ke_chi_tiet_hoa_don_da_su_dung_1791595024735.xls",
+      "source_lines": 1,
+      "date_match": true,
+      "source_money": [
+        "509259",
+        "40741",
+        "550000"
+      ],
+      "header_match": true,
+      "exact_detail_match": true,
+      "status": "exact",
+      "import_only": [],
+      "source_only": []
+    },
+    {
+      "workbook": "HOA_DON_CHUA_DIEU_CHINH_F0_2024_T6_2025.xlsx",
+      "key": [
+        "1C24TUV",
+        "00000612"
+      ],
+      "seq": 26,
+      "import_lines": 1,
+      "source_kind": "Excel",
+      "source": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\Bang_ke_chi_tiet_hoa_don_da_su_dung_1791595024735.xls",
+      "source_lines": 1,
+      "date_match": true,
+      "source_money": [
+        "509259",
+        "40741",
+        "550000"
+      ],
+      "header_match": true,
+      "exact_detail_match": true,
+      "status": "exact",
+      "import_only": [],
+      "source_only": []
+    },
+    {
+      "workbook": "HOA_DON_CHUA_DIEU_CHINH_F0_2024_T6_2025.xlsx",
+      "key": [
+        "1C24TUV",
+        "00000613"
+      ],
+      "seq": 27,
+      "import_lines": 1,
+      "source_kind": "Excel",
+      "source": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\Bang_ke_chi_tiet_hoa_don_da_su_dung_1791595024735.xls",
+      "source_lines": 1,
+      "date_match": true,
+      "source_money": [
+        "1566556",
+        "125324",
+        "1691880"
+      ],
+      "header_match": true,
+      "exact_detail_match": true,
+      "status": "exact",
+      "import_only": [],
+      "source_only": []
+    },
+    {
+      "workbook": "HOA_DON_CHUA_DIEU_CHINH_F0_2024_T6_2025.xlsx",
+      "key": [
+        "1C24TUV",
+        "00000614"
+      ],
+      "seq": 28,
+      "import_lines": 1,
+      "source_kind": "Excel",
+      "source": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\Bang_ke_chi_tiet_hoa_don_da_su_dung_1791595024735.xls",
+      "source_lines": 1,
+      "date_match": true,
+      "source_money": [
+        "46296",
+        "3704",
+        "50000"
+      ],
+      "header_match": true,
+      "exact_detail_match": true,
+      "status": "exact",
+      "import_only": [],
+      "source_only": []
+    },
+    {
+      "workbook": "HOA_DON_CHUA_DIEU_CHINH_F0_2024_T6_2025.xlsx",
+      "key": [
+        "1C24TUV",
+        "00000742"
+      ],
+      "seq": 48,
+      "import_lines": 1,
+      "source_kind": "XML",
+      "source": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\1C24TUV_00000742.xml",
+      "source_sha256": "d0d0688f5d867ed889498f4d9f88c8864e60fb4cf654b9a81a461a967474cd38",
+      "source_lines": 1,
+      "date_match": true,
+      "header_match": true,
+      "line_goods_match_header": true,
+      "header_arithmetic": true,
+      "natures": {
+        "1": 1
+      },
+      "rates": {
+        "8%": 1
+      },
+      "nonzero_discount": false,
+      "line_tax_available": true,
+      "line_tax_match_header": true,
+      "exact_detail_match": true,
+      "status": "exact",
+      "import_only": [],
+      "source_only": []
+    },
+    {
+      "workbook": "HOA_DON_CHUA_DIEU_CHINH_F0_2024_T6_2025.xlsx",
+      "key": [
+        "1C24TUV",
+        "00000743"
+      ],
+      "seq": 49,
+      "import_lines": 1,
+      "source_kind": "XML",
+      "source": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\1C24TUV_00000743.xml",
+      "source_sha256": "051564c49902cb5d0c3c7035d879123da6af392e9f2b5c78d9364f7b8a73058f",
+      "source_lines": 1,
+      "date_match": true,
+      "header_match": true,
+      "line_goods_match_header": true,
+      "header_arithmetic": true,
+      "natures": {
+        "1": 1
+      },
+      "rates": {
+        "8%": 1
+      },
+      "nonzero_discount": false,
+      "line_tax_available": true,
+      "line_tax_match_header": true,
+      "exact_detail_match": true,
+      "status": "exact",
+      "import_only": [],
+      "source_only": []
+    },
+    {
+      "workbook": "HOA_DON_CHUA_DIEU_CHINH_F0_2024_T6_2025.xlsx",
+      "key": [
+        "1C24TUV",
+        "00000744"
+      ],
+      "seq": 50,
+      "import_lines": 1,
+      "source_kind": "Excel",
+      "source": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\Bang_ke_chi_tiet_hoa_don_da_su_dung_1791595024735.xls",
+      "source_lines": 1,
+      "date_match": true,
+      "source_money": [
+        "0",
+        "0",
+        "0"
+      ],
+      "header_match": true,
+      "exact_detail_match": false,
+      "status": "blank_vs_zero_only",
+      "import_only": [
+        [
+          [
+            "Máy Lọc Không Khí Diệt Khuẩn UVGREEN KA350-UVC upgrade KA600_ĐH 240726KU1MN411_sô HĐ 374",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          1
+        ]
+      ],
+      "source_only": [
+        [
+          [
+            "Máy Lọc Không Khí Diệt Khuẩn UVGREEN KA350-UVC upgrade KA600_ĐH 240726KU1MN411_sô HĐ 374",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          1
+        ]
+      ]
+    },
+    {
+      "workbook": "HOA_DON_DA_DIEU_CHINH_F0_2024_T6_2025.xlsx",
+      "key": [
+        "1C24TUV",
+        "00000604"
+      ],
+      "seq": 894,
+      "import_lines": 1,
+      "source_kind": "Excel",
+      "source": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\Bang_ke_chi_tiet_hoa_don_da_su_dung_1791595024735.xls",
+      "source_lines": 1,
+      "date_match": true,
+      "source_money": [
+        "1149167",
+        "91933",
+        "1241100"
+      ],
+      "header_match": true,
+      "exact_detail_match": true,
+      "status": "exact",
+      "import_only": [],
+      "source_only": []
+    },
+    {
+      "workbook": "HOA_DON_DA_DIEU_CHINH_F0_2024_T6_2025.xlsx",
+      "key": [
+        "1C24TUV",
+        "00000605"
+      ],
+      "seq": 896,
+      "import_lines": 146,
+      "source_kind": "Excel",
+      "source": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\Bang_ke_chi_tiet_hoa_don_da_su_dung_1791595024735.xls",
+      "source_lines": 146,
+      "date_match": true,
+      "source_money": [
+        "149999547",
+        "11999964",
+        "161999511"
+      ],
+      "header_match": true,
+      "exact_detail_match": false,
+      "status": "blank_vs_zero_only",
+      "import_only": [
+        [
+          [
+            "Màng Lọc HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA350 FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          8
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA600 FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          6
+        ],
+        [
+          [
+            "Máy Bắt Muỗi, Ruồi Và Côn Trùng Thông Minh UVGREEN KM200",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          2
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA350 FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          3
+        ],
+        [
+          [
+            "Màng Lọc HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA800 FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          1
+        ],
+        [
+          [
+            "Màng Lọc HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA600 FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          2
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA800 FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          1
+        ],
+        [
+          [
+            "Máy Lọc Không Khí Diệt Khuẩn UVGREEN KA350 UVC PRO 40m2",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          1
+        ],
+        [
+          [
+            "Combo 2 Màng Lọc HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA150 FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          1
+        ]
+      ],
+      "source_only": [
+        [
+          [
+            "Màng Lọc HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA350 FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          8
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA600 FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          6
+        ],
+        [
+          [
+            "Máy Bắt Muỗi, Ruồi Và Côn Trùng Thông Minh UVGREEN KM200",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          2
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA350 FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          3
+        ],
+        [
+          [
+            "Màng Lọc HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA800 FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          1
+        ],
+        [
+          [
+            "Màng Lọc HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA600 FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          2
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA800 FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          1
+        ],
+        [
+          [
+            "Máy Lọc Không Khí Diệt Khuẩn UVGREEN KA350 UVC PRO 40m2",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          1
+        ],
+        [
+          [
+            "Combo 2 Màng Lọc HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA150 FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          1
+        ]
+      ]
+    },
+    {
+      "workbook": "HOA_DON_DA_DIEU_CHINH_F0_2024_T6_2025.xlsx",
+      "key": [
+        "1C24TUV",
+        "00000606"
+      ],
+      "seq": 898,
+      "import_lines": 2,
+      "source_kind": "Excel",
+      "source": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\Bang_ke_chi_tiet_hoa_don_da_su_dung_1791595024735.xls",
+      "source_lines": 2,
+      "date_match": true,
+      "source_money": [
+        "2799741",
+        "223979",
+        "3023720"
+      ],
+      "header_match": true,
+      "exact_detail_match": true,
+      "status": "exact",
+      "import_only": [],
+      "source_only": []
+    },
+    {
+      "workbook": "HOA_DON_DA_DIEU_CHINH_F0_2024_T6_2025.xlsx",
+      "key": [
+        "1C24TUV",
+        "00000607"
+      ],
+      "seq": 900,
+      "import_lines": 98,
+      "source_kind": "Excel",
+      "source": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\Bang_ke_chi_tiet_hoa_don_da_su_dung_1791595024735.xls",
+      "source_lines": 98,
+      "date_match": true,
+      "source_money": [
+        "106034362",
+        "8482749",
+        "114517111"
+      ],
+      "header_match": true,
+      "exact_detail_match": false,
+      "status": "blank_vs_zero_only",
+      "import_only": [
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA800 FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          2
+        ],
+        [
+          [
+            "Máy Bắt Muỗi, Ruồi Và Côn Trùng Thông Minh UVGREEN KM200",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          1
+        ],
+        [
+          [
+            "Màng Lọc HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA350 FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          1
+        ],
+        [
+          [
+            "Combo 2 Màng Lọc HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA150 FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          2
+        ],
+        [
+          [
+            "Màng Lọc HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA600 FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          1
+        ]
+      ],
+      "source_only": [
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA800 FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          2
+        ],
+        [
+          [
+            "Máy Bắt Muỗi, Ruồi Và Côn Trùng Thông Minh UVGREEN KM200",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          1
+        ],
+        [
+          [
+            "Màng Lọc HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA350 FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          1
+        ],
+        [
+          [
+            "Combo 2 Màng Lọc HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA150 FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          2
+        ],
+        [
+          [
+            "Màng Lọc HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA600 FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          1
+        ]
+      ]
+    },
+    {
+      "workbook": "HOA_DON_DA_DIEU_CHINH_F0_2024_T6_2025.xlsx",
+      "key": [
+        "1C24TUV",
+        "00000615"
+      ],
+      "seq": 902,
+      "import_lines": 1,
+      "source_kind": "Excel",
+      "source": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\Bang_ke_chi_tiet_hoa_don_da_su_dung_1791595024735.xls",
+      "source_lines": 1,
+      "date_match": true,
+      "source_money": [
+        "509259",
+        "40741",
+        "550000"
+      ],
+      "header_match": true,
+      "exact_detail_match": true,
+      "status": "exact",
+      "import_only": [],
+      "source_only": []
+    },
+    {
+      "workbook": "HOA_DON_DA_DIEU_CHINH_F0_2024_T6_2025.xlsx",
+      "key": [
+        "1C24TUV",
+        "00000616"
+      ],
+      "seq": 904,
+      "import_lines": 1,
+      "source_kind": "Excel",
+      "source": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\Bang_ke_chi_tiet_hoa_don_da_su_dung_1791595024735.xls",
+      "source_lines": 1,
+      "date_match": true,
+      "source_money": [
+        "1702778",
+        "136222",
+        "1839000"
+      ],
+      "header_match": true,
+      "exact_detail_match": true,
+      "status": "exact",
+      "import_only": [],
+      "source_only": []
+    },
+    {
+      "workbook": "HOA_DON_DA_DIEU_CHINH_F0_2024_T6_2025.xlsx",
+      "key": [
+        "1C24TUV",
+        "00000617"
+      ],
+      "seq": 906,
+      "import_lines": 1,
+      "source_kind": "Excel",
+      "source": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\Bang_ke_chi_tiet_hoa_don_da_su_dung_1791595024735.xls",
+      "source_lines": 1,
+      "date_match": true,
+      "source_money": [
+        "509259",
+        "40741",
+        "550000"
+      ],
+      "header_match": true,
+      "exact_detail_match": true,
+      "status": "exact",
+      "import_only": [],
+      "source_only": []
+    },
+    {
+      "workbook": "HOA_DON_DA_DIEU_CHINH_F0_2024_T6_2025.xlsx",
+      "key": [
+        "1C24TUV",
+        "00000618"
+      ],
+      "seq": 908,
+      "import_lines": 5,
+      "source_kind": "Excel",
+      "source": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\Bang_ke_chi_tiet_hoa_don_da_su_dung_1791595024735.xls",
+      "source_lines": 5,
+      "date_match": true,
+      "source_money": [
+        "6073714",
+        "485897",
+        "6559611"
+      ],
+      "header_match": true,
+      "exact_detail_match": true,
+      "status": "exact",
+      "import_only": [],
+      "source_only": []
+    },
+    {
+      "workbook": "HOA_DON_DA_DIEU_CHINH_F0_2024_T6_2025.xlsx",
+      "key": [
+        "1C24TUV",
+        "00000619"
+      ],
+      "seq": 910,
+      "import_lines": 106,
+      "source_kind": "Excel",
+      "source": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\Bang_ke_chi_tiet_hoa_don_da_su_dung_1791595024735.xls",
+      "source_lines": 106,
+      "date_match": true,
+      "source_money": [
+        "124451359",
+        "9956109",
+        "134407468"
+      ],
+      "header_match": true,
+      "exact_detail_match": false,
+      "status": "blank_vs_zero_only",
+      "import_only": [
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA350 FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          13
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA600 FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          6
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA150-S FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          2
+        ]
+      ],
+      "source_only": [
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA350 FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          13
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA600 FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          6
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA150-S FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "workbook": "HOA_DON_DA_DIEU_CHINH_F0_2024_T6_2025.xlsx",
+      "key": [
+        "1C24TUV",
+        "00000620"
+      ],
+      "seq": 912,
+      "import_lines": 76,
+      "source_kind": "Excel",
+      "source": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\Bang_ke_chi_tiet_hoa_don_da_su_dung_1791595024735.xls",
+      "source_lines": 76,
+      "date_match": true,
+      "source_money": [
+        "81318479",
+        "6505478",
+        "87823957"
+      ],
+      "header_match": true,
+      "exact_detail_match": false,
+      "status": "blank_vs_zero_only",
+      "import_only": [
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA350 FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          12
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA600 FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          1
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA800 FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          2
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA350 FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          5
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA600 FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          1
+        ],
+        [
+          [
+            "Máy Bắt Muỗi, Ruồi Và Côn Trùng Thông Minh UVGREEN KM100",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          1
+        ]
+      ],
+      "source_only": [
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA350 FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          12
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA600 FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          1
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA800 FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          2
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA350 FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          5
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA600 FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          1
+        ],
+        [
+          [
+            "Máy Bắt Muỗi, Ruồi Và Côn Trùng Thông Minh UVGREEN KM100",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          1
+        ]
+      ]
+    },
+    {
+      "workbook": "HOA_DON_DA_DIEU_CHINH_F0_2024_T6_2025.xlsx",
+      "key": [
+        "1C24TUV",
+        "00000621"
+      ],
+      "seq": 914,
+      "import_lines": 150,
+      "source_kind": "Excel",
+      "source": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\Bang_ke_chi_tiet_hoa_don_da_su_dung_1791595024735.xls",
+      "source_lines": 150,
+      "date_match": true,
+      "source_money": [
+        "146006248",
+        "11680500",
+        "157686748"
+      ],
+      "header_match": true,
+      "exact_detail_match": false,
+      "status": "blank_vs_zero_only",
+      "import_only": [
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA350 FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          23
+        ],
+        [
+          [
+            "Combo 2 Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA150-S FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          2
+        ],
+        [
+          [
+            "Máy Lọc Không Khí Diệt Khuẩn UVGREEN KA350 UVC Light 40m2",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          1
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA600 FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          6
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA150-S FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          2
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA350 FT -",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          3
+        ]
+      ],
+      "source_only": [
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA350 FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          23
+        ],
+        [
+          [
+            "Combo 2 Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA150-S FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          2
+        ],
+        [
+          [
+            "Máy Lọc Không Khí Diệt Khuẩn UVGREEN KA350 UVC Light 40m2",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          1
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA600 FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          6
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA150-S FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          2
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA350 FT -",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          3
+        ]
+      ]
+    },
+    {
+      "workbook": "HOA_DON_DA_DIEU_CHINH_F0_2024_T6_2025.xlsx",
+      "key": [
+        "1C24TUV",
+        "00000622"
+      ],
+      "seq": 916,
+      "import_lines": 153,
+      "source_kind": "Excel",
+      "source": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\Bang_ke_chi_tiet_hoa_don_da_su_dung_1791595024735.xls",
+      "source_lines": 153,
+      "date_match": true,
+      "source_money": [
+        "140458428",
+        "11236674",
+        "151695102"
+      ],
+      "header_match": true,
+      "exact_detail_match": false,
+      "status": "blank_vs_zero_only",
+      "import_only": [
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA600 FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          11
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA350 FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          38
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA350 FT",
+            "Cái",
+            "-2",
+            "0",
+            "0"
+          ],
+          1
+        ],
+        [
+          [
+            "Combo 2 Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA150-S FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          1
+        ]
+      ],
+      "source_only": [
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA600 FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          11
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA350 FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          38
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA350 FT",
+            "Cái",
+            "-2",
+            null,
+            null
+          ],
+          1
+        ],
+        [
+          [
+            "Combo 2 Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA150-S FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          1
+        ]
+      ]
+    },
+    {
+      "workbook": "HOA_DON_DA_DIEU_CHINH_F0_2024_T6_2025.xlsx",
+      "key": [
+        "1C24TUV",
+        "00000623"
+      ],
+      "seq": 918,
+      "import_lines": 186,
+      "source_kind": "Excel",
+      "source": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\Bang_ke_chi_tiet_hoa_don_da_su_dung_1791595024735.xls",
+      "source_lines": 186,
+      "date_match": true,
+      "source_money": [
+        "172507059",
+        "13800565",
+        "186307624"
+      ],
+      "header_match": true,
+      "exact_detail_match": false,
+      "status": "blank_vs_zero_only",
+      "import_only": [
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA350 FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          45
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA600 FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          15
+        ]
+      ],
+      "source_only": [
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA350 FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          45
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA600 FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          15
+        ]
+      ]
+    },
+    {
+      "workbook": "HOA_DON_DA_DIEU_CHINH_F0_2024_T6_2025.xlsx",
+      "key": [
+        "1C24TUV",
+        "00000624"
+      ],
+      "seq": 920,
+      "import_lines": 159,
+      "source_kind": "Excel",
+      "source": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\Bang_ke_chi_tiet_hoa_don_da_su_dung_1791595024735.xls",
+      "source_lines": 159,
+      "date_match": true,
+      "source_money": [
+        "150837801",
+        "12067024",
+        "162904825"
+      ],
+      "header_match": true,
+      "exact_detail_match": false,
+      "status": "blank_vs_zero_only",
+      "import_only": [
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA600 FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          8
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA350 FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          39
+        ],
+        [
+          [
+            "Máy Bắt Muỗi, Ruồi Và Côn Trùng Thông Minh UVGREEN KM100",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          2
+        ],
+        [
+          [
+            "Combo 2 Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA150-S FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          1
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA800 FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          1
+        ]
+      ],
+      "source_only": [
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA600 FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          8
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA350 FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          39
+        ],
+        [
+          [
+            "Máy Bắt Muỗi, Ruồi Và Côn Trùng Thông Minh UVGREEN KM100",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          2
+        ],
+        [
+          [
+            "Combo 2 Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA150-S FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          1
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA800 FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          1
+        ]
+      ]
+    },
+    {
+      "workbook": "HOA_DON_DA_DIEU_CHINH_F0_2024_T6_2025.xlsx",
+      "key": [
+        "1C24TUV",
+        "00000625"
+      ],
+      "seq": 922,
+      "import_lines": 85,
+      "source_kind": "Excel",
+      "source": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\Bang_ke_chi_tiet_hoa_don_da_su_dung_1791595024735.xls",
+      "source_lines": 85,
+      "date_match": true,
+      "source_money": [
+        "84084493",
+        "6726759",
+        "90811252"
+      ],
+      "header_match": true,
+      "exact_detail_match": false,
+      "status": "blank_vs_zero_only",
+      "import_only": [
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA600 FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          6
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA350 FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          14
+        ]
+      ],
+      "source_only": [
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA600 FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          6
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA350 FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          14
+        ]
+      ]
+    },
+    {
+      "workbook": "HOA_DON_DA_DIEU_CHINH_F0_2024_T6_2025.xlsx",
+      "key": [
+        "1C24TUV",
+        "00000626"
+      ],
+      "seq": 924,
+      "import_lines": 100,
+      "source_kind": "Excel",
+      "source": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\Bang_ke_chi_tiet_hoa_don_da_su_dung_1791595024735.xls",
+      "source_lines": 100,
+      "date_match": true,
+      "source_money": [
+        "101789320",
+        "8143146",
+        "109932466"
+      ],
+      "header_match": true,
+      "exact_detail_match": false,
+      "status": "blank_vs_zero_only",
+      "import_only": [
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA600 FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          7
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA350 FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          16
+        ],
+        [
+          [
+            "Combo 2 Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA150-S FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          1
+        ],
+        [
+          [
+            "Máy Lọc Không Khí Diệt Khuẩn UVC LED UVGREEN KA600 60m2",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          1
+        ],
+        [
+          [
+            "Máy Lọc Không Khí Diệt Khuẩn UVGREEN KA350 UVC Light 40m2",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          1
+        ]
+      ],
+      "source_only": [
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA600 FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          7
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA350 FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          16
+        ],
+        [
+          [
+            "Combo 2 Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA150-S FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          1
+        ],
+        [
+          [
+            "Máy Lọc Không Khí Diệt Khuẩn UVC LED UVGREEN KA600 60m2",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          1
+        ],
+        [
+          [
+            "Máy Lọc Không Khí Diệt Khuẩn UVGREEN KA350 UVC Light 40m2",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          1
+        ]
+      ]
+    },
+    {
+      "workbook": "HOA_DON_DA_DIEU_CHINH_F0_2024_T6_2025.xlsx",
+      "key": [
+        "1C24TUV",
+        "00000627"
+      ],
+      "seq": 926,
+      "import_lines": 71,
+      "source_kind": "Excel",
+      "source": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\Bang_ke_chi_tiet_hoa_don_da_su_dung_1791595024735.xls",
+      "source_lines": 71,
+      "date_match": true,
+      "source_money": [
+        "69488787",
+        "5559103",
+        "75047890"
+      ],
+      "header_match": true,
+      "exact_detail_match": false,
+      "status": "blank_vs_zero_only",
+      "import_only": [
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA350 FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          10
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA600 FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          4
+        ]
+      ],
+      "source_only": [
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA350 FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          10
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA600 FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          4
+        ]
+      ]
+    },
+    {
+      "workbook": "HOA_DON_DA_DIEU_CHINH_F0_2024_T6_2025.xlsx",
+      "key": [
+        "1C24TUV",
+        "00000628"
+      ],
+      "seq": 928,
+      "import_lines": 179,
+      "source_kind": "Excel",
+      "source": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\Bang_ke_chi_tiet_hoa_don_da_su_dung_1791595024735.xls",
+      "source_lines": 179,
+      "date_match": true,
+      "source_money": [
+        "171610812",
+        "13728865",
+        "185339677"
+      ],
+      "header_match": true,
+      "exact_detail_match": false,
+      "status": "blank_vs_zero_only",
+      "import_only": [
+        [
+          [
+            "Máy Bắt Muỗi, Ruồi Và Côn Trùng Thông Minh UVGREEN KM100",
+            "Cái",
+            "-2",
+            "0",
+            "0"
+          ],
+          1
+        ],
+        [
+          [
+            "Máy Bắt Muỗi, Ruồi Và Côn Trùng Thông Minh UVGREEN KM300",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          1
+        ],
+        [
+          [
+            "Màng Lọc HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA150-S FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          1
+        ],
+        [
+          [
+            "Màng Lọc HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA600 FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          5
+        ],
+        [
+          [
+            "Màng Lọc HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA350 FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          4
+        ],
+        [
+          [
+            "Máy Bắt Muỗi, Ruồi Và Côn Trùng Thông Minh UVGREEN KM100",
+            "Cái",
+            "-3",
+            "0",
+            "0"
+          ],
+          1
+        ],
+        [
+          [
+            "Máy Bắt Muỗi, Ruồi Và Côn Trùng Thông Minh UVGREEN KM100",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          1
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA600 FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          2
+        ],
+        [
+          [
+            "Máy Lọc Không Khí Diệt Khuẩn UVGREEN KA150S-UVC LED",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          1
+        ],
+        [
+          [
+            "Máy Bắt Muỗi, Ruồi Và Côn Trùng Thông Minh UVGREEN",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          1
+        ],
+        [
+          [
+            "Máy Lọc Không Khí Diệt Khuẩn UVGREEN KA350 UVC Light 40m2",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          2
+        ]
+      ],
+      "source_only": [
+        [
+          [
+            "Máy Bắt Muỗi, Ruồi Và Côn Trùng Thông Minh UVGREEN KM100",
+            "Cái",
+            "-2",
+            null,
+            null
+          ],
+          1
+        ],
+        [
+          [
+            "Máy Bắt Muỗi, Ruồi Và Côn Trùng Thông Minh UVGREEN KM300",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          1
+        ],
+        [
+          [
+            "Màng Lọc HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA150-S FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          1
+        ],
+        [
+          [
+            "Màng Lọc HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA600 FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          5
+        ],
+        [
+          [
+            "Màng Lọc HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA350 FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          4
+        ],
+        [
+          [
+            "Máy Bắt Muỗi, Ruồi Và Côn Trùng Thông Minh UVGREEN KM100",
+            "Cái",
+            "-3",
+            null,
+            null
+          ],
+          1
+        ],
+        [
+          [
+            "Máy Bắt Muỗi, Ruồi Và Côn Trùng Thông Minh UVGREEN KM100",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          1
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA600 FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          2
+        ],
+        [
+          [
+            "Máy Lọc Không Khí Diệt Khuẩn UVGREEN KA150S-UVC LED",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          1
+        ],
+        [
+          [
+            "Máy Bắt Muỗi, Ruồi Và Côn Trùng Thông Minh UVGREEN",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          1
+        ],
+        [
+          [
+            "Máy Lọc Không Khí Diệt Khuẩn UVGREEN KA350 UVC Light 40m2",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "workbook": "HOA_DON_DA_DIEU_CHINH_F0_2024_T6_2025.xlsx",
+      "key": [
+        "1C24TUV",
+        "00000629"
+      ],
+      "seq": 930,
+      "import_lines": 163,
+      "source_kind": "Excel",
+      "source": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\Bang_ke_chi_tiet_hoa_don_da_su_dung_1791595024735.xls",
+      "source_lines": 163,
+      "date_match": true,
+      "source_money": [
+        "189397972",
+        "15151838",
+        "204549810"
+      ],
+      "header_match": true,
+      "exact_detail_match": false,
+      "status": "blank_vs_zero_only",
+      "import_only": [
+        [
+          [
+            "Combo 2 Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA600 FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          1
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA600 FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          7
+        ],
+        [
+          [
+            "Combo 2 Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA150-S FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          2
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA350 FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          8
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA800 FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          1
+        ]
+      ],
+      "source_only": [
+        [
+          [
+            "Combo 2 Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA600 FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          1
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA600 FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          7
+        ],
+        [
+          [
+            "Combo 2 Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA150-S FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          2
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA350 FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          8
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA800 FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          1
+        ]
+      ]
+    },
+    {
+      "workbook": "HOA_DON_DA_DIEU_CHINH_F0_2024_T6_2025.xlsx",
+      "key": [
+        "1C24TUV",
+        "00000630"
+      ],
+      "seq": 932,
+      "import_lines": 96,
+      "source_kind": "Excel",
+      "source": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\Bang_ke_chi_tiet_hoa_don_da_su_dung_1791595024735.xls",
+      "source_lines": 96,
+      "date_match": true,
+      "source_money": [
+        "109941787",
+        "8795343",
+        "118737130"
+      ],
+      "header_match": true,
+      "exact_detail_match": false,
+      "status": "blank_vs_zero_only",
+      "import_only": [
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA600 FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          9
+        ],
+        [
+          [
+            "Máy Bắt Muỗi, Ruồi Và Côn Trùng Thông Minh UVGREEN KM300",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          1
+        ],
+        [
+          [
+            "Combo 2 Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA150-S FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          1
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA350 FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          2
+        ]
+      ],
+      "source_only": [
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA600 FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          9
+        ],
+        [
+          [
+            "Máy Bắt Muỗi, Ruồi Và Côn Trùng Thông Minh UVGREEN KM300",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          1
+        ],
+        [
+          [
+            "Combo 2 Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA150-S FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          1
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA350 FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "workbook": "HOA_DON_DA_DIEU_CHINH_F0_2024_T6_2025.xlsx",
+      "key": [
+        "1C24TUV",
+        "00000631"
+      ],
+      "seq": 934,
+      "import_lines": 73,
+      "source_kind": "Excel",
+      "source": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\Bang_ke_chi_tiet_hoa_don_da_su_dung_1791595024735.xls",
+      "source_lines": 73,
+      "date_match": true,
+      "source_money": [
+        "89754409",
+        "7180353",
+        "96934762"
+      ],
+      "header_match": true,
+      "exact_detail_match": false,
+      "status": "blank_vs_zero_only",
+      "import_only": [
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA600 FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          2
+        ]
+      ],
+      "source_only": [
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA600 FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "workbook": "HOA_DON_DA_DIEU_CHINH_F0_2024_T6_2025.xlsx",
+      "key": [
+        "1C24TUV",
+        "00000632"
+      ],
+      "seq": 936,
+      "import_lines": 69,
+      "source_kind": "Excel",
+      "source": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\Bang_ke_chi_tiet_hoa_don_da_su_dung_1791595024735.xls",
+      "source_lines": 69,
+      "date_match": true,
+      "source_money": [
+        "79247139",
+        "6339771",
+        "85586910"
+      ],
+      "header_match": true,
+      "exact_detail_match": false,
+      "status": "blank_vs_zero_only",
+      "import_only": [
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA600 FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          4
+        ]
+      ],
+      "source_only": [
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA600 FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          4
+        ]
+      ]
+    },
+    {
+      "workbook": "HOA_DON_DA_DIEU_CHINH_F0_2024_T6_2025.xlsx",
+      "key": [
+        "1C24TUV",
+        "00000633"
+      ],
+      "seq": 938,
+      "import_lines": 121,
+      "source_kind": "Excel",
+      "source": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\Bang_ke_chi_tiet_hoa_don_da_su_dung_1791595024735.xls",
+      "source_lines": 121,
+      "date_match": true,
+      "source_money": [
+        "132411213",
+        "10592897",
+        "143004110"
+      ],
+      "header_match": true,
+      "exact_detail_match": false,
+      "status": "blank_vs_zero_only",
+      "import_only": [
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA600 FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          8
+        ],
+        [
+          [
+            "Combo 2 Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA150-S FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          1
+        ],
+        [
+          [
+            "Máy Lọc Không Khí Diệt Khuẩn UVC LED UVGREEN KA600 60m2",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          1
+        ],
+        [
+          [
+            "Máy Lọc Không Khí Diệt Khuẩn Ô Tô Phòng Nhỏ UVGREEN KA100",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          1
+        ],
+        [
+          [
+            "Máy Bắt Muỗi, Ruồi Và Côn Trùng Thông Minh UVGREEN KM100",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          1
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA350 FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          2
+        ]
+      ],
+      "source_only": [
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA600 FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          8
+        ],
+        [
+          [
+            "Combo 2 Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA150-S FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          1
+        ],
+        [
+          [
+            "Máy Lọc Không Khí Diệt Khuẩn UVC LED UVGREEN KA600 60m2",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          1
+        ],
+        [
+          [
+            "Máy Lọc Không Khí Diệt Khuẩn Ô Tô Phòng Nhỏ UVGREEN KA100",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          1
+        ],
+        [
+          [
+            "Máy Bắt Muỗi, Ruồi Và Côn Trùng Thông Minh UVGREEN KM100",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          1
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA350 FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "workbook": "HOA_DON_DA_DIEU_CHINH_F0_2024_T6_2025.xlsx",
+      "key": [
+        "1C24TUV",
+        "00000724"
+      ],
+      "seq": 1054,
+      "import_lines": 68,
+      "source_kind": "XML",
+      "source": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\1C24TUV_00000724.xml",
+      "source_sha256": "7ecd5673721832e7da2368f2ff31b57e7589226d911e5ac680081277f8888e29",
+      "source_lines": 68,
+      "date_match": true,
+      "header_match": true,
+      "line_goods_match_header": true,
+      "header_arithmetic": true,
+      "natures": {
+        "1": 68
+      },
+      "rates": {
+        "8%": 68
+      },
+      "nonzero_discount": false,
+      "line_tax_available": true,
+      "line_tax_match_header": true,
+      "exact_detail_match": true,
+      "status": "exact",
+      "import_only": [],
+      "source_only": []
+    },
+    {
+      "workbook": "HOA_DON_DA_DIEU_CHINH_F0_2024_T6_2025.xlsx",
+      "key": [
+        "1C24TUV",
+        "00000725"
+      ],
+      "seq": 1056,
+      "import_lines": 84,
+      "source_kind": "XML",
+      "source": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\1C24TUV_00000725.xml",
+      "source_sha256": "15c47b6c36d0fdf24fa7f89159c3760b83a9efe79139b501eb5cd56af1130a83",
+      "source_lines": 84,
+      "date_match": true,
+      "header_match": true,
+      "line_goods_match_header": true,
+      "header_arithmetic": true,
+      "natures": {
+        "1": 84
+      },
+      "rates": {
+        "8%": 84
+      },
+      "nonzero_discount": false,
+      "line_tax_available": true,
+      "line_tax_match_header": true,
+      "exact_detail_match": true,
+      "status": "exact",
+      "import_only": [],
+      "source_only": []
+    },
+    {
+      "workbook": "HOA_DON_DA_DIEU_CHINH_F0_2024_T6_2025.xlsx",
+      "key": [
+        "1C24TUV",
+        "00000726"
+      ],
+      "seq": 1058,
+      "import_lines": 60,
+      "source_kind": "XML",
+      "source": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\1C24TUV_00000726.xml",
+      "source_sha256": "bf5a618ca4f8e3837846ce3357362dfee685971d78030451b0d4a658cebc6de9",
+      "source_lines": 60,
+      "date_match": true,
+      "header_match": true,
+      "line_goods_match_header": true,
+      "header_arithmetic": true,
+      "natures": {
+        "1": 60
+      },
+      "rates": {
+        "8%": 60
+      },
+      "nonzero_discount": false,
+      "line_tax_available": true,
+      "line_tax_match_header": true,
+      "exact_detail_match": true,
+      "status": "exact",
+      "import_only": [],
+      "source_only": []
+    },
+    {
+      "workbook": "HOA_DON_DA_DIEU_CHINH_F0_2024_T6_2025.xlsx",
+      "key": [
+        "1C24TUV",
+        "00000727"
+      ],
+      "seq": 1060,
+      "import_lines": 86,
+      "source_kind": "XML",
+      "source": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\1C24TUV_00000727.xml",
+      "source_sha256": "d1a7ffac5f4b5820a76c789401207ff00e2bf271f71214a7cbb6da89c0188a15",
+      "source_lines": 86,
+      "date_match": true,
+      "header_match": true,
+      "line_goods_match_header": true,
+      "header_arithmetic": true,
+      "natures": {
+        "1": 86
+      },
+      "rates": {
+        "8%": 86
+      },
+      "nonzero_discount": false,
+      "line_tax_available": true,
+      "line_tax_match_header": true,
+      "exact_detail_match": true,
+      "status": "exact",
+      "import_only": [],
+      "source_only": []
+    },
+    {
+      "workbook": "HOA_DON_DA_DIEU_CHINH_F0_2024_T6_2025.xlsx",
+      "key": [
+        "1C24TUV",
+        "00000728"
+      ],
+      "seq": 1062,
+      "import_lines": 71,
+      "source_kind": "XML",
+      "source": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\1C24TUV_00000728.xml",
+      "source_sha256": "a19742aead5a858beb41774e5bce37e73b4c3bf05a105fd57e9607034c7b60a0",
+      "source_lines": 71,
+      "date_match": true,
+      "header_match": true,
+      "line_goods_match_header": true,
+      "header_arithmetic": true,
+      "natures": {
+        "1": 71
+      },
+      "rates": {
+        "8%": 71
+      },
+      "nonzero_discount": false,
+      "line_tax_available": true,
+      "line_tax_match_header": true,
+      "exact_detail_match": true,
+      "status": "exact",
+      "import_only": [],
+      "source_only": []
+    },
+    {
+      "workbook": "HOA_DON_DA_DIEU_CHINH_F0_2024_T6_2025.xlsx",
+      "key": [
+        "1C24TUV",
+        "00000729"
+      ],
+      "seq": 1064,
+      "import_lines": 79,
+      "source_kind": "XML",
+      "source": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\1C24TUV_00000729.xml",
+      "source_sha256": "6c658de3e4a6bfaddb1ee80e5baf755b1a7b414a5fa9ad25eb6cb911db7a75e9",
+      "source_lines": 79,
+      "date_match": true,
+      "header_match": true,
+      "line_goods_match_header": true,
+      "header_arithmetic": true,
+      "natures": {
+        "1": 79
+      },
+      "rates": {
+        "8%": 79
+      },
+      "nonzero_discount": false,
+      "line_tax_available": true,
+      "line_tax_match_header": true,
+      "exact_detail_match": true,
+      "status": "exact",
+      "import_only": [],
+      "source_only": []
+    },
+    {
+      "workbook": "HOA_DON_DA_DIEU_CHINH_F0_2024_T6_2025.xlsx",
+      "key": [
+        "1C24TUV",
+        "00000730"
+      ],
+      "seq": 1066,
+      "import_lines": 1,
+      "source_kind": "XML",
+      "source": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\1C24TUV_00000730.xml",
+      "source_sha256": "a56dcec513ba885fa50c4aabe98063bc45c7c06b65a1e3ce7fbee767b525cc6d",
+      "source_lines": 1,
+      "date_match": true,
+      "header_match": true,
+      "line_goods_match_header": true,
+      "header_arithmetic": true,
+      "natures": {
+        "1": 1
+      },
+      "rates": {
+        "8%": 1
+      },
+      "nonzero_discount": false,
+      "line_tax_available": true,
+      "line_tax_match_header": true,
+      "exact_detail_match": true,
+      "status": "exact",
+      "import_only": [],
+      "source_only": []
+    },
+    {
+      "workbook": "HOA_DON_DA_DIEU_CHINH_F0_2024_T6_2025.xlsx",
+      "key": [
+        "1C24TUV",
+        "00000731"
+      ],
+      "seq": 1068,
+      "import_lines": 179,
+      "source_kind": "XML",
+      "source": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\1C24TUV_00000731.xml",
+      "source_sha256": "d4d3af8fd9620f14d01439cdb312e55db70f8a6846d35548649fdb76b79e8bca",
+      "source_lines": 179,
+      "date_match": true,
+      "header_match": true,
+      "line_goods_match_header": true,
+      "header_arithmetic": true,
+      "natures": {
+        "1": 179
+      },
+      "rates": {
+        "8%": 179
+      },
+      "nonzero_discount": false,
+      "line_tax_available": true,
+      "line_tax_match_header": true,
+      "exact_detail_match": true,
+      "status": "exact",
+      "import_only": [],
+      "source_only": []
+    },
+    {
+      "workbook": "HOA_DON_DA_DIEU_CHINH_F0_2024_T6_2025.xlsx",
+      "key": [
+        "1C24TUV",
+        "00000732"
+      ],
+      "seq": 1070,
+      "import_lines": 2,
+      "source_kind": "XML",
+      "source": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\1C24TUV_00000732.xml",
+      "source_sha256": "c5b4e15fe29a92cf0968f54b87f68b82c9efff9839f91fb0a14e4cfe3b9f60b0",
+      "source_lines": 2,
+      "date_match": true,
+      "header_match": true,
+      "line_goods_match_header": true,
+      "header_arithmetic": true,
+      "natures": {
+        "1": 2
+      },
+      "rates": {
+        "8%": 2
+      },
+      "nonzero_discount": false,
+      "line_tax_available": true,
+      "line_tax_match_header": true,
+      "exact_detail_match": true,
+      "status": "exact",
+      "import_only": [],
+      "source_only": []
+    },
+    {
+      "workbook": "HOA_DON_DA_DIEU_CHINH_F0_2024_T6_2025.xlsx",
+      "key": [
+        "1C24TUV",
+        "00000734"
+      ],
+      "seq": 1072,
+      "import_lines": 23,
+      "source_kind": "XML",
+      "source": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\1C24TUV_00000734.xml",
+      "source_sha256": "418d4f42ab8e9584721415e6164464d49dcd3b0584f8d811b701cb494c40c8a7",
+      "source_lines": 23,
+      "date_match": true,
+      "header_match": true,
+      "line_goods_match_header": true,
+      "header_arithmetic": true,
+      "natures": {
+        "1": 23
+      },
+      "rates": {
+        "8%": 23
+      },
+      "nonzero_discount": false,
+      "line_tax_available": true,
+      "line_tax_match_header": true,
+      "exact_detail_match": true,
+      "status": "exact",
+      "import_only": [],
+      "source_only": []
+    },
+    {
+      "workbook": "HOA_DON_DA_DIEU_CHINH_F0_2024_T6_2025.xlsx",
+      "key": [
+        "1C24TUV",
+        "00000735"
+      ],
+      "seq": 1074,
+      "import_lines": 49,
+      "source_kind": "XML",
+      "source": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\1C24TUV_00000735.xml",
+      "source_sha256": "1fb339d429725a1ae8a9f547965f00004950e5b67314394253acf9355287cc8c",
+      "source_lines": 49,
+      "date_match": true,
+      "header_match": true,
+      "line_goods_match_header": true,
+      "header_arithmetic": true,
+      "natures": {
+        "1": 49
+      },
+      "rates": {
+        "8%": 49
+      },
+      "nonzero_discount": false,
+      "line_tax_available": true,
+      "line_tax_match_header": true,
+      "exact_detail_match": true,
+      "status": "exact",
+      "import_only": [],
+      "source_only": []
+    },
+    {
+      "workbook": "HOA_DON_DA_DIEU_CHINH_F0_2024_T6_2025.xlsx",
+      "key": [
+        "1C24TUV",
+        "00000736"
+      ],
+      "seq": 1076,
+      "import_lines": 58,
+      "source_kind": "XML",
+      "source": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\1C24TUV_00000736.xml",
+      "source_sha256": "ce106db976ca01316bc3c9099011149ddba5d8d068f0a604490f7c8f213de023",
+      "source_lines": 58,
+      "date_match": true,
+      "header_match": true,
+      "line_goods_match_header": true,
+      "header_arithmetic": true,
+      "natures": {
+        "1": 58
+      },
+      "rates": {
+        "8%": 58
+      },
+      "nonzero_discount": false,
+      "line_tax_available": true,
+      "line_tax_match_header": true,
+      "exact_detail_match": true,
+      "status": "exact",
+      "import_only": [],
+      "source_only": []
+    },
+    {
+      "workbook": "HOA_DON_DA_DIEU_CHINH_F0_2024_T6_2025.xlsx",
+      "key": [
+        "1C24TUV",
+        "00000737"
+      ],
+      "seq": 1078,
+      "import_lines": 63,
+      "source_kind": "XML",
+      "source": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\1C24TUV_00000737.xml",
+      "source_sha256": "ec3a3297b64e03ea2aaaa743ca6b506ff21083139baf0765fca9f99fbfe2627b",
+      "source_lines": 63,
+      "date_match": true,
+      "header_match": true,
+      "line_goods_match_header": true,
+      "header_arithmetic": true,
+      "natures": {
+        "1": 63
+      },
+      "rates": {
+        "8%": 63
+      },
+      "nonzero_discount": false,
+      "line_tax_available": true,
+      "line_tax_match_header": true,
+      "exact_detail_match": true,
+      "status": "exact",
+      "import_only": [],
+      "source_only": []
+    },
+    {
+      "workbook": "HOA_DON_DA_DIEU_CHINH_F0_2024_T6_2025.xlsx",
+      "key": [
+        "1C24TUV",
+        "00000738"
+      ],
+      "seq": 1080,
+      "import_lines": 54,
+      "source_kind": "XML",
+      "source": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\1C24TUV_00000738.xml",
+      "source_sha256": "30f18a41e79c36fd3b7315648cf6587b8a88b8d4e6b006550024e66e444bd3b3",
+      "source_lines": 54,
+      "date_match": true,
+      "header_match": true,
+      "line_goods_match_header": true,
+      "header_arithmetic": true,
+      "natures": {
+        "1": 54
+      },
+      "rates": {
+        "8%": 54
+      },
+      "nonzero_discount": false,
+      "line_tax_available": true,
+      "line_tax_match_header": true,
+      "exact_detail_match": true,
+      "status": "exact",
+      "import_only": [],
+      "source_only": []
+    },
+    {
+      "workbook": "HOA_DON_DA_DIEU_CHINH_F0_2024_T6_2025.xlsx",
+      "key": [
+        "1C24TUV",
+        "00000739"
+      ],
+      "seq": 1082,
+      "import_lines": 49,
+      "source_kind": "XML",
+      "source": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\1C24TUV_00000739.xml",
+      "source_sha256": "abd8a55a70c54c4a4e2d6960d0758d47a6d4969b56fb45a39cc7c1ffd701d1a4",
+      "source_lines": 49,
+      "date_match": true,
+      "header_match": true,
+      "line_goods_match_header": true,
+      "header_arithmetic": true,
+      "natures": {
+        "1": 49
+      },
+      "rates": {
+        "8%": 49
+      },
+      "nonzero_discount": false,
+      "line_tax_available": true,
+      "line_tax_match_header": true,
+      "exact_detail_match": true,
+      "status": "exact",
+      "import_only": [],
+      "source_only": []
+    },
+    {
+      "workbook": "HOA_DON_DA_DIEU_CHINH_F0_2024_T6_2025.xlsx",
+      "key": [
+        "1C24TUV",
+        "00000740"
+      ],
+      "seq": 1084,
+      "import_lines": 8,
+      "source_kind": "XML",
+      "source": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\1C24TUV_00000740.xml",
+      "source_sha256": "7ac562cfe1fac514d48aebfed079e7239a61f05b7caab9354301cabe9eb479a5",
+      "source_lines": 8,
+      "date_match": true,
+      "header_match": true,
+      "line_goods_match_header": true,
+      "header_arithmetic": true,
+      "natures": {
+        "1": 8
+      },
+      "rates": {
+        "8%": 8
+      },
+      "nonzero_discount": false,
+      "line_tax_available": true,
+      "line_tax_match_header": true,
+      "exact_detail_match": true,
+      "status": "exact",
+      "import_only": [],
+      "source_only": []
+    },
+    {
+      "workbook": "HOA_DON_DA_DIEU_CHINH_F0_2024_T6_2025.xlsx",
+      "key": [
+        "1C24TUV",
+        "00000741"
+      ],
+      "seq": 1086,
+      "import_lines": 5,
+      "source_kind": "XML",
+      "source": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\1C24TUV_00000741.xml",
+      "source_sha256": "73859166894d2a5feccf2f2aca8b14c13e00e3df096ec9c79718327b163d8dfd",
+      "source_lines": 5,
+      "date_match": true,
+      "header_match": true,
+      "line_goods_match_header": true,
+      "header_arithmetic": true,
+      "natures": {
+        "1": 5
+      },
+      "rates": {
+        "8%": 5
+      },
+      "nonzero_discount": false,
+      "line_tax_available": true,
+      "line_tax_match_header": true,
+      "exact_detail_match": true,
+      "status": "exact",
+      "import_only": [],
+      "source_only": []
+    },
+    {
+      "workbook": "HOA_DON_DA_DIEU_CHINH_F0_2024_T6_2025.xlsx",
+      "key": [
+        "1C24TUV",
+        "00000745"
+      ],
+      "seq": 1088,
+      "import_lines": 1,
+      "source_kind": "Excel",
+      "source": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\Bang_ke_chi_tiet_hoa_don_da_su_dung_1791595024735.xls",
+      "source_lines": 1,
+      "date_match": true,
+      "source_money": [
+        "509259",
+        "40741",
+        "550000"
+      ],
+      "header_match": true,
+      "exact_detail_match": true,
+      "status": "exact",
+      "import_only": [],
+      "source_only": []
+    },
+    {
+      "workbook": "HOA_DON_DA_DIEU_CHINH_F0_2024_T6_2025.xlsx",
+      "key": [
+        "1C24TUV",
+        "00000746"
+      ],
+      "seq": 1090,
+      "import_lines": 142,
+      "source_kind": "Excel",
+      "source": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\Bang_ke_chi_tiet_hoa_don_da_su_dung_1791595024735.xls",
+      "source_lines": 142,
+      "date_match": true,
+      "source_money": [
+        "146282685",
+        "11702615",
+        "157985300"
+      ],
+      "header_match": true,
+      "exact_detail_match": false,
+      "status": "blank_vs_zero_only",
+      "import_only": [
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA350 FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          19
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA600 FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          6
+        ],
+        [
+          [
+            "Combo 2 Máy Lọc Không Khí Diệt Khuẩn UVC LED UVGREEN KA350 UVC Light",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          1
+        ],
+        [
+          [
+            "Combo 2 Máy Lọc Không Khí Diệt Khuẩn UVC LED UVGREEN KA600",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          1
+        ],
+        [
+          [
+            "Combo 2 Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA600 FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          1
+        ]
+      ],
+      "source_only": [
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA350 FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          19
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA600 FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          6
+        ],
+        [
+          [
+            "Combo 2 Máy Lọc Không Khí Diệt Khuẩn UVC LED UVGREEN KA350 UVC Light",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          1
+        ],
+        [
+          [
+            "Combo 2 Máy Lọc Không Khí Diệt Khuẩn UVC LED UVGREEN KA600",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          1
+        ],
+        [
+          [
+            "Combo 2 Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA600 FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          1
+        ]
+      ]
+    },
+    {
+      "workbook": "HOA_DON_DA_DIEU_CHINH_F0_2024_T6_2025.xlsx",
+      "key": [
+        "1C24TUV",
+        "00000747"
+      ],
+      "seq": 1092,
+      "import_lines": 139,
+      "source_kind": "Excel",
+      "source": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\Bang_ke_chi_tiet_hoa_don_da_su_dung_1791595024735.xls",
+      "source_lines": 139,
+      "date_match": true,
+      "source_money": [
+        "131882184",
+        "10550575",
+        "142432759"
+      ],
+      "header_match": true,
+      "exact_detail_match": false,
+      "status": "blank_vs_zero_only",
+      "import_only": [
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA350 FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          23
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA600 FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          12
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA800 FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          1
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Làm Sạch Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA150-S FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          1
+        ],
+        [
+          [
+            "Combo 2 Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA150-S FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          1
+        ]
+      ],
+      "source_only": [
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA350 FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          23
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA600 FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          12
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA800 FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          1
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Làm Sạch Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA150-S FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          1
+        ],
+        [
+          [
+            "Combo 2 Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA150-S FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          1
+        ]
+      ]
+    },
+    {
+      "workbook": "HOA_DON_DA_DIEU_CHINH_F0_2024_T6_2025.xlsx",
+      "key": [
+        "1C24TUV",
+        "00000748"
+      ],
+      "seq": 1094,
+      "import_lines": 132,
+      "source_kind": "Excel",
+      "source": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\Bang_ke_chi_tiet_hoa_don_da_su_dung_1791595024735.xls",
+      "source_lines": 132,
+      "date_match": true,
+      "source_money": [
+        "120267399",
+        "9621392",
+        "129888791"
+      ],
+      "header_match": true,
+      "exact_detail_match": false,
+      "status": "blank_vs_zero_only",
+      "import_only": [
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA600 FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          5
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA350 FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          32
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA800 FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          1
+        ]
+      ],
+      "source_only": [
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA600 FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          5
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA350 FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          32
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA800 FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          1
+        ]
+      ]
+    },
+    {
+      "workbook": "HOA_DON_DA_DIEU_CHINH_F0_2024_T6_2025.xlsx",
+      "key": [
+        "1C24TUV",
+        "00000749"
+      ],
+      "seq": 1096,
+      "import_lines": 122,
+      "source_kind": "Excel",
+      "source": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\Bang_ke_chi_tiet_hoa_don_da_su_dung_1791595024735.xls",
+      "source_lines": 122,
+      "date_match": true,
+      "source_money": [
+        "113129119",
+        "9050330",
+        "122179449"
+      ],
+      "header_match": true,
+      "exact_detail_match": false,
+      "status": "blank_vs_zero_only",
+      "import_only": [
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA350 FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          21
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA600 FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          8
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA600 FT",
+            "Cái",
+            "-2",
+            "0",
+            "0"
+          ],
+          1
+        ]
+      ],
+      "source_only": [
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA350 FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          21
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA600 FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          8
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA600 FT",
+            "Cái",
+            "-2",
+            null,
+            null
+          ],
+          1
+        ]
+      ]
+    },
+    {
+      "workbook": "HOA_DON_DA_DIEU_CHINH_F0_2024_T6_2025.xlsx",
+      "key": [
+        "1C24TUV",
+        "00000750"
+      ],
+      "seq": 1098,
+      "import_lines": 116,
+      "source_kind": "Excel",
+      "source": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\Bang_ke_chi_tiet_hoa_don_da_su_dung_1791595024735.xls",
+      "source_lines": 116,
+      "date_match": true,
+      "source_money": [
+        "108277200",
+        "8662176",
+        "116939376"
+      ],
+      "header_match": true,
+      "exact_detail_match": false,
+      "status": "blank_vs_zero_only",
+      "import_only": [
+        [
+          [
+            "Máy Lọc Không Khí Diệt Khuẩn UVGREEN KA350 UVC Light 40m2",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          1
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA600 FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          7
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA350 FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          24
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA800 FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          1
+        ]
+      ],
+      "source_only": [
+        [
+          [
+            "Máy Lọc Không Khí Diệt Khuẩn UVGREEN KA350 UVC Light 40m2",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          1
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA600 FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          7
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA350 FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          24
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA800 FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          1
+        ]
+      ]
+    },
+    {
+      "workbook": "HOA_DON_DA_DIEU_CHINH_F0_2024_T6_2025.xlsx",
+      "key": [
+        "1C24TUV",
+        "00000751"
+      ],
+      "seq": 1100,
+      "import_lines": 50,
+      "source_kind": "Excel",
+      "source": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\Bang_ke_chi_tiet_hoa_don_da_su_dung_1791595024735.xls",
+      "source_lines": 50,
+      "date_match": true,
+      "source_money": [
+        "42363354",
+        "3389068",
+        "45752422"
+      ],
+      "header_match": true,
+      "exact_detail_match": false,
+      "status": "blank_vs_zero_only",
+      "import_only": [
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA350 FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          17
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA600 FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          2
+        ]
+      ],
+      "source_only": [
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA350 FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          17
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA600 FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "workbook": "HOA_DON_DA_DIEU_CHINH_F0_2024_T6_2025.xlsx",
+      "key": [
+        "1C24TUV",
+        "00000752"
+      ],
+      "seq": 1102,
+      "import_lines": 55,
+      "source_kind": "Excel",
+      "source": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\Bang_ke_chi_tiet_hoa_don_da_su_dung_1791595024735.xls",
+      "source_lines": 55,
+      "date_match": true,
+      "source_money": [
+        "54358227",
+        "4348658",
+        "58706885"
+      ],
+      "header_match": true,
+      "exact_detail_match": false,
+      "status": "blank_vs_zero_only",
+      "import_only": [
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA350 FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          12
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA600 FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          4
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA150-S FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          1
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA800 FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          1
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Làm Sạch Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA150-S FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          1
+        ],
+        [
+          [
+            "Máy Lọc Không Khí Diệt Khuẩn UVGREEN KA150P 20m2",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          1
+        ],
+        [
+          [
+            "Combo 2 Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA150-S FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          1
+        ]
+      ],
+      "source_only": [
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA350 FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          12
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA600 FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          4
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA150-S FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          1
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA800 FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          1
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Làm Sạch Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA150-S FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          1
+        ],
+        [
+          [
+            "Máy Lọc Không Khí Diệt Khuẩn UVGREEN KA150P 20m2",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          1
+        ],
+        [
+          [
+            "Combo 2 Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA150-S FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          1
+        ]
+      ]
+    },
+    {
+      "workbook": "HOA_DON_DA_DIEU_CHINH_F0_2024_T6_2025.xlsx",
+      "key": [
+        "1C24TUV",
+        "00000753"
+      ],
+      "seq": 1104,
+      "import_lines": 20,
+      "source_kind": "Excel",
+      "source": "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\Bang_ke_chi_tiet_hoa_don_da_su_dung_1791595024735.xls",
+      "source_lines": 20,
+      "date_match": true,
+      "source_money": [
+        "18617386",
+        "1489391",
+        "20106777"
+      ],
+      "header_match": true,
+      "exact_detail_match": false,
+      "status": "blank_vs_zero_only",
+      "import_only": [
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA350 FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          4
+        ],
+        [
+          [
+            "Combo 2 Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA350 FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          1
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA600 FT",
+            "Cái",
+            "-1",
+            "0",
+            "0"
+          ],
+          1
+        ]
+      ],
+      "source_only": [
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA350 FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          4
+        ],
+        [
+          [
+            "Combo 2 Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA350 FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          1
+        ],
+        [
+          [
+            "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA600 FT",
+            "Cái",
+            "-1",
+            null,
+            null
+          ],
+          1
+        ]
+      ]
+    }
+  ],
+  "limits": [
+    "Blank and zero remain distinct; diagnostic comparison does not authorize replacement.",
+    "No cryptographic signature or live tax authority verification.",
+    "Workbooks and the 18-file base manifest remain unchanged."
+  ],
+  "coverage_complete": true,
+  "content_checks_passed": true
+}
