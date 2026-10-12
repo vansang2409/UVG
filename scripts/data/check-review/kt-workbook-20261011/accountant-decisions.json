@@ -1,0 +1,114 @@
+{
+  "recorded_date": "2026-10-11",
+  "confirmations": [
+    {
+      "point": 1,
+      "status": "confirmed_by_user",
+      "user_instruction": "1. đảo số đã phát hành",
+      "scope": [
+        "LT01",
+        "LT02",
+        "LT03",
+        "LT04",
+        "LT05",
+        "LT06",
+        "LT07",
+        "LT08"
+      ],
+      "amount_basis": "XML issued source values, not the accountant's recalculated amounts",
+      "header_rule": "Reverse the sign separately for goods, tax and payment. Preserve each original magnitude and the source XML unchanged.",
+      "verification_scope": "Each issued adjustment plus its own reversal totals zero per header field. This does not imply the entire root chain has been processed.",
+      "applied_to_import": true
+    },
+    {
+      "point": 2,
+      "status": "confirmed_by_user",
+      "scope": [
+        "DC02",
+        "DC03",
+        "DC04",
+        "DC05",
+        "DC06"
+      ],
+      "user_instruction": "Đã chỉnh lại cặp số hóa đơn; Đúng, áp dụng cách hiểu này",
+      "pairs": [
+        [
+          "00001094",
+          "00013038"
+        ],
+        [
+          "00003113",
+          "00013032"
+        ],
+        [
+          "00004081",
+          "00013033"
+        ],
+        [
+          "00005555",
+          "00013034"
+        ],
+        [
+          "00005918",
+          "00013035"
+        ]
+      ],
+      "rule": "Giảm gốc: số lượng -1, giữ đơn giá dương. Đảo điều chỉnh cũ: số lượng -1, giữ đơn giá âm, thành tiền dương. Dùng cặp số B/D có đối chiếu XML, không theo các số gốc 3113 bị chép lặp trong mô tả.",
+      "applied_to_import": true
+    },
+    {
+      "point": 3,
+      "status": "confirmed_by_user",
+      "scope": [
+        "SL01"
+      ],
+      "user_instruction": "Vì hóa đơn 555 không có số lượng, đơn giá => hóa đơn xuất điều chỉnh chỉ cần xuất đảo số tiền ở thành tiền thôi",
+      "rule": "Riêng dòng 6 gốc 1C24TUV/00000555: số lượng và đơn giá để trống; thành tiền -46296 theo nguồn. Không suy ra số lượng -1.",
+      "applied_to_import": true
+    },
+    {
+      "point": 4,
+      "status": "confirmed_by_user",
+      "scope": [
+        "SL08"
+      ],
+      "user_instruction": "Đã chỉnh lại sản phẩm đúng: Vợt bắt muỗi tự động 2 trong 1 thu hút các loại côn trùng KM003",
+      "rule": "Bỏ dòng 2 KM003 của gốc 1C25TUV/00002797; không tác động dòng của hóa đơn khác.",
+      "applied_to_import": true
+    },
+    {
+      "point": 5,
+      "status": "confirmed_by_user",
+      "scope": [
+        "TT01",
+        "TT02"
+      ],
+      "user_instruction": "Đã bổ sung. Và vì HĐ 6 +16 chỉ xuất số lượng hàng hóa, không có đơn giá nên khi xuất điều chỉnh chỉ cần điều chỉnh giảm số lượng thôi",
+      "rule": "Gốc6/16: giảm số lượng theo các dòng KT đã cho, giữ đơn giá trống, không thêm giá trị tiền. Đảo riêng tiền đã phát hành của655/657 theo số bổ sung; không sửa ô thanh toán trống của nguồn thành0.",
+      "applied_to_import": true
+    },
+    {
+      "point": 6,
+      "status": "confirmed_by_user",
+      "scope": [
+        "CC01",
+        "CC02",
+        "CC03",
+        "CC04",
+        "CC05",
+        "CC06"
+      ],
+      "user_instruction": "Là giữ cả cặp hóa đơn ngoài đợt xử lý. Lưu ý: các hóa đơn xuất cho người mua là công ty/ hộ kinh doanh, hoặc đã có hóa đơn điều chỉnh tên người mua thành công ty/ hộ kinh doanh thì không điều chỉnh nữa. Giữ nguyên tất cả các hóa đơn liên quan.",
+      "rule": "Loại toàn bộ thành phần liên thông của chuỗi khỏi đợt điều chỉnh nếu bất kỳ hóa đơn nào xuất cho/đổi người mua thành công ty hoặc hộ kinh doanh. Giữ6cặp đã nêu ngoài đợt này, ưu tiên hơn các quyết định chuẩn bị cũ.",
+      "applied_to_import": true
+    }
+  ],
+  "remaining_points": [],
+  "latest_accountant_workbook_sha256": "c55b6ba35463c8431a590f840ad95bddbf0f1b247e066e940b8ddb1f59f677e8",
+  "applied_to_import": true,
+  "applied_to_import_workbooks_on": "2026-10-12",
+  "software_imported": false,
+  "signed": false,
+  "issued": false,
+  "application_report": "scripts\\data\\apply-confirmed-20261012\\final-verification.json"
+}

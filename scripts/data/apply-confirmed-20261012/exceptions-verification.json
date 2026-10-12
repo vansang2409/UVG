@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "mode": "staged",
+  "files": [
+    {
+      "name": "NGOAI_LE_F0_2024_T6_2025.xlsx",
+      "sha256": "e71cd26bd35e833b1caa587612ad3ccb1b3e6d8c1e699018539d809acc84eaa8",
+      "old_cells_changed_within_scope": 6,
+      "protected_chains": 244,
+      "protected_invoices": 338
+    }
+  ],
+  "new_invoices": 0,
+  "new_roots": 0,
+  "formula_errors": 0,
+  "source_hashes_unchanged": true
+}

@@ -1,0 +1,131 @@
+{
+  "passed": true,
+  "mode": "final",
+  "files": [
+    {
+      "name": "HOA_DON_CHUA_DIEU_CHINH_F0_2024_T6_2025.xlsx",
+      "sha256": "296c47cb3868a5ca4a308dc211dafc67782528b643910e1bd263acded6a34e4c",
+      "old_cells_changed_within_scope": 389,
+      "path": "outputs/HOA_DON_CHUA_DIEU_CHINH_F0_2024_T6_2025.xlsx",
+      "backup_path": "scripts/data/apply-confirmed-20261012/before/HOA_DON_CHUA_DIEU_CHINH_F0_2024_T6_2025.xlsx",
+      "backup_sha256": "f4fd4dd2c80031e3fa46aa4b56d7dde4ecea9c592e65baf2af2fa66f2b0c1f0a",
+      "invoices": 8410,
+      "roots": 8410,
+      "rows": 13568,
+      "new_invoices": 6,
+      "new_rows": 25,
+      "arithmetic_differences": []
+    },
+    {
+      "name": "HOA_DON_DA_DIEU_CHINH_F0_2024_T6_2025.xlsx",
+      "sha256": "9d041000c31027161714b66059cb9420a7fa02b3ed6d6c8b13a32ddb92cd2377",
+      "old_cells_changed_within_scope": 284,
+      "path": "outputs/HOA_DON_DA_DIEU_CHINH_F0_2024_T6_2025.xlsx",
+      "backup_path": "scripts/data/apply-confirmed-20261012/before/HOA_DON_DA_DIEU_CHINH_F0_2024_T6_2025.xlsx",
+      "backup_sha256": "ee4c9ea51a4869298bccc041e99ee040da8c3ee0a3d65b2e3a6813a74e6f0fd4",
+      "invoices": 2032,
+      "roots": 1007,
+      "rows": 41790,
+      "new_invoices": 42,
+      "new_rows": 522,
+      "arithmetic_differences": [
+        {
+          "case": "LT01",
+          "seq": 1991,
+          "target": [
+            "1C25TUV",
+            "00000649"
+          ],
+          "difference": 823998
+        },
+        {
+          "case": "LT02",
+          "seq": 1993,
+          "target": [
+            "1C25TUV",
+            "00000561"
+          ],
+          "difference": -136000
+        },
+        {
+          "case": "LT03",
+          "seq": 1995,
+          "target": [
+            "1C25TUV",
+            "00001819"
+          ],
+          "difference": -2000
+        },
+        {
+          "case": "LT04",
+          "seq": 1997,
+          "target": [
+            "1C25TUV",
+            "00001167"
+          ],
+          "difference": -1000
+        },
+        {
+          "case": "LT05",
+          "seq": 1999,
+          "target": [
+            "1C25TUV",
+            "00002145"
+          ],
+          "difference": -900
+        },
+        {
+          "case": "LT06",
+          "seq": 2001,
+          "target": [
+            "1C25TUV",
+            "00002619"
+          ],
+          "difference": -1
+        },
+        {
+          "case": "LT07",
+          "seq": 2004,
+          "target": [
+            "1C25TUV",
+            "00001821"
+          ],
+          "difference": 1
+        },
+        {
+          "case": "LT08",
+          "seq": 2006,
+          "target": [
+            "1C25TUV",
+            "00000626"
+          ],
+          "difference": -1
+        }
+      ]
+    },
+    {
+      "name": "NGOAI_LE_F0_2024_T6_2025.xlsx",
+      "sha256": "e71cd26bd35e833b1caa587612ad3ccb1b3e6d8c1e699018539d809acc84eaa8",
+      "old_cells_changed_within_scope": 6,
+      "path": "outputs/NGOAI_LE_F0_2024_T6_2025.xlsx",
+      "backup_path": "scripts/data/apply-confirmed-20261012/before/NGOAI_LE_F0_2024_T6_2025.xlsx",
+      "backup_sha256": "708d83c444eed60c2a8ebefca6b97085d02c57f53a8ad36e6f789758d857c950",
+      "protected_chains": 244,
+      "protected_invoices": 338
+    }
+  ],
+  "software_imported": false,
+  "signed": false,
+  "issued": false,
+  "scope_reconciliation": {
+    "source_roots": 9695,
+    "prepared_roots": 9417,
+    "protected_or_kept_roots": 247,
+    "already_matched_roots": 31,
+    "unclassified_roots": 0
+  },
+  "new_invoices": 48,
+  "new_roots": 27,
+  "formula_errors": 0,
+  "source_hashes_unchanged": true
+}

@@ -2,6 +2,8 @@
 
 Repo: https://github.com/vansang2409/UVG.git – nhánh master.
 
+Cập nhật 12/10/2026: đã áp dụng đủ 6 điểm kế toán chốt vào cả 3 workbook chính, bổ sung 48 hóa đơn/547 dòng trên 27 gốc. Tổng hiện tại: 10.442 hóa đơn dự kiến/55.358 dòng. Cả 19 chuỗi chờ và 11 chuỗi cần chốt đã có hướng xử lý hoặc giữ nguyên; không yêu cầu trả lời lại. Đã nhận đủ 20/20 XML điều chỉnh của nhóm 19 chuỗi và giữ ZIP/XML/phản hồi gốc trong `data/Bo sung/`. Chưa nhập phần mềm, ký hoặc phát hành. Trạng thái hiện tại nằm ở đầu `TIEP_TUC_UVG.md`.
+
 ## Nhận bản mới
 
 Nếu đã clone, chạy trong thư mục UVG:
@@ -23,24 +25,22 @@ cd UVG
 
 Dán đoạn này vào chat trong project UVG:
 
-> Đọc TIEP_TUC_UVG.md từ đầu, README.md và HUONG_DAN_MAY_O_NHA.md; ưu tiên cập nhật 11/10/2026 hơn lịch sử. AMIS là mục tiêu, meInvoice là lịch sử; F0 thuộc 01/01/2024–30/06/2025, liên quan đến31/12/2025. Import hiện tại: chưa điều chỉnh 8.404 hóa đơn/13.543 dòng; đã điều chỉnh 986 chuỗi/1.990 hóa đơn dự kiến/41.268 dòng, gồm 195 chuỗi đã bổ sung theo XML. Đã bổ sung nguồn cho57F0 và rà thêm608/733 cùng ngoại lệ609; không còn thiếu chi tiết trong import. Đã sửa11đơn giá thuộc8F0 theoXML. Rà toàn bộ10.394hóa đơn/54.811dòng đạt kiểm tra nguồn/kế hoạch;986chuỗi về0. Còn2.185dòng/514F0 có SL×đơn giá khác thành tiền nguồn, phù hợp đơn giá làm tròn; giữ số tiền nguồn và kiểm tùy chọn tự tính khi xem trước meInvoice. Còn19chuỗi chờ,11chuỗi cầnchốt,6chuỗi thaythế; không nhầm19chuỗi chờ với19XMLgốc bổ sung. 237XMLđiềuchỉnh đã có và rà hash/tổng/thamchiếu, ngày12885 đã chốt18/08/2025. Chưa import/ký/phát hành hoặc xác minh mật mã chữ ký/CQT trực tiếp. Không chạy builder/verifier lịch sử ghi đè workbook; giữ số0đầu, ôtrống và dữliệunguồn. Dùng script chỉđọc hiện tại, tra runtime bằng load_workspace_dependencies; đọc phần việc còn lại và tiếp tục theo yêu cầu tôi.
+> Đọc TIEP_TUC_UVG.md từ đầu và HUONG_DAN_MAY_O_NHA.md; ưu tiên cập nhật 12/10/2026 hơn các mục lịch sử. AMIS là mục tiêu, meInvoice là lịch sử; F0 thuộc 01/01/2024–30/06/2025. Đã chốt và áp dụng đủ 6 điểm cùng dấu 5 cặp giá âm. Import hiện tại: chưa điều chỉnh 8.410 hóa đơn/13.568 dòng; đã điều chỉnh 2.032 hóa đơn/41.790 dòng trên 1.007 chuỗi. Ngoại lệ có 244 chuỗi/338 hóa đơn liên quan; thêm 3 hồ sơ cùng sản phẩm giữ nguyên riêng. Đã rà đủ 9.695 gốc = 9.417 gốc chuẩn bị import + 247 gốc giữ nguyên + 31 gốc đã khớp. Không hỏi lại 19 chuỗi chờ/11 chuỗi cần chốt. Giữ nguồn, số 0 đầu, ô trống; đảo đúng số đã phát hành ở 8 khoản lệch. Chưa nhập/ký/phát hành. Kiểm hiện tại bằng scripts/data/apply-confirmed-20261012/verify.py --final, không chạy builder/verifier lịch sử ghi đè workbook. Đọc bước kiểm nháp phần mềm và tiếp tục theo yêu cầu tôi.
 
 ## File chính
 
 - outputs/HOA_DON_CHUA_DIEU_CHINH_F0_2024_T6_2025.xlsx
 - outputs/HOA_DON_DA_DIEU_CHINH_F0_2024_T6_2025.xlsx
 - outputs/NGOAI_LE_F0_2024_T6_2025.xlsx
-- outputs/kiem-tra-20261008/CAC_TRUONG_HOP_CAN_KIEM_TRA.xlsx (bảng kiểm tra đã tạo trước khi chuyển sang sheet).
+- outputs/kt-review-20261011-01a12992/UVG_PHUONG_AN_DA_CHOT_20261011.xlsx (phương án đã chốt và phản hồi gốc).
+- outputs/kt-review-20261011-01a12992/UVG_CAC_VAN_DE_CAN_KE_TOAN_XAC_NHAN_20261011.xlsx (bản câu hỏi ban đầu, dùng đối chiếu lịch sử).
 
-Chỉ mở file/tài liệu thì không cần tái tạo Excel. Script/dataJSON hiện hành được bàn giao; ảnhpreview/log và bảnxlsx trunggian là filetạm, không cần chuyển. Các verify cũ có thể phụ thuộc snapshot và ghi đè output: không chạy tùy tiện. Dùng kiểm tra chỉ đọc mới:
+Chỉ mở file/tài liệu thì không cần tái tạo Excel. Giữ bản trước cập nhật ở `scripts/data/apply-confirmed-20261012/before/` để so sánh độc lập; ảnh xem trước, cờ duyệt và bản `staged/` chỉ giữ cục bộ. Dùng kiểm tra hiện tại:
 
 ```powershell
-python scripts/verify_handoff.py
-python scripts/audit_supplement_57.py
-python scripts/audit_current_import_plan.py
-python scripts/audit_current_sources.py
+python scripts/data/apply-confirmed-20261012/verify.py --final
 ```
 
-Cần Python 3.11+ với openpyxl/lxml theo requirements.txt; có thể dùng runtime Codex từ load_workspace_dependencies. Các script trên tự xác định root repo, không cần Downloads máy cũ và không ghi Excel; chỉ ghi JSON kết quả kiểm tra. Giữ lịch sử Git để kiểm liên kết thay thế60→61 từ commit9c50b042. verify_handoff kiểm manifest18nguồn, sốlượngimport, số0đầu, tênKH=ngườimua, hàngkhuyếnmãi, loạiSL0 và sốhọc về0 của986chuỗi. Đây là kiểm tra dữ liệu, không xác nhận quy định hoặc chữ ký/CQT.
+Cần Python 3.11+ với openpyxl theo requirements.txt; có thể dùng runtime Codex từ load_workspace_dependencies. Script tự xác định checkout, kiểm hash nguồn/phương án/bản trước cập nhật, đọc cả 3 workbook và ghi `final-verification.json`; không ghi Excel. Các audit cũ có số cố định 8.404/1.990 mô tả trạng thái trước bổ sung, không dùng để kết luận bộ hiện tại bị sai hoặc để tái tạo đè lên workbook. Giữ lịch sử Git để kiểm liên kết thay thế60→61 từ commit9c50b042. Đây là kiểm tra dữ liệu, chưa xác minh mật mã chữ ký hoặc trạng thái CQT trực tiếp.
 
-Trước sửa hoặc tạo file: xác minh phản hồiKT, phiên bảnworkbook và ngày phát hành dự kiến. Import cũ dự thảo ngày08/10/2026;390hóađơn bổ sung dự thảo09/10/2026. Không tự đổi thành ngày máy hiện tại.
+Phần import cũ giữ ngày dự thảo 08/10 và 09/10/2026; 48 hóa đơn mới dùng 12/10/2026. Không tự đổi theo ngày máy. Bước tiếp theo trên meInvoice là nhập nháp, kiểm 8 khoản đảo lệch tổng tiền được tô vàng, tính chất dòng diễn giải, ngày và tham chiếu; xem kỹ bản nháp trước khi ký/phát hành. Không chạy lại prepare/apply/promote chỉ để kiểm tra.

@@ -3,6 +3,7 @@ __pycache__/
 *.pyc
 .env
 *.zip
+!/data/Bo sung/meInvoice/2026-10-11-pending-XML/*.zip
 
 # Giữ dữ liệu gốc tại thư mục dự án; bản đưa lên Git nằm trong data/.
 /Du lieu Amis/
@@ -26,3 +27,13 @@ node_modules/
 /scripts/data/untreated/*.xlsx
 /scripts/data/untreated/*.png
 /scripts/data/untreated/*.log
+
+# Bản xuất trung gian và ảnh kiểm tra của đợt chốt kế toán.
+# Giữ before/ làm căn cứ so sánh độc lập khi kiểm tra trên máy khác.
+/scripts/data/apply-confirmed-20261012/staged/
+/scripts/data/apply-confirmed-20261012/previews/
+/scripts/data/apply-confirmed-20261012/*.ndjson
+/scripts/data/apply-confirmed-20261012/*.flag
+/scripts/data/check-review/kt-workbook-20261011/previews/
+/scripts/data/check-review/kt-workbook-20261011/confirmed-previews/
+/scripts/data/check-review/kt-workbook-20261011/*.ndjson

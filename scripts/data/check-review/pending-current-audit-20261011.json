@@ -1,0 +1,3140 @@
+{
+  "review_date": "2026-10-11",
+  "read_only": true,
+  "summary": {
+    "pending_chains": 19,
+    "pending_invoices": 39,
+    "pending_adjustments": 20,
+    "pending_originals_with_xml": 1,
+    "pending_adjustments_with_xml": 20,
+    "pending_invoices_with_blank_header_money": 7,
+    "pending_invoices_with_arithmetic_difference": 8,
+    "pending_roots_with_zero_or_blank_qty": 2,
+    "review_chains": 11,
+    "review_categories": {
+      "Điều chỉnh một khoản tổng": 1,
+      "Giảm bằng đơn giá âm": 5,
+      "Khác loại hàng": 2,
+      "Khác mô tả": 3
+    },
+    "review_adjustments_with_xml": 11,
+    "review_all_zero": true,
+    "all_30_roots_excluded_from_import": true,
+    "new_mismatch_count": 0,
+    "xml_zero_export_blank_invoices": 4,
+    "source_conflict_count": 0,
+    "workbook_unchanged": true
+  },
+  "xml_availability_scope": "Extracted XML under data/Bo sung/meInvoice only; this does not establish whether an invoice was supplied in the original bulk archives.",
+  "historical_bulk_xml_receipts": [
+    {
+      "path": "C:\\Users\\tranq\\Downloads\\Hoa_don_dien_tu_09.10.2026_02.51.zip",
+      "sha256": "0e9f6207d7898b80e096f67f16e655a8404916b1ee3bddc01a513c67e980c9ae",
+      "xml": 999,
+      "pdf": 999,
+      "min_date": "2025-05-04",
+      "max_date": "2025-06-24",
+      "matched_237": 19,
+      "matched_57_originals": 0
+    },
+    {
+      "path": "C:\\Users\\tranq\\Downloads\\Hoa_don_dien_tu_09.10.2026_02.52.zip",
+      "sha256": "8668f623ff9c1537533ffe14aa10aa23f216ae3a8e909058ae2471b12397198c",
+      "xml": 437,
+      "pdf": 437,
+      "min_date": "2025-06-24",
+      "max_date": "2025-09-30",
+      "matched_237": 218,
+      "matched_57_originals": 0
+    }
+  ],
+  "passed": true,
+  "workbook_sha256": "ee4c9ea51a4869298bccc041e99ee040da8c3ee0a3d65b2e3a6813a74e6f0fd4",
+  "source_files_unchanged": true,
+  "source_hashes": {
+    "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_chi_tiet_hoa_don_da_su_dung_1791533073074.xlsx": "129e18bc609c19ebddf0c16dc553eb4be1c6a5e3606efb0b05c6ebda4e19cfa7",
+    "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_chi_tiet_hoa_don_da_su_dung_20261009_150742.zip": "d9d38cf89f90849b21ac025d9b35cc2cf04b78b5fbe6d5a6f13b4413bbf98ad5",
+    "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_da_su_dung_1791532882546.xlsx": "95ec590e9c3d4ef021513d9c2854d435390b45486c2cbeef90860253798042fc",
+    "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_da_su_dung_1791532908545.zip": "9882c1c9ebb57203e773b65341f37337c46c96cba9fa2863d07bcda20ea1b42e",
+    "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_dieu_chinh_xuat_theo_HD_dieu_chinh_1791533363253.xls": "9c4d7fd2748782f7029c6619c69ecec9bfcec15ba3726dfa3312b2a7fd0c10a7",
+    "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_dieu_chinh_xuat_theo_HD_dieu_chinh_1791533378419.xls": "1984590a5d17c9484e275b1508b7a5c462b67d04fa9852bd0439071d409afca5",
+    "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_dieu_chinh_xuat_theo_HD_dieu_chinh_1791535046109.xls": "a22f4b45e748bd1e0515ded6abc869bfb9c4fc607c78abbdc524dd7545c7cee8",
+    "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_thay_the_xuat_theo_HD_thay_the_1791533430588.xls": "617565f39b96937ad1a975a2802d40e0b71d5b97554cbfd0f0da45852cfb5737",
+    "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_thay_the_xuat_theo_HD_thay_the_1791535075764.xls": "d1a4f4ee5c4cd6942bf4d38b125e539e87861d33d1af1f16639c952e09ffad8e",
+    "data/Bo sung/meInvoice/2026-10-09-00000003-00000508/1C24TUV_00000003.xml": "6c7d5e1ad62e5c5093e453dd8c87bd04fb98a8517fc548f0db96bf8f3af40155",
+    "data/Bo sung/meInvoice/2026-10-09-00000003-00000508/1C25TUV_00000508.xml": "1a40b5a1bf289f1959de7bab551587b2fba7a9d129df778a6f0eccb72c22ec5b",
+    "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012835.xml": "071b87a7344fc8ecbdec25426f765b0e24e7da966ab5f4a25816ee4bc7c372d5",
+    "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013032.xml": "0a3343e9f064a05d7fddcfdf21f1edd8c73a9ee2d060f0a2231f91d8090243d3",
+    "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013033.xml": "77b3e5f6678fbaf032788347e4e92ce80a21dd534262dcfb79b4a6da92562e4b",
+    "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013034.xml": "92b262dde2551fe0c48d71aaa6316344b1d2caab5b370da38e3bc56b0b97fda5",
+    "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013035.xml": "5706b9b718e88170df8a0958d35d20c15852acd09763a2b7b6ec516c9c64ae13",
+    "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013038.xml": "374262c4a2738cf0491ac63732cedc4c9401d12621b297d3a212dd1529db7068",
+    "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013072.xml": "b291282b71bc5ac4320e923a393db597f03cd3e70fa0a55380c1be74673a4deb",
+    "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013079.xml": "e473878c5c3d9e9c2949c26e3bf9cdd50edc80013cd194b16dd4adbf3f0257c8",
+    "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013089.xml": "b8f2f488b5cf0a20a30efa6cc0769028068b7d84c8f20ea6910199f4c70e5304",
+    "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013095.xml": "203cdec2e1d19a15196c41a3499e8550e65d55a855284bd2cf042defb2a64aaa",
+    "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013099.xml": "b66dfa408435fe527e8389350ff733e75bcd90f8ed838e9b8b1261100d2c5a8c",
+    "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000561.xml": "a6a6c505c0f693410b073ac1842f2bc6af222522aa924d12f96e0839c5b6e3dd",
+    "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000626.xml": "836b427146c2adcb3def573f8729174dd92bbae6aea1d783458e11c2cba75a31",
+    "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000635.xml": "53928e76d91b9ea86c0201b70b8be54c6fee9445b68a8046412141bee826c334",
+    "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000649.xml": "b5965bd2ecf57a42c5f0cd2c16601e1043ed8a9aca21cc2769e6db1d0928542d",
+    "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000655.xml": "9f0552364f5fa1f2f865be572f57011e6fb166e75c5c7644ab7c2e2b43a0d321",
+    "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000657.xml": "8b0686f62571b2c7c77d68bfaf49e94e2c880f44ba35981f3d8485ef78bcc75f",
+    "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00001167.xml": "3c0e07df4b027f354c3425a4b8c1e2a2278e46520bec6434389e5b4426b8ce87",
+    "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00001819.xml": "b6d25d5d85f64b434db8f7f9815e4f272f964d0498bd0b4e3aa9d93b2d3a8a50",
+    "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00001821.xml": "f7564ecdd8c7b8dd5645de3c273819b498b1a8edb1a4e55b8d4417e64b505264",
+    "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00002140.xml": "820127322f74fe5179b69c27305d828b99ffd84148f217058a9457088effdc70",
+    "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00002145.xml": "a755ca0fa0866898a52ff40ccf19bbab8fa346cb3f468dce3026635d924604ea",
+    "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00002189.xml": "dfe9a25b0d42a1adde64ec16063954059b939e78f20557dd11041183018dcd59",
+    "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00002619.xml": "d8d2c14c18b80ccc89cd14523a631b56424886229185b4e49f75350a778d70c1",
+    "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00002632.xml": "3c0585f2cd4503c45988b64b6ffd9877ecf58c204fbb2bff687e901a9c88881e",
+    "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00002646.xml": "f8ee785d58a9fca67f6f7b8331b4aa699b7024abc593c2991e1df62f03664738",
+    "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00004203.xml": "33c04541df967c00e4d8b064ce495d26c9c06110df05c29ae96349795b30ba49",
+    "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00004204.xml": "57b8499ba9ebb181c8705f9d09ef0d1e605cb3396eb9f309c9d3b09fc7c8bff8",
+    "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00006108.xml": "c2b040544b22a8991443418b467201aaa232ca7c7aaef0b5a4a89d3cbe3eee44",
+    "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00009186.xml": "ad50c6d83f0e5b4deb4a3951e545ee680fb6a8521d98aa25adc36450f34e9c71"
+  },
+  "pending": [
+    {
+      "root": [
+        "1C24TUV",
+        "00000003"
+      ],
+      "pending_sheet_row": 3,
+      "main_sheet_row": 3,
+      "saved_status": "Chưa về 0",
+      "saved_reason": "Kế hoạch đang ghi chờ kiểm tra khoản 1C25TUV/00000508",
+      "saved_cumulative_money": [
+        10978045,
+        878243,
+        11856288
+      ],
+      "current_source_cumulative_money": [
+        "10978045",
+        "878243",
+        "11856288"
+      ],
+      "zero_or_blank_qty_lines": [],
+      "invoices": [
+        {
+          "key": [
+            "1C24TUV",
+            "00000003"
+          ],
+          "role": "original",
+          "header": {
+            "date": "2024-01-10",
+            "money": [
+              "11334130",
+              "906730",
+              "12240860"
+            ],
+            "evidence": {
+              "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_da_su_dung_1791532882546.xlsx",
+              "row": 8
+            }
+          },
+          "header_arithmetic_difference": "0",
+          "detail_line_count": 7,
+          "detail_totals": [
+            "11334130",
+            "906730",
+            "12240860"
+          ],
+          "tax_rates": [
+            "8%"
+          ],
+          "xml": [
+            {
+              "file": "data/Bo sung/meInvoice/2026-10-09-00000003-00000508/1C24TUV_00000003.xml",
+              "sha256": "6c7d5e1ad62e5c5093e453dd8c87bd04fb98a8517fc548f0db96bf8f3af40155",
+              "money": [
+                "11334130.000000",
+                "906730.000000",
+                "12240860.000000"
+              ],
+              "header_arithmetic_difference": "0.000000",
+              "line_goods_sum": "11334130.000000",
+              "header_matches_current": true,
+              "money_comparison": "exact",
+              "date_matches_current": true,
+              "reference_matches": true
+            }
+          ]
+        },
+        {
+          "key": [
+            "1C25TUV",
+            "00000508"
+          ],
+          "role": "adjustment",
+          "header": {
+            "date": "2025-04-26",
+            "money": [
+              "-356085",
+              "-28487",
+              "-384572"
+            ],
+            "evidence": {
+              "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_da_su_dung_1791532908545.zip / Bang_ke_hoa_don_da_su_dung_1791532908545_1.xlsx",
+              "row": 513
+            }
+          },
+          "header_arithmetic_difference": "0",
+          "detail_line_count": 1,
+          "detail_totals": [
+            null,
+            "-28487",
+            "-28487"
+          ],
+          "tax_rates": [
+            "8%"
+          ],
+          "xml": [
+            {
+              "file": "data/Bo sung/meInvoice/2026-10-09-00000003-00000508/1C25TUV_00000508.xml",
+              "sha256": "1a40b5a1bf289f1959de7bab551587b2fba7a9d129df778a6f0eccb72c22ec5b",
+              "money": [
+                "-356085.000000",
+                "-28487.000000",
+                "-384572.000000"
+              ],
+              "header_arithmetic_difference": "0.000000",
+              "line_goods_sum": "0.000000",
+              "header_matches_current": true,
+              "money_comparison": "exact",
+              "date_matches_current": true,
+              "reference_matches": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "root": [
+        "1C24TUV",
+        "00000093"
+      ],
+      "pending_sheet_row": 4,
+      "main_sheet_row": 80,
+      "saved_status": "Chưa về 0",
+      "saved_reason": "1C25TUV/00001167 tiền hàng + thuế lệch thanh toán; Tiền hàng + thuế không bằng thanh toán 1C25TUV/00001167",
+      "saved_cumulative_money": [
+        20844444,
+        1667556,
+        22511000
+      ],
+      "current_source_cumulative_money": [
+        "20844444",
+        "1667556",
+        "22511000"
+      ],
+      "zero_or_blank_qty_lines": [],
+      "invoices": [
+        {
+          "key": [
+            "1C24TUV",
+            "00000093"
+          ],
+          "role": "original",
+          "header": {
+            "date": "2024-03-01",
+            "money": [
+              "20222499",
+              "1617800",
+              "21840299"
+            ],
+            "evidence": {
+              "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_da_su_dung_1791532882546.xlsx",
+              "row": 98
+            }
+          },
+          "header_arithmetic_difference": "0",
+          "detail_line_count": 14,
+          "detail_totals": [
+            null,
+            null,
+            null
+          ],
+          "tax_rates": [
+            "8%"
+          ],
+          "xml": []
+        },
+        {
+          "key": [
+            "1C25TUV",
+            "00001167"
+          ],
+          "role": "adjustment",
+          "header": {
+            "date": "2025-05-26",
+            "money": [
+              "621945",
+              "49756",
+              "670701"
+            ],
+            "evidence": {
+              "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_da_su_dung_1791532908545.zip / Bang_ke_hoa_don_da_su_dung_1791532908545_1.xlsx",
+              "row": 1172
+            }
+          },
+          "header_arithmetic_difference": "1000",
+          "detail_line_count": 1,
+          "detail_totals": [
+            null,
+            "49756",
+            "49756"
+          ],
+          "tax_rates": [
+            "8%"
+          ],
+          "xml": [
+            {
+              "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00001167.xml",
+              "sha256": "3c0e07df4b027f354c3425a4b8c1e2a2278e46520bec6434389e5b4426b8ce87",
+              "money": [
+                "621945.000000",
+                "49756.000000",
+                "670701.000000"
+              ],
+              "header_arithmetic_difference": "1000.000000",
+              "line_goods_sum": "0.000000",
+              "header_matches_current": true,
+              "money_comparison": "exact",
+              "date_matches_current": true,
+              "reference_matches": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "root": [
+        "1C24TUV",
+        "00000228"
+      ],
+      "pending_sheet_row": 5,
+      "main_sheet_row": 180,
+      "saved_status": "Chưa về 0",
+      "saved_reason": "1C25TUV/00002619 tiền hàng + thuế lệch thanh toán; Tiền hàng + thuế không bằng thanh toán 1C25TUV/00002619",
+      "saved_cumulative_money": [
+        11260648,
+        900852,
+        12161499
+      ],
+      "current_source_cumulative_money": [
+        "11260648",
+        "900852",
+        "12161499"
+      ],
+      "zero_or_blank_qty_lines": [],
+      "invoices": [
+        {
+          "key": [
+            "1C24TUV",
+            "00000228"
+          ],
+          "role": "original",
+          "header": {
+            "date": "2024-05-13",
+            "money": [
+              "10131221",
+              "810498",
+              "10941719"
+            ],
+            "evidence": {
+              "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_da_su_dung_1791532882546.xlsx",
+              "row": 233
+            }
+          },
+          "header_arithmetic_difference": "0",
+          "detail_line_count": 7,
+          "detail_totals": [
+            null,
+            null,
+            null
+          ],
+          "tax_rates": [
+            "8%"
+          ],
+          "xml": []
+        },
+        {
+          "key": [
+            "1C25TUV",
+            "00002619"
+          ],
+          "role": "adjustment",
+          "header": {
+            "date": "2025-05-31",
+            "money": [
+              "-589554",
+              "-47164",
+              "-636719"
+            ],
+            "evidence": {
+              "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_da_su_dung_1791532908545.zip / Bang_ke_hoa_don_da_su_dung_1791532908545_1.xlsx",
+              "row": 2624
+            }
+          },
+          "header_arithmetic_difference": "1",
+          "detail_line_count": 1,
+          "detail_totals": [
+            null,
+            "-47164",
+            "-47164"
+          ],
+          "tax_rates": [
+            "8%"
+          ],
+          "xml": [
+            {
+              "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00002619.xml",
+              "sha256": "d8d2c14c18b80ccc89cd14523a631b56424886229185b4e49f75350a778d70c1",
+              "money": [
+                "-589554.000000",
+                "-47164.000000",
+                "-636719.000000"
+              ],
+              "header_arithmetic_difference": "1.000000",
+              "line_goods_sum": "0.000000",
+              "header_matches_current": true,
+              "money_comparison": "exact",
+              "date_matches_current": true,
+              "reference_matches": true
+            }
+          ]
+        },
+        {
+          "key": [
+            "1C25TUV",
+            "00002646"
+          ],
+          "role": "adjustment",
+          "header": {
+            "date": "2025-05-31",
+            "money": [
+              "1718981",
+              "137518",
+              "1856499"
+            ],
+            "evidence": {
+              "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_da_su_dung_1791532908545.zip / Bang_ke_hoa_don_da_su_dung_1791532908545_1.xlsx",
+              "row": 2651
+            }
+          },
+          "header_arithmetic_difference": "0",
+          "detail_line_count": 1,
+          "detail_totals": [
+            null,
+            "137518",
+            "137518"
+          ],
+          "tax_rates": [
+            "8%"
+          ],
+          "xml": [
+            {
+              "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00002646.xml",
+              "sha256": "f8ee785d58a9fca67f6f7b8331b4aa699b7024abc593c2991e1df62f03664738",
+              "money": [
+                "1718981.000000",
+                "137518.000000",
+                "1856499.000000"
+              ],
+              "header_arithmetic_difference": "0.000000",
+              "line_goods_sum": "0.000000",
+              "header_matches_current": true,
+              "money_comparison": "exact",
+              "date_matches_current": true,
+              "reference_matches": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "root": [
+        "1C24TUV",
+        "00000283"
+      ],
+      "pending_sheet_row": 6,
+      "main_sheet_row": 227,
+      "saved_status": "Chưa về 0",
+      "saved_reason": "1C25TUV/00001819 tiền hàng + thuế lệch thanh toán; Tiền hàng + thuế không bằng thanh toán 1C25TUV/00001819",
+      "saved_cumulative_money": [
+        97742593,
+        7821407,
+        105562000
+      ],
+      "current_source_cumulative_money": [
+        "97742593",
+        "7821407",
+        "105562000"
+      ],
+      "zero_or_blank_qty_lines": [],
+      "invoices": [
+        {
+          "key": [
+            "1C24TUV",
+            "00000283"
+          ],
+          "role": "original",
+          "header": {
+            "date": "2024-06-14",
+            "money": [
+              "90142915",
+              "7211433",
+              "97354348"
+            ],
+            "evidence": {
+              "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_da_su_dung_1791532882546.xlsx",
+              "row": 288
+            }
+          },
+          "header_arithmetic_difference": "0",
+          "detail_line_count": 79,
+          "detail_totals": [
+            null,
+            null,
+            null
+          ],
+          "tax_rates": [
+            "8%"
+          ],
+          "xml": []
+        },
+        {
+          "key": [
+            "1C25TUV",
+            "00001819"
+          ],
+          "role": "adjustment",
+          "header": {
+            "date": "2025-05-29",
+            "money": [
+              "7599678",
+              "609974",
+              "8207652"
+            ],
+            "evidence": {
+              "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_da_su_dung_1791532908545.zip / Bang_ke_hoa_don_da_su_dung_1791532908545_1.xlsx",
+              "row": 1824
+            }
+          },
+          "header_arithmetic_difference": "2000",
+          "detail_line_count": 1,
+          "detail_totals": [
+            null,
+            "609974",
+            "609974"
+          ],
+          "tax_rates": [
+            "8%"
+          ],
+          "xml": [
+            {
+              "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00001819.xml",
+              "sha256": "b6d25d5d85f64b434db8f7f9815e4f272f964d0498bd0b4e3aa9d93b2d3a8a50",
+              "money": [
+                "7599678.000000",
+                "609974.000000",
+                "8207652.000000"
+              ],
+              "header_arithmetic_difference": "2000.000000",
+              "line_goods_sum": "0.000000",
+              "header_matches_current": true,
+              "money_comparison": "exact",
+              "date_matches_current": true,
+              "reference_matches": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "root": [
+        "1C24TUV",
+        "00000285"
+      ],
+      "pending_sheet_row": 7,
+      "main_sheet_row": 229,
+      "saved_status": "Chưa về 0",
+      "saved_reason": "1C25TUV/00001821 tiền hàng + thuế lệch thanh toán; Tiền hàng + thuế không bằng thanh toán 1C25TUV/00001821",
+      "saved_cumulative_money": [
+        93159259,
+        7452740,
+        100612000
+      ],
+      "current_source_cumulative_money": [
+        "93159259",
+        "7452740",
+        "100612000"
+      ],
+      "zero_or_blank_qty_lines": [],
+      "invoices": [
+        {
+          "key": [
+            "1C24TUV",
+            "00000285"
+          ],
+          "role": "original",
+          "header": {
+            "date": "2024-06-15",
+            "money": [
+              "87458193",
+              "6996655",
+              "94454848"
+            ],
+            "evidence": {
+              "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_da_su_dung_1791532882546.xlsx",
+              "row": 290
+            }
+          },
+          "header_arithmetic_difference": "0",
+          "detail_line_count": 51,
+          "detail_totals": [
+            null,
+            null,
+            null
+          ],
+          "tax_rates": [
+            "8%"
+          ],
+          "xml": []
+        },
+        {
+          "key": [
+            "1C25TUV",
+            "00001821"
+          ],
+          "role": "adjustment",
+          "header": {
+            "date": "2025-05-29",
+            "money": [
+              "5701066",
+              "456085",
+              "6157152"
+            ],
+            "evidence": {
+              "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_da_su_dung_1791532908545.zip / Bang_ke_hoa_don_da_su_dung_1791532908545_1.xlsx",
+              "row": 1826
+            }
+          },
+          "header_arithmetic_difference": "-1",
+          "detail_line_count": 1,
+          "detail_totals": [
+            null,
+            "456085",
+            "456085"
+          ],
+          "tax_rates": [
+            "8%"
+          ],
+          "xml": [
+            {
+              "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00001821.xml",
+              "sha256": "f7564ecdd8c7b8dd5645de3c273819b498b1a8edb1a4e55b8d4417e64b505264",
+              "money": [
+                "5701066.000000",
+                "456085.000000",
+                "6157152.000000"
+              ],
+              "header_arithmetic_difference": "-1.000000",
+              "line_goods_sum": "0.000000",
+              "header_matches_current": true,
+              "money_comparison": "exact",
+              "date_matches_current": true,
+              "reference_matches": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "root": [
+        "1C24TUV",
+        "00000498"
+      ],
+      "pending_sheet_row": 8,
+      "main_sheet_row": 403,
+      "saved_status": "Chưa về 0",
+      "saved_reason": "Thuế suất đặc biệt cần kiểm tra 1C25TUV/00002140",
+      "saved_cumulative_money": [
+        215558148,
+        17244652,
+        232802800
+      ],
+      "current_source_cumulative_money": [
+        "215558148",
+        "17244652",
+        "232802800"
+      ],
+      "zero_or_blank_qty_lines": [],
+      "invoices": [
+        {
+          "key": [
+            "1C24TUV",
+            "00000498"
+          ],
+          "role": "original",
+          "header": {
+            "date": "2024-09-30",
+            "money": [
+              "197727562",
+              "15818205",
+              "213545767"
+            ],
+            "evidence": {
+              "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_da_su_dung_1791532882546.xlsx",
+              "row": 503
+            }
+          },
+          "header_arithmetic_difference": "0",
+          "detail_line_count": 186,
+          "detail_totals": [
+            null,
+            null,
+            null
+          ],
+          "tax_rates": [
+            "8%"
+          ],
+          "xml": []
+        },
+        {
+          "key": [
+            "1C25TUV",
+            "00002140"
+          ],
+          "role": "adjustment",
+          "header": {
+            "date": "2025-05-30",
+            "money": [
+              "17830586",
+              "1426447",
+              "19257033"
+            ],
+            "evidence": {
+              "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_da_su_dung_1791532908545.zip / Bang_ke_hoa_don_da_su_dung_1791532908545_1.xlsx",
+              "row": 2145
+            }
+          },
+          "header_arithmetic_difference": "0",
+          "detail_line_count": 0,
+          "detail_totals": [
+            null,
+            null,
+            null
+          ],
+          "tax_rates": [],
+          "xml": [
+            {
+              "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00002140.xml",
+              "sha256": "820127322f74fe5179b69c27305d828b99ffd84148f217058a9457088effdc70",
+              "money": [
+                "17830586.000000",
+                "1426447.000000",
+                "19257033.000000"
+              ],
+              "header_arithmetic_difference": "0.000000",
+              "line_goods_sum": "0",
+              "header_matches_current": true,
+              "money_comparison": "exact",
+              "date_matches_current": true,
+              "reference_matches": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "root": [
+        "1C24TUV",
+        "00000535"
+      ],
+      "pending_sheet_row": 9,
+      "main_sheet_row": 422,
+      "saved_status": "Chưa về 0",
+      "saved_reason": "1C25TUV/00002145 tiền hàng + thuế lệch thanh toán; Tiền hàng + thuế không bằng thanh toán 1C25TUV/00002145",
+      "saved_cumulative_money": [
+        219470370,
+        17557629,
+        237027099
+      ],
+      "current_source_cumulative_money": [
+        "219470370",
+        "17557629",
+        "237027099"
+      ],
+      "zero_or_blank_qty_lines": [],
+      "invoices": [
+        {
+          "key": [
+            "1C24TUV",
+            "00000535"
+          ],
+          "role": "original",
+          "header": {
+            "date": "2024-10-22",
+            "money": [
+              "180276018",
+              "14422081",
+              "194698099"
+            ],
+            "evidence": {
+              "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_da_su_dung_1791532882546.xlsx",
+              "row": 540
+            }
+          },
+          "header_arithmetic_difference": "0",
+          "detail_line_count": 205,
+          "detail_totals": [
+            null,
+            null,
+            null
+          ],
+          "tax_rates": [
+            "8%"
+          ],
+          "xml": []
+        },
+        {
+          "key": [
+            "1C25TUV",
+            "00002145"
+          ],
+          "role": "adjustment",
+          "header": {
+            "date": "2025-05-30",
+            "money": [
+              "39194352",
+              "3135548",
+              "42329000"
+            ],
+            "evidence": {
+              "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_da_su_dung_1791532908545.zip / Bang_ke_hoa_don_da_su_dung_1791532908545_1.xlsx",
+              "row": 2150
+            }
+          },
+          "header_arithmetic_difference": "900",
+          "detail_line_count": 1,
+          "detail_totals": [
+            null,
+            "3135548",
+            "3135548"
+          ],
+          "tax_rates": [
+            "8%"
+          ],
+          "xml": [
+            {
+              "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00002145.xml",
+              "sha256": "a755ca0fa0866898a52ff40ccf19bbab8fa346cb3f468dce3026635d924604ea",
+              "money": [
+                "39194352.000000",
+                "3135548.000000",
+                "42329000.000000"
+              ],
+              "header_arithmetic_difference": "900.000000",
+              "line_goods_sum": "0.000000",
+              "header_matches_current": true,
+              "money_comparison": "exact",
+              "date_matches_current": true,
+              "reference_matches": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "root": [
+        "1C24TUV",
+        "00000555"
+      ],
+      "pending_sheet_row": 10,
+      "main_sheet_row": 435,
+      "saved_status": "Chưa về 0",
+      "saved_reason": "Chi tiết gốc có số lượng 0 hoặc trống",
+      "saved_cumulative_money": [
+        4330556,
+        346445,
+        4677001
+      ],
+      "current_source_cumulative_money": [
+        "4330556",
+        "346445",
+        "4677001"
+      ],
+      "zero_or_blank_qty_lines": [
+        {
+          "name": "Màng Lọc HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA350 FT ( BS HĐ 547)",
+          "unit": "Cái",
+          "qty": null,
+          "price": null,
+          "goods": "46296",
+          "rate": "8%",
+          "tax": "3705",
+          "payment": "50001",
+          "evidence": {
+            "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_chi_tiet_hoa_don_da_su_dung_1791533073074.xlsx",
+            "row": 22718
+          }
+        }
+      ],
+      "invoices": [
+        {
+          "key": [
+            "1C24TUV",
+            "00000555"
+          ],
+          "role": "original",
+          "header": {
+            "date": "2024-10-31",
+            "money": [
+              "6219445",
+              "497556",
+              "6717001"
+            ],
+            "evidence": {
+              "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_da_su_dung_1791532882546.xlsx",
+              "row": 560
+            }
+          },
+          "header_arithmetic_difference": "0",
+          "detail_line_count": 6,
+          "detail_totals": [
+            "6219445",
+            "497556",
+            "6717001"
+          ],
+          "tax_rates": [
+            "8%"
+          ],
+          "xml": []
+        },
+        {
+          "key": [
+            "1C25TUV",
+            "00002632"
+          ],
+          "role": "adjustment",
+          "header": {
+            "date": "2025-05-31",
+            "money": [
+              "-1888889",
+              "-151111",
+              "-2040000"
+            ],
+            "evidence": {
+              "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_da_su_dung_1791532908545.zip / Bang_ke_hoa_don_da_su_dung_1791532908545_1.xlsx",
+              "row": 2637
+            }
+          },
+          "header_arithmetic_difference": "0",
+          "detail_line_count": 1,
+          "detail_totals": [
+            null,
+            "-151111",
+            "-151111"
+          ],
+          "tax_rates": [
+            "8%"
+          ],
+          "xml": [
+            {
+              "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00002632.xml",
+              "sha256": "3c0585f2cd4503c45988b64b6ffd9877ecf58c204fbb2bff687e901a9c88881e",
+              "money": [
+                "-1888889.000000",
+                "-151111.000000",
+                "-2040000.000000"
+              ],
+              "header_arithmetic_difference": "0.000000",
+              "line_goods_sum": "0.000000",
+              "header_matches_current": true,
+              "money_comparison": "exact",
+              "date_matches_current": true,
+              "reference_matches": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "root": [
+        "1C24TUV",
+        "00000574"
+      ],
+      "pending_sheet_row": 11,
+      "main_sheet_row": 446,
+      "saved_status": "Chưa về 0",
+      "saved_reason": "Riêng 1C24TUV/00000574: tạm tính thanh toán gốc = 0 theo xác nhận; ô nguồn giữ trống; Số tổng nguồn trống 1C24TUV/00000574; Chi tiết gốc khác số tổng nguồn",
+      "saved_cumulative_money": [
+        1702778,
+        136222,
+        1839000
+      ],
+      "current_source_cumulative_money": [
+        "1702778",
+        "136222",
+        "1839000"
+      ],
+      "zero_or_blank_qty_lines": [],
+      "invoices": [
+        {
+          "key": [
+            "1C24TUV",
+            "00000574"
+          ],
+          "role": "original",
+          "header": {
+            "date": "2024-11-15",
+            "money": [
+              "0",
+              "0",
+              null
+            ],
+            "evidence": {
+              "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_da_su_dung_1791532882546.xlsx",
+              "row": 579
+            }
+          },
+          "header_arithmetic_difference": null,
+          "detail_line_count": 1,
+          "detail_totals": [
+            null,
+            null,
+            null
+          ],
+          "tax_rates": [
+            "8%"
+          ],
+          "xml": []
+        },
+        {
+          "key": [
+            "1C25TUV",
+            "00002189"
+          ],
+          "role": "adjustment",
+          "header": {
+            "date": "2025-05-30",
+            "money": [
+              "1702778",
+              "136222",
+              "1839000"
+            ],
+            "evidence": {
+              "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_da_su_dung_1791532908545.zip / Bang_ke_hoa_don_da_su_dung_1791532908545_1.xlsx",
+              "row": 2194
+            }
+          },
+          "header_arithmetic_difference": "0",
+          "detail_line_count": 1,
+          "detail_totals": [
+            null,
+            "136222",
+            "136222"
+          ],
+          "tax_rates": [
+            "8%"
+          ],
+          "xml": [
+            {
+              "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00002189.xml",
+              "sha256": "dfe9a25b0d42a1adde64ec16063954059b939e78f20557dd11041183018dcd59",
+              "money": [
+                "1702778.000000",
+                "136222.000000",
+                "1839000.000000"
+              ],
+              "header_arithmetic_difference": "0.000000",
+              "line_goods_sum": "0.000000",
+              "header_matches_current": true,
+              "money_comparison": "exact",
+              "date_matches_current": true,
+              "reference_matches": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "root": [
+        "1C25TUV",
+        "00000006"
+      ],
+      "pending_sheet_row": 12,
+      "main_sheet_row": 597,
+      "saved_status": "Còn ô tiền trống",
+      "saved_reason": "Cộng dồn còn ô tiền trống; 1C25TUV/00000006 có ô tiền bảng tổng trống; không tự điền 0; Số tổng nguồn trống 1C25TUV/00000006; Chi tiết gốc khác số tổng nguồn",
+      "saved_cumulative_money": [
+        3478704,
+        278296,
+        null
+      ],
+      "current_source_cumulative_money": [
+        "3478704",
+        "278296",
+        null
+      ],
+      "zero_or_blank_qty_lines": [],
+      "invoices": [
+        {
+          "key": [
+            "1C25TUV",
+            "00000006"
+          ],
+          "role": "original",
+          "header": {
+            "date": "2025-01-07",
+            "money": [
+              "0",
+              "0",
+              null
+            ],
+            "evidence": {
+              "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_da_su_dung_1791532908545.zip / Bang_ke_hoa_don_da_su_dung_1791532908545_1.xlsx",
+              "row": 11
+            }
+          },
+          "header_arithmetic_difference": null,
+          "detail_line_count": 5,
+          "detail_totals": [
+            null,
+            null,
+            null
+          ],
+          "tax_rates": [
+            "8%"
+          ],
+          "xml": []
+        },
+        {
+          "key": [
+            "1C25TUV",
+            "00000655"
+          ],
+          "role": "adjustment",
+          "header": {
+            "date": "2025-05-05",
+            "money": [
+              "3478704",
+              "278296",
+              "3757000"
+            ],
+            "evidence": {
+              "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_da_su_dung_1791532908545.zip / Bang_ke_hoa_don_da_su_dung_1791532908545_1.xlsx",
+              "row": 660
+            }
+          },
+          "header_arithmetic_difference": "0",
+          "detail_line_count": 1,
+          "detail_totals": [
+            null,
+            "278296",
+            "278296"
+          ],
+          "tax_rates": [
+            "8%"
+          ],
+          "xml": [
+            {
+              "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000655.xml",
+              "sha256": "9f0552364f5fa1f2f865be572f57011e6fb166e75c5c7644ab7c2e2b43a0d321",
+              "money": [
+                "3478704.000000",
+                "278296.000000",
+                "3757000.000000"
+              ],
+              "header_arithmetic_difference": "0.000000",
+              "line_goods_sum": "0.000000",
+              "header_matches_current": true,
+              "money_comparison": "exact",
+              "date_matches_current": true,
+              "reference_matches": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "root": [
+        "1C25TUV",
+        "00000016"
+      ],
+      "pending_sheet_row": 13,
+      "main_sheet_row": 600,
+      "saved_status": "Còn ô tiền trống",
+      "saved_reason": "Cộng dồn còn ô tiền trống; 1C25TUV/00000016 có ô tiền bảng tổng trống; không tự điền 0; Số tổng nguồn trống 1C25TUV/00000016; Chi tiết gốc khác số tổng nguồn",
+      "saved_cumulative_money": [
+        5275000,
+        422000,
+        null
+      ],
+      "current_source_cumulative_money": [
+        "5275000",
+        "422000",
+        null
+      ],
+      "zero_or_blank_qty_lines": [],
+      "invoices": [
+        {
+          "key": [
+            "1C25TUV",
+            "00000016"
+          ],
+          "role": "original",
+          "header": {
+            "date": "2025-01-14",
+            "money": [
+              "0",
+              "0",
+              null
+            ],
+            "evidence": {
+              "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_da_su_dung_1791532908545.zip / Bang_ke_hoa_don_da_su_dung_1791532908545_1.xlsx",
+              "row": 21
+            }
+          },
+          "header_arithmetic_difference": null,
+          "detail_line_count": 3,
+          "detail_totals": [
+            null,
+            null,
+            null
+          ],
+          "tax_rates": [
+            "8%"
+          ],
+          "xml": []
+        },
+        {
+          "key": [
+            "1C25TUV",
+            "00000657"
+          ],
+          "role": "adjustment",
+          "header": {
+            "date": "2025-05-05",
+            "money": [
+              "5275000",
+              "422000",
+              "5697000"
+            ],
+            "evidence": {
+              "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_da_su_dung_1791532908545.zip / Bang_ke_hoa_don_da_su_dung_1791532908545_1.xlsx",
+              "row": 662
+            }
+          },
+          "header_arithmetic_difference": "0",
+          "detail_line_count": 1,
+          "detail_totals": [
+            null,
+            "422000",
+            "422000"
+          ],
+          "tax_rates": [
+            "8%"
+          ],
+          "xml": [
+            {
+              "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000657.xml",
+              "sha256": "8b0686f62571b2c7c77d68bfaf49e94e2c880f44ba35981f3d8485ef78bcc75f",
+              "money": [
+                "5275000.000000",
+                "422000.000000",
+                "5697000.000000"
+              ],
+              "header_arithmetic_difference": "0.000000",
+              "line_goods_sum": "0.000000",
+              "header_matches_current": true,
+              "money_comparison": "exact",
+              "date_matches_current": true,
+              "reference_matches": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "root": [
+        "1C25TUV",
+        "00000056"
+      ],
+      "pending_sheet_row": 14,
+      "main_sheet_row": 623,
+      "saved_status": "Chưa về 0",
+      "saved_reason": "1C25TUV/00000561 tiền hàng + thuế lệch thanh toán; Tiền hàng + thuế không bằng thanh toán 1C25TUV/00000561",
+      "saved_cumulative_money": [
+        2461111,
+        332889,
+        2658000
+      ],
+      "current_source_cumulative_money": [
+        "2461111",
+        "332889",
+        "2658000"
+      ],
+      "zero_or_blank_qty_lines": [],
+      "invoices": [
+        {
+          "key": [
+            "1C25TUV",
+            "00000056"
+          ],
+          "role": "original",
+          "header": {
+            "date": "2025-01-27",
+            "money": [
+              "2264222",
+              "181138",
+              "2445360"
+            ],
+            "evidence": {
+              "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_da_su_dung_1791532908545.zip / Bang_ke_hoa_don_da_su_dung_1791532908545_1.xlsx",
+              "row": 61
+            }
+          },
+          "header_arithmetic_difference": "0",
+          "detail_line_count": 1,
+          "detail_totals": [
+            "2264222",
+            "181138",
+            "2445360"
+          ],
+          "tax_rates": [
+            "8%"
+          ],
+          "xml": []
+        },
+        {
+          "key": [
+            "1C25TUV",
+            "00000561"
+          ],
+          "role": "adjustment",
+          "header": {
+            "date": "2025-05-04",
+            "money": [
+              "196889",
+              "151751",
+              "212640"
+            ],
+            "evidence": {
+              "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_da_su_dung_1791532908545.zip / Bang_ke_hoa_don_da_su_dung_1791532908545_1.xlsx",
+              "row": 566
+            }
+          },
+          "header_arithmetic_difference": "136000",
+          "detail_line_count": 1,
+          "detail_totals": [
+            null,
+            "151751",
+            "151751"
+          ],
+          "tax_rates": [
+            "8%"
+          ],
+          "xml": [
+            {
+              "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000561.xml",
+              "sha256": "a6a6c505c0f693410b073ac1842f2bc6af222522aa924d12f96e0839c5b6e3dd",
+              "money": [
+                "196889.000000",
+                "151751.000000",
+                "212640.000000"
+              ],
+              "header_arithmetic_difference": "136000.000000",
+              "line_goods_sum": "0.000000",
+              "header_matches_current": true,
+              "money_comparison": "exact",
+              "date_matches_current": true,
+              "reference_matches": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "root": [
+        "1C25TUV",
+        "00000102"
+      ],
+      "pending_sheet_row": 15,
+      "main_sheet_row": 656,
+      "saved_status": "Chưa về 0",
+      "saved_reason": "1C25TUV/00000626 tiền hàng + thuế lệch thanh toán; Tiền hàng + thuế không bằng thanh toán 1C25TUV/00000626",
+      "saved_cumulative_money": [
+        74265508,
+        5941240,
+        80206747
+      ],
+      "current_source_cumulative_money": [
+        "74265508",
+        "5941240",
+        "80206747"
+      ],
+      "zero_or_blank_qty_lines": [],
+      "invoices": [
+        {
+          "key": [
+            "1C25TUV",
+            "00000102"
+          ],
+          "role": "original",
+          "header": {
+            "date": "2025-02-19",
+            "money": [
+              "69918243",
+              "5593459",
+              "75511702"
+            ],
+            "evidence": {
+              "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_da_su_dung_1791532908545.zip / Bang_ke_hoa_don_da_su_dung_1791532908545_1.xlsx",
+              "row": 107
+            }
+          },
+          "header_arithmetic_difference": "0",
+          "detail_line_count": 72,
+          "detail_totals": [
+            null,
+            null,
+            null
+          ],
+          "tax_rates": [
+            "8%"
+          ],
+          "xml": []
+        },
+        {
+          "key": [
+            "1C25TUV",
+            "00000626"
+          ],
+          "role": "adjustment",
+          "header": {
+            "date": "2025-05-04",
+            "money": [
+              "4347265",
+              "347781",
+              "4695045"
+            ],
+            "evidence": {
+              "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_da_su_dung_1791532908545.zip / Bang_ke_hoa_don_da_su_dung_1791532908545_1.xlsx",
+              "row": 631
+            }
+          },
+          "header_arithmetic_difference": "1",
+          "detail_line_count": 1,
+          "detail_totals": [
+            null,
+            "347781",
+            "347781"
+          ],
+          "tax_rates": [
+            "8%"
+          ],
+          "xml": [
+            {
+              "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000626.xml",
+              "sha256": "836b427146c2adcb3def573f8729174dd92bbae6aea1d783458e11c2cba75a31",
+              "money": [
+                "4347265.000000",
+                "347781.000000",
+                "4695045.000000"
+              ],
+              "header_arithmetic_difference": "1.000000",
+              "line_goods_sum": "0.000000",
+              "header_matches_current": true,
+              "money_comparison": "exact",
+              "date_matches_current": true,
+              "reference_matches": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "root": [
+        "1C25TUV",
+        "00000113"
+      ],
+      "pending_sheet_row": 16,
+      "main_sheet_row": 665,
+      "saved_status": "Chưa về 0",
+      "saved_reason": "Chi tiết gốc có số lượng 0 hoặc trống",
+      "saved_cumulative_money": [
+        46625716,
+        3730057,
+        50355773
+      ],
+      "current_source_cumulative_money": [
+        "46625716",
+        "3730057",
+        "50355773"
+      ],
+      "zero_or_blank_qty_lines": [
+        {
+          "name": "Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA600 FT ",
+          "unit": "Cái",
+          "qty": null,
+          "price": null,
+          "goods": null,
+          "rate": "8%",
+          "tax": null,
+          "payment": null,
+          "evidence": {
+            "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_chi_tiet_hoa_don_da_su_dung_20261009_150742.zip / Bang_ke_chi_tiet_hoa_don_da_su_dung_20261009_150742.xlsx",
+            "row": 3717
+          }
+        }
+      ],
+      "invoices": [
+        {
+          "key": [
+            "1C25TUV",
+            "00000113"
+          ],
+          "role": "original",
+          "header": {
+            "date": "2025-02-19",
+            "money": [
+              "46178880",
+              "3694310",
+              "49873190"
+            ],
+            "evidence": {
+              "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_da_su_dung_1791532908545.zip / Bang_ke_hoa_don_da_su_dung_1791532908545_1.xlsx",
+              "row": 118
+            }
+          },
+          "header_arithmetic_difference": "0",
+          "detail_line_count": 48,
+          "detail_totals": [
+            null,
+            null,
+            null
+          ],
+          "tax_rates": [
+            "8%"
+          ],
+          "xml": []
+        },
+        {
+          "key": [
+            "1C25TUV",
+            "00000635"
+          ],
+          "role": "adjustment",
+          "header": {
+            "date": "2025-05-05",
+            "money": [
+              "446836",
+              "35747",
+              "482583"
+            ],
+            "evidence": {
+              "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_da_su_dung_1791532908545.zip / Bang_ke_hoa_don_da_su_dung_1791532908545_1.xlsx",
+              "row": 640
+            }
+          },
+          "header_arithmetic_difference": "0",
+          "detail_line_count": 1,
+          "detail_totals": [
+            null,
+            "35747",
+            "35747"
+          ],
+          "tax_rates": [
+            "8%"
+          ],
+          "xml": [
+            {
+              "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000635.xml",
+              "sha256": "53928e76d91b9ea86c0201b70b8be54c6fee9445b68a8046412141bee826c334",
+              "money": [
+                "446836.000000",
+                "35747.000000",
+                "482583.000000"
+              ],
+              "header_arithmetic_difference": "0.000000",
+              "line_goods_sum": "0.000000",
+              "header_matches_current": true,
+              "money_comparison": "exact",
+              "date_matches_current": true,
+              "reference_matches": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "root": [
+        "1C25TUV",
+        "00000159"
+      ],
+      "pending_sheet_row": 17,
+      "main_sheet_row": 698,
+      "saved_status": "Chưa về 0",
+      "saved_reason": "1C25TUV/00000649 tiền hàng + thuế lệch thanh toán; Tiền hàng + thuế không bằng thanh toán 1C25TUV/00000649",
+      "saved_cumulative_money": [
+        30556,
+        2445,
+        856999
+      ],
+      "current_source_cumulative_money": [
+        "30556",
+        "2445",
+        "856999"
+      ],
+      "zero_or_blank_qty_lines": [],
+      "invoices": [
+        {
+          "key": [
+            "1C25TUV",
+            "00000159"
+          ],
+          "role": "original",
+          "header": {
+            "date": "2025-02-28",
+            "money": [
+              "412037",
+              "32963",
+              "445000"
+            ],
+            "evidence": {
+              "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_da_su_dung_1791532908545.zip / Bang_ke_hoa_don_da_su_dung_1791532908545_1.xlsx",
+              "row": 164
+            }
+          },
+          "header_arithmetic_difference": "0",
+          "detail_line_count": 1,
+          "detail_totals": [
+            "412037",
+            "32963",
+            "445000"
+          ],
+          "tax_rates": [
+            "8%"
+          ],
+          "xml": []
+        },
+        {
+          "key": [
+            "1C25TUV",
+            "00000649"
+          ],
+          "role": "adjustment",
+          "header": {
+            "date": "2025-05-05",
+            "money": [
+              "-381481",
+              "-30518",
+              "411999"
+            ],
+            "evidence": {
+              "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_da_su_dung_1791532908545.zip / Bang_ke_hoa_don_da_su_dung_1791532908545_1.xlsx",
+              "row": 654
+            }
+          },
+          "header_arithmetic_difference": "-823998",
+          "detail_line_count": 1,
+          "detail_totals": [
+            null,
+            "-30518",
+            "-30518"
+          ],
+          "tax_rates": [
+            "8%"
+          ],
+          "xml": [
+            {
+              "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000649.xml",
+              "sha256": "b5965bd2ecf57a42c5f0cd2c16601e1043ed8a9aca21cc2769e6db1d0928542d",
+              "money": [
+                "-381481.000000",
+                "-30518.000000",
+                "411999.000000"
+              ],
+              "header_arithmetic_difference": "-823998.000000",
+              "line_goods_sum": "0.000000",
+              "header_matches_current": true,
+              "money_comparison": "exact",
+              "date_matches_current": true,
+              "reference_matches": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "root": [
+        "1C25TUV",
+        "00001348"
+      ],
+      "pending_sheet_row": 18,
+      "main_sheet_row": 917,
+      "saved_status": "Còn ô tiền trống",
+      "saved_reason": "Cộng dồn còn ô tiền trống; 1C25TUV/00006108 có ô tiền bảng tổng trống; không tự điền 0; Số tổng nguồn trống 1C25TUV/00006108; Thuế suất đặc biệt cần kiểm tra 1C25TUV/00006108",
+      "saved_cumulative_money": [
+        675000,
+        54000,
+        null
+      ],
+      "current_source_cumulative_money": [
+        "675000",
+        "54000",
+        null
+      ],
+      "zero_or_blank_qty_lines": [],
+      "invoices": [
+        {
+          "key": [
+            "1C25TUV",
+            "00001348"
+          ],
+          "role": "original",
+          "header": {
+            "date": "2025-05-27",
+            "money": [
+              "675000",
+              "54000",
+              "729000"
+            ],
+            "evidence": {
+              "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_da_su_dung_1791532908545.zip / Bang_ke_hoa_don_da_su_dung_1791532908545_1.xlsx",
+              "row": 1353
+            }
+          },
+          "header_arithmetic_difference": "0",
+          "detail_line_count": 2,
+          "detail_totals": [
+            null,
+            null,
+            null
+          ],
+          "tax_rates": [
+            "8%"
+          ],
+          "xml": []
+        },
+        {
+          "key": [
+            "1C25TUV",
+            "00006108"
+          ],
+          "role": "adjustment",
+          "header": {
+            "date": "2025-06-17",
+            "money": [
+              "0",
+              "0",
+              null
+            ],
+            "evidence": {
+              "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_da_su_dung_1791532908545.zip / Bang_ke_hoa_don_da_su_dung_1791532908545_2.xlsx",
+              "row": 1200
+            }
+          },
+          "header_arithmetic_difference": null,
+          "detail_line_count": 0,
+          "detail_totals": [
+            null,
+            null,
+            null
+          ],
+          "tax_rates": [],
+          "xml": [
+            {
+              "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00006108.xml",
+              "sha256": "c2b040544b22a8991443418b467201aaa232ca7c7aaef0b5a4a89d3cbe3eee44",
+              "money": [
+                "0.000000",
+                "0.000000",
+                "0.000000"
+              ],
+              "header_arithmetic_difference": "0.000000",
+              "line_goods_sum": "0",
+              "header_matches_current": false,
+              "money_comparison": "xml_zero_export_blank",
+              "date_matches_current": true,
+              "reference_matches": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "root": [
+        "1C25TUV",
+        "00002377"
+      ],
+      "pending_sheet_row": 19,
+      "main_sheet_row": 938,
+      "saved_status": "Còn ô tiền trống",
+      "saved_reason": "Cộng dồn còn ô tiền trống; 1C25TUV/00004203 có ô tiền bảng tổng trống; không tự điền 0; Số tổng nguồn trống 1C25TUV/00004203; Thuế suất đặc biệt cần kiểm tra 1C25TUV/00004203",
+      "saved_cumulative_money": [
+        406481,
+        32518,
+        null
+      ],
+      "current_source_cumulative_money": [
+        "406481",
+        "32518",
+        null
+      ],
+      "zero_or_blank_qty_lines": [],
+      "invoices": [
+        {
+          "key": [
+            "1C25TUV",
+            "00002377"
+          ],
+          "role": "original",
+          "header": {
+            "date": "2025-05-30",
+            "money": [
+              "406481",
+              "32518",
+              "438999"
+            ],
+            "evidence": {
+              "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_da_su_dung_1791532908545.zip / Bang_ke_hoa_don_da_su_dung_1791532908545_1.xlsx",
+              "row": 2382
+            }
+          },
+          "header_arithmetic_difference": "0",
+          "detail_line_count": 1,
+          "detail_totals": [
+            "406481",
+            "32518",
+            "438999"
+          ],
+          "tax_rates": [
+            "8%"
+          ],
+          "xml": []
+        },
+        {
+          "key": [
+            "1C25TUV",
+            "00004203"
+          ],
+          "role": "adjustment",
+          "header": {
+            "date": "2025-06-09",
+            "money": [
+              "0",
+              "0",
+              null
+            ],
+            "evidence": {
+              "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_da_su_dung_1791532908545.zip / Bang_ke_hoa_don_da_su_dung_1791532908545_1.xlsx",
+              "row": 4208
+            }
+          },
+          "header_arithmetic_difference": null,
+          "detail_line_count": 0,
+          "detail_totals": [
+            null,
+            null,
+            null
+          ],
+          "tax_rates": [],
+          "xml": [
+            {
+              "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00004203.xml",
+              "sha256": "33c04541df967c00e4d8b064ce495d26c9c06110df05c29ae96349795b30ba49",
+              "money": [
+                "0.000000",
+                "0.000000",
+                "0.000000"
+              ],
+              "header_arithmetic_difference": "0.000000",
+              "line_goods_sum": "0",
+              "header_matches_current": false,
+              "money_comparison": "xml_zero_export_blank",
+              "date_matches_current": true,
+              "reference_matches": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "root": [
+        "1C25TUV",
+        "00002378"
+      ],
+      "pending_sheet_row": 20,
+      "main_sheet_row": 939,
+      "saved_status": "Còn ô tiền trống",
+      "saved_reason": "Cộng dồn còn ô tiền trống; 1C25TUV/00004204 có ô tiền bảng tổng trống; không tự điền 0; Số tổng nguồn trống 1C25TUV/00004204; Thuế suất đặc biệt cần kiểm tra 1C25TUV/00004204",
+      "saved_cumulative_money": [
+        406481,
+        32518,
+        null
+      ],
+      "current_source_cumulative_money": [
+        "406481",
+        "32518",
+        null
+      ],
+      "zero_or_blank_qty_lines": [],
+      "invoices": [
+        {
+          "key": [
+            "1C25TUV",
+            "00002378"
+          ],
+          "role": "original",
+          "header": {
+            "date": "2025-05-30",
+            "money": [
+              "406481",
+              "32518",
+              "438999"
+            ],
+            "evidence": {
+              "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_da_su_dung_1791532908545.zip / Bang_ke_hoa_don_da_su_dung_1791532908545_1.xlsx",
+              "row": 2383
+            }
+          },
+          "header_arithmetic_difference": "0",
+          "detail_line_count": 1,
+          "detail_totals": [
+            "406481",
+            "32518",
+            "438999"
+          ],
+          "tax_rates": [
+            "8%"
+          ],
+          "xml": []
+        },
+        {
+          "key": [
+            "1C25TUV",
+            "00004204"
+          ],
+          "role": "adjustment",
+          "header": {
+            "date": "2025-06-09",
+            "money": [
+              "0",
+              "0",
+              null
+            ],
+            "evidence": {
+              "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_da_su_dung_1791532908545.zip / Bang_ke_hoa_don_da_su_dung_1791532908545_1.xlsx",
+              "row": 4209
+            }
+          },
+          "header_arithmetic_difference": null,
+          "detail_line_count": 0,
+          "detail_totals": [
+            null,
+            null,
+            null
+          ],
+          "tax_rates": [],
+          "xml": [
+            {
+              "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00004204.xml",
+              "sha256": "57b8499ba9ebb181c8705f9d09ef0d1e605cb3396eb9f309c9d3b09fc7c8bff8",
+              "money": [
+                "0.000000",
+                "0.000000",
+                "0.000000"
+              ],
+              "header_arithmetic_difference": "0.000000",
+              "line_goods_sum": "0",
+              "header_matches_current": false,
+              "money_comparison": "xml_zero_export_blank",
+              "date_matches_current": true,
+              "reference_matches": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "root": [
+        "1C25TUV",
+        "00009072"
+      ],
+      "pending_sheet_row": 21,
+      "main_sheet_row": 1046,
+      "saved_status": "Còn ô tiền trống",
+      "saved_reason": "Cộng dồn còn ô tiền trống; 1C25TUV/00009186 có ô tiền bảng tổng trống; không tự điền 0; Số tổng nguồn trống 1C25TUV/00009186; Thuế suất chưa xác định duy nhất 1C25TUV/00009186",
+      "saved_cumulative_money": [
+        3869444,
+        309556,
+        null
+      ],
+      "current_source_cumulative_money": [
+        "3869444",
+        "309556",
+        null
+      ],
+      "zero_or_blank_qty_lines": [],
+      "invoices": [
+        {
+          "key": [
+            "1C25TUV",
+            "00009072"
+          ],
+          "role": "original",
+          "header": {
+            "date": "2025-06-28",
+            "money": [
+              "3869444",
+              "309556",
+              "4179000"
+            ],
+            "evidence": {
+              "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_da_su_dung_1791532908545.zip / Bang_ke_hoa_don_da_su_dung_1791532908545_2.xlsx",
+              "row": 4164
+            }
+          },
+          "header_arithmetic_difference": "0",
+          "detail_line_count": 2,
+          "detail_totals": [
+            null,
+            null,
+            null
+          ],
+          "tax_rates": [
+            "8%"
+          ],
+          "xml": []
+        },
+        {
+          "key": [
+            "1C25TUV",
+            "00009186"
+          ],
+          "role": "adjustment",
+          "header": {
+            "date": "2025-06-29",
+            "money": [
+              "0",
+              "0",
+              null
+            ],
+            "evidence": {
+              "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_da_su_dung_1791532908545.zip / Bang_ke_hoa_don_da_su_dung_1791532908545_2.xlsx",
+              "row": 4278
+            }
+          },
+          "header_arithmetic_difference": null,
+          "detail_line_count": 2,
+          "detail_totals": [
+            null,
+            null,
+            null
+          ],
+          "tax_rates": [
+            ""
+          ],
+          "xml": [
+            {
+              "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00009186.xml",
+              "sha256": "ad50c6d83f0e5b4deb4a3951e545ee680fb6a8521d98aa25adc36450f34e9c71",
+              "money": [
+                "0.000000",
+                "0.000000",
+                "0.000000"
+              ],
+              "header_arithmetic_difference": "0.000000",
+              "line_goods_sum": "0.000000",
+              "header_matches_current": false,
+              "money_comparison": "xml_zero_export_blank",
+              "date_matches_current": true,
+              "reference_matches": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "review_11": [
+    {
+      "root": [
+        "1C25TUV",
+        "00001061"
+      ],
+      "adjustment": [
+        "1C25TUV",
+        "00012835"
+      ],
+      "sheet_row": 4,
+      "category": "Điều chỉnh một khoản tổng",
+      "saved_action": "Thành tiền dòng khác 0 và khớp tổng XML, khác trường hợp 508. Đối chiếu nghiệp vụ giảm tổng với yêu cầu giảm đầy đủ chi tiết.",
+      "original_header": {
+        "date": "2025-05-26",
+        "money": [
+          "499074",
+          "39926",
+          "539000"
+        ],
+        "evidence": {
+          "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_da_su_dung_1791532908545.zip / Bang_ke_hoa_don_da_su_dung_1791532908545_1.xlsx",
+          "row": 1066
+        }
+      },
+      "adjustment_header": {
+        "date": "2025-08-16",
+        "money": [
+          "-499074",
+          "-39926",
+          "-539000"
+        ],
+        "evidence": {
+          "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_da_su_dung_1791532908545.zip / Bang_ke_hoa_don_da_su_dung_1791532908545_5.xlsx",
+          "row": 1288
+        }
+      },
+      "original_detail": [
+        {
+          "name": "Đèn bắt muỗi, ruồi và các loại côn trùng KM300",
+          "unit": "Cái",
+          "qty": "1",
+          "price": "499074",
+          "goods": "499074",
+          "rate": "8%",
+          "tax": "39926",
+          "payment": "539000",
+          "evidence": {
+            "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_chi_tiet_hoa_don_da_su_dung_20261009_150742.zip / Bang_ke_chi_tiet_hoa_don_da_su_dung_20261009_150742.xlsx",
+            "row": 12973
+          }
+        }
+      ],
+      "xml": [
+        {
+          "key": [
+            "1C25TUV",
+            "00012835"
+          ],
+          "date": "2025-08-16",
+          "related": [
+            "1C25TUV",
+            "00001061"
+          ],
+          "money": [
+            "-499074.000000",
+            "-39926.000000",
+            "-539000.000000"
+          ],
+          "lines": [
+            {
+              "name": "Điều chỉnh giảm giá trị hoá đơn số 00001061",
+              "unit": null,
+              "qty": "0.000000",
+              "price": "0.000000",
+              "goods": "-499074.000000",
+              "rate": "8%",
+              "nature": "1"
+            }
+          ],
+          "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012835.xml",
+          "sha256": "071b87a7344fc8ecbdec25426f765b0e24e7da966ab5f4a25816ee4bc7c372d5"
+        }
+      ],
+      "cumulative_money": [
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "root": [
+        "1C25TUV",
+        "00001094"
+      ],
+      "adjustment": [
+        "1C25TUV",
+        "00013038"
+      ],
+      "sheet_row": 5,
+      "category": "Giảm bằng đơn giá âm",
+      "saved_action": "Số lượng vẫn +1, đơn giá âm. Đối chiếu mục đích giảm giá hay giảm số lượng trước khi quyết định làm lại.",
+      "original_header": {
+        "date": "2025-05-26",
+        "money": [
+          "509259",
+          "40741",
+          "550000"
+        ],
+        "evidence": {
+          "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_da_su_dung_1791532908545.zip / Bang_ke_hoa_don_da_su_dung_1791532908545_1.xlsx",
+          "row": 1099
+        }
+      },
+      "adjustment_header": {
+        "date": "2025-09-26",
+        "money": [
+          "-509259",
+          "-40741",
+          "-550000"
+        ],
+        "evidence": {
+          "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_da_su_dung_1791532908545.zip / Bang_ke_hoa_don_da_su_dung_1791532908545_6.xlsx",
+          "row": 3205
+        }
+      },
+      "original_detail": [
+        {
+          "name": "Lõi lọc diệt khuẩn Filter KA350S",
+          "unit": "Cái",
+          "qty": "1",
+          "price": "509259",
+          "goods": "509259",
+          "rate": "8%",
+          "tax": "40741",
+          "payment": "550000",
+          "evidence": {
+            "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_chi_tiet_hoa_don_da_su_dung_20261009_150742.zip / Bang_ke_chi_tiet_hoa_don_da_su_dung_20261009_150742.xlsx",
+            "row": 13006
+          }
+        }
+      ],
+      "xml": [
+        {
+          "key": [
+            "1C25TUV",
+            "00013038"
+          ],
+          "date": "2025-09-26",
+          "related": [
+            "1C25TUV",
+            "00001094"
+          ],
+          "money": [
+            "-509259.000000",
+            "-40741.000000",
+            "-550000.000000"
+          ],
+          "lines": [
+            {
+              "name": "Lõi lọc diệt khuẩn Filter KA350S",
+              "unit": "Cái",
+              "qty": "1.000000",
+              "price": "-509259.000000",
+              "goods": "-509259.000000",
+              "rate": "8%",
+              "nature": "1"
+            }
+          ],
+          "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013038.xml",
+          "sha256": "374262c4a2738cf0491ac63732cedc4c9401d12621b297d3a212dd1529db7068"
+        }
+      ],
+      "cumulative_money": [
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "root": [
+        "1C25TUV",
+        "00003113"
+      ],
+      "adjustment": [
+        "1C25TUV",
+        "00013032"
+      ],
+      "sheet_row": 6,
+      "category": "Giảm bằng đơn giá âm",
+      "saved_action": "Số lượng vẫn +1, đơn giá âm. Đối chiếu mục đích giảm giá hay giảm số lượng trước khi quyết định làm lại.",
+      "original_header": {
+        "date": "2025-06-04",
+        "money": [
+          "163889",
+          "13111",
+          "177000"
+        ],
+        "evidence": {
+          "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_da_su_dung_1791532908545.zip / Bang_ke_hoa_don_da_su_dung_1791532908545_1.xlsx",
+          "row": 3118
+        }
+      },
+      "adjustment_header": {
+        "date": "2025-09-26",
+        "money": [
+          "-163889",
+          "-13111",
+          "-177000"
+        ],
+        "evidence": {
+          "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_da_su_dung_1791532908545.zip / Bang_ke_hoa_don_da_su_dung_1791532908545_6.xlsx",
+          "row": 3199
+        }
+      },
+      "original_detail": [
+        {
+          "name": "Vợt bắt muỗi tự động 2 trong 1 thu hút các loại côn trùng KM002",
+          "unit": "Cái",
+          "qty": "1",
+          "price": "163889",
+          "goods": "163889",
+          "rate": "8%",
+          "tax": "13111",
+          "payment": "177000",
+          "evidence": {
+            "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_chi_tiet_hoa_don_da_su_dung_20261009_150742.zip / Bang_ke_chi_tiet_hoa_don_da_su_dung_20261009_150742.xlsx",
+            "row": 15687
+          }
+        }
+      ],
+      "xml": [
+        {
+          "key": [
+            "1C25TUV",
+            "00013032"
+          ],
+          "date": "2025-09-26",
+          "related": [
+            "1C25TUV",
+            "00003113"
+          ],
+          "money": [
+            "-163889.000000",
+            "-13111.000000",
+            "-177000.000000"
+          ],
+          "lines": [
+            {
+              "name": "Vợt bắt muỗi tự động 2 trong 1 thu hút các loại côn trùng - KM002",
+              "unit": "CÁI",
+              "qty": "1.000000",
+              "price": "-163889.000000",
+              "goods": "-163889.000000",
+              "rate": "8%",
+              "nature": "1"
+            }
+          ],
+          "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013032.xml",
+          "sha256": "0a3343e9f064a05d7fddcfdf21f1edd8c73a9ee2d060f0a2231f91d8090243d3"
+        }
+      ],
+      "cumulative_money": [
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "root": [
+        "1C25TUV",
+        "00003548"
+      ],
+      "adjustment": [
+        "1C25TUV",
+        "00013072"
+      ],
+      "sheet_row": 7,
+      "category": "Khác loại hàng",
+      "saved_action": "Máy và lõi lọc khác nhau giữa gốc và điều chỉnh. Cần xử lý đúng loại hàng gốc.",
+      "original_header": {
+        "date": "2025-06-06",
+        "money": [
+          "962037",
+          "76963",
+          "1039000"
+        ],
+        "evidence": {
+          "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_da_su_dung_1791532908545.zip / Bang_ke_hoa_don_da_su_dung_1791532908545_1.xlsx",
+          "row": 3553
+        }
+      },
+      "adjustment_header": {
+        "date": "2025-09-30",
+        "money": [
+          "-962037",
+          "-76963",
+          "-1039000"
+        ],
+        "evidence": {
+          "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_da_su_dung_1791532908545.zip / Bang_ke_hoa_don_da_su_dung_1791532908545_6.xlsx",
+          "row": 3862
+        }
+      },
+      "original_detail": [
+        {
+          "name": "Máy lọc không khí diệt khuẩn bằng tia UVC KA150S",
+          "unit": "Cái",
+          "qty": "1",
+          "price": "962037",
+          "goods": "962037",
+          "rate": "8%",
+          "tax": "76963",
+          "payment": "1039000",
+          "evidence": {
+            "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_chi_tiet_hoa_don_da_su_dung_20261009_150742.zip / Bang_ke_chi_tiet_hoa_don_da_su_dung_20261009_150742.xlsx",
+            "row": 16139
+          }
+        }
+      ],
+      "xml": [
+        {
+          "key": [
+            "1C25TUV",
+            "00013072"
+          ],
+          "date": "2025-09-30",
+          "related": [
+            "1C25TUV",
+            "00003548"
+          ],
+          "money": [
+            "-962037.000000",
+            "-76963.000000",
+            "-1039000.000000"
+          ],
+          "lines": [
+            {
+              "name": "Lõi lọc diệt khuẩn - Filter - KA150S",
+              "unit": "CÁI",
+              "qty": "-1.000000",
+              "price": "962037.000000",
+              "goods": "-962037.000000",
+              "rate": "8%",
+              "nature": "1"
+            }
+          ],
+          "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013072.xml",
+          "sha256": "b291282b71bc5ac4320e923a393db597f03cd3e70fa0a55380c1be74673a4deb"
+        }
+      ],
+      "cumulative_money": [
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "root": [
+        "1C25TUV",
+        "00004026"
+      ],
+      "adjustment": [
+        "1C25TUV",
+        "00013079"
+      ],
+      "sheet_row": 8,
+      "category": "Khác mô tả",
+      "saved_action": "Đối chiếu phần màn hình LCD hoặc cách viết ProUpgrade/Pro-Upgrade để xác định cùng mặt hàng thực tế.",
+      "original_header": {
+        "date": "2025-06-08",
+        "money": [
+          "499074",
+          "39926",
+          "539000"
+        ],
+        "evidence": {
+          "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_da_su_dung_1791532908545.zip / Bang_ke_hoa_don_da_su_dung_1791532908545_1.xlsx",
+          "row": 4031
+        }
+      },
+      "adjustment_header": {
+        "date": "2025-09-30",
+        "money": [
+          "-499074",
+          "-39926",
+          "-539000"
+        ],
+        "evidence": {
+          "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_da_su_dung_1791532908545.zip / Bang_ke_hoa_don_da_su_dung_1791532908545_6.xlsx",
+          "row": 3869
+        }
+      },
+      "original_detail": [
+        {
+          "name": "Máy phun sương tạo độ ẩm không khí diệt khuẩn bằng tia UVC KH100",
+          "unit": "Cái",
+          "qty": "1",
+          "price": "499074",
+          "goods": "499074",
+          "rate": "8%",
+          "tax": "39926",
+          "payment": "539000",
+          "evidence": {
+            "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_chi_tiet_hoa_don_da_su_dung_20261009_150742.zip / Bang_ke_chi_tiet_hoa_don_da_su_dung_20261009_150742.xlsx",
+            "row": 16670
+          }
+        }
+      ],
+      "xml": [
+        {
+          "key": [
+            "1C25TUV",
+            "00013079"
+          ],
+          "date": "2025-09-30",
+          "related": [
+            "1C25TUV",
+            "00004026"
+          ],
+          "money": [
+            "-499074.000000",
+            "-39926.000000",
+            "-539000.000000"
+          ],
+          "lines": [
+            {
+              "name": "Máy phun sương tạo độ ẩm không khí diệt khuẩn bằng tia UVC với màn hình LCD - KH100",
+              "unit": "CÁI",
+              "qty": "-1.000000",
+              "price": "499074.000000",
+              "goods": "-499074.000000",
+              "rate": "8%",
+              "nature": "1"
+            }
+          ],
+          "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013079.xml",
+          "sha256": "e473878c5c3d9e9c2949c26e3bf9cdd50edc80013cd194b16dd4adbf3f0257c8"
+        }
+      ],
+      "cumulative_money": [
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "root": [
+        "1C25TUV",
+        "00004081"
+      ],
+      "adjustment": [
+        "1C25TUV",
+        "00013033"
+      ],
+      "sheet_row": 9,
+      "category": "Giảm bằng đơn giá âm",
+      "saved_action": "Số lượng vẫn +1, đơn giá âm. Đối chiếu mục đích giảm giá hay giảm số lượng trước khi quyết định làm lại.",
+      "original_header": {
+        "date": "2025-06-08",
+        "money": [
+          "165741",
+          "13259",
+          "179000"
+        ],
+        "evidence": {
+          "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_da_su_dung_1791532908545.zip / Bang_ke_hoa_don_da_su_dung_1791532908545_1.xlsx",
+          "row": 4086
+        }
+      },
+      "adjustment_header": {
+        "date": "2025-09-26",
+        "money": [
+          "-165741",
+          "-13259",
+          "-179000"
+        ],
+        "evidence": {
+          "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_da_su_dung_1791532908545.zip / Bang_ke_hoa_don_da_su_dung_1791532908545_6.xlsx",
+          "row": 3200
+        }
+      },
+      "original_detail": [
+        {
+          "name": "Vợt bắt muỗi tự động 2 trong 1 thu hút các loại côn trùng KM002",
+          "unit": "Cái",
+          "qty": "1",
+          "price": "165741",
+          "goods": "165741",
+          "rate": "8%",
+          "tax": "13259",
+          "payment": "179000",
+          "evidence": {
+            "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_chi_tiet_hoa_don_da_su_dung_20261009_150742.zip / Bang_ke_chi_tiet_hoa_don_da_su_dung_20261009_150742.xlsx",
+            "row": 16725
+          }
+        }
+      ],
+      "xml": [
+        {
+          "key": [
+            "1C25TUV",
+            "00013033"
+          ],
+          "date": "2025-09-26",
+          "related": [
+            "1C25TUV",
+            "00004081"
+          ],
+          "money": [
+            "-165741.000000",
+            "-13259.000000",
+            "-179000.000000"
+          ],
+          "lines": [
+            {
+              "name": "Vợt bắt muỗi tự động 2 trong 1 thu hút các loại côn trùng - KM002",
+              "unit": "Cái",
+              "qty": "1.000000",
+              "price": "-165741.000000",
+              "goods": "-165741.000000",
+              "rate": "8%",
+              "nature": "1"
+            }
+          ],
+          "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013033.xml",
+          "sha256": "77b3e5f6678fbaf032788347e4e92ce80a21dd534262dcfb79b4a6da92562e4b"
+        }
+      ],
+      "cumulative_money": [
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "root": [
+        "1C25TUV",
+        "00004953"
+      ],
+      "adjustment": [
+        "1C25TUV",
+        "00013089"
+      ],
+      "sheet_row": 10,
+      "category": "Khác mô tả",
+      "saved_action": "Đối chiếu phần màn hình LCD hoặc cách viết ProUpgrade/Pro-Upgrade để xác định cùng mặt hàng thực tế.",
+      "original_header": {
+        "date": "2025-06-12",
+        "money": [
+          "2295369",
+          "183630",
+          "2478999"
+        ],
+        "evidence": {
+          "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_da_su_dung_1791532908545.zip / Bang_ke_hoa_don_da_su_dung_1791532908545_2.xlsx",
+          "row": 45
+        }
+      },
+      "adjustment_header": {
+        "date": "2025-09-30",
+        "money": [
+          "-2295369",
+          "-183630",
+          "-2478999"
+        ],
+        "evidence": {
+          "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_da_su_dung_1791532908545.zip / Bang_ke_hoa_don_da_su_dung_1791532908545_6.xlsx",
+          "row": 3879
+        }
+      },
+      "original_detail": [
+        {
+          "name": "Máy lọc không khí diệt khuẩn bằng tia UVC KA350 ProUpgrade",
+          "unit": "Cái",
+          "qty": "1",
+          "price": "2295369",
+          "goods": "2295369",
+          "rate": "8%",
+          "tax": "183630",
+          "payment": "2478999",
+          "evidence": {
+            "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_chi_tiet_hoa_don_da_su_dung_20261009_150742.zip / Bang_ke_chi_tiet_hoa_don_da_su_dung_20261009_150742.xlsx",
+            "row": 17770
+          }
+        }
+      ],
+      "xml": [
+        {
+          "key": [
+            "1C25TUV",
+            "00013089"
+          ],
+          "date": "2025-09-30",
+          "related": [
+            "1C25TUV",
+            "00004953"
+          ],
+          "money": [
+            "-2295369.000000",
+            "-183630.000000",
+            "-2478999.000000"
+          ],
+          "lines": [
+            {
+              "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - KA350 Pro-Upgrade",
+              "unit": "Cái",
+              "qty": "-1.000000",
+              "price": "2295369.000000",
+              "goods": "-2295369.000000",
+              "rate": "8%",
+              "nature": "1"
+            }
+          ],
+          "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013089.xml",
+          "sha256": "b8f2f488b5cf0a20a30efa6cc0769028068b7d84c8f20ea6910199f4c70e5304"
+        }
+      ],
+      "cumulative_money": [
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "root": [
+        "1C25TUV",
+        "00005555"
+      ],
+      "adjustment": [
+        "1C25TUV",
+        "00013034"
+      ],
+      "sheet_row": 11,
+      "category": "Giảm bằng đơn giá âm",
+      "saved_action": "Số lượng vẫn +1, đơn giá âm. Đối chiếu mục đích giảm giá hay giảm số lượng trước khi quyết định làm lại.",
+      "original_header": {
+        "date": "2025-06-14",
+        "money": [
+          "165740",
+          "13259",
+          "178999"
+        ],
+        "evidence": {
+          "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_da_su_dung_1791532908545.zip / Bang_ke_hoa_don_da_su_dung_1791532908545_2.xlsx",
+          "row": 647
+        }
+      },
+      "adjustment_header": {
+        "date": "2025-09-26",
+        "money": [
+          "-165740",
+          "-13259",
+          "-178999"
+        ],
+        "evidence": {
+          "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_da_su_dung_1791532908545.zip / Bang_ke_hoa_don_da_su_dung_1791532908545_6.xlsx",
+          "row": 3201
+        }
+      },
+      "original_detail": [
+        {
+          "name": "Vợt bắt muỗi tự động 2 trong 1 thu hút các loại côn trùng KM002",
+          "unit": "Cái",
+          "qty": "1",
+          "price": "165740",
+          "goods": "165740",
+          "rate": "8%",
+          "tax": "13259",
+          "payment": "178999",
+          "evidence": {
+            "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_chi_tiet_hoa_don_da_su_dung_20261009_150742.zip / Bang_ke_chi_tiet_hoa_don_da_su_dung_20261009_150742.xlsx",
+            "row": 18433
+          }
+        }
+      ],
+      "xml": [
+        {
+          "key": [
+            "1C25TUV",
+            "00013034"
+          ],
+          "date": "2025-09-26",
+          "related": [
+            "1C25TUV",
+            "00005555"
+          ],
+          "money": [
+            "-165740.000000",
+            "-13259.000000",
+            "-178999.000000"
+          ],
+          "lines": [
+            {
+              "name": "Vợt bắt muỗi tự động 2 trong 1 thu hút các loại côn trùng - KM002",
+              "unit": "Cái",
+              "qty": "1.000000",
+              "price": "-165740.000000",
+              "goods": "-165740.000000",
+              "rate": "8%",
+              "nature": "1"
+            }
+          ],
+          "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013034.xml",
+          "sha256": "92b262dde2551fe0c48d71aaa6316344b1d2caab5b370da38e3bc56b0b97fda5"
+        }
+      ],
+      "cumulative_money": [
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "root": [
+        "1C25TUV",
+        "00005905"
+      ],
+      "adjustment": [
+        "1C25TUV",
+        "00013095"
+      ],
+      "sheet_row": 12,
+      "category": "Khác loại hàng",
+      "saved_action": "Máy và lõi lọc khác nhau giữa gốc và điều chỉnh. Cần xử lý đúng loại hàng gốc.",
+      "original_header": {
+        "date": "2025-06-16",
+        "money": [
+          "509259",
+          "40741",
+          "550000"
+        ],
+        "evidence": {
+          "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_da_su_dung_1791532908545.zip / Bang_ke_hoa_don_da_su_dung_1791532908545_2.xlsx",
+          "row": 997
+        }
+      },
+      "adjustment_header": {
+        "date": "2025-09-30",
+        "money": [
+          "-509259",
+          "-40741",
+          "-550000"
+        ],
+        "evidence": {
+          "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_da_su_dung_1791532908545.zip / Bang_ke_hoa_don_da_su_dung_1791532908545_6.xlsx",
+          "row": 3885
+        }
+      },
+      "original_detail": [
+        {
+          "name": "Lõi lọc diệt khuẩn  Filter KA600",
+          "unit": "Cái",
+          "qty": "1",
+          "price": "509259",
+          "goods": "509259",
+          "rate": "8%",
+          "tax": "40741",
+          "payment": "550000",
+          "evidence": {
+            "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_chi_tiet_hoa_don_da_su_dung_20261009_150742.zip / Bang_ke_chi_tiet_hoa_don_da_su_dung_20261009_150742.xlsx",
+            "row": 18798
+          }
+        }
+      ],
+      "xml": [
+        {
+          "key": [
+            "1C25TUV",
+            "00013095"
+          ],
+          "date": "2025-09-30",
+          "related": [
+            "1C25TUV",
+            "00005905"
+          ],
+          "money": [
+            "-509259.000000",
+            "-40741.000000",
+            "-550000.000000"
+          ],
+          "lines": [
+            {
+              "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - KA600",
+              "unit": "CÁI",
+              "qty": "-1.000000",
+              "price": "509259.000000",
+              "goods": "-509259.000000",
+              "rate": "8%",
+              "nature": "1"
+            }
+          ],
+          "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013095.xml",
+          "sha256": "203cdec2e1d19a15196c41a3499e8550e65d55a855284bd2cf042defb2a64aaa"
+        }
+      ],
+      "cumulative_money": [
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "root": [
+        "1C25TUV",
+        "00005918"
+      ],
+      "adjustment": [
+        "1C25TUV",
+        "00013035"
+      ],
+      "sheet_row": 13,
+      "category": "Giảm bằng đơn giá âm",
+      "saved_action": "Số lượng vẫn +1, đơn giá âm. Đối chiếu mục đích giảm giá hay giảm số lượng trước khi quyết định làm lại.",
+      "original_header": {
+        "date": "2025-06-16",
+        "money": [
+          "165741",
+          "13259",
+          "179000"
+        ],
+        "evidence": {
+          "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_da_su_dung_1791532908545.zip / Bang_ke_hoa_don_da_su_dung_1791532908545_2.xlsx",
+          "row": 1010
+        }
+      },
+      "adjustment_header": {
+        "date": "2025-09-26",
+        "money": [
+          "-165741",
+          "-13259",
+          "-179000"
+        ],
+        "evidence": {
+          "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_da_su_dung_1791532908545.zip / Bang_ke_hoa_don_da_su_dung_1791532908545_6.xlsx",
+          "row": 3202
+        }
+      },
+      "original_detail": [
+        {
+          "name": "Vợt bắt muỗi tự động 2 trong 1 thu hút các loại côn trùng KM002",
+          "unit": "Cái",
+          "qty": "1",
+          "price": "165741",
+          "goods": "165741",
+          "rate": "8%",
+          "tax": "13259",
+          "payment": "179000",
+          "evidence": {
+            "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_chi_tiet_hoa_don_da_su_dung_20261009_150742.zip / Bang_ke_chi_tiet_hoa_don_da_su_dung_20261009_150742.xlsx",
+            "row": 18811
+          }
+        }
+      ],
+      "xml": [
+        {
+          "key": [
+            "1C25TUV",
+            "00013035"
+          ],
+          "date": "2025-09-26",
+          "related": [
+            "1C25TUV",
+            "00005918"
+          ],
+          "money": [
+            "-165741.000000",
+            "-13259.000000",
+            "-179000.000000"
+          ],
+          "lines": [
+            {
+              "name": "Vợt bắt muỗi tự động 2 trong 1 thu hút các loại côn trùng - KM002",
+              "unit": "Cái",
+              "qty": "1.000000",
+              "price": "-165741.000000",
+              "goods": "-165741.000000",
+              "rate": "8%",
+              "nature": "1"
+            }
+          ],
+          "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013035.xml",
+          "sha256": "5706b9b718e88170df8a0958d35d20c15852acd09763a2b7b6ec516c9c64ae13"
+        }
+      ],
+      "cumulative_money": [
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "root": [
+        "1C25TUV",
+        "00007766"
+      ],
+      "adjustment": [
+        "1C25TUV",
+        "00013099"
+      ],
+      "sheet_row": 14,
+      "category": "Khác mô tả",
+      "saved_action": "Đối chiếu phần màn hình LCD hoặc cách viết ProUpgrade/Pro-Upgrade để xác định cùng mặt hàng thực tế.",
+      "original_header": {
+        "date": "2025-06-22",
+        "money": [
+          "486110",
+          "38889",
+          "524999"
+        ],
+        "evidence": {
+          "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_da_su_dung_1791532908545.zip / Bang_ke_hoa_don_da_su_dung_1791532908545_2.xlsx",
+          "row": 2858
+        }
+      },
+      "adjustment_header": {
+        "date": "2025-09-30",
+        "money": [
+          "-486110",
+          "-38889",
+          "-524999"
+        ],
+        "evidence": {
+          "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_da_su_dung_1791532908545.zip / Bang_ke_hoa_don_da_su_dung_1791532908545_6.xlsx",
+          "row": 3889
+        }
+      },
+      "original_detail": [
+        {
+          "name": "Máy phun sương tạo độ ẩm không khí diệt khuẩn bằng tia UVC KH100",
+          "unit": "Cái",
+          "qty": "1",
+          "price": "486110",
+          "goods": "486110",
+          "rate": "8%",
+          "tax": "38889",
+          "payment": "524999",
+          "evidence": {
+            "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_chi_tiet_hoa_don_da_su_dung_20261009_150742.zip / Bang_ke_chi_tiet_hoa_don_da_su_dung_20261009_150742.xlsx",
+            "row": 20808
+          }
+        }
+      ],
+      "xml": [
+        {
+          "key": [
+            "1C25TUV",
+            "00013099"
+          ],
+          "date": "2025-09-30",
+          "related": [
+            "1C25TUV",
+            "00007766"
+          ],
+          "money": [
+            "-486110.000000",
+            "-38889.000000",
+            "-524999.000000"
+          ],
+          "lines": [
+            {
+              "name": "Máy phun sương tạo độ ẩm không khí diệt khuẩn bằng tia UVC với màn hình LCD - KH100",
+              "unit": "CÁI",
+              "qty": "-1.000000",
+              "price": "486110.000000",
+              "goods": "-486110.000000",
+              "rate": "8%",
+              "nature": "1"
+            }
+          ],
+          "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013099.xml",
+          "sha256": "b66dfa408435fe527e8389350ff733e75bcd90f8ed838e9b8b1261100d2c5a8c"
+        }
+      ],
+      "cumulative_money": [
+        "0",
+        "0",
+        "0"
+      ]
+    }
+  ],
+  "new_mismatches": [],
+  "source_conflicts": [],
+  "xml_zero_export_blank_differences": [
+    {
+      "key": [
+        "1C25TUV",
+        "00006108"
+      ],
+      "root": [
+        "1C25TUV",
+        "00001348"
+      ],
+      "xml": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00006108.xml",
+      "xml_money": [
+        "0.000000",
+        "0.000000",
+        "0.000000"
+      ],
+      "export_money": [
+        "0",
+        "0",
+        null
+      ]
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00004203"
+      ],
+      "root": [
+        "1C25TUV",
+        "00002377"
+      ],
+      "xml": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00004203.xml",
+      "xml_money": [
+        "0.000000",
+        "0.000000",
+        "0.000000"
+      ],
+      "export_money": [
+        "0",
+        "0",
+        null
+      ]
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00004204"
+      ],
+      "root": [
+        "1C25TUV",
+        "00002378"
+      ],
+      "xml": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00004204.xml",
+      "xml_money": [
+        "0.000000",
+        "0.000000",
+        "0.000000"
+      ],
+      "export_money": [
+        "0",
+        "0",
+        null
+      ]
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00009186"
+      ],
+      "root": [
+        "1C25TUV",
+        "00009072"
+      ],
+      "xml": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00009186.xml",
+      "xml_money": [
+        "0.000000",
+        "0.000000",
+        "0.000000"
+      ],
+      "export_money": [
+        "0",
+        "0",
+        null
+      ]
+    }
+  ],
+  "pending_adjustment_xml_not_in_repo": [],
+  "limits": [
+    "PASS checks consistency with current files, not resolution of existing pending issues.",
+    "Two historical bulk ZIPs contained 1,436 XML; only the 237 target XML were extracted by audit_downloaded_xml.py. Recheck those original ZIPs before requesting invoices again.",
+    "Blank money and zero remain distinct; XML-zero/export-blank differences are explicitly listed, not treated as exact matches; source and workbook values are not changed.",
+    "No accounting decision, cryptographic signature verification, live CQT check, import or issuance."
+  ]
+}

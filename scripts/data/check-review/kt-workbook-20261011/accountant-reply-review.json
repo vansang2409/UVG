@@ -1,0 +1,2002 @@
+{
+  "source": "C:\\Users\\thuong ngo\\OneDrive\\Desktop\\JOB UVG\\JOB HOA DON\\UVG_CAC_VAN_DE_CAN_KE_TOAN_XAC_NHAN_20261011.xlsx",
+  "source_sha256": "275e9881d8f58eefc05e74ac1d6bf8ed2610b118c64abbeaf86a1c9b87af9f1d",
+  "preserved_path": "D:\\UVG\\data\\Bo sung\\Ke toan\\2026-10-11\\275e9881d8f5\\UVG_CAC_VAN_DE_CAN_KE_TOAN_XAC_NHAN_20261011.xlsx",
+  "active_responses": 29,
+  "reference_responses": 7,
+  "cached_status_counts": {
+    "Đủ trường phản hồi": 8,
+    "Cần bổ sung": 21
+  },
+  "missing_basis_count": 21,
+  "all_case_identifiers_unchanged": true,
+  "original_evidence_unchanged_except_whitespace": true,
+  "responses": [
+    {
+      "id": "LT01",
+      "sheet": "Lech tien",
+      "row": 8,
+      "root": [
+        "1C25TUV",
+        "00000159"
+      ],
+      "root_date": "2025-02-28T00:00:00",
+      "adjustment": [
+        "1C25TUV",
+        "00000649"
+      ],
+      "adjustment_date": "2025-05-05T00:00:00",
+      "response": {
+        "Nguyên nhân (KT điền)": "Do kế toán xuất sai",
+        "Hướng xử lý (KT điền)": "Xuất trái dấu ở tất cả các chỉ tiêu",
+        "Số liệu/nội dung đúng (KT điền)": "- Tiền hàng: -381,481\n- Tiền thuế: -30,518\n- Thanh toán: -411,999",
+        "Căn cứ/chứng từ (KT điền)": "Không có, tính lại cho đúng logic số liệu",
+        "Người phản hồi": "Kế toán",
+        "Ngày phản hồi": "2026-10-11T00:00:00"
+      },
+      "cached_status": "Đủ trường phản hồi"
+    },
+    {
+      "id": "LT02",
+      "sheet": "Lech tien",
+      "row": 9,
+      "root": [
+        "1C25TUV",
+        "00000056"
+      ],
+      "root_date": "2025-01-27T00:00:00",
+      "adjustment": [
+        "1C25TUV",
+        "00000561"
+      ],
+      "adjustment_date": "2025-05-04T00:00:00",
+      "response": {
+        "Nguyên nhân (KT điền)": "Do kế toán xuất sai",
+        "Hướng xử lý (KT điền)": "Xuất trái dấu ở tất cả các chỉ tiêu",
+        "Số liệu/nội dung đúng (KT điền)": "- Tiền hàng: 196,889\n- Tiền thuế: 15,751\n- Thanh toán: 212,640",
+        "Căn cứ/chứng từ (KT điền)": "Không có, tính lại cho đúng logic số liệu",
+        "Người phản hồi": "Kế toán",
+        "Ngày phản hồi": "2026-10-11T00:00:00"
+      },
+      "cached_status": "Đủ trường phản hồi"
+    },
+    {
+      "id": "LT03",
+      "sheet": "Lech tien",
+      "row": 10,
+      "root": [
+        "1C24TUV",
+        "00000283"
+      ],
+      "root_date": "2024-06-14T00:00:00",
+      "adjustment": [
+        "1C25TUV",
+        "00001819"
+      ],
+      "adjustment_date": "2025-05-29T00:00:00",
+      "response": {
+        "Nguyên nhân (KT điền)": "Do kế toán xuất sai",
+        "Hướng xử lý (KT điền)": "Xuất trái dấu ở tất cả các chỉ tiêu",
+        "Số liệu/nội dung đúng (KT điền)": "- Tiền hàng: 7,599,678\n- Tiền thuế: 609,974\n- Thanh toán: 8,209,652",
+        "Căn cứ/chứng từ (KT điền)": "Không có, tính lại cho đúng logic số liệu",
+        "Người phản hồi": "Kế toán",
+        "Ngày phản hồi": "2026-10-11T00:00:00"
+      },
+      "cached_status": "Đủ trường phản hồi"
+    },
+    {
+      "id": "LT04",
+      "sheet": "Lech tien",
+      "row": 11,
+      "root": [
+        "1C24TUV",
+        "00000093"
+      ],
+      "root_date": "2024-03-01T00:00:00",
+      "adjustment": [
+        "1C25TUV",
+        "00001167"
+      ],
+      "adjustment_date": "2025-05-26T00:00:00",
+      "response": {
+        "Nguyên nhân (KT điền)": "Do kế toán xuất sai",
+        "Hướng xử lý (KT điền)": "Xuất trái dấu ở tất cả các chỉ tiêu",
+        "Số liệu/nội dung đúng (KT điền)": "- Tiền hàng: 621,945\n- Tiền thuế: 49,756\n- Thanh toán: 671,701",
+        "Căn cứ/chứng từ (KT điền)": "Không có, tính lại cho đúng logic số liệu",
+        "Người phản hồi": "Kế toán",
+        "Ngày phản hồi": "2026-10-11T00:00:00"
+      },
+      "cached_status": "Đủ trường phản hồi"
+    },
+    {
+      "id": "LT05",
+      "sheet": "Lech tien",
+      "row": 12,
+      "root": [
+        "1C24TUV",
+        "00000535"
+      ],
+      "root_date": "2024-10-22T00:00:00",
+      "adjustment": [
+        "1C25TUV",
+        "00002145"
+      ],
+      "adjustment_date": "2025-05-30T00:00:00",
+      "response": {
+        "Nguyên nhân (KT điền)": "Do kế toán xuất sai",
+        "Hướng xử lý (KT điền)": "Xuất trái dấu ở tất cả các chỉ tiêu",
+        "Số liệu/nội dung đúng (KT điền)": "- Tiền hàng: 39,194,352\n- Tiền thuế: 3,135,548\n- Thanh toán: 42,329,900",
+        "Căn cứ/chứng từ (KT điền)": "Không có, tính lại cho đúng logic số liệu",
+        "Người phản hồi": "Kế toán",
+        "Ngày phản hồi": "2026-10-11T00:00:00"
+      },
+      "cached_status": "Đủ trường phản hồi"
+    },
+    {
+      "id": "LT06",
+      "sheet": "Lech tien",
+      "row": 13,
+      "root": [
+        "1C24TUV",
+        "00000228"
+      ],
+      "root_date": "2024-05-13T00:00:00",
+      "adjustment": [
+        "1C25TUV",
+        "00002619"
+      ],
+      "adjustment_date": "2025-05-31T00:00:00",
+      "response": {
+        "Nguyên nhân (KT điền)": "Do kế toán xuất sai",
+        "Hướng xử lý (KT điền)": "Xuất trái dấu ở tất cả các chỉ tiêu",
+        "Số liệu/nội dung đúng (KT điền)": "- Tiền hàng: -589,554\n- Tiền thuế: -47,164\n- Thanh toán: -636,718",
+        "Căn cứ/chứng từ (KT điền)": "Không có, tính lại cho đúng logic số liệu",
+        "Người phản hồi": "Kế toán",
+        "Ngày phản hồi": "2026-10-11T00:00:00"
+      },
+      "cached_status": "Đủ trường phản hồi"
+    },
+    {
+      "id": "LT07",
+      "sheet": "Lech tien",
+      "row": 14,
+      "root": [
+        "1C24TUV",
+        "00000285"
+      ],
+      "root_date": "2024-06-15T00:00:00",
+      "adjustment": [
+        "1C25TUV",
+        "00001821"
+      ],
+      "adjustment_date": "2025-05-29T00:00:00",
+      "response": {
+        "Nguyên nhân (KT điền)": "Do kế toán xuất sai",
+        "Hướng xử lý (KT điền)": "Xuất trái dấu ở tất cả các chỉ tiêu",
+        "Số liệu/nội dung đúng (KT điền)": "- Tiền hàng: 5,701,066\n- Tiền thuế: 456,085\n- Thanh toán: 6,157,151",
+        "Căn cứ/chứng từ (KT điền)": "Không có, tính lại cho đúng logic số liệu",
+        "Người phản hồi": "Kế toán",
+        "Ngày phản hồi": "2026-10-11T00:00:00"
+      },
+      "cached_status": "Đủ trường phản hồi"
+    },
+    {
+      "id": "LT08",
+      "sheet": "Lech tien",
+      "row": 15,
+      "root": [
+        "1C25TUV",
+        "00000102"
+      ],
+      "root_date": "2025-02-19T00:00:00",
+      "adjustment": [
+        "1C25TUV",
+        "00000626"
+      ],
+      "adjustment_date": "2025-05-04T00:00:00",
+      "response": {
+        "Nguyên nhân (KT điền)": "Do kế toán xuất sai",
+        "Hướng xử lý (KT điền)": "Xuất trái dấu ở tất cả các chỉ tiêu",
+        "Số liệu/nội dung đúng (KT điền)": "- Tiền hàng: 4,347,265\n- Tiền thuế: 347,781\n- Thanh toán: 4,695,046",
+        "Căn cứ/chứng từ (KT điền)": "Không có, tính lại cho đúng logic số liệu",
+        "Người phản hồi": "Kế toán",
+        "Ngày phản hồi": "2026-10-11T00:00:00"
+      },
+      "cached_status": "Đủ trường phản hồi"
+    },
+    {
+      "id": "SL01",
+      "sheet": "So luong can kiem",
+      "row": 8,
+      "root": [
+        "1C24TUV",
+        "00000555"
+      ],
+      "root_date": "2024-10-31T00:00:00",
+      "adjustment": [
+        "1C25TUV",
+        "00002632"
+      ],
+      "adjustment_date": "2025-05-31T00:00:00",
+      "response": {
+        "Nguyên nhân (KT điền)": "Kế toán xuất sai",
+        "Hướng xử lý (KT điền)": "Giữ nguyên dòng số 6 \"Màng Lọc HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA350 FT ( BS HĐ 547)\" diễn giải, xuất điều chỉnh âm số lượng dòng đó",
+        "Số liệu/nội dung đúng (KT điền)": "Dòng 6 \"Màng Lọc HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA350 FT ( BS HĐ 547)\" điều chỉnh giảm Thành tiền chưa có thuế GTGT: -46,296",
+        "Căn cứ/chứng từ (KT điền)": null,
+        "Người phản hồi": "Kế toán",
+        "Ngày phản hồi": "2026-10-11T00:00:00"
+      },
+      "cached_status": "Cần bổ sung"
+    },
+    {
+      "id": "SL02",
+      "sheet": "So luong can kiem",
+      "row": 9,
+      "root": [
+        "1C25TUV",
+        "00000113"
+      ],
+      "root_date": "2025-02-19T00:00:00",
+      "adjustment": [
+        "1C25TUV",
+        "00000635"
+      ],
+      "adjustment_date": "2025-05-05T00:00:00",
+      "response": {
+        "Nguyên nhân (KT điền)": "Kế toán xuất sai",
+        "Hướng xử lý (KT điền)": "Bỏ dòng số 45 \"Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA600 FT\" đi do số lượng, đơn giá, thành tiền bằng 0.",
+        "Số liệu/nội dung đúng (KT điền)": "Bỏ dòng số 45 \"Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA600 FT\" đi do số lượng, đơn giá, thành tiền bằng 0.",
+        "Căn cứ/chứng từ (KT điền)": null,
+        "Người phản hồi": "Kế toán",
+        "Ngày phản hồi": "2026-10-11T00:00:00"
+      },
+      "cached_status": "Cần bổ sung"
+    },
+    {
+      "id": "SL03",
+      "sheet": "So luong can kiem",
+      "row": 10,
+      "root": [
+        "1C24TUV",
+        "00000774"
+      ],
+      "root_date": "2024-12-31T00:00:00",
+      "adjustment": null,
+      "adjustment_date": null,
+      "response": {
+        "Nguyên nhân (KT điền)": "Đây là dòng có tính chất là \"Ghi chú, diễn giải\" để diễn giải nội dung là \"Hàng biếu, tặng không thu tiền\" => đúng rồi.",
+        "Hướng xử lý (KT điền)": "Đây là dòng chú thích hàng tặng, giữ nguyên, không được bỏ dòng này. Vẫn giữ lại khi xuất hóa đơn điều chỉnh.",
+        "Số liệu/nội dung đúng (KT điền)": "Đây là dòng chú thích hàng tặng, giữ nguyên, không được bỏ dòng này. Vẫn giữ lại khi xuất hóa đơn điều chỉnh.",
+        "Căn cứ/chứng từ (KT điền)": null,
+        "Người phản hồi": "Kế toán",
+        "Ngày phản hồi": "2026-10-11T00:00:00"
+      },
+      "cached_status": "Cần bổ sung"
+    },
+    {
+      "id": "SL04",
+      "sheet": "So luong can kiem",
+      "row": 11,
+      "root": [
+        "1C24TUV",
+        "00000783"
+      ],
+      "root_date": "2024-12-31T00:00:00",
+      "adjustment": null,
+      "adjustment_date": null,
+      "response": {
+        "Nguyên nhân (KT điền)": "Đây là dòng có tính chất là \"Ghi chú, diễn giải\" để diễn giải nội dung là \"Hàng biếu, tặng không thu tiền\" => đúng rồi.",
+        "Hướng xử lý (KT điền)": "Đây là dòng chú thích hàng tặng, giữ nguyên, không được bỏ dòng này. Vẫn giữ lại khi xuất hóa đơn điều chỉnh.",
+        "Số liệu/nội dung đúng (KT điền)": "Đây là dòng chú thích hàng tặng, giữ nguyên, không được bỏ dòng này. Vẫn giữ lại khi xuất hóa đơn điều chỉnh.",
+        "Căn cứ/chứng từ (KT điền)": null,
+        "Người phản hồi": "Kế toán",
+        "Ngày phản hồi": "2026-10-11T00:00:00"
+      },
+      "cached_status": "Cần bổ sung"
+    },
+    {
+      "id": "SL05",
+      "sheet": "So luong can kiem",
+      "row": 12,
+      "root": [
+        "1C24TUV",
+        "00000784"
+      ],
+      "root_date": "2024-12-31T00:00:00",
+      "adjustment": null,
+      "adjustment_date": null,
+      "response": {
+        "Nguyên nhân (KT điền)": "Đây là dòng có tính chất là \"Ghi chú, diễn giải\" để diễn giải nội dung là \"Hàng biếu, tặng không thu tiền\" => đúng rồi.",
+        "Hướng xử lý (KT điền)": "Đây là dòng chú thích hàng tặng, giữ nguyên, không được bỏ dòng này. Vẫn giữ lại khi xuất hóa đơn điều chỉnh.",
+        "Số liệu/nội dung đúng (KT điền)": "Đây là dòng chú thích hàng tặng, giữ nguyên, không được bỏ dòng này. Vẫn giữ lại khi xuất hóa đơn điều chỉnh.",
+        "Căn cứ/chứng từ (KT điền)": null,
+        "Người phản hồi": "Kế toán",
+        "Ngày phản hồi": "2026-10-11T00:00:00"
+      },
+      "cached_status": "Cần bổ sung"
+    },
+    {
+      "id": "SL06",
+      "sheet": "So luong can kiem",
+      "row": 13,
+      "root": [
+        "1C24TUV",
+        "00000786"
+      ],
+      "root_date": "2024-12-31T00:00:00",
+      "adjustment": null,
+      "adjustment_date": null,
+      "response": {
+        "Nguyên nhân (KT điền)": "Đây là dòng có tính chất là \"Ghi chú, diễn giải\" để diễn giải nội dung là \"Hàng biếu, tặng không thu tiền\" => đúng rồi.",
+        "Hướng xử lý (KT điền)": "Đây là dòng chú thích hàng tặng, giữ nguyên, không được bỏ dòng này. Vẫn giữ lại khi xuất hóa đơn điều chỉnh.",
+        "Số liệu/nội dung đúng (KT điền)": "Đây là dòng chú thích hàng tặng, giữ nguyên, không được bỏ dòng này. Vẫn giữ lại khi xuất hóa đơn điều chỉnh.",
+        "Căn cứ/chứng từ (KT điền)": null,
+        "Người phản hồi": "Kế toán",
+        "Ngày phản hồi": "2026-10-11T00:00:00"
+      },
+      "cached_status": "Cần bổ sung"
+    },
+    {
+      "id": "SL07",
+      "sheet": "So luong can kiem",
+      "row": 14,
+      "root": [
+        "1C25TUV",
+        "00002796"
+      ],
+      "root_date": "2025-06-01T00:00:00",
+      "adjustment": null,
+      "adjustment_date": null,
+      "response": {
+        "Nguyên nhân (KT điền)": "Kế toán xuất sai",
+        "Hướng xử lý (KT điền)": "Bỏ dòng số 2 \"Vợt bắt muỗi tự động 2 trong 1 thu hút các loại côn trùng KM002\" đi do số lượng, đơn giá, thành tiền bằng 0.",
+        "Số liệu/nội dung đúng (KT điền)": "Bỏ dòng số 2 \"Vợt bắt muỗi tự động 2 trong 1 thu hút các loại côn trùng KM002\" đi do số lượng, đơn giá, thành tiền bằng 0.",
+        "Căn cứ/chứng từ (KT điền)": null,
+        "Người phản hồi": "Kế toán",
+        "Ngày phản hồi": "2026-10-11T00:00:00"
+      },
+      "cached_status": "Cần bổ sung"
+    },
+    {
+      "id": "SL08",
+      "sheet": "So luong can kiem",
+      "row": 15,
+      "root": [
+        "1C25TUV",
+        "00002797"
+      ],
+      "root_date": "2025-06-01T00:00:00",
+      "adjustment": null,
+      "adjustment_date": null,
+      "response": {
+        "Nguyên nhân (KT điền)": "Kế toán xuất sai",
+        "Hướng xử lý (KT điền)": "Bỏ dòng số 2 \"Vợt bắt muỗi tự động 2 trong 1 thu hút các loại côn trùng KM002\" đi do số lượng, đơn giá, thành tiền bằng 0.",
+        "Số liệu/nội dung đúng (KT điền)": "Bỏ dòng số 2 \"Vợt bắt muỗi tự động 2 trong 1 thu hút các loại côn trùng KM002\" đi do số lượng, đơn giá, thành tiền bằng 0.",
+        "Căn cứ/chứng từ (KT điền)": null,
+        "Người phản hồi": "Kế toán",
+        "Ngày phản hồi": "2026-10-11T00:00:00"
+      },
+      "cached_status": "Cần bổ sung"
+    },
+    {
+      "id": "TT01",
+      "sheet": "Thanh toan trong",
+      "row": 8,
+      "root": [
+        "1C25TUV",
+        "00000006"
+      ],
+      "root_date": "2025-01-07T00:00:00",
+      "adjustment": [
+        "1C25TUV",
+        "00000655"
+      ],
+      "adjustment_date": "2025-05-05T00:00:00",
+      "response": {
+        "Nguyên nhân (KT điền)": "Kế toán xuất sai",
+        "Hướng xử lý (KT điền)": "Xuất âm số lượng các dòng hàng hóa trên hóa đơn",
+        "Số liệu/nội dung đúng (KT điền)": "Dòng 1 \"Máy Lọc Không Khí Diệt Khuẩn UVGREEN KA350 UVC PRO 40m2\": Số lượng: -1\nDòng 2 \"Màng Lọc HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA350 FT\": số lượng -1\nDòng 3 \"Máy Lọc Không Khí Diệt Khuẩn UVGREEN KA150S-UVC LED\": số lượng: -1\nDòng 4 \"Máy Lọc Không Khí Diệt Khuẩn UVGREEN KA150P-UVC LED\": số lượng: -1\nDòng 5 \"Máy Lọc Không Khí Diệt Khuẩn UVGREEN KA150S-UVC LED\": số lượng: -1",
+        "Căn cứ/chứng từ (KT điền)": null,
+        "Người phản hồi": "Kế toán",
+        "Ngày phản hồi": "2026-10-11T00:00:00"
+      },
+      "cached_status": "Cần bổ sung"
+    },
+    {
+      "id": "TT02",
+      "sheet": "Thanh toan trong",
+      "row": 9,
+      "root": [
+        "1C25TUV",
+        "00000016"
+      ],
+      "root_date": "2025-01-14T00:00:00",
+      "adjustment": [
+        "1C25TUV",
+        "00000657"
+      ],
+      "adjustment_date": "2025-05-05T00:00:00",
+      "response": {
+        "Nguyên nhân (KT điền)": "Kế toán xuất sai",
+        "Hướng xử lý (KT điền)": "Xuất âm số lượng các dòng hàng hóa trên hóa đơn",
+        "Số liệu/nội dung đúng (KT điền)": "Dòng 1 \"Máy Lọc Không Khí Diệt Khuẩn UVGREEN KA150-UVC LED\": số lượng: -1\nDòng 2 \"Máy Lọc Không Khí Diệt Khuẩn UVGREEN KA150-UVC LED\": số lượng: -1\nDòng 3 \"Máy Lọc Không Khí Diệt Khuẩn UVC LED UVGREEN KA600 60m2\": số lượng: -1",
+        "Căn cứ/chứng từ (KT điền)": null,
+        "Người phản hồi": "Kế toán",
+        "Ngày phản hồi": "2026-10-11T00:00:00"
+      },
+      "cached_status": "Cần bổ sung"
+    },
+    {
+      "id": "HH01",
+      "sheet": "Hang va mo ta",
+      "row": 8,
+      "root": [
+        "1C25TUV",
+        "00003548"
+      ],
+      "root_date": "2025-06-06T00:00:00",
+      "adjustment": [
+        "1C25TUV",
+        "00013072"
+      ],
+      "adjustment_date": "2025-09-30T00:00:00",
+      "response": {
+        "Nguyên nhân (KT điền)": "Kế toán xuất sai",
+        "Hướng xử lý (KT điền)": "Hóa đơn Điều chỉnh cho hóa đơn 13072 tăng số lượng của \"Lõi lọc diệt khuẩn - Filter - KA150S\"\nHóa đơn Điều chỉnh cho hóa đơn 3548 giảm số lượng của \"Máy lọc không khí diệt khuẩn bằng tia UVC KA150S\"",
+        "Số liệu/nội dung đúng (KT điền)": "Hóa đơn Điều chỉnh cho hóa đơn 13072 tăng số lượng của \"Lõi lọc diệt khuẩn - Filter - KA150S\": 1\nHóa đơn Điều chỉnh cho hóa đơn 3548 giảm số lượng của \"Máy lọc không khí diệt khuẩn bằng tia UVC KA150S\": -1",
+        "Căn cứ/chứng từ (KT điền)": null,
+        "Người phản hồi": null,
+        "Ngày phản hồi": null
+      },
+      "cached_status": "Cần bổ sung"
+    },
+    {
+      "id": "HH02",
+      "sheet": "Hang va mo ta",
+      "row": 9,
+      "root": [
+        "1C25TUV",
+        "00004026"
+      ],
+      "root_date": "2025-06-08T00:00:00",
+      "adjustment": [
+        "1C25TUV",
+        "00013079"
+      ],
+      "adjustment_date": "2025-09-30T00:00:00",
+      "response": {
+        "Nguyên nhân (KT điền)": "2 máy đó thực tế là 1 sản phẩm.",
+        "Hướng xử lý (KT điền)": "Không cần xử lý xuất lại hóa đơn điều chỉnh nữa",
+        "Số liệu/nội dung đúng (KT điền)": "Không cần xử lý xuất lại hóa đơn điều chỉnh nữa",
+        "Căn cứ/chứng từ (KT điền)": null,
+        "Người phản hồi": null,
+        "Ngày phản hồi": null
+      },
+      "cached_status": "Cần bổ sung"
+    },
+    {
+      "id": "HH03",
+      "sheet": "Hang va mo ta",
+      "row": 10,
+      "root": [
+        "1C25TUV",
+        "00004953"
+      ],
+      "root_date": "2025-06-12T00:00:00",
+      "adjustment": [
+        "1C25TUV",
+        "00013089"
+      ],
+      "adjustment_date": "2025-09-30T00:00:00",
+      "response": {
+        "Nguyên nhân (KT điền)": "2 máy đó thực tế là 1 sản phẩm.",
+        "Hướng xử lý (KT điền)": "Không cần xử lý xuất lại hóa đơn điều chỉnh nữa",
+        "Số liệu/nội dung đúng (KT điền)": "Không cần xử lý xuất lại hóa đơn điều chỉnh nữa",
+        "Căn cứ/chứng từ (KT điền)": null,
+        "Người phản hồi": null,
+        "Ngày phản hồi": null
+      },
+      "cached_status": "Cần bổ sung"
+    },
+    {
+      "id": "HH04",
+      "sheet": "Hang va mo ta",
+      "row": 11,
+      "root": [
+        "1C25TUV",
+        "00005905"
+      ],
+      "root_date": "2025-06-16T00:00:00",
+      "adjustment": [
+        "1C25TUV",
+        "00013095"
+      ],
+      "adjustment_date": "2025-09-30T00:00:00",
+      "response": {
+        "Nguyên nhân (KT điền)": "Kế toán xuất sai",
+        "Hướng xử lý (KT điền)": "Hóa đơn Điều chỉnh cho hóa đơn 5905 giảm số lượng của \"Lõi lọc diệt khuẩn Filter KA600\"\nHóa đơn Điều chỉnh cho hóa đơn 13095 tăng số lượng của \"Máy lọc không khí diệt khuẩn bằng tia UVC - KA600\"",
+        "Số liệu/nội dung đúng (KT điền)": "Hóa đơn Điều chỉnh cho hóa đơn 5905 giảm số lượng của \"Lõi lọc diệt khuẩn Filter KA600\": -1\nHóa đơn Điều chỉnh cho hóa đơn 13095 tăng số lượng của \"Máy lọc không khí diệt khuẩn bằng tia UVC - KA600\": 1",
+        "Căn cứ/chứng từ (KT điền)": null,
+        "Người phản hồi": null,
+        "Ngày phản hồi": null
+      },
+      "cached_status": "Cần bổ sung"
+    },
+    {
+      "id": "HH05",
+      "sheet": "Hang va mo ta",
+      "row": 12,
+      "root": [
+        "1C25TUV",
+        "00007766"
+      ],
+      "root_date": "2025-06-22T00:00:00",
+      "adjustment": [
+        "1C25TUV",
+        "00013099"
+      ],
+      "adjustment_date": "2025-09-30T00:00:00",
+      "response": {
+        "Nguyên nhân (KT điền)": "2 máy đó thực tế là 1 sản phẩm.",
+        "Hướng xử lý (KT điền)": "Không cần xử lý xuất lại hóa đơn điều chỉnh nữa",
+        "Số liệu/nội dung đúng (KT điền)": "Không cần xử lý xuất lại hóa đơn điều chỉnh nữa",
+        "Căn cứ/chứng từ (KT điền)": null,
+        "Người phản hồi": null,
+        "Ngày phản hồi": null
+      },
+      "cached_status": "Cần bổ sung"
+    },
+    {
+      "id": "DC01",
+      "sheet": "Cach ghi dieu chinh",
+      "row": 8,
+      "root": [
+        "1C25TUV",
+        "00001061"
+      ],
+      "root_date": "2025-05-26T00:00:00",
+      "adjustment": [
+        "1C25TUV",
+        "00012835"
+      ],
+      "adjustment_date": "2025-08-16T00:00:00",
+      "response": {
+        "Nguyên nhân (KT điền)": "Kế toán xuất sai HD 12835. ",
+        "Hướng xử lý (KT điền)": "Hóa đơn điều chỉnh cho HD 1061: giảm toàn bộ 1 sản phẩm KM300: số lượng: -1, đơn giá: 499,074\nHóa đơn điều chỉnh cho HD 12835: tăng lại thành tiền: 499,074, tiền thuế: 39,926, thanh toán: 539,000",
+        "Số liệu/nội dung đúng (KT điền)": "Đèn bắt muỗi, ruồi và các loại côn trùng KM300: số lượng: -1, đơn giá: 499,074, thành tiền: -499,074",
+        "Căn cứ/chứng từ (KT điền)": null,
+        "Người phản hồi": "Kế toán",
+        "Ngày phản hồi": "2026-10-11T00:00:00"
+      },
+      "cached_status": "Cần bổ sung"
+    },
+    {
+      "id": "DC02",
+      "sheet": "Cach ghi dieu chinh",
+      "row": 9,
+      "root": [
+        "1C25TUV",
+        "00001094"
+      ],
+      "root_date": "2025-05-26T00:00:00",
+      "adjustment": [
+        "1C25TUV",
+        "00013038"
+      ],
+      "adjustment_date": "2025-09-26T00:00:00",
+      "response": {
+        "Nguyên nhân (KT điền)": "Kế toán xuất sai HD 13038",
+        "Hướng xử lý (KT điền)": "Hóa đơn điều chỉnh cho HD 1094: giảm toàn bộ 1 Lõi lọc diệt khuẩn Filter KA350S: số lượng: -1, đơn giá: 509,259\nHóa đơn điều chỉnh cho HD 13038: tăng giảm toàn bộ 1 Lõi lọc diệt khuẩn Filter KA350S: số lượng: -1, đơn giá: 509,259\n=> Đảm bảo triệt tiêu số lượng, đơn giá, thành tiền",
+        "Số liệu/nội dung đúng (KT điền)": "Lõi lọc diệt khuẩn Filter KA350S: số lượng: -1, đơn giá: 509,259, thành tiền: -509,259",
+        "Căn cứ/chứng từ (KT điền)": null,
+        "Người phản hồi": "Kế toán",
+        "Ngày phản hồi": "2026-10-11T00:00:00"
+      },
+      "cached_status": "Cần bổ sung"
+    },
+    {
+      "id": "DC03",
+      "sheet": "Cach ghi dieu chinh",
+      "row": 10,
+      "root": [
+        "1C25TUV",
+        "00003113"
+      ],
+      "root_date": "2025-06-04T00:00:00",
+      "adjustment": [
+        "1C25TUV",
+        "00013032"
+      ],
+      "adjustment_date": "2025-09-26T00:00:00",
+      "response": {
+        "Nguyên nhân (KT điền)": "Kế toán xuất sai HD 13032",
+        "Hướng xử lý (KT điền)": "Hóa đơn điều chỉnh cho HD 3113: giảm toàn bộ Vợt bắt muỗi tự động 2 trong 1 thu hút các loại côn trùng KM002: số lượng: -1, đơn giá: 163,889\nHóa đơn điều chỉnh cho HD 13038: Vợt bắt muỗi tự động 2 trong 1 thu hút các loại côn trùng KM002: số lượng: -1, đơn giá: 163,889\n=> Đảm bảo triệt tiêu số lượng, đơn giá, thành tiền",
+        "Số liệu/nội dung đúng (KT điền)": " Vợt bắt muỗi tự động 2 trong 1 thu hút các loại côn trùng KM002: số lượng: -1, đơn giá: 163,889",
+        "Căn cứ/chứng từ (KT điền)": null,
+        "Người phản hồi": "Kế toán",
+        "Ngày phản hồi": "2026-10-11T00:00:00"
+      },
+      "cached_status": "Cần bổ sung"
+    },
+    {
+      "id": "DC04",
+      "sheet": "Cach ghi dieu chinh",
+      "row": 11,
+      "root": [
+        "1C25TUV",
+        "00004081"
+      ],
+      "root_date": "2025-06-08T00:00:00",
+      "adjustment": [
+        "1C25TUV",
+        "00013033"
+      ],
+      "adjustment_date": "2025-09-26T00:00:00",
+      "response": {
+        "Nguyên nhân (KT điền)": "Kế toán xuất sai HD 13033",
+        "Hướng xử lý (KT điền)": "Hóa đơn điều chỉnh cho HD 3113: giảm toàn bộ Vợt bắt muỗi tự động 2 trong 1 thu hút các loại côn trùng KM002: số lượng: -1, đơn giá: 165,741\nHóa đơn điều chỉnh cho HD 13038: Vợt bắt muỗi tự động 2 trong 1 thu hút các loại côn trùng KM002: số lượng: -1, đơn giá: 165,741\n=> Đảm bảo triệt tiêu số lượng, đơn giá, thành tiền",
+        "Số liệu/nội dung đúng (KT điền)": " Vợt bắt muỗi tự động 2 trong 1 thu hút các loại côn trùng KM002: số lượng: -1, đơn giá: 165,741",
+        "Căn cứ/chứng từ (KT điền)": null,
+        "Người phản hồi": "Kế toán",
+        "Ngày phản hồi": "2026-10-11T00:00:00"
+      },
+      "cached_status": "Cần bổ sung"
+    },
+    {
+      "id": "DC05",
+      "sheet": "Cach ghi dieu chinh",
+      "row": 12,
+      "root": [
+        "1C25TUV",
+        "00005555"
+      ],
+      "root_date": "2025-06-14T00:00:00",
+      "adjustment": [
+        "1C25TUV",
+        "00013034"
+      ],
+      "adjustment_date": "2025-09-26T00:00:00",
+      "response": {
+        "Nguyên nhân (KT điền)": "Kế toán xuất sai HD 13034",
+        "Hướng xử lý (KT điền)": "Hóa đơn điều chỉnh cho HD 3113: giảm toàn bộ Vợt bắt muỗi tự động 2 trong 1 thu hút các loại côn trùng KM002: số lượng: -1, đơn giá: 165,740\nHóa đơn điều chỉnh cho HD 13038: Vợt bắt muỗi tự động 2 trong 1 thu hút các loại côn trùng KM002: số lượng: -1, đơn giá: 165,740\n=> Đảm bảo triệt tiêu số lượng, đơn giá, thành tiền",
+        "Số liệu/nội dung đúng (KT điền)": " Vợt bắt muỗi tự động 2 trong 1 thu hút các loại côn trùng KM002: số lượng: -1, đơn giá: 165,740",
+        "Căn cứ/chứng từ (KT điền)": null,
+        "Người phản hồi": "Kế toán",
+        "Ngày phản hồi": "2026-10-11T00:00:00"
+      },
+      "cached_status": "Cần bổ sung"
+    },
+    {
+      "id": "DC06",
+      "sheet": "Cach ghi dieu chinh",
+      "row": 13,
+      "root": [
+        "1C25TUV",
+        "00005918"
+      ],
+      "root_date": "2025-06-16T00:00:00",
+      "adjustment": [
+        "1C25TUV",
+        "00013035"
+      ],
+      "adjustment_date": "2025-09-26T00:00:00",
+      "response": {
+        "Nguyên nhân (KT điền)": "Kế toán xuất sai HD 13035",
+        "Hướng xử lý (KT điền)": "Hóa đơn điều chỉnh cho HD 3113: giảm toàn bộ Vợt bắt muỗi tự động 2 trong 1 thu hút các loại côn trùng KM002: số lượng: -1, đơn giá: 165,741\nHóa đơn điều chỉnh cho HD 13038: Vợt bắt muỗi tự động 2 trong 1 thu hút các loại côn trùng KM002: số lượng: -1, đơn giá: 165,741\n=> Đảm bảo triệt tiêu số lượng, đơn giá, thành tiền",
+        "Số liệu/nội dung đúng (KT điền)": " Vợt bắt muỗi tự động 2 trong 1 thu hút các loại côn trùng KM002: số lượng: -1, đơn giá: 165,741",
+        "Căn cứ/chứng từ (KT điền)": null,
+        "Người phản hồi": "Kế toán",
+        "Ngày phản hồi": "2026-10-11T00:00:00"
+      },
+      "cached_status": "Cần bổ sung"
+    }
+  ],
+  "reference_responses_detail": [
+    {
+      "id": "CC01",
+      "root": [
+        "1C24TUV",
+        "00000003"
+      ],
+      "adjustment": [
+        "1C25TUV",
+        "00000508"
+      ],
+      "response": "Giữ nguyên, không xử lý điều chỉnh hóa đơn này"
+    },
+    {
+      "id": "CC02",
+      "root": [
+        "1C24TUV",
+        "00000498"
+      ],
+      "adjustment": [
+        "1C25TUV",
+        "00002140"
+      ],
+      "response": "Giữ nguyên, không xử lý điều chỉnh hóa đơn này"
+    },
+    {
+      "id": "CC03",
+      "root": [
+        "1C24TUV",
+        "00000574"
+      ],
+      "adjustment": [
+        "1C25TUV",
+        "00002189"
+      ],
+      "response": "Giữ nguyên, không xử lý điều chỉnh hóa đơn này"
+    },
+    {
+      "id": "CC04",
+      "root": [
+        "1C25TUV",
+        "00001348"
+      ],
+      "adjustment": [
+        "1C25TUV",
+        "00006108"
+      ],
+      "response": "Giữ nguyên, không xử lý điều chỉnh hóa đơn này"
+    },
+    {
+      "id": "CC05",
+      "root": [
+        "1C25TUV",
+        "00002377"
+      ],
+      "adjustment": [
+        "1C25TUV",
+        "00004203"
+      ],
+      "response": "Giữ nguyên, không xử lý điều chỉnh hóa đơn này"
+    },
+    {
+      "id": "CC06",
+      "root": [
+        "1C25TUV",
+        "00002378"
+      ],
+      "adjustment": [
+        "1C25TUV",
+        "00004204"
+      ],
+      "response": "Giữ nguyên, không xử lý điều chỉnh hóa đơn này"
+    },
+    {
+      "id": "CC07",
+      "root": [
+        "1C25TUV",
+        "00009072"
+      ],
+      "adjustment": [
+        "1C25TUV",
+        "00009186"
+      ],
+      "response": "Xuất điều chỉnh số lượng hàng hóa của hóa đơn 9072, còn hóa đơn 9186 thì kệ."
+    }
+  ],
+  "money_checks": [
+    {
+      "id": "LT01",
+      "adjustment": "1C25TUV/00000649",
+      "source_money": [
+        -381481,
+        -30518,
+        411999
+      ],
+      "accountant_corrected_money": [
+        -381481,
+        -30518,
+        -411999
+      ],
+      "reverse_source": [
+        381481,
+        30518,
+        -411999
+      ],
+      "residual_if_reverse_corrected": [
+        0,
+        0,
+        823998
+      ]
+    },
+    {
+      "id": "LT02",
+      "adjustment": "1C25TUV/00000561",
+      "source_money": [
+        196889,
+        151751,
+        212640
+      ],
+      "accountant_corrected_money": [
+        196889,
+        15751,
+        212640
+      ],
+      "reverse_source": [
+        -196889,
+        -151751,
+        -212640
+      ],
+      "residual_if_reverse_corrected": [
+        0,
+        136000,
+        0
+      ]
+    },
+    {
+      "id": "LT03",
+      "adjustment": "1C25TUV/00001819",
+      "source_money": [
+        7599678,
+        609974,
+        8207652
+      ],
+      "accountant_corrected_money": [
+        7599678,
+        609974,
+        8209652
+      ],
+      "reverse_source": [
+        -7599678,
+        -609974,
+        -8207652
+      ],
+      "residual_if_reverse_corrected": [
+        0,
+        0,
+        -2000
+      ]
+    },
+    {
+      "id": "LT04",
+      "adjustment": "1C25TUV/00001167",
+      "source_money": [
+        621945,
+        49756,
+        670701
+      ],
+      "accountant_corrected_money": [
+        621945,
+        49756,
+        671701
+      ],
+      "reverse_source": [
+        -621945,
+        -49756,
+        -670701
+      ],
+      "residual_if_reverse_corrected": [
+        0,
+        0,
+        -1000
+      ]
+    },
+    {
+      "id": "LT05",
+      "adjustment": "1C25TUV/00002145",
+      "source_money": [
+        39194352,
+        3135548,
+        42329000
+      ],
+      "accountant_corrected_money": [
+        39194352,
+        3135548,
+        42329900
+      ],
+      "reverse_source": [
+        -39194352,
+        -3135548,
+        -42329000
+      ],
+      "residual_if_reverse_corrected": [
+        0,
+        0,
+        -900
+      ]
+    },
+    {
+      "id": "LT06",
+      "adjustment": "1C25TUV/00002619",
+      "source_money": [
+        -589554,
+        -47164,
+        -636719
+      ],
+      "accountant_corrected_money": [
+        -589554,
+        -47164,
+        -636718
+      ],
+      "reverse_source": [
+        589554,
+        47164,
+        636719
+      ],
+      "residual_if_reverse_corrected": [
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "id": "LT07",
+      "adjustment": "1C25TUV/00001821",
+      "source_money": [
+        5701066,
+        456085,
+        6157152
+      ],
+      "accountant_corrected_money": [
+        5701066,
+        456085,
+        6157151
+      ],
+      "reverse_source": [
+        -5701066,
+        -456085,
+        -6157152
+      ],
+      "residual_if_reverse_corrected": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "LT08",
+      "adjustment": "1C25TUV/00000626",
+      "source_money": [
+        4347265,
+        347781,
+        4695045
+      ],
+      "accountant_corrected_money": [
+        4347265,
+        347781,
+        4695046
+      ],
+      "reverse_source": [
+        -4347265,
+        -347781,
+        -4695045
+      ],
+      "residual_if_reverse_corrected": [
+        0,
+        0,
+        -1
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "id": "R01",
+      "cases": [
+        "LT01",
+        "LT02",
+        "LT03",
+        "LT04",
+        "LT05",
+        "LT06",
+        "LT07",
+        "LT08"
+      ],
+      "finding": "Eight corrected amounts balance, but reversing corrected values leaves a residual against the issued source. Clarify whether to correct first or reverse issued values, and the exact target invoice."
+    },
+    {
+      "id": "R02",
+      "cases": [
+        "DC03",
+        "DC04",
+        "DC05",
+        "DC06"
+      ],
+      "finding": "Repeated invoice 13038 in I10:I13 is outside the row pairs. I11:I13 also repeats root 3113. Expected pairs are 3113/13032, 4081/13033, 5555/13034, 5918/13035."
+    },
+    {
+      "id": "R03",
+      "cases": [
+        "DC02",
+        "DC03",
+        "DC04",
+        "DC05",
+        "DC06"
+      ],
+      "finding": "The old adjustment has positive quantity and negative unit price. A new -1 quantity at a positive price reduces money again. Specify the positive money reversal for the old adjustment separately from the negative money adjustment for the root."
+    },
+    {
+      "id": "R04",
+      "cases": [
+        "SL01"
+      ],
+      "finding": "Root 1C24TUV/555 dated 2024-10-31: response retains an explanatory line and calls for negative quantity, but supplies only -46296 goods amount. Quantity and treatment of explanation nature remain unspecified."
+    },
+    {
+      "id": "R05",
+      "cases": [
+        "SL08"
+      ],
+      "finding": "Root 1C25TUV/2797 dated 2025-06-01: source line is KM003, but response names KM002. Confirm that row 2 of invoice 2797, KM003, is intended."
+    },
+    {
+      "id": "R06",
+      "cases": [
+        "TT01",
+        "TT02"
+      ],
+      "finding": "Roots 6/16 dated 2025-01-07/2025-01-14: response supplies negative quantities, but does not settle blank root payment or specify the treatment of positive money adjustments 655/657."
+    },
+    {
+      "id": "R07",
+      "cases": [
+        "CC01",
+        "CC02",
+        "CC03",
+        "CC04",
+        "CC05",
+        "CC06"
+      ],
+      "finding": "Keep unchanged is stated at case level. Before preparing import, distinguish excluding both invoices of the pair from retaining the old adjustment while still adjusting the root. CC01 also differs from the earlier preparation decision for 3/508."
+    }
+  ],
+  "changes": [
+    {
+      "sheet": "Lech tien",
+      "cell": "J8",
+      "old": "Tổng tiền trong XML khớp bảng kê nhưng tiền hàng + thuế khác thanh toán. Tiền hàng và thuế âm, thanh toán dương. Thành tiền dòng XML bằng 0 trong khi tổng tiền hàng khác 0. ",
+      "new": "Tổng tiền trong XML khớp bảng kê nhưng tiền hàng + thuế khác thanh toán. Tiền hàng và thuế âm, thanh toán dương. Thành tiền dòng XML bằng 0 trong khi tổng tiền hàng khác 0."
+    },
+    {
+      "sheet": "Lech tien",
+      "cell": "L8",
+      "old": null,
+      "new": "Do kế toán xuất sai"
+    },
+    {
+      "sheet": "Lech tien",
+      "cell": "M8",
+      "old": null,
+      "new": "Xuất trái dấu ở tất cả các chỉ tiêu"
+    },
+    {
+      "sheet": "Lech tien",
+      "cell": "N8",
+      "old": null,
+      "new": "- Tiền hàng: -381,481\n- Tiền thuế: -30,518\n- Thanh toán: -411,999"
+    },
+    {
+      "sheet": "Lech tien",
+      "cell": "O8",
+      "old": null,
+      "new": "Không có, tính lại cho đúng logic số liệu"
+    },
+    {
+      "sheet": "Lech tien",
+      "cell": "P8",
+      "old": null,
+      "new": "Kế toán"
+    },
+    {
+      "sheet": "Lech tien",
+      "cell": "Q8",
+      "old": null,
+      "new": "2026-10-11T00:00:00"
+    },
+    {
+      "sheet": "Lech tien",
+      "cell": "J9",
+      "old": "Tổng tiền trong XML khớp bảng kê nhưng tiền hàng + thuế khác thanh toán. Thành tiền dòng XML bằng 0 trong khi tổng tiền hàng khác 0. ",
+      "new": "Tổng tiền trong XML khớp bảng kê nhưng tiền hàng + thuế khác thanh toán. Thành tiền dòng XML bằng 0 trong khi tổng tiền hàng khác 0."
+    },
+    {
+      "sheet": "Lech tien",
+      "cell": "L9",
+      "old": null,
+      "new": "Do kế toán xuất sai"
+    },
+    {
+      "sheet": "Lech tien",
+      "cell": "M9",
+      "old": null,
+      "new": "Xuất trái dấu ở tất cả các chỉ tiêu"
+    },
+    {
+      "sheet": "Lech tien",
+      "cell": "N9",
+      "old": null,
+      "new": "- Tiền hàng: 196,889\n- Tiền thuế: 15,751\n- Thanh toán: 212,640"
+    },
+    {
+      "sheet": "Lech tien",
+      "cell": "O9",
+      "old": null,
+      "new": "Không có, tính lại cho đúng logic số liệu"
+    },
+    {
+      "sheet": "Lech tien",
+      "cell": "P9",
+      "old": null,
+      "new": "Kế toán"
+    },
+    {
+      "sheet": "Lech tien",
+      "cell": "Q9",
+      "old": null,
+      "new": "2026-10-11T00:00:00"
+    },
+    {
+      "sheet": "Lech tien",
+      "cell": "J10",
+      "old": "Tổng tiền trong XML khớp bảng kê nhưng tiền hàng + thuế khác thanh toán. Thành tiền dòng XML bằng 0 trong khi tổng tiền hàng khác 0. ",
+      "new": "Tổng tiền trong XML khớp bảng kê nhưng tiền hàng + thuế khác thanh toán. Thành tiền dòng XML bằng 0 trong khi tổng tiền hàng khác 0."
+    },
+    {
+      "sheet": "Lech tien",
+      "cell": "L10",
+      "old": null,
+      "new": "Do kế toán xuất sai"
+    },
+    {
+      "sheet": "Lech tien",
+      "cell": "M10",
+      "old": null,
+      "new": "Xuất trái dấu ở tất cả các chỉ tiêu"
+    },
+    {
+      "sheet": "Lech tien",
+      "cell": "N10",
+      "old": null,
+      "new": "- Tiền hàng: 7,599,678\n- Tiền thuế: 609,974\n- Thanh toán: 8,209,652"
+    },
+    {
+      "sheet": "Lech tien",
+      "cell": "O10",
+      "old": null,
+      "new": "Không có, tính lại cho đúng logic số liệu"
+    },
+    {
+      "sheet": "Lech tien",
+      "cell": "P10",
+      "old": null,
+      "new": "Kế toán"
+    },
+    {
+      "sheet": "Lech tien",
+      "cell": "Q10",
+      "old": null,
+      "new": "2026-10-11T00:00:00"
+    },
+    {
+      "sheet": "Lech tien",
+      "cell": "J11",
+      "old": "Tổng tiền trong XML khớp bảng kê nhưng tiền hàng + thuế khác thanh toán. Thành tiền dòng XML bằng 0 trong khi tổng tiền hàng khác 0. ",
+      "new": "Tổng tiền trong XML khớp bảng kê nhưng tiền hàng + thuế khác thanh toán. Thành tiền dòng XML bằng 0 trong khi tổng tiền hàng khác 0."
+    },
+    {
+      "sheet": "Lech tien",
+      "cell": "L11",
+      "old": null,
+      "new": "Do kế toán xuất sai"
+    },
+    {
+      "sheet": "Lech tien",
+      "cell": "M11",
+      "old": null,
+      "new": "Xuất trái dấu ở tất cả các chỉ tiêu"
+    },
+    {
+      "sheet": "Lech tien",
+      "cell": "N11",
+      "old": null,
+      "new": "- Tiền hàng: 621,945\n- Tiền thuế: 49,756\n- Thanh toán: 671,701"
+    },
+    {
+      "sheet": "Lech tien",
+      "cell": "O11",
+      "old": null,
+      "new": "Không có, tính lại cho đúng logic số liệu"
+    },
+    {
+      "sheet": "Lech tien",
+      "cell": "P11",
+      "old": null,
+      "new": "Kế toán"
+    },
+    {
+      "sheet": "Lech tien",
+      "cell": "Q11",
+      "old": null,
+      "new": "2026-10-11T00:00:00"
+    },
+    {
+      "sheet": "Lech tien",
+      "cell": "J12",
+      "old": "Tổng tiền trong XML khớp bảng kê nhưng tiền hàng + thuế khác thanh toán. Thành tiền dòng XML bằng 0 trong khi tổng tiền hàng khác 0. ",
+      "new": "Tổng tiền trong XML khớp bảng kê nhưng tiền hàng + thuế khác thanh toán. Thành tiền dòng XML bằng 0 trong khi tổng tiền hàng khác 0."
+    },
+    {
+      "sheet": "Lech tien",
+      "cell": "L12",
+      "old": null,
+      "new": "Do kế toán xuất sai"
+    },
+    {
+      "sheet": "Lech tien",
+      "cell": "M12",
+      "old": null,
+      "new": "Xuất trái dấu ở tất cả các chỉ tiêu"
+    },
+    {
+      "sheet": "Lech tien",
+      "cell": "N12",
+      "old": null,
+      "new": "- Tiền hàng: 39,194,352\n- Tiền thuế: 3,135,548\n- Thanh toán: 42,329,900"
+    },
+    {
+      "sheet": "Lech tien",
+      "cell": "O12",
+      "old": null,
+      "new": "Không có, tính lại cho đúng logic số liệu"
+    },
+    {
+      "sheet": "Lech tien",
+      "cell": "P12",
+      "old": null,
+      "new": "Kế toán"
+    },
+    {
+      "sheet": "Lech tien",
+      "cell": "Q12",
+      "old": null,
+      "new": "2026-10-11T00:00:00"
+    },
+    {
+      "sheet": "Lech tien",
+      "cell": "L13",
+      "old": null,
+      "new": "Do kế toán xuất sai"
+    },
+    {
+      "sheet": "Lech tien",
+      "cell": "M13",
+      "old": null,
+      "new": "Xuất trái dấu ở tất cả các chỉ tiêu"
+    },
+    {
+      "sheet": "Lech tien",
+      "cell": "N13",
+      "old": null,
+      "new": "- Tiền hàng: -589,554\n- Tiền thuế: -47,164\n- Thanh toán: -636,718"
+    },
+    {
+      "sheet": "Lech tien",
+      "cell": "O13",
+      "old": null,
+      "new": "Không có, tính lại cho đúng logic số liệu"
+    },
+    {
+      "sheet": "Lech tien",
+      "cell": "P13",
+      "old": null,
+      "new": "Kế toán"
+    },
+    {
+      "sheet": "Lech tien",
+      "cell": "Q13",
+      "old": null,
+      "new": "2026-10-11T00:00:00"
+    },
+    {
+      "sheet": "Lech tien",
+      "cell": "J14",
+      "old": "Tổng tiền trong XML khớp bảng kê nhưng tiền hàng + thuế khác thanh toán. Thành tiền dòng XML bằng 0 trong khi tổng tiền hàng khác 0. ",
+      "new": "Tổng tiền trong XML khớp bảng kê nhưng tiền hàng + thuế khác thanh toán. Thành tiền dòng XML bằng 0 trong khi tổng tiền hàng khác 0."
+    },
+    {
+      "sheet": "Lech tien",
+      "cell": "L14",
+      "old": null,
+      "new": "Do kế toán xuất sai"
+    },
+    {
+      "sheet": "Lech tien",
+      "cell": "M14",
+      "old": null,
+      "new": "Xuất trái dấu ở tất cả các chỉ tiêu"
+    },
+    {
+      "sheet": "Lech tien",
+      "cell": "N14",
+      "old": null,
+      "new": "- Tiền hàng: 5,701,066\n- Tiền thuế: 456,085\n- Thanh toán: 6,157,151"
+    },
+    {
+      "sheet": "Lech tien",
+      "cell": "O14",
+      "old": null,
+      "new": "Không có, tính lại cho đúng logic số liệu"
+    },
+    {
+      "sheet": "Lech tien",
+      "cell": "P14",
+      "old": null,
+      "new": "Kế toán"
+    },
+    {
+      "sheet": "Lech tien",
+      "cell": "Q14",
+      "old": null,
+      "new": "2026-10-11T00:00:00"
+    },
+    {
+      "sheet": "Lech tien",
+      "cell": "J15",
+      "old": "Tổng tiền trong XML khớp bảng kê nhưng tiền hàng + thuế khác thanh toán. Thành tiền dòng XML bằng 0 trong khi tổng tiền hàng khác 0. ",
+      "new": "Tổng tiền trong XML khớp bảng kê nhưng tiền hàng + thuế khác thanh toán. Thành tiền dòng XML bằng 0 trong khi tổng tiền hàng khác 0."
+    },
+    {
+      "sheet": "Lech tien",
+      "cell": "L15",
+      "old": null,
+      "new": "Do kế toán xuất sai"
+    },
+    {
+      "sheet": "Lech tien",
+      "cell": "M15",
+      "old": null,
+      "new": "Xuất trái dấu ở tất cả các chỉ tiêu"
+    },
+    {
+      "sheet": "Lech tien",
+      "cell": "N15",
+      "old": null,
+      "new": "- Tiền hàng: 4,347,265\n- Tiền thuế: 347,781\n- Thanh toán: 4,695,046"
+    },
+    {
+      "sheet": "Lech tien",
+      "cell": "O15",
+      "old": null,
+      "new": "Không có, tính lại cho đúng logic số liệu"
+    },
+    {
+      "sheet": "Lech tien",
+      "cell": "P15",
+      "old": null,
+      "new": "Kế toán"
+    },
+    {
+      "sheet": "Lech tien",
+      "cell": "Q15",
+      "old": null,
+      "new": "2026-10-11T00:00:00"
+    },
+    {
+      "sheet": "So luong can kiem",
+      "cell": "H8",
+      "old": null,
+      "new": "Kế toán xuất sai"
+    },
+    {
+      "sheet": "So luong can kiem",
+      "cell": "I8",
+      "old": null,
+      "new": "Giữ nguyên dòng số 6 \"Màng Lọc HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA350 FT ( BS HĐ 547)\" diễn giải, xuất điều chỉnh âm số lượng dòng đó"
+    },
+    {
+      "sheet": "So luong can kiem",
+      "cell": "J8",
+      "old": null,
+      "new": "Dòng 6 \"Màng Lọc HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA350 FT ( BS HĐ 547)\" điều chỉnh giảm Thành tiền chưa có thuế GTGT: -46,296"
+    },
+    {
+      "sheet": "So luong can kiem",
+      "cell": "L8",
+      "old": null,
+      "new": "Kế toán"
+    },
+    {
+      "sheet": "So luong can kiem",
+      "cell": "M8",
+      "old": null,
+      "new": "2026-10-11T00:00:00"
+    },
+    {
+      "sheet": "So luong can kiem",
+      "cell": "H9",
+      "old": null,
+      "new": "Kế toán xuất sai"
+    },
+    {
+      "sheet": "So luong can kiem",
+      "cell": "I9",
+      "old": null,
+      "new": "Bỏ dòng số 45 \"Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA600 FT\" đi do số lượng, đơn giá, thành tiền bằng 0."
+    },
+    {
+      "sheet": "So luong can kiem",
+      "cell": "J9",
+      "old": null,
+      "new": "Bỏ dòng số 45 \"Màng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA600 FT\" đi do số lượng, đơn giá, thành tiền bằng 0."
+    },
+    {
+      "sheet": "So luong can kiem",
+      "cell": "L9",
+      "old": null,
+      "new": "Kế toán"
+    },
+    {
+      "sheet": "So luong can kiem",
+      "cell": "M9",
+      "old": null,
+      "new": "2026-10-11T00:00:00"
+    },
+    {
+      "sheet": "So luong can kiem",
+      "cell": "H10",
+      "old": null,
+      "new": "Đây là dòng có tính chất là \"Ghi chú, diễn giải\" để diễn giải nội dung là \"Hàng biếu, tặng không thu tiền\" => đúng rồi."
+    },
+    {
+      "sheet": "So luong can kiem",
+      "cell": "I10",
+      "old": null,
+      "new": "Đây là dòng chú thích hàng tặng, giữ nguyên, không được bỏ dòng này. Vẫn giữ lại khi xuất hóa đơn điều chỉnh."
+    },
+    {
+      "sheet": "So luong can kiem",
+      "cell": "J10",
+      "old": null,
+      "new": "Đây là dòng chú thích hàng tặng, giữ nguyên, không được bỏ dòng này. Vẫn giữ lại khi xuất hóa đơn điều chỉnh."
+    },
+    {
+      "sheet": "So luong can kiem",
+      "cell": "L10",
+      "old": null,
+      "new": "Kế toán"
+    },
+    {
+      "sheet": "So luong can kiem",
+      "cell": "M10",
+      "old": null,
+      "new": "2026-10-11T00:00:00"
+    },
+    {
+      "sheet": "So luong can kiem",
+      "cell": "H11",
+      "old": null,
+      "new": "Đây là dòng có tính chất là \"Ghi chú, diễn giải\" để diễn giải nội dung là \"Hàng biếu, tặng không thu tiền\" => đúng rồi."
+    },
+    {
+      "sheet": "So luong can kiem",
+      "cell": "I11",
+      "old": null,
+      "new": "Đây là dòng chú thích hàng tặng, giữ nguyên, không được bỏ dòng này. Vẫn giữ lại khi xuất hóa đơn điều chỉnh."
+    },
+    {
+      "sheet": "So luong can kiem",
+      "cell": "J11",
+      "old": null,
+      "new": "Đây là dòng chú thích hàng tặng, giữ nguyên, không được bỏ dòng này. Vẫn giữ lại khi xuất hóa đơn điều chỉnh."
+    },
+    {
+      "sheet": "So luong can kiem",
+      "cell": "L11",
+      "old": null,
+      "new": "Kế toán"
+    },
+    {
+      "sheet": "So luong can kiem",
+      "cell": "M11",
+      "old": null,
+      "new": "2026-10-11T00:00:00"
+    },
+    {
+      "sheet": "So luong can kiem",
+      "cell": "H12",
+      "old": null,
+      "new": "Đây là dòng có tính chất là \"Ghi chú, diễn giải\" để diễn giải nội dung là \"Hàng biếu, tặng không thu tiền\" => đúng rồi."
+    },
+    {
+      "sheet": "So luong can kiem",
+      "cell": "I12",
+      "old": null,
+      "new": "Đây là dòng chú thích hàng tặng, giữ nguyên, không được bỏ dòng này. Vẫn giữ lại khi xuất hóa đơn điều chỉnh."
+    },
+    {
+      "sheet": "So luong can kiem",
+      "cell": "J12",
+      "old": null,
+      "new": "Đây là dòng chú thích hàng tặng, giữ nguyên, không được bỏ dòng này. Vẫn giữ lại khi xuất hóa đơn điều chỉnh."
+    },
+    {
+      "sheet": "So luong can kiem",
+      "cell": "L12",
+      "old": null,
+      "new": "Kế toán"
+    },
+    {
+      "sheet": "So luong can kiem",
+      "cell": "M12",
+      "old": null,
+      "new": "2026-10-11T00:00:00"
+    },
+    {
+      "sheet": "So luong can kiem",
+      "cell": "H13",
+      "old": null,
+      "new": "Đây là dòng có tính chất là \"Ghi chú, diễn giải\" để diễn giải nội dung là \"Hàng biếu, tặng không thu tiền\" => đúng rồi."
+    },
+    {
+      "sheet": "So luong can kiem",
+      "cell": "I13",
+      "old": null,
+      "new": "Đây là dòng chú thích hàng tặng, giữ nguyên, không được bỏ dòng này. Vẫn giữ lại khi xuất hóa đơn điều chỉnh."
+    },
+    {
+      "sheet": "So luong can kiem",
+      "cell": "J13",
+      "old": null,
+      "new": "Đây là dòng chú thích hàng tặng, giữ nguyên, không được bỏ dòng này. Vẫn giữ lại khi xuất hóa đơn điều chỉnh."
+    },
+    {
+      "sheet": "So luong can kiem",
+      "cell": "L13",
+      "old": null,
+      "new": "Kế toán"
+    },
+    {
+      "sheet": "So luong can kiem",
+      "cell": "M13",
+      "old": null,
+      "new": "2026-10-11T00:00:00"
+    },
+    {
+      "sheet": "So luong can kiem",
+      "cell": "H14",
+      "old": null,
+      "new": "Kế toán xuất sai"
+    },
+    {
+      "sheet": "So luong can kiem",
+      "cell": "I14",
+      "old": null,
+      "new": "Bỏ dòng số 2 \"Vợt bắt muỗi tự động 2 trong 1 thu hút các loại côn trùng KM002\" đi do số lượng, đơn giá, thành tiền bằng 0."
+    },
+    {
+      "sheet": "So luong can kiem",
+      "cell": "J14",
+      "old": null,
+      "new": "Bỏ dòng số 2 \"Vợt bắt muỗi tự động 2 trong 1 thu hút các loại côn trùng KM002\" đi do số lượng, đơn giá, thành tiền bằng 0."
+    },
+    {
+      "sheet": "So luong can kiem",
+      "cell": "L14",
+      "old": null,
+      "new": "Kế toán"
+    },
+    {
+      "sheet": "So luong can kiem",
+      "cell": "M14",
+      "old": null,
+      "new": "2026-10-11T00:00:00"
+    },
+    {
+      "sheet": "So luong can kiem",
+      "cell": "H15",
+      "old": null,
+      "new": "Kế toán xuất sai"
+    },
+    {
+      "sheet": "So luong can kiem",
+      "cell": "I15",
+      "old": null,
+      "new": "Bỏ dòng số 2 \"Vợt bắt muỗi tự động 2 trong 1 thu hút các loại côn trùng KM002\" đi do số lượng, đơn giá, thành tiền bằng 0."
+    },
+    {
+      "sheet": "So luong can kiem",
+      "cell": "J15",
+      "old": null,
+      "new": "Bỏ dòng số 2 \"Vợt bắt muỗi tự động 2 trong 1 thu hút các loại côn trùng KM002\" đi do số lượng, đơn giá, thành tiền bằng 0."
+    },
+    {
+      "sheet": "So luong can kiem",
+      "cell": "L15",
+      "old": null,
+      "new": "Kế toán"
+    },
+    {
+      "sheet": "So luong can kiem",
+      "cell": "M15",
+      "old": null,
+      "new": "2026-10-11T00:00:00"
+    },
+    {
+      "sheet": "Thanh toan trong",
+      "cell": "H8",
+      "old": null,
+      "new": "Kế toán xuất sai"
+    },
+    {
+      "sheet": "Thanh toan trong",
+      "cell": "I8",
+      "old": null,
+      "new": "Xuất âm số lượng các dòng hàng hóa trên hóa đơn"
+    },
+    {
+      "sheet": "Thanh toan trong",
+      "cell": "J8",
+      "old": null,
+      "new": "Dòng 1 \"Máy Lọc Không Khí Diệt Khuẩn UVGREEN KA350 UVC PRO 40m2\": Số lượng: -1\nDòng 2 \"Màng Lọc HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA350 FT\": số lượng -1\nDòng 3 \"Máy Lọc Không Khí Diệt Khuẩn UVGREEN KA150S-UVC LED\": số lượng: -1\nDòng 4 \"Máy Lọc Không Khí Diệt Khuẩn UVGREEN KA150P-UVC LED\": số lượng: -1\nDòng 5 \"Máy Lọc Không Khí Diệt Khuẩn UVGREEN KA150S-UVC LED\": số lượng: -1"
+    },
+    {
+      "sheet": "Thanh toan trong",
+      "cell": "L8",
+      "old": null,
+      "new": "Kế toán"
+    },
+    {
+      "sheet": "Thanh toan trong",
+      "cell": "M8",
+      "old": null,
+      "new": "2026-10-11T00:00:00"
+    },
+    {
+      "sheet": "Thanh toan trong",
+      "cell": "H9",
+      "old": null,
+      "new": "Kế toán xuất sai"
+    },
+    {
+      "sheet": "Thanh toan trong",
+      "cell": "I9",
+      "old": null,
+      "new": "Xuất âm số lượng các dòng hàng hóa trên hóa đơn"
+    },
+    {
+      "sheet": "Thanh toan trong",
+      "cell": "J9",
+      "old": null,
+      "new": "Dòng 1 \"Máy Lọc Không Khí Diệt Khuẩn UVGREEN KA150-UVC LED\": số lượng: -1\nDòng 2 \"Máy Lọc Không Khí Diệt Khuẩn UVGREEN KA150-UVC LED\": số lượng: -1\nDòng 3 \"Máy Lọc Không Khí Diệt Khuẩn UVC LED UVGREEN KA600 60m2\": số lượng: -1"
+    },
+    {
+      "sheet": "Thanh toan trong",
+      "cell": "L9",
+      "old": null,
+      "new": "Kế toán"
+    },
+    {
+      "sheet": "Thanh toan trong",
+      "cell": "M9",
+      "old": null,
+      "new": "2026-10-11T00:00:00"
+    },
+    {
+      "sheet": "Hang va mo ta",
+      "cell": "H8",
+      "old": null,
+      "new": "Kế toán xuất sai"
+    },
+    {
+      "sheet": "Hang va mo ta",
+      "cell": "I8",
+      "old": null,
+      "new": "Hóa đơn Điều chỉnh cho hóa đơn 13072 tăng số lượng của \"Lõi lọc diệt khuẩn - Filter - KA150S\"\nHóa đơn Điều chỉnh cho hóa đơn 3548 giảm số lượng của \"Máy lọc không khí diệt khuẩn bằng tia UVC KA150S\""
+    },
+    {
+      "sheet": "Hang va mo ta",
+      "cell": "J8",
+      "old": null,
+      "new": "Hóa đơn Điều chỉnh cho hóa đơn 13072 tăng số lượng của \"Lõi lọc diệt khuẩn - Filter - KA150S\": 1\nHóa đơn Điều chỉnh cho hóa đơn 3548 giảm số lượng của \"Máy lọc không khí diệt khuẩn bằng tia UVC KA150S\": -1"
+    },
+    {
+      "sheet": "Hang va mo ta",
+      "cell": "H9",
+      "old": null,
+      "new": "2 máy đó thực tế là 1 sản phẩm."
+    },
+    {
+      "sheet": "Hang va mo ta",
+      "cell": "I9",
+      "old": null,
+      "new": "Không cần xử lý xuất lại hóa đơn điều chỉnh nữa"
+    },
+    {
+      "sheet": "Hang va mo ta",
+      "cell": "J9",
+      "old": null,
+      "new": "Không cần xử lý xuất lại hóa đơn điều chỉnh nữa"
+    },
+    {
+      "sheet": "Hang va mo ta",
+      "cell": "H10",
+      "old": null,
+      "new": "2 máy đó thực tế là 1 sản phẩm."
+    },
+    {
+      "sheet": "Hang va mo ta",
+      "cell": "I10",
+      "old": null,
+      "new": "Không cần xử lý xuất lại hóa đơn điều chỉnh nữa"
+    },
+    {
+      "sheet": "Hang va mo ta",
+      "cell": "J10",
+      "old": null,
+      "new": "Không cần xử lý xuất lại hóa đơn điều chỉnh nữa"
+    },
+    {
+      "sheet": "Hang va mo ta",
+      "cell": "H11",
+      "old": null,
+      "new": "Kế toán xuất sai"
+    },
+    {
+      "sheet": "Hang va mo ta",
+      "cell": "I11",
+      "old": null,
+      "new": "Hóa đơn Điều chỉnh cho hóa đơn 5905 giảm số lượng của \"Lõi lọc diệt khuẩn Filter KA600\"\nHóa đơn Điều chỉnh cho hóa đơn 13095 tăng số lượng của \"Máy lọc không khí diệt khuẩn bằng tia UVC - KA600\""
+    },
+    {
+      "sheet": "Hang va mo ta",
+      "cell": "J11",
+      "old": null,
+      "new": "Hóa đơn Điều chỉnh cho hóa đơn 5905 giảm số lượng của \"Lõi lọc diệt khuẩn Filter KA600\": -1\nHóa đơn Điều chỉnh cho hóa đơn 13095 tăng số lượng của \"Máy lọc không khí diệt khuẩn bằng tia UVC - KA600\": 1"
+    },
+    {
+      "sheet": "Hang va mo ta",
+      "cell": "H12",
+      "old": null,
+      "new": "2 máy đó thực tế là 1 sản phẩm."
+    },
+    {
+      "sheet": "Hang va mo ta",
+      "cell": "I12",
+      "old": null,
+      "new": "Không cần xử lý xuất lại hóa đơn điều chỉnh nữa"
+    },
+    {
+      "sheet": "Hang va mo ta",
+      "cell": "J12",
+      "old": null,
+      "new": "Không cần xử lý xuất lại hóa đơn điều chỉnh nữa"
+    },
+    {
+      "sheet": "Cach ghi dieu chinh",
+      "cell": "H8",
+      "old": null,
+      "new": "Kế toán xuất sai HD 12835. "
+    },
+    {
+      "sheet": "Cach ghi dieu chinh",
+      "cell": "I8",
+      "old": null,
+      "new": "Hóa đơn điều chỉnh cho HD 1061: giảm toàn bộ 1 sản phẩm KM300: số lượng: -1, đơn giá: 499,074\nHóa đơn điều chỉnh cho HD 12835: tăng lại thành tiền: 499,074, tiền thuế: 39,926, thanh toán: 539,000"
+    },
+    {
+      "sheet": "Cach ghi dieu chinh",
+      "cell": "J8",
+      "old": null,
+      "new": "Đèn bắt muỗi, ruồi và các loại côn trùng KM300: số lượng: -1, đơn giá: 499,074, thành tiền: -499,074"
+    },
+    {
+      "sheet": "Cach ghi dieu chinh",
+      "cell": "L8",
+      "old": null,
+      "new": "Kế toán"
+    },
+    {
+      "sheet": "Cach ghi dieu chinh",
+      "cell": "M8",
+      "old": null,
+      "new": "2026-10-11T00:00:00"
+    },
+    {
+      "sheet": "Cach ghi dieu chinh",
+      "cell": "H9",
+      "old": null,
+      "new": "Kế toán xuất sai HD 13038"
+    },
+    {
+      "sheet": "Cach ghi dieu chinh",
+      "cell": "I9",
+      "old": null,
+      "new": "Hóa đơn điều chỉnh cho HD 1094: giảm toàn bộ 1 Lõi lọc diệt khuẩn Filter KA350S: số lượng: -1, đơn giá: 509,259\nHóa đơn điều chỉnh cho HD 13038: tăng giảm toàn bộ 1 Lõi lọc diệt khuẩn Filter KA350S: số lượng: -1, đơn giá: 509,259\n=> Đảm bảo triệt tiêu số lượng, đơn giá, thành tiền"
+    },
+    {
+      "sheet": "Cach ghi dieu chinh",
+      "cell": "J9",
+      "old": null,
+      "new": "Lõi lọc diệt khuẩn Filter KA350S: số lượng: -1, đơn giá: 509,259, thành tiền: -509,259"
+    },
+    {
+      "sheet": "Cach ghi dieu chinh",
+      "cell": "L9",
+      "old": null,
+      "new": "Kế toán"
+    },
+    {
+      "sheet": "Cach ghi dieu chinh",
+      "cell": "M9",
+      "old": null,
+      "new": "2026-10-11T00:00:00"
+    },
+    {
+      "sheet": "Cach ghi dieu chinh",
+      "cell": "H10",
+      "old": null,
+      "new": "Kế toán xuất sai HD 13032"
+    },
+    {
+      "sheet": "Cach ghi dieu chinh",
+      "cell": "I10",
+      "old": null,
+      "new": "Hóa đơn điều chỉnh cho HD 3113: giảm toàn bộ Vợt bắt muỗi tự động 2 trong 1 thu hút các loại côn trùng KM002: số lượng: -1, đơn giá: 163,889\nHóa đơn điều chỉnh cho HD 13038: Vợt bắt muỗi tự động 2 trong 1 thu hút các loại côn trùng KM002: số lượng: -1, đơn giá: 163,889\n=> Đảm bảo triệt tiêu số lượng, đơn giá, thành tiền"
+    },
+    {
+      "sheet": "Cach ghi dieu chinh",
+      "cell": "J10",
+      "old": null,
+      "new": " Vợt bắt muỗi tự động 2 trong 1 thu hút các loại côn trùng KM002: số lượng: -1, đơn giá: 163,889"
+    },
+    {
+      "sheet": "Cach ghi dieu chinh",
+      "cell": "L10",
+      "old": null,
+      "new": "Kế toán"
+    },
+    {
+      "sheet": "Cach ghi dieu chinh",
+      "cell": "M10",
+      "old": null,
+      "new": "2026-10-11T00:00:00"
+    },
+    {
+      "sheet": "Cach ghi dieu chinh",
+      "cell": "H11",
+      "old": null,
+      "new": "Kế toán xuất sai HD 13033"
+    },
+    {
+      "sheet": "Cach ghi dieu chinh",
+      "cell": "I11",
+      "old": null,
+      "new": "Hóa đơn điều chỉnh cho HD 3113: giảm toàn bộ Vợt bắt muỗi tự động 2 trong 1 thu hút các loại côn trùng KM002: số lượng: -1, đơn giá: 165,741\nHóa đơn điều chỉnh cho HD 13038: Vợt bắt muỗi tự động 2 trong 1 thu hút các loại côn trùng KM002: số lượng: -1, đơn giá: 165,741\n=> Đảm bảo triệt tiêu số lượng, đơn giá, thành tiền"
+    },
+    {
+      "sheet": "Cach ghi dieu chinh",
+      "cell": "J11",
+      "old": null,
+      "new": " Vợt bắt muỗi tự động 2 trong 1 thu hút các loại côn trùng KM002: số lượng: -1, đơn giá: 165,741"
+    },
+    {
+      "sheet": "Cach ghi dieu chinh",
+      "cell": "L11",
+      "old": null,
+      "new": "Kế toán"
+    },
+    {
+      "sheet": "Cach ghi dieu chinh",
+      "cell": "M11",
+      "old": null,
+      "new": "2026-10-11T00:00:00"
+    },
+    {
+      "sheet": "Cach ghi dieu chinh",
+      "cell": "H12",
+      "old": null,
+      "new": "Kế toán xuất sai HD 13034"
+    },
+    {
+      "sheet": "Cach ghi dieu chinh",
+      "cell": "I12",
+      "old": null,
+      "new": "Hóa đơn điều chỉnh cho HD 3113: giảm toàn bộ Vợt bắt muỗi tự động 2 trong 1 thu hút các loại côn trùng KM002: số lượng: -1, đơn giá: 165,740\nHóa đơn điều chỉnh cho HD 13038: Vợt bắt muỗi tự động 2 trong 1 thu hút các loại côn trùng KM002: số lượng: -1, đơn giá: 165,740\n=> Đảm bảo triệt tiêu số lượng, đơn giá, thành tiền"
+    },
+    {
+      "sheet": "Cach ghi dieu chinh",
+      "cell": "J12",
+      "old": null,
+      "new": " Vợt bắt muỗi tự động 2 trong 1 thu hút các loại côn trùng KM002: số lượng: -1, đơn giá: 165,740"
+    },
+    {
+      "sheet": "Cach ghi dieu chinh",
+      "cell": "L12",
+      "old": null,
+      "new": "Kế toán"
+    },
+    {
+      "sheet": "Cach ghi dieu chinh",
+      "cell": "M12",
+      "old": null,
+      "new": "2026-10-11T00:00:00"
+    },
+    {
+      "sheet": "Cach ghi dieu chinh",
+      "cell": "H13",
+      "old": null,
+      "new": "Kế toán xuất sai HD 13035"
+    },
+    {
+      "sheet": "Cach ghi dieu chinh",
+      "cell": "I13",
+      "old": null,
+      "new": "Hóa đơn điều chỉnh cho HD 3113: giảm toàn bộ Vợt bắt muỗi tự động 2 trong 1 thu hút các loại côn trùng KM002: số lượng: -1, đơn giá: 165,741\nHóa đơn điều chỉnh cho HD 13038: Vợt bắt muỗi tự động 2 trong 1 thu hút các loại côn trùng KM002: số lượng: -1, đơn giá: 165,741\n=> Đảm bảo triệt tiêu số lượng, đơn giá, thành tiền"
+    },
+    {
+      "sheet": "Cach ghi dieu chinh",
+      "cell": "J13",
+      "old": null,
+      "new": " Vợt bắt muỗi tự động 2 trong 1 thu hút các loại côn trùng KM002: số lượng: -1, đơn giá: 165,741"
+    },
+    {
+      "sheet": "Cach ghi dieu chinh",
+      "cell": "L13",
+      "old": null,
+      "new": "Kế toán"
+    },
+    {
+      "sheet": "Cach ghi dieu chinh",
+      "cell": "M13",
+      "old": null,
+      "new": "2026-10-11T00:00:00"
+    },
+    {
+      "sheet": "Da co can cu",
+      "cell": "H7",
+      "old": null,
+      "new": "Hướng xử lý (KT điền)"
+    },
+    {
+      "sheet": "Da co can cu",
+      "cell": "H8",
+      "old": null,
+      "new": "Giữ nguyên, không xử lý điều chỉnh hóa đơn này"
+    },
+    {
+      "sheet": "Da co can cu",
+      "cell": "H9",
+      "old": null,
+      "new": "Giữ nguyên, không xử lý điều chỉnh hóa đơn này"
+    },
+    {
+      "sheet": "Da co can cu",
+      "cell": "H10",
+      "old": null,
+      "new": "Giữ nguyên, không xử lý điều chỉnh hóa đơn này"
+    },
+    {
+      "sheet": "Da co can cu",
+      "cell": "H11",
+      "old": null,
+      "new": "Giữ nguyên, không xử lý điều chỉnh hóa đơn này"
+    },
+    {
+      "sheet": "Da co can cu",
+      "cell": "H12",
+      "old": null,
+      "new": "Giữ nguyên, không xử lý điều chỉnh hóa đơn này"
+    },
+    {
+      "sheet": "Da co can cu",
+      "cell": "H13",
+      "old": null,
+      "new": "Giữ nguyên, không xử lý điều chỉnh hóa đơn này"
+    },
+    {
+      "sheet": "Da co can cu",
+      "cell": "H14",
+      "old": null,
+      "new": "Xuất điều chỉnh số lượng hàng hóa của hóa đơn 9072, còn hóa đơn 9186 thì kệ."
+    },
+    {
+      "sheet": "Hoa don lien quan",
+      "cell": "M61",
+      "old": "Máy Lọc Không Khí Diệt Khuẩn UVGREEN KA600 60m2 - Công Nghệ UVC LED, Ion Âm, HEPA H13 Lọc Sạch Bụi Mịn, Mùi, Khói, Lông Thú Cưng, Bảo Hành 24 Tháng (TChat=1, SL=1, đơn giá=2573148, thành tiền=2573148)\nMáy Lọc Không Khí Diệt Khuẩn UVGREEN KA350 40m2 - Công Nghệ UVC LED, Lõi Lọc HEPA H13 Lọc Sạch Bụi Mịn, Mùi, Khói, Lông Thú Cưng, Bảo Hành 24 Tháng (TChat=1, SL=1, đơn giá=1605069, thành tiền=1605069)\nMàng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA350 FT - Bộ Lọc 3 Lớp, Lọc Sạch 99,97% Bụi Mịn (TChat=1, SL=1, đơn giá=267294, thành tiền=267294)\nMáy Lọc Không Khí Diệt Khuẩn UVGREEN KA350 40m2 - Công Nghệ UVC LED, Lõi Lọc HEPA H13 Lọc Sạch Bụi Mịn, Mùi, Khói, Lông Thú Cưng, Bảo Hành 24 Tháng (TChat=1, SL=1, đơn giá=1447094, thành tiền=1447094)\nMáy Lọc Không Khí Diệt Khuẩn UVGREEN KA600 60m2 - Công Nghệ UVC LED, Ion Âm, HEPA H13 Lọc Sạch Bụi Mịn, Mùi, Khói, Lông Thú Cưng, Bảo Hành 24 Tháng (TChat=1, SL=1, đơn giá=2435193, thành tiền=2435193)\nMáy Lọc Không Khí Diệt Khuẩn UVGREEN KA350 40m2 - Công Nghệ UVC LED, Lõi Lọc HEPA H13 Lọc Sạch Bụi Mịn, Mùi, Khói, Lông Thú Cưng, Bảo Hành 24 Tháng (TChat=1, SL=1, đơn giá=1457500, thành tiền=1457500)\nMáy Lọc Không Khí Diệt Khuẩn UVGREEN KA350 40m2 - Công Nghệ UVC LED, Lõi Lọc HEPA H13 Lọc Sạch Bụi Mịn, Mùi, Khói, Lông Thú Cưng, Bảo Hành 24 Tháng (TChat=1, SL=1, đơn giá=1548832, thành tiền=1548832)\nThuế suất tổng hợp: 8%\n",
+      "new": "Máy Lọc Không Khí Diệt Khuẩn UVGREEN KA600 60m2 - Công Nghệ UVC LED, Ion Âm, HEPA H13 Lọc Sạch Bụi Mịn, Mùi, Khói, Lông Thú Cưng, Bảo Hành 24 Tháng (TChat=1, SL=1, đơn giá=2573148, thành tiền=2573148)\nMáy Lọc Không Khí Diệt Khuẩn UVGREEN KA350 40m2 - Công Nghệ UVC LED, Lõi Lọc HEPA H13 Lọc Sạch Bụi Mịn, Mùi, Khói, Lông Thú Cưng, Bảo Hành 24 Tháng (TChat=1, SL=1, đơn giá=1605069, thành tiền=1605069)\nMàng Lọc (Lõi Lọc) HEPA H13 Diệt Khuẩn Cho Máy Lọc Không Khí UVGREEN KA350 FT - Bộ Lọc 3 Lớp, Lọc Sạch 99,97% Bụi Mịn (TChat=1, SL=1, đơn giá=267294, thành tiền=267294)\nMáy Lọc Không Khí Diệt Khuẩn UVGREEN KA350 40m2 - Công Nghệ UVC LED, Lõi Lọc HEPA H13 Lọc Sạch Bụi Mịn, Mùi, Khói, Lông Thú Cưng, Bảo Hành 24 Tháng (TChat=1, SL=1, đơn giá=1447094, thành tiền=1447094)\nMáy Lọc Không Khí Diệt Khuẩn UVGREEN KA600 60m2 - Công Nghệ UVC LED, Ion Âm, HEPA H13 Lọc Sạch Bụi Mịn, Mùi, Khói, Lông Thú Cưng, Bảo Hành 24 Tháng (TChat=1, SL=1, đơn giá=2435193, thành tiền=2435193)\nMáy Lọc Không Khí Diệt Khuẩn UVGREEN KA350 40m2 - Công Nghệ UVC LED, Lõi Lọc HEPA H13 Lọc Sạch Bụi Mịn, Mùi, Khói, Lông Thú Cưng, Bảo Hành 24 Tháng (TChat=1, SL=1, đơn giá=1457500, thành tiền=1457500)\nMáy Lọc Không Khí Diệt Khuẩn UVGREEN KA350 40m2 - Công Nghệ UVC LED, Lõi Lọc HEPA H13 Lọc Sạch Bụi Mịn, Mùi, Khói, Lông Thú Cưng, Bảo Hành 24 Tháng (TChat=1, SL=1, đơn giá=1548832, thành tiền=1548832)\nThuế suất tổng hợp: 8%"
+    }
+  ],
+  "applied_to_import": false
+}

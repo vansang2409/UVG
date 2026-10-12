@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "output": "D:\\UVG\\outputs\\kt-review-20261011-01a12992\\UVG_PHUONG_AN_DA_CHOT_20261011.xlsx",
+  "sheets": 10,
+  "case_statuses": {
+    "Đã chốt xử lý": 26,
+    "Giữ nguyên": 3
+  },
+  "total_cases": 36,
+  "action_cases": 27,
+  "kept_cases": 9,
+  "proposed_invoices": 48,
+  "protected_chains": 244,
+  "protected_related_invoices": 338,
+  "source_invoices_preserved": 67,
+  "source_invoices_kept": 19,
+  "reversals_checked": 21,
+  "source_values_and_replies_preserved": true,
+  "all_six_points_confirmed": true,
+  "all_source_and_import_workbooks_unchanged": true,
+  "formula_errors": 0,
+  "output_sha256": "40a601cbed6a1752ca1082094a9451bddfb9219765abf28401c6c40e70e0b1e9"
+}

@@ -1,3 +1,163 @@
+# Đã áp dụng phương án đã chốt vào cả 3 workbook chính — 12/10/2026
+
+Người dùng đã cho phép thực hiện: **“ok làm đi”** sau khi được thông báo bước tiếp theo là cập nhật bộ import, sau đó yêu cầu kiểm tra kỹ lại rồi commit/push. Đã hoàn tất cập nhật cả 3 file tại `outputs/`, có bản sao nguyên trạng trước thay đổi tại `scripts/data/apply-confirmed-20261012/before/`. Mục này thay thế trạng thái “chưa cập nhật workbook import” của các mục lịch sử bên dưới. Chưa nhập phần mềm, ký hoặc phát hành.
+
+- `HOA_DON_CHUA_DIEU_CHINH_F0_2024_T6_2025.xlsx`: bổ sung 6 hóa đơn / 25 dòng (STT8405–8410), thành **8.410 hóa đơn / 13.568 dòng**. Đã cập nhật ghi chú 6 hồ sơ ở bảng chính và sheet `Kiem tra SL 0`; dữ liệu 27 dòng lịch sử của sheet kiểm tra vẫn giữ nguyên. Bản import dùng chi tiết xuất lại: dòng diễn giải giữ SL/giá/tiền trống, bỏ đúng 2 dòng không có giá trị của2796/2797.
+- `HOA_DON_DA_DIEU_CHINH_F0_2024_T6_2025.xlsx`: bổ sung **42 hóa đơn / 522 dòng** (STT1991–2032), thành **2.032 hóa đơn / 1.007 chuỗi / 41.790 dòng**. Đã cập nhật F4–F7 và công thức dự kiến của 21 chuỗi xử lý; xóa phương án phát sinh của 9 hồ sơ giữ nguyên. `Cho KT xac nhan`: cả19 đã chốt,13 chuỗi có import và6 giữ cả cặp. `42 - Can check 11`:8 chuỗi làm lại và3 giữ nguyên. Giữ nguyên toàn bộ1.990hóađơn đã chuẩn bị trước.
+- `NGOAI_LE_F0_2024_T6_2025.xlsx`: thêm6cặp/12hóađơn vào cuối `Ngoai le` và `Chi tiet nguon`, thành **244 chuỗi /338 hóa đơn liên quan**. Bảng `Dieu chinh` vẫn lưu6chuỗi này như nguồn lịch sử, nhưng đã xóa F4–F7 và không có trong import. Không được cộng đôi các chuỗi khi kiểm phạm vi.
+
+Tổng cộng thêm **48 hóa đơn /547 dòng trên27gốc**:21đảo điều chỉnh cũ và27giảm gốc. Phần mới dùng ngày dự thảo **12/10/2026**; giữ ngày08/10 và09/10 của dữ liệu đã chuẩn bị trước. Tên khách hàng bằng người mua; hình thức thanh toán lấy đúng cộtJ của bảng chi tiết xuất mới (`TM/CK`), email trống vì nguồn không có. Không dùng cộtI(CCCD) hoặc cộtN của bảng tổng làm hình thức thanh toán.
+
+Đã thực hiện đúng6điểm và xác nhận dấu của5cặp giá âm. Gốc555 dòng6 chỉ đảo thành tiền−46.296, không thêm SL/giá. Gốc6/16 giảm số lượng, không thêm đơn giá/thành tiền dòng; tổng dự thảo0 nhưng ô thanh toán nguồn trống vẫn trống. Đảo655/657 theoXML. Giữ9186, chỉ giảm9072. Cả3giá trị tiền của8khoản lệch được đảo đúng số đã phát hành, không tự cân lại; các tổng đảo được tô vàng ở import.
+
+Kiểm độc lập toàn bộ3bản đã xuất bằng công cụ đọc khác: giữ mọi giá trị/công thức ngoài phạm vi được phép, số/ngày tham chiếu, đủ8chữsố, bộ lọc bảng, tên/order sheet và frozen panes;21phép đảo đạt;48hóađơn mới không trùng; không có hóa đơn thuộc diện giữ nguyên trong import;0lỗi công thức. Rà toàn bộ **9.695gốc =9.417gốc đã chuẩn bị import +247gốc giữ nguyên(244ngoại lệ+3cùng sản phẩm) +31gốc đã khớp**, không còn gốc chưa phân nhóm. Đã xem trước/sau các vùng thay đổi. Nguồn xuất/XML/phản hồi kế toán không thay đổi.
+
+Các file chính được thay từ bản staged đã đạt kiểm tra; SHA-256 sau thay giống hoàn toàn bản đã kiểm. Báo cáo: `scripts/data/apply-confirmed-20261012/final-verification.json`; kế hoạch, nguồn dòng và script kiểm cùng thư mục. Dùng báo cáo này cho trạng thái hiện tại; các audit/build cũ có số cố định1.990 hoặc8.404 là lịch sử trước bổ sung, không dùng để ghi đè bản mới.
+
+Kiểm lại trên máy khác bằng `python scripts/data/apply-confirmed-20261012/verify.py --final`. Script tự tìm thư mục repo, kiểm hash nguồn/phương án/bản trước cập nhật, đọc cả 3 workbook hiện tại và ghi lại báo cáo JSON; không ghi Excel. Các bản `before/` được bàn giao cùng Git để kiểm độc lập. Ảnh xem trước, cờ chờ duyệt và bản xuất `staged/` chỉ giữ cục bộ.
+
+SHA-256 hiện tại:
+
+- Chưa điều chỉnh: `296c47cb3868a5ca4a308dc211dafc67782528b643910e1bd263acded6a34e4c`.
+- Đã điều chỉnh: `9d041000c31027161714b66059cb9420a7fa02b3ed6d6c8b13a32ddb92cd2377`.
+- Ngoại lệ: `e71cd26bd35e833b1caa587612ad3ccb1b3e6d8c1e699018539d809acc84eaa8`.
+
+Việc còn lại thuộc bước nhập nháp trên phần mềm: **kiểm tra khả năng nhập8khoản đảo lệch tổng tiền**. Mẫu24cột không có trường tính chất dòng, nên kiểm tra/chọn tính chất diễn giải cho dòng chú thích nếu meInvoice không tự nhận. Kiểm tra ngày dự thảo, tham chiếu và nội dung trên bản nháp rồi mới ký/phát hành. Không yêu cầu kế toán chốt lại6điểm đã trả lời; chưa thử import thực tế trên meInvoice.
+
+---
+# Đã chốt toàn bộ 6 điểm và hoàn tất file phương án — cập nhật 12/10/2026
+
+Mục này thay thế các trạng thái chờ làm rõ ở các mục lịch sử bên dưới. Người dùng đã xác nhận đủ 6 điểm và xác nhận thêm dấu của 5 cặp giá âm: **“Đúng, áp dụng cách hiểu này”**. Không hỏi lại các lựa chọn đã chốt.
+
+Nguồn phản hồi mới nhất có SHA-256 `c55b6ba35463c8431a590f840ad95bddbf0f1b247e066e940b8ddb1f59f677e8`, được lưu nguyên bản tại `data/Bo sung/Ke toan/2026-10-11/c55b6ba35463/UVG_CAC_VAN_DE_CAN_KE_TOAN_XAC_NHAN_20261011.xlsx` kèm `PROVENANCE.json`.
+
+Quyết định đã chốt:
+
+- LT01–LT08: đảo đúng số đã phát hành trên XML, từng chỉ tiêu tiền hàng/thuế/thanh toán. Giữ độ lệch số học ngược dấu của nguồn; không tự cân lại một chỉ tiêu.
+- Các cặp 1094/13038, 3113/13032, 4081/13033, 5555/13034, 5918/13035: giảm gốc với số lượng −1, giá dương; đảo điều chỉnh cũ với số lượng −1, giữ giá âm để thành tiền dương. Thuế/thanh toán đảo theo số đã phát hành. Dùng cặp số trong các ô định danh và XML; các đoạn mô tả phản hồi chép lặp gốc 3113 được giữ nguyên ở cột gốc, có quyết định cuối đúng ở cột mới.
+- Gốc 555: chỉ đảo số tiền ở thành tiền, không tự thêm số lượng/đơn giá vốn không có trong nguồn.
+- Gốc 2797: đúng sản phẩm Vợt bắt muỗi tự động 2 trong 1 thu hút các loại côn trùng KM003.
+- Gốc 6 và 16: chỉ điều chỉnh giảm số lượng; không thêm giá hoặc chuyển ô tiền nguồn trống thành 0. Đảo hai điều chỉnh cũ 655/657 theo phương án đã bổ sung.
+- CC01–CC06: giữ nguyên cả cặp ngoài đợt xử lý, gồm cả 3/508; quyết định này thay thế phần chuẩn bị xử lý 3/508 trước đây. Các hóa đơn xuất cho công ty/hộ kinh doanh, hoặc đã điều chỉnh tên người mua thành công ty/hộ kinh doanh, phải giữ nguyên toàn bộ hóa đơn trong chuỗi liên quan.
+
+File hoàn chỉnh: `outputs/kt-review-20261011-01a12992/UVG_PHUONG_AN_DA_CHOT_20261011.xlsx`. Có 10 sheet, giữ nguyên phản hồi gốc và 67 hóa đơn nguồn cùng số/ngày/giá trị trống. Tổng 36 hồ sơ = 27 hồ sơ xử lý + 9 hồ sơ giữ nguyên; 48 hóa đơn dự kiến phát sinh = 21 đảo điều chỉnh cũ + 27 giảm gốc. Tất cả 6 điểm đã được ghi vào cột quyết định cuối. Đây là file phương án chuẩn bị, chưa phải chứng từ đã nhập/phát hành.
+
+Đã rà quy tắc giữ nguyên trên dữ liệu hiện có gồm 48.874 hóa đơn, 3.780 liên kết và XML; truyền điều kiện loại trừ qua toàn chuỗi, gồm cả nội dung đổi tên người mua. Giữ 238 ngoại lệ trước và thêm 6 cặp được yêu cầu, thành 244 chuỗi/338 hóa đơn liên quan. Không có hóa đơn nào trong 10.394 hóa đơn dự kiến đang có bị ảnh hưởng bởi phần loại trừ mới. Ba hồ sơ cùng sản phẩm HH02/HH03/HH05 cũng được giữ nguyên riêng trong file rà soát.
+
+Đã kiểm độc lập toàn bộ số liệu, 21 phép đảo, công thức tổng hợp, 10 bảng lọc, ngày và số hóa đơn; đã xem trước cả 10 sheet. Kết quả đạt, không có lỗi công thức. SHA-256 đầu ra: `40a601cbed6a1752ca1082094a9451bddfb9219765abf28401c6c40e70e0b1e9`. Báo cáo dưới `scripts/data/check-review/kt-workbook-20261011/`: `accountant-decisions.json`, `confirmed-decisions-audit.json`, `confirmed-plan-data.json`, `confirmed-output-verification.json`.
+
+Ba workbook import chính và dữ liệu nguồn không thay đổi. Chưa cập nhật vật lý sheet chờ cũ bằng file phương án mới; không được nhầm việc đã chốt với việc đã nhập chứng từ. Chưa import, ký, phát hành, commit hoặc push.
+
+---
+# Đã chốt điểm 1: đảo số đã phát hành — 11/10/2026
+
+Người dùng xác nhận trực tiếp: **“1. đảo số đã phát hành”**. Áp dụng cho 8 hồ sơ LT01–LT08: dùng đúng tiền hàng, thuế, thanh toán trên XML hóa đơn điều chỉnh đã phát hành, đảo dấu từng chỉ tiêu; không dùng bộ số kế toán vừa tính lại làm số gốc để đảo. Điểm 1/R01 đã được chốt, không hỏi lại lựa chọn này. Các điểm 2–6 trong câu trả lời chat vẫn chờ làm rõ.
+
+Đã chuẩn bị riêng bộ số đảo ở `scripts/data/check-review/kt-workbook-20261011/confirmed-issued-reversals.json` và lưu quyết định tại `accountant-decisions.json`. Đọc lại trực tiếp 8 XML, kiểm số/ngày/thành tiền khớp nguồn; từng hóa đơn cũ + bộ số đảo cộng về (0,0,0). Ví dụ 1C25TUV/00000649 ngày05/05/2025: bộ đã phát hành (-381481,-30518,+411999), bộ đảo (+381481,+30518,-411999). Kiểm này chỉ áp dụng từng điều chỉnh cũ với phần đảo của chính nó, chưa có nghĩa toàn chuỗi gốc đã xử lý.
+
+Do 8 XML nguồn có lệch hàng+thuế−thanh toán, bộ đảo giữ nguyên độ lớn và mang độ lệch ngược dấu. Không tự sửa một chỉ tiêu để làm bộ đảo cân bằng, không coi phép cộng về0 là chứng minh bản nhập/phát hành mới đã hợp lệ. Đây là bước chuẩn bị số theo quyết định đã chốt. Chưa sửa nguồn/ba workbook chính, chưa nhập, ký hoặc phát hành.
+
+---
+# Đã nhận file phản hồi kế toán — 11/10/2026
+
+Người dùng gửi lại file tổng hợp từ `C:/Users/thuong ngo/OneDrive/Desktop/JOB UVG/JOB HOA DON/UVG_CAC_VAN_DE_CAN_KE_TOAN_XAC_NHAN_20261011.xlsx`, SHA-256 `275e9881d8f58eefc05e74ac1d6bf8ed2610b118c64abbeaf86a1c9b87af9f1d`. Đã lưu nguyên bản vào `data/Bo sung/Ke toan/2026-10-11/275e9881d8f5/` kèm provenance. **Cả 29 hồ sơ đang chờ đã có nguyên nhân, hướng xử lý và nội dung đúng; cả 7 hồ sơ tham khảo cũng có phản hồi mới.** Không được tiếp tục nói chưa có phản hồi kế toán hoặc yêu cầu trả lời lại toàn bộ. 21 dòng vẫn hiện “Cần bổ sung” vì riêng cột căn cứ còn trống; 8 dòng lệch tiền ghi căn cứ “Không có, tính lại cho đúng logic số liệu”. Đây là trạng thái đủ trường nhập, không phải kết luận nghiệp vụ.
+
+Đã đọc/đối chiếu toàn bộ giá trị và công thức với bản gửi ban đầu: mã hồ sơ, ngày, nguồn tiền, công thức và liên kết giữ nguyên; ngoài các ô phản hồi và cột H mới ở `Da co can cu`, chỉ khác khoảng trắng cuối ở 8 ô ghi chú. Tám bộ số tiền kế toán tính lại đều cân bằng hàng + thuế = thanh toán. Chưa áp dụng phản hồi vào nguồn hoặc import. Hash ba workbook chính không đổi. Kết quả đầy đủ: `scripts/data/check-review/kt-workbook-20261011/accountant-reply-review.json`; script đọc: `inspect_accountant_reply.py`.
+
+Các điểm cần làm rõ trước khi chuẩn bị dữ liệu xử lý theo phản hồi:
+
+- LT01–LT08: “Xuất trái dấu ở tất cả các chỉ tiêu” chưa phân biệt đảo số đã phát hành hay số vừa tính lại. Đảo bộ số mới vẫn để dư so với XML cũ ở cả 8 trường hợp. Ví dụ 649 ngày 05/05/2025: số đã phát hành (-381481, -30518, +411999), bộ đúng KT ghi (-381481, -30518, -411999); đảo bộ đúng để dư thanh toán +823998. Cần rõ mục tiêu, hóa đơn tham chiếu và trình tự sửa/đảo, không tự chọn cách.
+- DC03–DC06: cột I chép lại 13038 sai ở cả 4 dòng; 3 dòng cuối còn chép gốc3113. Cặp đúng trong chính file: 3113/13032, 4081/13033, 5555/13034, 5918/13035. DC02–DC06 còn cần tách dấu của phần đảo điều chỉnh cũ (đang âm tiền) khỏi phần giảm gốc: số lượng -1 × giá dương tạo tiền âm lần nữa, không hoàn lại tiền âm cũ.
+- SL01: gốc1C24TUV/555 ngày31/10/2024 được yêu cầu giữ dòng diễn giải, âm số lượng, nhưng chỉ cho tiền hàng -46296. Chưa chốt số lượng hoặc cách xử lý tính chất dòng diễn giải; không tự suy ra -1.
+- SL08: gốc1C25TUV/2797 ngày01/06/2025 có dòng KM003 trong nguồn, phản hồi ghi KM002. Cần xác nhận ý là bỏ đúng dòng2 KM003 của2797.
+- TT01/TT02: gốc6 ngày07/01/2025 và16 ngày14/01/2025 đã cho hướng âm số lượng, nhưng chưa xác định giá trị thanh toán gốc trống hoặc cách xử lý điều chỉnh tăng655/657 liên quan. Không tự mở rộng quy ước0 của574.
+- CC01–CC06: KT ghi giữ nguyên, không điều chỉnh; cần phân biệt giữ cả cặp ngoài đợt xử lý với giữ điều chỉnh cũ nhưng vẫn xử lý gốc. Riêng3/508 có khác so với quyết định chuẩn bị trước, chưa tự ghi đè quyết định cũ.
+
+Các nội dung đã rõ được ghi nhận theo file: HH02/HH03/HH05 xác nhận cùng sản phẩm, không xử lý lại; HH01/HH04 đề nghị giảm đúng hàng gốc và tăng lại hàng trên điều chỉnh sai; SL03–SL06 giữ các dòng chú thích hàng tặng; SL02/SL07 đề nghị bỏ dòng0 xác định; DC01 đề nghị giảm gốc1061 và hoàn lại khoản trên12835; CC07 xử lý số lượng gốc9072, giữ9186. Đây là phản hồi phục vụ bước chuẩn bị tiếp, chưa phải chứng từ mới đã lập hoặc phát hành. Người dùng lượt này chỉ gửi file, không có yêu cầu sửa workbook/import hay phát hành.
+
+---
+# File mới giao kế toán xác định nguyên nhân và hướng xử lý — 11/10/2026
+
+Theo yêu cầu người dùng, đã tạo riêng `outputs/kt-review-20261011-01a12992/UVG_CAC_VAN_DE_CAN_KE_TOAN_XAC_NHAN_20261011.xlsx`, không sửa ba workbook chính. File có 8 sheet: tổng hợp; 5 nhóm vấn đề cần phản hồi; hồ sơ đã có căn cứ; danh sách hóa đơn liên quan. Có **29 hồ sơ cần phản hồi, liên quan 53 hóa đơn**: 8 lệch tiền, 8 số lượng 0/trống, 2 thanh toán gốc trống, 5 khác hàng/mô tả, 6 cách ghi điều chỉnh. Nhóm số lượng bao gồm 6 hóa đơn chưa điều chỉnh được tìm thêm từ sheet `Kiem tra SL 0` và đối chiếu lại bảng xuất mới; không chỉ tổng hợp 23 hồ sơ đã nói trong chat.
+
+Giữ riêng 7 hồ sơ đã có căn cứ/quyết định để không yêu cầu chốt lại, nhất là 3/508. Bảng nguồn gồm 67 hóa đơn phân biệt, có đủ ký hiệu, số, ngày, tổng tiền bảng kê/XML, nguồn file/dòng và ghi chú. Ô nguồn trống được giữ trống, tách khỏi XML=0. Các sheet cần phản hồi có câu hỏi cụ thể và ô vàng cho nguyên nhân, hướng xử lý, nội dung/số liệu đúng, căn cứ, người/ngày phản hồi. Trạng thái và tổng hợp tự tính; “Đủ trường phản hồi” không có nghĩa đã xử lý, nhập hoặc phát hành.
+
+Đã kiểm tra bản XLSX xuất bằng công cụ đọc độc lập: 29+7 hồ sơ, 67 số hóa đơn dạng chuỗi đủ 8 chữ số, ngày, tiền và 4 khác biệt trống/0; bộ lọc bảng, cố định dòng/cột; các ô phản hồi ban đầu trống; không có lỗi công thức. Thử quy trình nhập phản hồi rồi khôi phục trống trước khi xuất. Hash cả ba workbook chính không đổi. Script tạo/kiểm và kết quả nằm ở `scripts/data/check-review/kt-workbook-20261011/`. Chưa có phản hồi mới của kế toán, chưa import/ký/phát hành, chưa commit/push.
+
+---
+# Đã nhận đủ XML điều chỉnh của 19 chuỗi chờ — 11/10/2026
+
+Người dùng gửi tiếp `Hoa_don_dien_tu_11.10.2026_01.40.zip`, SHA-256 `abdf5a414af68fe942217b59580c869d7a451870280fb591544a4a6a71505682`, dung lượng 47.967.465 byte. ZIP có 213 XML + 213 PDF, đọc thành công toàn bộ và kiểm CRC ZIP đạt. Có đủ 16 số đã yêu cầu, cộng 3 điều chỉnh từ lô 13.25. Tính cả 508 đã có trước, hiện đủ **20/20 XML điều chỉnh thuộc 19 chuỗi chờ**. Không yêu cầu tải lại 16 hóa đơn hoặc toàn bộ 89 trang nữa. Đây là đủ XML điều chỉnh của nhóm này; không đồng nghĩa đủ XML gốc của toàn bộ dự án.
+
+Đã giữ nguyên ZIP gốc và toàn bộ XML dưới `data/Bo sung/meInvoice/2026-10-11-pending-XML/`, cập nhật `PROVENANCE.json`. Các XML trùng với lô trước có cùng byte. Báo cáo nhận lô: `scripts/data/check-review/pending-xml-abdf5a414af6.json`. Trong 19 điều chỉnh có trong lô này, 15 khớp chính xác tổng tiền bảng xuất; 4 khác riêng thanh toán XML=0 / Excel trống. Ngày và tham chiếu cả 19 đều khớp. Không có sai khác số tiền khác ngoài trống/0.
+
+Tám chênh tiền hàng + thuế − thanh toán đã được xác nhận **trong nội dung XML nhận được**, cùng giá trị với bảng xuất. Không phải chỉ do cách xuất Excel; chưa xác minh mật mã chữ ký hoặc trạng thái CQT. Cùng ký hiệu 1C25TUV, đơn vị đồng:
+
+| Hóa đơn điều chỉnh | Chênh số học |
+|---|---:|
+| 00000649 | −823.998 |
+| 00000561 | +136.000 |
+| 00001819 | +2.000 |
+| 00001167 | +1.000 |
+| 00002145 | +900 |
+| 00002619 | +1 |
+| 00000626 | +1 |
+| 00001821 | −1 |
+
+Đã làm rõ các trường hợp sau bằng XML, không tự sửa ô nguồn hoặc workbook:
+
+- 00004203 → gốc 1C25TUV/00002377; 00004204 → gốc 1C25TUV/00002378; 00006108 → gốc 1C25TUV/00001348: điều chỉnh thông tin người mua, không có danh sách dòng hàng, ba tổng tiền đều 0. Nội dung người mua được ghi trong `TTHDLQuan/GChu`; cần giữ nội dung này khi chuẩn bị xử lý tiếp, không coi thiếu dòng hàng là lỗi đọc XML.
+- 00009186 → gốc 1C25TUV/00009072: điều chỉnh tên hàng, hai dòng TChat=4, ba tổng tiền đều 0; phần tổng hợp thuế ghi 8% với tiền hàng/thuế 0. Bốn hóa đơn trên có XML thanh toán=0 trong khi Excel trống; nguồn vẫn giữ riêng hai giá trị, chưa đưa vào import.
+- 00002140 → gốc 1C24TUV/00000498: không có danh sách dòng hàng; phần `TToan/THTTLTSuat/LTSuat` ghi rõ 8%, tiền hàng 17.830.586, thuế 1.426.447, thanh toán 19.257.033. Đã có căn cứ XML cho thuế suất, không yêu cầu kế toán tìm lại thuế suất chỉ vì dòng chi tiết Excel không có.
+
+Việc cần thông tin mới trong nhóm 19: kế toán chốt cách xử lý 8 hóa đơn lệch tiền; đối chiếu chi tiết gốc số lượng 0/trống của 1C24TUV/00000555 và 1C25TUV/00000113; làm rõ ô thanh toán gốc trống ở 1C25TUV/00000006, 1C25TUV/00000016. Tổng cộng 12 chuỗi. Gốc 1C24TUV/00000574 đã có quy ước riêng thanh toán gốc=0, không hỏi lại hoặc mở rộng quy ước.
+
+Đính chính về 3/508 khi rà lại bàn giao: phần ngày 09/10 ghi người dùng đã chốt phương án như mẫu gốc00000003/điều chỉnh00000508 và đã áp dụng cho195chuỗi cùng dạng; phần bàn giao10/10 cũng ghi rõ phương án3/508 đã chốt. Không yêu cầu người dùng/KT chốt lại phương án này. Chuỗi3/508 vẫn nằm trong sheet chờ và chưa được thêm import; cần tiếp tục chuẩn bị dữ liệu theo quyết định đã có, tách việc chưa thực hiện khỏi việc chưa được chốt.
+
+Bảy chuỗi còn lại của nhóm19 có căn cứ hoặc quyết định để chuẩn bị tiếp: 3/508; gốc574 theo quy ước riêng; gốc498/điều chỉnh2140 có thuế suất XML8%; bốn gốc1348,2377,2378,9072 với điều chỉnh thông tin tiền0 tương ứng6108,4203,4204,9186. Chưa đổi workbook hoặc tự suy ra đã được nhập/phát hành. Nhóm11chuỗi cầnchốt (2khác loại hàng,3khác mô tả,5đơn giá âm,1khoản tổng) vẫn chưa có phản hồi nghiệp vụ mới. Sheet chờ hiện vẫn19dòng; 12/7 là phân loại công việc sau khi nhậnXML, không phải số dòng import đã cập nhật.
+
+Rà lại `audit_pending_review.py` sau bổ sung: đủ 20/20 XML điều chỉnh nhóm chờ và 11/11 nhóm cần chốt; bốn khác biệt XML=0 / Excel trống được liệt kê riêng, không ghi là khớp chính xác. Không có sai khác số tiền khác, sai ngày, sai tham chiếu hoặc xung đột nguồn mới; cả 30 gốc vẫn ngoài import. `passed=true` chỉ xác nhận kiểm tra dữ liệu đạt theo phạm vi này, không giải quyết thay các vấn đề nghiệp vụ. Hash cả ba workbook chính không đổi. Chưa import/ký/phát hành; các bổ sung cục bộ chưa commit/push. Các mục phía dưới là lịch sử theo thời điểm kiểm tra.
+
+---
+# Nhận lô XML tải lại 13.25 — 11/10/2026
+
+Người dùng gửi `Hoa_don_dien_tu_11.10.2026_13.25.zip`, SHA-256 `3a74a6eb65a1cce744516bfc25eb9e0cc1e9f3cdcb682f9b339735b17ef0f974`, dung lượng18.070.627byte. ZIP có100XML +100PDF, ký hiệu1C25TUV, số00000543–00000642, ngày04–05/05/2025. Đã đọc toàn bộ100XML, không lỗi/trùng. Đây là lô100hóa đơn, chưa phủ toàn bộ khoảng thời gian người dùng đang tải lại.
+
+Lô này có3/19 điều chỉnh cần tìm thêm trên máy hiện tại: 00000561→gốc00000056, 00000626→gốc00000102, 00000635→gốc00000113. Ngày, tổng tiền và tham chiếu cả3 khớp bảng xuất hiện tại. XML561 xác nhận chênh tiền hàng +thuế −thanh toán=+136.000đồng; XML626 xác nhận chênh+1đồng. Tổng XML635 khớp số học. Cả3 có dòngTChat1, số lượng/đơn giá/thành tiền dòng=0 trong khi tổng tiền hàng khác0; đã lưu chi tiết để tiếp tục kiểm tra nội dung, chưa tự sửa import.
+
+Đã giữ nguyên toàn bộZIP gốc (có cảPDF) và trích nguyên byte cả100XML dưới `data/Bo sung/meInvoice/2026-10-11-pending-XML/`, kèm `PROVENANCE.json`. Thêm ngoại lệ `.gitignore` choZIP đúng thư mục này để không bỏ sót khi chuyển máy; chưa commit/push. Bằng chứng `scripts/data/check-review/pending-xml-3a74a6eb65a1.json`; script nhận lô mới `scripts/audit_pending_xml_archive.py <đường_dẫn_ZIP>`. Hash nguồn tải và các workbook không đổi. Chưa kiểm mật mã chữ ký/CQT trực tiếp.
+
+Tính cả508 đã có từ trước, nhóm20điều chỉnh của19chuỗi chờ hiện cóXML4/20. Còn16điều chỉnh chưa cóXML trongrepo, cùng ký hiệu1C25TUV: 00000649,00000655,00000657,00001167,00001819,00001821,00002140,00002145,00002189,00002619,00002632,00002646,00004203,00004204,00006108,00009186. Tiếp tục nhận các trang/lô tải còn lại hoặc tải đúng16số này. Nhận định này chỉ nói độ phủ bản hiện tại, không khẳng định người dùng chưa cung cấp chúng trong haiZIP lịch sử1.436XML.
+
+---
+# Tiếp tục trên máy ở nhà — 11/10/2026
+
+Theo yêu cầu người dùng, đã reset thay đổi cục bộ về bản vừa pull `af3386a`, khôi phục 16 file nguồn đang bị xóa trên máy này. Sau reset repo sạch; các thay đổi trong lượt rà dưới đây là kết quả mới. Người dùng xác nhận chưa có phản hồi kế toán mới, tiếp tục rà dữ liệu hiện tại.
+
+Đã chạy trên máy này cả bốn kiểm tra chỉ đọc hiện hành: `verify_handoff.py`, `audit_supplement_57.py`, `audit_current_import_plan.py`, `audit_current_sources.py`; đều đạt. 18 nguồn nền khớp manifest, 10.394 hóa đơn dự kiến / 54.811 dòng import giữ đúng bản bàn giao, 986 chuỗi đã điều chỉnh cộng dồn về 0. Không sửa workbook hoặc nguồn. Kết quả audit57 được cập nhật danh mục hash có thêm XML733 và provenance hiện tại; kết quả nội dung vẫn 31 khớp chính xác, 26 chỉ khác trống/0.
+
+Rà bổ sung bằng `scripts/audit_pending_review.py`: đối chiếu trực tiếp 61 hóa đơn thuộc 19 chuỗi chờ và 11 chuỗi cần chốt với bảng tổng, chi tiết, liên kết xuất mới và XML đang có trong repo. Kiểm lại ngày, số tiền, dòng gốc, số lượng 0/trống, số cộng dồn, tham chiếu, chi tiết/thuế suất XML và việc giữ ngoài import. Kết quả `scripts/data/check-review/pending-current-audit-20261011.json`: passed=true, không có sai khác mới, cả 30 F0 vẫn ngoài import; hash workbook và toàn bộ nguồn đã đọc không đổi. PASS ở đây là khớp dữ liệu hiện tại, không có nghĩa các vấn đề đang chờ đã được giải quyết.
+
+Nhóm 19 chuỗi gồm 39 hóa đơn: 19 F0 + 20 điều chỉnh cũ. Trong phần XML đã trích và lưu vào repo, hiện chỉ tìm thấy gốc00000003 và điều chỉnh00000508 thuộc nhóm này; 19 điều chỉnh khác chưa có file XML rời trong repo (danh sách tại `pending_adjustment_xml_not_in_repo` của JSON). Đây là kết quả về độ phủ của bản chuyển máy, chưa xác định người dùng đã cung cấp hay chưa. Người dùng đã gửi hai ZIP tổng1.436XML ngày09/10; script `audit_downloaded_xml.py` chỉ lưu riêng237XML mục tiêu vào repo, không lưu toàn bộ1.436XML. Hai ZIP gốc không có trên máy hiện tại. Phải đối chiếu lại chúng trước khi yêu cầu người dùng xuất/gửi thêm. Câu trả lời trước trong chat gọi19XML là “còn thiếu” đã quá phạm vi bằng chứng và được đính chính tại đây.
+
+Theo bảng tổng/chi tiết đã xuất, vẫn có 8 hóa đơn lệch tiền hàng + thuế so với thanh toán, 7 hóa đơn có ô tiền bảng tổng trống và 2 F0 có dòng số lượng 0/trống; các nhóm có thể giao nhau. Bảy ô tiền trống gồm gốc574 đã có quy ước riêng thanh toán=0 trong phép cộng dồn; vẫn giữ ô nguồn trống, không mở rộng quy ước. Chưa dùng các vấn đề của bảng xuất này để kết luận XML đã ký cũng lệch.
+
+Ưu tiên tìm và đối chiếu XML của 8 hóa đơn lệch số học trong hai ZIP đã nhận trước khi đề nghị bổ sung. Chênh dưới đây là tiền hàng + thuế − thanh toán trong bảng tổng mới, đơn vị đồng; repo chưa có XML rời của các hóa đơn này để kết luận dữ liệu đã ký.
+
+| Hóa đơn điều chỉnh (cùng ký hiệu 1C25TUV) | Chênh số học |
+|---|---:|
+| 00000649 | −823.998 |
+| 00000561 | +136.000 |
+| 00001819 | +2.000 |
+| 00001167 | +1.000 |
+| 00002145 | +900 |
+| 00002619 | +1 |
+| 00000626 | +1 |
+| 00001821 | −1 |
+
+Nhóm 11 chuỗi cần chốt: đủ 11 XML điều chỉnh, các trường đã rà khớp sheet và nguồn hiện tại, cộng dồn cả 11 về 0. Phân nhóm giữ nguyên: 2 khác loại hàng, 3 khác mô tả, 5 giảm bằng đơn giá âm, 1 điều chỉnh khoản tổng. Chưa có phản hồi nghiệp vụ mới nên chưa đưa các chuỗi này hoặc nhóm19 vào import. Sáu chuỗi thay thế chưa mở xử lý. Không đổi ngày dự thảo08/10 và09/10 thành ngày hiện tại. Chưa kiểm mật mã chữ ký/CQT trực tiếp, chưa import/ký/phát hành.
+
+---
 # Rà lại toàn bộ import hiện tại — 11/10/2026
 
 Bộ bàn giao 11/10 gồm workbook chính đã sửa11đơn giá, nguồn bổ sungXLS/20XML nguyên byte, provenance/hash, các script audit và kết quảJSON, cùng hướng dẫn máy khác đã cập nhật. Tất cả nguồn cần cho audit hiện tại nằm trongrepo; không phụ thuộcDownloads máy cũ. Các câu “chưa commit/push” bên dưới là trạng thái lúc thực hiện trước bước bàn giaoGit; dùng git log và remote để xác nhận bản đã nhận.

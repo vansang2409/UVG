@@ -1,0 +1,40 @@
+{
+  "passed": true,
+  "output": "D:\\UVG\\outputs\\kt-review-20261011-01a12992\\UVG_CAC_VAN_DE_CAN_KE_TOAN_XAC_NHAN_20261011.xlsx",
+  "sheets": 8,
+  "active_cases": 29,
+  "reference_cases": 7,
+  "distinct_related_invoices": 67,
+  "active_related_invoices": 53,
+  "leading_zero_invoice_numbers_preserved": 67,
+  "all_dates_checked": true,
+  "blank_zero_differences_preserved": [
+    [
+      "1C25TUV",
+      "00006108"
+    ],
+    [
+      "1C25TUV",
+      "00004203"
+    ],
+    [
+      "1C25TUV",
+      "00004204"
+    ],
+    [
+      "1C25TUV",
+      "00009186"
+    ]
+  ],
+  "response_fields_blank": true,
+  "cached_formula_errors": 0,
+  "summary_cached_values": [
+    29,
+    29,
+    0,
+    0
+  ],
+  "source_workbooks_unchanged": true,
+  "output_sha256": "8f7f546a3137911448a01250478759af5a7cf4534e62244a552f47f61f381f58",
+  "output_bytes": 39235
+}

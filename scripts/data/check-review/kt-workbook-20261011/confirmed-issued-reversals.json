@@ -1,0 +1,308 @@
+{
+  "decision_point": 1,
+  "confirmed_by": "user directly in chat on 2026-10-11",
+  "rule": "Negate the actual issued XML values separately; never substitute recalculated values.",
+  "rows": [
+    {
+      "case_id": "LT01",
+      "root": [
+        "1C25TUV",
+        "00000159"
+      ],
+      "target_issued_adjustment": [
+        "1C25TUV",
+        "00000649"
+      ],
+      "target_date": "2025-05-05",
+      "source_xml": "data\\Bo sung\\meInvoice\\2026-10-11-pending-XML\\1C25TUV_00000649.xml",
+      "source_xml_sha256": "b5965bd2ecf57a42c5f0cd2c16601e1043ed8a9aca21cc2769e6db1d0928542d",
+      "money_field_order": [
+        "goods",
+        "tax",
+        "payment"
+      ],
+      "issued_money": [
+        -381481,
+        -30518,
+        411999
+      ],
+      "confirmed_reversal_money": [
+        381481,
+        30518,
+        -411999
+      ],
+      "issued_plus_reversal": [
+        0,
+        0,
+        0
+      ],
+      "issued_header_arithmetic_difference": -823998,
+      "reversal_header_arithmetic_difference": 823998,
+      "reversal_is_arithmetically_balanced": false
+    },
+    {
+      "case_id": "LT02",
+      "root": [
+        "1C25TUV",
+        "00000056"
+      ],
+      "target_issued_adjustment": [
+        "1C25TUV",
+        "00000561"
+      ],
+      "target_date": "2025-05-04",
+      "source_xml": "data\\Bo sung\\meInvoice\\2026-10-11-pending-XML\\1C25TUV_00000561.xml",
+      "source_xml_sha256": "a6a6c505c0f693410b073ac1842f2bc6af222522aa924d12f96e0839c5b6e3dd",
+      "money_field_order": [
+        "goods",
+        "tax",
+        "payment"
+      ],
+      "issued_money": [
+        196889,
+        151751,
+        212640
+      ],
+      "confirmed_reversal_money": [
+        -196889,
+        -151751,
+        -212640
+      ],
+      "issued_plus_reversal": [
+        0,
+        0,
+        0
+      ],
+      "issued_header_arithmetic_difference": 136000,
+      "reversal_header_arithmetic_difference": -136000,
+      "reversal_is_arithmetically_balanced": false
+    },
+    {
+      "case_id": "LT03",
+      "root": [
+        "1C24TUV",
+        "00000283"
+      ],
+      "target_issued_adjustment": [
+        "1C25TUV",
+        "00001819"
+      ],
+      "target_date": "2025-05-29",
+      "source_xml": "data\\Bo sung\\meInvoice\\2026-10-11-pending-XML\\1C25TUV_00001819.xml",
+      "source_xml_sha256": "b6d25d5d85f64b434db8f7f9815e4f272f964d0498bd0b4e3aa9d93b2d3a8a50",
+      "money_field_order": [
+        "goods",
+        "tax",
+        "payment"
+      ],
+      "issued_money": [
+        7599678,
+        609974,
+        8207652
+      ],
+      "confirmed_reversal_money": [
+        -7599678,
+        -609974,
+        -8207652
+      ],
+      "issued_plus_reversal": [
+        0,
+        0,
+        0
+      ],
+      "issued_header_arithmetic_difference": 2000,
+      "reversal_header_arithmetic_difference": -2000,
+      "reversal_is_arithmetically_balanced": false
+    },
+    {
+      "case_id": "LT04",
+      "root": [
+        "1C24TUV",
+        "00000093"
+      ],
+      "target_issued_adjustment": [
+        "1C25TUV",
+        "00001167"
+      ],
+      "target_date": "2025-05-26",
+      "source_xml": "data\\Bo sung\\meInvoice\\2026-10-11-pending-XML\\1C25TUV_00001167.xml",
+      "source_xml_sha256": "3c0e07df4b027f354c3425a4b8c1e2a2278e46520bec6434389e5b4426b8ce87",
+      "money_field_order": [
+        "goods",
+        "tax",
+        "payment"
+      ],
+      "issued_money": [
+        621945,
+        49756,
+        670701
+      ],
+      "confirmed_reversal_money": [
+        -621945,
+        -49756,
+        -670701
+      ],
+      "issued_plus_reversal": [
+        0,
+        0,
+        0
+      ],
+      "issued_header_arithmetic_difference": 1000,
+      "reversal_header_arithmetic_difference": -1000,
+      "reversal_is_arithmetically_balanced": false
+    },
+    {
+      "case_id": "LT05",
+      "root": [
+        "1C24TUV",
+        "00000535"
+      ],
+      "target_issued_adjustment": [
+        "1C25TUV",
+        "00002145"
+      ],
+      "target_date": "2025-05-30",
+      "source_xml": "data\\Bo sung\\meInvoice\\2026-10-11-pending-XML\\1C25TUV_00002145.xml",
+      "source_xml_sha256": "a755ca0fa0866898a52ff40ccf19bbab8fa346cb3f468dce3026635d924604ea",
+      "money_field_order": [
+        "goods",
+        "tax",
+        "payment"
+      ],
+      "issued_money": [
+        39194352,
+        3135548,
+        42329000
+      ],
+      "confirmed_reversal_money": [
+        -39194352,
+        -3135548,
+        -42329000
+      ],
+      "issued_plus_reversal": [
+        0,
+        0,
+        0
+      ],
+      "issued_header_arithmetic_difference": 900,
+      "reversal_header_arithmetic_difference": -900,
+      "reversal_is_arithmetically_balanced": false
+    },
+    {
+      "case_id": "LT06",
+      "root": [
+        "1C24TUV",
+        "00000228"
+      ],
+      "target_issued_adjustment": [
+        "1C25TUV",
+        "00002619"
+      ],
+      "target_date": "2025-05-31",
+      "source_xml": "data\\Bo sung\\meInvoice\\2026-10-11-pending-XML\\1C25TUV_00002619.xml",
+      "source_xml_sha256": "d8d2c14c18b80ccc89cd14523a631b56424886229185b4e49f75350a778d70c1",
+      "money_field_order": [
+        "goods",
+        "tax",
+        "payment"
+      ],
+      "issued_money": [
+        -589554,
+        -47164,
+        -636719
+      ],
+      "confirmed_reversal_money": [
+        589554,
+        47164,
+        636719
+      ],
+      "issued_plus_reversal": [
+        0,
+        0,
+        0
+      ],
+      "issued_header_arithmetic_difference": 1,
+      "reversal_header_arithmetic_difference": -1,
+      "reversal_is_arithmetically_balanced": false
+    },
+    {
+      "case_id": "LT07",
+      "root": [
+        "1C24TUV",
+        "00000285"
+      ],
+      "target_issued_adjustment": [
+        "1C25TUV",
+        "00001821"
+      ],
+      "target_date": "2025-05-29",
+      "source_xml": "data\\Bo sung\\meInvoice\\2026-10-11-pending-XML\\1C25TUV_00001821.xml",
+      "source_xml_sha256": "f7564ecdd8c7b8dd5645de3c273819b498b1a8edb1a4e55b8d4417e64b505264",
+      "money_field_order": [
+        "goods",
+        "tax",
+        "payment"
+      ],
+      "issued_money": [
+        5701066,
+        456085,
+        6157152
+      ],
+      "confirmed_reversal_money": [
+        -5701066,
+        -456085,
+        -6157152
+      ],
+      "issued_plus_reversal": [
+        0,
+        0,
+        0
+      ],
+      "issued_header_arithmetic_difference": -1,
+      "reversal_header_arithmetic_difference": 1,
+      "reversal_is_arithmetically_balanced": false
+    },
+    {
+      "case_id": "LT08",
+      "root": [
+        "1C25TUV",
+        "00000102"
+      ],
+      "target_issued_adjustment": [
+        "1C25TUV",
+        "00000626"
+      ],
+      "target_date": "2025-05-04",
+      "source_xml": "data\\Bo sung\\meInvoice\\2026-10-11-pending-XML\\1C25TUV_00000626.xml",
+      "source_xml_sha256": "836b427146c2adcb3def573f8729174dd92bbae6aea1d783458e11c2cba75a31",
+      "money_field_order": [
+        "goods",
+        "tax",
+        "payment"
+      ],
+      "issued_money": [
+        4347265,
+        347781,
+        4695045
+      ],
+      "confirmed_reversal_money": [
+        -4347265,
+        -347781,
+        -4695045
+      ],
+      "issued_plus_reversal": [
+        0,
+        0,
+        0
+      ],
+      "issued_header_arithmetic_difference": 1,
+      "reversal_header_arithmetic_difference": -1,
+      "reversal_is_arithmetically_balanced": false
+    }
+  ],
+  "verified_zero_sum_invoices": 8,
+  "arithmetic_scope": "Issued adjustment and own reversal only. Existing header inconsistencies remain as opposite differences.",
+  "status": "numeric preparation only",
+  "applied_to_import": false,
+  "signed_or_issued": false
+}

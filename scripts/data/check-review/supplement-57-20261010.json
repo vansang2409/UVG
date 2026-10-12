@@ -10,6 +10,7 @@
     "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\1C24TUV_00000730.xml": "a56dcec513ba885fa50c4aabe98063bc45c7c06b65a1e3ce7fbee767b525cc6d",
     "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\1C24TUV_00000731.xml": "d4d3af8fd9620f14d01439cdb312e55db70f8a6846d35548649fdb76b79e8bca",
     "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\1C24TUV_00000732.xml": "c5b4e15fe29a92cf0968f54b87f68b82c9efff9839f91fb0a14e4cfe3b9f60b0",
+    "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\1C24TUV_00000733.xml": "ca15ffd599c7e5bd6f18a92c4ada5dd4b1b083fe1562a1e7c8f329831761c254",
     "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\1C24TUV_00000734.xml": "418d4f42ab8e9584721415e6164464d49dcd3b0584f8d811b701cb494c40c8a7",
     "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\1C24TUV_00000735.xml": "1fb339d429725a1ae8a9f547965f00004950e5b67314394253acf9355287cc8c",
     "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\1C24TUV_00000736.xml": "ce106db976ca01316bc3c9099011149ddba5d8d068f0a604490f7c8f213de023",
@@ -21,7 +22,7 @@
     "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\1C24TUV_00000742.xml": "d0d0688f5d867ed889498f4d9f88c8864e60fb4cf654b9a81a461a967474cd38",
     "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\1C24TUV_00000743.xml": "051564c49902cb5d0c3c7035d879123da6af392e9f2b5c78d9364f7b8a73058f",
     "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\Bang_ke_chi_tiet_hoa_don_da_su_dung_1791595024735.xls": "8d6eef9d069e8eee3aca67db2b897d51b41e78daef8dd5992b396e934ea2a9c5",
-    "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\PROVENANCE.json": "fb3d3a375b10aae07713c8a4134ff4b3af77634a356d189a2950e10ac382d06c"
+    "data\\Bo sung\\meInvoice\\2026-10-10-57-F0\\PROVENANCE.json": "57f4cf641d357a8b5c9716d3738a2c0ef734a5e75b917e56441fd8f6502da0ac"
   },
   "workbooks": {
     "HOA_DON_CHUA_DIEU_CHINH_F0_2024_T6_2025.xlsx": {
@@ -3744,7 +3745,7 @@
   "limits": [
     "Blank and zero remain distinct; diagnostic comparison does not authorize replacement.",
     "No cryptographic signature or live tax authority verification.",
-    "Workbooks and the 18-file base manifest remain unchanged."
+    "This audit does not modify workbooks or the 18-file base manifest."
   ],
   "coverage_complete": true,
   "content_checks_passed": true

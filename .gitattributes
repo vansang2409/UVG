@@ -1,2 +1,5 @@
 
 "data/Bo sung/**/*.xml" -text
+
+# Giữ nguyên byte của phương án được xác minh bằng SHA-256 trên mọi máy.
+scripts/data/check-review/kt-workbook-20261011/confirmed-plan-data.json -text whitespace=cr-at-eol

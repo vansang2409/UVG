@@ -1,0 +1,94 @@
+{
+  "passed": true,
+  "mode": "staged",
+  "files": [
+    {
+      "name": "HOA_DON_DA_DIEU_CHINH_F0_2024_T6_2025.xlsx",
+      "sha256": "9d041000c31027161714b66059cb9420a7fa02b3ed6d6c8b13a32ddb92cd2377",
+      "old_cells_changed_within_scope": 284,
+      "invoices": 2032,
+      "roots": 1007,
+      "rows": 41790,
+      "new_invoices": 42,
+      "new_rows": 522,
+      "arithmetic_differences": [
+        {
+          "case": "LT01",
+          "seq": 1991,
+          "target": [
+            "1C25TUV",
+            "00000649"
+          ],
+          "difference": 823998
+        },
+        {
+          "case": "LT02",
+          "seq": 1993,
+          "target": [
+            "1C25TUV",
+            "00000561"
+          ],
+          "difference": -136000
+        },
+        {
+          "case": "LT03",
+          "seq": 1995,
+          "target": [
+            "1C25TUV",
+            "00001819"
+          ],
+          "difference": -2000
+        },
+        {
+          "case": "LT04",
+          "seq": 1997,
+          "target": [
+            "1C25TUV",
+            "00001167"
+          ],
+          "difference": -1000
+        },
+        {
+          "case": "LT05",
+          "seq": 1999,
+          "target": [
+            "1C25TUV",
+            "00002145"
+          ],
+          "difference": -900
+        },
+        {
+          "case": "LT06",
+          "seq": 2001,
+          "target": [
+            "1C25TUV",
+            "00002619"
+          ],
+          "difference": -1
+        },
+        {
+          "case": "LT07",
+          "seq": 2004,
+          "target": [
+            "1C25TUV",
+            "00001821"
+          ],
+          "difference": 1
+        },
+        {
+          "case": "LT08",
+          "seq": 2006,
+          "target": [
+            "1C25TUV",
+            "00000626"
+          ],
+          "difference": -1
+        }
+      ]
+    }
+  ],
+  "new_invoices": 42,
+  "new_roots": 21,
+  "formula_errors": 0,
+  "source_hashes_unchanged": true
+}

@@ -1,0 +1,4184 @@
+{
+  "review_date": "2026-10-11",
+  "archive": {
+    "original_path": "C:\\Users\\thuong ngo\\Downloads\\Hoa_don_dien_tu_11.10.2026_13.25.zip",
+    "saved_file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/Hoa_don_dien_tu_11.10.2026_13.25.zip",
+    "sha256": "3a74a6eb65a1cce744516bfc25eb9e0cc1e9f3cdcb682f9b339735b17ef0f974",
+    "bytes": 18070627
+  },
+  "summary": {
+    "xml": 100,
+    "pdf": 100,
+    "unique_invoices": 100,
+    "date_range": [
+      "2025-05-04",
+      "2025-05-05"
+    ],
+    "number_range": [
+      "00000543",
+      "00000642"
+    ],
+    "pending_adjustments_in_this_archive": 3,
+    "new_pending_adjustments": 3,
+    "remaining_pending_adjustment_xml_not_in_repo": 16,
+    "pending_arithmetic_differences_in_xml": [
+      [
+        "1C25TUV",
+        "00000561"
+      ],
+      [
+        "1C25TUV",
+        "00000626"
+      ]
+    ]
+  },
+  "records": [
+    {
+      "key": [
+        "1C25TUV",
+        "00000543"
+      ],
+      "date": "2025-05-04",
+      "related": null,
+      "money": [
+        "63102769.000000",
+        "5048222.000000",
+        "68150991.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Đèn bắt muỗi, ruồi và các loại côn trùng KM300",
+          "nature": "1",
+          "qty": "1.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "0.0"
+        },
+        {
+          "name": "Đèn bắt muỗi, ruồi và các loại côn trùng KM300",
+          "nature": "1",
+          "qty": "1.000000",
+          "price": "452777.778000",
+          "goods": "452778.000000",
+          "rate": "8%",
+          "tax_extra": "36222.0"
+        },
+        {
+          "name": "Đèn bắt muỗi, ruồi và các loại côn trùng KM300",
+          "nature": "1",
+          "qty": "11.000000",
+          "price": "499074.074000",
+          "goods": "5489815.000000",
+          "rate": "8%",
+          "tax_extra": "439185.0"
+        },
+        {
+          "name": "Đèn bắt muỗi, ruồi và các loại côn trùng KM420",
+          "nature": "1",
+          "qty": "1.000000",
+          "price": "406481.481000",
+          "goods": "406481.000000",
+          "rate": "8%",
+          "tax_extra": "32518.0"
+        },
+        {
+          "name": "Lõi lọc diệt khuẩn  Filter KA600",
+          "nature": "1",
+          "qty": "1.000000",
+          "price": "509258.333000",
+          "goods": "509258.000000",
+          "rate": "8%",
+          "tax_extra": "40741.0"
+        },
+        {
+          "name": "Lõi lọc diệt khuẩn Filter KA350",
+          "nature": "1",
+          "qty": "1.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "0.0"
+        },
+        {
+          "name": "Lõi lọc diệt khuẩn Filter KA350",
+          "nature": "1",
+          "qty": "5.000000",
+          "price": "509259.259000",
+          "goods": "2546296.000000",
+          "rate": "8%",
+          "tax_extra": "203704.0"
+        },
+        {
+          "name": "Lõi lọc diệt khuẩn Filter KA600",
+          "nature": "1",
+          "qty": "2.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "0.0"
+        },
+        {
+          "name": "Máy lọc không khí diệt khuẩn bằng tia UVC KA150P",
+          "nature": "1",
+          "qty": "5.000000",
+          "price": "1276851.852000",
+          "goods": "6384259.000000",
+          "rate": "8%",
+          "tax_extra": "510741.0"
+        },
+        {
+          "name": "Máy lọc không khí diệt khuẩn bằng tia UVC KA150S",
+          "nature": "1",
+          "qty": "1.000000",
+          "price": "1055555.630000",
+          "goods": "1055556.000000",
+          "rate": "8%",
+          "tax_extra": "84444.0"
+        },
+        {
+          "name": "Máy lọc không khí diệt khuẩn bằng tia UVC KA150S",
+          "nature": "1",
+          "qty": "1.000000",
+          "price": "1554629.630000",
+          "goods": "1554630.000000",
+          "rate": "8%",
+          "tax_extra": "124370.0"
+        },
+        {
+          "name": "Máy lọc không khí diệt khuẩn bằng tia UVC KA350 Light",
+          "nature": "1",
+          "qty": "2.000000",
+          "price": "1702777.778000",
+          "goods": "3405556.000000",
+          "rate": "8%",
+          "tax_extra": "272444.0"
+        },
+        {
+          "name": "Máy lọc không khí diệt khuẩn bằng tia UVC KA600",
+          "nature": "1",
+          "qty": "8.000000",
+          "price": "2572221.296000",
+          "goods": "20577770.000000",
+          "rate": "8%",
+          "tax_extra": "1646222.0"
+        },
+        {
+          "name": "Máy phun sương tạo độ ẩm không khí diệt khuẩn bằng tia UVC với màn hình LCD KH100",
+          "nature": "1",
+          "qty": "1.000000",
+          "price": "499074.000000",
+          "goods": "499074.000000",
+          "rate": "8%",
+          "tax_extra": "39926.0"
+        },
+        {
+          "name": "Máy phun sương tạo độ ẩm không khí diệt khuẩn bằng tia UVC với màn hình LCD KH100",
+          "nature": "1",
+          "qty": "2.000000",
+          "price": "499074.074000",
+          "goods": "998148.000000",
+          "rate": "8%",
+          "tax_extra": "79852.0"
+        },
+        {
+          "name": "Máy phun sương tạo độ ẩm không khí diệt khuẩn bằng tia UVC với màn hình LCD KH200",
+          "nature": "1",
+          "qty": "29.000000",
+          "price": "628703.704000",
+          "goods": "18232407.000000",
+          "rate": "8%",
+          "tax_extra": "1458593.0"
+        },
+        {
+          "name": "Vợt bắt muỗi tự động 2 trong 1 thu hút các loại côn trùng KM002",
+          "nature": "1",
+          "qty": "2.000000",
+          "price": "164814.815000",
+          "goods": "329630.000000",
+          "rate": "8%",
+          "tax_extra": "26370.0"
+        },
+        {
+          "name": "Vợt bắt muỗi tự động 2 trong 1 thu hút các loại côn trùng KM003",
+          "nature": "1",
+          "qty": "3.000000",
+          "price": "220370.370000",
+          "goods": "661111.000000",
+          "rate": "8%",
+          "tax_extra": "52890.0"
+        }
+      ],
+      "line_goods_sum": "63102769.000000",
+      "entry": "1C25TUV_00000543.xml",
+      "sha256": "c0339884779eb803ce7f615680eb077307b2d1c70479735ea18360197807d714",
+      "bytes": 29929,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000543.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000544"
+      ],
+      "date": "2025-05-04",
+      "related": null,
+      "money": [
+        "52349074.000000",
+        "4187926.000000",
+        "56537000.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Đèn bắt muỗi, ruồi và các loại côn trùng KM300",
+          "nature": "1",
+          "qty": "19.000000",
+          "price": "499074.074000",
+          "goods": "9482407.000000",
+          "rate": "8%",
+          "tax_extra": "758593.0"
+        },
+        {
+          "name": "Đèn bắt muỗi, ruồi và các loại côn trùng KM300",
+          "nature": "1",
+          "qty": "1.000000",
+          "price": "545370.370000",
+          "goods": "545370.000000",
+          "rate": "8%",
+          "tax_extra": "43630.0"
+        },
+        {
+          "name": "Lõi lọc diệt khuẩn  Filter KA600",
+          "nature": "1",
+          "qty": "1.000000",
+          "price": "509259.259000",
+          "goods": "509259.000000",
+          "rate": "8%",
+          "tax_extra": "40741.0"
+        },
+        {
+          "name": "Lõi lọc diệt khuẩn Filter KA150S",
+          "nature": "1",
+          "qty": "2.000000",
+          "price": "462962.963000",
+          "goods": "925926.000000",
+          "rate": "8%",
+          "tax_extra": "74074.0"
+        },
+        {
+          "name": "Lõi lọc diệt khuẩn Filter KA350s",
+          "nature": "1",
+          "qty": "1.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "0.0"
+        },
+        {
+          "name": "Máy lọc không khí diệt khuẩn bằng tia UVC KA150P",
+          "nature": "1",
+          "qty": "13.000000",
+          "price": "1276851.852000",
+          "goods": "16599074.000000",
+          "rate": "8%",
+          "tax_extra": "1327926.0"
+        },
+        {
+          "name": "Máy lọc không khí diệt khuẩn bằng tia UVC KA150S",
+          "nature": "1",
+          "qty": "3.000000",
+          "price": "1054629.630000",
+          "goods": "3163889.000000",
+          "rate": "8%",
+          "tax_extra": "253111.0"
+        },
+        {
+          "name": "Máy lọc không khí diệt khuẩn bằng tia UVC KA350 ProUpgrade",
+          "nature": "1",
+          "qty": "2.000000",
+          "price": "2295370.370000",
+          "goods": "4590741.000000",
+          "rate": "8%",
+          "tax_extra": "367259.0"
+        },
+        {
+          "name": "Máy lọc không khí diệt khuẩn bằng tia UVC KA350 Standard",
+          "nature": "1",
+          "qty": "1.000000",
+          "price": "1980555.556000",
+          "goods": "1980556.000000",
+          "rate": "8%",
+          "tax_extra": "158444.0"
+        },
+        {
+          "name": "Máy lọc không khí diệt khuẩn bằng tia UVC KA600",
+          "nature": "1",
+          "qty": "3.000000",
+          "price": "2573148.148000",
+          "goods": "7719444.000000",
+          "rate": "8%",
+          "tax_extra": "617556.0"
+        },
+        {
+          "name": "Máy phun sương tạo độ ẩm không khí diệt khuẩn bằng tia UVC với màn hình LCD KH100",
+          "nature": "1",
+          "qty": "1.000000",
+          "price": "499074.074000",
+          "goods": "499074.000000",
+          "rate": "8%",
+          "tax_extra": "39926.0"
+        },
+        {
+          "name": "Máy phun sương tạo độ ẩm không khí diệt khuẩn bằng tia UVC với màn hình LCD KH200",
+          "nature": "1",
+          "qty": "9.000000",
+          "price": "628703.778000",
+          "goods": "5658334.000000",
+          "rate": "8%",
+          "tax_extra": "452667.0"
+        },
+        {
+          "name": "Máy phun sương tạo độ ẩm không khí diệt khuẩn bằng tia UVC với màn hình LCD KH200",
+          "nature": "1",
+          "qty": "1.000000",
+          "price": "675000.000000",
+          "goods": "675000.000000",
+          "rate": "8%",
+          "tax_extra": "53999.0"
+        }
+      ],
+      "line_goods_sum": "52349074.000000",
+      "entry": "1C25TUV_00000544.xml",
+      "sha256": "36fd69e534150d33f55205c72c556d37ec209afc3de9bc3220d66996c988b9e3",
+      "bytes": 25064,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000544.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000545"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000018"
+      ],
+      "money": [
+        "291575.000000",
+        "23326.000000",
+        "314901.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh tăng thành tiền HĐ số 00000018",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "23326.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000545.xml",
+      "sha256": "177aec779270ff7888083df949724b1debc6df08a5245339f8413240b062221f",
+      "bytes": 12858,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000545.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000546"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000066"
+      ],
+      "money": [
+        "642846.000000",
+        "51428.000000",
+        "694274.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh tăng giá trị HĐ số 00000066",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "51428.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000546.xml",
+      "sha256": "643445b5503c651e5b4d62877b07dd823708dcf95538b2e74636408f13e05073",
+      "bytes": 12874,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000546.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000547"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000004"
+      ],
+      "money": [
+        "-4074.000000",
+        "-326.000000",
+        "-4400.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh giảm giá trị hoá đơn số 00000004",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "-326.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000547.xml",
+      "sha256": "7973015c5ddec29193bd5d61e8546ea37270ee6c30d2f28a9218fc2f8f5d65f9",
+      "bytes": 12805,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000547.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000548"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000035"
+      ],
+      "money": [
+        "7991871.000000",
+        "639350.000000",
+        "8631221.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh tăng giá trị HĐ số 00000035",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "639350.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000548.xml",
+      "sha256": "620a99606fc0025d387a9c00006f0ed29d2589e991fd91aae7919cf4afe4b151",
+      "bytes": 12909,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000548.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000549"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000039"
+      ],
+      "money": [
+        "4196442.000000",
+        "335715.000000",
+        "4532157.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh tăng giá trị HĐ số 00000039",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "335715.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000549.xml",
+      "sha256": "a89ab98fdd6b96a279a5c3061e6004cdc1ef7287c8b49f331d77e02d6f1c1edf",
+      "bytes": 12912,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000549.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000550"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000041"
+      ],
+      "money": [
+        "3484959.000000",
+        "278797.000000",
+        "3763756.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh tăng  trị HĐ số 00000041",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "278797.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000550.xml",
+      "sha256": "b2e5db37f9fb06a7fac5b61067a90c3aaa69c8a07c27173a67679fcdf22440df",
+      "bytes": 12905,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000550.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000551"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000042"
+      ],
+      "money": [
+        "3778807.000000",
+        "302305.000000",
+        "4081112.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh tăng giá  trị HĐ số 00000042",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "302305.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000551.xml",
+      "sha256": "075b02905a9d43988649ecf845785126258045f541bf3c7c4267f1c9304d8632",
+      "bytes": 12896,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000551.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000552"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000045"
+      ],
+      "money": [
+        "588055.000000",
+        "47044.000000",
+        "635099.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh tăng giá trị HĐ số 00000045",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "47044.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000552.xml",
+      "sha256": "f69e89e6826b8a42dc6ac9478b59888d36b24b33060fc5d9a111fa9704b76200",
+      "bytes": 12860,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000552.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000553"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000046"
+      ],
+      "money": [
+        "9197667.000000",
+        "735813.000000",
+        "9933480.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh tăng giá trị HĐ số 00000046",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "735813.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000553.xml",
+      "sha256": "335d8472f1553a4ea842bb4b1d14dd9c2c01676dc453a322797c6adae47b68e6",
+      "bytes": 12904,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000553.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000554"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000049"
+      ],
+      "money": [
+        "1345608.000000",
+        "107649.000000",
+        "1453257.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Đièu chỉnh tăng giá trị HĐ số 00000049",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "107649.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000554.xml",
+      "sha256": "eb3d8f534c3c355e723c06f01e88b16eb9e4e8d814334e054f72b66a258ba7af",
+      "bytes": 12910,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000554.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000555"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000050"
+      ],
+      "money": [
+        "5898315.000000",
+        "471865.000000",
+        "6370180.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh  tăng giá trị HĐ số 00000050",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "471865.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000555.xml",
+      "sha256": "488d32502a828492f95f7ae641b19e2e6b1e4ccc979b6af32a6027dae4b3bc21",
+      "bytes": 12896,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000555.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000556"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000051"
+      ],
+      "money": [
+        "99406.000000",
+        "7952.000000",
+        "107358.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh tăng giá trị HĐ số 00000051",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "7952.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000556.xml",
+      "sha256": "f31b7988dc00e76fd03cf0d6713dcf00b5071ba2da08e502f9d0401c55ed7eb1",
+      "bytes": 12847,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000556.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000557"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000052"
+      ],
+      "money": [
+        "13114564.000000",
+        "1049165.000000",
+        "14163729.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh tăng giá trị HĐ số 00000052",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "1049165.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000557.xml",
+      "sha256": "b528f290004eab6e61d454ce123be8b55b325711273f35e0953f1daa98d8e5eb",
+      "bytes": 12942,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000557.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000558"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000053"
+      ],
+      "money": [
+        "257315.000000",
+        "20585.000000",
+        "277900.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh tăng giá trị HĐ số 00000053",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "20585.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000558.xml",
+      "sha256": "cf37ae8513dd1d8e45f29eb719c08c614074a567706a59912d2473b55f678b0f",
+      "bytes": 12907,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000558.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000559"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000054"
+      ],
+      "money": [
+        "5618055.000000",
+        "449444.000000",
+        "6067499.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh tăng giá trị hóa đơn số 00000054",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "449444.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000559.xml",
+      "sha256": "b53302d974b9a4ea8d74ab43233abd1a4ee8ab9b4f923d6cbb34b9c038a1ba72",
+      "bytes": 12920,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000559.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000560"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000055"
+      ],
+      "money": [
+        "4593805.000000",
+        "367504.000000",
+        "4961309.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chinh tăng giá trị hóa đơn số 00000055",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "367504.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000560.xml",
+      "sha256": "80682a5e182825e28b57aaf38ec0ff492b7e64a8d7666f695529202cdb1c0a78",
+      "bytes": 12911,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000560.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000561"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000056"
+      ],
+      "money": [
+        "196889.000000",
+        "151751.000000",
+        "212640.000000"
+      ],
+      "header_arithmetic_difference": "136000.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh tăng giá trị hóa đơn số 00000056",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "151751.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000561.xml",
+      "sha256": "a6a6c505c0f693410b073ac1842f2bc6af222522aa924d12f96e0839c5b6e3dd",
+      "bytes": 12926,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000561.xml",
+      "pending_role": "adjustment",
+      "header_matches_current_export": true,
+      "date_matches_current_export": true,
+      "reference_matches_current_chain": true
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000562"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000057"
+      ],
+      "money": [
+        "88704.000000",
+        "7096.000000",
+        "95800.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh tăng giá trị hóa đơn số 00000057",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "7096.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000562.xml",
+      "sha256": "802efdeea05af054e4c8cb75277745adf9412d8221e23f7abda350455bdad9d7",
+      "bytes": 12859,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000562.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000563"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000059"
+      ],
+      "money": [
+        "10518301.000000",
+        "841464.000000",
+        "11359765.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh tăng giá trị hóa đơn số 00000059",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "841464.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000563.xml",
+      "sha256": "fb458ef7989eec3b4a0e5689efbf75137e7dca0293af8950ef3ca1987ce11ac2",
+      "bytes": 12948,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000563.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000564"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000061"
+      ],
+      "money": [
+        "3872444.000000",
+        "309796.000000",
+        "4182240.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh tăng giá trị hóa đơn số 00000061",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "309796.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000564.xml",
+      "sha256": "4d08b4574ccf5ed8bac9d9de27fe216f8d8c28936306fe80a34385e8ffd70b25",
+      "bytes": 12915,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000564.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000565"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000062"
+      ],
+      "money": [
+        "8361473.000000",
+        "668918.000000",
+        "9030391.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh tăng giá trị hóa đơn số 00000062",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "668918.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000565.xml",
+      "sha256": "a25528d489b5a5aeb1df83b1a606af53f1baea8f35faddbf1c34e8d2fc9039f8",
+      "bytes": 12906,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000565.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000566"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000063"
+      ],
+      "money": [
+        "2916267.000000",
+        "233301.000000",
+        "3149568.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh tăng giá trị hóa đơn số 00000063",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "233301.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000566.xml",
+      "sha256": "2dd75d2c76a88d834c733a9a299957be0231b8368faed6fad9cebe7c177fcdcf",
+      "bytes": 12928,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000566.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000567"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000064"
+      ],
+      "money": [
+        "2161251.000000",
+        "172900.000000",
+        "2334151.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh tăng giá trị hóa đơn số 00000064",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "172900.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000567.xml",
+      "sha256": "ae0896977799fc589bda1a03ad923831accc9c1f7b80051981cb2516361b248a",
+      "bytes": 12923,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000567.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000568"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000065"
+      ],
+      "money": [
+        "1188119.000000",
+        "95050.000000",
+        "1283169.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh tăng giá trị hóa đơn số 00000065",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "95050.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000568.xml",
+      "sha256": "02f8d0abcda6b22b005f3923f3764196d0d015556d10ce52bba295f9b5ddac19",
+      "bytes": 12919,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000568.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000569"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000003"
+      ],
+      "money": [
+        "-516481.000000",
+        "-41318.000000",
+        "-557799.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh giảm giá trị hóa đơn số 00000003",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "-41318.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000569.xml",
+      "sha256": "af8bb79edbbf5192ee2231de61d763ded555d88538463f833b8fa515d4f9af6f",
+      "bytes": 12910,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000569.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000570"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000005"
+      ],
+      "money": [
+        "-1191944.000000",
+        "-95356.000000",
+        "-1287300.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh giảm giá trị hóa đơn số 00000005",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "-95356.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000570.xml",
+      "sha256": "e34f2e41cfa3a88ed0e3d357252e6b14fd8f18496acd4db28aab0fc52a6c30db",
+      "bytes": 12911,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000570.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000571"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000009"
+      ],
+      "money": [
+        "-1592593.000000",
+        "-127407.000000",
+        "-1720000.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh giảm giá trị hóa đơn số 00000009",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "-127407.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000571.xml",
+      "sha256": "12a9fe997d98bbf9fa38367cd74c084294054d48611fbec02b8afdc9630dd944",
+      "bytes": 12946,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000571.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000572"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000017"
+      ],
+      "money": [
+        "-1201852.000000",
+        "-96148.000000",
+        "-1298000.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh giảm giá trị hóa đơn số 00000017",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "-96148.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000572.xml",
+      "sha256": "94e0278976108d468159289d3e144c4c01348aade5aec98fcf862ea4d8743f1a",
+      "bytes": 12887,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000572.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000573"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000036"
+      ],
+      "money": [
+        "73794.000000",
+        "5904.000000",
+        "79698.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh tăng giá trị hóa đơn số 00000036",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "5904.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000573.xml",
+      "sha256": "19c990f25f21a7c06913dadc3e31dcc4ca959dfb617f505a990ccd16e8d8e8f7",
+      "bytes": 12851,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000573.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000574"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000037"
+      ],
+      "money": [
+        "37037.000000",
+        "2963.000000",
+        "40000.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh tăng giá trị hóa đơn số 00000037",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "2963.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000574.xml",
+      "sha256": "9866a96bd7547a14b9bc8f212d45e5cb4ebfb19b338f24811d8e599d1ede86c0",
+      "bytes": 12783,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000574.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000575"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000038"
+      ],
+      "money": [
+        "595018.000000",
+        "47601.000000",
+        "642619.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh tăng giá trị hóa đơn số 00000038",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "47601.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000575.xml",
+      "sha256": "b3745e957e593236e37e9859281031c3583643ccaef862508b139b5d6fb8f540",
+      "bytes": 12876,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000575.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000576"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000043"
+      ],
+      "money": [
+        "-1486576.000000",
+        "-118926.000000",
+        "-1605502.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh giảm giá trị hóa đơn số 00000043",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "-118926.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000576.xml",
+      "sha256": "f429c66ad2d001f2d9c3f85a87517c8e8de5f5a396f1f83232a1eb7df5ff8603",
+      "bytes": 12916,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000576.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000577"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000044"
+      ],
+      "money": [
+        "708617.000000",
+        "56689.000000",
+        "765306.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh tăng giá trị hóa đơn số 00000044",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "56689.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000577.xml",
+      "sha256": "3fcfd0d826ba0a1a03b454256f33fb2558e6434419ffec2f54a2715734b841d5",
+      "bytes": 12871,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000577.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000578"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000047"
+      ],
+      "money": [
+        "-1525872.000000",
+        "-122070.000000",
+        "-1647942.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh giảm giá trị hóa đơn số 00000047",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "-122070.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000578.xml",
+      "sha256": "e8be2f9691920c6dbbdb617da5ed59973f016ebc7cc64aaf8ec12301938533f2",
+      "bytes": 12947,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000578.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000579"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000048"
+      ],
+      "money": [
+        "1127878.000000",
+        "90230.000000",
+        "1218108.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh tăng giá trị hóa đơn số 00000048",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "90230.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000579.xml",
+      "sha256": "3ef17bd2e6c1fe156d111367b3c81d1cc7ceb0f6ed7bf4f06fe2de83a76c31bb",
+      "bytes": 12900,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000579.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000580"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000081"
+      ],
+      "money": [
+        "-56574.000000",
+        "-4526.000000",
+        "-61100.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh giảm giá trị hóa đơn số 00000081",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "-4526.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000580.xml",
+      "sha256": "33217f34035f649c9ba17e1da2218ce1918278a80a6026737e1d7cedf331fbaa",
+      "bytes": 12836,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000580.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000581"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000089"
+      ],
+      "money": [
+        "13889.000000",
+        "1111.000000",
+        "15000.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh tăng giá trị hóa đơn số 00000089",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "1111.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000581.xml",
+      "sha256": "4ae557205d912cca0eb9e5e6d7b6a9815ce7a40c0c32e7f4618dbd8882017f5b",
+      "bytes": 12785,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000581.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000582"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000090"
+      ],
+      "money": [
+        "1133899.000000",
+        "90712.000000",
+        "1224611.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh tăng giá trị hóa đơn số 00000090",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "90712.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000582.xml",
+      "sha256": "186b70aa0b3d3a5f1c4e72811014a6d2293eeda8f14b7f2a62dfa6183dc836ae",
+      "bytes": 12911,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000582.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000583"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000117"
+      ],
+      "money": [
+        "74704.000000",
+        "5976.000000",
+        "80680.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh tăng giá trị hóa đơn số 00000117",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "5976.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000583.xml",
+      "sha256": "fae4ac71f78729ea709b3ae72d57b333d058116318455b263351dc3653d59200",
+      "bytes": 12826,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000583.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000584"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000148"
+      ],
+      "money": [
+        "67528.000000",
+        "5402.000000",
+        "72930.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh tăng giá trị hóa đơn số 00000148",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "5402.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000584.xml",
+      "sha256": "0f9f6dfd5eb2ed60cb177db5f7b6d15e07061958e048eab337741cd5246ca69f",
+      "bytes": 12836,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000584.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000585"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000149"
+      ],
+      "money": [
+        "-137639.000000",
+        "-11011.000000",
+        "-148650.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh  giảm giá trị hóa đơn số 00000149",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "-11011.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000585.xml",
+      "sha256": "4abfbcdf969fed4e55c3e4e9f492b265cb73185fb5b722157117ea2449946cea",
+      "bytes": 12896,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000585.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000586"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000151"
+      ],
+      "money": [
+        "34259.000000",
+        "2741.000000",
+        "37000.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh tăng giá trị hóa đơn số 00000151",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "2741.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000586.xml",
+      "sha256": "d133b610f7de6a37c90587c040ecb2e1ed19b51f3cda3b07c0eff53e03f636a5",
+      "bytes": 12793,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000586.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000587"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000068"
+      ],
+      "money": [
+        "315851.000000",
+        "25268.000000",
+        "341119.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh tăng giá trị hóa đơn số 00000068",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "25268.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000587.xml",
+      "sha256": "bf8c5de7f158a96da2ef836033d5322d027cf63b5e12193359fcd0ab9bdc8378",
+      "bytes": 12879,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000587.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000588"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000077"
+      ],
+      "money": [
+        "8834458.000000",
+        "706757.000000",
+        "9541215.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh tăng giá trị hóa đơn số 00000077",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "706757.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000588.xml",
+      "sha256": "c7c0185908554e30265acebeab641ee08d8d4b23d5bbf99956604a5624d89b1b",
+      "bytes": 12919,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000588.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000589"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000091"
+      ],
+      "money": [
+        "-496999.000000",
+        "-39760.000000",
+        "-536759.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh giảm giá trị hóa đơn số 00000091",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "-39760.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000589.xml",
+      "sha256": "92795578fa7fb204382ce85e1635aee1db6e4886d917fc27fa28733b8f78a8ac",
+      "bytes": 12956,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000589.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000590"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000092"
+      ],
+      "money": [
+        "5879332.000000",
+        "470347.000000",
+        "6349679.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh tăng giá trị hóa đơn số 00000092",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "470347.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000590.xml",
+      "sha256": "230f64696abb005bd5d8751f57127f9cd69c22078d209df3d3a4cdf65c02e0f6",
+      "bytes": 12929,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000590.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000591"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000123"
+      ],
+      "money": [
+        "2095327.000000",
+        "167626.000000",
+        "2262953.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh tăng giá trị hóa đơn số 00000123",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "167626.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000591.xml",
+      "sha256": "6e520b44b5a63d372019149f575bc4304d5f99b5aae23851ff7a53712ec9aec1",
+      "bytes": 12920,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000591.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000592"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000126"
+      ],
+      "money": [
+        "12199611.000000",
+        "975969.000000",
+        "13175580.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh tăng giá trị hóa đơn số 00000126",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "975969.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000592.xml",
+      "sha256": "90abb42d8feb8fa5f3f84b6d74a70c0ca29ac4d4c5f9d51944dd4fc1f89fcc51",
+      "bytes": 12939,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000592.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000593"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000128"
+      ],
+      "money": [
+        "11814588.000000",
+        "945167.000000",
+        "12759755.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh tăng giá trị hóa đơn số 00000128",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "945167.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000593.xml",
+      "sha256": "da0fa4ccc1bf7f25379b24e92ef192c973e5afc217e4f6f6aefc70f200e38c90",
+      "bytes": 12949,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000593.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000594"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000130"
+      ],
+      "money": [
+        "3301665.000000",
+        "264133.000000",
+        "3565798.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh tăng giá trị hóa đơn số 00000130",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "264133.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000594.xml",
+      "sha256": "4679d7ee004f831662ebc4d18cc53aeeddef4c5818c93415fa19e9b382709d39",
+      "bytes": 12930,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000594.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000595"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000132"
+      ],
+      "money": [
+        "7618788.000000",
+        "609503.000000",
+        "8228291.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh tăng giá trị hóa đơn số 00000132",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "609503.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000595.xml",
+      "sha256": "9e98f635e575a888a981589a22df27385123bcf5ac44cb735498c59254b9f224",
+      "bytes": 12926,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000595.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000596"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000133"
+      ],
+      "money": [
+        "7744288.000000",
+        "619543.000000",
+        "8363831.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh tăng giá trị hóa đơn số 00000133",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "619543.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000596.xml",
+      "sha256": "87da05c99bd801452f4fd692a48df7902743be29a59e89c5407b63e39e116270",
+      "bytes": 12925,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000596.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000597"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000135"
+      ],
+      "money": [
+        "-637963.000000",
+        "-51037.000000",
+        "-689000.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh giảm giá trị hóa đơn số 00000135",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "-51037.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000597.xml",
+      "sha256": "1a16978d7e14b32d5bfc02c517e9209406cf5925ae57845ba9647167bdd3d1d9",
+      "bytes": 12851,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000597.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000598"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000138"
+      ],
+      "money": [
+        "-555556.000000",
+        "-44444.000000",
+        "-600000.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh giảm giá trị hóa đơn số 00000138",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "-44444.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000598.xml",
+      "sha256": "e3ebb99b6b14be36cfb1dfd415c02dd99587239f0e2167a09379f4382d4822b2",
+      "bytes": 12821,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000598.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000599"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000141"
+      ],
+      "money": [
+        "-2525926.000000",
+        "-202074.000000",
+        "-2728000.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh giảm giá trị hóa đơn số 00000141",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "-202074.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000599.xml",
+      "sha256": "577bac396c654e2238de3ce9ff4da8f39d54a8a876419ff92932f313e8b88c79",
+      "bytes": 12893,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000599.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000600"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000143"
+      ],
+      "money": [
+        "-5318517.000000",
+        "-425481.000000",
+        "-5743998.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh giảm giá trị hóa đơn số 00000143",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "-425481.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000600.xml",
+      "sha256": "5ae41cf2aadc134b12995a1a9e4b301f79a528ab8957a474d808f89ff9a96948",
+      "bytes": 12951,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000600.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000601"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000144"
+      ],
+      "money": [
+        "-2850926.000000",
+        "-228074.000000",
+        "-3079000.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh giảm giá trị hóa đơn số 00000144",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "-228074.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000601.xml",
+      "sha256": "081d8bf645ddea75b47e32584bdff41fa1491234a3c2b9ce534f9862af74a0d4",
+      "bytes": 12884,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000601.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000602"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000145"
+      ],
+      "money": [
+        "-2387037.000000",
+        "-190963.000000",
+        "-2578000.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh giảm giá trị hóa đơn số 00000145",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "-190963.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000602.xml",
+      "sha256": "4c235c79f9be080b341a916a6365dd960991f25bb7766d3106c4fe43cd553d35",
+      "bytes": 12894,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000602.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000603"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000146"
+      ],
+      "money": [
+        "-1887963.000000",
+        "-151037.000000",
+        "-2039000.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh giảm giá trị hóa đơn số 00000146",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "-151037.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000603.xml",
+      "sha256": "388a413752012c9988affc224d989083e23d3934e0cc06922f0dfce76fe06dac",
+      "bytes": 12879,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000603.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000604"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000147"
+      ],
+      "money": [
+        "-3404630.000000",
+        "-272370.000000",
+        "-3677000.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh giảm giá trị hóa đơn số 00000147",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "-272370.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000604.xml",
+      "sha256": "ddeae943695ea9e82b2f49c042dc99a3230a0437fb79454e4b1df873171923d0",
+      "bytes": 12895,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000604.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000605"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000150"
+      ],
+      "money": [
+        "-3257407.000000",
+        "-260593.000000",
+        "-3518000.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh giảm giá trị hóa đơn số 00000150",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "-260593.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000605.xml",
+      "sha256": "4b9efe8fdc19fbc509f423c3ab6a049efcadc428b65804b1e259089157d22ef4",
+      "bytes": 12885,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000605.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000606"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000162"
+      ],
+      "money": [
+        "-140473.000000",
+        "-11238.000000",
+        "-151711.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh giảm giá trị hóa đơn số 00000162",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "-11238.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000606.xml",
+      "sha256": "72ccdd16b8664ef49dd3bc5caf3a6aea4f88b325baef41bccec81f449bf59c64",
+      "bytes": 12898,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000606.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000607"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000384"
+      ],
+      "money": [
+        "-1517592.000000",
+        "-121407.000000",
+        "-1638999.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh giảm giá trị hoá đơn số 00000384",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "-121407.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000607.xml",
+      "sha256": "16eeb157ac048ce73c536cddf8ee443e1f34f5e6ffe1804934d22dcdd43f34d4",
+      "bytes": 12948,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000607.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000608"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000388"
+      ],
+      "money": [
+        "-1718474.000000",
+        "-137478.000000",
+        "-1855952.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh giảm giá trị hoá đơn số 00000388",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "-137478.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000608.xml",
+      "sha256": "58157deb08f8cf85ac96f7735995dda6b395e4147306d14117c30f367f21d904",
+      "bytes": 12945,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000608.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000609"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000067"
+      ],
+      "money": [
+        "3164541.000000",
+        "253163.000000",
+        "3417704.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh tăng giá trị hoá đơn số 00000067",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "253163.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000609.xml",
+      "sha256": "74764086a614ddc61938ecb2343c36c2803eb02e57c7ee90d27e6d57e43be179",
+      "bytes": 12912,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000609.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000610"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000069"
+      ],
+      "money": [
+        "1831402.000000",
+        "146512.000000",
+        "1977914.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh tăng giá trị hoá đơn số 00000069",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "146512.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000610.xml",
+      "sha256": "32acebcc711a9268d84d2216f79b2298d662d2d3e874ec8afd0bad02ed8a092c",
+      "bytes": 12928,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000610.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000611"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000070"
+      ],
+      "money": [
+        "6582428.000000",
+        "526594.000000",
+        "7109022.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh tăng giá trị hoá đơn số 00000070",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "526594.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000611.xml",
+      "sha256": "180427c9217dcacca74297b8e3f741cd2b8b6ab66992d2ab64c4369deb55f71d",
+      "bytes": 12903,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000611.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000612"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000071"
+      ],
+      "money": [
+        "2482906.000000",
+        "198632.000000",
+        "2681538.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh tăng giá trị hoá đơn số 00000071",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "198632.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000612.xml",
+      "sha256": "9e344414168e1a855e677cdb5b68cac90ecea0772e09fdb9d46df2f69749f59f",
+      "bytes": 12924,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000612.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000613"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000072"
+      ],
+      "money": [
+        "4722420.000000",
+        "377794.000000",
+        "5100214.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh tăng giá t rị hoá đơn số 00000072",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "377794.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000613.xml",
+      "sha256": "6997b3e7dc5037d45cf0be48dce4847a9c64230e7379c8f0f2ef51962d88dde6",
+      "bytes": 12893,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000613.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000614"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000074"
+      ],
+      "money": [
+        "2288514.000000",
+        "183081.000000",
+        "2471595.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh tăng giá trị hoá đơn số 00000074",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "183081.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000614.xml",
+      "sha256": "1088a2fe4de92aa8d83b562bff0b9c826337345885aa4ab468b56d0306a8a63d",
+      "bytes": 12930,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000614.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000615"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000075"
+      ],
+      "money": [
+        "1441440.000000",
+        "115315.000000",
+        "1556755.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh táng giá trị hoá đơn số 00000075",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "115315.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000615.xml",
+      "sha256": "b4763281dbc2bc55865091dd1ea5da1825ea3146463e4a39d60f02908f6a55f3",
+      "bytes": 12927,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000615.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000616"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000076"
+      ],
+      "money": [
+        "4930645.000000",
+        "394452.000000",
+        "5325097.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh tăng giá trị hoá đơn số 00000076",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "394452.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000616.xml",
+      "sha256": "d22e202bf00d5df1a6563d115af0afd6b94a283c3b4b98560a36bf594679305f",
+      "bytes": 12918,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000616.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000617"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000078"
+      ],
+      "money": [
+        "5018519.000000",
+        "401482.000000",
+        "5420001.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh tăng giá trị hoá đơn số 00000078",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "401482.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000617.xml",
+      "sha256": "c580a868d85c1358b21a502892b9f6896cdc57ac3512dd0785fb9138ddaf3adb",
+      "bytes": 12893,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000617.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000618"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000079"
+      ],
+      "money": [
+        "4719551.000000",
+        "377564.000000",
+        "5097115.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh tăng giá trị hoá đơn số 00000079",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "377564.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000618.xml",
+      "sha256": "84405367faa5be7b18bac63d13b04f84e460f8d5b792702d4eaab717d0c27d3c",
+      "bytes": 12912,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000618.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000619"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000080"
+      ],
+      "money": [
+        "857155.000000",
+        "68572.000000",
+        "925727.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh tăng giá trị hoá đơn số 00000080",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "68572.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000619.xml",
+      "sha256": "72640fa08161b0436209ddea72239c080e8c0273122f40e43ecbd164b0a3028a",
+      "bytes": 12889,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000619.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000620"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000082"
+      ],
+      "money": [
+        "4281961.000000",
+        "342557.000000",
+        "4624518.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh t ăng giá trị hoá đơn số 00000082",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "342557.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000620.xml",
+      "sha256": "549d7b58e53b905c4cf7af0f5acfb20278a19535d7b9bbf981cc4bc81ed143c2",
+      "bytes": 12923,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000620.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000621"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000083"
+      ],
+      "money": [
+        "372159.000000",
+        "29773.000000",
+        "401932.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh tăng giá trị hoá đơn số 00000083",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "29773.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000621.xml",
+      "sha256": "8ecdfb53d167547e4d40ab7ff4444c2df7dc429e2e98dac54b90a23daa3f4309",
+      "bytes": 12870,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000621.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000622"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000098"
+      ],
+      "money": [
+        "124537.000000",
+        "9963.000000",
+        "134500.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh tăng giá trị hoá đơn số 00000098",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "9963.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000622.xml",
+      "sha256": "389d5900eba2342f289a15d32c94a4afcfe54a1bd19da7653a6f39f840e25afd",
+      "bytes": 12850,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000622.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000623"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000099"
+      ],
+      "money": [
+        "604106.000000",
+        "48328.000000",
+        "652434.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh t ăng giá trị hoá đơn số 00000099",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "48328.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000623.xml",
+      "sha256": "e14a779237cddd96cdb237a30f9d5ea31289d9161f4902bb5bffa865555e8629",
+      "bytes": 12884,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000623.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000624"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000100"
+      ],
+      "money": [
+        "1697766.000000",
+        "135821.000000",
+        "1833587.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh tăng giá trị hoá đơn số 000000100",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "135821.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000624.xml",
+      "sha256": "8049c9036d4c64b1c3a150785f4edd6df44e93c50e4eca8953ebd542a3e05e80",
+      "bytes": 12930,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000624.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000625"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000101"
+      ],
+      "money": [
+        "-624826.000000",
+        "-49986.000000",
+        "-674812.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh giảm giá trị hoá đơn số 00000101",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "-49986.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000625.xml",
+      "sha256": "384cad7297b0caed368e24e65d0e220ddb182b63f3154560226c7247b912dc3c",
+      "bytes": 12898,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000625.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000626"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000102"
+      ],
+      "money": [
+        "4347265.000000",
+        "347781.000000",
+        "4695045.000000"
+      ],
+      "header_arithmetic_difference": "1.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh tăng giá trị hoá đơn số 00000102",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "347781.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000626.xml",
+      "sha256": "836b427146c2adcb3def573f8729174dd92bbae6aea1d783458e11c2cba75a31",
+      "bytes": 12918,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000626.xml",
+      "pending_role": "adjustment",
+      "header_matches_current_export": true,
+      "date_matches_current_export": true,
+      "reference_matches_current_chain": true
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000627"
+      ],
+      "date": "2025-05-04",
+      "related": [
+        "1C25TUV",
+        "00000103"
+      ],
+      "money": [
+        "2979800.000000",
+        "238384.000000",
+        "3218184.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh tăng giá trị hoá đơn số 00000103",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "238384.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000627.xml",
+      "sha256": "b2cfce14171373e5c77f6b9526fe8280d9b7c7573b13b3e9d256b6f559deaa0b",
+      "bytes": 12919,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000627.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000628"
+      ],
+      "date": "2025-05-05",
+      "related": [
+        "1C25TUV",
+        "00000105"
+      ],
+      "money": [
+        "6179862.000000",
+        "494389.000000",
+        "6674251.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh tăng giá trị hoá đơn số 00000105",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "494389.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000628.xml",
+      "sha256": "7a97fe7febf13db7a4c2a59a90777329a5f0a4f2ab573acf42ff1c6e3c607fbe",
+      "bytes": 12926,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000628.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000629"
+      ],
+      "date": "2025-05-05",
+      "related": [
+        "1C25TUV",
+        "00000106"
+      ],
+      "money": [
+        "5244487.000000",
+        "419559.000000",
+        "5664046.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh tăng giá trị hoá đơn số 00000106",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "419559.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000629.xml",
+      "sha256": "160a4420acfe791db9dd24c8cfd4c6b784ce60797f3dd56e0cdb158e464dc867",
+      "bytes": 12915,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000629.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000630"
+      ],
+      "date": "2025-05-05",
+      "related": [
+        "1C25TUV",
+        "00000107"
+      ],
+      "money": [
+        "4861941.000000",
+        "388955.000000",
+        "5250896.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh tăng giá trị hoá đơn số 00000107",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "388955.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000630.xml",
+      "sha256": "67fbedef12fac43ff4282b0ae86755893ce36a77e14c8267666649e390d3c18f",
+      "bytes": 12916,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000630.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000631"
+      ],
+      "date": "2025-05-05",
+      "related": [
+        "1C25TUV",
+        "00000108"
+      ],
+      "money": [
+        "6953931.000000",
+        "556314.000000",
+        "7510245.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh tăng giá trị hoá đơn số 00000108",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "556314.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000631.xml",
+      "sha256": "e2b34f39f243d22b7a02f0ef40c37e81e15cf25be4eaf1b0c0b5c0c23577f44e",
+      "bytes": 12911,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000631.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000632"
+      ],
+      "date": "2025-05-05",
+      "related": [
+        "1C25TUV",
+        "00000110"
+      ],
+      "money": [
+        "9660997.000000",
+        "772880.000000",
+        "10433877.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh tăng giá trị hoá đơn số 00000110",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "772880.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000632.xml",
+      "sha256": "6cadb09a8175ee8fc5d2ac9ab73da8e326e8f3874cb18b9d47680659e8f25d50",
+      "bytes": 12936,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000632.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000633"
+      ],
+      "date": "2025-05-05",
+      "related": [
+        "1C25TUV",
+        "00000111"
+      ],
+      "money": [
+        "-212069.000000",
+        "-16966.000000",
+        "-229035.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh giảm giá trị hoá đơn số 00000111",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "-16966.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000633.xml",
+      "sha256": "000fc31af53eef29e4f1c93f1301d0599592ae72a7fe956da28cf4c329e5202a",
+      "bytes": 12890,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000633.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000634"
+      ],
+      "date": "2025-05-05",
+      "related": [
+        "1C25TUV",
+        "00000112"
+      ],
+      "money": [
+        "4256735.000000",
+        "340539.000000",
+        "4597274.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh tăng giá trị hoá đơn số 00000112",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "340539.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000634.xml",
+      "sha256": "2c38d01c045dd5870e7a7f24df4d264accf105bd8bc4dcb96002d42707b31ce1",
+      "bytes": 12933,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000634.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000635"
+      ],
+      "date": "2025-05-05",
+      "related": [
+        "1C25TUV",
+        "00000113"
+      ],
+      "money": [
+        "446836.000000",
+        "35747.000000",
+        "482583.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh tăng giá trị hoá đơn số 00000113",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "35747.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000635.xml",
+      "sha256": "53928e76d91b9ea86c0201b70b8be54c6fee9445b68a8046412141bee826c334",
+      "bytes": 12884,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000635.xml",
+      "pending_role": "adjustment",
+      "header_matches_current_export": true,
+      "date_matches_current_export": true,
+      "reference_matches_current_chain": true
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000636"
+      ],
+      "date": "2025-05-05",
+      "related": [
+        "1C25TUV",
+        "00000114"
+      ],
+      "money": [
+        "292925.000000",
+        "23434.000000",
+        "316359.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh tăng giá trị hoá đơn số 00000114",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "23434.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000636.xml",
+      "sha256": "abc1910cd5740fef3f31904036118686603670c6304b64ba4f1fe9601db09493",
+      "bytes": 12876,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000636.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000637"
+      ],
+      "date": "2025-05-05",
+      "related": [
+        "1C25TUV",
+        "00000115"
+      ],
+      "money": [
+        "-1966129.000000",
+        "-157290.000000",
+        "-2123419.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh giảm giá trị hoá đơn số 00000115",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "-157290.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000637.xml",
+      "sha256": "b35b52a417f0c65891d32ba3fae9e57152225b647d430da654390a1f5a7bb86e",
+      "bytes": 12938,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000637.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000638"
+      ],
+      "date": "2025-05-05",
+      "related": [
+        "1C25TUV",
+        "00000116"
+      ],
+      "money": [
+        "55278.000000",
+        "4422.000000",
+        "59700.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh tăng giá trị hoá đơn số 00000116",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "4422.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000638.xml",
+      "sha256": "62cf9747b85623c816af92c42edc06d1647dd8cb94d15803c4abed120b34556b",
+      "bytes": 12820,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000638.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000639"
+      ],
+      "date": "2025-05-05",
+      "related": [
+        "1C25TUV",
+        "00000124"
+      ],
+      "money": [
+        "807036.000000",
+        "64563.000000",
+        "871599.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh  tăng giá trị hoá đơn số 00000124",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "64563.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000639.xml",
+      "sha256": "ec1428678eb0062c23f021893cd38f79392c7e9dd24eabc85f3c5b514a1e95dd",
+      "bytes": 12893,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000639.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000640"
+      ],
+      "date": "2025-05-05",
+      "related": [
+        "1C25TUV",
+        "00000125"
+      ],
+      "money": [
+        "1090079.000000",
+        "87206.000000",
+        "1177285.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh tăng giá trị hoá đơn số 00000125",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "87206.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000640.xml",
+      "sha256": "5b37c6d93d75a130a2884ba924299df1d6239cc4acde5ad01c6150223cedd86f",
+      "bytes": 12924,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000640.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000641"
+      ],
+      "date": "2025-05-05",
+      "related": [
+        "1C25TUV",
+        "00000127"
+      ],
+      "money": [
+        "684723.000000",
+        "54778.000000",
+        "739501.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều  chỉnh tăng giá trị hoá đơn số 00000127",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "54778.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000641.xml",
+      "sha256": "9fe65507ec07e1de409ae6ba6e0677ea8b8c932600f788f064ffb60dc38704d1",
+      "bytes": 12875,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000641.xml"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000642"
+      ],
+      "date": "2025-05-05",
+      "related": [
+        "1C25TUV",
+        "00000129"
+      ],
+      "money": [
+        "2544522.000000",
+        "203562.000000",
+        "2748084.000000"
+      ],
+      "header_arithmetic_difference": "0.000000",
+      "lines": [
+        {
+          "name": "Điều chỉnh giá trị hoá đơn số 00000129",
+          "nature": "1",
+          "qty": "0.000000",
+          "price": "0.000000",
+          "goods": "0.000000",
+          "rate": "8%",
+          "tax_extra": "203562.0"
+        }
+      ],
+      "line_goods_sum": "0.000000",
+      "entry": "1C25TUV_00000642.xml",
+      "sha256": "9b4419851dea3c458ab6ffde2ddde5d6c27f082ba69c0646c925179d731bb588",
+      "bytes": 12907,
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000642.xml"
+    }
+  ],
+  "pdf_entries": [
+    {
+      "entry": "1C25TUV_00000543.pdf",
+      "bytes": 822785,
+      "sha256": "fadc341eca790aa847bddaa521e279eddf6f6d93d9a23af611585dae2b2063cd"
+    },
+    {
+      "entry": "1C25TUV_00000544.pdf",
+      "bytes": 658481,
+      "sha256": "0b01a95d8907016ac427dd37947ab15f623394c74a0d4117ca3e2a5fa1e34802"
+    },
+    {
+      "entry": "1C25TUV_00000545.pdf",
+      "bytes": 199383,
+      "sha256": "22e031638021f019155a4ef29fcb21d3a2dc32e8202e474d38ff3b1d7b5fcf9e"
+    },
+    {
+      "entry": "1C25TUV_00000546.pdf",
+      "bytes": 199794,
+      "sha256": "f82478af7b629a1a838be9bc6e42a307b5cc6a46351e7d8a01d16b31dbd47921"
+    },
+    {
+      "entry": "1C25TUV_00000547.pdf",
+      "bytes": 199117,
+      "sha256": "739c809b7023f3f4a647000e823e56c576bd1147673ede7c80fa421562b60c6e"
+    },
+    {
+      "entry": "1C25TUV_00000548.pdf",
+      "bytes": 205371,
+      "sha256": "af2e242acfdc50387add006404769b18d3f56eb2fbf889c1e04bef711b955910"
+    },
+    {
+      "entry": "1C25TUV_00000549.pdf",
+      "bytes": 199829,
+      "sha256": "084528f75f671a90da425e2dabfe58dc3cca1eba9e564890038151fcf6b92607"
+    },
+    {
+      "entry": "1C25TUV_00000550.pdf",
+      "bytes": 200274,
+      "sha256": "93519fe904f23afdb9c18b182460f3bf94297ed58c88b70684b75a83500bc278"
+    },
+    {
+      "entry": "1C25TUV_00000551.pdf",
+      "bytes": 200119,
+      "sha256": "28ee17477e537f20f1f8c617beac5e941e829ab08923ddf581f4f0f5cb92a0da"
+    },
+    {
+      "entry": "1C25TUV_00000552.pdf",
+      "bytes": 200413,
+      "sha256": "c896e71aca5cdbc69d7ee36ee91963db1c0af09826ddca5d71552f7ae196ec41"
+    },
+    {
+      "entry": "1C25TUV_00000553.pdf",
+      "bytes": 205058,
+      "sha256": "f720bd83fdb4ea849e474ae65643d6aa2df4276980fdfe023642b31c14f1931b"
+    },
+    {
+      "entry": "1C25TUV_00000554.pdf",
+      "bytes": 199904,
+      "sha256": "4b24111480e8f929dd5e2c62618612675cc12d7f7e0e6a1b3483e3b27969e183"
+    },
+    {
+      "entry": "1C25TUV_00000555.pdf",
+      "bytes": 205643,
+      "sha256": "e9de641794b930f350562ad0886d5ee45a3e70279b2530e424bcf358f197d247"
+    },
+    {
+      "entry": "1C25TUV_00000556.pdf",
+      "bytes": 199888,
+      "sha256": "18215efd0542ab0bbcab537d8f97771bdd0f6903bbcfc877f948c90e031c280b"
+    },
+    {
+      "entry": "1C25TUV_00000557.pdf",
+      "bytes": 200187,
+      "sha256": "a4921b50506b1e263cb47ff8ac43f64aa0641aad06a7b42ea51e6d0a7b7a7d36"
+    },
+    {
+      "entry": "1C25TUV_00000558.pdf",
+      "bytes": 200823,
+      "sha256": "2afd6e5daf63dc58dee192a97f2adeacd8d68dc97a2792c6a514ee5bb295fb22"
+    },
+    {
+      "entry": "1C25TUV_00000559.pdf",
+      "bytes": 200336,
+      "sha256": "ab28963135fce64762d28b496022c0346a0e3aa093a2f94065a42fd3b9c45e1e"
+    },
+    {
+      "entry": "1C25TUV_00000560.pdf",
+      "bytes": 200123,
+      "sha256": "bf35cb0cce1b3663aa7127d0ea0e1fb3db317e589d255800455ee9b89f9cfbc4"
+    },
+    {
+      "entry": "1C25TUV_00000561.pdf",
+      "bytes": 200959,
+      "sha256": "3d9cf8c4260e10b1c86364664d888d5e3e884b6d3ac44bd08e5a0049413035b6"
+    },
+    {
+      "entry": "1C25TUV_00000562.pdf",
+      "bytes": 199750,
+      "sha256": "b12ff0e79df9f1f3a17132ee1a03b54e05a02ee8ae294411f9b403faff7f3ab0"
+    },
+    {
+      "entry": "1C25TUV_00000563.pdf",
+      "bytes": 206416,
+      "sha256": "23face792ecdd716aa866a7088c4b385bc6289e8f9fd590daf91634e32cc5564"
+    },
+    {
+      "entry": "1C25TUV_00000564.pdf",
+      "bytes": 199969,
+      "sha256": "a6b6b7ce002b68c0cabf278d13560f0f1242a791685817956458665ba1117b30"
+    },
+    {
+      "entry": "1C25TUV_00000565.pdf",
+      "bytes": 200270,
+      "sha256": "0fc52e32e513138918d31c6eaa90b20ae7a1211ea07c7a35433972a8c1dfe2b0"
+    },
+    {
+      "entry": "1C25TUV_00000566.pdf",
+      "bytes": 200509,
+      "sha256": "467d59e34f32e920b790256910a4b2c6a402a3a0f0e83707d39adcfe76c5aee6"
+    },
+    {
+      "entry": "1C25TUV_00000567.pdf",
+      "bytes": 199919,
+      "sha256": "8442b47c25b42bcff60680ff62ff8e021a4c94765601dd04a5a8d475ae0897c3"
+    },
+    {
+      "entry": "1C25TUV_00000568.pdf",
+      "bytes": 200034,
+      "sha256": "40b78bff08626f7aaa13ebf7f966dcb2a9a126822ef9b1f949f292e99af2a71e"
+    },
+    {
+      "entry": "1C25TUV_00000569.pdf",
+      "bytes": 199583,
+      "sha256": "c7e0dfae233c4f8d2b41eb82e07a7c715bd2e14242538aff940319883ec42467"
+    },
+    {
+      "entry": "1C25TUV_00000570.pdf",
+      "bytes": 199340,
+      "sha256": "82b4c1ecbe156c2c1274b656cf11ecc162f7483faa84357f9321f47709d7ce11"
+    },
+    {
+      "entry": "1C25TUV_00000571.pdf",
+      "bytes": 200301,
+      "sha256": "71d7b3d8d9858f972e436f308c3eba7c6ee315eae419040836c5fdb9159bab9d"
+    },
+    {
+      "entry": "1C25TUV_00000572.pdf",
+      "bytes": 199713,
+      "sha256": "9f789b32e0e5182235d28b8ab340cf54522efe0e6a7721bca88ae69a2f30dbe0"
+    },
+    {
+      "entry": "1C25TUV_00000573.pdf",
+      "bytes": 199054,
+      "sha256": "55a0796e750fdab3830faed7831ee5c0335d7a43b0a13974b4b89289dbc3b2c7"
+    },
+    {
+      "entry": "1C25TUV_00000574.pdf",
+      "bytes": 204700,
+      "sha256": "52faae73dc450b60d22614527412fcedb420bfc6f90807bb6a8fed647edb4f2f"
+    },
+    {
+      "entry": "1C25TUV_00000575.pdf",
+      "bytes": 200036,
+      "sha256": "20637dedcbab63148cbef2cda1cb07a8ca41beaec31d949df88913e192feaa02"
+    },
+    {
+      "entry": "1C25TUV_00000576.pdf",
+      "bytes": 205271,
+      "sha256": "5e897ae64b95781405a4fdbbfd8227b1666eb017cd62482853542ecc77516664"
+    },
+    {
+      "entry": "1C25TUV_00000577.pdf",
+      "bytes": 199820,
+      "sha256": "8a3fedc87a49a66663d151303db9347d86fec071c7d64d1fd827c0a0cfa12c73"
+    },
+    {
+      "entry": "1C25TUV_00000578.pdf",
+      "bytes": 205896,
+      "sha256": "98c1231f068b605f73b5f075cf3df2c30d4feecc625b69fd91e9d410faafd9a1"
+    },
+    {
+      "entry": "1C25TUV_00000579.pdf",
+      "bytes": 199379,
+      "sha256": "09ee7089e86daaa4faf0f3f2e27f9a71f544c6fa226af4a44fd5bf3e06758f8d"
+    },
+    {
+      "entry": "1C25TUV_00000580.pdf",
+      "bytes": 205325,
+      "sha256": "b6c5abf26f7f67f0ee08010189d85aa1f497045e7c0905b8e215b7d2c483f26e"
+    },
+    {
+      "entry": "1C25TUV_00000581.pdf",
+      "bytes": 199268,
+      "sha256": "a679672f9bf8351664aa6f357fe3a6bff7a3eae30f6c7937916ac765c7e7717c"
+    },
+    {
+      "entry": "1C25TUV_00000582.pdf",
+      "bytes": 205845,
+      "sha256": "ef25003586a541364ee1f2ddcbbc7df74f1130bc6d2fc5ea19050053992ef153"
+    },
+    {
+      "entry": "1C25TUV_00000583.pdf",
+      "bytes": 205745,
+      "sha256": "ecdc1b97edc21449ef1f5c1418c62edbe31d279aacd05a692c5b7744a34b4aef"
+    },
+    {
+      "entry": "1C25TUV_00000584.pdf",
+      "bytes": 199096,
+      "sha256": "fa9b97ba47094c57fe5ef79f0fc41f0a1858457f61f9c69dcdcddeb00b969cb2"
+    },
+    {
+      "entry": "1C25TUV_00000585.pdf",
+      "bytes": 205659,
+      "sha256": "3b5f8787bffe0eb5e90bfe8a03d560fba89fe45aaf9672ec93b6e1709f26b254"
+    },
+    {
+      "entry": "1C25TUV_00000586.pdf",
+      "bytes": 204542,
+      "sha256": "e32e0cb8e73be15d5d149bdfe10b73702216c4a414d0582e8ca56c1b97225fca"
+    },
+    {
+      "entry": "1C25TUV_00000587.pdf",
+      "bytes": 199673,
+      "sha256": "82c7cf2828abb9cc5947bb41bc371175efede15dbefa26d52d3d1fce0eb19d1c"
+    },
+    {
+      "entry": "1C25TUV_00000588.pdf",
+      "bytes": 200021,
+      "sha256": "cc2845493afd16b763d49765644b9074d9c9d97f1ebe5b94ec5a75de502a22e8"
+    },
+    {
+      "entry": "1C25TUV_00000589.pdf",
+      "bytes": 199877,
+      "sha256": "4afba9d65aca4f971164ea6f50c0fd4abb1517291d8c23db8e57f129b4e93883"
+    },
+    {
+      "entry": "1C25TUV_00000590.pdf",
+      "bytes": 200398,
+      "sha256": "ac7a45ead1786b3a13aa81c8a6d6e4b9df5c26b43685c5c544d6d2e645972c14"
+    },
+    {
+      "entry": "1C25TUV_00000591.pdf",
+      "bytes": 199859,
+      "sha256": "76862653d383b58660cf9b29d25dd58a81cd3ee6cd7ce0b5e626996e1d1eb8a7"
+    },
+    {
+      "entry": "1C25TUV_00000592.pdf",
+      "bytes": 199673,
+      "sha256": "3343b7363e2ab9142835d5210d0652baaa67df9fb4f9b4f720bd17fbeb042f61"
+    },
+    {
+      "entry": "1C25TUV_00000593.pdf",
+      "bytes": 205443,
+      "sha256": "0b9c24d26ad9a4e438528f7faed43fc8de9c7a330db1ada6558b181a91a70b3d"
+    },
+    {
+      "entry": "1C25TUV_00000594.pdf",
+      "bytes": 200351,
+      "sha256": "5743b7c84b2c16ecf942b0bcca8c968efa2e19cceb2fdec247a0ae9ac9542f2e"
+    },
+    {
+      "entry": "1C25TUV_00000595.pdf",
+      "bytes": 199481,
+      "sha256": "2e876471b02b83ac7447474ff0231f691e19b1e88aa431caf54883631ac14fb6"
+    },
+    {
+      "entry": "1C25TUV_00000596.pdf",
+      "bytes": 199964,
+      "sha256": "1f6ae193ae13fecdd9fd2c2e23b5cb2efa070a552ddbfd756d8ce431cd1c2f42"
+    },
+    {
+      "entry": "1C25TUV_00000597.pdf",
+      "bytes": 199504,
+      "sha256": "92012133d64d488fe04a44c8d7b7d354a0613bae222b0d123999a98c58961ef2"
+    },
+    {
+      "entry": "1C25TUV_00000598.pdf",
+      "bytes": 204617,
+      "sha256": "6a7b2a6be00abe5261ec36e4879423c872e98dcb895811f43cf0a326ee13eb9d"
+    },
+    {
+      "entry": "1C25TUV_00000599.pdf",
+      "bytes": 199355,
+      "sha256": "9bd75a0a23d63ce03a576f861f526b210c927e6af6c7a9ac890ffd7bd0cb4f87"
+    },
+    {
+      "entry": "1C25TUV_00000600.pdf",
+      "bytes": 199804,
+      "sha256": "c8f779b364df9681f824a0496696e94f4f8b88989d0cfd8d1de5c7cd723b1e98"
+    },
+    {
+      "entry": "1C25TUV_00000601.pdf",
+      "bytes": 205366,
+      "sha256": "a6f3a7b0764a24b9e028f80c205c9a8eb5c23bbf7ca13f033de5633cc03ce1df"
+    },
+    {
+      "entry": "1C25TUV_00000602.pdf",
+      "bytes": 205085,
+      "sha256": "7833bd000ab4a099313ed6fbc2ffd60199bb1e7a33df6a9c5d737e35440b49d4"
+    },
+    {
+      "entry": "1C25TUV_00000603.pdf",
+      "bytes": 205502,
+      "sha256": "cc151ccc5f3d643b0196deac8008549f0ff0c15734924d0ac00b5e35286f408f"
+    },
+    {
+      "entry": "1C25TUV_00000604.pdf",
+      "bytes": 199952,
+      "sha256": "f1451db3b8a10f08e86e70aa95b4bbf20ebaf890ea077e3f2256682f9ff3bf46"
+    },
+    {
+      "entry": "1C25TUV_00000605.pdf",
+      "bytes": 199451,
+      "sha256": "0cb7e7c247bb74405984a348162d8c99dcc7c51ee39434f934bb5aaf5ff97f74"
+    },
+    {
+      "entry": "1C25TUV_00000606.pdf",
+      "bytes": 199663,
+      "sha256": "43657b3d6c1e8198d1d40c066aff8077a7d05431e1999276d0b21fdad97c5934"
+    },
+    {
+      "entry": "1C25TUV_00000607.pdf",
+      "bytes": 199428,
+      "sha256": "876a65e86c50c495b72e7aef97d4ecff613804a5b6172fe338bdcef94f735f5e"
+    },
+    {
+      "entry": "1C25TUV_00000608.pdf",
+      "bytes": 199857,
+      "sha256": "f4b7b6fcc7a4d83dd350181f6cb794afdb30d3d5900fe7c4d5861010bf549dc6"
+    },
+    {
+      "entry": "1C25TUV_00000609.pdf",
+      "bytes": 200035,
+      "sha256": "79b87bb8c1499fa61e46bfc4465888d6680aa698b5c0ba2367cd9e55dd732a21"
+    },
+    {
+      "entry": "1C25TUV_00000610.pdf",
+      "bytes": 200191,
+      "sha256": "028d085dc66ab3a165d1123ab6d2f65de5967b06bdbdf05feb214b7fb97589a3"
+    },
+    {
+      "entry": "1C25TUV_00000611.pdf",
+      "bytes": 206037,
+      "sha256": "5873e8e9df8656a0ab0e6ee7032928fa732230f2225975efc7609ab34c9b2641"
+    },
+    {
+      "entry": "1C25TUV_00000612.pdf",
+      "bytes": 199975,
+      "sha256": "cbd2aad5fa70247cee921cb841df0586ba5c89a2045dd0113e3379f5e2f83297"
+    },
+    {
+      "entry": "1C25TUV_00000613.pdf",
+      "bytes": 200028,
+      "sha256": "5983e4c1d4877bd391d39fbbdc1b9459ee1559d24889d076bfac45683f4353cd"
+    },
+    {
+      "entry": "1C25TUV_00000614.pdf",
+      "bytes": 200079,
+      "sha256": "4acaa96d63568466267c7f0a953931a9148d91249aad37f4ba8f375421cd3643"
+    },
+    {
+      "entry": "1C25TUV_00000615.pdf",
+      "bytes": 200333,
+      "sha256": "c0b228a98c262a2e30bb0c51f57e579b9bc35d9bf124325c9503379b8bee250c"
+    },
+    {
+      "entry": "1C25TUV_00000616.pdf",
+      "bytes": 200290,
+      "sha256": "a0c48e21e4ad65039a25a4d76887666ee041f5002b426d456d81e42cd71088a0"
+    },
+    {
+      "entry": "1C25TUV_00000617.pdf",
+      "bytes": 200705,
+      "sha256": "44e28c180d87bcdbc1a86c24c47101b6931a9ea5ebbcedb694af645407d58cf1"
+    },
+    {
+      "entry": "1C25TUV_00000618.pdf",
+      "bytes": 201084,
+      "sha256": "35bbb8d20efbb2d57e8f7946f247fd259211bf1417a1348b37adeb0a337cd66a"
+    },
+    {
+      "entry": "1C25TUV_00000619.pdf",
+      "bytes": 199530,
+      "sha256": "9f39b972480f4eda127ce013745ae2ed09cf09ff93027076a65e86ca4f31cc32"
+    },
+    {
+      "entry": "1C25TUV_00000620.pdf",
+      "bytes": 199398,
+      "sha256": "38ab190eb13e2f3ebd8ca2b916a5db88991b8f4717ba04b9d3cb3bd5121ee0a0"
+    },
+    {
+      "entry": "1C25TUV_00000621.pdf",
+      "bytes": 199428,
+      "sha256": "3d5f617d0659ee8fbf93ea1e235c443ed01dca546c2097360cc62bb4488893f1"
+    },
+    {
+      "entry": "1C25TUV_00000622.pdf",
+      "bytes": 199549,
+      "sha256": "b9b389b043696770a2e6a4ac57d00888ce4876450dbe404e5d409745ae035f0b"
+    },
+    {
+      "entry": "1C25TUV_00000623.pdf",
+      "bytes": 205589,
+      "sha256": "031d7d0f410a98981e99cfb89c01f4a23d265d074e539f1fe7aed11b66521e70"
+    },
+    {
+      "entry": "1C25TUV_00000624.pdf",
+      "bytes": 199663,
+      "sha256": "cbd4d83b4fcbd5b9a48c19eda4921700c067e7d155b6127a1c40bf56ab265065"
+    },
+    {
+      "entry": "1C25TUV_00000625.pdf",
+      "bytes": 199413,
+      "sha256": "c7e674f0c0d024ecef92344d798ab482b6f08b9ebf9b2a70d73c1b3ce0a18a91"
+    },
+    {
+      "entry": "1C25TUV_00000626.pdf",
+      "bytes": 200989,
+      "sha256": "f1c6b1f1c4d9bec2d707dcce24dbd2a6ba36944f985ca74a09f348da471a0ca2"
+    },
+    {
+      "entry": "1C25TUV_00000627.pdf",
+      "bytes": 199881,
+      "sha256": "57c234d603e6f53b0a068ac0f13d7b6f0dc3ccb0763b2c3dd71dd15bca3c9bc0"
+    },
+    {
+      "entry": "1C25TUV_00000628.pdf",
+      "bytes": 205881,
+      "sha256": "2ca527fc63846ead6d76b034c6d60e74d91aa8619e7be1473de5a5440b8c9384"
+    },
+    {
+      "entry": "1C25TUV_00000629.pdf",
+      "bytes": 200711,
+      "sha256": "d8bdb042023c827ca260cb6b7ff37920bcfcda3a0433215b21b45b115d1e04bc"
+    },
+    {
+      "entry": "1C25TUV_00000630.pdf",
+      "bytes": 200545,
+      "sha256": "faa566a6e9b3a27bbe85ac3c106789ffba46923ce5166f5723929ef93f4eddce"
+    },
+    {
+      "entry": "1C25TUV_00000631.pdf",
+      "bytes": 205645,
+      "sha256": "975dafc2a43ed859838d24d76b6c8d31487a259ebbf3b32b074f2763e651736d"
+    },
+    {
+      "entry": "1C25TUV_00000632.pdf",
+      "bytes": 199425,
+      "sha256": "0dc23f7259d623559d3b6b5abe20caae94f6c0ddeb84da1a324a15572bdd46dc"
+    },
+    {
+      "entry": "1C25TUV_00000633.pdf",
+      "bytes": 200487,
+      "sha256": "bf3333c00ad039eebceb3a7d1adfef11bedd49d355c740066ec5d5c81923f478"
+    },
+    {
+      "entry": "1C25TUV_00000634.pdf",
+      "bytes": 199657,
+      "sha256": "314787396bf957123e0aef99ddca43a9bd12410b0bcf66a3e1441ec1cf7474a9"
+    },
+    {
+      "entry": "1C25TUV_00000635.pdf",
+      "bytes": 199532,
+      "sha256": "616ba7deda5368b36dfdcd483bf7bd4ba5cf2de6cf21d2b91eaaa4867d2d89e9"
+    },
+    {
+      "entry": "1C25TUV_00000636.pdf",
+      "bytes": 200051,
+      "sha256": "d7952baf6ca33fe5d0f5c63c8e2a7d49ea13a7458faf73e18f41d1e93d3e29dc"
+    },
+    {
+      "entry": "1C25TUV_00000637.pdf",
+      "bytes": 199597,
+      "sha256": "188b24b9a8edffb7bde14fb68c790735262f9fb6c4f7b431c7e754c2d09f86d6"
+    },
+    {
+      "entry": "1C25TUV_00000638.pdf",
+      "bytes": 205337,
+      "sha256": "306ad2c1cf79e59b94d638d8c8adb5ea00054e04bdd5bb087073391356262704"
+    },
+    {
+      "entry": "1C25TUV_00000639.pdf",
+      "bytes": 204971,
+      "sha256": "217da97e4b0b5400625e192071248956d1524a5cbd5a0cf125ef29f404148fa9"
+    },
+    {
+      "entry": "1C25TUV_00000640.pdf",
+      "bytes": 199848,
+      "sha256": "aff9e8cffa73e171c8b29235a0d20955c242a30c829f4e0e9ccb8c4083343814"
+    },
+    {
+      "entry": "1C25TUV_00000641.pdf",
+      "bytes": 205653,
+      "sha256": "6c9a9f67f85134c811dfe7e568c7b8caec705c794af0f0ce6db79d6b5f09bb40"
+    },
+    {
+      "entry": "1C25TUV_00000642.pdf",
+      "bytes": 200612,
+      "sha256": "e21a5b039e283deb223a91b7541ba7574321a0239e668b47c7dc1d2b484a13c9"
+    }
+  ],
+  "remaining_pending_adjustment_xml_not_in_repo": [
+    [
+      "1C25TUV",
+      "00001167"
+    ],
+    [
+      "1C25TUV",
+      "00002619"
+    ],
+    [
+      "1C25TUV",
+      "00002646"
+    ],
+    [
+      "1C25TUV",
+      "00001819"
+    ],
+    [
+      "1C25TUV",
+      "00001821"
+    ],
+    [
+      "1C25TUV",
+      "00002140"
+    ],
+    [
+      "1C25TUV",
+      "00002145"
+    ],
+    [
+      "1C25TUV",
+      "00002632"
+    ],
+    [
+      "1C25TUV",
+      "00002189"
+    ],
+    [
+      "1C25TUV",
+      "00000655"
+    ],
+    [
+      "1C25TUV",
+      "00000657"
+    ],
+    [
+      "1C25TUV",
+      "00000649"
+    ],
+    [
+      "1C25TUV",
+      "00006108"
+    ],
+    [
+      "1C25TUV",
+      "00004203"
+    ],
+    [
+      "1C25TUV",
+      "00004204"
+    ],
+    [
+      "1C25TUV",
+      "00009186"
+    ]
+  ],
+  "workbooks_unchanged": true,
+  "workbook_hashes": {
+    "HOA_DON_CHUA_DIEU_CHINH_F0_2024_T6_2025.xlsx": "f4fd4dd2c80031e3fa46aa4b56d7dde4ecea9c592e65baf2af2fa66f2b0c1f0a",
+    "HOA_DON_DA_DIEU_CHINH_F0_2024_T6_2025.xlsx": "ee4c9ea51a4869298bccc041e99ee040da8c3ee0a3d65b2e3a6813a74e6f0fd4",
+    "NGOAI_LE_F0_2024_T6_2025.xlsx": "708d83c444eed60c2a8ebefca6b97085d02c57f53a8ad36e6f789758d857c950"
+  },
+  "errors": [],
+  "limits": [
+    "XML contents read without cryptographic signature or live CQT verification.",
+    "All archive XML and the original XML/PDF ZIP are preserved byte for byte.",
+    "No source totals, workbook contents, import plan or issuance decision changed."
+  ]
+}
