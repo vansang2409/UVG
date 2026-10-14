@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "name": "HOA_DON_DA_DIEU_CHINH_F0_2024_T6_2025.xlsx",
+  "edited_cells": 41790,
+  "invoices": 2032,
+  "counts": {
+    "giảm": 1607,
+    "tăng": 425
+  },
+  "sha256_after": "f0056ce91b0a351aa25ea42c7d792b047ad6ce284778f0e073b86a98e79e9f37",
+  "other_cell_values_and_styles_unchanged": true
+}

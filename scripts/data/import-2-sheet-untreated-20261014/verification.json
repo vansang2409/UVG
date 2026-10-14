@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "source_sha256": "8a7cdf7b45f533403461076df350e27e27bb685f35ab24cdb97e0da82a09f658",
+  "output_sha256": "d31f5f1c7f6e48b4c345bff14472053d1c6e5489977d91fbb35d10b0f1d7c96c",
+  "sheets": [
+    "Import dieu chinh",
+    "F0"
+  ],
+  "invoices": 8410,
+  "import_lines": 13568,
+  "checked_cells": 460488,
+  "source_unchanged": true
+}

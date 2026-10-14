@@ -1,3 +1,28 @@
+# Bản gọn 2 sheet để nhập và đối chiếu — 14/10/2026
+
+Rà số học hai bản gọn: 8.410 gốc chưa điều chỉnh và 1.007 chuỗi đã điều chỉnh đều dự kiến về 0 theo ba khoản sau cộng import; gốc6/16 có thanh toán nguồn trống, giữ giả định dự thảo0 đã chốt. Sáu chuỗi CC01–CC06 được quyết định **giữ cả cặp ngoài đợt xử lý**, không có trong import và vẫn còn số dư; gồm3/508. Không nhầm đây là hồ sơ đang chờ kế toán.
+
+Nguồn mới người dùng đặt tại `data/Du lieu Amis/Bang_ke_chi_tiet_hoa_don_da_su_dung_2024.xls` thực tế là bảng kê chi tiết hóa đơn đã sử dụng (586 hóa đơn1C24TUV/23.428 dòng,09/01–31/12/2024), chưa phải Sổ chi tiết bán hàng AMIS. Chưa dùng để thay nguồn AMIS hoặc tái tính import. Hai Sổ chi tiết bán hàng AMIS cũ đang bị xóa cục bộ và file mẫu điều chỉnh đang có sửa cục bộ ngoài phạm vi cập nhật lần này; không đưa các xóa/sửa này vào commit bàn giao.
+
+Đã tạo thêm bản cho **bộ chưa điều chỉnh**: `outputs/HOA_DON_CHUA_DIEU_CHINH_IMPORT_2_SHEET.xlsx`, chỉ gồm `Import dieu chinh` và `F0` (đổi tên từ `Chua dieu chinh`). Đủ 8.410 hóa đơn / 13.568 dòng dữ liệu import; giữ cả các dòng trống cuối sheet như nguồn. Kiểm độc lập 460.488 ô, giá trị/định dạng/công thức giữ nguyên, bản gốc không thay đổi. Báo cáo `scripts/data/import-2-sheet-untreated-20261014/verification.json`; chạy script tách với `--untreated`. SHA-256: `d31f5f1c7f6e48b4c345bff14472053d1c6e5489977d91fbb35d10b0f1d7c96c`.
+
+Theo yêu cầu tạo file chỉ gồm 2 sheet, đã tách từ bộ **đã điều chỉnh** hiện tại ra `outputs/HOA_DON_DA_DIEU_CHINH_IMPORT_2_SHEET.xlsx`: (1) `Import dieu chinh`, (2) `F0, F1, F2, ...` (sheet `Dieu chinh` đổi tên). Chứa 2.032 hóa đơn dự kiến / 41.790 dòng import; không gộp 8.410 hóa đơn của bộ chưa điều chỉnh. Bản gốc không thay đổi. Giữ nguyên XML hai sheet, dữ liệu, công thức, cache, định dạng, bảng và frozen panes; bỏ các sheet/tài nguyên không dùng, cập nhật tên và vị trí sheet/bộ lọc. Kiểm độc lập 1.060.871 ô đạt; không có công thức tham chiếu sheet đã bỏ. Báo cáo `scripts/data/import-2-sheet-20261014/verification.json`; script `scripts/layout-tools/extract-two-import-sheets-20261014.py`. SHA-256 bản gọn: `f5661f3f3717ee2a9c78446f185b231a6b0372f13174d4bda4a83c775c5f7ea9`. Chưa nhập/ký/phát hành.
+
+---
+
+# Cập nhật diễn giải import theo câu người dùng chốt — 14/10/2026
+
+Đã sửa **chỉ cột N — Lý do điều chỉnh** trong sheet `Import dieu chinh` của hai workbook chính. Mẫu: **“Điều chỉnh tăng/giảm cho hóa đơn ký hiệu …, số …, ngày … do xuất sai nội dung”**. Ký hiệu/số/ngày lấy đúng J–L cùng dòng (tham chiếu F0); chiều tăng/giảm theo tổng tiền, các hồ sơ chỉ giảm số lượng dùng giảm. Không đổi cột O tên hàng/dịch vụ, số tiền, ngày, tham chiếu hoặc công thức. Số hóa đơn điều chỉnh cũ vẫn truy tại `Dieu chinh`/`Chi tiet nguon`; diễn giải mới không còn ghi số khoản cũ.
+
+- Chưa điều chỉnh: 8.410 hóa đơn / 13.568 dòng, đều giảm. SHA-256 mới: `8a7cdf7b45f533403461076df350e27e27bb685f35ab24cdb97e0da82a09f658`.
+- Đã điều chỉnh: 2.032 hóa đơn / 41.790 dòng, 425 tăng và 1.607 giảm. SHA-256 mới: `f0056ce91b0a351aa25ea42c7d792b047ad6ce284778f0e073b86a98e79e9f37`.
+
+Hai file đã có thay đổi cục bộ trước thao tác này; đã giữ bản trước sửa tại `scripts/data/import-reasons-20261014/before/`, không dùng baseline 12/10 để ghi đè. Công cụ import toàn workbook chạy chậm và được dừng; nội dung các ô thay đổi được dựng/xuất bằng artifact-tool riêng rồi ghép vào package gốc. Chỉ sheet import và sharedStrings được xử lý; các ZIP entry khác giữ nguyên. Kiểm độc lập bằng openpyxl: mọi ô ngoài phạm vi, công thức, định dạng, thứ tự sheet, merged cells, bảng và frozen panes giữ nguyên. Báo cáo `verified-0.json` và `verified-1.json` trong thư mục trên đều passed. Chưa nhập/ký/phát hành.
+
+Kiểm trạng thái mới: `python scripts/layout-tools/verify-import-reasons-20261014.py 0 --final` và tương tự `1 --final`. Script kiểm 12/10 chỉ dùng cho baseline nghiệp vụ trước đổi diễn giải, không dùng hash cũ để kết luận file hiện tại sai. Không chạy lại builder cũ.
+
+---
+
 # Đã áp dụng phương án đã chốt vào cả 3 workbook chính — 12/10/2026
 
 Người dùng đã cho phép thực hiện: **“ok làm đi”** sau khi được thông báo bước tiếp theo là cập nhật bộ import, sau đó yêu cầu kiểm tra kỹ lại rồi commit/push. Đã hoàn tất cập nhật cả 3 file tại `outputs/`, có bản sao nguyên trạng trước thay đổi tại `scripts/data/apply-confirmed-20261012/before/`. Mục này thay thế trạng thái “chưa cập nhật workbook import” của các mục lịch sử bên dưới. Chưa nhập phần mềm, ký hoặc phát hành.

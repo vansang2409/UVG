@@ -37,3 +37,7 @@ node_modules/
 /scripts/data/check-review/kt-workbook-20261011/previews/
 /scripts/data/check-review/kt-workbook-20261011/confirmed-previews/
 /scripts/data/check-review/kt-workbook-20261011/*.ndjson
+
+# Bản xuất tạm và ảnh của đợt chuẩn hóa diễn giải 14/10.
+/scripts/data/import-reasons-20261014/staged/
+/scripts/data/import-reasons-20261014/*.png
