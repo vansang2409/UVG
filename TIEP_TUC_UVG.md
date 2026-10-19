@@ -1,3 +1,11 @@
+# Rà chênh số lượng theo ảnh kế toán — 19/10/2026
+
+Theo yêu cầu đã xuất danh sách287hóađơn tại `outputs/DANH_SACH_287_HD_DIEU_CHINH_GOC_2022_2023.xlsx`, sheet `287 HD ngoai pham vi`: 37điều chỉnh cho gốc2022 và250cho gốc2023; có số/ngày hóa đơn điều chỉnh và gốc, tên người mua, file/dòng bảng tổng và liên kết để đối chiếu. Kiểm đủ287khóa riêng biệt, số8chữsố/ngày/gốc khớpJSONnguồn, xem ảnh đã giữ số0đầu. Không sửa import. Builder `scripts/layout-tools/list-287-20261019.mjs`.
+
+KT gửi ảnh tính10.855−2hủy nội bộ+321liên quan−10hủy−6đổi tên/địa chỉ−325côngty−33thaythế=10.800, soimport10.442lệch358. Đã kiểm nguồn theo ký hiệu/số, không sửa import:10.855trongkỳ+321liênquan=11.176; trừ287điều chỉnh cho gốc2022–2023,10hủy,338ngoạilệ,30thaythế ngoài ngoạilệ,62hóađơn của31chuỗiđãkhớp,6hóađơn của3chuỗicùngsảnphẩm,1đổitên9186=10.442. Các nhóm loại trừ không trùng nhau. 338ngoại lệ=325côngty/MSTtrongkỳ+1liênquansaukỳ(1C25TUV/00012764ngày15/07/2025)+12hóađơn của6cặp giữriêng. 33thaythế có3đã thuộc ngoạilệ(1C24TUV60,61;1C25TUV2605), nên chỉ trừ thêm30. Chưa có danh sách2hủy nội bộ và6đổi tên/địa chỉ KT đang trừ; cần định danh để khớp từng khoản, không tự trừ thêm hoặc tuyên bố đã đối chiếu chính xác358theo danh sáchKT. Xem `scripts/data/count-difference-20261019/KET_QUA_DOI_CHIEU.md`, JSONchi tiết cùng thư mục và `scripts/audit_count_difference_20261019.py`. Chưa nhập/ký/phát hành.
+
+---
+
 # Bản gọn 2 sheet để nhập và đối chiếu — 14/10/2026
 
 Rà số học hai bản gọn: 8.410 gốc chưa điều chỉnh và 1.007 chuỗi đã điều chỉnh đều dự kiến về 0 theo ba khoản sau cộng import; gốc6/16 có thanh toán nguồn trống, giữ giả định dự thảo0 đã chốt. Sáu chuỗi CC01–CC06 được quyết định **giữ cả cặp ngoài đợt xử lý**, không có trong import và vẫn còn số dư; gồm3/508. Không nhầm đây là hồ sơ đang chờ kế toán.

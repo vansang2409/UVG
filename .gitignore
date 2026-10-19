@@ -41,3 +41,4 @@ node_modules/
 # Bản xuất tạm và ảnh của đợt chuẩn hóa diễn giải 14/10.
 /scripts/data/import-reasons-20261014/staged/
 /scripts/data/import-reasons-20261014/*.png
+/scripts/data/count-difference-20261019/*.png
