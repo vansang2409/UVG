@@ -1,3 +1,13 @@
+# Danh sách 85 hóa đơn giữ ngoài import — 19/10/2026
+
+Đã đối chiếu file kế toán `KE HOACH XUAT LAI HD 2024-T6.2025.xls`, sheet `BK HĐ 24-25 (BSUNG) (2)`, và xuất `outputs/doi-chieu-85-20261019/DANH_SACH_85_HOA_DON_KHONG_DUA_VAO_IMPORT.xlsx`. File gồm `Tong hop` và `85 hoa don`; mỗi hóa đơn có nhóm, lý do giữ ngoài import, gốc của chuỗi, ngày, người mua, thanh toán, vị trí trong sheet KT và căn cứ phân nhóm. Đã kiểm độc lập đủ 85 khóa riêng biệt, toàn bộ 1.020 ô dữ liệu khớp bản trích, tổng nhóm 62/12/4/6/1 và không có ô lỗi Excel; đã xem trước bố cục. Không sửa file KT hoặc các workbook import.
+
+Tập KT đang lọc cột AL trống có 10.207 dòng; cộng AM được 11.274 lượt. Có 747 lượt trùng (739 F1 + 8 F2), còn 10.527 hóa đơn riêng biệt. KT đang trừ 739 + 9 thành 10.526 tại `Tong hop`/`Tổng hợp` B49: dư một lượt trừ so với tập đang lọc. Toàn bộ 10.442 hóa đơn thuộc bộ xử lý hiện tại có trong tập KT; 85 khóa còn lại gồm 62 hóa đơn của 31 chuỗi đã khớp, 12 hóa đơn của 6 cặp giữ riêng, 4 hóa đơn thuộc 2 chuỗi ngoại lệ công ty, 6 hóa đơn của 3 chuỗi cùng sản phẩm giữ nguyên và điều chỉnh tên 1C25TUV/00009186.
+
+Thông tin mới thay thế phần chưa có định danh ở mục lịch sử bên dưới: KT ghi “HĐ không hợp lệ, hủy nội bộ” cho 1C25TUV/00001943 và 1C25TUV/00002060 tại dòng 2734 và 2851. Cả hai vẫn có AL trống và thuộc bộ xử lý hiện tại; không thuộc danh sách 85. Chưa có quyết định thay đổi import theo ghi chú này. Không tự loại chúng hoặc tự diễn giải các khoản 4 + 2 điều chỉnh tên/địa chỉ trong bảng tổng KT.
+
+---
+
 # Rà chênh số lượng theo ảnh kế toán — 19/10/2026
 
 Theo yêu cầu đã xuất danh sách287hóađơn tại `outputs/DANH_SACH_287_HD_DIEU_CHINH_GOC_2022_2023.xlsx`, sheet `287 HD ngoai pham vi`: 37điều chỉnh cho gốc2022 và250cho gốc2023; có số/ngày hóa đơn điều chỉnh và gốc, tên người mua, file/dòng bảng tổng và liên kết để đối chiếu. Kiểm đủ287khóa riêng biệt, số8chữsố/ngày/gốc khớpJSONnguồn, xem ảnh đã giữ số0đầu. Không sửa import. Builder `scripts/layout-tools/list-287-20261019.mjs`.
