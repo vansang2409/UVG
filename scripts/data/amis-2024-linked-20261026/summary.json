@@ -1,0 +1,149 @@
+{
+  "summary": {
+    "Đưa vào import": {
+      "documents": 34570,
+      "source_lines": 43963,
+      "import_lines": 43960,
+      "goods": 49268657057,
+      "returns": 0,
+      "vat": 3941492865,
+      "payment": 53210149922,
+      "net_goods": 49261967212,
+      "net_vat": 3940957679,
+      "net_payment": 53202924891
+    },
+    "Cần kiểm tra": {
+      "documents": 12,
+      "source_lines": 17,
+      "import_lines": 0,
+      "goods": 49265972,
+      "returns": 972222,
+      "vat": 3863500,
+      "payment": 52157250,
+      "net_goods": 49265972,
+      "net_vat": 3941278,
+      "net_payment": 53207250
+    },
+    "Đã loại theo danh sách": {
+      "documents": 115,
+      "source_lines": 170,
+      "import_lines": 0,
+      "goods": 620594171,
+      "returns": 0,
+      "vat": 49647538,
+      "payment": 670241709,
+      "net_goods": 620594171,
+      "net_vat": 49647538,
+      "net_payment": 670241709
+    },
+    "Đã trả hết": {
+      "documents": 158,
+      "source_lines": 210,
+      "import_lines": 0,
+      "goods": 215520526,
+      "returns": 0,
+      "vat": 17241644,
+      "payment": 232762170,
+      "net_goods": 0,
+      "net_vat": 0,
+      "net_payment": 0
+    },
+    "Phiếu trả lại đã liên kết": {
+      "documents": 162,
+      "source_lines": 218,
+      "import_lines": 0,
+      "goods": 0,
+      "returns": 224893704,
+      "vat": -17991497,
+      "payment": -242885201,
+      "net_goods": 0,
+      "net_vat": 0,
+      "net_payment": 0
+    }
+  },
+  "partial_return_states": {
+    "BHHS2024000629": "Cần kiểm tra bù trừ",
+    "BHHT2024006103": "Đã bù trừ phần trả",
+    "BHHS2024005761": "Cần kiểm tra bù trừ",
+    "BHHT2024024887": "Đã bù trừ phần trả"
+  },
+  "pending": [
+    {
+      "doc": "BHHS2024000629",
+      "reason": [
+        "BTL00023 / KA150SFILTERFULL: giá/tiền trả lại khác giá dòng bán (bán 654764đ, trả 747356đ); chưa tự điều chỉnh đơn giá"
+      ]
+    },
+    {
+      "doc": "BHHT2024003185",
+      "reason": [
+        "Thành tiền lệch số lượng nhân đơn giá quá 1 đồng"
+      ]
+    },
+    {
+      "doc": "BHHT2024011030",
+      "reason": [
+        "Thành tiền lệch số lượng nhân đơn giá quá 1 đồng"
+      ]
+    },
+    {
+      "doc": "BHHT2024013153",
+      "reason": [
+        "Dòng số lượng hoặc thành tiền bằng 0, chưa rõ hàng khuyến mại/diễn giải",
+        "Chứng từ chưa có một thuế suất duy nhất",
+        "Tổng thanh toán không dương"
+      ]
+    },
+    {
+      "doc": "BHHT2024013026",
+      "reason": [
+        "Dòng số lượng hoặc thành tiền bằng 0, chưa rõ hàng khuyến mại/diễn giải",
+        "Chứng từ chưa có một thuế suất duy nhất",
+        "Tổng thanh toán không dương"
+      ]
+    },
+    {
+      "doc": "BHHT2024015896",
+      "reason": [
+        "Thành tiền lệch số lượng nhân đơn giá quá 1 đồng"
+      ]
+    },
+    {
+      "doc": "BHHS2024005761",
+      "reason": [
+        "BTL00024 / KM100FULL: SL hoặc tiền trả lại vượt dòng bán (bán 172538đ, trả 202778đ)"
+      ]
+    },
+    {
+      "doc": "BHHT2024017438",
+      "reason": [
+        "Thành tiền lệch số lượng nhân đơn giá quá 1 đồng"
+      ]
+    },
+    {
+      "doc": "BHHN2024000179",
+      "reason": [
+        "Thành tiền lệch số lượng nhân đơn giá quá 1 đồng"
+      ]
+    },
+    {
+      "doc": "BTL00145",
+      "reason": [
+        "AMIS đang trống Số CT bán hàng gốc; chưa bù trừ, không suy đoán BHH"
+      ]
+    },
+    {
+      "doc": "BHHT2024023472",
+      "reason": [
+        "Thành tiền lệch số lượng nhân đơn giá quá 1 đồng"
+      ]
+    },
+    {
+      "doc": "BHHT2024025057",
+      "reason": [
+        "Thành tiền lệch số lượng nhân đơn giá quá 1 đồng"
+      ]
+    }
+  ],
+  "unresolved_exclusions": 7
+}

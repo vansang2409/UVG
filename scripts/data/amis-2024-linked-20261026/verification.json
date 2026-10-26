@@ -1,0 +1,48 @@
+{
+  "passed": true,
+  "invoices": 34570,
+  "lines": 43960,
+  "goods": 49261967212,
+  "vat": 3940957679,
+  "payment": 53202924891,
+  "fully_returned": 158,
+  "excluded_sales": 115,
+  "pending_documents": 12,
+  "unresolved_exclusions": 7,
+  "partial_applied": [
+    "BHHT2024006103",
+    "BHHT2024024887"
+  ],
+  "partial_review": [
+    "BHHS2024000629",
+    "BHHS2024005761"
+  ],
+  "unlinked_btl": [
+    "BTL00145"
+  ],
+  "checks": [
+    "17 cột đúng mẫu, tiêu đề dòng 9",
+    "Đọc lại sổ thật và đối chiếu 44.578 dòng trung gian",
+    "Từng dòng import đúng BHH, SKU, ngày, giá và số dòng nguồn",
+    "SL, tiền hàng và VAT mỗi BHH bằng bán gốc trừ trả lại thực tế",
+    "Không còn điều kiện dò ứng viên trả lại",
+    "158 BHH trả hết và 115 BHH loại trừ vắng mặt trong import",
+    "12 chứng từ giữ nguyên dòng nguồn, tách kiểm tra",
+    "Tổng nguồn và số dòng khớp đủ, không trùng thiếu",
+    "Không lỗi công thức; import chỉ có giá trị",
+    "Hash của bốn nguồn giữ nguyên"
+  ],
+  "files": [
+    {
+      "path": "D:\\UVG\\outputs\\amis-2024-theo-btl-bhh-20261026\\IMPORT_HOA_DON_MOI_AMIS_2024.xlsx",
+      "bytes": 4386061,
+      "sha256": "006708561b3bccaddeb9266dfe5291cfafe160004411ad84593f216837fedc98"
+    },
+    {
+      "path": "D:\\UVG\\outputs\\amis-2024-theo-btl-bhh-20261026\\KIEM_TRA_VA_LOAI_TRU_AMIS_2024.xlsx",
+      "bytes": 92951,
+      "sha256": "f157886fb5ba0c9389210def14d12131c71ffc7834a6296dfe5872855937d9e7"
+    }
+  ],
+  "location_note": "Gom về một bộ 2 file tại thư mục chính theo yêu cầu; kiểm hash không đổi sau di chuyển. Không tạo bản xuất khác."
+}

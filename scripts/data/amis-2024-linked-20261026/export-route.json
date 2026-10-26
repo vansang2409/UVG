@@ -1,0 +1,5 @@
+{
+  "review": "Artifact Tool author/export/render",
+  "import": "Bundled XlsxWriter fallback; Artifact Tool large-workbook export was unavailable in this session (previous export hung >15 minutes and ~3.7GB RAM).",
+  "validation": "Independent openpyxl read-only; source hashes and per-line reconciliation"
+}
