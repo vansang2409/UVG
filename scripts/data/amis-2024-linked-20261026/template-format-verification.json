@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "columns": 19,
+  "template_columns": 17,
+  "document_column": "S - Số chứng từ",
+  "promotion_column": "R - Hàng khuyến mại",
+  "promotion_codes": [
+    "BHHT2024013026",
+    "BHHT2024013153"
+  ],
+  "lines": 44189,
+  "same_all_import_values": true,
+  "header_and_instructions": "Giữ nguyên A:Q dòng 1–9 và độ rộng cột từ mẫu gốc; thêm R khuyến mại, S số chứng từ theo yêu cầu",
+  "audit_sheet": "Doi chieu import",
+  "audit_rows": 44189,
+  "template_sha256": "64346fb386624e1f900ac9130303737f79348491951eb17e53133190514847be",
+  "files": [
+    {
+      "path": "D:\\UVG\\outputs\\amis-2024-theo-btl-bhh-20261026\\IMPORT_HOA_DON_MOI_AMIS_2024.xlsx",
+      "sha256": "c6ea974aeabc67e9912d6359448f853f4257fe79a808e3f16cf60d82f6f321ee"
+    },
+    {
+      "path": "D:\\UVG\\outputs\\amis-2024-theo-btl-bhh-20261026\\KIEM_TRA_VA_LOAI_TRU_AMIS_2024.xlsx",
+      "sha256": "da1562f3cee1e7a7f56b1dd086914d1af42bae5f0fa3bb4d85176a653d7cc89e"
+    }
+  ]
+}

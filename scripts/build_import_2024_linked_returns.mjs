@@ -27,13 +27,15 @@ summary.getRange('A7').values=[['Tổng sổ AMIS']];summary.getRange('B7:G7').f
 summary.getRange('A7:G7').format={font:{bold:true},fill:'#E6EEF4',rowHeight:28};summary.getRange('D7:G7').setNumberFormat('#,##0');
 const counts=p.summary['Đưa vào import'];
 const info=[
- ['Hóa đơn trong file import',counts.documents],['Dòng hàng import',counts.import_lines],['Tiền hàng sau bù trừ',counts.net_goods],['VAT sau bù trừ',counts.net_vat],['Thanh toán sau bù trừ',counts.net_payment],
- ['Cách bù trừ','Chỉ dùng BHH gốc trong file liên kết AMIS. Trả hết: khớp SL, tiền hàng, VAT theo SKU/ĐVT. Trả một phần: trừ chính xác tiền nguồn, giữ đơn giá nguồn nếu chênh làm tròn tối đa 1đ.'],
- ['Hai đơn đã bù trừ một phần','BHHT2024006103 / BTL00070 và BHHT2024024887 / BTL00180. Chi tiết xem Bu tru tra lai.'],
- ['Hai đơn cần kiểm tra tiền trả','BHHS2024000629 / BTL00023 và BHHS2024005761 / BTL00024. Chưa bù trừ và chưa đưa vào import.'],
- ['Phiếu chưa có BHH','BTL00145 đang trống BHH trên AMIS. Giữ riêng, không suy đoán hoặc giữ lại đơn bán khác.'],
+ ['Hóa đơn trong file import',counts.documents],['Dòng hàng import',counts.import_lines],['Tiền hàng bán gốc',counts.net_goods],['VAT bán gốc',counts.net_vat],['Thanh toán bán gốc',counts.net_payment],
+ ['Cách xử lý trả lại','Lập bán gốc trước, điều chỉnh trả lại riêng sau khi có số hóa đơn thực tế. Import giữ toàn bộ SL, đơn giá, tiền hàng và VAT của chứng từ bán gốc; không bù trừ BTL.'],
+ ['Đã khôi phục hai đơn bù trừ trước đây','BHHT2024006103 / BTL00070 và BHHT2024024887 / BTL00180: khôi phục toàn bộ dòng, SL, tiền hàng và VAT bán gốc.'],
+ ['Hai đơn lệch tiền trả','BHHS2024000629 / BTL00023 và BHHS2024005761 / BTL00024: đưa bán gốc nguyên số vào import; phần trả tách chờ KT chốt, chưa tự ghi giảm giá.'],
+ ['Liên kết BTL bổ sung','BTL00145 → BHHT2024024972 do người dùng xác nhận 27/10/2026. Giữ nguyên bán gốc trong import, BTL tách chờ điều chỉnh. Snapshot AMIS ban đầu vẫn giữ trống.'],
  ['Nguồn ngày và thanh toán','Ngày chứng từ AMIS; TM/CK cho toàn bộ theo xác nhận.'],
- ['Thuế suất','Suy ra duy nhất 5/8/10% từ tiền hàng và VAT, dung sai làm tròn 1đ/dòng. File import hiện 8%; giữ nguyên tiền VAT nguồn sau bù trừ.'],
+ ['Thuế suất','Đơn có tiền: suy ra duy nhất 5/8/10% từ tiền hàng/VAT, dung sai làm tròn 1đ/dòng. Hai đơn khuyến mại tiền 0 dùng 8% theo xác nhận riêng của người dùng; không suy ra từ số 0. Giữ nguyên tiền VAT chứng từ bán gốc.'],
+ ['Dòng hàng khuyến mại','BHHT2024013153 và BHHT2024013026: KM300FULL, SL 1; giá/tiền hàng/VAT/thanh toán đều 0đ, thuế suất 8% theo xác nhận. File import giữ A:Q theo mẫu và thêm R - Hàng khuyến mại, giá trị 1 tại đúng hai dòng. Khi ghép cột, chọn đúng trường Hàng khuyến mại của meInvoice.'],
+ ['Hướng dẫn nhập khuyến mại','https://helpv4.meinvoice.vn/kb/nhap-khau-hoa-don-mot-thue-suat/'],
  ['Loại trừ chưa rõ','7 mục ở Loai chua ro: gồm mã cũ đã gộp, mã năm 2023 và các hóa đơn thiếu BHH. Chưa tự loại thêm theo tên/MST.'],
  ['Trạng thái','Thay thế bộ import tại outputs/amis-2024-moi-20261026. Chưa nhập, ký hoặc phát hành hóa đơn.'],
  ['Nguồn và dấu kiểm','Các file nguồn giữ nguyên; SHA256 tại cuối sheet. Số dòng AMIS giúp đối chiếu từng dòng.'],
@@ -44,7 +46,8 @@ for(let i=0;i<info.length;i++){summary.mergeCells(`B${10+i}:G${10+i}`);summary.g
 summary.getRange('B12:B14').setNumberFormat('#,##0');
 const common=['Chứng từ','Ngày chứng từ','Mã khách hàng','Khách hàng','MST','Tiền hàng gốc','VAT gốc','Thanh toán gốc','BTL liên quan','Dòng AMIS','Lý do','Quyết định của bạn','BHH đúng/bổ sung'];
 const pending=p.docs.filter(d=>d.category==='Cần kiểm tra');
-sheet('Can kiem tra',common,pending.map(d=>[d.doc,d.date,d.customer_code,d.buyer,d.tax,d.source_sums.goods,d.source_sums.vat,d.source_sums.payment,d.btls.join(', '),d.rows.join(', '),d.reasons.join('; '),null,null]),[27,18,22,38,19,25,24,27,26,30,110,55,35],{dates:[1],money:[5,6,7],texts:[0,2,4,12],wrap:[3,8,9,10],inputs:[11,12]});
+const pendingSheet=sheet('Can kiem tra',common,pending.map(d=>[d.doc,d.date,d.customer_code,d.buyer,d.tax,d.source_sums.goods,d.source_sums.vat,d.source_sums.payment,d.btls.join(', '),d.rows.join(', '),d.reasons.join('; '),null,null]),[27,18,22,38,19,25,24,27,26,30,110,55,35],{dates:[1],money:[5,6,7],texts:[0,2,4,12],wrap:[3,8,9,10],inputs:[11,12]});
+if(pending.length)pendingSheet.getRange(`A2:M${pending.length+1}`).format.rowHeight=72;
 const raw=pending.flatMap(d=>d.original_lines.map(l=>[l.row,...l.values]));
 sheet('Dong nguon can kiem tra',['Dòng AMIS',...p.source_headers],raw,[16,...p.source_headers.map((_,i)=>[6,7,9,10,13,14].includes(i)?70:23)],{dates:[1,2,5],money:[21,25,26,28,29,31,33,34,35,40],decimals:[18,19,20,27,37],texts:[3,4,6,9,12,13],wrap:[7,8,10,11,14,15]});
 const omitted=p.docs.filter(d=>['Đã loại theo danh sách','Đã trả hết'].includes(d.category));
@@ -53,6 +56,7 @@ const audit=sheet('Bu tru tra lai',['BHH gốc','BTL','Dòng AMIS','Mã hàng','
 const ae=p.net_audit.length+1;
 for(const [c,a,b] of [['M','G','J'],['N','H','K'],['O','I','L']])audit.getRange(`${c}2:${c}${ae}`).formulas=p.net_audit.map((_,i)=>[`=${a}${i+2}-${b}${i+2}`]);
 const links=p.links.map(r=>[...r,p.return_status[r[2]]||'Chưa có BHH',p.link_issues[r[2]]||(!r[2]?'Trống BHH thực tế trên AMIS':null)]);
+sheet('Tra lai cho dieu chinh',['BTL','BHH bán gốc','Ngày chứng từ BTL','Mã hàng','Tên hàng','ĐVT','SL trả nguồn','Đơn giá trả nguồn','Tiền hàng trả nguồn','Thuế suất nguồn','VAT trả nguồn','Thanh toán trả nguồn','Ký hiệu HĐ gốc','Số HĐ gốc','Ngày HĐ gốc','Ngày HĐ điều chỉnh','Trạng thái','Dòng AMIS','Ghi chú chênh lệch'],p.return_drafts,[23,28,20,27,80,12,19,25,25,19,25,27,24,25,23,24,70,20,110],{dates:[2,14,15],money:[8,10,11],decimals:[6,7],texts:[0,1,3,12,13,17],wrap:[4,16,18],inputs:[12,13,14,15]});
 const ls=sheet('Lien ket BTL-BHH',['BTL','Ngày hạch toán','BHH gốc','Dòng BTL','Mã hàng','Tên hàng','ĐVT','SL trả','Đơn giá','Tiền hàng trả','Thuế suất','VAT trả','Tổng trả','Khách hàng','Liên kết AMIS','Khớp sổ nguồn','Dòng AMIS','Xử lý','Nội dung cần kiểm tra'],links,[22,18,27,14,26,80,12,19,25,25,18,25,25,37,30,30,20,30,110],{dates:[1],money:[9,11,12],decimals:[7,8],texts:[0,2,4,16],wrap:[5,13,14,15,17,18]});
 ls.getRange(`M2:M${links.length+1}`).formulas=links.map((_,i)=>[`=J${i+2}+L${i+2}`]);
 sheet('Loai chua ro',['Hóa đơn','Vị trí nguồn','BHH','Tên trong nguồn','Nội dung cần kiểm tra','BHH đúng do bạn bổ sung'],p.unresolved_exclusions,[29,49,28,65,100,38],{texts:[0,2,5],wrap:[1,3,4],inputs:[5]});

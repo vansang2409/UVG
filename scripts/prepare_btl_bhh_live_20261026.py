@@ -24,6 +24,9 @@ def native(v):
 def main():
     records=json.loads((WORK/'verified-live-reads.json').read_text(encoding='utf8'))
     lists=json.loads((WORK/'list-pages.json').read_text(encoding='utf8'))
+    override_file=WORK/'user-confirmed-links.json'
+    confirmations=json.loads(override_file.read_text(encoding='utf8')) if override_file.exists() else []
+    overrides={(r['btl'],r['line'],r['sku']):r for r in confirmations}
     expected={r[2]:r for r in lists['page1']+lists['page2']}
     assert len(records)==len(expected)==163
     assert len({r['selected'][2] for r in records})==163
@@ -55,17 +58,21 @@ def main():
             source_matches=[i for i,s in source_returns[doc] if signature(s[12],s[26],s[19],s[27],-Decimal(str(s[32])))==sig]
             bhh=r[12].strip()
             state='Có BHH gốc' if bhh else 'Trống BHH trên AMIS'
+            override=overrides.get((doc,int(r[0]),r[1]))
+            if override:
+                assert bhh==override['original_amis_bhh']
+                bhh=override['bhh'];state='BHH do người dùng xác nhận '+override['confirmed_on']+'; AMIS lúc trích đang trống'
             if not bhh:issues.append([doc,state,r[0],r[1]])
             details.append([doc,datetime.strptime(head[1],'%d/%m/%Y'),bhh,int(r[0]),r[1],r[2],r[3],number(r[5]),number(r[7]),number(r[8]),number(r[9]),number(r[10]),None,head[4],state,'Khớp sổ AMIS 2024' if source_ok else 'Khác sổ AMIS 2024',', '.join(map(str,source_matches))])
         last=len(details)+1
-        bhhs=sorted({r[12].strip() for r in rec['rows'] if r[12].strip()})
+        bhhs=sorted({r[2] for r in details[first-2:] if r[0]==doc and r[2]})
         docs.append({'btl':doc,'date':datetime.strptime(head[1],'%d/%m/%Y'),'customer':head[4],'lines':len(rec['rows']),
                      'bhhs':bhhs,'first':first,'last':last,'payment':number(head[5]),'source_ok':source_ok,'captured':rec['capturedAt']})
     assert len(details)==sum(len(v) for v in source_returns.values())==219
     assert sum(d['payment'] for d in docs)==Decimal(243935201)
     assert hashlib.sha256(SOURCE.read_bytes()).hexdigest()==before
     result={'company':lists['company'],'database':lists['database'],'filter':lists['filter'],'source_url':lists['url'],
-            'source_sha256':before,'docs':docs,'details':details,'issues':issues,
+            'source_sha256':before,'docs':docs,'details':details,'issues':issues,'confirmed_links':confirmations,
             'summary':{'documents':len(docs),'detail_lines':len(details),'unique_bhh':len({r[2] for r in details if r[2]}),
                        'missing_bhh_lines':sum(not r[2] for r in details),'source_mismatch_documents':sum(not d['source_ok'] for d in docs),
                        'goods':sum(r[9] for r in details),'vat':sum(r[11] for r in details),'payment':sum(d['payment'] for d in docs)}}

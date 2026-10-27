@@ -1,28 +1,28 @@
 {
   "summary": {
     "Đưa vào import": {
-      "documents": 34570,
-      "source_lines": 43963,
-      "import_lines": 43960,
-      "goods": 49268657057,
+      "documents": 34739,
+      "source_lines": 44189,
+      "import_lines": 44189,
+      "goods": 49533443555,
       "returns": 0,
-      "vat": 3941492865,
-      "payment": 53210149922,
-      "net_goods": 49261967212,
-      "net_vat": 3940957679,
-      "net_payment": 53202924891
+      "vat": 3962675787,
+      "payment": 53496119342,
+      "net_goods": 49533443555,
+      "net_vat": 3962675787,
+      "net_payment": 53496119342
     },
     "Cần kiểm tra": {
-      "documents": 12,
-      "source_lines": 17,
+      "documents": 0,
+      "source_lines": 0,
       "import_lines": 0,
-      "goods": 49265972,
-      "returns": 972222,
-      "vat": 3863500,
-      "payment": 52157250,
-      "net_goods": 49265972,
-      "net_vat": 3941278,
-      "net_payment": 53207250
+      "goods": 0,
+      "returns": 0,
+      "vat": 0,
+      "payment": 0,
+      "net_goods": 0,
+      "net_vat": 0,
+      "net_payment": 0
     },
     "Đã loại theo danh sách": {
       "documents": 115,
@@ -37,113 +37,195 @@
       "net_payment": 670241709
     },
     "Đã trả hết": {
-      "documents": 158,
-      "source_lines": 210,
+      "documents": 0,
+      "source_lines": 0,
       "import_lines": 0,
-      "goods": 215520526,
+      "goods": 0,
       "returns": 0,
-      "vat": 17241644,
-      "payment": 232762170,
+      "vat": 0,
+      "payment": 0,
       "net_goods": 0,
       "net_vat": 0,
       "net_payment": 0
     },
     "Phiếu trả lại đã liên kết": {
-      "documents": 162,
-      "source_lines": 218,
+      "documents": 163,
+      "source_lines": 219,
       "import_lines": 0,
       "goods": 0,
-      "returns": 224893704,
-      "vat": -17991497,
-      "payment": -242885201,
+      "returns": 225865926,
+      "vat": -18069275,
+      "payment": -243935201,
       "net_goods": 0,
       "net_vat": 0,
       "net_payment": 0
     }
   },
   "partial_return_states": {
-    "BHHS2024000629": "Cần kiểm tra bù trừ",
-    "BHHT2024006103": "Đã bù trừ phần trả",
-    "BHHS2024005761": "Cần kiểm tra bù trừ",
-    "BHHT2024024887": "Đã bù trừ phần trả"
+    "BHHT2024000707": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024000729": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024000430": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024000383": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024000226": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024000119": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHS2024000259": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHS2024000277": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024001562": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024001511": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024001390": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024001346": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHS2024000456": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024001010": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024000977": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHS2024000629": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024002719": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024002667": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHS2024000842": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHS2024000935": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHS2024000940": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024002285": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024002272": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024001935": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024001995": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024001801": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024005622": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024005462": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024005315": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024005209": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHS2024001381": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024004830": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024004877": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024004718": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024004661": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024004376": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024004384": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024003595": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024004091": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024003622": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024003623": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024003432": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024003162": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024007142": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024006530": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024006130": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024006103": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024006012": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024006046": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHS2024002364": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024005898": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024005852": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024005796": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024005700": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024005715": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024009413": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024009243": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024009354": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024009171": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024009221": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHS2024002718": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024009087": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024008892": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHS2024002845": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024008113": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024007997": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024007951": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024007556": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHS2024003188": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024012087": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024012010": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024011825": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024011737": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024011482": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024010786": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024010747": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHS2024003694": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHS2024003749": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024014393": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024014145": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024014174": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024013685": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024013129": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024012463": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHS2024004547": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024012648": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHS2024004695": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024012234": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024012197": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024012208": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHS2024004811": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024017020": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024016643": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHS2024004950": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHS2024005124": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHS2024005127": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHS2024005256": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024015945": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024015976": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHS2024005303": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024015848": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHS2024005508": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHL2024000079": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024015528": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHS2024005689": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHS2024005761": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHS2024005878": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024014868": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024019620": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024019621": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024019578": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHS2024006036": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHS2024006117": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024019209": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024019120": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHS2024006209": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHS2024006318": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024018878": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024018930": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHS2024006455": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024018751": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024018508": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024018446": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024018262": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024018052": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024017809": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024017854": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024017754": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024017420": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHS2024006823": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024017215": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024017243": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024022352": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHN2024000165": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024021563": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024021404": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024021197": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024021229": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024021245": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024021064": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024020876": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024020920": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024020800": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024020489": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024020202": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024020204": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHS2024007983": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024024917": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024024972": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024024997": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHS2024008054": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024024887": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024024845": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024024699": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024024570": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024024644": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024023988": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024023783": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024023305": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024023250": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024023181": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHT2024023050": "Tách điều chỉnh sau khi có hóa đơn bán gốc",
+    "BHHS2024008957": "Tách điều chỉnh sau khi có hóa đơn bán gốc"
   },
-  "pending": [
-    {
-      "doc": "BHHS2024000629",
-      "reason": [
-        "BTL00023 / KA150SFILTERFULL: giá/tiền trả lại khác giá dòng bán (bán 654764đ, trả 747356đ); chưa tự điều chỉnh đơn giá"
-      ]
-    },
-    {
-      "doc": "BHHT2024003185",
-      "reason": [
-        "Thành tiền lệch số lượng nhân đơn giá quá 1 đồng"
-      ]
-    },
-    {
-      "doc": "BHHT2024011030",
-      "reason": [
-        "Thành tiền lệch số lượng nhân đơn giá quá 1 đồng"
-      ]
-    },
-    {
-      "doc": "BHHT2024013153",
-      "reason": [
-        "Dòng số lượng hoặc thành tiền bằng 0, chưa rõ hàng khuyến mại/diễn giải",
-        "Chứng từ chưa có một thuế suất duy nhất",
-        "Tổng thanh toán không dương"
-      ]
-    },
-    {
-      "doc": "BHHT2024013026",
-      "reason": [
-        "Dòng số lượng hoặc thành tiền bằng 0, chưa rõ hàng khuyến mại/diễn giải",
-        "Chứng từ chưa có một thuế suất duy nhất",
-        "Tổng thanh toán không dương"
-      ]
-    },
-    {
-      "doc": "BHHT2024015896",
-      "reason": [
-        "Thành tiền lệch số lượng nhân đơn giá quá 1 đồng"
-      ]
-    },
-    {
-      "doc": "BHHS2024005761",
-      "reason": [
-        "BTL00024 / KM100FULL: SL hoặc tiền trả lại vượt dòng bán (bán 172538đ, trả 202778đ)"
-      ]
-    },
-    {
-      "doc": "BHHT2024017438",
-      "reason": [
-        "Thành tiền lệch số lượng nhân đơn giá quá 1 đồng"
-      ]
-    },
-    {
-      "doc": "BHHN2024000179",
-      "reason": [
-        "Thành tiền lệch số lượng nhân đơn giá quá 1 đồng"
-      ]
-    },
-    {
-      "doc": "BTL00145",
-      "reason": [
-        "AMIS đang trống Số CT bán hàng gốc; chưa bù trừ, không suy đoán BHH"
-      ]
-    },
-    {
-      "doc": "BHHT2024023472",
-      "reason": [
-        "Thành tiền lệch số lượng nhân đơn giá quá 1 đồng"
-      ]
-    },
-    {
-      "doc": "BHHT2024025057",
-      "reason": [
-        "Thành tiền lệch số lượng nhân đơn giá quá 1 đồng"
-      ]
-    }
-  ],
+  "pending": [],
   "unresolved_exclusions": 7
 }

@@ -46,10 +46,16 @@ def main():
     g=w.add_worksheet('Huong dan');g.hide_gridlines(2);g.set_column(0,0,33);g.set_column(1,1,125)
     g.write_row(0,0,['Mục','Nội dung'],head)
     guide=[['Cách nhập','Chọn sheet Hóa đơn GTGT, tiêu đề dòng 9; mẫu GTGT MTT một thuế suất. Mỗi STT là một hóa đơn.'],['Ngày và thanh toán','Lấy Ngày chứng từ AMIS, hình thức TM/CK theo xác nhận.'],['Tổng tiền',f'{count:,} hóa đơn / {rr-9:,} dòng. Tổng thanh toán sau bù trừ: {p["summary"]["Đưa vào import"]["net_payment"]:,} VND.'],['Bù trừ trả lại','Chỉ dùng liên kết BTL–BHH lấy trực tiếp AMIS. Đã loại 158 BHH trả hết; 2 BHH trả một phần được trừ đúng số lượng, tiền hàng và VAT.'],['Hai BHH đã trừ một phần','BHHT2024006103 và BHHT2024024887. Đơn giá giữ nguồn; tiền hàng/VAT còn lại = bán gốc - trả lại thực tế.'],['Cần kiểm tra','13 chứng từ và 7 mục loại trừ chưa rõ nằm trong KIEM_TRA_VA_LOAI_TRU_AMIS_2024.xlsx. Chưa đưa các chứng từ cần kiểm tra vào import.'],['Loại theo danh sách','115 chứng từ theo tab HD cty 2024, bao gồm mã tách/gộp đã ghi rõ. Không loại toàn bộ tab F0/F1/F2.'],['Người mua','Giữ tên, địa chỉ, MST nguồn. Email, điện thoại, CCCD để trống vì nguồn không có.'],['Thuế suất và tiền','8%, suy ra duy nhất từ tiền hàng/VAT trong nguồn; dung sai làm tròn 1đ/dòng. Tổng VAT chỉ ghi dòng đầu. Không tự cân tiền.'],['Cột đối chiếu','A:Q theo mẫu gốc. R:W là BHH, tổng tiền, dòng AMIS, mã hàng và BTL để đối chiếu.'],['Nguồn', 'So_chi_tiet_ban_hang_2024.xlsx; HD Xuất CTY 2024.xlsx; LIEN_KET_BTL_BHH_2024.xlsx; mẫu MTT người dùng cung cấp.'],['Thay thế bản cũ','Dùng bộ tại outputs/amis-2024-theo-btl-bhh-20261026. Bộ outputs/amis-2024-moi-20261026 đã hết hiệu lực.'],['Trạng thái','Chưa nhập, ký hoặc phát hành hóa đơn.']]
-    guide=[(a,b.replace('13 chứng từ và 7 mục','12 chứng từ và 7 mục')) for a,b in guide]
+    guide=[(a,b.replace('13 chứng từ và 7 mục',f'{p["summary"]["Cần kiểm tra"]["documents"]} chứng từ và 7 mục')) for a,b in guide]
     guide.extend((c['doc'],c['basis']) for c in p['confirmations'])
     for i,row in enumerate(guide,1):g.write_string(i,0,row[0],body);g.write_string(i,1,row[1],wrap);g.set_row(i,44)
     w.close()
+    # Bản bàn giao giữ đúng mẫu 17 cột; đối chiếu nằm trong workbook kiểm tra.
+    from match_import_2024_template import main as match_template
+    match_template()
+    # Chuyển bảng trả chờ thành mẫu import điều chỉnh, giữ riêng hai BTL lệch giá.
+    from prepare_return_adjustment_import import main as prepare_return_import
+    prepare_return_import()
     (WORK/'export-route.json').write_text(json.dumps({'review':'Artifact Tool author/export/render','import':'Bundled XlsxWriter fallback; Artifact Tool large-workbook export was unavailable in this session (previous export hung >15 minutes and ~3.7GB RAM).','validation':'Independent openpyxl read-only; source hashes and per-line reconciliation'},ensure_ascii=False,indent=2),encoding='utf8')
     print(f'SAVED {file} ({count} invoices, {rr-9} lines)')
 

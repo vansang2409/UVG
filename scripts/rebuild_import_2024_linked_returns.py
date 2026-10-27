@@ -7,12 +7,24 @@ from datetime import datetime
 from io import BytesIO
 import hashlib
 import json
+import gzip
 from openpyxl import load_workbook
 
 ROOT = Path(__file__).resolve().parents[1]
 WORK = ROOT/'scripts/data/amis-2024-linked-20261026'
 OUT = ROOT/'outputs/amis-2024-theo-btl-bhh-20261026'
 LINK = ROOT/'outputs/btl-bhh-20261026/LIEN_KET_BTL_BHH_2024.xlsx'
+CONFIRMED_ROUNDING = {
+    'BHHT2024003185','BHHT2024011030','BHHT2024015896','BHHT2024017438',
+    'BHHN2024000179','BHHT2024023472','BHHT2024025057',
+}
+CONFIRMED_PROMOTIONS = {'BHHT2024013153','BHHT2024013026'}
+# Kế toán xác nhận ngày 27/10: lập bán gốc trước, trả lại lập điều chỉnh riêng.
+SPLIT_RETURNS = True
+PROMOTION_REASONS = {
+    'Dòng số lượng hoặc thành tiền bằng 0, chưa rõ hàng khuyến mại/diễn giải',
+    'Chứng từ chưa có một thuế suất duy nhất','Tổng thanh toán không dương',
+}
 
 def dec(v): return Decimal(str(v or 0))
 def rnd(v): return v.quantize(Decimal(1), rounding=ROUND_HALF_UP)
@@ -28,11 +40,42 @@ def aggregate(lines, cols, keycols):
         result[k]=[a+b for a,b in zip(result[k],triple(r,cols))]
     return dict(result)
 
+def vn_number(v):
+    s=format(dec(v),'f');whole,_,fraction=s.partition('.')
+    text=f'{int(whole):,}'.replace(',','.')
+    return text+(','+fraction.rstrip('0') if fraction.rstrip('0') else '')
+
+def detailed_reasons(code, lines, reasons, return_rows):
+    """Giải thích bằng số nguồn; chênh lệch = AMIS - ROUND(SL × đơn giá, 0)."""
+    result=[]
+    for reason in reasons:
+        if reason=='Thành tiền lệch số lượng nhân đơn giá quá 1 đồng':
+            for l in lines:
+                r=l['values'];product=dec(r[17])*dec(r[19]);expected=rnd(product);delta=dec(r[20])-expected
+                if abs(delta)>1:
+                    rounding=f' (làm tròn {vn_number(expected)}đ)' if expected!=product else ''
+                    result.append(f"Dòng AMIS {l['row']} / {r[12]}: SL {vn_number(r[17])} × đơn giá {vn_number(r[19])}đ = {vn_number(product)}đ{rounding}; thành tiền AMIS {vn_number(r[20])}đ; AMIS {'thấp' if delta<0 else 'cao'} hơn {vn_number(abs(delta))}đ (chênh {'+' if delta>0 else '-'}{vn_number(abs(delta))}đ).")
+        elif reason.startswith('BTL') and ('giá/tiền trả lại khác giá dòng bán' in reason or 'SL hoặc tiền trả lại vượt dòng bán' in reason):
+            prefix=reason.split(':',1)[0]
+            rr=[r for r in return_rows if f'{r[0]} / {r[4]}'==prefix]
+            if len(rr)!=1:result.append(reason);continue
+            ret=rr[0];sales=[l for l in lines if l['values'][12]==ret[4] and l['values'][16]==ret[6]]
+            if len(sales)!=1:result.append(reason);continue
+            l=sales[0];r=l['values'];price_delta=dec(ret[8])-dec(r[19]);expected=rnd(dec(ret[7])*dec(r[19]));money_delta=dec(ret[9])-expected
+            result.append(f"{prefix}: đơn giá bán {vn_number(r[19])}đ, giá trả {vn_number(ret[8])}đ (chênh {'+' if price_delta>=0 else '-'}{vn_number(abs(price_delta))}đ/{r[16]}); SL trả {vn_number(ret[7])}; tiền theo giá bán {vn_number(expected)}đ, tiền trả thực tế {vn_number(ret[9])}đ (trả {'cao' if money_delta>=0 else 'thấp'} hơn {vn_number(abs(money_delta))}đ). Dòng bán AMIS {l['row']}; chưa bù trừ, chưa tự chỉnh đơn giá.")
+        else:result.append(reason)
+    return result
+
 def main():
     WORK.mkdir(parents=True,exist_ok=True)
     # Chỉ tái dùng bản đọc giá trị nguồn đã lưu; không dùng phân nhóm hay ứng viên cũ.
-    old=json.loads((ROOT/'scripts/data/new-amis-2024-20261026/prepared.json').read_text(encoding='utf8'))
-    manifest=old['manifest']+[{'file':str(LINK.relative_to(ROOT)), 'sha256':'a59c384c0265f0816e2525a06dbbbc58df46c0db69f582fe63797992e939f441'}]
+    snapshot=ROOT/'scripts/data/new-amis-2024-20261026/prepared.json'
+    old=json.loads(snapshot.read_text(encoding='utf8') if snapshot.exists() else gzip.decompress(snapshot.with_suffix('.json.gz').read_bytes()).decode('utf8'))
+    link_check=json.loads((ROOT/'scripts/data/btl-bhh-live-20261026/verification.json').read_text(encoding='utf8'))
+    assert link_check['passed']
+    manifest=old['manifest']+[{'file':str(LINK.relative_to(ROOT)), 'sha256':link_check['sha256']}]
+    confirmed_link_file=ROOT/'scripts/data/btl-bhh-live-20261026/user-confirmed-links.json'
+    if confirmed_link_file.exists():manifest.append({'file':str(confirmed_link_file.relative_to(ROOT)),'sha256':hashlib.sha256(confirmed_link_file.read_bytes()).hexdigest()})
     template=ROOT/'data/Du lieu Meinvoice/Mau_hoa_don_GTGT_MTT_1_thue_suat.xls'
     manifest.append({'file':str(template.relative_to(ROOT)), 'sha256':'64346fb386624e1f900ac9130303737f79348491951eb17e53133190514847be'})
     for m in manifest: assert hashlib.sha256((ROOT/m['file']).read_bytes()).hexdigest()==m['sha256'],m['file']
@@ -63,7 +106,18 @@ def main():
             reasons=['AMIS đang trống Số CT bán hàng gốc; chưa bù trừ, không suy đoán BHH'] if missing else ['Dùng liên kết BHH gốc thực tế; không lập hóa đơn mới cho phiếu BTL']
             net=[]
         else:
-            if code in by_bhh:
+            if code in by_bhh and SPLIT_RETURNS:
+                rs=by_bhh[code]
+                return_status[code]='Tách điều chỉnh sau khi có hóa đơn bán gốc'
+                # Giá trả khác bán chỉ giữ kiểm tra ở phần trả, không chặn bán gốc.
+                mismatch=[]
+                for r in rs:
+                    sales=[l for l in original if l['values'][12]==r[4] and l['values'][16]==r[6]]
+                    if len(sales)==1 and abs(dec(sales[0]['values'][19])-dec(r[8]))>1:
+                        mismatch.append(f'{r[0]} / {r[4]}: giá/tiền trả lại khác giá dòng bán')
+                if mismatch:
+                    link_issues[code]='; '.join(detailed_reasons(code,original,mismatch,rs)).replace('chưa bù trừ, chưa tự chỉnh đơn giá.','chờ kế toán chốt phần điều chỉnh; giữ nguyên bán gốc và số tiền BTL, chưa tự coi là giảm giá.')
+            if code in by_bhh and not SPLIT_RETURNS:
                 rs=by_bhh[code]
                 sale=aggregate([l['values'] for l in original],[17,20,32],[12,16])
                 ret=aggregate(rs,[7,9,11],[4,6])
@@ -103,7 +157,11 @@ def main():
                 category='Đã trả hết';reasons=['Khớp hết SL, tiền hàng và VAT theo từng mã hàng/ĐVT với '+', '.join(btls)]
             else:
                 # Các kiểm tra nguồn độc lập với liên kết trả lại; loại bỏ toàn bộ nhãn dò cũ.
-                reasons += [r for r in d['reasons'] if not r.startswith('Có thể liên quan trả lại:') and not (code=='BHHT2024004546' and r=='Có ký hiệu/số hóa đơn tại AMIS, cần xác nhận trước khi lập mới')]
+                reasons += [r for r in d['reasons'] if not r.startswith('Có thể liên quan trả lại:') and not (code=='BHHT2024004546' and r=='Có ký hiệu/số hóa đơn tại AMIS, cần xác nhận trước khi lập mới') and not (code in CONFIRMED_ROUNDING and r=='Thành tiền lệch số lượng nhân đơn giá quá 1 đồng') and not (code in CONFIRMED_PROMOTIONS and r in PROMOTION_REASONS)]
+                if code in CONFIRMED_PROMOTIONS:
+                    assert len(net)==1 and net[0]['values'][12]=='KM300FULL'
+                    assert dec(net[0]['values'][17])==1 and all(dec(net[0]['values'][c])==0 for c in [19,20,25,27,28,30,32,34])
+                    net[0]['rate']=8
                 if applied:
                     for l in net:
                         r=l['values'];rates=[k for k in (5,8,10) if abs(rnd(dec(r[20])*k/100)-dec(r[32]))<=1]
@@ -112,8 +170,12 @@ def main():
                     if len({l['rate'] for l in net})!=1:reasons.append('Phần còn lại không có một thuế suất duy nhất')
                 reasons=list(dict.fromkeys(reasons))
                 category='Cần kiểm tra' if reasons else 'Đưa vào import'
+        reasons=detailed_reasons(code,original,reasons,by_bhh.get(code,[]))
+        if code in link_issues and not SPLIT_RETURNS:link_issues[code]='; '.join(reasons)
         sums={k:sum((dec(l['values'][c]) for l in net),Decimal(0)) for k,c in [('goods',20),('vat',32),('payment',34)]}
         record={**{k:d[k] for k in ['doc','date','accounting_date','invoice_date_source','customer_code','buyer','address','tax','rows','rate']},'category':category,'reasons':reasons,'source_sums':d['sums'],'sums':sums,'lines':net,'original_lines':original,'btls':btls,'return_applied':applied,'full_return':full}
+        record['promotion']=code in CONFIRMED_PROMOTIONS
+        if record['promotion']:record['rate']=8
         if category=='Đưa vào import':assert sums['goods']+sums['vat']==sums['payment']
         records.append(record)
         if btls:
@@ -138,7 +200,24 @@ def main():
     for row,key,buyer,tax,order in old['extra_invoices']:
         if key not in seen:seen.add(key);unresolved.append([key,f'HĐ ghi nhận UVG 2024 dòng {row}',None,buyer,'Chỉ có ở bảng ghi nhận, chưa có BHH xác nhận; mã đơn: '+str(order or ''),None])
     template_rows=[list(r) for r in load_workbook(BytesIO(template.read_bytes()),read_only=True,data_only=True).active.iter_rows(min_row=1,max_row=9,values_only=True)]
-    payload={'manifest':manifest,'summary':summary,'docs':records,'links':links,'net_audit':net_audit,'unresolved_exclusions':unresolved,'template_rows':template_rows,'source_headers':old['headers'],'link_issues':link_issues,'return_status':return_status,'confirmations':[{'doc':'BHHT2024004546','decision':'Đưa vào import','basis':'Người dùng xác nhận kế toán nhập nhầm ô Số hóa đơn; thực tế chưa có số hóa đơn. Giữ nguyên ô nguồn, chỉ bỏ điều kiện giữ kiểm tra cho chứng từ này.'}]}
+    confirmations=[{'doc':'BHHT2024004546','decision':'Đưa vào import','basis':'Người dùng xác nhận kế toán nhập nhầm ô Số hóa đơn; thực tế chưa có số hóa đơn. Giữ nguyên ô nguồn, chỉ bỏ điều kiện giữ kiểm tra cho chứng từ này.'}]
+    for code in sorted(CONFIRMED_ROUNDING):
+        d=next(x for x in records if x['doc']==code)
+        assert d['category']=='Đưa vào import' and d['sums']['goods']+d['sums']['vat']==d['sums']['payment']
+        differences=detailed_reasons(code,d['original_lines'],['Thành tiền lệch số lượng nhân đơn giá quá 1 đồng'],[])
+        confirmations.append({'doc':code,'decision':'Đưa vào import, giữ tiền AMIS','basis':'Ngày 27/10/2026 người dùng xác nhận giữ nguyên tiền hàng, VAT và tổng thanh toán theo AMIS cho riêng chứng từ này; chấp nhận lệch SL × đơn giá 2–3đ. '+'; '.join(differences)})
+    for code in sorted(CONFIRMED_PROMOTIONS):
+        d=next(x for x in records if x['doc']==code)
+        assert d['category']=='Đưa vào import' and all(d['sums'][k]==0 for k in ['goods','vat','payment'])
+        confirmations.append({'doc':code,'decision':'Đưa vào import - hàng khuyến mại','basis':'Ngày 27/10/2026 người dùng xác nhận đây là đơn khuyến mại KM300FULL, SL 1; đồng ý dùng thuế suất 8%, giữ đơn giá/tiền hàng/VAT/thanh toán 0đ. Cột Hàng khuyến mại = 1; chỉ áp dụng đúng chứng từ này.'})
+    if confirmed_link_file.exists():
+        for c in json.loads(confirmed_link_file.read_text(encoding='utf8')):
+            confirmations.append({'doc':c['btl']+' → '+c['bhh'],'decision':'Liên kết trả lại do người dùng xác nhận','basis':c['basis']+' Ngày '+c['confirmed_on']+'. SL/giá/tiền hàng/VAT/thanh toán khớp sổ. Ghi rõ nguồn người dùng, giữ snapshot AMIS ban đầu. Theo quyết định mới: giữ bán gốc, trả lại tách chờ điều chỉnh.'})
+    confirmations.append({'doc':'Toàn bộ BTL 2024','decision':'Tách bán gốc và trả lại','basis':'Ngày 27/10/2026 người dùng xác nhận theo kế toán: lập hóa đơn bán gốc trước, sau đó lấy ký hiệu/số/ngày hóa đơn thực tế để lập import điều chỉnh trả lại. Không bù trừ hoặc loại bán gốc vì trả hết; vẫn giữ danh sách loại trừ. Hai khoản lệch tiền không tự chuyển thành giảm giá.'})
+    return_drafts=[]
+    for r in links:
+        return_drafts.append([r[0],r[2],docs[r[0]]['date'],r[4],r[5],r[6],r[7],r[8],r[9],r[10],r[11],r[12],None,None,None,None,'Chờ hóa đơn bán gốc; '+('cần chốt chênh tiền' if r[2] in link_issues else 'chưa lập import điều chỉnh'),r[16],link_issues.get(r[2])])
+    payload={'return_mode':'separate_adjustment_after_original_issuance','return_drafts':return_drafts,'manifest':manifest,'summary':summary,'docs':records,'links':links,'net_audit':net_audit,'unresolved_exclusions':unresolved,'template_rows':template_rows,'source_headers':old['headers'],'link_issues':link_issues,'return_status':return_status,'confirmations':confirmations,'promotion_import_rule':{'codes':sorted(CONFIRMED_PROMOTIONS),'rate':8,'marker_column':'Hàng khuyến mại','marker':1,'source':'https://helpv4.meinvoice.vn/kb/nhap-khau-hoa-don-mot-thue-suat/'}}
     (WORK/'prepared.json').write_text(json.dumps(payload,ensure_ascii=False,default=native),encoding='utf8')
     brief={'summary':summary,'partial_return_states':{k:v for k,v in return_status.items() if v!='Trả hết'},'pending':[{'doc':d['doc'],'reason':d['reasons']} for d in pending],'unresolved_exclusions':len(unresolved)}
     (WORK/'summary.json').write_text(json.dumps(brief,ensure_ascii=False,indent=2,default=native),encoding='utf8')

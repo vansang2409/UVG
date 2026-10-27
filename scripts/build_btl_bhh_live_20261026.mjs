@@ -1,11 +1,11 @@
 import fs from 'node:fs/promises';
 import {Workbook,SpreadsheetFile} from '@oai/artifact-tool';
 
-const root='D:/UVG',work=`${root}/scripts/data/btl-bhh-live-20261026`,out=`${root}/outputs/btl-bhh-20261026`;
+const root='D:/UVG',work=`${root}/scripts/data/btl-bhh-live-20261026`,out=process.env.UVG_BTL_OUTPUT_DIR||`${root}/outputs/btl-bhh-20261026`;
 const p=JSON.parse(await fs.readFile(`${work}/prepared.json`,'utf8'));
 const file=`${out}/LIEN_KET_BTL_BHH_2024.xlsx`;
 await fs.mkdir(out,{recursive:true});
-try{await fs.access(file);throw new Error('Không ghi đè file đã có');}catch(e){if(e.code!=='ENOENT')throw e;}
+if(!process.argv.includes('--replace'))try{await fs.access(file);throw new Error('Không ghi đè file đã có');}catch(e){if(e.code!=='ENOENT')throw e;}
 const w=Workbook.create();
 let tableId=0;
 function sheet(name,headers,rows,widths){
@@ -30,7 +30,7 @@ s.getRange(`F2:F${end}`).format.wrapText=true;s.getRange(`A2:Q${end}`).format.ro
 s.getRange(`M2:M${end}`).formulas=rows.map((r,i)=>[`=J${i+2}+L${i+2}`]);
 s.getRange(`C2:C${end}`).conditionalFormats.add('containsBlanks',{format:{fill:'#FFF2CC'}});
 const docs=p.docs.map(d=>[d.btl,new Date(d.date),d.customer,d.lines,d.bhhs.join(', '),null,null,null,null,d.payment,null,d.source_ok?'Khớp sổ AMIS 2024':'Khác sổ AMIS 2024']);
-const d=sheet('Phieu BTL',['Số phiếu BTL','Ngày hạch toán','Khách hàng','Số dòng hàng','BHH gốc trên AMIS','Số lượng trả','Tiền hàng trả (VND)','VAT trả (VND)','Tổng chi tiết (VND)','Tổng phiếu AMIS (VND)','Chênh lệch (VND)','Đối chiếu sổ 2024'],docs,[20,18,34,17,48,20,27,25,28,28,25,32]);
+const d=sheet('Phieu BTL',['Số phiếu BTL','Ngày hạch toán','Khách hàng','Số dòng hàng','BHH gốc đã xác định','Số lượng trả','Tiền hàng trả (VND)','VAT trả (VND)','Tổng chi tiết (VND)','Tổng phiếu AMIS (VND)','Chênh lệch (VND)','Đối chiếu sổ 2024'],docs,[20,18,34,17,48,20,27,25,28,28,25,32]);
 const de=docs.length+1;
 d.getRange(`B2:B${de}`).setNumberFormat('dd/mm/yyyy');d.getRange(`A2:A${de}`).setNumberFormat('@');d.getRange(`F2:F${de}`).setNumberFormat('#,##0.00');d.getRange(`G2:K${de}`).setNumberFormat('#,##0;[Red](#,##0);0');
 d.getRange(`E2:E${de}`).format.wrapText=true;
@@ -42,7 +42,7 @@ for(let i=0;i<p.docs.length;i++){
 }
 d.getRange(`K2:K${de}`).conditionalFormats.add('cellIs',{operator:'notEqual',formula:0,format:{fill:'#FCE4D6',font:{color:'#9C0006'}}});
 const info=sheet('Thong tin',['Nội dung','Giá trị'],[
- ['Đơn vị',p.company],['Dữ liệu kế toán',p.database],['Kỳ lấy phiếu BTL',p.filter],['Số phiếu BTL',null],['Số dòng hàng trả',null],['Số BHH gốc khác nhau',p.summary.unique_bhh],['Số dòng trống BHH',p.summary.missing_bhh_lines],['Tiền hàng trả (VND)',null],['VAT trả (VND)',null],['Tổng tiền trả (VND)',null],['Phiếu khác sổ AMIS 2024',p.summary.source_mismatch_documents],['Nguồn đọc','Bán hàng → Trả lại hàng bán → Chi tiết → Số CT bán hàng'],['Phương pháp','Đọc trực tiếp từng phiếu và từng dòng hàng trên AMIS. Kiểm đủ dòng và tổng tiền, đối chiếu từng dòng với sổ AMIS 2024.'],['Ý nghĩa BHH','Giữ nguyên BHH do AMIS hiển thị, không suy đoán theo tên, số tiền hay đơn giá.'],['Nguồn sổ đối chiếu','So_chi_tiet_ban_hang_2024.xlsx, sheet SỔ CHI TIẾT BÁN HÀNG; số dòng gốc ở cột cuối bảng chi tiết.'],['Ngày trích dữ liệu','26/10/2026'],['Thao tác trên AMIS','Chỉ xem, lọc và đọc dữ liệu. Không sửa, ghi sổ, bỏ ghi hay xóa chứng từ.'],['Phiếu cần kiểm tra','BTL00145 / SP000042 đang trống Số CT bán hàng trên AMIS; giữ nguyên trống, xem Chua co BHH.']
+ ['Đơn vị',p.company],['Dữ liệu kế toán',p.database],['Kỳ lấy phiếu BTL',p.filter],['Số phiếu BTL',null],['Số dòng hàng trả',null],['Số BHH gốc khác nhau',p.summary.unique_bhh],['Số dòng trống BHH',p.summary.missing_bhh_lines],['Tiền hàng trả (VND)',null],['VAT trả (VND)',null],['Tổng tiền trả (VND)',null],['Phiếu khác sổ AMIS 2024',p.summary.source_mismatch_documents],['Nguồn đọc','Bán hàng → Trả lại hàng bán → Chi tiết → Số CT bán hàng'],['Phương pháp','Đọc trực tiếp AMIS, kiểm đủ dòng/tổng tiền và đối chiếu sổ AMIS 2024. Bổ sung riêng BTL00145 → BHHT2024024972 theo xác nhận người dùng 27/10/2026; giữ nguyên snapshot đọc AMIS ban đầu.'],['Ý nghĩa BHH','BHH lấy từ AMIS; riêng BTL00145 do người dùng xác nhận. Nguồn liên kết ghi rõ ở cột Liên kết trên AMIS. Không suy đoán theo tên/giá.'],['Nguồn sổ đối chiếu','So_chi_tiet_ban_hang_2024.xlsx, sheet SỔ CHI TIẾT BÁN HÀNG; số dòng gốc ở cột cuối bảng chi tiết.'],['Ngày trích dữ liệu','26/10/2026'],['Thao tác trên AMIS','Chỉ xem, lọc và đọc dữ liệu. Không sửa, ghi sổ, bỏ ghi hay xóa chứng từ.'],['Liên kết bổ sung','BTL00145 / SP000042 → BHHT2024024972 do người dùng xác nhận 27/10/2026. Snapshot AMIS lúc trích vẫn trống. SL, đơn giá, tiền hàng/VAT/thanh toán khớp hoàn toàn, trả hết.']
 ],[34,125]);
 info.freezePanes.unfreeze();info.getRange('B2:B19').format.wrapText=true;info.getRange('A2:B19').format.rowHeight=42;
 for(const [row,formula] of [[5,`=COUNTA('Phieu BTL'!A2:A${de})`],[6,`=COUNTA('Chi tiet BTL-BHH'!A2:A${end})`],[9,`=SUM('Chi tiet BTL-BHH'!J2:J${end})`],[10,`=SUM('Chi tiet BTL-BHH'!L2:L${end})`],[11,`=SUM('Chi tiet BTL-BHH'!M2:M${end})`]])info.getRange(`B${row}`).formulas=[[formula]];
@@ -55,7 +55,7 @@ if(missing.length){
 w.recalculate();
 console.log((await w.inspect({kind:'region',sheetId:'Thong tin',range:'A5:B12',maxChars:1800,tableMaxRows:8,tableMaxCols:2})).ndjson);
 console.log((await w.inspect({kind:'match',searchTerm:'#REF!|#DIV/0!|#VALUE!|#NAME\\?|#N/A|#NUM!',options:{useRegex:true,maxResults:20},maxChars:1000})).ndjson);
-for(const [name,range,suffix] of [['Chi tiet BTL-BHH','A1:H5','detail'],['Chi tiet BTL-BHH','I1:Q5','money'],['Phieu BTL','A1:F5','docs'],['Thong tin','A1:B8','info'],['Chua co BHH','A1:H2','missing']]){
+for(const [name,range,suffix] of [['Chi tiet BTL-BHH','A1:H5','detail'],['Chi tiet BTL-BHH','I1:Q5','money'],['Phieu BTL','A1:F5','docs'],['Thong tin','A1:B8','info'],...(missing.length?[['Chua co BHH','A1:H2','missing']]:[])]){
  const png=await w.render({sheetName:name,range,scale:1,format:'png'});await fs.writeFile(`${work}/${suffix}.png`,new Uint8Array(await png.arrayBuffer()));
 }
 await(await SpreadsheetFile.exportXlsx(w)).save(file);
