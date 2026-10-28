@@ -1,5 +1,7 @@
 # Ghi chú đối soát HD 2025 — 27/10/2026
 
+> Cập nhật tiếp ngày 28/10: [114 mã đã bổ sung từ Ngoai_san và Điều chỉnh, các vấn đề còn lại](GHI_CHU_DOI_SOAT_HD_2025_20261028.md). Nội dung bên dưới là kết quả tại ngày 27/10.
+
 ## Phạm vi và nguồn
 
 - Google Sheets [HD 2025](https://docs.google.com/spreadsheets/d/1bhOnhnBcHaHiy06-REAdVVEk160FG94a6XgkfH0AQsw/edit); tab Ktoan = `MEINV F0, F1, F2 (Ktoan)` (gid 1291269406).
