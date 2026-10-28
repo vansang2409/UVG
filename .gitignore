@@ -59,3 +59,18 @@ node_modules/
 /outputs/merge_20261012/artifact_check.ndjson
 /outputs/doi_soat_san_20261019/support/*.png
 /outputs/doi_soat_san_20261019/support/export_inspection.ndjson
+
+# Snapshot đọc Google Sheets và dữ liệu trung gian lớn; không tự đưa lên Git.
+/scripts/data/link-audit-20261021/source/
+/scripts/data/link-audit-20261021/audit.json
+
+# Bộ import 2024: giữ nguồn nén, JSON kiểm chứng; bỏ cache/preview tạm.
+/scripts/data/amis-2024-linked-20261026/prepared.json
+/scripts/data/amis-2024-linked-20261026/*.tmp.xlsx
+/scripts/data/amis-2024-linked-20261026/*.png
+/scripts/data/amis-2024-linked-20261026/*.log
+/scripts/data/new-amis-2024-20261026/prepared.json
+/scripts/data/new-amis-2024-20261026/*.png
+/scripts/data/new-amis-2024-20261026/*.log
+/scripts/data/btl-bhh-live-20261026/*.png
+/scripts/data/btl-bhh-live-20261026/*.log

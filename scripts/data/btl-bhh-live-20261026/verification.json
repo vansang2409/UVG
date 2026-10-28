@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "documents": 163,
+  "lines": 219,
+  "linked_lines": 219,
+  "missing_bhh": [],
+  "unique_bhh": 163,
+  "source_mismatch_documents": 0,
+  "payment": 243935201,
+  "file": "D:\\UVG\\outputs\\btl-bhh-20261026\\LIEN_KET_BTL_BHH_2024.xlsx",
+  "sha256": "4efccf3eb58e89bac82b721e24f8627d854ba7e69b4186b2c821fd60d10b7081",
+  "bytes": 48082,
+  "original_snapshot_sha256": "a59c384c0265f0816e2525a06dbbbc58df46c0db69f582fe63797992e939f441",
+  "confirmed_links": [
+    {
+      "btl": "BTL00145",
+      "line": 1,
+      "sku": "SP000042",
+      "bhh": "BHHT2024024972",
+      "confirmed_on": "2026-10-27",
+      "basis": "Người dùng xác nhận: BTL00145 trả cho BHHT2024024972, yêu cầu bổ sung liên kết.",
+      "original_amis_bhh": ""
+    }
+  ],
+  "checks": [
+    "219 dòng khớp mã hàng/SL/giá/tiền và VAT sổ AMIS",
+    "BHH BTL00145 bổ sung theo xác nhận người dùng, không sửa snapshot AMIS",
+    "Không còn dòng trống BHH",
+    "Không lỗi công thức/ô Excel"
+  ]
+}

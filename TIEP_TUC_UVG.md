@@ -1,13 +1,14 @@
-# Bàn giao công việc cục bộ máy này — 28/10/2026
+# Bàn giao đã hợp nhất công việc hai máy — 28/10/2026
 
-Đây là snapshot công việc trên máy `D:\UVG`, dựa trên commit `0801258`. Người dùng đã đồng ý đưa cả workbook và dữ liệu kế toán lên repo GitHub công khai `vansang2409/UVG`. Chưa nhập phần mềm, ký hoặc phát hành hóa đơn. Các mục bên dưới lưu lịch sử; trạng thái “chưa commit/push” trong mục cũ là trạng thái tại thời điểm thực hiện công việc đó.
+Đã lưu công việc trên máy `D:\UVG` (nền `0801258`) vào commit **`f923a60dfabcfb13a56ef6e30eaf94d5e6df4786`**, gồm 49 file code, Markdown, workbook và dữ liệu kế toán. Người dùng đã đồng ý đưa cả workbook và dữ liệu kế toán lên repo GitHub công khai `vansang2409/UVG`. Chưa nhập phần mềm, ký hoặc phát hành hóa đơn. Các mục bên dưới lưu lịch sử; trạng thái “chưa commit/push” trong mục cũ là trạng thái tại thời điểm thực hiện công việc đó.
 
-**Cảnh báo đồng bộ:** đã fetch chỉ để đọc lịch sử, không thay đổi nội dung working tree. `origin/master` hiện ở `fb6e1ffcd5efb4e8d4ec2b60e348665998d926d7`, có 3 commit ngày 26–27/10 chưa có trong nhánh cục bộ: `ec7e77f`, `30561f2`, `fb6e1ff`. Trước đợt bàn giao này, máy không có commit riêng chưa push; công việc ngày 12–19/10 còn ở working tree. Snapshot này chưa tích hợp 3 commit trên. Chỉ thử push thường lên `origin/master`; nếu bị từ chối thì dừng, không pull/reset/clean/force push hoặc tự hợp nhất dữ liệu. Kết quả push phải xem thông báo cuối của phiên bàn giao và kiểm tra Git, không suy ra đã đồng bộ chỉ vì có commit cục bộ.
+**Đồng bộ Git:** hai lần push đầu bị từ chối `non-fast-forward` vì GitHub đã có 3 commit ngày 26–27/10: `ec7e77f`, `30561f2`, `fb6e1ff` (đầu remote lúc pull: `fb6e1ffcd5efb4e8d4ec2b60e348665998d926d7`). Sau đó người dùng cho phép **“vậy pull đi”**; đã pull bằng merge, giữ commit của cả hai phía. Chỉ có xung đột văn bản ở `.gitignore` và file bàn giao này: đã kết hợp quy tắc ignore và giữ đầy đủ lịch sử hai phía, đặt ghi chú mới trước ghi chú cũ. Code và workbook ghép tự động; không tái tính hay sửa số liệu kế toán để giải quyết khác biệt nghiệp vụ. Bước cuối là push thường lên `origin/master` và kiểm tra HEAD local/remote khớp nhau; không reset/clean/force push. Kết quả push xem thông báo cuối của phiên bàn giao và Git, không suy ra đã đồng bộ chỉ vì có commit cục bộ.
 
-## Đã làm và bộ file cục bộ đang dùng
+## Đã làm và các bộ file đã lưu
 
 - Đã áp dụng phương án 19/10: bổ sung **13 hóa đơn / 206 dòng / 8 chuỗi**, STT 2033–2045; bộ Đã điều chỉnh đạt **2.045 hóa đơn / 41.996 dòng / 1.015 chuỗi**. Cộng 8.410 hóa đơn Chưa điều chỉnh thành **10.455 hóa đơn / 55.564 dòng**; Ngoại lệ còn **236 chuỗi / 322 hóa đơn**. Đây là bộ điều chỉnh cục bộ, không phải bộ bán gốc AMIS 2024 mới trên GitHub.
 - File chính: `outputs/HOA_DON_DA_DIEU_CHINH_F0_2024_T6_2025.xlsx`, `outputs/HOA_DON_DA_DIEU_CHINH_IMPORT_2_SHEET.xlsx`, `outputs/NGOAI_LE_F0_2024_T6_2025.xlsx`, `outputs/doi-chieu-85-20261019/UVG_72_HOA_DON_KHONG_CAN_DIEU_CHINH_20261019.xlsx`. Hai bản Chưa điều chỉnh ở `outputs/HOA_DON_CHUA_DIEU_CHINH_F0_2024_T6_2025.xlsx` và `outputs/HOA_DON_CHUA_DIEU_CHINH_IMPORT_2_SHEET.xlsx` giữ nguyên.
+- Đã hợp nhất thêm bộ AMIS từ GitHub: `outputs/amis-2024-theo-btl-bhh-20261026/IMPORT_HOA_DON_MOI_AMIS_2024.xlsx`, `outputs/amis-2024-theo-btl-bhh-20261026/KIEM_TRA_VA_LOAI_TRU_AMIS_2024.xlsx`, `outputs/btl-bhh-20261026/LIEN_KET_BTL_BHH_2024.xlsx`, cùng nguồn, script và JSON kiểm chứng. Ghi chú ngày 27/10 bên dưới mô tả bộ bán gốc **34.739 hóa đơn / 44.189 dòng**, import trả lại **161 phiếu / 216 dòng**, 2 BTL chờ KT. Các tham chiếu hóa đơn gốc/ngày điều chỉnh của phần trả lại còn trống; chưa phải dữ liệu đã nhập/phát hành. Ghi chú đối soát HD 2025 ở `GHI_CHU_DOI_SOAT_HD_2025_20261027.md` cũng được giữ.
 - Quyết định máy đọc được: `scripts/data/check-review/kt-workbook-20261011/accountant-decisions.json`, mục `latest_override_20261019`. Kế hoạch, dữ liệu nguồn trích, bản trước sửa, script và kết quả kiểm tại `scripts/data/apply-13-20261019/`; căn cứ danh sách 72 tại `scripts/data/decision-85-20261019/`. Báo cáo hiện tại là `apply-13-20261019/final-verification.json`; báo cáo `decision-85-20261019/verification.json` là thời điểm trước khi cập nhật tổng hợp của bảng 72, không dùng hash cũ của báo cáo đó để kiểm bản hiện tại.
 - Đã gộp đối soát Shopee/TikTok tháng 7–12/2025 tại `outputs/merge_20261012/ĐỐI SOÁT ĐÃ GỘP.xlsx`: **301 tệp / 602 sheet nguồn, 26.550 dòng / 50 cột / 1 sheet kết quả**. Giữ `rows.jsonl`, `merge_manifest.json`, dữ liệu kiểm nguồn và script cùng thư mục để tiếp tục trên máy khác. `validation.json` ghi PASS, không lệch giá trị ô/tổng tiền; các lỗi nguồn 1.197 `#N/A` và 6 `#REF!` được giữ dưới dạng chữ. SHA-256 workbook khớp `final_delivery.json`: `9385a2b97b37f721763be1195ce8893ded8525542f6b29ad25ceef9a90763eef`. Đường dẫn Downloads trong `final_delivery.json` là nơi giao bản cũ; bản bàn giao qua Git nằm trong `outputs/merge_20261012/`.
 - Mẫu đối soát công nợ sàn: `outputs/doi_soat_san_20261019/Mau_doi_soat_cong_no_san_theo_thang.xlsx`. Bản này được chép nguyên byte từ Downloads trong đợt bàn giao, SHA-256 `e58390dc4db69400005c3d36de0fd255d4760b9d9f7a755d69d5e27767a666de`. Script dựng/kiểm Excel và báo cáo có sẵn tại `outputs/doi_soat_san_20261019/support/`; báo cáo cũ ghi 17 kiểm tra logic và 8 kiểm tra Excel. Đợt bàn giao chỉ kiểm file/hash, không tuyên bố đã chạy lại các kiểm tra Excel đó.
@@ -17,15 +18,299 @@
 
 **Bằng chứng cục bộ ngày 19/10:** `decision-85-20261019/data.json` ghi `1C24TUV/00000478` và `1C25TUV/00002578` thuộc người mua Đào Duy Tùng, mã nguồn **8823260350**, lý do “MST cá nhân; bổ sung điều chỉnh trái dấu”. `accountant-decisions.json/latest_override_20261019` đánh dấu đã áp dụng, thay phân loại ngoại lệ theo mã 10 số của chuỗi này. `apply-13-20261019/plan.json` có STT **2042** giảm gốc 478 (SL âm, đơn giá có sẵn dương), STT **2043** đảo riêng khoản tăng 2578 (chỉ tiền, để trống SL/đơn giá). Báo cáo `final-verification.json` ghi nguồn + các khoản mới của chuỗi 478 đạt **(0, 0, 0)** tiền hàng/thuế/thanh toán, và hash workbook hiện tại khớp báo cáo. Như vậy **bản cục bộ đã xử lý cả cặp**, không còn là phương án chưa áp dụng.
 
-**Bằng chứng khác trên GitHub:** `TIEP_TUC_UVG.md` ở `origin/master` commit `fb6e1ff`, mục “Làm rõ lý do giữ 10 chuỗi trong dự tính” ngày 27/10, vẫn mô tả 478/2578 là ngoại lệ do `tax_shaped` nhận mã 10 số, **chưa xác minh loại người mua** và không phải cặp được KT chỉ định giữ riêng như 3/508, 498/2140, 574/2189. Ghi chú này khác quyết định đã áp dụng cục bộ ngày 19/10. Chưa tự chọn một phương án để ghi đè phương án kia; cần đối chiếu hai lịch sử và chốt phạm vi trước khi tiếp tục nghiệp vụ hoặc hợp nhất workbook. Không suy ra loại người mua chỉ từ độ dài mã số.
+**Bằng chứng từ phiên bản GitHub `fb6e1ff`:** mục “Làm rõ lý do giữ 10 chuỗi trong dự tính” ngày 27/10 vẫn mô tả 478/2578 là ngoại lệ do `tax_shaped` nhận mã 10 số, **chưa xác minh loại người mua** và không phải cặp được KT chỉ định giữ riêng như 3/508, 498/2140, 574/2189. Ghi chú này khác quyết định đã áp dụng cục bộ ngày 19/10. Đã giữ nguyên cả hai nguồn bằng chứng khi merge Git; chưa tự chọn một phương án để ghi đè phương án kia. Cần đối chiếu hai lịch sử và chốt phạm vi trước khi tiếp tục nghiệp vụ hoặc hợp nhất số liệu workbook/dự toán. Không suy ra loại người mua chỉ từ độ dài mã số.
 
 ## Việc còn lại khi tiếp tục
 
-1. Giải quyết chênh lịch sử giữa snapshot máy này và 3 commit trên GitHub trước khi có thể đồng bộ nhánh master bằng push thường. Giữ đầy đủ cả hai phía, đặc biệt các mục bàn giao ngày 26–27/10 và các workbook AMIS mới trên remote; không chép đè bằng snapshot cũ.
+1. Khi chuyển máy, kiểm tra nhánh `origin/master` chứa cả commit cục bộ `f923a60` và đầu remote cũ `fb6e1ff`; đọc phần bàn giao 28/10 và các mục ngày 27/10 ngay dưới trước khi chạy script. Xung đột Git đã được xử lý bằng cách giữ cả hai phía; các khác biệt nghiệp vụ ở mục tiếp theo vẫn cần đối chiếu riêng.
 2. Đối chiếu riêng quyết định 478/2578 nêu trên, đồng thời rà các chuỗi 3/508, 498/2140, 574/2189 mà bản 19/10 đã xử lý nhưng ghi chú remote ngày 27/10 vẫn gọi là giữ nguyên. Các tổng 10.455 của máy này và 34.739 hóa đơn bán gốc AMIS trên remote thuộc hai bộ khác nhau, không cộng/trừ lẫn hoặc coi là cùng một file hiện hành.
 3. Với bộ cục bộ, tiếp tục lưu ý 2 dòng gốc 498 (import 41865 và 41915) có thành tiền nguồn khác SL × đơn giá làm tròn 1 đồng; xem `rounding-review.json`, không tự tính lại thành tiền. Giữ các hóa đơn chỉ đổi thông tin 6108/4203/4204/9186, không tự lập đảo tiền; không chạy lại builder/prepare/merge/promote lịch sử chỉ để kiểm.
 4. Nguồn gộp 301 tệp gốc được script tham chiếu ở `C:\Users\thuong ngo\Downloads\ĐỐI SOÁT CẦN GỘP`, ngoài repo; snapshot hàng dữ liệu `rows.jsonl` và workbook kết quả được bàn giao, còn muốn kiểm lại trực tiếp từng tệp gốc cần có lại thư mục nguồn. Một số script đối soát còn đường dẫn tuyệt đối Windows, cần sửa đường dẫn khi dùng trên máy khác. Mẫu đối soát sàn là file mẫu; nhập nguồn thực tế và kiểm lại trước khi dùng.
 5. Không đưa cache review `.codex_review/`, `tmp/`, `node_modules/`, `__pycache__/`, ảnh preview, workbook chụp mẫu và log xuất tạm vào commit. Giữ dữ liệu kế toán, JSON căn cứ, workbook trước sửa cần đối chiếu, code và Markdown. Không nhập, ký hoặc phát hành hóa đơn trong phiên bàn giao này.
+
+---
+
+# Google Sheets: cột S không còn lỗi tra cứu #N/A — 27/10/2026
+
+Theo yêu cầu người dùng, chỉ sửa công thức cột **S — Mã đơn Hàng** của sheet **Hóa đơn GTGT**, Google `IMPORT MEINV 2024`, ID `1d4fLQRALDLXOFOQQlZuXMCTAg4lnRQ7NbKH-UPJN0XE`, gid **555142675**. Phạm vi **S10:S44198** (44.189 dòng). Mẫu: `=IFERROR(INDEX('Mã đơn hàng'!B:B;MATCH(T10;'Mã đơn hàng'!A:A;0));"")`. Mã chưa tìm được hiển thị trống, không tự đặt mã thay thế.
+
+Đã bọc **43.967** công thức INDEX/MATCH; **222** công thức vốn có IFERROR giữ nguyên. Đọc lại toàn bộ 44.189 công thức và kết quả: đúng từng dòng, không còn lỗi #N/A/#REF!/#VALUE!/#ERROR!. Chỉ cập nhật `userEnteredValue` ở S, giữ tiêu đề, định dạng, các cột khác, các sheet khác và file Excel. Căn cứ `scripts/data/amis-2024-linked-20261026/google-s-iferror-verification.json`.
+
+**Trạng thái cần tiếp tục:** bán gốc 34.739 HĐ / 44.189 dòng; import trả lại 161 phiếu / 216 dòng theo mẫu, Y mã đơn/Z BHH; 2 BTL lệch giá vẫn tách chờ KT. Người dùng sẽ map số/ký hiệu/ngày HĐ gốc và ngày điều chỉnh sau khi lập hóa đơn bán gốc. Chưa import/ký/phát hành. Các mục bên dưới là lịch sử quyết định, ưu tiên mục mới nhất.
+
+Để dựng lại trên máy khác, snapshot đầu vào trung gian được lưu nén tại `scripts/data/new-amis-2024-20261026/prepared.json.gz` (giữ bản JSON lớn cục bộ); script rebuild tự đọc bản nén khi không có JSON. Thứ tự: `rebuild_import_2024_linked_returns.py` → `build_import_2024_linked_returns.mjs --replace` → `export_import_2024_linked_returns.py --replace` (gồm chuyển mẫu điều chỉnh trả lại) → `verify_import_2024_linked_returns.py`. Các chỉnh sửa Google Sheets đã kiểm lưu riêng, không được coi file Excel là bản sao chứa công thức tra cứu của Google.
+
+---
+
+# Sheet trả lại đã đổi thành Import dieu chinh theo mẫu — 27/10/2026
+
+Theo yêu cầu mới, đã thay `Tra lai cho dieu chinh` bằng **Import dieu chinh** trong Google `IMPORT MEINV 2024` (giữ gid **700000001**) và workbook kiểm tra hiện tại. **A:X = đúng 24 tiêu đề từ `data/Du lieu Meinvoice/Mau HD Dieu chinh.xls`; Y = Mã đơn hàng; Z = Số chứng từ bán gốc BHH**. BTL ghi trong Lý do điều chỉnh. Mã đơn hàng ghép từ tab Mã đơn hàng; Google dùng công thức theo Z, Excel giữ chuỗi nguồn đầy đủ, không đổi thành số. Không lấy số BHH làm số hóa đơn pháp lý.
+
+**161 phiếu / 216 dòng**, tiền hàng **-223.182.593đ**, VAT **-17.854.608đ**, thanh toán **-241.037.201đ**. SL âm, đơn giá dương, thành tiền âm; tổng tiền hàng/VAT/thanh toán chỉ ở dòng đầu mỗi phiếu. Giữ nguyên số nguồn. **Ngày điều chỉnh, ký hiệu/số/ngày HĐ gốc và mã CQT vẫn trống** để người dùng map sau; chưa sẵn sàng nhập khi chưa bổ sung tham chiếu.
+
+**BTL00023 và BTL00024** (3 dòng, tổng trả nguồn 2.898.000đ) giữ riêng trong sheet **Cho KT tra lai**, không đưa vào import điều chỉnh vì khoản lệch 100.000đ/32.659đ chưa chốt bản chất; chưa tự chiết khấu hoặc đổi giá. Tổng 216 dòng import + 3 dòng chờ = 219 dòng BTL nguồn.
+
+File import bán gốc giữ nguyên hash **c6ea974aeabc67e9912d6359448f853f4257fe79a808e3f16cf60d82f6f321ee**. Workbook kiểm tra cập nhật tại chỗ; các phần không liên quan giữ nguyên byte, không thêm Excel bàn giao. Căn cứ `return-adjustment-import.json`, `return-adjustment-verification.json`, `return-order-map.json` và `verification.json` trong `scripts/data/amis-2024-linked-20261026/`. Script `prepare_return_adjustment_import.py` / `build_return_adjustment_import.mjs` đã nối vào exporter để lần dựng lại tiếp tục giữ phương án này. Chưa import/ký/phát hành.
+
+---
+
+# Phương án hiện hành: tách bán gốc và trả lại — 27/10/2026
+
+Người dùng làm việc với kế toán và xác nhận: **lập hóa đơn bán gốc trước, lấy ký hiệu/số/ngày hóa đơn thực tế rồi lập import điều chỉnh trả lại**. Quyết định này thay thế phương án bù trừ BTL vào import mới phía dưới. Không áp dụng minh họa giảm giá 100.000đ / 32.659đ; hai khoản này vẫn chờ kế toán chốt ở phần trả.
+
+Đã cập nhật tại chỗ đúng hai file chính tại `outputs/amis-2024-theo-btl-bhh-20261026/`: import bán gốc **34.739 hóa đơn / 44.189 dòng**, tiền hàng **49.533.443.555đ**, VAT **3.962.675.787đ**, thanh toán **53.496.119.342đ**. Giữ nguyên từng dòng bán AMIS, phục hồi 159 BHH trả hết, hai BHH từng bù trừ một phần và đưa hai đơn BHHS2024000629/BHHS2024005761 vào bán gốc nguyên số. **115 chứng từ loại trừ vẫn loại**; 7 mục loại trừ chưa rõ giữ nguyên. A:Q đúng mẫu, R khuyến mại, S số chứng từ; không thêm bản Excel bàn giao.
+
+Trong workbook kiểm tra có tab **Tra lai cho dieu chinh**, gồm **163 BTL / 219 dòng**, tiền hàng trả **225.865.926đ**, VAT **18.069.275đ**, tổng trả **243.935.201đ**. Đây là bảng chuẩn bị từ nguồn, **chưa phải file import điều chỉnh sẵn dùng**: ký hiệu/số/ngày hóa đơn gốc và ngày điều chỉnh đều để trống. Hai BTL00023/BTL00024 giữ nguyên giá/tiền nguồn và ghi rõ chênh lệch; không tự phân bổ lại hoặc tự giảm thuế. Không sửa sổ AMIS hoặc workbook liên kết.
+
+Đã cập nhật Google Sheets `IMPORT MEINV 2024`, ID `1d4fLQRALDLXOFOQQlZuXMCTAg4lnRQ7NbKH-UPJN0XE`: giữ cột S **Mã đơn Hàng**, cột T **Số chứng từ** và tab nguồn Mã đơn hàng; khôi phục 218 dòng, tổng 44.189 dòng / 34.739 nhóm liền nhau, tiền hàng/VAT khớp Excel. Các dòng khôi phục đều tra được mã đơn hàng. Thêm tab `Tra lai cho dieu chinh` đúng 219 dòng nguồn, chờ hóa đơn gốc. Không ghi đè các dòng bán không liên quan; STT cũ của Google giữ nguyên nên có khoảng trống 30731 và nhóm mới nối cuối, khác thứ tự đánh lại liên tục của Excel nhưng không trùng nhóm.
+
+Kiểm độc lập đã qua: toàn bộ dòng import giữ đúng nguồn, hash nguồn nguyên, tổng bán/thuế/thanh toán khớp; 219 dòng trả đúng nguồn và bốn trường hóa đơn/ngày điều chỉnh trống; không lỗi công thức. Căn cứ `scripts/data/amis-2024-linked-20261026/verification.json` và `google-split-verification.json`. **Các dự toán doanh thu trước đây chưa cập nhật theo luồng tách bán/trả; không dùng tổng import bán gốc như doanh thu sau điều chỉnh.** Chưa import, ký, phát hành hoặc commit/push.
+
+---
+
+# Đã bổ sung BTL00145 → BHHT2024024972 theo người dùng — 27/10/2026
+
+Người dùng xác nhận **BTL00145 trả cho BHHT2024024972**. Đối chiếu đúng **SP000042 / Bình nước giữ nhiệt thông minh UVGREEN UK100 Màu trắng / Cái / SL 1 / đơn giá và tiền hàng 972.222 / VAT 77.778 / thanh toán 1.050.000đ**. Chứng từ bán ngày 28/11/2024, trả ngày 03/12/2024, khớp toàn bộ: **trả hết**. Đã loại BHH này khỏi import mới, đưa sang nhóm `Đã trả hết`, bỏ BTL00145 khỏi `Can kiem tra`.
+
+Đã cập nhật **tại chỗ** file liên kết `outputs/btl-bhh-20261026/LIEN_KET_BTL_BHH_2024.xlsx` và đúng 2 file chính tại `outputs/amis-2024-theo-btl-bhh-20261026/`. Hiện **34.578 hóa đơn / 43.971 dòng**, tiền hàng **49.304.852.397**, VAT **3.944.388.494**, thanh toán **53.249.240.891đ**. Tổng trả hết **159 BHH / 211 dòng**; **163 phiếu BTL / 219 dòng đều đã có BHH xác định** (218 dòng từ AMIS + 1 dòng người dùng xác nhận), không còn BTL thiếu liên kết. Còn **2 chứng từ / 4 dòng cần kiểm tra**: BHHS2024000629/BTL00023 và BHHS2024005761/BTL00024; 7 mục loại trừ chưa rõ giữ nguyên. Giữ đủ A:Q mẫu, R khuyến mại, S số chứng từ.
+
+**Nguồn liên kết phải phân biệt:** giữ nguyên `verified-live-reads.json` và sổ AMIS gốc, không sửa chứng từ trên AMIS. Bổ sung tại `scripts/data/btl-bhh-live-20261026/user-confirmed-links.json`; cột trạng thái của dòng BTL00145 và sheet Thong tin ghi rõ do người dùng xác nhận 27/10/2026, snapshot AMIS lúc trích vẫn trống. Không được mô tả BHH này là đã đọc trực tiếp từ AMIS. Giữ hash snapshot file liên kết cũ tại `original_snapshot_sha256` trong báo cáo kiểm mới; bộ import dùng hash workbook liên kết cập nhật đã kiểm thay hash a59c... cũ. Đủ **11 xác nhận** trong dữ liệu chuẩn bị và hướng dẫn của file kiểm tra.
+
+Kiểm hoàn tất độc lập cả file liên kết và 2 file import/kiểm tra: 219 dòng trả khớp đủ trường nguồn; BHH mới khớp trả hết; mọi dòng import khớp nguồn/bù trừ; đủ 35.017 chứng từ / 44.578 dòng phân nhóm, không thiếu/trùng; 159 BHH trả hết không có trong import; source hashes không đổi; không lỗi ô/công thức; hai file cuối giữ đúng hash bộ đã kiểm. Báo cáo `scripts/data/btl-bhh-live-20261026/verification.json` và `scripts/data/amis-2024-linked-20261026/verification.json`. Đã dọn thư mục xuất tạm, không tạo bản Excel bàn giao khác. Chưa nhập/ký/phát hành hoặc commit/push.
+
+Dự toán doanh thu cũng cập nhật giảm phần import mới đúng **972.222đ doanh thu / 77.778đ VAT / 1.050.000đ thanh toán**: theo file import hiện tại, tổng **50.529.971.924 / 4.042.398.062 / 54.572.369.986đ**. Nếu KT hoàn tất kế hoạch đưa 6 chuỗi thay thế về 0 thủ công, còn **50.158.627.647 / 4.012.690.519 / 54.171.318.166đ**, chênh AMIS **230.455.847 / 18.436.469 / 248.892.316đ**. Phần KT thủ công vẫn là kế hoạch chưa xác minh đã thực hiện. Cập nhật căn cứ tại `scripts/data/revenue-forecast-20261027/`, không đổi doanh thu cũ hoặc tự xử lý 4 chuỗi giữ nguyên.
+
+---
+
+# Kiểm tra hóa đơn công ty trong nhóm thay thế — 27/10/2026
+
+Đã kiểm bảng tổng, bảng liên kết thay thế và `Chi tiet nguon` của workbook ngoại lệ. **Có một chuỗi thay thế công ty thuộc gốc 2024:** `1C24TUV/00000060 → 1C24TUV/00000061 → 1C25TUV/00002605`, người mua **CÔNG TY CỔ PHẦN XÂY DỰNG VÀ NỘI THẤT PHÚ MINH**, MST **0106357063**. 60/61 đều đã bị thay thế; 2605 là hóa đơn thay thế còn hiệu lực, tiền hàng **2.536.111**, VAT **202.889**, thanh toán **2.739.000đ**. Chuỗi này đã thuộc ngoại lệ công ty và được giữ trong phần doanh thu cũ; **không nằm trong 6 chuỗi KT dự kiến đưa về 0**, không trừ thêm khi cập nhật dự toán.
+
+Sáu chuỗi kế hoạch thủ công (188/2601,189/2610,190/2602,191/2603,192/2604,216/2617) đều có tên người mua khách lẻ không lấy hóa đơn, MST trống ở cả gốc và thay thế trong bảng tổng; không xuất hiện trong tab `HD cty 2024`. Đây là kết quả theo nguồn hiện có, không xác minh pháp nhân bên ngoài. Giữ nguyên số liệu dự toán sau thủ công **50.159.599.869đ doanh thu**, không sửa import.
+
+---
+
+# Kế hoạch KT đưa 6 chuỗi thay thế về 0 thủ công — 27/10/2026
+
+Người dùng xác nhận: **“HĐ thay thế kt sẽ làm thủ công đưa về 0”**. Áp dụng nhóm 6 chuỗi 188/2601, 189/2610, 190/2602, 191/2603, 192/2604, 216/2617 đã liệt kê; đây là **kế hoạch xử lý thủ công**, chưa xác minh KT thực hiện hoặc phát hành. Không bổ sung nhóm này vào import điều chỉnh, không sửa workbook/import hiện tại.
+
+Dự tính **sau khi hoàn tất cả bộ import và phần KT xử lý thủ công**: trừ thêm doanh thu **371.344.277đ**, VAT **29.707.543đ**, thanh toán **401.051.820đ**. Hóa đơn cũ còn **853.775.250đ doanh thu**, **68.302.025đ VAT**, **922.077.275đ thanh toán**. Cộng import mới: doanh thu **50.159.599.869đ**, VAT **4.012.768.297đ**, thanh toán **54.172.368.166đ**. Chênh với AMIS giảm còn **231.428.069đ doanh thu**, **18.514.247đ VAT**, **249.942.316đ thanh toán**; doanh thu chênh gồm **230.812.119đ** của 3 cặp chốt giữ + cặp 478 ngoại lệ theo mã 10 số, và **615.950đ** chênh còn lại. Giữ kết quả chỉ theo file import là kịch bản cũ, không ghi đè hoặc gọi số mới là đã thực hiện.
+
+Căn cứ lưu tại `including_manual_replacement_zero` trong `scripts/data/revenue-forecast-20261027/prepared.json` và `summary.json`, có đủ 6 khóa gốc, số giảm và trạng thái kế hoạch. Chưa nhập/ký/phát hành hoặc commit/push.
+
+---
+
+# Làm rõ lý do giữ 10 chuỗi trong dự tính — 27/10/2026
+
+Đối chiếu lại nguồn quyết định: nhóm 4 chuỗi được gọi chung là giữ nguyên trước đó **không cùng một lý do**. **3/508 (CC01), 498/2140 (CC02), 574/2189 (CC03)**: phản hồi KT ghi “Giữ nguyên, không xử lý điều chỉnh hóa đơn này”; người dùng xác nhận ngày 11/10 giữ cả cặp ngoài đợt xử lý, áp dụng vào workbook ngày 12/10. Không có ghi chú nguyên nhân nghiệp vụ chi tiết cho từng cặp trong phản hồi này; không suy ra tất cả là hóa đơn công ty/hộ kinh doanh chỉ từ quyết định giữ.
+
+Riêng **478/2578**: người mua **Đào Duy Tùng**, ô MST/CCCD nguồn **8823260350**. Chuỗi được đưa vào `Ngoai le` bởi quy tắc bộ lọc `tax_shaped` nhận mã 10 số, không phải CC01–CC06. Chưa xác minh bản chất người mua là công ty/hộ kinh doanh hay cá nhân. Không gọi đây là một cặp đã được kế toán chỉ định giữ riêng như ba cặp trên.
+
+**6 chuỗi thay thế 188/2601, 189/2610, 190/2602, 191/2603, 192/2604, 216/2617**: ngoài phạm vi workflow điều chỉnh đã dựng; ghi chú cũ nêu rõ nghiệp vụ thay thế chưa mở xử lý. Đây là còn nguyên vì chưa được xử lý trong bộ import, không phải xác nhận cuối rằng không cần xử lý. Dự tính chỉ cộng hóa đơn thay thế còn hiệu lực, không cộng gốc đã bị thay thế. Số dự tính không đổi; chưa sửa import hoặc quyết định giữ của chuỗi nào.
+
+Căn cứ: `scripts/data/check-review/kt-workbook-20261011/accountant-decisions.json` điểm 6, `accountant-reply-review.json` CC01–CC03; `Chi tiet nguon` trong workbook ngoại lệ; quy tắc `tax_shaped` tại `scripts/filter_invoice_exceptions.py`; mục lịch sử workflow thay thế phía dưới.
+
+---
+
+# Dự tính doanh thu 2024 sau import điều chỉnh và import mới — 27/10/2026
+
+Đã tính **chỉ đọc**, không sửa workbook/source/import, theo ba file import hiện hành (hai bộ `HOA_DON_*_IMPORT_2_SHEET.xlsx` và bộ mới AMIS). Phạm vi chính là **hóa đơn gốc có ngày năm 2024**, cộng đủ các hóa đơn liên quan 2025/2026 theo ký hiệu + số HĐ; loại hóa đơn hủy và hóa đơn bị thay thế, giữ hóa đơn thay thế còn hiệu lực. Đọc cả liên kết 2026 xuất 09/10 và 22/10; không thấy giá trị 2026 hiện hữu thuộc gốc 2024. Giữ liên kết đã xác minh tại `Chi tiet nguon` của workbook, gồm quan hệ lịch sử bị thiếu trong bảng liên kết xuất mới; không tính trùng 6 chuỗi có mặt ở cả bảng điều chỉnh và ngoại lệ.
+
+**Kết quả dự tính theo gốc 2024:**
+
+| Hạng mục | Doanh thu trước VAT | VAT | Tổng thanh toán |
+|---|---:|---:|---:|
+| Hóa đơn cũ hiện có, kể cả điều chỉnh năm sau của gốc 2024 | 47.402.157.888 | 3.792.174.626 | 51.194.328.614 |
+| Phần import điều chỉnh cho gốc 2024 | -46.177.038.361 | -3.694.165.058 | -49.871.199.519 |
+| Còn lại từ hóa đơn cũ sau xử lý | 1.225.119.527 | 98.009.568 | 1.323.129.095 |
+| Import mới AMIS 2024 | 49.305.824.619 | 3.944.466.272 | 53.250.290.891 |
+| **Dự tính tổng** | **50.530.944.146** | **4.042.475.840** | **54.573.419.986** |
+
+Có 1.245 hóa đơn điều chỉnh dự thảo cho 650 gốc năm 2024; mọi gốc trong diện xử lý đều cộng về 0. Import mới 34.579 HĐ. Phần cũ còn giá trị gồm: 116 gốc thuộc danh sách `HD cty 2024` còn doanh thu **622.963.131đ**, 4 chuỗi đã chốt giữ nguyên (3,478,498,574) **230.812.119đ**, 6 chuỗi thay thế ngoài bộ import điều chỉnh (188,189,190,191,192,216) **371.344.277đ**. Không tự bỏ thêm các chuỗi giữ nguyên hoặc kết luận trùng với đơn AMIS.
+
+**Lưu ý phạm vi ngày:** Các điều chỉnh dự thảo đang mang ngày 08/10/2026 (1.202 HĐ), 09/10/2026 (26), 12/10/2026 (17). Số 50.530.944.146đ là theo chuỗi gốc 2024, không phải phép cộng chỉ các hóa đơn có ngày lập năm 2024. Nếu chỉ cộng hóa đơn còn hiệu lực mang ngày 2024 trong bộ nguồn hiện có rồi cộng import mới mang ngày 2024, dự tính **92.308.124.327đ doanh thu**, **7.384.650.247đ VAT**, **99.692.774.574đ thanh toán**; các điều chỉnh dự thảo ngày 2026 sẽ nằm ngoài khoảng lọc này. Đây là dự tính từ file, chưa xác minh báo cáo sau nhập/phát hành trên phần mềm.
+
+**Chưa khớp hoàn toàn với AMIS:** Doanh thu thuần AMIS (doanh số trừ hàng trả) **49.928.171.800đ**, VAT **3.994.254.050đ**, thanh toán **53.922.425.850đ**. Dự tính theo chuỗi cao hơn lần lượt **602.772.346đ**, **48.221.790đ**, **650.994.136đ**. Phần lớn đến từ 4 chuỗi giữ nguyên + 6 chuỗi thay thế ngoài danh sách công ty (doanh thu **602.156.396đ**); còn khác biệt tiền cũ giữ lại với AMIS loại trừ và 3 chứng từ chưa đưa vào import. Không gọi đây là doanh thu đã chốt/đã phát hành, chưa sửa phương án vì chỉ được yêu cầu dự tính báo cáo.
+
+Nguồn tiền trống được giữ nguyên; dùng đúng quy ước 0 đã xác nhận cho 574/671/744, trường hợp còn lại bổ sung từ giá trị có thật ở nguồn chi tiết, không đoán mọi ô trống = 0. Các số liệu nguồn cũ có tổng sai số học tiền hàng + thuế - thanh toán **+3.900đ**, phần đảo theo số đã phát hành là **-3.900đ**, bù trừ về 0 theo phương án đã chốt; không tự cân số nguồn. Tổng sau điều chỉnh và tổng dự tính khớp tiền hàng + VAT = thanh toán. Đã kiểm tổng 12 tháng, không gốc xử lý còn dư, không hồ sơ thiếu tiền/đa gốc, hash nguồn không đổi. Phân tích: `scripts/forecast_revenue_2024.py`; căn cứ `scripts/data/revenue-forecast-20261027/prepared.json`, `summary.json`, `calendar-check.json`. Không tạo thêm Excel báo cáo.
+
+---
+
+# Đã điền số chứng từ AMIS vào cột S — 27/10/2026
+
+Theo yêu cầu người dùng, cập nhật trực tiếp `outputs/amis-2024-theo-btl-bhh-20261026/IMPORT_HOA_DON_MOI_AMIS_2024.xlsx`: thêm **S9 = Số chứng từ**, điền mã chứng từ AMIS dạng chuỗi tại **S10:S43981**, lặp trên mọi dòng hàng cùng hóa đơn. Nguồn ghép là `Doi chieu import` của file kiểm tra: ghép đúng STT hóa đơn và số dòng Excel, không suy đoán theo khách hàng/tiền hàng. Đã kiểm đủ **43.972 dòng**, mỗi mã khớp bảng đối chiếu. Toàn bộ ô A:R và mọi phần khác của workbook giữ nguyên, ngoại trừ mở rộng phạm vi/định dạng cột S; file kiểm tra giữ nguyên hash.
+
+Bố cục hiện hành: **A:Q** theo mẫu, **R – Hàng khuyến mại**, **S – Số chứng từ** theo yêu cầu. Vẫn **34.579 hóa đơn**, tổng thanh toán **53.250.290.891đ**, còn 3 chứng từ cần kiểm tra. Không tự ghép S vào Mã đơn hàng của meInvoice; đây là số chứng từ AMIS. Hàm cập nhật hẹp `add_document_numbers()` trong `scripts/match_import_2024_template.py` (`--add-document-number`); luồng xuất mới cũng tạo cột S để không mất khi tái xuất. Verifier đã kiểm thêm S phải khớp BHH trong bảng đối chiếu. Căn cứ `scripts/data/amis-2024-linked-20261026/document-column-verification.json`; cập nhật hash ở hai báo cáo kiểm chính. Không tạo file bàn giao mới, không nhập/ký/phát hành, chưa commit/push.
+
+---
+
+# Đã đưa hai đơn khuyến mại 0đ vào import — 27/10/2026
+
+Người dùng xác nhận **BHHT2024013153** và **BHHT2024013026** là đơn khuyến mại; sau đó xác nhận riêng **dùng thuế suất 8%, giữ toàn bộ tiền 0đ**. Đã đưa cả hai vào import, mỗi đơn **KM300FULL / SL 1**, giá/tiền hàng/VAT/thanh toán 0đ. Giữ nguyên ngày chứng từ 14/08/2024 và 15/08/2024 và thông tin khách hàng nguồn; không suy ra thuế suất từ tiền 0, không mặc định cho chứng từ khác. Nguồn AMIS giữ nguyên cả ô Hàng khuyến mại đang trống; cờ khuyến mại là dữ liệu nhập bổ sung theo xác nhận người dùng.
+
+**Hai file chính đã cập nhật tại chỗ**, không tạo bản khác. File import hiện **34.579 hóa đơn / 43.972 dòng**, tổng tiền hàng **49.305.824.619**, VAT **3.944.466.272**, thanh toán **53.250.290.891đ** (các khoản tiền không đổi). **Còn 3 chứng từ / 5 dòng nguồn cần kiểm tra**: `BHHS2024000629` / `BTL00023`, `BHHS2024005761` / `BTL00024`, `BTL00145`. 7 mục loại trừ chưa rõ vẫn giữ riêng.
+
+**Bố cục import hiện tại:** A:Q giữ nguyên 17 cột mẫu; **R bổ sung Hàng khuyến mại** là cột nghiệp vụ cần nhập, điền **1 tại đúng hai dòng khuyến mại**, các dòng khác trống. Khi ghép cột trong meInvoice, ghép R vào đúng trường Hàng khuyến mại; không ghép vào mã đơn hàng hay trường khác. Các cột đối chiếu BHH/BTL vẫn nằm trong sheet `Doi chieu import` của workbook kiểm tra. Đã thông báo thay đổi cột này cho người dùng khi thực hiện. Căn cứ MISA: https://helpv4.meinvoice.vn/kb/nhap-khau-hoa-don-mot-thue-suat/ (dòng khuyến mại thêm cột, giá trị 1); hướng dẫn MTT: https://helpv4.meinvoice.vn/kb/nhap-khau-hoa-don-khoi-tao-tu-may-tinh-tien-vao-phan-mem/.
+
+Kiểm hoàn tất đầy đủ nguồn/loại trừ/từng dòng/tổng tiền, không lỗi ô Excel/công thức; mọi số tiền giữ đúng nguồn/bù trừ thực tế. Đã xác minh riêng **BHHT2024013153 tại dòng Excel 23747 / STT HĐ 18359**, **BHHT2024013026 tại dòng Excel 23995 / STT HĐ 18533**, mỗi dòng có **K=8, L=0, O=1, P=0, Q=0, R=1**. Đủ **10 xác nhận** trong `Tong hop` của file kiểm tra và dữ liệu chuẩn bị (1 số HĐ nhập nhầm + 7 lệch làm tròn + 2 khuyến mại). Nguồn giữ nguyên hash, hash file chính khớp bộ đã kiểm; thư mục xuất tạm đã dọn. Báo cáo `scripts/data/amis-2024-linked-20261026/verification.json`, `template-format-verification.json`. Chưa nhập/ký/phát hành, chưa commit/push thay đổi này.
+
+---
+
+# Đã đưa 7 chứng từ lệch 2–3đ vào import theo xác nhận — 27/10/2026
+
+Người dùng xác nhận **giữ nguyên tiền hàng, thuế GTGT và tổng thanh toán theo AMIS**, đưa vào import riêng 7 chứng từ: `BHHT2024003185`, `BHHT2024011030`, `BHHT2024015896`, `BHHT2024017438`, `BHHN2024000179`, `BHHT2024023472`, `BHHT2024025057`. Giữ nguyên cả SL/đơn giá nguồn và thành tiền AMIS, không tính lại thành tiền từ SL × đơn giá. Không mở rộng dung sai cho chứng từ khác. Mỗi chứng từ có ghi xác nhận và phép tính lệch chi tiết tại `Tong hop` của file kiểm tra và `confirmations` trong bản dữ liệu chuẩn bị.
+
+Đã cập nhật tại chỗ đúng **2 file chính** ở `outputs/amis-2024-theo-btl-bhh-20261026/`, giữ nguyên mẫu 17 cột A–Q của import và sheet `Doi chieu import` riêng trong workbook kiểm tra. Hiện **34.577 hóa đơn / 43.970 dòng**, tiền hàng **49.305.824.619**, VAT **3.944.466.272**, tổng thanh toán **53.250.290.891đ**. Tăng đúng 7 hóa đơn / 10 dòng, tiền hàng **43.857.407**, VAT **3.508.593**, thanh toán **47.366.000đ** so với bản trước. Còn **5 chứng từ / 7 dòng nguồn cần kiểm tra**: `BHHS2024000629` / `BTL00023`, `BHHS2024005761` / `BTL00024` (giá trả khác bán), `BHHT2024013153`, `BHHT2024013026` (tiền 0), `BTL00145` (thiếu BHH). **7 mục loại trừ chưa rõ** giữ nguyên.
+
+Kiểm hoàn tất: đọc độc lập sổ AMIS, đủ nguồn/phân nhóm, mọi dòng import khớp nguồn hoặc bù trừ liên kết thật; riêng 7 chứng từ mới tiền hàng/VAT/thanh toán nguyên nguồn và cộng khớp; tổng 7 chứng từ 47.366.000đ. Các kiểm tra khác vẫn đạt, nguồn giữ nguyên hash, K chứa 8 định dạng số theo mẫu; chưa nhập/ký/phát hành. Đã kiểm 8 xác nhận hiện diện trong workbook (1 xác nhận số hóa đơn nhập nhầm trước đây + 7 xác nhận mới). Báo cáo `scripts/data/amis-2024-linked-20261026/verification.json`. Bỏ thư mục xuất tạm sau khi kiểm và thay vào đúng file chính; không sinh phiên bản bàn giao khác. Người dùng đã đóng file Excel theo yêu cầu rồi mới cập nhật. Chưa commit/push thay đổi này.
+
+---
+
+# Đã ghi số lệch cụ thể trong lý do kiểm tra — 27/10/2026
+
+Theo yêu cầu người dùng, cập nhật tại chỗ `KIEM_TRA_VA_LOAI_TRU_AMIS_2024.xlsx`, không tạo bản mới. Cột **K – Lý do** tại `Can kiem tra` ghi rõ dòng AMIS, SKU, SL × đơn giá, thành tiền AMIS và chênh có dấu (AMIS - ROUND(SL × đơn giá, 0)). 7 chứng từ: `BHHT2024003185` -2đ, `BHHT2024011030` -3đ, `BHHT2024015896` -2đ, `BHHT2024017438` -3đ, `BHHN2024000179` -2đ, `BHHT2024023472` -2đ, `BHHT2024025057` -2đ. Các chứng từ này đều AMIS thấp hơn phép nhân, chưa đổi cách phân loại hoặc số tiền.
+
+Hai trường hợp trả lại ghi rõ giá bán, giá trả, SL trả, tiền theo giá bán và tiền trả thực tế: `BHHS2024000629` / `BTL00023` / KA150SFILTERFULL trả cao hơn **92.592đ**; `BHHS2024005761` / `BTL00024` / KM100FULL trả cao hơn **30.240đ**. Đồng bộ lý do tương ứng ở `Bu tru tra lai` và `Lien ket BTL-BHH`. Không tự bù trừ/đổi giá hai trường hợp này. Các ô quyết định và mọi dữ liệu khác giữ nguyên; vẫn 12 chứng từ cần kiểm tra, 7 mục loại trừ chưa rõ. File import không thay đổi.
+
+Script sửa hẹp: `scripts/annotate_import_2024_differences.py`; hàm giải thích dùng lại tại `scripts/rebuild_import_2024_linked_returns.py`. Đã kiểm từng ô trên các sheet chỉnh sửa, chỉ các ô lý do được thay; mọi ZIP entry khác gồm toàn bộ sheet `Doi chieu import` giữ nguyên byte. Căn cứ `scripts/data/amis-2024-linked-20261026/differences-verification.json`. Không tự commit/push.
+
+---
+
+# File import đã chuyển đúng bố cục mẫu MTT — 27/10/2026
+
+Theo yêu cầu người dùng, **cập nhật tại chỗ** hai workbook chính trong `outputs/amis-2024-theo-btl-bhh-20261026/`. File `IMPORT_HOA_DON_MOI_AMIS_2024.xlsx` hiện chỉ có sheet **Hóa đơn GTGT**, **17 cột A–Q**; giữ nguyên dòng hướng dẫn 1–7, dòng tiêu đề 9, font Times New Roman, màu chữ/đường viền, độ rộng cột từ mẫu `Mau_hoa_don_GTGT_MTT_1_thue_suat.xls`. Ngày thật giữ kiểu ngày Excel và hiển thị dd/mm/yyyy; tên hàng dài được ngắt dòng. Không còn sheet hướng dẫn riêng hay các cột phụ R:W trong file import.
+
+Các cột phụ chuyển sang sheet **Doi chieu import** của `KIEM_TRA_VA_LOAI_TRU_AMIS_2024.xlsx`: STT hóa đơn, dòng Excel import, BHH, dòng nguồn AMIS, mã hàng, BTL đã bù trừ và tổng tiền hàng/thanh toán. Giữ nguyên 7 sheet kiểm tra và các cột quyết định trước đó. **34.570 hóa đơn / 43.960 dòng**, tổng thanh toán **53.202.924.891đ**; dữ liệu A:Q không đổi so với bản đã kiểm hôm trước, 12 chứng từ và 7 mục loại trừ cần kiểm tra vẫn như cũ. Không tự ghép BHH vào Mã đơn hàng.
+
+Script bảo toàn gói định dạng mẫu: `scripts/match_import_2024_template.py`, được gọi ở cuối `export_import_2024_linked_returns.py`. Khi dựng lại cả bộ, dựng review trước, xuất import sau để giữ sheet đối chiếu. Kiểm định dạng/dữ liệu không đổi: `scripts/data/amis-2024-linked-20261026/template-format-verification.json`; verifier hiện ghép dữ liệu đối chiếu từ sheet riêng khi đọc bản import 17 cột. Không sinh bản Excel bàn giao mới, không sửa nguồn hoặc thao tác AMIS/meInvoice. Chưa commit/push thay đổi định dạng này.
+
+---
+
+# Chỉ dùng một bộ 2 file, cập nhật tại chỗ — 26/10/2026
+
+Đã gom bộ mới nhất về **`outputs/amis-2024-theo-btl-bhh-20261026/`**, chỉ còn `IMPORT_HOA_DON_MOI_AMIS_2024.xlsx` và `KIEM_TRA_VA_LOAI_TRU_AMIS_2024.xlsx`. Đã bỏ các bản Excel cũ trùng tên và hai thư mục `outputs/amis-2024-moi-20261026/`, `cap-nhat-xac-nhan-ke-toan/` sau khi kiểm SHA256 xác nhận không có sửa đổi của người dùng. Hai file chính giữ nguyên hash của bộ cập nhật đã kiểm, dữ liệu không đổi: **34.570 hóa đơn / 43.960 dòng**, thanh toán **53.202.924.891đ**, **12 chứng từ cần kiểm tra**, **7 mục loại trừ chưa rõ**. File liên kết BTL–BHH nguồn và các bộ điều chỉnh khác giữ nguyên.
+
+**Yêu cầu người dùng:** từ nay cập nhật trực tiếp hai file này, không tạo thêm bản/thư mục phiên bản. Nếu Excel đang mở làm khóa file, báo người dùng đóng file rồi mới cập nhật. Không tự sinh bản thay thế khác. Builder dùng thư mục chính mặc định và `--replace` khi tái xuất đã được yêu cầu. Các phần dưới là lịch sử, đường dẫn cũ có thể đã được dọn.
+
+---
+
+# Cập nhật theo xác nhận kế toán: BHHT2024004546 chưa có số hóa đơn — 26/10/2026
+
+Người dùng xác nhận: kế toán nhập nhầm `BHHT2024004546` vào ô Số hóa đơn; thực tế chưa có số hóa đơn. **Đã bỏ riêng lý do giữ kiểm tra này, đưa BHHT2024004546 vào import**. Không áp dụng xác nhận cho chứng từ khác, không sửa ô nguồn AMIS.
+
+Bộ cập nhật dùng tiếp ở **`outputs/amis-2024-theo-btl-bhh-20261026/cap-nhat-xac-nhan-ke-toan/`**, hai file `IMPORT_HOA_DON_MOI_AMIS_2024.xlsx` và `KIEM_TRA_VA_LOAI_TRU_AMIS_2024.xlsx`. Lưu chung tại thư mục cập nhật vì workbook kiểm tra bản trước đang mở trong Excel. **Bộ này thay bộ ngay ở thư mục cha.** Hiện **34.570 hóa đơn / 43.960 dòng**, tiền hàng **49.261.967.212**, VAT **3.940.957.679**, tổng thanh toán **53.202.924.891 đồng**. Tăng đúng 1 hóa đơn / 1 dòng, tiền hàng 1.659.555, VAT 132.764, thanh toán 1.792.319 đồng. Còn **12 chứng từ / 17 dòng nguồn cần kiểm tra**, 7 mục loại trừ chưa rõ vẫn giữ nguyên. Các quy tắc ngày chứng từ, TM/CK, liên kết BTL–BHH thực tế, 158 đơn trả hết, 115 đơn loại trừ và 2 đơn bù trừ một phần giữ nguyên.
+
+Xác nhận lưu tại `confirmations` trong `scripts/data/amis-2024-linked-20261026/prepared.json` và trong hướng dẫn/tổng hợp của hai workbook; verifier đã điều chỉnh kiểm đúng việc thêm duy nhất chứng từ này. Bản Excel trước xác nhận được giữ tại `scripts/data/amis-2024-linked-20261026/before-confirmation-BHHT2024004546.zip`. Không sửa nguồn, không nhập/ký/phát hành, không commit/push.
+
+---
+
+# Bộ import mới 2024 đã làm lại theo BTL → BHH thực tế — 26/10/2026
+
+Theo yêu cầu mới nhất, bộ dùng để kiểm tra/nhập là **`outputs/amis-2024-theo-btl-bhh-20261026/`**. Bộ `outputs/amis-2024-moi-20261026/` bên dưới là lịch sử, **đã được thay thế, không dùng nhập**. Đã bỏ hoàn toàn việc giữ đơn ngoài import theo ứng viên trùng khách hàng/mã hàng/giá/ngày. Chỉ dùng BHH gốc thực tế ở `outputs/btl-bhh-20261026/LIEN_KET_BTL_BHH_2024.xlsx`.
+
+- `IMPORT_HOA_DON_MOI_AMIS_2024.xlsx`: **34.569 hóa đơn / 43.959 dòng**, tiền hàng sau bù trừ **49.260.307.657**, VAT **3.940.824.915**, tổng thanh toán **53.201.132.572 đồng**. Giữ 17 cột A:Q của mẫu MTT người dùng đưa, tiêu đề dòng 9. R:W là cột đối chiếu BHH/tổng tiền/dòng nguồn/SKU/BTL. Ngày theo **Ngày chứng từ AMIS**, toàn bộ **TM/CK** theo xác nhận. STT lặp cho các dòng cùng hóa đơn; thông tin đầu hóa đơn và tổng VAT chỉ ghi dòng đầu. Email/điện thoại/CCCD trống theo nguồn. Thuế suất 8% được suy ra duy nhất từ tiền hàng/VAT với dung sai làm tròn 1đ/dòng; không tự cân tiền.
+- `KIEM_TRA_VA_LOAI_TRU_AMIS_2024.xlsx`: **13 chứng từ / 18 dòng nguồn cần kiểm tra**; **115 BHH / 170 dòng loại theo danh sách**; **158 BHH / 210 dòng đã trả hết**; đủ **219 dòng liên kết BTL–BHH**; bảng bù trừ từng dòng; **7 mục loại trừ chưa rõ** vẫn giữ để đối chiếu. Các sheet: `Tong hop`, `Can kiem tra`, `Dong nguon can kiem tra`, `Da loai va tra het`, `Bu tru tra lai`, `Lien ket BTL-BHH`, `Loai chua ro`.
+
+**Cách bù trừ:** 158 BHH khớp hết SL, tiền hàng và VAT theo từng SKU/ĐVT với phiếu trả lại thì không lập hóa đơn mới. **2 BHH trả một phần đã trừ chính xác:** `BHHT2024006103` / `BTL00070` và `BHHT2024024887` / `BTL00180`. Ưu tiên khớp nguyên dòng bằng SKU/ĐVT/SL/tiền/VAT; chỉ trừ một phần khi xác định duy nhất dòng và phần còn lại khớp SL × giá nguồn, dung sai làm tròn tối đa 1đ. Đơn giá nguồn giữ nguyên; không suy đoán đơn giá mới.
+
+**Các trường hợp tách riêng:** `BHHS2024000629` / `BTL00023` có giá trả SKU KA150SFILTERFULL 747.356đ, khác giá bán 654.764đ; `BHHS2024005761` / `BTL00024` có tiền trả KM100FULL 202.778đ vượt tiền bán 172.538đ. Hai BHH này giữ nguyên nguồn, chưa bù trừ, chưa vào import. `BTL00145` thiếu BHH thực tế nên giữ riêng, không loại/giữ lại bất kỳ đơn bán nào theo suy đoán. 10 BHH khác cần kiểm tra: 7 lệch SL × đơn giá hơn 1đ (`BHHT2024003185`, `BHHT2024011030`, `BHHT2024015896`, `BHHT2024017438`, `BHHN2024000179`, `BHHT2024023472`, `BHHT2024025057`), 2 chứng từ tiền 0 (`BHHT2024013153`, `BHHT2024013026`), 1 có số hóa đơn nguồn (`BHHT2024004546`).
+
+**Kiểm hoàn tất:** đọc lại sổ thật và đối chiếu đủ 44.578 dòng với bản đọc trung gian; đối chiếu từng dòng import đúng ngày/BHH/SKU/giá/dòng nguồn; tổng SL/tiền hàng/VAT từng hóa đơn đúng bán gốc trừ trả thực tế; đủ 35.017 chứng từ phân nhóm không trùng/thiếu; tổng các nhóm nguồn khớp dòng tổng AMIS; không lỗi công thức/ô Excel, import chỉ có giá trị; SHA256 cả sổ AMIS, danh sách loại trừ, liên kết và mẫu giữ nguyên. Tổng ở bảng phân nhóm là **số nguồn trước bù trừ**, tổng import **sau bù trừ** hiển thị riêng bên dưới. Báo cáo `scripts/data/amis-2024-linked-20261026/verification.json`. Builder/phân tích: `scripts/rebuild_import_2024_linked_returns.py`, `scripts/build_import_2024_linked_returns.mjs`, `scripts/export_import_2024_linked_returns.py`, `scripts/verify_import_2024_linked_returns.py`. File kiểm tra do Artifact Tool dựng/render/xuất; import lớn dùng bundled XlsxWriter đóng gói dự phòng do Artifact Tool export lớn không hoàn tất trong phiên trước, đã kiểm độc lập lại bằng openpyxl chỉ đọc.
+
+**Chưa nhập, ký, phát hành; không sửa chứng từ AMIS; không sửa nguồn và các bộ điều chỉnh cũ; không commit/push.**
+
+---
+
+# Đã lấy đủ liên kết BTL → BHH trực tiếp từ AMIS năm 2024 — 26/10/2026
+
+Theo yêu cầu chỉ đọc của người dùng, đã truy cập AMIS Chrome Sang, xác nhận công ty **CÔNG TY CỔ PHẦN CÔNG NGHỆ UVGREEN**, dữ liệu **KETOAN_2020_PhucHoi_190120262046**. Lọc ngày hạch toán **01/01/2024–31/12/2024**, đọc đủ **163 phiếu / 219 dòng trả lại** tại cột **Số CT bán hàng** của bảng Chi tiết. **218 dòng có BHH, 162 BHH gốc khác nhau**. Chỉ **BTL00145 / SP000042 / dòng 1** trống BHH trên AMIS, đã đọc lại xác nhận và giữ nguyên trống. Phiếu này tiền hàng **972.222**, VAT **77.778**, tổng **1.050.000**.
+
+File hoàn tất: `outputs/btl-bhh-20261026/LIEN_KET_BTL_BHH_2024.xlsx`, gồm `Chi tiet BTL-BHH`, `Phieu BTL`, `Thong tin`, `Chua co BHH`. Có BTL, BHH gốc, ngày, số dòng, mã/tên hàng, ĐVT, SL trả, đơn giá, tiền hàng/VAT/tổng tiền, khách hàng và số dòng trong sổ AMIS. Tổng hàng trả **225.865.926**, VAT **18.069.275**, tổng thanh toán **243.935.201 đồng**. Đủ 163 phiếu, số dòng và bộ mã hàng/SL/đơn giá/tiền/VAT của mọi phiếu đều khớp sổ AMIS đã xuất; không có hồ sơ khác sổ. Số tiền trong file liên kết là giá trị trả lại dương theo giao diện BTL; sổ bán hàng thể hiện VAT/thanh toán trả lại âm.
+
+Căn cứ và kiểm: `scripts/data/btl-bhh-live-20261026/verified-live-reads.json`, `list-pages.json`, `prepared.json`, `verification.json`; ảnh xác nhận BTL00145 và BTL00071 cùng thư mục. **Không dùng `live-reads.json` ban đầu**: bản đọc nhanh bị trễ chi tiết khi chuyển phiếu; bản `verified-live-reads.json` đã đọc lại đủ, kiểm đúng phiếu được chọn, thay đổi nội dung sau chuyển phiếu, đủ số dòng, tổng chi tiết khớp tổng phiếu và ổn định qua hai lần đọc. Có cơ chế chuyển sang phiếu đối chứng khác tiền rồi đọc lại nếu nội dung không đổi. Script kiểm nguồn `scripts/prepare_btl_bhh_live_20261026.py`; builder Artifact Tool `scripts/build_btl_bhh_live_20261026.mjs`. File xuất đã đọc kiểm độc lập đủ 219 dòng, kiểm tổng từng phiếu và cache công thức; không có lỗi ô Excel, hash nguồn sổ giữ nguyên. Đã xem trước các sheet và vùng tiền.
+
+**Không sửa chứng từ, không ghi/bỏ ghi sổ/xóa, không nhập/ký/phát hành, không commit/push.** Chỉ thay bộ lọc, số dòng/trang và chọn hàng để đọc. Chưa tái xuất bộ import hóa đơn mới theo các liên kết thật này; hai file import/review cũ vẫn chưa chốt do quy tắc dò rộng đã bị người dùng bác bỏ. Khi làm tiếp, dùng liên kết thật ở file này thay toàn bộ nhãn “Có thể liên quan trả lại”, không coi 15.879 ứng viên cũ là căn cứ loại đơn.
+
+---
+
+# Cần lấy liên kết BTL → BHH thực tế; bản import 26/10 chưa chốt — cập nhật 26/10/2026
+
+Người dùng đã bác bỏ cách giữ ngoài import các đơn bán chỉ do trùng mã khách theo sàn/mã hàng/đơn giá/ngày với phiếu trả lại. **15.879 đơn gắn nhãn “Có thể liên quan trả lại” không được coi là đã trả hoặc căn cứ loại/giữ ngoài import.** File import 18.850 HĐ ở mục dưới thiếu phạm vi do điều kiện dò quá rộng; kiểm tra kỹ thuật/tổng tiền đã đạt không chứng minh phương án lọc này đúng nghiệp vụ. Chưa tái xuất hoặc thay thế hai workbook sau khi người dùng bác bỏ quy tắc. Không dùng bản đó để nhập cho tới khi hoàn tất sửa phạm vi.
+
+Người dùng yêu cầu tìm và lấy **Số CT bán hàng** gốc BHH trên từng dòng chi tiết của từng phiếu BTL, không xuất lại Sổ chi tiết bán hàng. Ảnh người dùng xác nhận trực tiếp **BTL00071 → BHHS2024008957**, hàng **KK100FULL**, SL **1**, tiền hàng **962.037**, VAT **76.963**, tổng **1.039.000**. Trường này có trong bảng Chi tiết dưới danh sách phiếu và trong chứng từ; không có trong các cột danh sách BTL người dùng đã kiểm tra.
+
+Tài liệu MISA xác nhận Alt+Y xuất chi tiết chứng từ nhưng **chưa xác nhận file chứa trường Số CT bán hàng**. Không tiếp tục trả lời rằng xuất Sổ chi tiết bán hàng là đủ. Hướng xác minh/lấy dữ liệu thực tế là đọc bảng chi tiết từng BTL qua phiên AMIS đang đăng nhập, ghi đủ số phiếu, thứ tự dòng, mã hàng, SL, BHH gốc, tiền hàng/VAT/thanh toán và nguồn; giữ trống nếu AMIS không có liên kết. Đối chiếu số phiếu/dòng với 163 BTL/219 dòng của sổ, không tự ghép theo tiền/tên.
+
+Đã mở AMIS trong Chrome hồ sơ Sang qua công cụ trình duyệt; chuyển tới màn hình đăng nhập MISA. Cần người dùng đăng nhập đúng dữ liệu UVG để tiếp tục đọc trực tiếp. Không yêu cầu gửi mật khẩu/OTP/cookie/token. Chưa sửa chứng từ, chưa nhập/ký/phát hành, chưa commit/push.
+
+---
+
+# Đã dựng import hóa đơn mới từ sổ AMIS 2024 sau loại trừ — 26/10/2026
+
+Người dùng yêu cầu tạo hóa đơn mới từ sổ AMIS vừa xuất, tách trường hợp chưa rõ để kiểm tra. Đã xác nhận **ngày lập lấy theo AMIS** (dùng cột Ngày chứng từ; giữ ngày hạch toán/ngày hóa đơn nguồn riêng ở bảng đối chiếu) và **TM/CK cho toàn bộ**. Mẫu người dùng gửi: `data/Du lieu Meinvoice/Mau_hoa_don_GTGT_MTT_1_thue_suat.xls`, thực chất OOXML, sheet `Hóa đơn GTGT`, 17 cột A:Q, tiêu đề dòng 9; đây là mẫu GTGT máy tính tiền, một thuế suất.
+
+Nguồn mới giữ nguyên: `data/Du lieu Amis/So_chi_tiet_ban_hang_2024.xlsx` và `data/HD Xuất CTY 2024.xlsx` (Drive ID `1E6-s4ivoAuMBYMub5SzlEtpNWATNj2Tu`). Lọc BHH ở tab `HD cty 2024` và mã tách/gộp tại Hướng xử lý; **không loại toàn bộ tab F0/F1/F2 tham khảo**. Tab loại có 118 hóa đơn, nhưng sổ mới có 115 BHH được loại; mã 2023 không thuộc sổ 2024, HĐ 60/63 thiếu BHH. Các mã tách 0113/.1, 0116/.1/.2 và gộp 0079 về 0078 được xét. Sheet `Loai chua ro` giữ 7 mục gồm mã cũ/2023, hai HĐ thiếu BHH và 3 HĐ chỉ có trong bảng ghi nhận (585,586,785).
+
+- `outputs/amis-2024-moi-20261026/IMPORT_HOA_DON_MOI_AMIS_2024.xlsx`: **18.850 hóa đơn / 24.677 dòng**, tiền hàng **27.244.438.581**, VAT **2.179.555.670**, thanh toán **29.423.994.251 đồng**. Giữ đúng 17 cột mẫu; R:V bổ sung BHH, tổng tiền hàng/thanh toán, dòng nguồn và mã hàng. Ngày và thông tin đầu hóa đơn/VAT chỉ ở dòng đầu, STT lặp cho các mặt hàng cùng hóa đơn. Email/điện thoại/CCCD trống do nguồn không có. Thuế suất 8% được suy ra duy nhất từ tiền hàng/VAT của từng dòng, sai số làm tròn tối đa 1đ; không đổi số tiền nguồn.
+- `outputs/amis-2024-moi-20261026/KIEM_TRA_VA_LOAI_TRU_AMIS_2024.xlsx`: **16.052 chứng từ / 19.731 dòng cần kiểm tra**, **115 chứng từ / 170 dòng đã loại**, bảng đối chiếu import và phiếu trả lại. Cột vàng để người dùng bổ sung quyết định/BHH đúng. Có **163 phiếu trả lại / 219 dòng** không ghi chứng từ bán gốc; dò cùng mã KH/mã hàng/đơn giá ±1đ, bán trước hoặc cùng ngày trả và đủ SL tạo ra **15.879 đơn bán có thể liên quan**, đều giữ ngoài import. Đây là ứng viên thận trọng do khách hàng sàn dùng chung mã/tên và đơn giá; **không kết luận 15.879 đơn đã trả** và không tự chọn để bù trừ. Những trường hợp khác gồm tiền âm/0, lệch SL×đơn giá và thông tin số HĐ có sẵn.
+
+Ba nhóm cộng đúng **35.017 chứng từ / 44.578 dòng**, doanh số **50.154.037.726**, trả lại **225.865.926**, VAT **3.994.254.050**, thanh toán **53.922.425.850 đồng**. Kiểm độc lập từng dòng import và đủ 42 cột nguồn của nhóm kiểm tra, phân nhóm không trùng/thiếu dòng, header đúng mẫu, không có BHH loại/ứng viên trả lại trong import, không có lỗi ô Excel hoặc công thức trong import, hash hai nguồn giữ nguyên. Báo cáo `scripts/data/new-amis-2024-20261026/verification.json`; chuẩn bị `scripts/prepare_new_amis_2024_20261026.py`, dựng/preview Artifact Tool `scripts/build_new_amis_2024_20261026.mjs`, đóng gói dự phòng `scripts/export_new_amis_2024_20261026.py`, kiểm `scripts/verify_new_amis_2024_20261026.py`. Artifact Tool dựng/render được nhưng xuất lớn không hoàn tất sau chờ kéo dài, bộ nhớ tăng ~3.7GB; đã dừng riêng hai tiến trình tác vụ, xuất cuối bằng bundled XlsxWriter rồi đọc độc lập bằng openpyxl chỉ đọc. Không sửa các bộ import điều chỉnh cũ.
+
+**Chưa nhập, ký, phát hành; chưa commit/push.** Đây là bản AMIS sau lọc theo danh sách người dùng, chưa chứng minh mọi hóa đơn lịch sử trên meInvoice đã được xử lý hoặc được phép phát hành lại. Khi tiếp tục, dùng hai file trên; không tự nới nhóm trả lại hay đưa hồ sơ chưa rõ vào import.
+
+---
+
+# Đã tạo bảng F0/F1/F2 cho gốc 01/07–31/12/2025 — 22/10/2026
+
+Rà riêng536 dòngFghi lệchtên vớiNB22/10: đã đọc lại trực tiếp37.087MEINV B:N layout33cột và26.550NB C:T; bỏ điều kiện tên chỉ cho phép so sánh tài chính, cùngsốHĐ/cả3 khoản trêncùng1dòngNB sau làmtròn nguyênđồng. **24 khớp cả3tiền chính xác;3 lệch tốiđa1đ;0 chỉlệch2đ;509 lệchquá2đ**. Nhóm27khớp/gầnkhớp có25mãNBduynhất và2nhiềumã. Chỉ phân tích, CHƯAđiền mã hay sửa cộtnguyênnhân/sốtiền vì tênvẫnkhác. Ví dụ1C25MUV/00001579 tênMEINVcôngtyGiaKhánhTâm, NBnhutrang833, cả3tiền509.204/40.736/549.940khớp. Chi tiết `scripts/data/nb-fill-20261022/name-mismatch-money-audit.json` (đủ536dòng,cácứngviênNBvàchênhtiền). NB khôngcókýhiệu, khớpsố+tiềnkhôngtự chứngminh cùngHĐthật.
+
+**Layout Google mới nhất sau thêm cột nguyên nhân22/10:**33cột A:AG. D=mãđơnF0; E=Mãđơntrùng; **F=Nguyên nhân chưa ghép mã đơn**, tôvàng/ghi lýdo1.210dòng (659khôngsốNB,536lệchtên,10tiềnlệchquá2đ,5nhiềumã). Đã đọc lại trướcghi xácnhận1.210D vẫntrống/khóa+tên+tiềnkhớpaudit; chèn1cộtF, ghichỉcộtF vàcopyđịnhdạngtừcộtghichú; giữmọi dữliệu cũ. Kiểm toànbộ37.087dòng B:N sauchèn: tấtcả12giátrịcũ B:M khớp saudịch, đúng1.210nhãn/1.210ôvàng, bộlọc/filterview mởrộngAG, headerđúng. Nguồn/plan/verif/ảnh: `scripts/data/nb-fill-20261022/unmatched-cause-marker-before.json`, `unmatched-cause-marker-verification.json`, `unmatched-cause-marker-after.png`. Kýhiệu/sốF0 nay I/J, ngàyK, tiềnhàng/thuế/thanh toánF0 L/M/N; ba tiềnhiệntại AC/AD/AE, tìnhtrạngchuỗiAF, ghichúAG. Đọc lạiheader trước tácvụsau vì cácmốc cộtởcácđoạnlịchsử dướiđãdịch. Chỉ sửaGoogle; ExcelcụcbộvẫnchưađồngbộcácmãNB/cộtE/F.
+
+Phân loại1.210 ômãđơn còntrống sau2đợtNB (đọc lại trực tiếp22/10 cả37.087 dòngMEINV B:M theo layoutmới và26.550 dòngNB C:T):659 khôngcùngsốHĐtrongNB;536 cósốHĐnhưng tênngườimua khôngkhớp;10 cùngsố+tênnhưng bộtiền lệchquá2đ;5 khớpđủra nhiềumãNB. Tổng659+536+10+5=1.210, khôngcó trườnghợpmới đủđiềukiện chờđiền. NBkhôngcókýhiệu, nênnhóm536 chưađượcgọi là ghi sai tên hay cùngHĐthật. Ví dụ2853(1C25MUV/00002853): meInvoice679.000/NB1.358.000;2858 meInvoice1.039.000/NB2.078.000. Chỉphân tích, khôngsửaGoogle. Chi tiết `scripts/data/nb-fill-20261022/unmatched-reasons-live.json`.
+
+**Cột đánh dấu trùng mới nhất nằm ở E (ngay sau D)** theo yêu cầu22/10: tabGoogle `MEINV F0, F1, F2, ...` hiện32cột A:AF; D vẫn `Mã đơn hàng F0`, E mới `Mã đơn trùng`, giá trị `Trùng mã (2 HĐ)`/3/4 ở229dòng thuộc112mã, ôkhácđểtrống; conditionalformat Ekháctrống tôvàng. Đã mở rộngbasicFilter vàfilterview sangAF, giữthôngtin lọc. Banđầu thêmAF rồi dùngmoveDimension chuyểnAFsangE theo yêu cầu tiếp theo; **các cột E:AE cũ dịch phải1 cột**, cần đọc lạiheader trước mọi tác vụ sau. Ví dụ kýhiệu/sốF0 nay H/I, ngàyJ, tiềnhàng/thuế/thanh toánF0 nay K/L/M; tìnhtrạngchuỗiAE, ghichúAF. Đã kiểm đủ37.087 dòng: mãD và cácgiátrị cũ giữnguyên, ngày/3khoản tiền F0 vàblankthanhtoán khôngđổi; đúng229marker/vàng, headerđúngthứtự, ruleđãđổi=$E2<>"". Báo cáo `scripts/data/nb-fill-20261022/duplicate-marker-before.json`, `duplicate-marker-verification.json`. Chỉ đánh dấu trùngmãghi chú, không kếtluận xuấttrùngHĐ. Googlelàbảnhiệnhành, Excelcụcbộchưađượcthêmcột này.
+
+Rà trùng sau bổ sungNB22/10 (đọc trực tiếp D:H đủ37.087 dòng):112 mãđơn xuất hiện ở nhiềuF0, gồm229 hóađơn gốc/117 lượt lặp thêm, tốiđa4HĐ/mã. Không có trùng khóa kýhiệu+số hóađơn. Đây là trùng mãghi chú, chưa kết luận xuấttrùng; không sửa/tô thêmGoogle trong lượt chỉhỏi này. Chi tiết `scripts/data/nb-fill-20261022/duplicate-orders-after-fill.json`. Ví dụ580771131904198000 gắn1C25MUV17754/17811/17994/18305;581284749358761903 gắn23087–23090;HD010043 gắn28831/28832/34385. Cần đối chiếu nguồn nghiệp vụ trước quyết định xửlý.
+
+**Đã xử lý61 trườnghợp lệch1–2đ theo yêu cầu mới nhất22/10:** người dùng cho phép bổ sung mãNB, chỉ ôtrống/tôvàng/giữtiền. Đã đọc lại61 dòng đích B:AE và61 dòng nguồnNB, xác nhậnkhóa+tên+3khoản tiền/mãkhôngđổi, ôD vẫn thậttrống vàkhôngvalidation/côngthức; ghi61 ôD bằngchuỗi và tô #FFF2CC trong1batch, khôngghi tiền. Đọc lại đủ61 xácnhận mã/màuđúng, tấtcảuserEnteredValue/effectiveValue của29ôcòn lại trênmỗi dòng giữnguyên, khôngbỏqua trườnghợp nào. Báo cáo `scripts/data/nb-fill-20261022/rounding-write-before.json`, `rounding-write-verification.json`; ảnhGoogle thực tế `rounding-write-after.png`. Tổng bổsungNB qua2đợt18.698 mã; số còntrống suy ra1.210. Quyết định này thay thế ghi chú CHƯAđiền61 ở dưới. Chỉ GoogleSheetđược sửa; Excelcụcbộvẫnchưacậpnhật.
+
+Rà lệch1–2đ sau bổ sung mãNB (chỉ đọc,22/10): trong1.271 ôD còntrống có61 trườnghợp cùngsốHĐ+tên, cả3 khoản tiền sau làm tròn nguyênđồng chênh tốiđa2đ;60 trườnghợp tốiđa1đ và1 trườnghợp2đ (`1C25MUV/00005487`, dòng5487, NB6617, mã2508088CFM4RR0; tiền hàng meInvoice1.257.409/NB1.257.407, thuế100.593 bằngnhau, thanh toán1.358.002/NB1.358.000). Cả61 có1mãNB duy nhất; đã đọc lại trực tiếp61 dòng đích và61 dòngNB xác nhận ôD vẫntrống/mãvàtiền khôngđổi. **CHƯA điền thêm61 mã hoặc sửa số tiền**; người dùng hiện chỉ hỏi có lệchkhông, chưa yêu cầu mở dung sai. Chi tiết `scripts/data/nb-fill-20261022/rounding-audit.json`, `rounding-live-verification.json`, script `scripts/audit_nb_rounding_20261022.py`.
+
+**Bản làm việc mới nhất là Google Sheets** `HD 2025`, tab `MEINV F0, F1, F2, ...` (gid2070647506), URL `https://docs.google.com/spreadsheets/d/1bhOnhnBcHaHiy06-REAdVVEk160FG94a6XgkfH0AQsw/edit?gid=2070647506#gid=2070647506`. Theo yêu cầu trực tiếp22/10 đã chỉ điền18.637 ôD đang thật sự trống và tô vàng #FFF2CC, từ sheet `Đối soát NB`. Khớp sốHĐ + tênNFC/hoa-thường/khoảngtrắng + cả3 khoản tiền làm tròn vềđồng rồi bằngnhau chính xác; chỉ1mãNB duy nhất và1HĐđích duy nhất. Không dùng ngày làm điều kiện theo yêu cầu lượt này. Giữ nguyên17.179 mã cũ/côngthức và sốtiền. Trước mỗi đợt ghi đã kiểm lại ôtrống/khóa/tiền; không có thayđổi đồng thời. Đã đọc lại toàn bộ37.087 dòng B:L:18.637 mã và18.637 màu đúng, không đổi ôngoàiphạmvi. Sau bổsung có35.816 mã; còn1.271 trống gồm1.266 chưa khớp đủ và5 khớp nhiều mãNB. Không tự chọn5mã này. Nguồn/plan/nhật ký/verification/ảnh saughi ở `scripts/data/nb-fill-20261022/`. Chỉ ghiGoogleSheet, **fileExcel cục bộ chưa cập nhật mãNB**; không upload lạiExcel cũ đèGoogle đã chỉnh.
+
+Rà mã đơn theo thư mục người dùng chỉ định `data/Du lieu Meinvoice/T7_T12_2025_HD_da_su_dung` (22/10): đọc8xlsx,37.768 khóa riêng biệt; không đọc chồng filezip. File F đã có cộtD `Mã đơn hàng F0` và cộtL sheetnguồn `Mã đơn hàng`. Kiểm toàn bộ37.087 dòng gốc trong workbook:17.179 có mã,19.908 trống; 8file mới không bổ sung mã khác/không trống so với dữ liệu đang có, không có xung đột ngày/tiền/mã. 251gốc không có trong bộ8file; không tự bỏ hoặc đoánmã. Workbook KHÔNG bị sửa/không tạo cột trùng. Audit `scripts/audit_h2_order_codes_20261022.py`, `scripts/data/h2-order-codes-20261022/audit.json`. Mã đơn chỉ là ghi chú nguồn, không dùng để nối chuỗi hoặc xác nhận chắc chắn đơn thực.
+
+File hiện hành: `outputs/HOA_DON_GOC_T7_T12_2025_F0_F1_F2.xlsx`, 2 sheet `F0, F1, F2, ...` và `Chi tiet nguon`. 37.087 gốc / 37.758 hóa đơn nguồn; 662 chuỗi có liên quan, 671 hóa đơn liên quan. Giữ nguyên436 thanh toán trống ở các khối F và sheet nguồn; tô vàng và ghi F tại cộtF `Thanh toán trống tại F`, thuộc436 chuỗi. Tổng thanh toán hiện tại của436 chuỗi này cũng để trống. Tiền hiện tại cộng điều chỉnh, còn thay thế thì dùng hóa đơn thay thế sau cùng, không cộng lại hóa đơn đã bị thay thế. Không phải file import và chưa thêm kế hoạch điều chỉnh mới.
+
+Đã kiểm toàn bộ dòng/các khối F, tiền nguồn và cache công thức với JSON ghép; giữ số0 đầu, ngày kiểuExcel, bộ lọc, frozen panes và conditional formatting. Báo cáo `scripts/data/h2-chain-readiness-20261022/workbook-verification.json`, SHA256 `e01960a0f2fb784b1f76bab5ce9dce82807d2c9ee41442fcd438cc5547152dca`. Đã xem ảnh main/source/blank trước xuất. Artifact Tool tạo/tính/render được nhưng xuất workbook lớn không hoàn tất sau chờ kéo dài; đã dừng đúng tiến trình xuất riêng, ghi cuối bằng bundled XlsxWriter với cùng bố cục/công thức/cache và kiểm độc lập toàn bộ bằng openpyxl chỉ đọc. Tái tạo: `scripts/audit_h2_chain_readiness_20261022.py` -> `scripts/build_h2_workbook_20261022.py` -> `scripts/verify_h2_workbook_20261022.py`; builder không tự ghi đè file đã có. Chưa commit/push. Các đoạn dưới mô tả lịch sử chuẩn bị và được cập nhật bởi phần này.
+
+---
+
+# Nguồn dựng F0/F1/F2 cho gốc 01/07–31/12/2025 — 22/10/2026
+
+**Cập nhật sau ảnh UI:** đã nối đủ `1C25MUV/00031054` (19/12/2025) -> `1C25MUV/00034893` (31/12/2025, BBTT00109) -> `1C26MUV/00002639` (13/01/2026). Nguồn ảnh lưu `data/Bo sung/2026-10-22/`; báo cáo thay thế2026 dòng14 và bảng tổng2026 phần1 dòng2644 xác nhận2639 là Hóa đơn thay thế, HĐ hợp lệ, tiền hàng0/thuế0/thanh toán trống. Không tự điền0 thanh toán. Tái ghép còn37.087 gốc,662 chuỗi có liên quan,671 hóa đơn liên quan,37.758 hóa đơn trong chuỗi; không còn thiếu cạnh theo trạng thái. Đủ dựng bảng F theo nguồn hiện có, vẫn giữ436 thanh toán trống. Các nhận xét thiếu31054 và số37.088 gốc/670 liên quan trong đoạn cũ dưới đây đã được thay thế bởi cập nhật này. Chưa tạo workbook mới/chưa sửa import.
+
+Đã lưu nguyên bản hai báo cáo liên kết 2026 mới vào `data/Du lieu Meinvoice/Xuat_lai_2026-10-22/`, kiểm SHA-256 khớp Downloads. Đã ghép với bảng tổng và liên kết 2025: 37.088 gốc, 662 gốc có liên quan, 670 hóa đơn liên quan (610 năm 2025, 60 năm 2026). Chưa chốt đủ: `1C25MUV/00031054` ngày19/12/2025 ghi đã bị thay thế nhưng chưa có liên kết tới hóa đơn thay thế; cần mở lịch sử trên meInvoice. 436 hóa đơn có tiền hàng/thuế0 nhưng thanh toán trống, giữ nguyên nguồn. Excel H2 có38.019 hóa đơn, nhiều hơn snapshot Google251 gốc, không tự bỏ phần này. Báo cáo `scripts/data/h2-chain-readiness-20261022/KET_QUA_KIEM_TRA.md`, `audit.json`, script `scripts/audit_h2_chain_readiness_20261022.py`. Chưa tạo workbook F mới hoặc sửa import. Đủ để dựng bản có đánh dấu thiếu, chưa xác nhận đầy đủ mọi F/tổng thanh toán.
+
+Chốt diễn giải mới theo người dùng22/10: chỉ thay dòng diễn giải không phải hàng hóa trong cột Tên hàng hóa/dịch vụ; luôn tham chiếu hóa đơn gốc F0, kể cả dòng đảo khoản cũ. Đã cung cấp prompt cho máy khác, CHƯA thực hiện sửa file ở lượt này. Giữ nguyên tên hàng hóa/khuyến mãi, số liệu và cột Lý do điều chỉnh.
+
+---
+
+# Đã rà mã đơn ghi chú theo yêu cầu người dùng — 21/10/2026
+
+Người dùng đính chính: mã đơn trên meInvoice và NB do nội bộ note, có thể sai. Đã đọc toàn bộ Google Sheets:65.495AMIS/37.768meInvoice/26.550NB/65.436ánhxạMISA vàcác tabreview. Không dùng mãnote độc lập; kiểm số/ngàyHĐ,tên,bộ tiềnNB,rồi AMISthuế/thanh toán/chứngtừ,kiểmtrùng. Chuẩn hóa ngày chữ05-Jul-2025, không tự đoán38dòngNBghi2709/2025và577ngàytrống. 23.938khớp trường đốisoát3nguồn;276HĐmới cùngmãAMIS nhưng lệchthuế/tổng;629mãcónhiềuHĐ, trongđó48nhómđãcó96dòngKTnote đượcgiữnguyên. 1.619cùngsốNBchưakhớpngày,114lệchtên,12lệchtiềnsau làmtròn,5nhiềumãNB. Không gọi mọi khácbiệt là mãsai vàkhông tựloại HĐđiềuchỉnh/thaythế. Ví dụ11305dòngmeInvoice1237,tổng1.379.000,mã250707F76E0BV1trỏAMISBHHS2025010663dòng34508tổng2.479.000;NB377cũng ghi mãnày, nênhai mãnote khớpnhau chưa chứng minhđúngliênkết.
+
+Nhóm trướcT7/sauT7: **116ứngviên khớp trường3nguồn +1chưatìmAMIS (1C25TUV/00010101,NB2395)**,tổng117. Số sơbộ114thành116sau đọcđúngngàytextNB231–232cho11052/11053; không sửaSheet. Cả116làHĐmới,AMISvàngàynhậnNBtrước01/07,ngàyHĐtừ01/07; mãkhônglặpởHĐkháctrongbảng07–12. 35ngườimua chetên mộtphần; chỉgọiứngviênkhớpđốisoát,chưachốtđúngđơnthực hoặcđủmọiđơn2024. Chưađưa thêm vàoimport. Chi tiết `scripts/data/link-audit-20261021/KET_QUA_KIEM_TRA.md`, `summary.json`, `audit.json`cục bộ; script `scripts/audit_order_links_20261021.py`. Snapshotnguồn Google local trongsource/,khôngtựđưalênGit; táikiểm máy khác cầnđọclạitheomanifest. KhôngsửaGoogleSheets/cácfileimport/ký/pháthành.
+
+---
+
+# Nguồn Google Sheets để rà xuất bù sau 01/07/2025 — 21/10/2026
+
+Người dùng cung cấp file `HD 2025`: https://docs.google.com/spreadsheets/d/1bhOnhnBcHaHiy06-REAdVVEk160FG94a6XgkfH0AQsw/edit . Đã đọc trực tiếp qua Google Drive/Sheets, chỉ xem, không sửa file. Theo người dùng: `AMIS` là dữ liệu xuất AMIS; `Meinvoice 07 -> 12 / 2025` là bảng kê hóa đơn01/07–31/12/2025; `Đối soát NB` là dữ liệu note nội bộ. SheetID tương ứng1264954379/1180894322/13815067. Có thêm `MISA_HD_GOC`(1882710702) ánh xạ số chứng từ/mã đơn và các tab kiểm tra trùng/lệch.
+
+Khác hai bản AMIS cũ trong Git, AMIS Google hiện có ngày hạch toán(A), số chứng từ(C), thuế(G), thanh toán(H), mã đơn(I), số HĐ meInvoice(J), thanh toán meInvoice(K). MeInvoice có ký hiệu(B), số(C), ngày(D), mã đơn(F), người mua(L), tiền hàng/thuế/thanh toán(P:R), trạng thái(U), số chứng từ AMIS(X), cờ bổ sungNB(Y), ghi chú(Z). NB có ngàyHĐ(A), sốHĐ(C), người mua(H), mãđơn(I), ngày đặt/nhận/thanh toán(J:L), tiền hàng/thuế/tổng(R:T); NB không có cột ký hiệu HĐ. Các cột liên kết AMIS/meInvoice có công thức MATCH/INDEX và một số #N/A; không coi liên kết trả về dòng đầu là xác nhận duy nhất nếu chưa kiểm trùng. Không ghép chỉ bằng số HĐ, mã đơn, tên hoặc số tiền.
+
+Ví dụ đã đọc khớp3nguồn: `1C25TUV/00010299`, ngày01/07/2025, người muaelectronmastervvvl, tiền hàng2.573.148,thuế205.852,tổng2.779.000. NB dòng2: đặt26/06/2025 13:50, nhận26/06/2025 16:06. AMIS dòng36420: ngày hạch toán26/06/2025, chứng từBHHS2025010042, thuế205.852,tổng2.779.000, sốHĐ00010299. MeInvoice dòng231: cùng số/ngày/tên/bộ tiền và sốchứngtừX=BHHS2025010042. Đây là ví dụ phù hợp nhóm đơn trước tháng7/hóađơn sau đó; chưa rà toàn bộ để chốt tổng số. Dùng ngày nhận hàng làm nhóm riêng với ngày đặt/ngàyhạchtoán, không tự đồng nhất. Cần đánh dấu đơn đặt trước nhưng nhận sau01/07riêng; xét hóađơngộp,hoàn/trả,đã hủy/điềuchỉnh và quy tắcngoạilệ trước khi mở phạm viimport. Hai fileimport hiện tại chưa thay đổi.
 
 ---
 

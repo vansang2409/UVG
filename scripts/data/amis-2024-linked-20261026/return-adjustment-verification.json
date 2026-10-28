@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "invoices": 161,
+  "lines": 216,
+  "goods": -223182593,
+  "vat": -17854608,
+  "payment": -241037201,
+  "pending_btl": [
+    "BTL00023",
+    "BTL00024"
+  ],
+  "pending_lines": 3,
+  "refs_blank": true,
+  "adjustment_date_blank": true,
+  "columns": "A:X đúng mẫu; Y Mã đơn hàng; Z Số chứng từ bán gốc",
+  "template_sha256": "34942d5919fe3c5f0e7ee9809e4446c262a07424d98fe7a1bc551b212324b147",
+  "sales_unchanged_sha256": "c6ea974aeabc67e9912d6359448f853f4257fe79a808e3f16cf60d82f6f321ee",
+  "review_sha256": "da1562f3cee1e7a7f56b1dd086914d1af42bae5f0fa3bb4d85176a653d7cc89e",
+  "unrelated_parts_byte_identical": true
+}

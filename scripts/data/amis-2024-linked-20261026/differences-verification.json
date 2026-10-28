@@ -1,0 +1,104 @@
+{
+  "passed": true,
+  "changed_documents": 9,
+  "edits": [
+    {
+      "sheet": "Can kiem tra",
+      "cell": "K2",
+      "doc": "BHHS2024000629",
+      "text": "BTL00023 / KA150SFILTERFULL: đơn giá bán 654.764đ, giá trả 747.356đ (chênh +92.592đ/Cái); SL trả 1; tiền theo giá bán 654.764đ, tiền trả thực tế 747.356đ (trả cao hơn 92.592đ). Dòng bán AMIS 3337; chưa bù trừ, chưa tự chỉnh đơn giá."
+    },
+    {
+      "sheet": "Can kiem tra",
+      "cell": "K3",
+      "doc": "BHHT2024003185",
+      "text": "Dòng AMIS 10347 / KA150SFULL: SL 4 × đơn giá 957.408đ = 3.829.632đ; thành tiền AMIS 3.829.630đ; AMIS thấp hơn 2đ (chênh -2đ)."
+    },
+    {
+      "sheet": "Can kiem tra",
+      "cell": "K4",
+      "doc": "BHHT2024011030",
+      "text": "Dòng AMIS 19485 / KM100FULL: SL 10 × đơn giá 165.741đ = 1.657.410đ; thành tiền AMIS 1.657.407đ; AMIS thấp hơn 3đ (chênh -3đ)."
+    },
+    {
+      "sheet": "Can kiem tra",
+      "cell": "K7",
+      "doc": "BHHT2024015896",
+      "text": "Dòng AMIS 28204 / KA600FILTERFULL: SL 4 × đơn giá 574.171đ = 2.296.684đ; thành tiền AMIS 2.296.682đ; AMIS thấp hơn 2đ (chênh -2đ)."
+    },
+    {
+      "sheet": "Can kiem tra",
+      "cell": "K8",
+      "doc": "BHHS2024005761",
+      "text": "BTL00024 / KM100FULL: đơn giá bán 172.538đ, giá trả 202.778đ (chênh +30.240đ/Cái); SL trả 1; tiền theo giá bán 172.538đ, tiền trả thực tế 202.778đ (trả cao hơn 30.240đ). Dòng bán AMIS 29967; chưa bù trừ, chưa tự chỉnh đơn giá."
+    },
+    {
+      "sheet": "Can kiem tra",
+      "cell": "K9",
+      "doc": "BHHT2024017438",
+      "text": "Dòng AMIS 34375 / KM200FULL: SL 7 × đơn giá 247.009đ = 1.729.063đ; thành tiền AMIS 1.729.060đ; AMIS thấp hơn 3đ (chênh -3đ)."
+    },
+    {
+      "sheet": "Can kiem tra",
+      "cell": "K10",
+      "doc": "BHHN2024000179",
+      "text": "Dòng AMIS 36337 / KA350LIGHTFULL: SL 7 × đơn giá 1.527.778đ = 10.694.446đ; thành tiền AMIS 10.694.444đ; AMIS thấp hơn 2đ (chênh -2đ)."
+    },
+    {
+      "sheet": "Can kiem tra",
+      "cell": "K12",
+      "doc": "BHHT2024023472",
+      "text": "Dòng AMIS 42553 / KA600FULL: SL 4 × đơn giá 2.183.681đ = 8.734.724đ; thành tiền AMIS 8.734.722đ; AMIS thấp hơn 2đ (chênh -2đ)."
+    },
+    {
+      "sheet": "Can kiem tra",
+      "cell": "K13",
+      "doc": "BHHT2024025057",
+      "text": "Dòng AMIS 44580 / KA150SFULL: SL 4 × đơn giá 869.445đ = 3.477.780đ; thành tiền AMIS 3.477.778đ; AMIS thấp hơn 2đ (chênh -2đ)."
+    },
+    {
+      "sheet": "Bu tru tra lai",
+      "cell": "R27",
+      "doc": "BHHS2024000629",
+      "text": "BTL00023 / KA150SFILTERFULL: đơn giá bán 654.764đ, giá trả 747.356đ (chênh +92.592đ/Cái); SL trả 1; tiền theo giá bán 654.764đ, tiền trả thực tế 747.356đ (trả cao hơn 92.592đ). Dòng bán AMIS 3337; chưa bù trừ, chưa tự chỉnh đơn giá."
+    },
+    {
+      "sheet": "Bu tru tra lai",
+      "cell": "R28",
+      "doc": "BHHS2024000629",
+      "text": "BTL00023 / KA150SFILTERFULL: đơn giá bán 654.764đ, giá trả 747.356đ (chênh +92.592đ/Cái); SL trả 1; tiền theo giá bán 654.764đ, tiền trả thực tế 747.356đ (trả cao hơn 92.592đ). Dòng bán AMIS 3337; chưa bù trừ, chưa tự chỉnh đơn giá."
+    },
+    {
+      "sheet": "Bu tru tra lai",
+      "cell": "R150",
+      "doc": "BHHS2024005761",
+      "text": "BTL00024 / KM100FULL: đơn giá bán 172.538đ, giá trả 202.778đ (chênh +30.240đ/Cái); SL trả 1; tiền theo giá bán 172.538đ, tiền trả thực tế 202.778đ (trả cao hơn 30.240đ). Dòng bán AMIS 29967; chưa bù trừ, chưa tự chỉnh đơn giá."
+    },
+    {
+      "sheet": "Bu tru tra lai",
+      "cell": "R151",
+      "doc": "BHHS2024005761",
+      "text": "BTL00024 / KM100FULL: đơn giá bán 172.538đ, giá trả 202.778đ (chênh +30.240đ/Cái); SL trả 1; tiền theo giá bán 172.538đ, tiền trả thực tế 202.778đ (trả cao hơn 30.240đ). Dòng bán AMIS 29967; chưa bù trừ, chưa tự chỉnh đơn giá."
+    },
+    {
+      "sheet": "Lien ket BTL-BHH",
+      "cell": "S24",
+      "doc": "BHHS2024000629",
+      "text": "BTL00023 / KA150SFILTERFULL: đơn giá bán 654.764đ, giá trả 747.356đ (chênh +92.592đ/Cái); SL trả 1; tiền theo giá bán 654.764đ, tiền trả thực tế 747.356đ (trả cao hơn 92.592đ). Dòng bán AMIS 3337; chưa bù trừ, chưa tự chỉnh đơn giá."
+    },
+    {
+      "sheet": "Lien ket BTL-BHH",
+      "cell": "S25",
+      "doc": "BHHS2024000629",
+      "text": "BTL00023 / KA150SFILTERFULL: đơn giá bán 654.764đ, giá trả 747.356đ (chênh +92.592đ/Cái); SL trả 1; tiền theo giá bán 654.764đ, tiền trả thực tế 747.356đ (trả cao hơn 92.592đ). Dòng bán AMIS 3337; chưa bù trừ, chưa tự chỉnh đơn giá."
+    },
+    {
+      "sheet": "Lien ket BTL-BHH",
+      "cell": "S137",
+      "doc": "BHHS2024005761",
+      "text": "BTL00024 / KM100FULL: đơn giá bán 172.538đ, giá trả 202.778đ (chênh +30.240đ/Cái); SL trả 1; tiền theo giá bán 172.538đ, tiền trả thực tế 202.778đ (trả cao hơn 30.240đ). Dòng bán AMIS 29967; chưa bù trừ, chưa tự chỉnh đơn giá."
+    }
+  ],
+  "unchanged": "Mọi ô khác, sheet đối chiếu import, số tiền, phân loại và dữ liệu nguồn giữ nguyên",
+  "sha256": "7f434eac972cf296c17a5559e3cab4f704af502a8b1627d985ee8c624a4fc957"
+}

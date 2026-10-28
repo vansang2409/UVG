@@ -1,0 +1,49 @@
+{
+  "detailFooter": "#\t\nMã hàng\n\t\nTên hàng\n\t\nĐVT\n\t\nTK trả lại\n\t\nSố lượng\n\t\nTK công nợ\n\t\nĐơn giá\n\t\nThành tiền\n\t\n% thuế GTGT\n\t\nTiền thuế GTGT\n\t\nTK thuế GTGT\n\t\nSố CT bán hàng\n\n1\t\nSP000042\n\t\nBình nước giữ nhiệt thông minh UVGREEN UK100 Màu trắng\n\t\nCái\n\t\n5212\n\t\n1,00\n\t\n1388\n\t\n972.222,00\n\t\n972.222\n\t\n8\n\t\n77.778\n\t\n33311\n\t\n\n\t\nTổng\n\t\n\t\n\t\n\t\n1,00\n\t\n\t\n\t\n972.222\n\t\n\t\n77.778\n\t\n\t\nTổng số: 1\nSố dòng/trang\n1",
+  "headers": [
+    "#",
+    "Mã hàng",
+    "Tên hàng",
+    "ĐVT",
+    "TK trả lại",
+    "Số lượng",
+    "TK công nợ",
+    "Đơn giá",
+    "Thành tiền",
+    "% thuế GTGT",
+    "Tiền thuế GTGT",
+    "TK thuế GTGT",
+    "Số CT bán hàng"
+  ],
+  "rows": [
+    [
+      "1",
+      "SP000042",
+      "Bình nước giữ nhiệt thông minh UVGREEN UK100 Màu trắng",
+      "Cái",
+      "5212",
+      "1,00",
+      "1388",
+      "972.222,00",
+      "972.222",
+      "8",
+      "77.778",
+      "33311",
+      ""
+    ]
+  ],
+  "selected": [
+    "",
+    "03/12/2024",
+    "BTL00145",
+    "",
+    "Khách hàng Tiktok",
+    "1.050.000",
+    "Người bán xuất hóa đơn điều chỉnh",
+    "Đã nhập hàng",
+    "Xem"
+  ],
+  "page": 1,
+  "capturedAt": "2026-10-26T04:57:29.538Z",
+  "readMethod": "DOM; kiểm tra đổi phiếu, đủ dòng, tổng tiền khớp, 2 lần đọc ổn định"
+}

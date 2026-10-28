@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "column": "S - Số chứng từ",
+  "lines": 43972,
+  "unchanged": "Mọi ô A:R và toàn bộ workbook kiểm tra giữ nguyên",
+  "sha256": "459ab69cec65de484259df421deaab88d2ad7d9bc5db41305458b0244ae3df93"
+}

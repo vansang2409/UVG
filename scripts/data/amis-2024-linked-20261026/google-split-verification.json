@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-27",
+  "spreadsheet_id": "1d4fLQRALDLXOFOQQlZuXMCTAg4lnRQ7NbKH-UPJN0XE",
+  "sales": {
+    "passed": true,
+    "rows": 44189,
+    "invoices": 34739,
+    "goods": 49533443555,
+    "vat": 3962675787,
+    "payment": 53496119342,
+    "all_groups_contiguous": true
+  },
+  "returns": {
+    "passed": true,
+    "rows": 219,
+    "documents": 163,
+    "goods": 225865926,
+    "vat": 18069275,
+    "payment": 243935201,
+    "all_source_rows_verified": true
+  },
+  "order_lookup_unmatched_rows": 0,
+  "preserved": [
+    "Mã đơn hàng source tab",
+    "Existing marketplace lookup column S",
+    "115 excluded sales",
+    "Original AMIS and BTL-BHH source"
+  ],
+  "changed": {
+    "sales_inserted_rows": 218,
+    "restored_partial_documents": [
+      "BHHT2024006103",
+      "BHHT2024024887"
+    ],
+    "returns_tab": "Tra lai cho dieu chinh"
+  },
+  "status": "Sales originals restored. Returns are source preparation only; original invoice references and adjustment date remain blank. Two return-price discrepancies unresolved. No import/sign/issue executed."
+}

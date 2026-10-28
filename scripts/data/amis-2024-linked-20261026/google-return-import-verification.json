@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "rows": 216,
+  "invoices": 161,
+  "totals": [
+    -223182593,
+    -17854608,
+    -241037201
+  ],
+  "unmatched_order_codes": 0,
+  "all_cells_match": true,
+  "spreadsheet_id": "1d4fLQRALDLXOFOQQlZuXMCTAg4lnRQ7NbKH-UPJN0XE",
+  "sheet_id": 700000001,
+  "sheet_name": "Import dieu chinh",
+  "range": "A9:Z225",
+  "pending_sheet": "Cho KT tra lai",
+  "pending_btl": [
+    "BTL00023",
+    "BTL00024"
+  ],
+  "blank_fields": [
+    "Ngày hóa đơn",
+    "Ký hiệu HĐ bị điều chỉnh",
+    "Số hóa đơn bị điều chỉnh",
+    "Ngày hóa đơn bị điều chỉnh",
+    "Mã CQT"
+  ],
+  "sales_sheet_untouched": true
+}
