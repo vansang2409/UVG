@@ -1,0 +1,41 @@
+{
+  "spreadsheet_id": "1d4fLQRALDLXOFOQQlZuXMCTAg4lnRQ7NbKH-UPJN0XE",
+  "monthly_rows": 12,
+  "sku_month_rows": 282,
+  "pending_count": 55,
+  "pending_by_kind": {
+    "Thiếu giá vốn": 2,
+    "Mã hàng/Combo": 26,
+    "ĐVT khác AMIS": 10,
+    "Phân bổ tiền": 17
+  },
+  "annual": [
+    "CẢ NĂM",
+    49928171800,
+    49930540760,
+    2368960,
+    24542992457,
+    24542992457,
+    2,
+    "Giá vốn HĐ mới là phần đã ghép; còn thiếu 2 HĐ."
+  ],
+  "detail_totals": [
+    "TỔNG TIỀN",
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    49928171800,
+    49930540760,
+    2368960,
+    24542992457,
+    24542992457,
+    null,
+    "Không cộng chung số lượng khác ĐVT; GV còn thiếu ở HĐ 111/63."
+  ],
+  "formula_errors": [],
+  "visual_check": "Browser unavailable; verified native formatting, wrapping and formatted values by Sheets API; XLSX download blocked by TLS authentication.",
+  "status": "passed"
+}

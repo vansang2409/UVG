@@ -76,6 +76,9 @@ def main():
     manifest=old['manifest']+[{'file':str(LINK.relative_to(ROOT)), 'sha256':link_check['sha256']}]
     confirmed_link_file=ROOT/'scripts/data/btl-bhh-live-20261026/user-confirmed-links.json'
     if confirmed_link_file.exists():manifest.append({'file':str(confirmed_link_file.relative_to(ROOT)),'sha256':hashlib.sha256(confirmed_link_file.read_bytes()).hexdigest()})
+    confirmed_prices_file=WORK/'user-confirmed-return-prices.json'
+    confirmed_prices=json.loads(confirmed_prices_file.read_text(encoding='utf8')) if confirmed_prices_file.exists() else None
+    if confirmed_prices:manifest.append({'file':str(confirmed_prices_file.relative_to(ROOT)),'sha256':hashlib.sha256(confirmed_prices_file.read_bytes()).hexdigest()})
     template=ROOT/'data/Du lieu Meinvoice/Mau_hoa_don_GTGT_MTT_1_thue_suat.xls'
     manifest.append({'file':str(template.relative_to(ROOT)), 'sha256':'64346fb386624e1f900ac9130303737f79348491951eb17e53133190514847be'})
     for m in manifest: assert hashlib.sha256((ROOT/m['file']).read_bytes()).hexdigest()==m['sha256'],m['file']
@@ -117,6 +120,8 @@ def main():
                         mismatch.append(f'{r[0]} / {r[4]}: giá/tiền trả lại khác giá dòng bán')
                 if mismatch:
                     link_issues[code]='; '.join(detailed_reasons(code,original,mismatch,rs)).replace('chưa bù trừ, chưa tự chỉnh đơn giá.','chờ kế toán chốt phần điều chỉnh; giữ nguyên bán gốc và số tiền BTL, chưa tự coi là giảm giá.')
+                    if confirmed_prices and {r[0] for r in rs}<=set(confirmed_prices['btl']):
+                        link_issues[code]=link_issues[code].replace('chờ kế toán chốt phần điều chỉnh; giữ nguyên bán gốc và số tiền BTL, chưa tự coi là giảm giá.','Đã xác nhận 28/10/2026: dùng đúng Giá ghi trả và tiền BTL khi lập điều chỉnh; giữ nguyên bán gốc, không tự tạo giảm giá bổ sung.')
             if code in by_bhh and not SPLIT_RETURNS:
                 rs=by_bhh[code]
                 sale=aggregate([l['values'] for l in original],[17,20,32],[12,16])
@@ -214,6 +219,7 @@ def main():
         for c in json.loads(confirmed_link_file.read_text(encoding='utf8')):
             confirmations.append({'doc':c['btl']+' → '+c['bhh'],'decision':'Liên kết trả lại do người dùng xác nhận','basis':c['basis']+' Ngày '+c['confirmed_on']+'. SL/giá/tiền hàng/VAT/thanh toán khớp sổ. Ghi rõ nguồn người dùng, giữ snapshot AMIS ban đầu. Theo quyết định mới: giữ bán gốc, trả lại tách chờ điều chỉnh.'})
     confirmations.append({'doc':'Toàn bộ BTL 2024','decision':'Tách bán gốc và trả lại','basis':'Ngày 27/10/2026 người dùng xác nhận theo kế toán: lập hóa đơn bán gốc trước, sau đó lấy ký hiệu/số/ngày hóa đơn thực tế để lập import điều chỉnh trả lại. Không bù trừ hoặc loại bán gốc vì trả hết; vẫn giữ danh sách loại trừ. Hai khoản lệch tiền không tự chuyển thành giảm giá.'})
+    if confirmed_prices:confirmations.append({'doc':', '.join(confirmed_prices['btl']),'decision':'Đưa vào import điều chỉnh theo Giá ghi trả','basis':confirmed_prices['confirmed_on']+': '+confirmed_prices['decision']})
     return_drafts=[]
     for r in links:
         return_drafts.append([r[0],r[2],docs[r[0]]['date'],r[4],r[5],r[6],r[7],r[8],r[9],r[10],r[11],r[12],None,None,None,None,'Chờ hóa đơn bán gốc; '+('cần chốt chênh tiền' if r[2] in link_issues else 'chưa lập import điều chỉnh'),r[16],link_issues.get(r[2])])

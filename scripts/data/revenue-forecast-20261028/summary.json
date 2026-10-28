@@ -1,0 +1,108 @@
+{
+  "scope": "Theo ngày hóa đơn gốc năm 2024, cộng các điều chỉnh liên quan năm sau; không phải báo cáo theo ngày phát hành 2024",
+  "totals": {
+    "before": [
+      47402157888,
+      3792174626,
+      51194328614
+    ],
+    "adjustments": [
+      -46407850480,
+      -3712630027,
+      -50120476607
+    ],
+    "new": [
+      49533443555,
+      3962675787,
+      53496119342
+    ],
+    "retained": [
+      994307408,
+      79544599,
+      1073852007
+    ],
+    "forecast": [
+      50527750963,
+      4042220386,
+      54569971349
+    ],
+    "new_gross": [
+      49533443555,
+      3962675787,
+      53496119342
+    ],
+    "new_returns": [
+      -225865926,
+      -18069275,
+      -243935201
+    ],
+    "forecast_before_manual": [
+      50301885037,
+      4024151111,
+      54326036148
+    ],
+    "manual_replacement_reduction": [
+      -371344277,
+      -29707543,
+      -401051820
+    ],
+    "forecast_after_manual": [
+      49930540760,
+      3994443568,
+      53924984328
+    ],
+    "change_after_all_vs_before": [
+      2528382872,
+      202268942,
+      2730655714
+    ],
+    "amis_net": [
+      49928171800,
+      3994254050,
+      53922425850
+    ],
+    "after_all_minus_amis": [
+      2368960,
+      189518,
+      2558478
+    ]
+  },
+  "counts": {
+    "old_roots": 777,
+    "old_invoices": 1445,
+    "adjustment_invoices": 1253,
+    "processed_roots": 654,
+    "new_invoices": 34739,
+    "retained_roots": 122,
+    "new_return_invoices": 163
+  },
+  "existing_by_issue_year": {
+    "2024": {
+      "count": 771,
+      "money": [
+        43002299708,
+        3440183975,
+        46442483683
+      ]
+    },
+    "2025": {
+      "count": 674,
+      "money": [
+        4399858180,
+        351990651,
+        4751844931
+      ]
+    }
+  },
+  "adjustment_dates": {
+    "2026-10-08": 1202,
+    "2026-10-12": 17,
+    "2026-10-09": 26,
+    "2026-10-19": 8
+  },
+  "processed_nonzero": [],
+  "issues": [],
+  "unmapped_adjustments": [],
+  "manual_status": "Kế hoạch đưa 6 chuỗi thay thế về 0 theo xác nhận 27/10; chưa xác minh KT đã thực hiện",
+  "status": "Dự tính từ file đã chuẩn bị; chưa xác minh import/ký/phát hành hoặc báo cáo meInvoice thực tế"
+}

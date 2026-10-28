@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "rows": 219,
+  "invoices": 163,
+  "totals": [
+    -225865926,
+    -18069275,
+    -243935201
+  ],
+  "existing_rows_unchanged": 216,
+  "inserted": [
+    {
+      "btl": "BTL00023",
+      "row": 32,
+      "price": 1733199,
+      "goods": -1733199,
+      "vat": -198445,
+      "payment": -2679000
+    },
+    {
+      "btl": "BTL00023",
+      "row": 33,
+      "price": 747356,
+      "goods": -747356,
+      "vat": null,
+      "payment": null
+    },
+    {
+      "btl": "BTL00024",
+      "row": 145,
+      "price": 202778,
+      "goods": -202778,
+      "vat": -16222,
+      "payment": -219000
+    }
+  ],
+  "pending_rows": 0,
+  "date": "2026-10-28"
+}

@@ -1,0 +1,24 @@
+{
+  "provisional": false,
+  "chain_count": 778,
+  "invoice_count": 1445,
+  "chain_kinds": {
+    "Không phát sinh": 113,
+    "Điều chỉnh": 658,
+    "Thay thế": 7
+  },
+  "before": [
+    47402157888,
+    3792174626,
+    51194328614
+  ],
+  "previous_before": [
+    47402157888,
+    3792174626,
+    51194328614
+  ],
+  "changed_chains": [],
+  "recovered_edges": 0,
+  "issues": [],
+  "excluded_invoice_count": 15
+}

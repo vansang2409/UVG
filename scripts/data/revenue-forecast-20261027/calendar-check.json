@@ -1,0 +1,22 @@
+{
+  "calendar_2024_before": [
+    "43002299708",
+    "3440183975",
+    "46442483683"
+  ],
+  "calendar_2024_after": [
+    92307152105,
+    7384572469,
+    99691724574
+  ],
+  "active_invoice_count": 771,
+  "missing": [],
+  "outside_cohort_2024": [],
+  "statuses": {
+    "hoa don moi": 113,
+    "hoa don da bi dieu chinh": 657,
+    "hoa don da bi thay the": 14,
+    "hoa don da bi huy": 1,
+    "hoa don dieu chinh": 1
+  }
+}

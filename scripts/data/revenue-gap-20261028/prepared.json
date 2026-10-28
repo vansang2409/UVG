@@ -1,0 +1,8489 @@
+{
+  "summary": {
+    "kept_old": [
+      622963131,
+      49837056,
+      672800187
+    ],
+    "excluded_amis": [
+      620594171,
+      49647538,
+      670241709
+    ],
+    "company_invoice_money": [
+      622963131,
+      49837056,
+      672800187
+    ],
+    "company_minus_amis": [
+      2368960,
+      189518,
+      2558478
+    ],
+    "outside_list": [
+      0,
+      0,
+      0
+    ],
+    "gap": [
+      2368960,
+      189518,
+      2558478
+    ],
+    "components": 114,
+    "nonzero_components": 32,
+    "outside_chains": []
+  },
+  "groups": [
+    {
+      "roots": [
+        "1C24TUV/00000111"
+      ],
+      "codes": [
+        "BHH2023005090"
+      ],
+      "missing_codes": [
+        "BHH2023005090"
+      ],
+      "invoice_money": [
+        3888889,
+        311111,
+        4200000
+      ],
+      "amis_money": [
+        0,
+        0,
+        0
+      ],
+      "difference": [
+        3888889,
+        311111,
+        4200000
+      ],
+      "buyers": [
+        "CÔNG TY TNHH SẢN XUẤT VÀ ĐẦU TƯ AKIA"
+      ],
+      "exclusion_rows": [
+        101
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          111.0,
+          "15/03/2024",
+          "0315793560",
+          "CÔNG TY TNHH SẢN XUẤT VÀ ĐẦU TƯ AKIA",
+          "132 Võ Thị Sáu, Phường Võ Thị Sáu, Quận 3, Thành phố Hồ Chí Minh, Việt Nam",
+          3888889.0,
+          311111.0,
+          4200000.0,
+          "Hóa đơn mới",
+          "HD003733.01.02",
+          "Ngoài sàn",
+          "BHH2023005090",
+          "Đơn hàng ghi nhận 2023, xuất hóa đơn 24 => sai thời điểm",
+          "#N/A",
+          "#N/A",
+          null,
+          null,
+          null,
+          null,
+          null,
+          "#N/A",
+          "#N/A",
+          null
+        ]
+      ],
+      "amis_docs": []
+    },
+    {
+      "roots": [
+        "1C24TUV/00000457"
+      ],
+      "codes": [
+        "BHHL2024000083"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        2047407,
+        163793,
+        2211200
+      ],
+      "amis_money": [
+        2338056,
+        187044,
+        2525100
+      ],
+      "difference": [
+        -290649,
+        -23251,
+        -313900
+      ],
+      "buyers": [
+        "CÔNG TY TNHH THƯƠNG MẠI TRUNG PHONG"
+      ],
+      "exclusion_rows": [
+        47
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          457.0,
+          "11/09/2024",
+          "0314873573",
+          "CÔNG TY TNHH THƯƠNG MẠI TRUNG PHONG",
+          "82/21A Đinh Tiên Hoàng, Phường 1, Quận Bình Thạnh, Thành phố Hồ Chí Minh, Việt Nam",
+          1967650.0,
+          157412.0,
+          2125062.0,
+          "Hóa đơn đã bị điều chỉnh",
+          490365980467499.0,
+          "Lazada",
+          "BHHL2024000083",
+          null,
+          2338056.0,
+          187044.0,
+          "00002556",
+          79757.0,
+          6381.0,
+          2047407,
+          163793,
+          290649,
+          23251,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHL2024000083",
+          "date": "2024-09-11T00:00:00",
+          "rows": [
+            27627
+          ],
+          "money": [
+            2338056,
+            187044,
+            2525100
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000650"
+      ],
+      "codes": [
+        "BHHN2024000017"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        25555556,
+        2044444,
+        27600000
+      ],
+      "amis_money": [
+        25555556,
+        2044444,
+        27600000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CÔNG TY TNHH CHÚ CÁ"
+      ],
+      "exclusion_rows": [
+        4
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          650.0,
+          "05/12/2024",
+          "0318588954",
+          "CÔNG TY TNHH CHÚ CÁ",
+          "33 Tân Trụ, Phường 15, Quận Tân Bình, Thành phố Hồ Chí Minh, Việt Nam",
+          25555556.0,
+          2044444.0,
+          27600000.0,
+          "Hóa đơn mới",
+          "HD007378.01",
+          "Ngoài sàn",
+          "BHHN2024000017",
+          null,
+          25555556.0,
+          2044444.0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHN2024000017",
+          "date": "2024-11-25T00:00:00",
+          "rows": [
+            39166
+          ],
+          "money": [
+            25555556,
+            2044444,
+            27600000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000514"
+      ],
+      "codes": [
+        "BHHN2024000034"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        7738889,
+        619111,
+        8358000
+      ],
+      "amis_money": [
+        7738889,
+        619111,
+        8358000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CÔNG TY TNHH SẢN XUẤT NAVIS VIỆT NAM"
+      ],
+      "exclusion_rows": [
+        27
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          514.0,
+          "09/10/2024",
+          "0318008787",
+          "CÔNG TY TNHH SẢN XUẤT NAVIS VIỆT NAM",
+          "L3, Tòa nhà Vạn Đạt, Đường số 8, Lô II-1, Nhóm CN II, Khu Công Nghiệp Tân Bình, Phường Tây Thạnh, Quận Tân phú, Thành phố Hồ Chí Minh, Việt Nam",
+          7738889.0,
+          619111.0,
+          8358000.0,
+          "Hóa đơn mới",
+          "HD007220",
+          "Ngoài sàn",
+          "BHHN2024000034",
+          null,
+          7738889.0,
+          619111.0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHN2024000034",
+          "date": "2024-10-08T00:00:00",
+          "rows": [
+            31338,
+            31339
+          ],
+          "money": [
+            7738889,
+            619111,
+            8358000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000511"
+      ],
+      "codes": [
+        "BHHN2024000038"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        14444444,
+        1155556,
+        15600000
+      ],
+      "amis_money": [
+        14444444,
+        1155556,
+        15600000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CÔNG TY TNHH SẢN XUẤT VÀ THƯƠNG MẠI DAVIMAX"
+      ],
+      "exclusion_rows": [
+        26
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          511.0,
+          "04/10/2024",
+          "2300720588",
+          "CÔNG TY TNHH SẢN XUẤT VÀ THƯƠNG MẠI DAVIMAX",
+          "Khu Bồ Sơn, Phường Võ Cường, Thành phố Bắc Ninh, Tỉnh Bắc Ninh, Việt Nam",
+          14444444.0,
+          1155556.0,
+          15600000.0,
+          "Hóa đơn mới",
+          "HD007178",
+          "Ngoài sàn",
+          "BHHN2024000038",
+          null,
+          14444444.0,
+          1155556.0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHN2024000038",
+          "date": "2024-09-28T00:00:00",
+          "rows": [
+            30500
+          ],
+          "money": [
+            14444444,
+            1155556,
+            15600000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000453"
+      ],
+      "codes": [
+        "BHHN2024000052"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        1018519,
+        81482,
+        1100001
+      ],
+      "amis_money": [
+        1018519,
+        81482,
+        1100001
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CÔNG TY TNHH FLAMINPOP"
+      ],
+      "exclusion_rows": [
+        46
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          453.0,
+          "09/09/2024",
+          "0317059605",
+          "CÔNG TY TNHH FLAMINPOP",
+          "400/65 Hiệp Thành 17, khu phố 5, phường Hiệp Thành, Quận 12, Thành phố Hồ Chí Minh, Việt Nam",
+          1018519.0,
+          81482.0,
+          1100001.0,
+          "Hóa đơn mới",
+          "HD007074",
+          "Ngoài sàn",
+          "BHHN2024000052",
+          null,
+          1018519.0,
+          81481.0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0,
+          -1,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHN2024000052",
+          "date": "2024-09-06T00:00:00",
+          "rows": [
+            26662
+          ],
+          "money": [
+            1018519,
+            81482,
+            1100001
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000458"
+      ],
+      "codes": [
+        "BHHN2024000054"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        27546296,
+        2203704,
+        29750000
+      ],
+      "amis_money": [
+        27546296,
+        2203704,
+        29750000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CÔNG TY CỔ PHẦN WORK FLOW"
+      ],
+      "exclusion_rows": [
+        48
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          458.0,
+          "12/09/2024",
+          "0317526049",
+          "CÔNG TY CỔ PHẦN WORK FLOW",
+          "39 Nguyễn Duy Hiệu, Phường Thảo Điền, Thành phố Thủ Đức, Thành phố Hồ Chí Minh, Việt Nam",
+          27546296.0,
+          2203704.0,
+          29750000.0,
+          "Hóa đơn mới",
+          "HD007061",
+          "Ngoài sàn",
+          "BHHN2024000054",
+          null,
+          27546296.0,
+          2203704.0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHN2024000054",
+          "date": "2024-09-04T00:00:00",
+          "rows": [
+            26401,
+            26402
+          ],
+          "money": [
+            27546296,
+            2203704,
+            29750000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000387"
+      ],
+      "codes": [
+        "BHHN2024000060"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        72618000,
+        5809440,
+        78427440
+      ],
+      "amis_money": [
+        72618000,
+        5809440,
+        78427440
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CHI NHÁNH CÔNG TY TNHH THƯƠNG MẠI DƯỢC PHẨM ĐÔNG Á"
+      ],
+      "exclusion_rows": [
+        62
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          387.0,
+          "20/08/2024",
+          "0100274124-003",
+          "CHI NHÁNH CÔNG TY TNHH THƯƠNG MẠI DƯỢC PHẨM ĐÔNG Á",
+          "283/26-28 Cách Mạng Tháng Tám, Phường 12, Quận 10, Thành phố Hồ Chí Minh, Việt Nam",
+          72618000.0,
+          5809440.0,
+          78427440.0,
+          "Hóa đơn mới",
+          "HD007034",
+          "Ngoài sàn",
+          "BHHN2024000060",
+          null,
+          72618000.0,
+          5809440.0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHN2024000060",
+          "date": "2024-08-22T00:00:00",
+          "rows": [
+            25129
+          ],
+          "money": [
+            72618000,
+            5809440,
+            78427440
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000393"
+      ],
+      "codes": [
+        "BHHN2024000061"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        8518519,
+        681482,
+        9200001
+      ],
+      "amis_money": [
+        8518519,
+        681482,
+        9200001
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CÔNG TY TNHH SẢN XUẤT VÀ ĐẦU TƯ AKIA"
+      ],
+      "exclusion_rows": [
+        64
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          393.0,
+          "21/08/2024",
+          "0315793560",
+          "CÔNG TY TNHH SẢN XUẤT VÀ ĐẦU TƯ AKIA",
+          "132 Võ Thị Sáu, Phường Võ Thị Sáu, Quận 3, Thành phố Hồ Chí Minh, Việt Nam",
+          8518519.0,
+          681482.0,
+          9200001.0,
+          "Hóa đơn mới",
+          "HD007027",
+          "Ngoài sàn",
+          "BHHN2024000061",
+          null,
+          8518519.0,
+          681481.0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0,
+          -1,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHN2024000061",
+          "date": "2024-08-21T00:00:00",
+          "rows": [
+            25052
+          ],
+          "money": [
+            8518519,
+            681482,
+            9200001
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000395"
+      ],
+      "codes": [
+        "BHHN2024000066"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        4981482,
+        398519,
+        5380001
+      ],
+      "amis_money": [
+        4981481,
+        398519,
+        5380000
+      ],
+      "difference": [
+        1,
+        0,
+        1
+      ],
+      "buyers": [
+        "CÔNG TY TNHH SẢN XUẤT VÀ THƯƠNG MẠI DAVIMAX"
+      ],
+      "exclusion_rows": [
+        66
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          395.0,
+          "21/08/2024",
+          "2300720588",
+          "CÔNG TY TNHH SẢN XUẤT VÀ THƯƠNG MẠI DAVIMAX",
+          "Khu Bồ Sơn, Phường Võ Cường, Thành phố Bắc Ninh, Tỉnh Bắc Ninh, Việt Nam",
+          4981482.0,
+          398519.0,
+          5380001.0,
+          "Hóa đơn mới",
+          "HD006987",
+          "Ngoài sàn",
+          "BHHN2024000066",
+          null,
+          4981481.0,
+          398519.0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          -1,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHN2024000066",
+          "date": "2024-08-14T00:00:00",
+          "rows": [
+            23936
+          ],
+          "money": [
+            4981481,
+            398519,
+            5380000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000394"
+      ],
+      "codes": [
+        "BHHN2024000070"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        1342593,
+        107407,
+        1450000
+      ],
+      "amis_money": [
+        1342593,
+        107407,
+        1450000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CÔNG TY TNHH SẢN XUẤT VÀ ĐẦU TƯ AKIA"
+      ],
+      "exclusion_rows": [
+        65
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          394.0,
+          "21/08/2024",
+          "0315793560",
+          "CÔNG TY TNHH SẢN XUẤT VÀ ĐẦU TƯ AKIA",
+          "132 Võ Thị Sáu, Phường Võ Thị Sáu, Quận 3, Thành phố Hồ Chí Minh, Việt Nam",
+          1342593.0,
+          107407.0,
+          1450000.0,
+          "Hóa đơn mới",
+          "HD007026",
+          "Ngoài sàn",
+          "BHHN2024000070",
+          null,
+          1342593.0,
+          107407.0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHN2024000070",
+          "date": "2024-08-21T00:00:00",
+          "rows": [
+            25053
+          ],
+          "money": [
+            1342593,
+            107407,
+            1450000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000359"
+      ],
+      "codes": [
+        "BHHN2024000077"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        4361111,
+        348889,
+        4710000
+      ],
+      "amis_money": [
+        4361111,
+        348889,
+        4710000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CHI NHÁNH ĐÀ NẴNG - CÔNG TY TNHH MỘT THÀNH VIÊN KHÁCH SẠN AZUMAYA"
+      ],
+      "exclusion_rows": [
+        75
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          359.0,
+          "24/07/2024",
+          "0309489918-004",
+          "CHI NHÁNH ĐÀ NẴNG - CÔNG TY TNHH MỘT THÀNH VIÊN KHÁCH SẠN AZUMAYA",
+          "31- Nguyễn Tất Thành, Phường Thanh Bình, Quận Hải Châu, Thành phố Đà Nẵng, Việt Nam",
+          4361111.0,
+          348889.0,
+          4710000.0,
+          "Hóa đơn mới",
+          "HD006841.01",
+          "Ngoài sàn",
+          "BHHN2024000077",
+          null,
+          4361111.0,
+          348889.0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHN2024000077",
+          "date": "2024-07-29T00:00:00",
+          "rows": [
+            21181
+          ],
+          "money": [
+            4361111,
+            348889,
+            4710000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000344"
+      ],
+      "codes": [
+        "BHHN2024000078",
+        "BHHN2024000079"
+      ],
+      "missing_codes": [
+        "BHHN2024000079"
+      ],
+      "invoice_money": [
+        8453704,
+        676296,
+        9130000
+      ],
+      "amis_money": [
+        8453704,
+        676296,
+        9130000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CHI NHÁNH HẢI PHÒNG - CÔNG TY TNHH MỘT THÀNH VIÊN KHÁCH SẠN AZUMAYA"
+      ],
+      "exclusion_rows": [
+        69
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          344.0,
+          "18/07/2024",
+          "0309489918-009",
+          "CHI NHÁNH HẢI PHÒNG - CÔNG TY TNHH MỘT THÀNH VIÊN KHÁCH SẠN AZUMAYA",
+          "Số 195 đường Vũ Trọng Khánh, Phường Đằng Giang, Quận Ngô Quyền, Thành phố Hải Phòng, Việt Nam",
+          8453704.0,
+          676296.0,
+          9130000.0,
+          "Hóa đơn mới",
+          "HD006835.01\nHD006836.01",
+          "Ngoài sàn",
+          "BHHN2024000079\nBHHN2024000078",
+          null,
+          8453704,
+          676296,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0,
+          0,
+          "Đã chỉnh gộp đơn trên AMIS thành BHHN2024000078"
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHN2024000078",
+          "date": "2024-07-29T00:00:00",
+          "rows": [
+            21182,
+            21183
+          ],
+          "money": [
+            8453704,
+            676296,
+            9130000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000346"
+      ],
+      "codes": [
+        "BHHN2024000080"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        26566667,
+        2125333,
+        28692000
+      ],
+      "amis_money": [
+        26566667,
+        2125333,
+        28692000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CHI NHÁNH KIM MÃ 3 - CÔNG TY TNHH MỘT THÀNH VIÊN KHÁCH SẠN AZUMAYA"
+      ],
+      "exclusion_rows": [
+        71
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          346.0,
+          "19/07/2024",
+          "0309489918-010",
+          "CHI NHÁNH KIM MÃ 3 - CÔNG TY TNHH MỘT THÀNH VIÊN KHÁCH SẠN AZUMAYA",
+          "Số 68 Phạm Huy Thông, Phường Ngọc Khánh, Quận Ba Đình, Thành phố Hà Nội, Việt Nam",
+          26566667.0,
+          2125333.0,
+          28692000.0,
+          "Hóa đơn mới",
+          "HD006834.01",
+          "Ngoài sàn",
+          "BHHN2024000080",
+          null,
+          26566667.0,
+          2125333.0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHN2024000080",
+          "date": "2024-07-29T00:00:00",
+          "rows": [
+            21184
+          ],
+          "money": [
+            26566667,
+            2125333,
+            28692000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000347"
+      ],
+      "codes": [
+        "BHHN2024000081"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        30994444,
+        2479556,
+        33474000
+      ],
+      "amis_money": [
+        30994444,
+        2479556,
+        33474000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CHI NHÁNH LINH LANG - CÔNG TY TNHH MỘT THÀNH VIÊN KHÁCH SẠN AZUMAYA"
+      ],
+      "exclusion_rows": [
+        72
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          347.0,
+          "19/07/2024",
+          "0309489918-008",
+          "CHI NHÁNH LINH LANG - CÔNG TY TNHH MỘT THÀNH VIÊN KHÁCH SẠN AZUMAYA",
+          "Số 26, phố Linh Lang, Phường Cống Vị, Quận Ba Đình, Thành phố Hà Nội, Việt Nam",
+          30994444.0,
+          2479556.0,
+          33474000.0,
+          "Hóa đơn mới",
+          "HD006833.01",
+          "Ngoài sàn",
+          "BHHN2024000081",
+          null,
+          30994444.0,
+          2479556.0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHN2024000081",
+          "date": "2024-07-29T00:00:00",
+          "rows": [
+            21185
+          ],
+          "money": [
+            30994444,
+            2479556,
+            33474000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000345"
+      ],
+      "codes": [
+        "BHHN2024000082"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        1475926,
+        118074,
+        1594000
+      ],
+      "amis_money": [
+        1475926,
+        118074,
+        1594000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CHI NHÁNH KIM MÃ 2 - CÔNG TY TNHH MỘT THÀNH VIÊN KHÁCH SẠN AZUMAYA"
+      ],
+      "exclusion_rows": [
+        70
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          345.0,
+          "19/07/2024",
+          "0309489918-005",
+          "CHI NHÁNH KIM MÃ 2 - CÔNG TY TNHH MỘT THÀNH VIÊN KHÁCH SẠN AZUMAYA",
+          "Số 18A Phạm Huy Thông, Phường Ngọc Khánh, Quận Ba Đình, Thành phố Hà Nội, Việt Nam",
+          1475926.0,
+          118074.0,
+          1594000.0,
+          "Hóa đơn mới",
+          "HD006832.01",
+          "Ngoài sàn",
+          "BHHN2024000082",
+          null,
+          1475926.0,
+          118074.0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHN2024000082",
+          "date": "2024-07-29T00:00:00",
+          "rows": [
+            21186
+          ],
+          "money": [
+            1475926,
+            118074,
+            1594000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000348"
+      ],
+      "codes": [
+        "BHHN2024000083"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        14759259,
+        1180741,
+        15940000
+      ],
+      "amis_money": [
+        14759259,
+        1180741,
+        15940000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CHI NHÁNH HÀ NỘI - CÔNG TY TNHH MỘT THÀNH VIÊN KHÁCH SẠN AZUMAYA"
+      ],
+      "exclusion_rows": [
+        73
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          348.0,
+          "19/07/2024",
+          "0309489918-001",
+          "CHI NHÁNH HÀ NỘI - CÔNG TY TNHH MỘT THÀNH VIÊN KHÁCH SẠN AZUMAYA",
+          "Số 16 Bùi Thị Xuân, Phường Nguyễn Du, Quận Hai Bà Trưng, Thành phố Hà Nội, Việt Nam",
+          14759259.0,
+          1180741.0,
+          15940000.0,
+          "Hóa đơn mới",
+          "HD006831.01",
+          "Ngoài sàn",
+          "BHHN2024000083",
+          null,
+          14759259.0,
+          1180741.0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHN2024000083",
+          "date": "2024-07-29T00:00:00",
+          "rows": [
+            21187
+          ],
+          "money": [
+            14759259,
+            1180741,
+            15940000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000342"
+      ],
+      "codes": [
+        "BHHN2024000087"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        3240741,
+        259259,
+        3500000
+      ],
+      "amis_money": [
+        3240741,
+        259259,
+        3500000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ SMART LIFE VIỆT NAM"
+      ],
+      "exclusion_rows": [
+        68
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          342.0,
+          "03/07/2024",
+          "2803071812",
+          "CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ SMART LIFE VIỆT NAM",
+          "Số nhà 10/27 Mai An Tiêm, Phường Lam Sơn, Thành phố Thanh Hoá, Tỉnh Thanh Hoá, Việt Nam",
+          3240741.0,
+          259259.0,
+          3500000.0,
+          "Hóa đơn mới",
+          "HD006790",
+          "Ngoài sàn",
+          "BHHN2024000087",
+          null,
+          3240741.0,
+          259259.0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHN2024000087",
+          "date": "2024-06-29T00:00:00",
+          "rows": [
+            17449,
+            17450
+          ],
+          "money": [
+            3240741,
+            259259,
+            3500000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000175"
+      ],
+      "codes": [
+        "BHHN2024000100"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        78703704,
+        6296296,
+        85000000
+      ],
+      "amis_money": [
+        78703704,
+        6296296,
+        85000000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CÔNG TY CỔ PHẦN QUẢNG CÁO VÀ THƯƠNG MẠI GSOLUTION"
+      ],
+      "exclusion_rows": [
+        97
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          175.0,
+          "22/04/2024",
+          "0311950572",
+          "CÔNG TY CỔ PHẦN QUẢNG CÁO VÀ THƯƠNG MẠI GSOLUTION",
+          "90/12/1/16 Bông Sao, Phường 5, Quận 8, Thành phố Hồ Chí Minh, Việt Nam",
+          78703704.0,
+          6296296.0,
+          85000000.0,
+          "Hóa đơn mới",
+          "HD006548",
+          "Ngoài sàn",
+          "BHHN2024000100",
+          null,
+          78703704.0,
+          6296296.0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHN2024000100",
+          "date": "2024-04-27T00:00:00",
+          "rows": [
+            10287
+          ],
+          "money": [
+            78703704,
+            6296296,
+            85000000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000244"
+      ],
+      "codes": [
+        "BHHN2024000101"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        4259259,
+        340741,
+        4600000
+      ],
+      "amis_money": [
+        4259259,
+        340741,
+        4600000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CÔNG TY TNHH SẢN XUẤT VÀ ĐẦU TƯ AKIA"
+      ],
+      "exclusion_rows": [
+        88
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          244.0,
+          "27/05/2024",
+          "0315793560",
+          "CÔNG TY TNHH SẢN XUẤT VÀ ĐẦU TƯ AKIA",
+          "132 Võ Thị Sáu, Phường Võ Thị Sáu, Quận 3, Thành phố Hồ Chí Minh, Việt Nam",
+          4259259.0,
+          340741.0,
+          4600000.0,
+          "Hóa đơn mới",
+          "HD006505.01",
+          "Ngoài sàn",
+          "BHHN2024000101",
+          null,
+          4259259.0,
+          340741.0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHN2024000101",
+          "date": "2024-05-18T00:00:00",
+          "rows": [
+            12659
+          ],
+          "money": [
+            4259259,
+            340741,
+            4600000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000242"
+      ],
+      "codes": [
+        "BHHN2024000102"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        4259259,
+        340741,
+        4600000
+      ],
+      "amis_money": [
+        4259259,
+        340741,
+        4600000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CÔNG TY TNHH SẢN XUẤT VÀ ĐẦU TƯ AKIA"
+      ],
+      "exclusion_rows": [
+        86
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          242.0,
+          "23/05/2024",
+          "0315793560",
+          "CÔNG TY TNHH SẢN XUẤT VÀ ĐẦU TƯ AKIA",
+          "132 Võ Thị Sáu, Phường Võ Thị Sáu, Quận 3, Thành phố Hồ Chí Minh, Việt Nam",
+          4259259.0,
+          340741.0,
+          4600000.0,
+          "Hóa đơn mới",
+          "HD006495.01",
+          "Ngoài sàn",
+          "BHHN2024000102",
+          null,
+          4259259.0,
+          340741.0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHN2024000102",
+          "date": "2024-05-19T00:00:00",
+          "rows": [
+            12753
+          ],
+          "money": [
+            4259259,
+            340741,
+            4600000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000169"
+      ],
+      "codes": [
+        "BHHN2024000106"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        13430556,
+        1074444,
+        14505000
+      ],
+      "amis_money": [
+        13430556,
+        1074444,
+        14505000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "HỘ KINH DOANH CỬA HÀNG DỤNG CỤ Y TẾ KHÁNH VIỄN"
+      ],
+      "exclusion_rows": [
+        95
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          169.0,
+          "15/04/2024",
+          "8127675505-001",
+          "HỘ KINH DOANH CỬA HÀNG DỤNG CỤ Y TẾ KHÁNH VIỄN",
+          "18 Trường Chinh, TDP Bãi Giếng 1, Thị trấn Cam Đức, Huyện Cam Lâm, Tỉnh Khánh Hòa, Việt Nam",
+          13430556.0,
+          1074444.0,
+          14505000.0,
+          "Hóa đơn mới",
+          "HD006483",
+          "Ngoài sàn",
+          "BHHN2024000106",
+          null,
+          13430556.0,
+          1074444.0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHN2024000106",
+          "date": "2024-04-26T00:00:00",
+          "rows": [
+            10121,
+            10122,
+            10123
+          ],
+          "money": [
+            13430556,
+            1074444,
+            14505000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000185"
+      ],
+      "codes": [
+        "BHHN2024000107"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        29274044,
+        2341924,
+        31615968
+      ],
+      "amis_money": [
+        29274044,
+        2341924,
+        31615968
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CÔNG TY TNHH MỘT THÀNH VIÊN THƯƠNG MẠI TƯ VẤN XÂY DỰNG MỸ HÒA"
+      ],
+      "exclusion_rows": [
+        99
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          185.0,
+          "26/04/2024",
+          "1702245926",
+          "CÔNG TY TNHH MỘT THÀNH VIÊN THƯƠNG MẠI TƯ VẤN XÂY DỰNG MỸ HÒA",
+          "Số 616, quốc lộ 80, khu phố Ngã Ba, Thị trấn Kiên Lương, Huyện Kiên Lương, Tỉnh Kiên Giang, Việt Nam",
+          29274044.0,
+          2341924.0,
+          31615968.0,
+          "Hóa đơn mới",
+          "HD006535",
+          "Ngoài sàn",
+          "BHHN2024000107",
+          null,
+          29274044.0,
+          2341923.0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0,
+          -1,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHN2024000107",
+          "date": "2024-04-27T00:00:00",
+          "rows": [
+            10288
+          ],
+          "money": [
+            29274044,
+            2341924,
+            31615968
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000164"
+      ],
+      "codes": [
+        "BHHN2024000110"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        1795370,
+        143630,
+        1939000
+      ],
+      "amis_money": [
+        1795370,
+        143630,
+        1939000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CÔNG TY CỔ PHẦN MAJOR EDUCATION"
+      ],
+      "exclusion_rows": [
+        94
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          164.0,
+          "10/04/2024",
+          "0310596706",
+          "CÔNG TY CỔ PHẦN MAJOR EDUCATION",
+          "269A Nguyễn Trọng Tuyển, Phường 10, Quận Phú Nhuận, Thành phố Hồ Chí Minh, Việt Nam",
+          1795370.0,
+          143630.0,
+          1939000.0,
+          "Hóa đơn mới",
+          "HD006478.01",
+          "Ngoài sàn",
+          "BHHN2024000110",
+          null,
+          1795370.0,
+          143630.0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHN2024000110",
+          "date": "2024-05-18T00:00:00",
+          "rows": [
+            12662
+          ],
+          "money": [
+            1795370,
+            143630,
+            1939000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000132",
+        "1C24TUV/00000135"
+      ],
+      "codes": [
+        "BHHN2024000113",
+        "BHHN2024000113.1"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        26851852,
+        2148148,
+        29000000
+      ],
+      "amis_money": [
+        26851852,
+        2148148,
+        29000000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CÔNG TY TNHH MỘT THÀNH VIÊN KHÁCH SẠN AZUMAYA"
+      ],
+      "exclusion_rows": [
+        90,
+        91
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          132.0,
+          "05/04/2024",
+          "0309489918",
+          "CÔNG TY TNHH MỘT THÀNH VIÊN KHÁCH SẠN AZUMAYA",
+          "8A/7D1 - 8A/8D1 - 8A/9D1 Thái Văn Lung, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh, Việt Nam",
+          16296296.0,
+          1303704.0,
+          17600000.0,
+          "Hóa đơn mới",
+          "HD006467.01",
+          "Ngoài sàn",
+          "BHHN2024000113",
+          null,
+          26851852.0,
+          2148148.0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          10555556,
+          844444,
+          "Đã chỉnh thành 2 đơn hàng trên Amis:\nBHHN2024000113\nBHHN2024000113.1"
+        ],
+        [
+          "1C24TUV",
+          135.0,
+          "06/04/2024",
+          "0309489918",
+          "CÔNG TY TNHH MỘT THÀNH VIÊN KHÁCH SẠN AZUMAYA",
+          "8A/7D1 - 8A/8D1 - 8A/9D1 Thái Văn Lung, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh, Việt Nam",
+          10555556.0,
+          844444.0,
+          11400000.0,
+          "Hóa đơn mới",
+          "HD006467.01",
+          "Ngoài sàn",
+          "BHHN2024000113.1",
+          null,
+          26851852.0,
+          2148148.0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          16296296,
+          1303704,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHN2024000113",
+          "date": "2024-05-18T00:00:00",
+          "rows": [
+            12664
+          ],
+          "money": [
+            16296296,
+            1303704,
+            17600000
+          ]
+        },
+        {
+          "doc": "BHHN2024000113.1",
+          "date": "2024-04-06T00:00:00",
+          "rows": [
+            6654
+          ],
+          "money": [
+            10555556,
+            844444,
+            11400000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000124",
+        "1C24TUV/00000125",
+        "1C24TUV/00000127"
+      ],
+      "codes": [
+        "BHHN2024000116",
+        "BHHN2024000116.1",
+        "BHHN2024000116.2"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        23703703,
+        1896297,
+        25600000
+      ],
+      "amis_money": [
+        23703703,
+        1896297,
+        25600000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CHI NHÁNH CÔNG TY TNHH MỘT THÀNH VIÊN KHÁCH SẠN AZUMAYA",
+        "CHI NHÁNH THÁI VĂN LUNG 2 - CÔNG TY TNHH MỘT THÀNH VIÊN KHÁCH SẠN AZUMAYA"
+      ],
+      "exclusion_rows": [
+        106,
+        107,
+        108
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          124.0,
+          "30/03/2024",
+          "0309489918-003",
+          "CHI NHÁNH CÔNG TY TNHH MỘT THÀNH VIÊN KHÁCH SẠN AZUMAYA",
+          "15/3 Lê Thánh Tôn, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh, Việt Nam",
+          4444444.0,
+          355556.0,
+          4800000.0,
+          "Hóa đơn mới",
+          "HD006437",
+          "Ngoài sàn",
+          "BHHN2024000116",
+          null,
+          23703704.0,
+          1896296.0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          19259260,
+          1540740,
+          "Đã tách ra làm 3 BHH:\nBHHN2024000116\nBHHN2024000116.1\nBHHN2024000116.2"
+        ],
+        [
+          "1C24TUV",
+          125.0,
+          "30/03/2024",
+          "0309489918-006",
+          "CHI NHÁNH THÁI VĂN LUNG 2 - CÔNG TY TNHH MỘT THÀNH VIÊN KHÁCH SẠN AZUMAYA",
+          "27 - 29 Thái Văn Lung, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh, Việt Nam",
+          10370370.0,
+          829630.0,
+          11200000.0,
+          "Hóa đơn mới",
+          "HD006437",
+          "Ngoài sàn",
+          "BHHN2024000116.1",
+          null,
+          23703704.0,
+          1896296.0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          13333334,
+          1066666,
+          null
+        ],
+        [
+          "1C24TUV",
+          127.0,
+          "31/03/2024",
+          "0309489918-006",
+          "CHI NHÁNH THÁI VĂN LUNG 2 - CÔNG TY TNHH MỘT THÀNH VIÊN KHÁCH SẠN AZUMAYA",
+          "27 - 29 Thái Văn Lung, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh, Việt Nam",
+          8888889.0,
+          711111.0,
+          9600000.0,
+          "Hóa đơn mới",
+          "HD006437",
+          "Ngoài sàn",
+          "BHHN2024000116.2",
+          null,
+          23703704.0,
+          1896296.0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          14814815,
+          1185185,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHN2024000116",
+          "date": "2024-03-30T00:00:00",
+          "rows": [
+            5848
+          ],
+          "money": [
+            4444444,
+            355556,
+            4800000
+          ]
+        },
+        {
+          "doc": "BHHN2024000116.1",
+          "date": "2024-03-30T00:00:00",
+          "rows": [
+            5849
+          ],
+          "money": [
+            10370370,
+            829630,
+            11200000
+          ]
+        },
+        {
+          "doc": "BHHN2024000116.2",
+          "date": "2024-03-31T00:00:00",
+          "rows": [
+            5981
+          ],
+          "money": [
+            8888889,
+            711111,
+            9600000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000113"
+      ],
+      "codes": [
+        "BHHN2024000121"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        1851852,
+        148148,
+        2000000
+      ],
+      "amis_money": [
+        1851852,
+        148148,
+        2000000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CÔNG TY TNHH SẢN XUẤT VÀ ĐẦU TƯ AKIA"
+      ],
+      "exclusion_rows": [
+        103
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          113.0,
+          "20/03/2024",
+          "0315793560",
+          "CÔNG TY TNHH SẢN XUẤT VÀ ĐẦU TƯ AKIA",
+          "132 Võ Thị Sáu, Phường Võ Thị Sáu, Quận 3, Thành phố Hồ Chí Minh, Việt Nam",
+          1851852.0,
+          148148.0,
+          2000000.0,
+          "Hóa đơn mới",
+          "HD006403.01",
+          "Ngoài sàn",
+          "BHHN2024000121",
+          null,
+          1851852.0,
+          148148.0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHN2024000121",
+          "date": "2024-03-18T00:00:00",
+          "rows": [
+            4846
+          ],
+          "money": [
+            1851852,
+            148148,
+            2000000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000110"
+      ],
+      "codes": [
+        "BHHN2024000128"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        1574074,
+        125926,
+        1700000
+      ],
+      "amis_money": [
+        1574074,
+        125926,
+        1700000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CÔNG TY TNHH SẢN XUẤT VÀ ĐẦU TƯ AKIA"
+      ],
+      "exclusion_rows": [
+        100
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          110.0,
+          "15/03/2024",
+          "0315793560",
+          "CÔNG TY TNHH SẢN XUẤT VÀ ĐẦU TƯ AKIA",
+          "132 Võ Thị Sáu, Phường Võ Thị Sáu, Quận 3, Thành phố Hồ Chí Minh, Việt Nam",
+          1574074.0,
+          125926.0,
+          1700000.0,
+          "Hóa đơn mới",
+          "HD006365",
+          "Ngoài sàn",
+          "BHHN2024000128",
+          null,
+          1574074.0,
+          125926.0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHN2024000128",
+          "date": "2024-03-09T00:00:00",
+          "rows": [
+            4634
+          ],
+          "money": [
+            1574074,
+            125926,
+            1700000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000062"
+      ],
+      "codes": [
+        "BHHN2024000133"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        2462963,
+        197037,
+        2660000
+      ],
+      "amis_money": [
+        2462963,
+        197037,
+        2660000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CÔNG TY CỔ PHẦN DỊCH VỤ LOGISTICS DẦU KHÍ VIỆT NAM"
+      ],
+      "exclusion_rows": [
+        111
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          62.0,
+          "20/02/2024",
+          "0311523789",
+          "CÔNG TY CỔ PHẦN DỊCH VỤ LOGISTICS DẦU KHÍ VIỆT NAM",
+          "Phòng 201-202, Lầu 2, Tòa nhà PetroVietNam, Số 1-5 Lê Duẩn, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh, Việt Nam",
+          2462963.0,
+          197037.0,
+          2660000.0,
+          "Hóa đơn mới",
+          "HD006318.01",
+          "Ngoài sàn",
+          "BHHN2024000133",
+          null,
+          2277778.0,
+          182222.0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          -185185,
+          -14815,
+          "Đã chỉnh tăng 200k trên Amis"
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHN2024000133",
+          "date": "2024-02-21T00:00:00",
+          "rows": [
+            3543,
+            3544
+          ],
+          "money": [
+            2462963,
+            197037,
+            2660000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000002"
+      ],
+      "codes": [
+        "BHHS2024000055"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        2870093,
+        229607,
+        3099700
+      ],
+      "amis_money": [
+        2906481,
+        232519,
+        3139000
+      ],
+      "difference": [
+        -36388,
+        -2912,
+        -39300
+      ],
+      "buyers": [
+        "CÔNG TY TNHH QUỐC TẾ SYNEX"
+      ],
+      "exclusion_rows": [
+        115
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          2.0,
+          "09/01/2024",
+          "0316328904",
+          "CÔNG TY TNHH QUỐC TẾ SYNEX",
+          "Số 399B Trường Chinh, Phường 14, Quận Tân Bình, Thành phố Hồ Chí Minh, Việt Nam",
+          2870093.0,
+          229607.0,
+          3099700.0,
+          "Hóa đơn mới",
+          "231222U40UY2ME",
+          "Shopee",
+          "BHHS2024000055",
+          null,
+          2906481.0,
+          232519.0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          36388,
+          2912,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHS2024000055",
+          "date": "2024-01-03T00:00:00",
+          "rows": [
+            126,
+            127
+          ],
+          "money": [
+            2906481,
+            232519,
+            3139000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000021"
+      ],
+      "codes": [
+        "BHHS2024000142"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        2546296,
+        203704,
+        2750000
+      ],
+      "amis_money": [
+        2546296,
+        203704,
+        2750000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CÔNG TY TNHH ĐẦU TƯ VÀ THIẾT KẾ XÂY DỰNG K.E.C"
+      ],
+      "exclusion_rows": [
+        116
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          21.0,
+          "17/01/2024",
+          "0318152318",
+          "CÔNG TY TNHH ĐẦU TƯ VÀ THIẾT KẾ XÂY DỰNG K.E.C",
+          "Số 108/28/43F đường Phạm Văn Sáng, Xã Xuân Thới Thượng, Huyện Hóc Môn, Thành phố Hồ Chí Minh, Việt Nam",
+          2546296.0,
+          203704.0,
+          2750000.0,
+          "Hóa đơn mới",
+          "240103UEDTEB40",
+          "Shopee",
+          "BHHS2024000142",
+          null,
+          2546296.0,
+          203704.0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHS2024000142",
+          "date": "2024-01-04T00:00:00",
+          "rows": [
+            330,
+            331,
+            332,
+            333,
+            334,
+            335
+          ],
+          "money": [
+            2546296,
+            203704,
+            2750000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000023"
+      ],
+      "codes": [
+        "BHHS2024000340"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        3522222,
+        281777,
+        3803999
+      ],
+      "amis_money": [
+        3522222,
+        281778,
+        3804000
+      ],
+      "difference": [
+        0,
+        -1,
+        -1
+      ],
+      "buyers": [
+        "CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ GIA DỤNG THANH VÂN"
+      ],
+      "exclusion_rows": [
+        118
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          23.0,
+          "24/01/2024",
+          "0318074892",
+          "CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ GIA DỤNG THANH VÂN",
+          "135/2-137-139 Trần Quang Cơ, Phường Phú Thạnh, Quận Tân phú, Thành phố Hồ Chí Minh, Việt Nam",
+          3099556.0,
+          247964.0,
+          3347520.0,
+          "Hóa đơn đã bị điều chỉnh",
+          "240120D1AAT0BR",
+          "Shopee",
+          "BHHS2024000340",
+          null,
+          3522222.0,
+          281778.0,
+          "00000787",
+          422666.0,
+          33813.0,
+          3522222,
+          281777,
+          0,
+          1,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHS2024000340",
+          "date": "2024-01-22T00:00:00",
+          "rows": [
+            2120,
+            2121,
+            2122
+          ],
+          "money": [
+            3522222,
+            281778,
+            3804000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000028"
+      ],
+      "codes": [
+        "BHHS2024000403"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        2536111,
+        202889,
+        2739000
+      ],
+      "amis_money": [
+        2536111,
+        202889,
+        2739000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CÔNG TY BẢO HIỂM PVI PHÍA NAM"
+      ],
+      "exclusion_rows": [
+        119
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          28.0,
+          "27/01/2024",
+          "0105402531-025",
+          "CÔNG TY BẢO HIỂM PVI PHÍA NAM",
+          "Tầng 19 Tòa nhà PetroVietnam 1-5 Lê Duẩn, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh, Việt Nam",
+          2282500.0,
+          182600.0,
+          2465100.0,
+          "Hóa đơn đã bị điều chỉnh",
+          "240125QRU82P4P",
+          "Shopee",
+          "BHHS2024000403",
+          null,
+          2536111.0,
+          202889.0,
+          "00000790",
+          253611.0,
+          20289.0,
+          2536111,
+          202889,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHS2024000403",
+          "date": "2024-01-25T00:00:00",
+          "rows": [
+            2527,
+            2528
+          ],
+          "money": [
+            2536111,
+            202889,
+            2739000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000060"
+      ],
+      "codes": [
+        "BHHS2024000474"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        2536111,
+        202889,
+        2739000
+      ],
+      "amis_money": [
+        2536111,
+        202889,
+        2739000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CÔNG TY CỔ PHẦN XÂY DỰNG VÀ NỘI THẤT PHÚ MINH"
+      ],
+      "exclusion_rows": [
+        109,
+        110
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          60.0,
+          "06/02/2024",
+          "0106357063",
+          "CÔNG TY CỔ PHẦN XÂY DỰNG VÀ NỘI THẤT PHÚ MINH",
+          "Số 2 ngách 24 ngõ 36 phố Trung Kiên, Phường Tây Tựu, Quận Bắc Từ Liêm, Thành phố Hà Nội, Việt Nam",
+          null,
+          null,
+          2506448.0,
+          "Hóa đơn đã bị thay thế",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          "00000061",
+          null,
+          null,
+          0,
+          0,
+          0,
+          0,
+          null
+        ],
+        [
+          "1C24TUV",
+          61.0,
+          "06/02/2024",
+          "0106357063",
+          "CÔNG TY CỔ PHẦN XÂY DỰNG VÀ NỘI THẤT PHÚ MINH",
+          "Số 2 ngách 24 ngõ 36 phố Trung Kiên, Phường Tây Tựu, Quận Bắc Từ Liêm, Thành phố Hà Nội, Việt Nam",
+          null,
+          null,
+          2574660.0,
+          "Hóa đơn đã bị thay thế",
+          "2401283MK96JAN",
+          "Shopee",
+          "BHHS2024000474",
+          null,
+          2536111.0,
+          202889.0,
+          "00002605",
+          2536111.0,
+          202889.0,
+          2536111,
+          202889,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHS2024000474",
+          "date": "2024-01-29T00:00:00",
+          "rows": [
+            2823
+          ],
+          "money": [
+            2536111,
+            202889,
+            2739000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000123"
+      ],
+      "codes": [
+        "BHHS2024001217"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        1832407,
+        146593,
+        1979000
+      ],
+      "amis_money": [
+        1832407,
+        146593,
+        1979000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CÔNG TY CỔ PHẦN ĐẦU TƯ XÂY DỰNG SOL E&C"
+      ],
+      "exclusion_rows": [
+        105
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          123.0,
+          "28/03/2024",
+          "0313541575",
+          "CÔNG TY CỔ PHẦN ĐẦU TƯ XÂY DỰNG SOL E&C",
+          "96 Phan Đăng Lưu, Phường 05, Quận Phú Nhuận, Thành phố Hồ Chí Minh, Việt Nam",
+          1462037.0,
+          116963.0,
+          1579000.0,
+          "Hóa đơn đã bị điều chỉnh",
+          "2403263V4RTEEN",
+          "Shopee",
+          "BHHS2024001217",
+          null,
+          1832407.0,
+          146593.0,
+          "00001160",
+          370370.0,
+          29630.0,
+          1832407,
+          146593,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHS2024001217",
+          "date": "2024-03-26T00:00:00",
+          "rows": [
+            5223
+          ],
+          "money": [
+            1832407,
+            146593,
+            1979000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000163"
+      ],
+      "codes": [
+        "BHHS2024001258"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        1229556,
+        98364,
+        1327920
+      ],
+      "amis_money": [
+        1397222,
+        111778,
+        1509000
+      ],
+      "difference": [
+        -167666,
+        -13414,
+        -181080
+      ],
+      "buyers": [
+        "CÔNG TY CỔ PHẦN NTQ SOLUTION"
+      ],
+      "exclusion_rows": [
+        93
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          163.0,
+          "09/04/2024",
+          "0105355296",
+          "CÔNG TY CỔ PHẦN NTQ SOLUTION",
+          "Số 129, Đường Nguyễn Lương Bằng, Phường Nam Đồng, Quận Đống đa, Thành phố Hà Nội, Việt Nam",
+          1229556.0,
+          98364.0,
+          1327920.0,
+          "Hóa đơn mới",
+          "240320JN1RKCC8",
+          "Shopee",
+          "BHHS2024001258",
+          null,
+          1397222.0,
+          111778.0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          167666,
+          13414,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHS2024001258",
+          "date": "2024-04-06T00:00:00",
+          "rows": [
+            6655,
+            6656
+          ],
+          "money": [
+            1397222,
+            111778,
+            1509000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000162"
+      ],
+      "codes": [
+        "BHHS2024001426"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        1644444,
+        131556,
+        1776000
+      ],
+      "amis_money": [
+        1644444,
+        131556,
+        1776000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CÔNG TY TNHH NHIÊN HOUSE"
+      ],
+      "exclusion_rows": [
+        92
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          162.0,
+          "09/04/2024",
+          "0316160754",
+          "CÔNG TY TNHH NHIÊN HOUSE",
+          "37 Trần Văn Khánh, Phường Tân Thuận Đông, Quận 7, Thành phố Hồ Chí Minh, Việt Nam",
+          1151111.0,
+          92089.0,
+          1243200.0,
+          "Hóa đơn đã bị điều chỉnh",
+          "240404TV8XD9PS",
+          "Shopee",
+          "BHHS2024001426",
+          null,
+          1644444.0,
+          131556.0,
+          "00001223",
+          493333.0,
+          39467.0,
+          1644444,
+          131556,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHS2024001426",
+          "date": "2024-04-05T00:00:00",
+          "rows": [
+            6332,
+            6333
+          ],
+          "money": [
+            1644444,
+            131556,
+            1776000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000219"
+      ],
+      "codes": [
+        "BHHS2024001867"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        2185185,
+        174815,
+        2360000
+      ],
+      "amis_money": [
+        2185185,
+        174815,
+        2360000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CÔNG TY TNHH TRUYỀN THÔNG VÀ SỰ KIỆN CARPE DIEM"
+      ],
+      "exclusion_rows": [
+        83
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          219.0,
+          "07/05/2024",
+          "0318166409",
+          "CÔNG TY TNHH TRUYỀN THÔNG VÀ SỰ KIỆN CARPE DIEM",
+          "31/19/26 Huỳnh Thiện Lộc, Phường Hoà Thạnh, Quận Tân phú, Thành phố Hồ Chí Minh, Việt Nam",
+          1857407.0,
+          148593.0,
+          2006000.0,
+          "Hóa đơn đã bị điều chỉnh",
+          "240425KQ1REQY1",
+          "Shopee",
+          "BHHS2024001867",
+          null,
+          2185185.0,
+          174815.0,
+          "00001543",
+          327778.0,
+          26222.0,
+          2185185,
+          174815,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHS2024001867",
+          "date": "2024-04-25T00:00:00",
+          "rows": [
+            9973
+          ],
+          "money": [
+            2185185,
+            174815,
+            2360000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000220"
+      ],
+      "codes": [
+        "BHHS2024001956"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        1832407,
+        146592,
+        1978999
+      ],
+      "amis_money": [
+        1832407,
+        146593,
+        1979000
+      ],
+      "difference": [
+        0,
+        -1,
+        -1
+      ],
+      "buyers": [
+        "CÔNG TY TNHH TRUYỀN THÔNG VÀ SỰ KIỆN CARPE DIEM"
+      ],
+      "exclusion_rows": [
+        84
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          220.0,
+          "07/05/2024",
+          "0318166409",
+          "CÔNG TY TNHH TRUYỀN THÔNG VÀ SỰ KIỆN CARPE DIEM",
+          "31/19/26 Huỳnh Thiện Lộc, Phường Hoà Thạnh, Quận Tân phú, Thành phố Hồ Chí Minh, Việt Nam",
+          1649167.0,
+          131933.0,
+          1781100.0,
+          "Hóa đơn đã bị điều chỉnh",
+          "240428VTBXP11B",
+          "Shopee",
+          "BHHS2024001956",
+          null,
+          1832407.0,
+          146593.0,
+          "00001544",
+          183240.0,
+          14659.0,
+          1832407,
+          146592,
+          0,
+          1,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHS2024001956",
+          "date": "2024-05-02T00:00:00",
+          "rows": [
+            10443
+          ],
+          "money": [
+            1832407,
+            146593,
+            1979000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000234"
+      ],
+      "codes": [
+        "BHHS2024002221"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        962037,
+        76962,
+        1038999
+      ],
+      "amis_money": [
+        962037,
+        76963,
+        1039000
+      ],
+      "difference": [
+        0,
+        -1,
+        -1
+      ],
+      "buyers": [
+        "CÔNG TY TNHH KMS TECHNOLOGY VIỆT NAM"
+      ],
+      "exclusion_rows": [
+        85
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          234.0,
+          "14/05/2024",
+          "0309793900",
+          "CÔNG TY TNHH KMS TECHNOLOGY VIỆT NAM",
+          "Số 2 đường Tản Viên, Phường 2, Quận Tân Bình, Thành phố Hồ Chí Minh, Việt Nam",
+          817731.0,
+          65418.0,
+          883149.0,
+          "Hóa đơn đã bị điều chỉnh",
+          "2405112TBDQ1HM",
+          "Shopee",
+          "BHHS2024002221",
+          null,
+          962037.0,
+          76963.0,
+          "00001551",
+          144306.0,
+          11544.0,
+          962037,
+          76962,
+          0,
+          1,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHS2024002221",
+          "date": "2024-05-11T00:00:00",
+          "rows": [
+            12131
+          ],
+          "money": [
+            962037,
+            76963,
+            1039000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000243"
+      ],
+      "codes": [
+        "BHHS2024002385"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        1050000,
+        84000,
+        1134000
+      ],
+      "amis_money": [
+        1054630,
+        84370,
+        1139000
+      ],
+      "difference": [
+        -4630,
+        -370,
+        -5000
+      ],
+      "buyers": [
+        "CÔNG TY TNHH TRANS MEDIA"
+      ],
+      "exclusion_rows": [
+        87
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          243.0,
+          "27/05/2024",
+          "0318387849",
+          "CÔNG TY TNHH TRANS MEDIA",
+          "572A/6, đường Trần Hưng Đạo, Phường 02, Quận 5, Thành phố Hồ Chí Minh, Việt Nam",
+          1050000.0,
+          84000.0,
+          1134000.0,
+          "Hóa đơn mới",
+          "2405246YP4EKB5",
+          "Shopee",
+          "BHHS2024002385",
+          null,
+          1054630.0,
+          84370.0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          4630,
+          370,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHS2024002385",
+          "date": "2024-05-24T00:00:00",
+          "rows": [
+            12968
+          ],
+          "money": [
+            1054630,
+            84370,
+            1139000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000268"
+      ],
+      "codes": [
+        "BHHS2024002590"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        451852,
+        36148,
+        488000
+      ],
+      "amis_money": [
+        451852,
+        36148,
+        488000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CÔNG TY TNHH SMALL DUCK VIỆT NAM"
+      ],
+      "exclusion_rows": [
+        78
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          268.0,
+          "11/06/2024",
+          "0318279201",
+          "CÔNG TY TNHH SMALL DUCK VIỆT NAM",
+          "Số 136A-138 Quang Trung, Phường 10, Quận Gò Vấp, Thành phố Hồ Chí Minh, Việt Nam",
+          499630.0,
+          39970.0,
+          539600.0,
+          "Hóa đơn đã bị điều chỉnh",
+          "2406057T7MUCD7",
+          "Shopee",
+          "BHHS2024002590",
+          null,
+          451852.0,
+          36148.0,
+          "00002562",
+          -47778.0,
+          -3822.0,
+          451852,
+          36148,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHS2024002590",
+          "date": "2024-06-05T00:00:00",
+          "rows": [
+            13983,
+            13984
+          ],
+          "money": [
+            451852,
+            36148,
+            488000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000289"
+      ],
+      "codes": [
+        "BHHS2024002704"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        2541667,
+        203333,
+        2745000
+      ],
+      "amis_money": [
+        2541667,
+        203333,
+        2745000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CÔNG TY TNHH THƯƠNG MẠI XUẤT NHẬP KHẨU 789"
+      ],
+      "exclusion_rows": [
+        79
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          289.0,
+          "17/06/2024",
+          "0314094707",
+          "CÔNG TY TNHH THƯƠNG MẠI XUẤT NHẬP KHẨU 789",
+          "155 đường Hai Bà Trưng, Phường Võ Thị Sáu, Quận 3, Thành phố Hồ Chí Minh, Việt Nam",
+          2182176.0,
+          174574.0,
+          2356750.0,
+          "Hóa đơn đã bị điều chỉnh",
+          "240606A4VN9JYD",
+          "Shopee",
+          "BHHS2024002704",
+          null,
+          2541667.0,
+          203333.0,
+          "00002565",
+          359491.0,
+          28759.0,
+          2541667,
+          203333,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHS2024002704",
+          "date": "2024-06-15T00:00:00",
+          "rows": [
+            16002,
+            16003
+          ],
+          "money": [
+            2541667,
+            203333,
+            2745000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000311"
+      ],
+      "codes": [
+        "BHHS2024003014"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        2665741,
+        213259,
+        2879000
+      ],
+      "amis_money": [
+        2665741,
+        213259,
+        2879000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CÔNG TY TNHH ANTS MEDIA"
+      ],
+      "exclusion_rows": [
+        80
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          311.0,
+          "21/06/2024",
+          "0312276204",
+          "CÔNG TY TNHH ANTS MEDIA",
+          "251/54 Lê Quang Định, Phường 7, Quận Bình Thạnh, Thành phố Hồ Chí Minh, Việt Nam",
+          2710741.0,
+          216859.0,
+          2927600.0,
+          "Hóa đơn đã bị điều chỉnh",
+          "240619DGK9SCGY",
+          "Shopee",
+          "BHHS2024003014",
+          null,
+          2665741.0,
+          213259.0,
+          "00002566",
+          -45000.0,
+          -3600.0,
+          2665741,
+          213259,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHS2024003014",
+          "date": "2024-06-20T00:00:00",
+          "rows": [
+            16646
+          ],
+          "money": [
+            2665741,
+            213259,
+            2879000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000329"
+      ],
+      "codes": [
+        "BHHS2024003176"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        999074,
+        79926,
+        1079000
+      ],
+      "amis_money": [
+        999074,
+        79926,
+        1079000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CÔNG TY CỔ PHẦN ONEIT"
+      ],
+      "exclusion_rows": [
+        81
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          329.0,
+          "27/06/2024",
+          "0317770953",
+          "CÔNG TY CỔ PHẦN ONEIT",
+          "Lầu 1, 170-170 Bis Bùi Thị Xuân, Phường Phạm Ngũ Lão, Quận 1, Thành phố Hồ Chí Minh, Việt Nam",
+          879185.0,
+          70335.0,
+          949520.0,
+          "Hóa đơn đã bị điều chỉnh",
+          "2406261UY61KHG",
+          "Shopee",
+          "BHHS2024003176",
+          null,
+          999074.0,
+          79926.0,
+          "00002568",
+          119889.0,
+          9591.0,
+          999074,
+          79926,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHS2024003176",
+          "date": "2024-06-26T00:00:00",
+          "rows": [
+            17160
+          ],
+          "money": [
+            999074,
+            79926,
+            1079000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000360"
+      ],
+      "codes": [
+        "BHHS2024003304"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        1971296,
+        157704,
+        2129000
+      ],
+      "amis_money": [
+        2202778,
+        176222,
+        2379000
+      ],
+      "difference": [
+        -231482,
+        -18518,
+        -250000
+      ],
+      "buyers": [
+        "CÔNG TY TNHH THƯƠNG MẠI - XÂY DỰNG - CƠ ĐIỆN THỦY TIẾN"
+      ],
+      "exclusion_rows": [
+        76
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          360.0,
+          "29/07/2024",
+          "3401241946",
+          "CÔNG TY TNHH THƯƠNG MẠI - XÂY DỰNG - CƠ ĐIỆN THỦY TIẾN",
+          "Số 124 Tuyên Quang, Phường Phú Thủy, Thành phố  Phan Thiết, Tỉnh Bình Thuận, Việt Nam",
+          1971296.0,
+          157704.0,
+          2129000.0,
+          "Hóa đơn mới",
+          "240707VMXSUE8J",
+          "Shopee",
+          "BHHS2024003304",
+          null,
+          2202778.0,
+          176222.0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          231482,
+          18518,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHS2024003304",
+          "date": "2024-07-08T00:00:00",
+          "rows": [
+            17993,
+            17994
+          ],
+          "money": [
+            2202778,
+            176222,
+            2379000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000392"
+      ],
+      "codes": [
+        "BHHS2024004271"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        670185,
+        53615,
+        723800
+      ],
+      "amis_money": [
+        957407,
+        76593,
+        1034000
+      ],
+      "difference": [
+        -287222,
+        -22978,
+        -310200
+      ],
+      "buyers": [
+        "CÔNG TY TNHH ICAPITAL"
+      ],
+      "exclusion_rows": [
+        63
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          392.0,
+          "21/08/2024",
+          "0109602644",
+          "CÔNG TY TNHH ICAPITAL",
+          "Tẩng 10, Gelex Tower, 52 Lê Đại Hành, Phường Lê Đại Hành, Quận Hai Bà Trưng, Thành phố Hà Nội, Việt Nam",
+          670185.0,
+          53615.0,
+          723800.0,
+          "Hóa đơn mới",
+          "240808QW9TGB1F",
+          "Shopee",
+          "BHHS2024004271",
+          null,
+          957407.0,
+          76593.0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          287222,
+          22978,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHS2024004271",
+          "date": "2024-08-10T00:00:00",
+          "rows": [
+            23276
+          ],
+          "money": [
+            957407,
+            76593,
+            1034000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000379"
+      ],
+      "codes": [
+        "BHHS2024004296"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        1702778,
+        136222,
+        1839000
+      ],
+      "amis_money": [
+        1702778,
+        136222,
+        1839000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CÔNG TY CỔ PHẦN XÂY DỰNG PHỤC HƯNG HOLDINGS"
+      ],
+      "exclusion_rows": [
+        59
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          379.0,
+          "12/08/2024",
+          "0101311315",
+          "CÔNG TY CỔ PHẦN XÂY DỰNG PHỤC HƯNG HOLDINGS",
+          "Tầng 1, Tháp A, Tòa Nhà CT2 (The Light), đường Tố Hữu, Phường Trung Văn, Quận Nam Từ Liêm, Thành phố Hà Nội, Việt Nam",
+          1447361.0,
+          115789.0,
+          1563150.0,
+          "Hóa đơn đã bị điều chỉnh",
+          "240808R2HDWFE9",
+          "Shopee",
+          "BHHS2024004296",
+          null,
+          1702778.0,
+          136222.0,
+          "00002570",
+          255417.0,
+          20433.0,
+          1702778,
+          136222,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHS2024004296",
+          "date": "2024-08-09T00:00:00",
+          "rows": [
+            23017,
+            23018
+          ],
+          "money": [
+            1702778,
+            136222,
+            1839000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000450"
+      ],
+      "codes": [
+        "BHHS2024004691"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        962037,
+        76963,
+        1039000
+      ],
+      "amis_money": [
+        962037,
+        76963,
+        1039000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CÔNG TY TNHH GIẢI TRÍ US"
+      ],
+      "exclusion_rows": [
+        43
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          450.0,
+          "07/09/2024",
+          "0316329390",
+          "CÔNG TY TNHH GIẢI TRÍ US",
+          "6/20L Đường Nguyễn Cảnh Chân, Phường Nguyễn Cư Trinh, Quận 1, Thành phố Hồ Chí Minh, Việt Nam",
+          673426.0,
+          53874.0,
+          727300.0,
+          "Hóa đơn đã bị điều chỉnh",
+          "2408257T7XE95M",
+          "Shopee",
+          "BHHS2024004691",
+          null,
+          962037.0,
+          76963.0,
+          "00002572",
+          288611.0,
+          23089.0,
+          962037,
+          76963,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHS2024004691",
+          "date": "2024-08-26T00:00:00",
+          "rows": [
+            25471
+          ],
+          "money": [
+            962037,
+            76963,
+            1039000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000431"
+      ],
+      "codes": [
+        "BHHS2024004749"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        2573148,
+        205852,
+        2779000
+      ],
+      "amis_money": [
+        2573148,
+        205852,
+        2779000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CHI NHÁNH CÔNG TY CỔ PHẦN GIÁO DỤC VÀ GIẢI TRÍ TRẺ THƠ - TRƯỜNG MẦM NON VƯỜN KHÁM PHÁ (SMALL WONDER) QUẬN GÒ VẤP"
+      ],
+      "exclusion_rows": [
+        67
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          431.0,
+          "29/08/2024",
+          "0102193093-007",
+          "CHI NHÁNH CÔNG TY CỔ PHẦN GIÁO DỤC VÀ GIẢI TRÍ TRẺ THƠ - TRƯỜNG MẦM NON VƯỜN KHÁM PHÁ (SMALL WONDER) QUẬN GÒ VẤP",
+          "Số 616/36 Lê Đức Thọ, Phường 15, Quận Gò Vấp, Thành phố Hồ Chí Minh, Việt Nam",
+          2264370.0,
+          181150.0,
+          2445520.0,
+          "Hóa đơn đã bị điều chỉnh",
+          "240826A8UTM8CU",
+          "Shopee",
+          "BHHS2024004749",
+          null,
+          2573148.0,
+          205852.0,
+          "00002571",
+          308778.0,
+          24702.0,
+          2573148,
+          205852,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHS2024004749",
+          "date": "2024-08-26T00:00:00",
+          "rows": [
+            25538,
+            25539
+          ],
+          "money": [
+            2573148,
+            205852,
+            2779000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000451"
+      ],
+      "codes": [
+        "BHHS2024004784"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        2258333,
+        180666,
+        2438999
+      ],
+      "amis_money": [
+        2258333,
+        180667,
+        2439000
+      ],
+      "difference": [
+        0,
+        -1,
+        -1
+      ],
+      "buyers": [
+        "CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ HỒ CÁ KOI"
+      ],
+      "exclusion_rows": [
+        44
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          451.0,
+          "07/09/2024",
+          "0318439543",
+          "CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ HỒ CÁ KOI",
+          "92A-94 Bạch Đằng, Phường 2, Quận Tân Bình, Thành phố Hồ Chí Minh, Việt Nam",
+          2026852.0,
+          162148.0,
+          2189000.0,
+          "Hóa đơn đã bị điều chỉnh",
+          "240828EKQPX07X",
+          "Shopee",
+          "BHHS2024004784",
+          null,
+          2258333.0,
+          180667.0,
+          "00002573",
+          231481.0,
+          18518.0,
+          2258333,
+          180666,
+          0,
+          1,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHS2024004784",
+          "date": "2024-08-28T00:00:00",
+          "rows": [
+            25702
+          ],
+          "money": [
+            2258333,
+            180667,
+            2439000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000452"
+      ],
+      "codes": [
+        "BHHS2024004859"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        521111,
+        41689,
+        562800
+      ],
+      "amis_money": [
+        509259,
+        40741,
+        550000
+      ],
+      "difference": [
+        11852,
+        948,
+        12800
+      ],
+      "buyers": [
+        "TRƯỜNG TIỂU HỌC, TRUNG HỌC CƠ SỞ VÀ TRUNG HỌC PHỔ THÔNG QUỐC TẾ Á CHÂU"
+      ],
+      "exclusion_rows": [
+        45
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          452.0,
+          "09/09/2024",
+          "0310883796",
+          "TRƯỜNG TIỂU HỌC, TRUNG HỌC CƠ SỞ VÀ TRUNG HỌC PHỔ THÔNG QUỐC TẾ Á CHÂU",
+          "41/3 - 41/4Bis Trần Nhật Duật, Phường Tân Định, Quận 1, Thành phố Hồ Chí Minh, Việt Nam",
+          521111.0,
+          41689.0,
+          562800.0,
+          "Hóa đơn mới",
+          "240831QNCN1SJ3",
+          "Shopee",
+          "BHHS2024004859",
+          null,
+          509259.0,
+          40741.0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          -11852,
+          -948,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHS2024004859",
+          "date": "2024-09-03T00:00:00",
+          "rows": [
+            26300
+          ],
+          "money": [
+            509259,
+            40741,
+            550000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000463"
+      ],
+      "codes": [
+        "BHHS2024005078"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        2573148,
+        205852,
+        2779000
+      ],
+      "amis_money": [
+        2573148,
+        205852,
+        2779000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CÔNG TY TNHH BALOG MEDIA"
+      ],
+      "exclusion_rows": [
+        52
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          463.0,
+          "20/09/2024",
+          "0402246807",
+          "CÔNG TY TNHH BALOG MEDIA",
+          "25 An Thượng 15, Phường Mỹ An, Quận Ngũ Hành Sơn, Thành phố Đà Nẵng, Việt Nam",
+          2315833.0,
+          185267.0,
+          2501100.0,
+          "Hóa đơn đã bị điều chỉnh",
+          "240909FT7J3JK8",
+          "Shopee",
+          "BHHS2024005078",
+          null,
+          2573148.0,
+          205852.0,
+          "00002575",
+          257315.0,
+          20585.0,
+          2573148,
+          205852,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHS2024005078",
+          "date": "2024-09-09T00:00:00",
+          "rows": [
+            27025,
+            27026
+          ],
+          "money": [
+            2573148,
+            205852,
+            2779000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000464"
+      ],
+      "codes": [
+        "BHHS2024005135"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        2573148,
+        205852,
+        2779000
+      ],
+      "amis_money": [
+        2573148,
+        205852,
+        2779000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CÔNG TY TNHH LEE & SUY VINA"
+      ],
+      "exclusion_rows": [
+        53
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          464.0,
+          "20/09/2024",
+          "3700691189",
+          "CÔNG TY TNHH LEE & SUY VINA",
+          "Khu phố Hòa Lân, Phường Thuận Giao, Thành phố Thuận An, Tỉnh Bình Dương, Việt Nam",
+          1801204.0,
+          144096.0,
+          1945300.0,
+          "Hóa đơn đã bị điều chỉnh",
+          "240909GBWQ2YSM",
+          "Shopee",
+          "BHHS2024005135",
+          null,
+          2573148.0,
+          205852.0,
+          "00002576",
+          771944.0,
+          61756.0,
+          2573148,
+          205852,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHS2024005135",
+          "date": "2024-09-09T00:00:00",
+          "rows": [
+            27107,
+            27108
+          ],
+          "money": [
+            2573148,
+            205852,
+            2779000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000459"
+      ],
+      "codes": [
+        "BHHS2024005385"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        1239815,
+        99186,
+        1339001
+      ],
+      "amis_money": [
+        1239815,
+        99185,
+        1339000
+      ],
+      "difference": [
+        0,
+        1,
+        1
+      ],
+      "buyers": [
+        "CÔNG TY TNHH SIM SOLUTION"
+      ],
+      "exclusion_rows": [
+        49
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          459.0,
+          "16/09/2024",
+          "0316585210",
+          "CÔNG TY TNHH SIM SOLUTION",
+          "36 Đường số 1, Khu phố 2, Phường An Khánh, Thành phố Thủ Đức, Thành phố Hồ Chí Minh, Việt Nam",
+          867870.0,
+          69430.0,
+          937300.0,
+          "Hóa đơn đã bị điều chỉnh",
+          "2409152E3EY3UQ",
+          "Shopee",
+          "BHHS2024005385",
+          null,
+          1239815.0,
+          99185.0,
+          "00002574",
+          371945.0,
+          29756.0,
+          1239815,
+          99186,
+          0,
+          -1,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHS2024005385",
+          "date": "2024-09-16T00:00:00",
+          "rows": [
+            28480
+          ],
+          "money": [
+            1239815,
+            99185,
+            1339000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000469"
+      ],
+      "codes": [
+        "BHHS2024005432"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        406481,
+        32519,
+        439000
+      ],
+      "amis_money": [
+        406481,
+        32519,
+        439000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CÔNG TY TNHH MAI TRÀ"
+      ],
+      "exclusion_rows": [
+        54
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          469.0,
+          "21/09/2024",
+          "4101510170",
+          "CÔNG TY TNHH MAI TRÀ",
+          "Số 45 Chương Dương, Phường Nguyễn Văn Cừ, Thành phố Quy Nhơn, Tỉnh Bình Định, Việt Nam",
+          284537.0,
+          22763.0,
+          307300.0,
+          "Hóa đơn đã bị điều chỉnh",
+          "2409152GU6KVH6",
+          "Shopee",
+          "BHHS2024005432",
+          null,
+          406481.0,
+          32519.0,
+          "00002577",
+          121944.0,
+          9756.0,
+          406481,
+          32519,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHS2024005432",
+          "date": "2024-09-16T00:00:00",
+          "rows": [
+            28536
+          ],
+          "money": [
+            406481,
+            32519,
+            439000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000470"
+      ],
+      "codes": [
+        "BHHS2024005702"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        1148074,
+        91846,
+        1239920
+      ],
+      "amis_money": [
+        1304630,
+        104370,
+        1409000
+      ],
+      "difference": [
+        -156556,
+        -12524,
+        -169080
+      ],
+      "buyers": [
+        "CÔNG TY CỔ PHẦN PHÁT TRIỂN BỀN VỮNG OSHE"
+      ],
+      "exclusion_rows": [
+        55
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          470.0,
+          "24/09/2024",
+          "0312183038",
+          "CÔNG TY CỔ PHẦN PHÁT TRIỂN BỀN VỮNG OSHE",
+          "499/44/19C Quang Trung, Phường 10, Quận Gò Vấp, Thành phố Hồ Chí Minh, Việt Nam",
+          1148074.0,
+          91846.0,
+          1239920.0,
+          "Hóa đơn mới",
+          "240922KSVVPXQB",
+          "Shopee",
+          "BHHS2024005702",
+          null,
+          1304630.0,
+          104370.0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          156556,
+          12524,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHS2024005702",
+          "date": "2024-09-23T00:00:00",
+          "rows": [
+            29817,
+            29818
+          ],
+          "money": [
+            1304630,
+            104370,
+            1409000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000518"
+      ],
+      "codes": [
+        "BHHS2024005808"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        962037,
+        76963,
+        1039000
+      ],
+      "amis_money": [
+        962037,
+        76963,
+        1039000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CÔNG TY CỔ PHẦN TẬP ĐOÀN SUNHOUSE"
+      ],
+      "exclusion_rows": [
+        31
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          518.0,
+          "14/10/2024",
+          "0101976905",
+          "CÔNG TY CỔ PHẦN TẬP ĐOÀN SUNHOUSE",
+          "Số 139, phố Nguyễn Thái Học, Phường Điện Biên, Quận Ba Đình, Thành phố Hà Nội, Việt Nam",
+          846593.0,
+          67727.0,
+          914320.0,
+          "Hóa đơn đã bị điều chỉnh",
+          "240925TVHWC5UR",
+          "Shopee",
+          "BHHS2024005808",
+          null,
+          962037.0,
+          76963.0,
+          "00002584",
+          115444.0,
+          9236.0,
+          962037,
+          76963,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHS2024005808",
+          "date": "2024-09-25T00:00:00",
+          "rows": [
+            30119
+          ],
+          "money": [
+            962037,
+            76963,
+            1039000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000479"
+      ],
+      "codes": [
+        "BHHS2024005853"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        3869444,
+        309556,
+        4179000
+      ],
+      "amis_money": [
+        3869444,
+        309556,
+        4179000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CÔNG TY TNHH XÂY DỰNG MINH KIM ANH"
+      ],
+      "exclusion_rows": [
+        57
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          479.0,
+          "26/09/2024",
+          "0317762776",
+          "CÔNG TY TNHH XÂY DỰNG MINH KIM ANH",
+          "Số 13/16A đường số 18, Phường Linh Chiểu, Thành phố Thủ Đức, Thành phố Hồ Chí Minh, Việt Nam",
+          3405111.0,
+          272409.0,
+          3677520.0,
+          "Hóa đơn đã bị điều chỉnh",
+          "240925V8X6Q65R",
+          "Shopee",
+          "BHHS2024005853",
+          null,
+          3869444.0,
+          309556.0,
+          "00002579",
+          464333.0,
+          37147.0,
+          3869444,
+          309556,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHS2024005853",
+          "date": "2024-09-26T00:00:00",
+          "rows": [
+            30253,
+            30254
+          ],
+          "money": [
+            3869444,
+            309556,
+            4179000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000501"
+      ],
+      "codes": [
+        "BHHS2024005862"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        184259,
+        14741,
+        199000
+      ],
+      "amis_money": [
+        184259,
+        14741,
+        199000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CÔNG TY TNHH HANJOWON VINA"
+      ],
+      "exclusion_rows": [
+        23
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          501.0,
+          "01/10/2024",
+          "1101938588",
+          "CÔNG TY TNHH HANJOWON VINA",
+          "36 Hoàng Anh, Phường Tân Khánh, Thành phố Tân An, Tỉnh Long An, Việt Nam",
+          147407.0,
+          11793.0,
+          159200.0,
+          "Hóa đơn đã bị điều chỉnh",
+          "240925VE1TAMBA",
+          "Shopee",
+          "BHHS2024005862",
+          null,
+          184259.0,
+          14741.0,
+          "00002580",
+          36852.0,
+          2948.0,
+          184259,
+          14741,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHS2024005862",
+          "date": "2024-09-26T00:00:00",
+          "rows": [
+            30268
+          ],
+          "money": [
+            184259,
+            14741,
+            199000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000509"
+      ],
+      "codes": [
+        "BHHS2024005870"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        425000,
+        34000,
+        459000
+      ],
+      "amis_money": [
+        425000,
+        34000,
+        459000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CÔNG TY TNHH DỊCH VỤ VIỄN THÔNG TBQ VIỆT NAM"
+      ],
+      "exclusion_rows": [
+        24
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          509.0,
+          "03/10/2024",
+          "0108110061",
+          "CÔNG TY TNHH DỊCH VỤ VIỄN THÔNG TBQ VIỆT NAM",
+          "Tầng 2, số 26 ngõ 442 đường Phạm Văn Đồng, Phường Cổ Nhuế 2, Quận Bắc Từ Liêm, Thành phố Hà Nội, Việt Nam",
+          340000.0,
+          27200.0,
+          367200.0,
+          "Hóa đơn đã bị điều chỉnh",
+          "240926VJ1TDFEM",
+          "Shopee",
+          "BHHS2024005870",
+          null,
+          425000.0,
+          34000.0,
+          "00002581",
+          85000.0,
+          6800.0,
+          425000,
+          34000,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHS2024005870",
+          "date": "2024-09-26T00:00:00",
+          "rows": [
+            30277
+          ],
+          "money": [
+            425000,
+            34000,
+            459000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000538"
+      ],
+      "codes": [
+        "BHHS2024005949"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        1739815,
+        139185,
+        1879000
+      ],
+      "amis_money": [
+        1739815,
+        139185,
+        1879000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CÔNG TY TNHH INTEL PRODUCTS VIỆT NAM"
+      ],
+      "exclusion_rows": [
+        38
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          538.0,
+          "26/10/2024",
+          "0304295429",
+          "CÔNG TY TNHH INTEL PRODUCTS VIỆT NAM",
+          "Lô I2, đường D1, khu công nghệ cao, Phường Tân Phú, Thành phố Thủ Đức, Thành phố Hồ Chí Minh, Việt Nam",
+          1531037.0,
+          122483.0,
+          1653520.0,
+          "Hóa đơn đã bị điều chỉnh",
+          "2409298GGY2ADN",
+          "Shopee",
+          "BHHS2024005949",
+          null,
+          1739815.0,
+          139185.0,
+          "00002588",
+          208778.0,
+          16702.0,
+          1739815,
+          139185,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHS2024005949",
+          "date": "2024-09-30T00:00:00",
+          "rows": [
+            30693
+          ],
+          "money": [
+            1739815,
+            139185,
+            1879000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000510"
+      ],
+      "codes": [
+        "BHHS2024006027"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        2573148,
+        205852,
+        2779000
+      ],
+      "amis_money": [
+        2573148,
+        205852,
+        2779000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CÔNG TY TNHH XÂY DỰNG VÀ SẢN XUẤT CAO MINH"
+      ],
+      "exclusion_rows": [
+        25
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          510.0,
+          "03/10/2024",
+          "0313878152",
+          "CÔNG TY TNHH XÂY DỰNG VÀ SẢN XUẤT CAO MINH",
+          "14/7 Đường TL 42, phường Thạnh Lộc, Quận 12, Thành phố Hồ Chí Minh, Việt Nam",
+          2367296.0,
+          189384.0,
+          2556680.0,
+          "Hóa đơn đã bị điều chỉnh",
+          "241002GFV5GHRS",
+          "Shopee",
+          "BHHS2024006027",
+          null,
+          2573148.0,
+          205852.0,
+          "00002582",
+          205852.0,
+          16468.0,
+          2573148,
+          205852,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHS2024006027",
+          "date": "2024-10-03T00:00:00",
+          "rows": [
+            30969
+          ],
+          "money": [
+            2573148,
+            205852,
+            2779000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000515"
+      ],
+      "codes": [
+        "BHHS2024006068"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        2665741,
+        213259,
+        2879000
+      ],
+      "amis_money": [
+        2665741,
+        213259,
+        2879000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CÔNG TY TNHH TÀI LINH LAND"
+      ],
+      "exclusion_rows": [
+        28
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          515.0,
+          "09/10/2024",
+          "6001628711",
+          "CÔNG TY TNHH TÀI LINH LAND",
+          "Số 10 Lê Thị Hồng Gấm, Phường Tân An, TP.Buôn Ma Thuột, Tỉnh Đắk Lắk, Việt Nam",
+          2399167.0,
+          191933.0,
+          2591100.0,
+          "Hóa đơn đã bị điều chỉnh",
+          "241004MWDA8FXT",
+          "Shopee",
+          "BHHS2024006068",
+          null,
+          2665741.0,
+          213259.0,
+          "00002583",
+          266574.0,
+          21326.0,
+          2665741,
+          213259,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHS2024006068",
+          "date": "2024-10-04T00:00:00",
+          "rows": [
+            31072,
+            31073
+          ],
+          "money": [
+            2665741,
+            213259,
+            2879000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000517"
+      ],
+      "codes": [
+        "BHHS2024006199"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        1702778,
+        136222,
+        1839000
+      ],
+      "amis_money": [
+        1702778,
+        136222,
+        1839000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CÔNG TY TNHH THIẾT KẾ VÀ THI CÔNG CÔNG TRÌNH AHA HUẾ"
+      ],
+      "exclusion_rows": [
+        30
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          517.0,
+          "14/10/2024",
+          "3301719675",
+          "CÔNG TY TNHH THIẾT KẾ VÀ THI CÔNG CÔNG TRÌNH AHA HUẾ",
+          "Tổ 4, KV2, Phường An Tây, Thành phố Huế, Tỉnh Thừa Thiên - Huế, Việt Nam",
+          1702778.0,
+          136222.0,
+          1839000.0,
+          "Hóa đơn mới",
+          "2410095FR7Q45U",
+          "Shopee",
+          "BHHS2024006199",
+          null,
+          1702778.0,
+          136222.0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHS2024006199",
+          "date": "2024-10-10T00:00:00",
+          "rows": [
+            31545
+          ],
+          "money": [
+            1702778,
+            136222,
+            1839000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000523"
+      ],
+      "codes": [
+        "BHHS2024006394"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        1702778,
+        136222,
+        1839000
+      ],
+      "amis_money": [
+        1702778,
+        136222,
+        1839000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ DIGI-TRAN"
+      ],
+      "exclusion_rows": [
+        32
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          523.0,
+          "16/10/2024",
+          "0314404490",
+          "CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ DIGI-TRAN",
+          "Tầng 14, Tòa Nhà HM Town, 412 Nguyễn Thị Minh Khai, Phường 05, Quận 3, Thành phố Hồ Chí Minh, Việt Nam",
+          1532500.0,
+          122600.0,
+          1655100.0,
+          "Hóa đơn đã bị điều chỉnh",
+          "2410107PP4B0UR",
+          "Shopee",
+          "BHHS2024006394",
+          null,
+          1702778.0,
+          136222.0,
+          "00002586",
+          170278.0,
+          13622.0,
+          1702778,
+          136222,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHS2024006394",
+          "date": "2024-10-11T00:00:00",
+          "rows": [
+            31937,
+            31938
+          ],
+          "money": [
+            1702778,
+            136222,
+            1839000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000531"
+      ],
+      "codes": [
+        "BHHS2024006521"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        1702778,
+        136222,
+        1839000
+      ],
+      "amis_money": [
+        1702778,
+        136222,
+        1839000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ DIGI-TRAN"
+      ],
+      "exclusion_rows": [
+        36
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          531.0,
+          "21/10/2024",
+          "0314404490",
+          "CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ DIGI-TRAN",
+          "Tầng 14, Tòa Nhà HM Town, 412 Nguyễn Thị Minh Khai, Phường 05, Quận 3, Thành phố Hồ Chí Minh, Việt Nam",
+          1517593.0,
+          121407.0,
+          1639000.0,
+          "Hóa đơn đã bị điều chỉnh",
+          "241014GHX7TNKV",
+          "Shopee",
+          "BHHS2024006521",
+          null,
+          1702778.0,
+          136222.0,
+          "00002587",
+          185185.0,
+          14815.0,
+          1702778,
+          136222,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHS2024006521",
+          "date": "2024-10-14T00:00:00",
+          "rows": [
+            32629
+          ],
+          "money": [
+            1702778,
+            136222,
+            1839000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000563"
+      ],
+      "codes": [
+        "BHHS2024007137"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        5443519,
+        435482,
+        5879001
+      ],
+      "amis_money": [
+        5443519,
+        435481,
+        5879000
+      ],
+      "difference": [
+        0,
+        1,
+        1
+      ],
+      "buyers": [
+        "CÔNG TY TNHH XUẤT NHẬP KHẨU GOLDEN SUCCESS"
+      ],
+      "exclusion_rows": [
+        14
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          563.0,
+          "07/11/2024",
+          "0318401003",
+          "CÔNG TY TNHH XUẤT NHẬP KHẨU GOLDEN SUCCESS",
+          "60/6 Yên Thế, Phường 2, Quận Tân Bình, Thành phố Hồ Chí Minh, Việt Nam",
+          5008037.0,
+          400643.0,
+          5408680.0,
+          "Hóa đơn đã bị điều chỉnh",
+          "241029SAKRK9H4",
+          "Shopee",
+          "BHHS2024007137",
+          null,
+          5443519.0,
+          435481.0,
+          "00002171",
+          435482.0,
+          34839.0,
+          5443519,
+          435482,
+          0,
+          -1,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHS2024007137",
+          "date": "2024-10-29T00:00:00",
+          "rows": [
+            35170,
+            35171
+          ],
+          "money": [
+            5443519,
+            435481,
+            5879000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000540"
+      ],
+      "codes": [
+        "BHHS2024007139"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        443519,
+        35482,
+        479001
+      ],
+      "amis_money": [
+        443519,
+        35481,
+        479000
+      ],
+      "difference": [
+        0,
+        1,
+        1
+      ],
+      "buyers": [
+        "CÔNG TY TNHH HUGE-FAM"
+      ],
+      "exclusion_rows": [
+        40
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          540.0,
+          "30/10/2024",
+          "0315259091",
+          "CÔNG TY TNHH HUGE-FAM",
+          "27B Nguyễn Đình Chiểu, Phường Đa Kao, Quận 1, Thành phố Hồ Chí Minh, Việt Nam",
+          443519.0,
+          35482.0,
+          479001.0,
+          "Hóa đơn mới",
+          "241029SCHU3H27",
+          "Shopee",
+          "BHHS2024007139",
+          null,
+          443519.0,
+          35481.0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0,
+          -1,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHS2024007139",
+          "date": "2024-10-29T00:00:00",
+          "rows": [
+            35173
+          ],
+          "money": [
+            443519,
+            35481,
+            479000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000564"
+      ],
+      "codes": [
+        "BHHS2024007171"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        4054630,
+        324371,
+        4379001
+      ],
+      "amis_money": [
+        4054630,
+        324370,
+        4379000
+      ],
+      "difference": [
+        0,
+        1,
+        1
+      ],
+      "buyers": [
+        "VIỆN KHOA HỌC CÔNG NGHỆ VÀ KINH TẾ XÂY DỰNG HÀ NỘI"
+      ],
+      "exclusion_rows": [
+        15
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          564.0,
+          "07/11/2024",
+          "0100731483",
+          "VIỆN KHOA HỌC CÔNG NGHỆ VÀ KINH TẾ XÂY DỰNG HÀ NỘI",
+          "38 phố cát linh, Phường Cát Linh, Quận Đống đa, Thành phố Hà Nội, Việt Nam",
+          3823148.0,
+          305852.0,
+          4129000.0,
+          "Hóa đơn đã bị điều chỉnh",
+          "241030VSSYK2H6",
+          "Shopee",
+          "BHHS2024007171",
+          null,
+          4054630.0,
+          324370.0,
+          "00002172",
+          231482.0,
+          18519.0,
+          4054630,
+          324371,
+          0,
+          -1,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHS2024007171",
+          "date": "2024-10-31T00:00:00",
+          "rows": [
+            35479,
+            35480
+          ],
+          "money": [
+            4054630,
+            324370,
+            4379000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000566"
+      ],
+      "codes": [
+        "BHHS2024007332"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        3869444,
+        309556,
+        4179000
+      ],
+      "amis_money": [
+        3869444,
+        309556,
+        4179000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "VIỆN KHOA HỌC CÔNG NGHỆ VÀ KINH TẾ XÂY DỰNG HÀ NỘI"
+      ],
+      "exclusion_rows": [
+        16
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          566.0,
+          "12/11/2024",
+          "0100731483",
+          "VIỆN KHOA HỌC CÔNG NGHỆ VÀ KINH TẾ XÂY DỰNG HÀ NỘI",
+          "38 phố cát linh, Phường Cát Linh, Quận Đống đa, Thành phố Hà Nội, Việt Nam",
+          3482500.0,
+          278600.0,
+          3761100.0,
+          "Hóa đơn đã bị điều chỉnh",
+          "241106GHXRY2CA",
+          "Shopee",
+          "BHHS2024007332",
+          null,
+          3869444.0,
+          309556.0,
+          "00002174",
+          386944.0,
+          30956.0,
+          3869444,
+          309556,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHS2024007332",
+          "date": "2024-11-06T00:00:00",
+          "rows": [
+            36129,
+            36130
+          ],
+          "money": [
+            3869444,
+            309556,
+            4179000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000603"
+      ],
+      "codes": [
+        "BHHS2024007540"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        4054630,
+        324371,
+        4379001
+      ],
+      "amis_money": [
+        4054630,
+        324370,
+        4379000
+      ],
+      "difference": [
+        0,
+        1,
+        1
+      ],
+      "buyers": [
+        "CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ VẬT TƯ TRẦN LÂM"
+      ],
+      "exclusion_rows": [
+        21
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          603.0,
+          "26/11/2024",
+          "0317749976",
+          "CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ VẬT TƯ TRẦN LÂM",
+          "134/5/28 BIS Lạc Long Quân, Phường 3, Quận 11, Thành phố Hồ Chí Minh, Việt Nam",
+          3446435.0,
+          275715.0,
+          3722150.0,
+          "Hóa đơn đã bị điều chỉnh",
+          "2411110BWBFW6F",
+          "Shopee",
+          "BHHS2024007540",
+          null,
+          4054630.0,
+          324370.0,
+          "00002179",
+          608195.0,
+          48656.0,
+          4054630,
+          324371,
+          0,
+          -1,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHS2024007540",
+          "date": "2024-11-12T00:00:00",
+          "rows": [
+            36795,
+            36796
+          ],
+          "money": [
+            4054630,
+            324370,
+            4379000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000579"
+      ],
+      "codes": [
+        "BHHS2024007662"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        2387963,
+        191037,
+        2579000
+      ],
+      "amis_money": [
+        2387963,
+        191037,
+        2579000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CÔNG TY CỔ PHẦN QUẢNG CÁO VÀ THƯƠNG MẠI GSOLUTION"
+      ],
+      "exclusion_rows": [
+        19
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          579.0,
+          "18/11/2024",
+          "0311950572",
+          "CÔNG TY CỔ PHẦN QUẢNG CÁO VÀ THƯƠNG MẠI GSOLUTION",
+          "90/12/1/16 Bông Sao, Phường 5, Quận 8, Thành phố Hồ Chí Minh, Việt Nam",
+          1982500.0,
+          158600.0,
+          2141100.0,
+          "Hóa đơn đã bị điều chỉnh",
+          "2411135SNXVAA1",
+          "Shopee",
+          "BHHS2024007662",
+          null,
+          2387963.0,
+          191037.0,
+          "00002589",
+          405463.0,
+          32437.0,
+          2387963,
+          191037,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHS2024007662",
+          "date": "2024-11-14T00:00:00",
+          "rows": [
+            37391
+          ],
+          "money": [
+            2387963,
+            191037,
+            2579000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000696"
+      ],
+      "codes": [
+        "BHHS2024007985"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        1149167,
+        91933,
+        1241100
+      ],
+      "amis_money": [
+        1276852,
+        102148,
+        1379000
+      ],
+      "difference": [
+        -127685,
+        -10215,
+        -137900
+      ],
+      "buyers": [
+        "CÔNG TY TRÁCH NHIỆM HỮU HẠN YEOU LIH SILICA SAND VIỆT NAM"
+      ],
+      "exclusion_rows": [
+        10
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          696.0,
+          "21/12/2024",
+          "4000394369",
+          "CÔNG TY TRÁCH NHIỆM HỮU HẠN YEOU LIH SILICA SAND VIỆT NAM",
+          "Thôn Mỹ Bình, Xã Tam Hiệp, Huyện Núi Thành, Tỉnh Quảng Nam, Việt Nam",
+          1149167.0,
+          91933.0,
+          1241100.0,
+          "Hóa đơn mới",
+          "241127B8V2GTBF",
+          "Shopee",
+          "BHHS2024007985",
+          null,
+          1276852.0,
+          102148.0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          127685,
+          10215,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHS2024007985",
+          "date": "2024-11-28T00:00:00",
+          "rows": [
+            39523
+          ],
+          "money": [
+            1276852,
+            102148,
+            1379000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000634"
+      ],
+      "codes": [
+        "BHHS2024008034"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        1702778,
+        136222,
+        1839000
+      ],
+      "amis_money": [
+        1702778,
+        136222,
+        1839000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "DOANH NGHIỆP TƯ NHÂN DU LỊCH AN PHÁT"
+      ],
+      "exclusion_rows": [
+        2
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          634.0,
+          "03/12/2024",
+          "4001091085",
+          "DOANH NGHIỆP TƯ NHÂN DU LỊCH AN PHÁT",
+          "301 Nguyễn Duy Hiệu, Phường Sơn Phong, Thành phố Hội An, Tỉnh Quảng Nam, Việt Nam",
+          1517593.0,
+          121407.0,
+          1639000.0,
+          "Hóa đơn đã bị điều chỉnh",
+          "241129FVW621DF",
+          "Shopee",
+          "BHHS2024008034",
+          null,
+          1702778.0,
+          136222.0,
+          "00002591",
+          185185.0,
+          14815.0,
+          1702778,
+          136222,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHS2024008034",
+          "date": "2024-11-29T00:00:00",
+          "rows": [
+            39686
+          ],
+          "money": [
+            1702778,
+            136222,
+            1839000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000642"
+      ],
+      "codes": [
+        "BHHS2024008128"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        2573148,
+        205851,
+        2778999
+      ],
+      "amis_money": [
+        2573148,
+        205852,
+        2779000
+      ],
+      "difference": [
+        0,
+        -1,
+        -1
+      ],
+      "buyers": [
+        "CÔNG TY TNHH MỘT THÀNH VIÊN XĂNG DẦU SONG ĐĂNG"
+      ],
+      "exclusion_rows": [
+        3
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          642.0,
+          "04/12/2024",
+          "0312239812",
+          "CÔNG TY TNHH MỘT THÀNH VIÊN XĂNG DẦU SONG ĐĂNG",
+          "D19/28 Hương Lộ 80, ấp 4, Xã Vĩnh Lộc B, Huyện Bình Chánh, Thành phố Hồ Chí Minh, Việt Nam",
+          2480556.0,
+          198444.0,
+          2679000.0,
+          "Hóa đơn đã bị điều chỉnh",
+          "241130JYVEQAPY",
+          "Shopee",
+          "BHHS2024008128",
+          null,
+          2573148.0,
+          205852.0,
+          "00002592",
+          92592.0,
+          7407.0,
+          2573148,
+          205851,
+          0,
+          1,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHS2024008128",
+          "date": "2024-11-30T00:00:00",
+          "rows": [
+            39892,
+            39893
+          ],
+          "money": [
+            2573148,
+            205852,
+            2779000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000651"
+      ],
+      "codes": [
+        "BHHS2024008146"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        2573148,
+        205852,
+        2779000
+      ],
+      "amis_money": [
+        2573148,
+        205852,
+        2779000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ VÀ VẬN CHUYỂN AECP"
+      ],
+      "exclusion_rows": [
+        5
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          651.0,
+          "09/12/2024",
+          "0202232740",
+          "CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ VÀ VẬN CHUYỂN AECP",
+          "Số 2C/280 Trung Lực, Phường Đằng Lâm, Quận Hải An, Thành phố Hải Phòng, Việt Nam",
+          2573148.0,
+          205852.0,
+          2779000.0,
+          "Hóa đơn mới",
+          "241130KSXRS8QW",
+          "Shopee",
+          "BHHS2024008146",
+          null,
+          2573148.0,
+          205852.0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHS2024008146",
+          "date": "2024-12-02T00:00:00",
+          "rows": [
+            40202,
+            40203
+          ],
+          "money": [
+            2573148,
+            205852,
+            2779000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000661"
+      ],
+      "codes": [
+        "BHHS2024008508"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        2573148,
+        205852,
+        2779000
+      ],
+      "amis_money": [
+        2573148,
+        205852,
+        2779000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CÔNG TY TNHH TIẾP VẬN VẬN TẢI QUỐC TẾ VÕ LƯƠNG"
+      ],
+      "exclusion_rows": [
+        8
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          661.0,
+          "16/12/2024",
+          "0303427866",
+          "CÔNG TY TNHH TIẾP VẬN VẬN TẢI QUỐC TẾ VÕ LƯƠNG",
+          "174/13 Điện Biên Phủ, Phường 17, Quận Bình Thạnh, Thành phố Hồ Chí Minh, Việt Nam",
+          2315833.0,
+          185267.0,
+          2501100.0,
+          "Hóa đơn đã bị điều chỉnh",
+          "241212KHD7Y219",
+          "Shopee",
+          "BHHS2024008508",
+          null,
+          2573148.0,
+          205852.0,
+          "00002220",
+          257315.0,
+          20585.0,
+          2573148,
+          205852,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHS2024008508",
+          "date": "2024-12-12T00:00:00",
+          "rows": [
+            41671,
+            41672
+          ],
+          "money": [
+            2573148,
+            205852,
+            2779000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000660"
+      ],
+      "codes": [
+        "BHHS2024008520"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        2573148,
+        205852,
+        2779000
+      ],
+      "amis_money": [
+        2573148,
+        205852,
+        2779000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CÔNG TY TNHH THỰC PHẨM TOÀN CẦU HUY HOÀNG"
+      ],
+      "exclusion_rows": [
+        7
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          660.0,
+          "13/12/2024",
+          "0315729798",
+          "CÔNG TY TNHH THỰC PHẨM TOÀN CẦU HUY HOÀNG",
+          "85 Hoàng Sa, Phường Đa Kao, Quận 1, Thành phố Hồ Chí Minh, Việt Nam",
+          2276870.0,
+          182150.0,
+          2459020.0,
+          "Hóa đơn đã bị điều chỉnh",
+          "241212KM47RTQK",
+          "Shopee",
+          "BHHS2024008520",
+          null,
+          2573148.0,
+          205852.0,
+          "00002219",
+          296278.0,
+          23702.0,
+          2573148,
+          205852,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHS2024008520",
+          "date": "2024-12-12T00:00:00",
+          "rows": [
+            41686,
+            41687
+          ],
+          "money": [
+            2573148,
+            205852,
+            2779000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000668"
+      ],
+      "codes": [
+        "BHHS2024008591"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        962037,
+        76963,
+        1039000
+      ],
+      "amis_money": [
+        962037,
+        76963,
+        1039000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CÔNG TY CỔ PHẦN SÀI GÒN DƯƠNG ĐÔNG"
+      ],
+      "exclusion_rows": [
+        9
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          668.0,
+          "17/12/2024",
+          "1701239486",
+          "CÔNG TY CỔ PHẦN SÀI GÒN DƯƠNG ĐÔNG",
+          "Đường Cách Mạng Tháng Tám, khu phố 6, Phường Dương Đông, Thành phố Phú Quốc, Tỉnh Kiên Giang, Việt Nam",
+          846593.0,
+          67727.0,
+          914320.0,
+          "Hóa đơn đã bị điều chỉnh",
+          "241212M6VCV4RW",
+          "Shopee",
+          "BHHS2024008591",
+          null,
+          962037.0,
+          76963.0,
+          "00002595",
+          115444.0,
+          9236.0,
+          962037,
+          76963,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHS2024008591",
+          "date": "2024-12-13T00:00:00",
+          "rows": [
+            41858
+          ],
+          "money": [
+            962037,
+            76963,
+            1039000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000698"
+      ],
+      "codes": [
+        "BHHS2024008614"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        962037,
+        76963,
+        1039000
+      ],
+      "amis_money": [
+        962037,
+        76963,
+        1039000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CÔNG TY TNHH LANDO"
+      ],
+      "exclusion_rows": [
+        11
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          698.0,
+          "21/12/2024",
+          "0314069690",
+          "CÔNG TY TNHH LANDO",
+          "416E Nguyễn Thị Minh Khai, Phường 05, Quận 3, Thành phố Hồ Chí Minh, Việt Nam",
+          865574.0,
+          69246.0,
+          934820.0,
+          "Hóa đơn đã bị điều chỉnh",
+          "241212MQUR80DS",
+          "Shopee",
+          "BHHS2024008614",
+          null,
+          962037.0,
+          76963.0,
+          "00002596",
+          96463.0,
+          7717.0,
+          962037,
+          76963,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHS2024008614",
+          "date": "2024-12-13T00:00:00",
+          "rows": [
+            41887
+          ],
+          "money": [
+            962037,
+            76963,
+            1039000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000718"
+      ],
+      "codes": [
+        "BHHS2024008901"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        962037,
+        76963,
+        1039000
+      ],
+      "amis_money": [
+        962037,
+        76963,
+        1039000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CÔNG TY TNHH MTV ECOMDY"
+      ],
+      "exclusion_rows": [
+        12
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          718.0,
+          "25/12/2024",
+          "0402181645",
+          "CÔNG TY TNHH MTV ECOMDY",
+          "55 Lê Quang Hòa, Phường Hoà Xuân, Quận Cẩm Lệ, Thành phố Đà Nẵng, Việt Nam",
+          865833.0,
+          69267.0,
+          935100.0,
+          "Hóa đơn đã bị điều chỉnh",
+          "241222G3V1MPRP",
+          "Shopee",
+          "BHHS2024008901",
+          null,
+          962037.0,
+          76963.0,
+          "00002597",
+          96204.0,
+          7696.0,
+          962037,
+          76963,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHS2024008901",
+          "date": "2024-12-23T00:00:00",
+          "rows": [
+            43435
+          ],
+          "money": [
+            962037,
+            76963,
+            1039000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000001"
+      ],
+      "codes": [
+        "BHHT2024000700"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        1464200,
+        117136,
+        1581336
+      ],
+      "amis_money": [
+        1647222,
+        131778,
+        1779000
+      ],
+      "difference": [
+        -183022,
+        -14642,
+        -197664
+      ],
+      "buyers": [
+        "CÔNG TY TNHH GIA SƯ ETEACHER"
+      ],
+      "exclusion_rows": [
+        114
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          1.0,
+          "09/01/2024",
+          "0314215951",
+          "CÔNG TY TNHH GIA SƯ ETEACHER",
+          "150 Bis Lê Thị Hồng Gấm, Phường Cầu Ông Lãnh, Quận 1, Thành phố Hồ Chí Minh, Việt Nam",
+          1464200.0,
+          117136.0,
+          1581336.0,
+          "Hóa đơn mới",
+          "578297561583553468",
+          "Tiktok",
+          "BHHT2024000700",
+          null,
+          1647222.0,
+          131778.0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          183022,
+          14642,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHT2024000700",
+          "date": "2024-01-04T00:00:00",
+          "rows": [
+            378
+          ],
+          "money": [
+            1647222,
+            131778,
+            1779000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000022"
+      ],
+      "codes": [
+        "BHHT2024001394"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        1793889,
+        143511,
+        1937400
+      ],
+      "amis_money": [
+        1837037,
+        146963,
+        1984000
+      ],
+      "difference": [
+        -43148,
+        -3452,
+        -46600
+      ],
+      "buyers": [
+        "CÔNG TY TNHH THIẾT BỊ CÔNG NGHỆ QUỐC ANH"
+      ],
+      "exclusion_rows": [
+        117
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          22.0,
+          "24/01/2024",
+          "0107470865",
+          "CÔNG TY TNHH THIẾT BỊ CÔNG NGHỆ QUỐC ANH",
+          "Số nhà 18D, ngõ 675, đường Ngọc Hồi, Xã Tứ Hiệp, Huyện Thanh Trì, Thành phố Hà Nội, Việt Nam",
+          1793889.0,
+          143511.0,
+          1937400.0,
+          "Hóa đơn mới",
+          "578390416231401857",
+          "Tiktok",
+          "BHHT2024001394",
+          null,
+          1837037.0,
+          146963.0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          43148,
+          3452,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHT2024001394",
+          "date": "2024-01-22T00:00:00",
+          "rows": [
+            2201
+          ],
+          "money": [
+            1837037,
+            146963,
+            1984000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000122"
+      ],
+      "codes": [
+        "BHHT2024001991"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        811111,
+        64889,
+        876000
+      ],
+      "amis_money": [
+        887963,
+        71037,
+        959000
+      ],
+      "difference": [
+        -76852,
+        -6148,
+        -83000
+      ],
+      "buyers": [
+        "CÔNG TY TNHH THƯƠNG MẠI SẢN XUẤT XÂY DỰNG VÀ XUẤT NHẬP KHẨU GỖ KHÁNH THY"
+      ],
+      "exclusion_rows": [
+        104
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          122.0,
+          "28/03/2024",
+          "0317658951",
+          "CÔNG TY TNHH THƯƠNG MẠI SẢN XUẤT XÂY DỰNG VÀ XUẤT NHẬP KHẨU GỖ KHÁNH THY",
+          "59 Huỳnh Thị Phụng, Phường 4, Quận 8, Thành phố Hồ Chí Minh, Việt Nam",
+          811111.0,
+          64889.0,
+          876000.0,
+          "Hóa đơn đã bị điều chỉnh",
+          "578659269613095091",
+          "Tiktok",
+          "BHHT2024001991",
+          null,
+          887963.0,
+          71037.0,
+          "00002611",
+          76852.0,
+          6148.0,
+          887963,
+          71037,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHT2024001991",
+          "date": "2024-03-27T00:00:00",
+          "rows": [
+            5402
+          ],
+          "money": [
+            887963,
+            71037,
+            959000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000112"
+      ],
+      "codes": [
+        "BHHT2024002204"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        2554074,
+        204326,
+        2758400
+      ],
+      "amis_money": [
+        2546296,
+        203704,
+        2750000
+      ],
+      "difference": [
+        7778,
+        622,
+        8400
+      ],
+      "buyers": [
+        "CÔNG TY TNHH SPECTOS ASIA"
+      ],
+      "exclusion_rows": [
+        102
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          112.0,
+          "19/03/2024",
+          "0102970529",
+          "CÔNG TY TNHH SPECTOS ASIA",
+          "ô số 3, 4, 5 Tầng 3, Tòa nhà IDMC Duy Tân, số 21 Duy Tân, Phường Dịch Vọng Hậu, Quận Cầu Giấy, Thành phố Hà Nội, Việt Nam",
+          2554074.0,
+          204326.0,
+          2758400.0,
+          "Hóa đơn mới",
+          "578636425503148361",
+          "Tiktok",
+          "BHHT2024002204",
+          null,
+          2546296.0,
+          203704.0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          -7778,
+          -622,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHT2024002204",
+          "date": "2024-03-19T00:00:00",
+          "rows": [
+            4868
+          ],
+          "money": [
+            2546296,
+            203704,
+            2750000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000064"
+      ],
+      "codes": [
+        "BHHT2024002867"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        2407407,
+        192593,
+        2600000
+      ],
+      "amis_money": [
+        1925000,
+        154000,
+        2079000
+      ],
+      "difference": [
+        482407,
+        38593,
+        521000
+      ],
+      "buyers": [
+        "CÔNG TY TNHH CƠ KHÍ XÂY DỰNG ANH ĐẠT"
+      ],
+      "exclusion_rows": [
+        113
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          64.0,
+          "28/02/2024",
+          "0310367287",
+          "CÔNG TY TNHH CƠ KHÍ XÂY DỰNG ANH ĐẠT",
+          "22 Ba Vì, Phường 4, Quận Tân Bình, Thành phố Hồ Chí Minh, Việt Nam",
+          2407407.0,
+          192593.0,
+          2600000.0,
+          "Hóa đơn đã bị điều chỉnh",
+          "578562228419463846",
+          "Tiktok",
+          "BHHT2024002867",
+          null,
+          1925000.0,
+          154000.0,
+          "00002609",
+          -482407.0,
+          -38593.0,
+          1925000,
+          154000,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHT2024002867",
+          "date": "2024-02-23T00:00:00",
+          "rows": [
+            3659
+          ],
+          "money": [
+            1925000,
+            154000,
+            2079000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000170"
+      ],
+      "codes": [
+        "BHHT2024003677"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        2462037,
+        196963,
+        2659000
+      ],
+      "amis_money": [
+        2462037,
+        196963,
+        2659000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CÔNG TY TNHH THỔ KIM PHÁT"
+      ],
+      "exclusion_rows": [
+        96
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          170.0,
+          "20/04/2024",
+          "0110490847",
+          "CÔNG TY TNHH THỔ KIM PHÁT",
+          "29/44 Nguyễn Đình Chiểu, Phường Lê Đại Hành, Quận Hai Bà Trưng, Thành phố Hà Nội, Việt Nam",
+          2420370.0,
+          193630.0,
+          2614000.0,
+          "Hóa đơn đã bị điều chỉnh",
+          "578732467779438606",
+          "Tiktok",
+          "BHHT2024003677",
+          null,
+          2462037.0,
+          196963.0,
+          "00002615",
+          41667.0,
+          3333.0,
+          2462037,
+          196963,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHT2024003677",
+          "date": "2024-04-19T00:00:00",
+          "rows": [
+            9428,
+            9429
+          ],
+          "money": [
+            2462037,
+            196963,
+            2659000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000183"
+      ],
+      "codes": [
+        "BHHT2024005238"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        1670370,
+        133630,
+        1804000
+      ],
+      "amis_money": [
+        1670370,
+        133630,
+        1804000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CÔNG TY TNHH DRACO LOGISTICS VIỆT NAM"
+      ],
+      "exclusion_rows": [
+        98
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          183.0,
+          "25/04/2024",
+          "0318228694",
+          "CÔNG TY TNHH DRACO LOGISTICS VIỆT NAM",
+          "1/3/6 Nguyễn Thái Sơn, Phường 3, Quận Gò Vấp, Thành phố Hồ Chí Minh, Việt Nam",
+          1600926.0,
+          128074.0,
+          1729000.0,
+          "Hóa đơn đã bị điều chỉnh",
+          "578702034028431546",
+          "Tiktok",
+          "BHHT2024005238",
+          null,
+          1670370.0,
+          133630.0,
+          "00002616",
+          69444.0,
+          5556.0,
+          1670370,
+          133630,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHT2024005238",
+          "date": "2024-04-05T00:00:00",
+          "rows": [
+            6562,
+            6563
+          ],
+          "money": [
+            1670370,
+            133630,
+            1804000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000245"
+      ],
+      "codes": [
+        "BHHT2024005648"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        1702778,
+        136222,
+        1839000
+      ],
+      "amis_money": [
+        1702778,
+        136222,
+        1839000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CÔNG TY TNHH THƯƠNG MẠI VÀ SẢN XUẤT TÂN VẠN PHÚC"
+      ],
+      "exclusion_rows": [
+        89
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          245.0,
+          "28/05/2024",
+          "0301417333",
+          "CÔNG TY TNHH THƯƠNG MẠI VÀ SẢN XUẤT TÂN VẠN PHÚC",
+          "5/6 Quốc lộ 1A, ấp 3, Xã Tân Quý Tây, Huyện Bình Chánh, Thành phố Hồ Chí Minh, Việt Nam",
+          1591667.0,
+          127333.0,
+          1719000.0,
+          "Hóa đơn đã bị điều chỉnh",
+          "578872398699530297",
+          "Tiktok",
+          "BHHT2024005648",
+          null,
+          1702778.0,
+          136222.0,
+          "00002620",
+          111111.0,
+          8889.0,
+          1702778,
+          136222,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHT2024005648",
+          "date": "2024-05-28T00:00:00",
+          "rows": [
+            13444,
+            13445
+          ],
+          "money": [
+            1702778,
+            136222,
+            1839000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000386"
+      ],
+      "codes": [
+        "BHHT2024005861"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        3406481,
+        272518,
+        3678999
+      ],
+      "amis_money": [
+        3406481,
+        272519,
+        3679000
+      ],
+      "difference": [
+        0,
+        -1,
+        -1
+      ],
+      "buyers": [
+        "CÔNG TY TNHH VẬT LIỆU BAO BÌ QUỐC ĐẰNG"
+      ],
+      "exclusion_rows": [
+        61
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          386.0,
+          "15/08/2024",
+          "3702974471",
+          "CÔNG TY TNHH VẬT LIỆU BAO BÌ QUỐC ĐẰNG",
+          "ô 54 + ô 56, Lô Dc57, Đường NA4, KĐC Việt Sing, Phường Thuận Giao, Thành phố Thuận An, Tỉnh Bình Dương, Việt Nam",
+          3032500.0,
+          242600.0,
+          3275100.0,
+          "Hóa đơn đã bị điều chỉnh",
+          "578860365679135604",
+          "Tiktok",
+          "BHHT2024005861",
+          null,
+          3406481.0,
+          272519.0,
+          "00002623",
+          373981.0,
+          29918.0,
+          3406481,
+          272518,
+          0,
+          1,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHT2024005861",
+          "date": "2024-05-24T00:00:00",
+          "rows": [
+            12999,
+            13000,
+            13001,
+            13002,
+            13003,
+            13004
+          ],
+          "money": [
+            3406481,
+            272519,
+            3679000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000267"
+      ],
+      "codes": [
+        "BHHT2024005932"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        1054630,
+        84370,
+        1139000
+      ],
+      "amis_money": [
+        1054630,
+        84370,
+        1139000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CÔNG TY TNHH TRUYỀN THÔNG SPY"
+      ],
+      "exclusion_rows": [
+        77
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          267.0,
+          "11/06/2024",
+          "0317205768",
+          "CÔNG TY TNHH TRUYỀN THÔNG SPY",
+          "471 Lê Đức Thọ, Phường 16, Quận Gò Vấp, Thành phố Hồ Chí Minh, Việt Nam",
+          1054630.0,
+          84370.0,
+          1139000.0,
+          "Hóa đơn mới",
+          "578853156049422817",
+          "Tiktok",
+          "BHHT2024005932",
+          null,
+          1054630.0,
+          84370.0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHT2024005932",
+          "date": "2024-05-21T00:00:00",
+          "rows": [
+            12825
+          ],
+          "money": [
+            1054630,
+            84370,
+            1139000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000218"
+      ],
+      "codes": [
+        "BHHT2024007361"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        8467593,
+        677408,
+        9145001
+      ],
+      "amis_money": [
+        8467593,
+        677407,
+        9145000
+      ],
+      "difference": [
+        0,
+        1,
+        1
+      ],
+      "buyers": [
+        "CÔNG TY CỔ PHẦN THƯƠNG MẠI VÀ DỊCH VỤ SAGEN"
+      ],
+      "exclusion_rows": [
+        82
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          218.0,
+          "03/05/2024",
+          "0313342918",
+          "CÔNG TY CỔ PHẦN THƯƠNG MẠI VÀ DỊCH VỤ SAGEN",
+          "19 Đường 59A-TML, Khu phố 1, Phường Thạnh Mỹ Lợi, Thành phố Thủ Đức, Thành phố Hồ Chí Minh, Việt Nam",
+          8674074.0,
+          693926.0,
+          9368000.0,
+          "Hóa đơn đã bị điều chỉnh",
+          "578770925371427801",
+          "Tiktok",
+          "BHHT2024007361",
+          null,
+          8467593.0,
+          677407.0,
+          "00001560",
+          -206481.0,
+          -16518.0,
+          8467593,
+          677408,
+          0,
+          -1,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHT2024007361",
+          "date": "2024-05-02T00:00:00",
+          "rows": [
+            10485
+          ],
+          "money": [
+            8467593,
+            677407,
+            9145000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000349"
+      ],
+      "codes": [
+        "BHHT2024010766"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        2573148,
+        205852,
+        2779000
+      ],
+      "amis_money": [
+        2573148,
+        205852,
+        2779000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CÔNG TY TNHH CYBERTOK"
+      ],
+      "exclusion_rows": [
+        74
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          349.0,
+          "19/07/2024",
+          "0318358598",
+          "CÔNG TY TNHH CYBERTOK",
+          "Số 14 đường Sông Thao, Phường 2, Quận Tân Bình, Thành phố Hồ Chí Minh, Việt Nam",
+          2315833.0,
+          185267.0,
+          2501100.0,
+          "Hóa đơn đã bị điều chỉnh",
+          "579076274781849614",
+          "Tiktok",
+          "BHHT2024010766",
+          null,
+          2573148.0,
+          205852.0,
+          "00002621",
+          257315.0,
+          20585.0,
+          2573148,
+          205852,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHT2024010766",
+          "date": "2024-07-18T00:00:00",
+          "rows": [
+            19636,
+            19637
+          ],
+          "money": [
+            2573148,
+            205852,
+            2779000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000380"
+      ],
+      "codes": [
+        "BHHT2024013466"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        1663333,
+        133066,
+        1796399
+      ],
+      "amis_money": [
+        1663333,
+        133067,
+        1796400
+      ],
+      "difference": [
+        0,
+        -1,
+        -1
+      ],
+      "buyers": [
+        "CÔNG TY TNHH ĐẦU TƯ XÂY DỰNG KIẾN TRÚC NHÀ NHIỆT ĐỚI"
+      ],
+      "exclusion_rows": [
+        60
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          380.0,
+          "12/08/2024",
+          "0314382550",
+          "CÔNG TY TNHH ĐẦU TƯ XÂY DỰNG KIẾN TRÚC NHÀ NHIỆT ĐỚI",
+          "692/11 Xô Viết Nghệ Tĩnh, Phường 25, Quận Bình Thạnh, Thành phố Hồ Chí Minh, Việt Nam",
+          1505556.0,
+          120444.0,
+          1626000.0,
+          "Hóa đơn đã bị điều chỉnh",
+          "579175521444071480",
+          "Tiktok",
+          "BHHT2024013466",
+          null,
+          1663333.0,
+          133067.0,
+          "00002622",
+          157777.0,
+          12622.0,
+          1663333,
+          133066,
+          0,
+          1,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHT2024013466",
+          "date": "2024-08-11T00:00:00",
+          "rows": [
+            23585,
+            23586
+          ],
+          "money": [
+            1663333,
+            133067,
+            1796400
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000378"
+      ],
+      "codes": [
+        "BHHT2024013876"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        2295370,
+        183630,
+        2479000
+      ],
+      "amis_money": [
+        2295370,
+        183630,
+        2479000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "NGÂN HÀNG THƯƠNG MẠI CỔ PHẦN QUÂN ĐỘI"
+      ],
+      "exclusion_rows": [
+        58
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          378.0,
+          "07/08/2024",
+          "0100283873",
+          "NGÂN HÀNG THƯƠNG MẠI CỔ PHẦN QUÂN ĐỘI",
+          "Số 18 Lê Văn Lương, Phường Trung Hoà, Quận Cầu Giấy, Thành phố Hà Nội, Việt Nam",
+          2295370.0,
+          183630.0,
+          2479000.0,
+          "Hóa đơn mới",
+          "579163497285257509",
+          "Tiktok",
+          "BHHT2024013876",
+          null,
+          2295370.0,
+          183630.0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHT2024013876",
+          "date": "2024-08-07T00:00:00",
+          "rows": [
+            22505,
+            22506
+          ],
+          "money": [
+            2295370,
+            183630,
+            2479000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000471"
+      ],
+      "codes": [
+        "BHHT2024015032"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        925000,
+        74000,
+        999000
+      ],
+      "amis_money": [
+        925000,
+        74000,
+        999000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CÔNG TY TNHH THƯƠNG MẠI & DỊCH VỤ PHƯƠNG NAM THÀNH"
+      ],
+      "exclusion_rows": [
+        56
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          471.0,
+          "24/09/2024",
+          "4001007661",
+          "CÔNG TY TNHH THƯƠNG MẠI & DỊCH VỤ PHƯƠNG NAM THÀNH",
+          "104 Nguyễn Thái Học, Phường An Mỹ, Thành phố Tam Kỳ, Tỉnh Quảng Nam, Việt Nam",
+          786111.0,
+          62889.0,
+          849000.0,
+          "Hóa đơn đã bị điều chỉnh",
+          "579361174110767459",
+          "Tiktok",
+          "BHHT2024015032",
+          null,
+          925000.0,
+          74000.0,
+          "00002627",
+          138889.0,
+          11111.0,
+          925000,
+          74000,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHT2024015032",
+          "date": "2024-09-23T00:00:00",
+          "rows": [
+            29876
+          ],
+          "money": [
+            925000,
+            74000,
+            999000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000461"
+      ],
+      "codes": [
+        "BHHT2024015517"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        962037,
+        76963,
+        1039000
+      ],
+      "amis_money": [
+        962037,
+        76963,
+        1039000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ TƯ VẤN ĐẦU TƯ XÂY DỰNG HUY PHÁT"
+      ],
+      "exclusion_rows": [
+        51
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          461.0,
+          "18/09/2024",
+          "1801739475",
+          "CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ TƯ VẤN ĐẦU TƯ XÂY DỰNG HUY PHÁT",
+          "386/7A, Đường Cách Mạng Tháng Tám, Phường Bùi Hữu Nghĩa, Quận Bình Thuỷ, Thành phố Cần Thơ, Việt Nam",
+          795370.0,
+          63630.0,
+          859000.0,
+          "Hóa đơn đã bị điều chỉnh",
+          "579344317583100843",
+          "Tiktok",
+          "BHHT2024015517",
+          null,
+          962037.0,
+          76963.0,
+          "00002626",
+          166667.0,
+          13333.0,
+          962037,
+          76963,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHT2024015517",
+          "date": "2024-09-18T00:00:00",
+          "rows": [
+            29031
+          ],
+          "money": [
+            962037,
+            76963,
+            1039000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000460"
+      ],
+      "codes": [
+        "BHHT2024017046"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        1702778,
+        136222,
+        1839000
+      ],
+      "amis_money": [
+        1702778,
+        136222,
+        1839000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CÔNG TY TNHH MINH QUÂN MQB"
+      ],
+      "exclusion_rows": [
+        50
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          460.0,
+          "17/09/2024",
+          "0313418500",
+          "CÔNG TY TNHH MINH QUÂN MQB",
+          "116/24 Bình Lợi, Phường 13, Quận Bình Thạnh, Thành phố Hồ Chí Minh, Việt Nam",
+          1447361.0,
+          115789.0,
+          1563150.0,
+          "Hóa đơn đã bị điều chỉnh",
+          "579252169447082533",
+          "Tiktok",
+          "BHHT2024017046",
+          null,
+          1702778.0,
+          136222.0,
+          "00002625",
+          255417.0,
+          20433.0,
+          1702778,
+          136222,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHT2024017046",
+          "date": "2024-08-29T00:00:00",
+          "rows": [
+            25834
+          ],
+          "money": [
+            1702778,
+            136222,
+            1839000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000541"
+      ],
+      "codes": [
+        "BHHT2024017301"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        803704,
+        64297,
+        868001
+      ],
+      "amis_money": [
+        803704,
+        64296,
+        868000
+      ],
+      "difference": [
+        0,
+        1,
+        1
+      ],
+      "buyers": [
+        "CÔNG TY TNHH HI-LEVEL ENTERPRISE"
+      ],
+      "exclusion_rows": [
+        41
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          541.0,
+          "30/10/2024",
+          "3702501637",
+          "CÔNG TY TNHH HI-LEVEL ENTERPRISE",
+          "Lô B7 Khu công nghiệp Đại Đăng, Phường Phú Tân, Thành phố Thủ Dầu Một, Tỉnh Bình Dương, Việt Nam",
+          834907.0,
+          66793.0,
+          901700.0,
+          "Hóa đơn đã bị điều chỉnh",
+          "579523460756113690",
+          "Tiktok",
+          "BHHT2024017301",
+          null,
+          803704.0,
+          64296.0,
+          "00002634",
+          -31203.0,
+          -2496.0,
+          803704,
+          64297,
+          0,
+          -1,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHT2024017301",
+          "date": "2024-10-26T00:00:00",
+          "rows": [
+            34839
+          ],
+          "money": [
+            803704,
+            64296,
+            868000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000534"
+      ],
+      "codes": [
+        "BHHT2024017692"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        2202778,
+        176222,
+        2379000
+      ],
+      "amis_money": [
+        2202778,
+        176222,
+        2379000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CÔNG TY TNHH DỊCH VỤ TRUYỀN THÔNG DTC"
+      ],
+      "exclusion_rows": [
+        37
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          534.0,
+          "22/10/2024",
+          "0109997537",
+          "CÔNG TY TNHH DỊCH VỤ TRUYỀN THÔNG DTC",
+          "Số nhà 21A, ngách 56, ngõ 79 đường Cầu Giấy, tổ 3, Phường Yên Hoà, Quận Cầu Giấy, Thành phố Hà Nội, Việt Nam",
+          2026556.0,
+          162124.0,
+          2188680.0,
+          "Hóa đơn đã bị điều chỉnh",
+          "579487419366476134",
+          "Tiktok",
+          "BHHT2024017692",
+          null,
+          2202778.0,
+          176222.0,
+          "00002642",
+          176222.0,
+          14098.0,
+          2202778,
+          176222,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHT2024017692",
+          "date": "2024-10-21T00:00:00",
+          "rows": [
+            34076
+          ],
+          "money": [
+            2202778,
+            176222,
+            2379000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000530"
+      ],
+      "codes": [
+        "BHHT2024017750"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        962037,
+        76963,
+        1039000
+      ],
+      "amis_money": [
+        962037,
+        76963,
+        1039000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CÔNG TY CỔ PHẦN DU LỊCH VÀ ĐẦU TƯ MELI CLUB"
+      ],
+      "exclusion_rows": [
+        35
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          530.0,
+          "21/10/2024",
+          "0318344789",
+          "CÔNG TY CỔ PHẦN DU LỊCH VÀ ĐẦU TƯ MELI CLUB",
+          "Tòa Dreamplex, 195 Điện Biên Phủ, Phường 15, Quận Bình Thạnh, Thành phố Hồ Chí Minh, Việt Nam",
+          846593.0,
+          67727.0,
+          914320.0,
+          "Hóa đơn đã bị điều chỉnh",
+          "579488501531839187",
+          "Tiktok",
+          "BHHT2024017750",
+          null,
+          962037.0,
+          76963.0,
+          "00002631",
+          115444.0,
+          9236.0,
+          962037,
+          76963,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHT2024017750",
+          "date": "2024-10-20T00:00:00",
+          "rows": [
+            33952
+          ],
+          "money": [
+            962037,
+            76963,
+            1039000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000539"
+      ],
+      "codes": [
+        "BHHT2024017794"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        2573148,
+        205852,
+        2779000
+      ],
+      "amis_money": [
+        2573148,
+        205852,
+        2779000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CÔNG TY TNHH TRUYỀN THÔNG VÀ SỰ KIỆN NEW SKY"
+      ],
+      "exclusion_rows": [
+        39
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          539.0,
+          "30/10/2024",
+          "0318232274",
+          "CÔNG TY TNHH TRUYỀN THÔNG VÀ SỰ KIỆN NEW SKY",
+          "146/10/9 Tô Ký, phường Đông Hưng Thuận, Quận 12, Thành phố Hồ Chí Minh, Việt Nam",
+          2187176.0,
+          174974.0,
+          2362150.0,
+          "Hóa đơn đã bị điều chỉnh",
+          "579489105018194942",
+          "Tiktok",
+          "BHHT2024017794",
+          null,
+          2573148.0,
+          205852.0,
+          "00002633",
+          385972.0,
+          30878.0,
+          2573148,
+          205852,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHT2024017794",
+          "date": "2024-10-19T00:00:00",
+          "rows": [
+            33780
+          ],
+          "money": [
+            2573148,
+            205852,
+            2779000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000526"
+      ],
+      "codes": [
+        "BHHT2024018174"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        1702778,
+        136222,
+        1839000
+      ],
+      "amis_money": [
+        1702778,
+        136222,
+        1839000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CÔNG TY TNHH DU LỊCH & SỰ KIỆN PHƯỢNG HOÀNG"
+      ],
+      "exclusion_rows": [
+        34
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          526.0,
+          "17/10/2024",
+          "0315568491",
+          "CÔNG TY TNHH DU LỊCH & SỰ KIỆN PHƯỢNG HOÀNG",
+          "VP 02, Tầng 10, Tòa nhà Pearl Plaza, Số 561A Điện Biên Phủ, Phường 25, Quận Bình Thạnh, Thành phố Hồ Chí Minh, Việt Nam",
+          1532500.0,
+          122600.0,
+          1655100.0,
+          "Hóa đơn đã bị điều chỉnh",
+          "579481957643422099",
+          "Tiktok",
+          "BHHT2024018174",
+          null,
+          1702778.0,
+          136222.0,
+          "00002630",
+          170278.0,
+          13622.0,
+          1702778,
+          136222,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHT2024018174",
+          "date": "2024-10-17T00:00:00",
+          "rows": [
+            33379
+          ],
+          "money": [
+            1702778,
+            136222,
+            1839000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000524"
+      ],
+      "codes": [
+        "BHHT2024018495"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        2515185,
+        201215,
+        2716400
+      ],
+      "amis_money": [
+        2515185,
+        201215,
+        2716400
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ DU LỊCH TÀI PHƯỚC THÀNH"
+      ],
+      "exclusion_rows": [
+        33
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          524.0,
+          "16/10/2024",
+          "1801510068",
+          "CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ DU LỊCH TÀI PHƯỚC THÀNH",
+          "412/2 A, Cách Mạng Tháng Tám, Phường Bùi Hữu Nghĩa, Quận Bình Thuỷ, Thành phố Cần Thơ, Việt Nam",
+          2283333.0,
+          182667.0,
+          2466000.0,
+          "Hóa đơn đã bị điều chỉnh",
+          "579465803582245741",
+          "Tiktok",
+          "BHHT2024018495",
+          null,
+          2515185.0,
+          201215.0,
+          "00002629",
+          231852.0,
+          18548.0,
+          2515185,
+          201215,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHT2024018495",
+          "date": "2024-10-14T00:00:00",
+          "rows": [
+            32666
+          ],
+          "money": [
+            2515185,
+            201215,
+            2716400
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000516"
+      ],
+      "codes": [
+        "BHHT2024018921"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        2573148,
+        205852,
+        2779000
+      ],
+      "amis_money": [
+        2573148,
+        205852,
+        2779000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CÔNG TY TNHH SX VÀ TMDV ĐỒNG XU KỶ NIỆM ZINO"
+      ],
+      "exclusion_rows": [
+        29
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          516.0,
+          "14/10/2024",
+          "0318522093",
+          "CÔNG TY TNHH SX VÀ TMDV ĐỒNG XU KỶ NIỆM ZINO",
+          "150/3 Lê Lợi, Phường 4, Quận Gò Vấp, Thành phố Hồ Chí Minh, Việt Nam",
+          2202778.0,
+          176222.0,
+          2379000.0,
+          "Hóa đơn đã bị điều chỉnh",
+          "579455986800364255",
+          "Tiktok",
+          "BHHT2024018921",
+          null,
+          2573148.0,
+          205852.0,
+          "00002628",
+          370370.0,
+          29630.0,
+          2573148,
+          205852,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHT2024018921",
+          "date": "2024-10-11T00:00:00",
+          "rows": [
+            32069,
+            32070
+          ],
+          "money": [
+            2573148,
+            205852,
+            2779000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000609"
+      ],
+      "codes": [
+        "BHHT2024019852"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        2526852,
+        202148,
+        2729000
+      ],
+      "amis_money": [
+        2526852,
+        202148,
+        2729000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "TỔNG CÔNG TY BẢO VIỆT NHÂN THỌ"
+      ],
+      "exclusion_rows": [
+        22
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          609.0,
+          "27/11/2024",
+          "0102641429",
+          "TỔNG CÔNG TY BẢO VIỆT NHÂN THỌ",
+          "Tầng 37, Keangnam Ha Noi Landmark Tower, đường Phạm Hùng, Phường Mễ Trì, Quận Nam Từ Liêm, Thành phố Hà Nội, Việt Nam",
+          2341667.0,
+          187333.0,
+          2529000.0,
+          "Hóa đơn đã bị điều chỉnh",
+          "579678018260928910",
+          "Tiktok",
+          "BHHT2024019852",
+          null,
+          2526852.0,
+          202148.0,
+          "00002638",
+          185185.0,
+          14815.0,
+          2526852,
+          202148,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHT2024019852",
+          "date": "2024-11-26T00:00:00",
+          "rows": [
+            39320,
+            39321
+          ],
+          "money": [
+            2526852,
+            202148,
+            2729000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000599"
+      ],
+      "codes": [
+        "BHHT2024019990"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        1276852,
+        102149,
+        1379001
+      ],
+      "amis_money": [
+        1276852,
+        102148,
+        1379000
+      ],
+      "difference": [
+        0,
+        1,
+        1
+      ],
+      "buyers": [
+        "CÔNG TY TNHH XUẤT NHẬP KHẨU MACA HILLS"
+      ],
+      "exclusion_rows": [
+        20
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          599.0,
+          "25/11/2024",
+          "6400448686",
+          "CÔNG TY TNHH XUẤT NHẬP KHẨU MACA HILLS",
+          "Tổ dân phố 3, Phường Nghĩa Thành, Thành phố Gia Nghĩa, Tỉnh Đắk Nông, Việt Nam",
+          1047019.0,
+          83762.0,
+          1130781.0,
+          "Hóa đơn đã bị điều chỉnh",
+          "579669737495824617",
+          "Tiktok",
+          "BHHT2024019990",
+          null,
+          1276852.0,
+          102148.0,
+          "00002196",
+          229833.0,
+          18387.0,
+          1276852,
+          102149,
+          0,
+          -1,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHT2024019990",
+          "date": "2024-11-24T00:00:00",
+          "rows": [
+            39109
+          ],
+          "money": [
+            1276852,
+            102148,
+            1379000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000568"
+      ],
+      "codes": [
+        "BHHT2024021233"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        1884630,
+        150770,
+        2035400
+      ],
+      "amis_money": [
+        1884630,
+        150770,
+        2035400
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CÔNG TY TNHH MỘT THÀNH VIÊN XÂY DỰNG XUÂN TRƯỜNG ĐẮK NÔNG"
+      ],
+      "exclusion_rows": [
+        18
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          568.0,
+          "13/11/2024",
+          "6400397008",
+          "CÔNG TY TNHH MỘT THÀNH VIÊN XÂY DỰNG XUÂN TRƯỜNG ĐẮK NÔNG",
+          "Tổ 1, Phường Nghĩa Trung, Thành phố Gia Nghĩa, Tỉnh Đắk Nông, Việt Nam",
+          1726852.0,
+          138148.0,
+          1865000.0,
+          "Hóa đơn đã bị điều chỉnh",
+          "579622523415529731",
+          "Tiktok",
+          "BHHT2024021233",
+          null,
+          1884630.0,
+          150770.0,
+          "00002636",
+          157778.0,
+          12622.0,
+          1884630,
+          150770,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHT2024021233",
+          "date": "2024-11-13T00:00:00",
+          "rows": [
+            37291
+          ],
+          "money": [
+            1884630,
+            150770,
+            2035400
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000567"
+      ],
+      "codes": [
+        "BHHT2024021302"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        962037,
+        76963,
+        1039000
+      ],
+      "amis_money": [
+        962037,
+        76963,
+        1039000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CÔNG TY TNHH KHÁCH SẠN NỮ HOÀNG ELIZABETH"
+      ],
+      "exclusion_rows": [
+        17
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          567.0,
+          "12/11/2024",
+          "3702483628",
+          "CÔNG TY TNHH KHÁCH SẠN NỮ HOÀNG ELIZABETH",
+          "Số 17/41, Trần Văn ơn, Khu phố 6, Phường Phú Hòa, Thành phố Thủ Dầu Một, Tỉnh Bình Dương, Việt Nam",
+          813889.0,
+          65111.0,
+          879000.0,
+          "Hóa đơn đã bị điều chỉnh",
+          "579621705911404561",
+          "Tiktok",
+          "BHHT2024021302",
+          null,
+          962037.0,
+          76963.0,
+          "00002635",
+          148148.0,
+          11852.0,
+          962037,
+          76963,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHT2024021302",
+          "date": "2024-11-12T00:00:00",
+          "rows": [
+            36959
+          ],
+          "money": [
+            962037,
+            76963,
+            1039000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000542"
+      ],
+      "codes": [
+        "BHHT2024022346"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        4035185,
+        322815,
+        4358000
+      ],
+      "amis_money": [
+        4035185,
+        322815,
+        4358000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CÔNG TY TNHH MỘT THÀNH VIÊN PHẠM NGÂN NHI"
+      ],
+      "exclusion_rows": [
+        42
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          542.0,
+          "30/10/2024",
+          "0401699508",
+          "CÔNG TY TNHH MỘT THÀNH VIÊN PHẠM NGÂN NHI",
+          "170 Võ Nguyên Giáp, Phường Phước Mỹ, Quận Sơn Trà, Thành phố Đà Nẵng, Việt Nam",
+          4035185.0,
+          322815.0,
+          4358000.0,
+          "Hóa đơn mới",
+          "579522212693182576",
+          "Tiktok",
+          "BHHT2024022346",
+          null,
+          4035185.0,
+          322815.0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHT2024022346",
+          "date": "2024-10-30T00:00:00",
+          "rows": [
+            35458
+          ],
+          "money": [
+            4035185,
+            322815,
+            4358000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000719"
+      ],
+      "codes": [
+        "BHHT2024022934"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        7095370,
+        567630,
+        7663000
+      ],
+      "amis_money": [
+        7095370,
+        567630,
+        7663000
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CÔNG TY TNHH HOURENSOU VIỆT NAM"
+      ],
+      "exclusion_rows": [
+        13
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          719.0,
+          "25/12/2024",
+          "0700836294",
+          "CÔNG TY TNHH HOURENSOU VIỆT NAM",
+          "Số 39 Tân Khai, Phường Minh Khai, Thành phố Phủ Lý, Tỉnh Hà Nam, Việt Nam",
+          6793611.0,
+          543489.0,
+          7337100.0,
+          "Hóa đơn đã bị điều chỉnh",
+          "579780912382053031",
+          "Tiktok",
+          "BHHT2024022934",
+          null,
+          7095370.0,
+          567630.0,
+          "00002275",
+          301759.0,
+          24141.0,
+          7095370,
+          567630,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHT2024022934",
+          "date": "2024-12-23T00:00:00",
+          "rows": [
+            43515,
+            43516,
+            43517,
+            43518,
+            43519
+          ],
+          "money": [
+            7095370,
+            567630,
+            7663000
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000659"
+      ],
+      "codes": [
+        "BHHT2024024139"
+      ],
+      "missing_codes": [],
+      "invoice_money": [
+        2397221,
+        191778,
+        2588999
+      ],
+      "amis_money": [
+        2813888,
+        225111,
+        3038999
+      ],
+      "difference": [
+        -416667,
+        -33333,
+        -450000
+      ],
+      "buyers": [
+        "CÔNG TY CỔ PHẦN VGENTECH"
+      ],
+      "exclusion_rows": [
+        6
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          659.0,
+          "11/12/2024",
+          "0109724748",
+          "CÔNG TY CỔ PHẦN VGENTECH",
+          "Xóm 8, thôn Việt Yên, Xã Ngũ Hiệp, Huyện Thanh Trì, Thành phố Hà Nội, Việt Nam",
+          2397221.0,
+          191778.0,
+          2588999.0,
+          "Hóa đơn đã bị điều chỉnh",
+          "579703438136150806",
+          "Tiktok",
+          "BHHT2024024139",
+          null,
+          2813888.0,
+          225111.0,
+          "00002639",
+          416667.0,
+          33333.0,
+          2813888,
+          225111,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": [
+        {
+          "doc": "BHHT2024024139",
+          "date": "2024-12-07T00:00:00",
+          "rows": [
+            41137,
+            41138
+          ],
+          "money": [
+            2813888,
+            225111,
+            3038999
+          ]
+        }
+      ]
+    },
+    {
+      "roots": [
+        "1C24TUV/00000063"
+      ],
+      "codes": [],
+      "missing_codes": [],
+      "invoice_money": [
+        0,
+        0,
+        0
+      ],
+      "amis_money": [
+        0,
+        0,
+        0
+      ],
+      "difference": [
+        0,
+        0,
+        0
+      ],
+      "buyers": [
+        "CÔNG TY CỔ PHẦN DỊCH VỤ LOGISTICS DẦU KHÍ VIỆT NAM"
+      ],
+      "exclusion_rows": [
+        112
+      ],
+      "exclusion_values": [
+        [
+          "1C24TUV",
+          63.0,
+          "20/02/2024",
+          "0311523789",
+          "CÔNG TY CỔ PHẦN DỊCH VỤ LOGISTICS DẦU KHÍ VIỆT NAM",
+          "Phòng 201-202, Lầu 2, Tòa nhà PetroVietNam, Số 1-5 Lê Duẩn, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh, Việt Nam",
+          0.0,
+          0.0,
+          0.0,
+          "Hóa đơn mới",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0,
+          0,
+          null
+        ]
+      ],
+      "amis_docs": []
+    }
+  ],
+  "outside_chains": [],
+  "unresolved_exclusions": [
+    [
+      "1C24TUV/00000344",
+      "HD cty 2024 dòng 69",
+      "BHHN2024000079",
+      "CHI NHÁNH HẢI PHÒNG - CÔNG TY TNHH MỘT THÀNH VIÊN KHÁCH SẠN AZUMAYA",
+      "Mã cũ đã gộp vào BHHN2024000078; đã loại mã mới",
+      null
+    ],
+    [
+      "1C24TUV/00000111",
+      "HD cty 2024 dòng 101",
+      "BHH2023005090",
+      "CÔNG TY TNHH SẢN XUẤT VÀ ĐẦU TƯ AKIA",
+      "Mã năm 2023 không có trong sổ 2024",
+      null
+    ],
+    [
+      "1C24TUV/00000060",
+      "HD cty 2024 dòng 109",
+      null,
+      "CÔNG TY CỔ PHẦN XÂY DỰNG VÀ NỘI THẤT PHÚ MINH",
+      "Thiếu BHH: chưa tự loại theo tên/MST",
+      null
+    ],
+    [
+      "1C24TUV/00000063",
+      "HD cty 2024 dòng 112",
+      null,
+      "CÔNG TY CỔ PHẦN DỊCH VỤ LOGISTICS DẦU KHÍ VIỆT NAM",
+      "Thiếu BHH: chưa tự loại theo tên/MST",
+      null
+    ],
+    [
+      "1C24TUV/00000585",
+      "HĐ ghi nhận UVG 2024 dòng 57",
+      null,
+      "Trường mầm non Kid's Smile - Đình bảng - Từ Sơn - Bắc Ninh",
+      "Chỉ có ở bảng ghi nhận, chưa có BHH xác nhận; mã đơn: HD007313.03",
+      null
+    ],
+    [
+      "1C24TUV/00000586",
+      "HĐ ghi nhận UVG 2024 dòng 58",
+      null,
+      "197/2 phương thành, kp 4. P bình san, tp hà tiên, t kiên giang",
+      "Chỉ có ở bảng ghi nhận, chưa có BHH xác nhận; mã đơn: HD007319.01",
+      null
+    ],
+    [
+      "1C24TUV/00000785",
+      "HĐ ghi nhận UVG 2024 dòng 63",
+      null,
+      "Cty KBF",
+      "Chỉ có ở bảng ghi nhận, chưa có BHH xác nhận; mã đơn: HD005210.01.01",
+      null
+    ]
+  ]
+}

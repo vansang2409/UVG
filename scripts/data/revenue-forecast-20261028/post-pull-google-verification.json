@@ -1,0 +1,74 @@
+{
+  "source_commit": "9cb2cca618adba607d0134ec9fadac6521c53da7",
+  "spreadsheet_id": "1d4fLQRALDLXOFOQQlZuXMCTAg4lnRQ7NbKH-UPJN0XE",
+  "sheets": [
+    "Ra soat chuoi 2024",
+    "Doi chieu lech 2024"
+  ],
+  "chain_rows": 778,
+  "gap_rows": 118,
+  "summary": [
+    47402157888,
+    -46407850480,
+    -371344277,
+    622963131,
+    49533443555,
+    -225865926,
+    49930540760,
+    49928171800,
+    2368960,
+    0,
+    2368960
+  ],
+  "chain_retained": 622963131,
+  "gap_sum": 2368960,
+  "gap_vat": 189518,
+  "gap_payment": 2558478,
+  "four_chains": [
+    {
+      "root": "1C24TUV/00000003",
+      "before": 10978045,
+      "reduction": -10978045,
+      "retained": 0
+    },
+    {
+      "root": "1C24TUV/00000478",
+      "before": 2573148,
+      "reduction": -2573148,
+      "retained": 0
+    },
+    {
+      "root": "1C24TUV/00000498",
+      "before": 215558148,
+      "reduction": -215558148,
+      "retained": 0
+    },
+    {
+      "root": "1C24TUV/00000574",
+      "before": 1702778,
+      "reduction": -1702778,
+      "retained": 0
+    }
+  ],
+  "gap_top": [
+    [
+      "HĐ 111: liên quan đơn bán năm 2023",
+      3888889
+    ],
+    [
+      "16 nhóm có tiền hàng khác AMIS",
+      -1519929
+    ],
+    [
+      "TỔNG CHÊNH CÒN LẠI",
+      2368960
+    ],
+    [
+      "4 cặp cũ: số còn giữ lại",
+      0
+    ]
+  ],
+  "formula_errors": [],
+  "status": "passed",
+  "workbook_imports_changed": false
+}

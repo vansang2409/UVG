@@ -30,7 +30,7 @@ const info=[
  ['Hóa đơn trong file import',counts.documents],['Dòng hàng import',counts.import_lines],['Tiền hàng bán gốc',counts.net_goods],['VAT bán gốc',counts.net_vat],['Thanh toán bán gốc',counts.net_payment],
  ['Cách xử lý trả lại','Lập bán gốc trước, điều chỉnh trả lại riêng sau khi có số hóa đơn thực tế. Import giữ toàn bộ SL, đơn giá, tiền hàng và VAT của chứng từ bán gốc; không bù trừ BTL.'],
  ['Đã khôi phục hai đơn bù trừ trước đây','BHHT2024006103 / BTL00070 và BHHT2024024887 / BTL00180: khôi phục toàn bộ dòng, SL, tiền hàng và VAT bán gốc.'],
- ['Hai đơn lệch tiền trả','BHHS2024000629 / BTL00023 và BHHS2024005761 / BTL00024: đưa bán gốc nguyên số vào import; phần trả tách chờ KT chốt, chưa tự ghi giảm giá.'],
+ ['Hai đơn lệch tiền trả','BHHS2024000629 / BTL00023 và BHHS2024005761 / BTL00024: giữ nguyên bán gốc; người dùng xác nhận ngày 28/10/2026 lập điều chỉnh theo Giá ghi trả và tiền BTL AMIS, không tự giảm giá bổ sung.'],
  ['Liên kết BTL bổ sung','BTL00145 → BHHT2024024972 do người dùng xác nhận 27/10/2026. Giữ nguyên bán gốc trong import, BTL tách chờ điều chỉnh. Snapshot AMIS ban đầu vẫn giữ trống.'],
  ['Nguồn ngày và thanh toán','Ngày chứng từ AMIS; TM/CK cho toàn bộ theo xác nhận.'],
  ['Thuế suất','Đơn có tiền: suy ra duy nhất 5/8/10% từ tiền hàng/VAT, dung sai làm tròn 1đ/dòng. Hai đơn khuyến mại tiền 0 dùng 8% theo xác nhận riêng của người dùng; không suy ra từ số 0. Giữ nguyên tiền VAT chứng từ bán gốc.'],

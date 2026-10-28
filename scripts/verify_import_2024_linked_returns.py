@@ -118,7 +118,7 @@ def main():
     assert 'Tra lai cho dieu chinh' not in check.sheetnames
     adjustment=json.loads((WORK/'return-adjustment-import.json').read_text(encoding='utf8'))
     ready=list(check['Import dieu chinh'].iter_rows(min_row=10,values_only=True))
-    assert len(ready)==216 and len({r[0] for r in ready})==161
+    assert len(ready)==219 and len({r[0] for r in ready})==163
     assert tuple(next(check['Import dieu chinh'].iter_rows(min_row=9,max_row=9,values_only=True)))==tuple(adjustment['headers'])
     assert all(all(r[i] is None for i in [1,8,9,10,11,12]) for r in ready)
     used_return_sources=set()
@@ -128,11 +128,11 @@ def main():
         matches=[n for n in candidates if n not in used_return_sources and rows[n][2]==a['btl'] and rows[n][12]==a['sku'] and [d(r[i]) for i in [16,17,18]]==[-d(rows[n][26]),d(rows[n][19]),-d(rows[n][27])]]
         assert matches,(a,r)
         used_return_sources.add(matches[0]);assert r[25]==a['bhh']
-    assert len(used_return_sources)==216
-    assert sum(d(r[18]) for r in ready)==-223182593 and sum(d(r[21]) for r in ready)==-17854608 and sum(d(r[22]) for r in ready)==-241037201
-    drafts=list(check['Cho KT tra lai'].iter_rows(min_row=2,values_only=True))
-    assert len(drafts)==3 and {r[0] for r in drafts}=={'BTL00023','BTL00024'}
-    assert sum(d(r[11]) for r in drafts)==2898000
+    assert len(used_return_sources)==219
+    assert sum(d(r[18]) for r in ready)==-225865926 and sum(d(r[21]) for r in ready)==-18069275 and sum(d(r[22]) for r in ready)==-243935201
+    assert 'Cho KT tra lai' not in check.sheetnames
+    drafts=[]
+    assert len(drafts)==0
     assert all(all(r[i] is None for i in [12,13,14,15]) for r in drafts)
     assert len(list(check['Loai chua ro'].iter_rows(min_row=2,values_only=True)))==7
     assert list(next(check['Tong hop'].iter_rows(min_row=7,max_row=7,values_only=True)))[1:]==[35017,44578,50154037726,225865926,3994254050,53922425850]
@@ -148,6 +148,10 @@ def main():
                     if file==impfile:assert not re.search(rb'<(?:\w+:)?f(?:\s|>)',xml)
     for m in meta['manifest']:assert hashlib.sha256((ROOT/m['file']).read_bytes()).hexdigest()==m['sha256']
     report={'passed':True,'return_mode':meta['return_mode'],'invoices':len(invoices),'lines':linecount,'goods':49533443555,'vat':3962675787,'payment':53496119342,'fully_returned_restored':159,'excluded_sales':115,'pending_sales_documents':0,'pending_returns_documents':163,'return_lines':219,'return_payment':243935201,'unresolved_exclusions':7,'partial_applied':[],'return_price_review':['BHHS2024000629','BHHS2024005761'],'unlinked_btl':unlinked,'accepted_promotions':sorted(promotions),'accepted_amis_rounding':sorted(accepted),'checks':['17 cột đúng mẫu, tiêu đề dòng 9','Đọc lại sổ thật và đối chiếu 44.578 dòng trung gian','Toàn bộ 44.189 dòng import đúng SL, đơn giá, tiền hàng bán gốc; không trừ BTL','159 BHH trả hết được khôi phục; 115 chứng từ loại trừ vẫn vắng mặt','163 BTL / 219 dòng tách riêng giữ nguyên nguồn, chưa có số HĐ và ngày điều chỉnh','Hai chênh lệch tiền trả tiếp tục giữ kiểm tra, không tự giảm giá','Tổng nguồn và số dòng khớp đủ, không trùng thiếu','Không lỗi công thức; import chỉ có giá trị','Hash các nguồn giữ nguyên'],'files':[{'path':str(f),'bytes':f.stat().st_size,'sha256':hashlib.sha256(f.read_bytes()).hexdigest()} for f in [impfile,OUT/'KIEM_TRA_VA_LOAI_TRU_AMIS_2024.xlsx']]}
+    report['return_price_review']=[]
+    report['confirmed_recorded_return_prices']=['BTL00023','BTL00024']
+    report['return_import_invoices']=163;report['return_import_lines']=219;report['pending_return_price_documents']=0
+    report['checks']=[c.replace('Hai chênh lệch tiền trả tiếp tục giữ kiểm tra, không tự giảm giá','BTL00023/BTL00024 dùng Giá ghi trả theo xác nhận 28/10/2026; không tự giảm giá') for c in report['checks']]
     (WORK/'verification.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf8')
     print(json.dumps(report,ensure_ascii=False,indent=2))
 

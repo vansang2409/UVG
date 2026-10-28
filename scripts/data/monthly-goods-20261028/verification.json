@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "raw_amis_lines": 44578,
+  "month_sku_rows": 282,
+  "forecast_revenue": 49930540760,
+  "amis_revenue": 49928171800,
+  "known_cost_only": 24542992457,
+  "missing_cost_invoices": [
+    "1C24TUV/00000063",
+    "1C24TUV/00000111"
+  ],
+  "unmapped_item_rows": 26,
+  "unallocated_money_rows": 17,
+  "unallocated_money": 4739490,
+  "source_hashes_verified": 30
+}

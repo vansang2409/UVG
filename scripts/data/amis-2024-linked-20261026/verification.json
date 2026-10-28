@@ -14,10 +14,7 @@
   "return_payment": 243935201,
   "unresolved_exclusions": 7,
   "partial_applied": [],
-  "return_price_review": [
-    "BHHS2024000629",
-    "BHHS2024005761"
-  ],
+  "return_price_review": [],
   "unlinked_btl": [],
   "accepted_promotions": [
     "BHHT2024013026",
@@ -38,7 +35,7 @@
     "Toàn bộ 44.189 dòng import đúng SL, đơn giá, tiền hàng bán gốc; không trừ BTL",
     "159 BHH trả hết được khôi phục; 115 chứng từ loại trừ vẫn vắng mặt",
     "163 BTL / 219 dòng tách riêng giữ nguyên nguồn, chưa có số HĐ và ngày điều chỉnh",
-    "Hai chênh lệch tiền trả tiếp tục giữ kiểm tra, không tự giảm giá",
+    "BTL00023/BTL00024 dùng Giá ghi trả theo xác nhận 28/10/2026; không tự giảm giá",
     "Tổng nguồn và số dòng khớp đủ, không trùng thiếu",
     "Không lỗi công thức; import chỉ có giá trị",
     "Hash các nguồn giữ nguyên"
@@ -51,8 +48,16 @@
     },
     {
       "path": "D:\\UVG\\outputs\\amis-2024-theo-btl-bhh-20261026\\KIEM_TRA_VA_LOAI_TRU_AMIS_2024.xlsx",
-      "bytes": 1890923,
-      "sha256": "da1562f3cee1e7a7f56b1dd086914d1af42bae5f0fa3bb4d85176a653d7cc89e"
+      "bytes": 1889903,
+      "sha256": "3850271d41b1df24d108c7295c7deaa802ec2954f6b73c341b30bc2ecde95b90"
     }
-  ]
+  ],
+  "confirmed_recorded_return_prices": [
+    "BTL00023",
+    "BTL00024"
+  ],
+  "return_import_invoices": 163,
+  "return_import_lines": 219,
+  "pending_return_price_documents": 0,
+  "removed_empty_pending_sheet": true
 }

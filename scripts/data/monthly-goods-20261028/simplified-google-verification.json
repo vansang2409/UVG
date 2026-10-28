@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-28",
+  "layout": "simple-four-column-tables",
+  "main": {
+    "revenue": "A3:D17",
+    "cost": "A19:D34",
+    "detail": "A38:N319",
+    "detail_total": 320,
+    "collapsed": "37:320"
+  },
+  "pending": {
+    "summary": "A3:D8",
+    "detail": "A12:I66",
+    "collapsed": "11:66"
+  },
+  "preservation": {
+    "main_rows": 282,
+    "main_unchanged": true,
+    "pending_rows": 55,
+    "pending_unchanged": true
+  },
+  "totals": {
+    "amis_revenue": 49928171800,
+    "invoice_forecast_revenue": 49930540760,
+    "difference": 2368960,
+    "known_cost": 24542992457,
+    "missing_cost_invoices": [
+      63,
+      111
+    ]
+  },
+  "format_verification": "Google Sheets API; browser unavailable",
+  "formula_errors": 0
+}

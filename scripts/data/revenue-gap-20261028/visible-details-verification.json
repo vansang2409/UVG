@@ -1,0 +1,25 @@
+{
+  "spreadsheet_id": "1d4fLQRALDLXOFOQQlZuXMCTAg4lnRQ7NbKH-UPJN0XE",
+  "sheet": "Doi chieu lech 2024",
+  "range": "A1:R152",
+  "visible_groups": 16,
+  "cross_invoice": [
+    "1C24TUV/00000111",
+    "BHH2023005090",
+    "CÔNG TY TNHH SẢN XUẤT VÀ ĐẦU TƯ AKIA",
+    3888889,
+    0,
+    3888889
+  ],
+  "sixteen_difference": -1519929,
+  "total_difference": 2368960,
+  "summary": [
+    3888889,
+    -1519929,
+    2368960
+  ],
+  "detail_rows": 118,
+  "underlying_audit_unchanged": true,
+  "formula_errors": [],
+  "status": "passed"
+}

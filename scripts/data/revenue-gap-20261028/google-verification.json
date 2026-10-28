@@ -1,0 +1,50 @@
+{
+  "spreadsheet_id": "1d4fLQRALDLXOFOQQlZuXMCTAg4lnRQ7NbKH-UPJN0XE",
+  "sheet": "Doi chieu lech 2024",
+  "range": "A1:R132",
+  "rowCount": 118,
+  "sums": [
+    853775250,
+    620594171,
+    233181079,
+    18654487,
+    251835566
+  ],
+  "formulaErrors": [],
+  "summary": [
+    [
+      "Hóa đơn cũ giữ lại",
+      853775250
+    ],
+    [
+      "AMIS đã loại theo danh sách",
+      620594171
+    ],
+    [
+      "Chênh cần đối chiếu",
+      233181079
+    ],
+    [
+      "3 cặp KT đã chốt giữ (3, 498, 574)",
+      228238971
+    ],
+    [
+      "Cặp 478/2578 giữ do bộ lọc MST",
+      2573148
+    ],
+    [
+      "HĐ 111: đơn bán ghi nhận năm 2023",
+      3888889
+    ],
+    [
+      "16 nhóm đã ghép BHH còn lệch tiền hàng",
+      -1519929
+    ],
+    [
+      "Kiểm tổng các nguyên nhân trừ chênh",
+      0
+    ]
+  ],
+  "status": "passed",
+  "import_changed": false
+}
