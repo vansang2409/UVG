@@ -1,0 +1,1637 @@
+{
+  "date": "2026-10-19",
+  "source": "outputs/doi-chieu-85-20261019/DANH_SACH_85_HOA_DON_KHONG_DUA_VAO_IMPORT.xlsx",
+  "output": "outputs/doi-chieu-85-20261019/UVG_72_HOA_DON_KHONG_CAN_DIEU_CHINH_20261019.xlsx",
+  "baseline_imports": {
+    "HOA_DON_CHUA_DIEU_CHINH": {
+      "invoices": 8410,
+      "rows": 13568
+    },
+    "HOA_DON_DA_DIEU_CHINH": {
+      "invoices": 2032,
+      "rows": 41790
+    }
+  },
+  "source_invoices": 10527,
+  "baseline_to_issue": 10442,
+  "previous_difference": 85,
+  "no_adjustment": 72,
+  "additional_to_issue": 13,
+  "new_to_issue": 10455,
+  "groups": [
+    {
+      "label": "Đã khớp chi tiết và số tiền",
+      "count": 62
+    },
+    {
+      "label": "Cùng chuỗi sản phẩm, đã khớp",
+      "count": 6
+    },
+    {
+      "label": "Chỉ điều chỉnh thông tin",
+      "count": 4
+    }
+  ],
+  "records": [
+    {
+      "key": [
+        "1C25TUV",
+        "00000850"
+      ],
+      "date": "2025-05-25",
+      "root": "1C25TUV/00000850",
+      "buyer": "KHÁCH HÀNG LẺ TT -KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "31 chuỗi đã khớp",
+      "source_excel_row": 7,
+      "accountant_locator": "dòng 1641 (B–C)",
+      "group": "Đã khớp chi tiết và số tiền",
+      "reason": "Đã điều chỉnh khớp chi tiết và số tiền; tổng các hóa đơn liên quan = 0.",
+      "rank": 0
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00013065"
+      ],
+      "date": "2025-09-30",
+      "root": "1C25TUV/00000850",
+      "buyer": "KHÁCH HÀNG LẺ TT -KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "31 chuỗi đã khớp",
+      "source_excel_row": 8,
+      "accountant_locator": "dòng 1641 (cột F1/F2/F3)",
+      "group": "Đã khớp chi tiết và số tiền",
+      "reason": "Đã điều chỉnh khớp chi tiết và số tiền; tổng các hóa đơn liên quan = 0.",
+      "rank": 0
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00001640"
+      ],
+      "date": "2025-05-28",
+      "root": "1C25TUV/00001640",
+      "buyer": "KHÁCH HÀNG LẺ TT -KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "31 chuỗi đã khớp",
+      "source_excel_row": 9,
+      "accountant_locator": "dòng 2431 (B–C)",
+      "group": "Đã khớp chi tiết và số tiền",
+      "reason": "Đã điều chỉnh khớp chi tiết và số tiền; tổng các hóa đơn liên quan = 0.",
+      "rank": 0
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00013066"
+      ],
+      "date": "2025-09-30",
+      "root": "1C25TUV/00001640",
+      "buyer": "KHÁCH HÀNG LẺ TT -KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "31 chuỗi đã khớp",
+      "source_excel_row": 10,
+      "accountant_locator": "dòng 2431 (cột F1/F2/F3)",
+      "group": "Đã khớp chi tiết và số tiền",
+      "reason": "Đã điều chỉnh khớp chi tiết và số tiền; tổng các hóa đơn liên quan = 0.",
+      "rank": 0
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00001680"
+      ],
+      "date": "2025-05-28",
+      "root": "1C25TUV/00001680",
+      "buyer": "KHÁCH HÀNG LẺ TT -KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "31 chuỗi đã khớp",
+      "source_excel_row": 11,
+      "accountant_locator": "dòng 2471 (B–C)",
+      "group": "Đã khớp chi tiết và số tiền",
+      "reason": "Đã điều chỉnh khớp chi tiết và số tiền; tổng các hóa đơn liên quan = 0.",
+      "rank": 0
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00013067"
+      ],
+      "date": "2025-09-30",
+      "root": "1C25TUV/00001680",
+      "buyer": "KHÁCH HÀNG LẺ TT -KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "31 chuỗi đã khớp",
+      "source_excel_row": 12,
+      "accountant_locator": "dòng 2471 (cột F1/F2/F3)",
+      "group": "Đã khớp chi tiết và số tiền",
+      "reason": "Đã điều chỉnh khớp chi tiết và số tiền; tổng các hóa đơn liên quan = 0.",
+      "rank": 0
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00001892"
+      ],
+      "date": "2025-05-29",
+      "root": "1C25TUV/00001892",
+      "buyer": "KHÁCH HÀNG LẺ TT -KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "31 chuỗi đã khớp",
+      "source_excel_row": 13,
+      "accountant_locator": "dòng 2683 (B–C)",
+      "group": "Đã khớp chi tiết và số tiền",
+      "reason": "Đã điều chỉnh khớp chi tiết và số tiền; tổng các hóa đơn liên quan = 0.",
+      "rank": 0
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00013069"
+      ],
+      "date": "2025-09-30",
+      "root": "1C25TUV/00001892",
+      "buyer": "KHÁCH HÀNG LẺ TT -KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "31 chuỗi đã khớp",
+      "source_excel_row": 14,
+      "accountant_locator": "dòng 2683 (cột F1/F2/F3)",
+      "group": "Đã khớp chi tiết và số tiền",
+      "reason": "Đã điều chỉnh khớp chi tiết và số tiền; tổng các hóa đơn liên quan = 0.",
+      "rank": 0
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00002500"
+      ],
+      "date": "2025-05-30",
+      "root": "1C25TUV/00002500",
+      "buyer": "KHÁCH HÀNG LẺ TT - KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "31 chuỗi đã khớp",
+      "source_excel_row": 15,
+      "accountant_locator": "dòng 3291 (B–C)",
+      "group": "Đã khớp chi tiết và số tiền",
+      "reason": "Đã điều chỉnh khớp chi tiết và số tiền; tổng các hóa đơn liên quan = 0.",
+      "rank": 0
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00013068"
+      ],
+      "date": "2025-09-30",
+      "root": "1C25TUV/00002500",
+      "buyer": "KHÁCH HÀNG LẺ TT - KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "31 chuỗi đã khớp",
+      "source_excel_row": 16,
+      "accountant_locator": "dòng 3291 (cột F1/F2/F3)",
+      "group": "Đã khớp chi tiết và số tiền",
+      "reason": "Đã điều chỉnh khớp chi tiết và số tiền; tổng các hóa đơn liên quan = 0.",
+      "rank": 0
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00003139"
+      ],
+      "date": "2025-06-04",
+      "root": "1C25TUV/00003139",
+      "buyer": "KHÁCH HÀNG LẺ TIKTOK - KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "31 chuỗi đã khớp",
+      "source_excel_row": 17,
+      "accountant_locator": "dòng 3930 (B–C)",
+      "group": "Đã khớp chi tiết và số tiền",
+      "reason": "Đã điều chỉnh khớp chi tiết và số tiền; tổng các hóa đơn liên quan = 0.",
+      "rank": 0
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00013071"
+      ],
+      "date": "2025-09-30",
+      "root": "1C25TUV/00003139",
+      "buyer": "KHÁCH HÀNG LẺ TIKTOK - KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "31 chuỗi đã khớp",
+      "source_excel_row": 18,
+      "accountant_locator": "dòng 3930 (cột F1/F2/F3)",
+      "group": "Đã khớp chi tiết và số tiền",
+      "reason": "Đã điều chỉnh khớp chi tiết và số tiền; tổng các hóa đơn liên quan = 0.",
+      "rank": 0
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00003256"
+      ],
+      "date": "2025-06-05",
+      "root": "1C25TUV/00003256",
+      "buyer": "KHÁCH HÀNG LẺ TIKTOK - KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "31 chuỗi đã khớp",
+      "source_excel_row": 19,
+      "accountant_locator": "dòng 4047 (B–C)",
+      "group": "Đã khớp chi tiết và số tiền",
+      "reason": "Đã điều chỉnh khớp chi tiết và số tiền; tổng các hóa đơn liên quan = 0.",
+      "rank": 0
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00013074"
+      ],
+      "date": "2025-09-30",
+      "root": "1C25TUV/00003256",
+      "buyer": "KHÁCH HÀNG LẺ TIKTOK - KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "31 chuỗi đã khớp",
+      "source_excel_row": 20,
+      "accountant_locator": "dòng 4047 (cột F1/F2/F3)",
+      "group": "Đã khớp chi tiết và số tiền",
+      "reason": "Đã điều chỉnh khớp chi tiết và số tiền; tổng các hóa đơn liên quan = 0.",
+      "rank": 0
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00003267"
+      ],
+      "date": "2025-06-05",
+      "root": "1C25TUV/00003267",
+      "buyer": "KHÁCH HÀNG LẺ TIKTOK - KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "31 chuỗi đã khớp",
+      "source_excel_row": 21,
+      "accountant_locator": "dòng 4058 (B–C)",
+      "group": "Đã khớp chi tiết và số tiền",
+      "reason": "Đã điều chỉnh khớp chi tiết và số tiền; tổng các hóa đơn liên quan = 0.",
+      "rank": 0
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00013075"
+      ],
+      "date": "2025-09-30",
+      "root": "1C25TUV/00003267",
+      "buyer": "KHÁCH HÀNG LẺ TIKTOK - KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "31 chuỗi đã khớp",
+      "source_excel_row": 22,
+      "accountant_locator": "dòng 4058 (cột F1/F2/F3)",
+      "group": "Đã khớp chi tiết và số tiền",
+      "reason": "Đã điều chỉnh khớp chi tiết và số tiền; tổng các hóa đơn liên quan = 0.",
+      "rank": 0
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00003271"
+      ],
+      "date": "2025-06-05",
+      "root": "1C25TUV/00003271",
+      "buyer": "KHÁCH HÀNG LẺ TIKTOK - KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "31 chuỗi đã khớp",
+      "source_excel_row": 23,
+      "accountant_locator": "dòng 4062 (B–C)",
+      "group": "Đã khớp chi tiết và số tiền",
+      "reason": "Đã điều chỉnh khớp chi tiết và số tiền; tổng các hóa đơn liên quan = 0.",
+      "rank": 0
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00013077"
+      ],
+      "date": "2025-09-30",
+      "root": "1C25TUV/00003271",
+      "buyer": "KHÁCH HÀNG LẺ TIKTOK - KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "31 chuỗi đã khớp",
+      "source_excel_row": 24,
+      "accountant_locator": "dòng 4062 (cột F1/F2/F3)",
+      "group": "Đã khớp chi tiết và số tiền",
+      "reason": "Đã điều chỉnh khớp chi tiết và số tiền; tổng các hóa đơn liên quan = 0.",
+      "rank": 0
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00003433"
+      ],
+      "date": "2025-06-06",
+      "root": "1C25TUV/00003433",
+      "buyer": "KHÁCH HÀNG LẺ TIKTOK - KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "31 chuỗi đã khớp",
+      "source_excel_row": 25,
+      "accountant_locator": "dòng 4224 (B–C)",
+      "group": "Đã khớp chi tiết và số tiền",
+      "reason": "Đã điều chỉnh khớp chi tiết và số tiền; tổng các hóa đơn liên quan = 0.",
+      "rank": 0
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00013078"
+      ],
+      "date": "2025-09-30",
+      "root": "1C25TUV/00003433",
+      "buyer": "KHÁCH HÀNG LẺ TIKTOK - KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "31 chuỗi đã khớp",
+      "source_excel_row": 26,
+      "accountant_locator": "dòng 4224 (cột F1/F2/F3)",
+      "group": "Đã khớp chi tiết và số tiền",
+      "reason": "Đã điều chỉnh khớp chi tiết và số tiền; tổng các hóa đơn liên quan = 0.",
+      "rank": 0
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00003498"
+      ],
+      "date": "2025-06-06",
+      "root": "1C25TUV/00003498",
+      "buyer": "KHÁCH HÀNG LẺ TIKTOK - KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "31 chuỗi đã khớp",
+      "source_excel_row": 27,
+      "accountant_locator": "dòng 4289 (B–C)",
+      "group": "Đã khớp chi tiết và số tiền",
+      "reason": "Đã điều chỉnh khớp chi tiết và số tiền; tổng các hóa đơn liên quan = 0.",
+      "rank": 0
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00013076"
+      ],
+      "date": "2025-09-30",
+      "root": "1C25TUV/00003498",
+      "buyer": "KHÁCH HÀNG LẺ TIKTOK - KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "31 chuỗi đã khớp",
+      "source_excel_row": 28,
+      "accountant_locator": "dòng 4289 (cột F1/F2/F3)",
+      "group": "Đã khớp chi tiết và số tiền",
+      "reason": "Đã điều chỉnh khớp chi tiết và số tiền; tổng các hóa đơn liên quan = 0.",
+      "rank": 0
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00003510"
+      ],
+      "date": "2025-06-06",
+      "root": "1C25TUV/00003510",
+      "buyer": "KHÁCH HÀNG LẺ TIKTOK - KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "31 chuỗi đã khớp",
+      "source_excel_row": 29,
+      "accountant_locator": "dòng 4301 (B–C)",
+      "group": "Đã khớp chi tiết và số tiền",
+      "reason": "Đã điều chỉnh khớp chi tiết và số tiền; tổng các hóa đơn liên quan = 0.",
+      "rank": 0
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00013073"
+      ],
+      "date": "2025-09-30",
+      "root": "1C25TUV/00003510",
+      "buyer": "KHÁCH HÀNG LẺ TIKTOK - KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "31 chuỗi đã khớp",
+      "source_excel_row": 30,
+      "accountant_locator": "dòng 4301 (cột F1/F2/F3)",
+      "group": "Đã khớp chi tiết và số tiền",
+      "reason": "Đã điều chỉnh khớp chi tiết và số tiền; tổng các hóa đơn liên quan = 0.",
+      "rank": 0
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00003673"
+      ],
+      "date": "2025-06-07",
+      "root": "1C25TUV/00003673",
+      "buyer": "KHÁCH HÀNG LẺ TIKTOK - KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "31 chuỗi đã khớp",
+      "source_excel_row": 31,
+      "accountant_locator": "dòng 4464 (B–C)",
+      "group": "Đã khớp chi tiết và số tiền",
+      "reason": "Đã điều chỉnh khớp chi tiết và số tiền; tổng các hóa đơn liên quan = 0.",
+      "rank": 0
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00013086"
+      ],
+      "date": "2025-09-30",
+      "root": "1C25TUV/00003673",
+      "buyer": "KHÁCH HÀNG LẺ TIKTOK - KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "31 chuỗi đã khớp",
+      "source_excel_row": 32,
+      "accountant_locator": "dòng 4464 (cột F1/F2/F3)",
+      "group": "Đã khớp chi tiết và số tiền",
+      "reason": "Đã điều chỉnh khớp chi tiết và số tiền; tổng các hóa đơn liên quan = 0.",
+      "rank": 0
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00003746"
+      ],
+      "date": "2025-06-07",
+      "root": "1C25TUV/00003746",
+      "buyer": "KHÁCH HÀNG LẺ TIKTOK - KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "31 chuỗi đã khớp",
+      "source_excel_row": 33,
+      "accountant_locator": "dòng 4537 (B–C)",
+      "group": "Đã khớp chi tiết và số tiền",
+      "reason": "Đã điều chỉnh khớp chi tiết và số tiền; tổng các hóa đơn liên quan = 0.",
+      "rank": 0
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00013080"
+      ],
+      "date": "2025-09-30",
+      "root": "1C25TUV/00003746",
+      "buyer": "KHÁCH HÀNG LẺ TIKTOK - KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "31 chuỗi đã khớp",
+      "source_excel_row": 34,
+      "accountant_locator": "dòng 4537 (cột F1/F2/F3)",
+      "group": "Đã khớp chi tiết và số tiền",
+      "reason": "Đã điều chỉnh khớp chi tiết và số tiền; tổng các hóa đơn liên quan = 0.",
+      "rank": 0
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00004002"
+      ],
+      "date": "2025-06-08",
+      "root": "1C25TUV/00004002",
+      "buyer": "KHÁCH HÀNG LẺ TIKTOK - KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "31 chuỗi đã khớp",
+      "source_excel_row": 35,
+      "accountant_locator": "dòng 4793 (B–C)",
+      "group": "Đã khớp chi tiết và số tiền",
+      "reason": "Đã điều chỉnh khớp chi tiết và số tiền; tổng các hóa đơn liên quan = 0.",
+      "rank": 0
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00013083"
+      ],
+      "date": "2025-09-30",
+      "root": "1C25TUV/00004002",
+      "buyer": "KHÁCH HÀNG LẺ TIKTOK - KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "31 chuỗi đã khớp",
+      "source_excel_row": 36,
+      "accountant_locator": "dòng 4793 (cột F1/F2/F3)",
+      "group": "Đã khớp chi tiết và số tiền",
+      "reason": "Đã điều chỉnh khớp chi tiết và số tiền; tổng các hóa đơn liên quan = 0.",
+      "rank": 0
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00004005"
+      ],
+      "date": "2025-06-08",
+      "root": "1C25TUV/00004005",
+      "buyer": "KHÁCH HÀNG LẺ TIKTOK - KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "31 chuỗi đã khớp",
+      "source_excel_row": 37,
+      "accountant_locator": "dòng 4796 (B–C)",
+      "group": "Đã khớp chi tiết và số tiền",
+      "reason": "Đã điều chỉnh khớp chi tiết và số tiền; tổng các hóa đơn liên quan = 0.",
+      "rank": 0
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00013084"
+      ],
+      "date": "2025-09-30",
+      "root": "1C25TUV/00004005",
+      "buyer": "KHÁCH HÀNG LẺ TIKTOK - KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "31 chuỗi đã khớp",
+      "source_excel_row": 38,
+      "accountant_locator": "dòng 4796 (cột F1/F2/F3)",
+      "group": "Đã khớp chi tiết và số tiền",
+      "reason": "Đã điều chỉnh khớp chi tiết và số tiền; tổng các hóa đơn liên quan = 0.",
+      "rank": 0
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00004266"
+      ],
+      "date": "2025-06-09",
+      "root": "1C25TUV/00004266",
+      "buyer": "KHÁCH HÀNG LẺ TIKTOK - KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "31 chuỗi đã khớp",
+      "source_excel_row": 39,
+      "accountant_locator": "dòng 5057 (B–C)",
+      "group": "Đã khớp chi tiết và số tiền",
+      "reason": "Đã điều chỉnh khớp chi tiết và số tiền; tổng các hóa đơn liên quan = 0.",
+      "rank": 0
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00013085"
+      ],
+      "date": "2025-09-30",
+      "root": "1C25TUV/00004266",
+      "buyer": "KHÁCH HÀNG LẺ TIKTOK - KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "31 chuỗi đã khớp",
+      "source_excel_row": 40,
+      "accountant_locator": "dòng 5057 (cột F1/F2/F3)",
+      "group": "Đã khớp chi tiết và số tiền",
+      "reason": "Đã điều chỉnh khớp chi tiết và số tiền; tổng các hóa đơn liên quan = 0.",
+      "rank": 0
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00004269"
+      ],
+      "date": "2025-06-09",
+      "root": "1C25TUV/00004269",
+      "buyer": "KHÁCH HÀNG LẺ TIKTOK - KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "31 chuỗi đã khớp",
+      "source_excel_row": 41,
+      "accountant_locator": "dòng 5060 (B–C)",
+      "group": "Đã khớp chi tiết và số tiền",
+      "reason": "Đã điều chỉnh khớp chi tiết và số tiền; tổng các hóa đơn liên quan = 0.",
+      "rank": 0
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00013081"
+      ],
+      "date": "2025-09-30",
+      "root": "1C25TUV/00004269",
+      "buyer": "KHÁCH HÀNG LẺ TIKTOK - KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "31 chuỗi đã khớp",
+      "source_excel_row": 42,
+      "accountant_locator": "dòng 5060 (cột F1/F2/F3)",
+      "group": "Đã khớp chi tiết và số tiền",
+      "reason": "Đã điều chỉnh khớp chi tiết và số tiền; tổng các hóa đơn liên quan = 0.",
+      "rank": 0
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00004494"
+      ],
+      "date": "2025-06-10",
+      "root": "1C25TUV/00004494",
+      "buyer": "KHÁCH HÀNG LẺ TIKTOK - KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "31 chuỗi đã khớp",
+      "source_excel_row": 43,
+      "accountant_locator": "dòng 5285 (B–C)",
+      "group": "Đã khớp chi tiết và số tiền",
+      "reason": "Đã điều chỉnh khớp chi tiết và số tiền; tổng các hóa đơn liên quan = 0.",
+      "rank": 0
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00013088"
+      ],
+      "date": "2025-09-30",
+      "root": "1C25TUV/00004494",
+      "buyer": "KHÁCH HÀNG LẺ TIKTOK - KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "31 chuỗi đã khớp",
+      "source_excel_row": 44,
+      "accountant_locator": "dòng 5285 (cột F1/F2/F3)",
+      "group": "Đã khớp chi tiết và số tiền",
+      "reason": "Đã điều chỉnh khớp chi tiết và số tiền; tổng các hóa đơn liên quan = 0.",
+      "rank": 0
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00004526"
+      ],
+      "date": "2025-06-10",
+      "root": "1C25TUV/00004526",
+      "buyer": "KHÁCH HÀNG LẺ TIKTOK - KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "31 chuỗi đã khớp",
+      "source_excel_row": 45,
+      "accountant_locator": "dòng 5317 (B–C)",
+      "group": "Đã khớp chi tiết và số tiền",
+      "reason": "Đã điều chỉnh khớp chi tiết và số tiền; tổng các hóa đơn liên quan = 0.",
+      "rank": 0
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00013082"
+      ],
+      "date": "2025-09-30",
+      "root": "1C25TUV/00004526",
+      "buyer": "KHÁCH HÀNG LẺ TIKTOK - KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "31 chuỗi đã khớp",
+      "source_excel_row": 46,
+      "accountant_locator": "dòng 5317 (cột F1/F2/F3)",
+      "group": "Đã khớp chi tiết và số tiền",
+      "reason": "Đã điều chỉnh khớp chi tiết và số tiền; tổng các hóa đơn liên quan = 0.",
+      "rank": 0
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00004719"
+      ],
+      "date": "2025-06-11",
+      "root": "1C25TUV/00004719",
+      "buyer": "KHÁCH HÀNG LẺ TIKTOK - KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "31 chuỗi đã khớp",
+      "source_excel_row": 47,
+      "accountant_locator": "dòng 5510 (B–C)",
+      "group": "Đã khớp chi tiết và số tiền",
+      "reason": "Đã điều chỉnh khớp chi tiết và số tiền; tổng các hóa đơn liên quan = 0.",
+      "rank": 0
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00013090"
+      ],
+      "date": "2025-09-30",
+      "root": "1C25TUV/00004719",
+      "buyer": "KHÁCH HÀNG LẺ TIKTOK - KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "31 chuỗi đã khớp",
+      "source_excel_row": 48,
+      "accountant_locator": "dòng 5510 (cột F1/F2/F3)",
+      "group": "Đã khớp chi tiết và số tiền",
+      "reason": "Đã điều chỉnh khớp chi tiết và số tiền; tổng các hóa đơn liên quan = 0.",
+      "rank": 0
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00004730"
+      ],
+      "date": "2025-06-11",
+      "root": "1C25TUV/00004730",
+      "buyer": "KHÁCH HÀNG LẺ TIKTOK - KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "31 chuỗi đã khớp",
+      "source_excel_row": 49,
+      "accountant_locator": "dòng 5521 (B–C)",
+      "group": "Đã khớp chi tiết và số tiền",
+      "reason": "Đã điều chỉnh khớp chi tiết và số tiền; tổng các hóa đơn liên quan = 0.",
+      "rank": 0
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00013091"
+      ],
+      "date": "2025-09-30",
+      "root": "1C25TUV/00004730",
+      "buyer": "KHÁCH HÀNG LẺ TIKTOK - KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "31 chuỗi đã khớp",
+      "source_excel_row": 50,
+      "accountant_locator": "dòng 5521 (cột F1/F2/F3)",
+      "group": "Đã khớp chi tiết và số tiền",
+      "reason": "Đã điều chỉnh khớp chi tiết và số tiền; tổng các hóa đơn liên quan = 0.",
+      "rank": 0
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00004795"
+      ],
+      "date": "2025-06-11",
+      "root": "1C25TUV/00004795",
+      "buyer": "KHÁCH HÀNG LẺ TIKTOK - KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "31 chuỗi đã khớp",
+      "source_excel_row": 51,
+      "accountant_locator": "dòng 5586 (B–C)",
+      "group": "Đã khớp chi tiết và số tiền",
+      "reason": "Đã điều chỉnh khớp chi tiết và số tiền; tổng các hóa đơn liên quan = 0.",
+      "rank": 0
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00013087"
+      ],
+      "date": "2025-09-30",
+      "root": "1C25TUV/00004795",
+      "buyer": "KHÁCH HÀNG LẺ TIKTOK - KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "31 chuỗi đã khớp",
+      "source_excel_row": 52,
+      "accountant_locator": "dòng 5586 (cột F1/F2/F3)",
+      "group": "Đã khớp chi tiết và số tiền",
+      "reason": "Đã điều chỉnh khớp chi tiết và số tiền; tổng các hóa đơn liên quan = 0.",
+      "rank": 0
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00005154"
+      ],
+      "date": "2025-06-13",
+      "root": "1C25TUV/00005154",
+      "buyer": "KHÁCH HÀNG LẺ TIKTOK - KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "31 chuỗi đã khớp",
+      "source_excel_row": 53,
+      "accountant_locator": "dòng 5945 (B–C)",
+      "group": "Đã khớp chi tiết và số tiền",
+      "reason": "Đã điều chỉnh khớp chi tiết và số tiền; tổng các hóa đơn liên quan = 0.",
+      "rank": 0
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00013094"
+      ],
+      "date": "2025-09-30",
+      "root": "1C25TUV/00005154",
+      "buyer": "KHÁCH HÀNG LẺ TIKTOK - KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "31 chuỗi đã khớp",
+      "source_excel_row": 54,
+      "accountant_locator": "dòng 5945 (cột F1/F2/F3)",
+      "group": "Đã khớp chi tiết và số tiền",
+      "reason": "Đã điều chỉnh khớp chi tiết và số tiền; tổng các hóa đơn liên quan = 0.",
+      "rank": 0
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00005212"
+      ],
+      "date": "2025-06-13",
+      "root": "1C25TUV/00005212",
+      "buyer": "KHÁCH HÀNG LẺ TIKTOK - KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "31 chuỗi đã khớp",
+      "source_excel_row": 55,
+      "accountant_locator": "dòng 6003 (B–C)",
+      "group": "Đã khớp chi tiết và số tiền",
+      "reason": "Đã điều chỉnh khớp chi tiết và số tiền; tổng các hóa đơn liên quan = 0.",
+      "rank": 0
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00013092"
+      ],
+      "date": "2025-09-30",
+      "root": "1C25TUV/00005212",
+      "buyer": "KHÁCH HÀNG LẺ TIKTOK - KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "31 chuỗi đã khớp",
+      "source_excel_row": 56,
+      "accountant_locator": "dòng 6003 (cột F1/F2/F3)",
+      "group": "Đã khớp chi tiết và số tiền",
+      "reason": "Đã điều chỉnh khớp chi tiết và số tiền; tổng các hóa đơn liên quan = 0.",
+      "rank": 0
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00005577"
+      ],
+      "date": "2025-06-14",
+      "root": "1C25TUV/00005577",
+      "buyer": "KHÁCH HÀNG LẺ TIKTOK - KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "31 chuỗi đã khớp",
+      "source_excel_row": 57,
+      "accountant_locator": "dòng 6368 (B–C)",
+      "group": "Đã khớp chi tiết và số tiền",
+      "reason": "Đã điều chỉnh khớp chi tiết và số tiền; tổng các hóa đơn liên quan = 0.",
+      "rank": 0
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00013093"
+      ],
+      "date": "2025-09-30",
+      "root": "1C25TUV/00005577",
+      "buyer": "KHÁCH HÀNG LẺ TIKTOK - KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "31 chuỗi đã khớp",
+      "source_excel_row": 58,
+      "accountant_locator": "dòng 6368 (cột F1/F2/F3)",
+      "group": "Đã khớp chi tiết và số tiền",
+      "reason": "Đã điều chỉnh khớp chi tiết và số tiền; tổng các hóa đơn liên quan = 0.",
+      "rank": 0
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00005925"
+      ],
+      "date": "2025-06-16",
+      "root": "1C25TUV/00005925",
+      "buyer": "KHÁCH HÀNG LẺ TIKTOK - KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "31 chuỗi đã khớp",
+      "source_excel_row": 59,
+      "accountant_locator": "dòng 6716 (B–C)",
+      "group": "Đã khớp chi tiết và số tiền",
+      "reason": "Đã điều chỉnh khớp chi tiết và số tiền; tổng các hóa đơn liên quan = 0.",
+      "rank": 0
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00013096"
+      ],
+      "date": "2025-09-30",
+      "root": "1C25TUV/00005925",
+      "buyer": "KHÁCH HÀNG LẺ TIKTOK - KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "31 chuỗi đã khớp",
+      "source_excel_row": 60,
+      "accountant_locator": "dòng 6716 (cột F1/F2/F3)",
+      "group": "Đã khớp chi tiết và số tiền",
+      "reason": "Đã điều chỉnh khớp chi tiết và số tiền; tổng các hóa đơn liên quan = 0.",
+      "rank": 0
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00006593"
+      ],
+      "date": "2025-06-18",
+      "root": "1C25TUV/00006593",
+      "buyer": "KHÁCH HÀNG LẺ TIKTOK - KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "31 chuỗi đã khớp",
+      "source_excel_row": 61,
+      "accountant_locator": "dòng 7384 (B–C)",
+      "group": "Đã khớp chi tiết và số tiền",
+      "reason": "Đã điều chỉnh khớp chi tiết và số tiền; tổng các hóa đơn liên quan = 0.",
+      "rank": 0
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00013097"
+      ],
+      "date": "2025-09-30",
+      "root": "1C25TUV/00006593",
+      "buyer": "KHÁCH HÀNG LẺ TIKTOK - KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "31 chuỗi đã khớp",
+      "source_excel_row": 62,
+      "accountant_locator": "dòng 7384 (cột F1/F2/F3)",
+      "group": "Đã khớp chi tiết và số tiền",
+      "reason": "Đã điều chỉnh khớp chi tiết và số tiền; tổng các hóa đơn liên quan = 0.",
+      "rank": 0
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00007718"
+      ],
+      "date": "2025-06-22",
+      "root": "1C25TUV/00007718",
+      "buyer": "KHÁCH HÀNG LẺ TIKTOK - KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "31 chuỗi đã khớp",
+      "source_excel_row": 63,
+      "accountant_locator": "dòng 8509 (B–C)",
+      "group": "Đã khớp chi tiết và số tiền",
+      "reason": "Đã điều chỉnh khớp chi tiết và số tiền; tổng các hóa đơn liên quan = 0.",
+      "rank": 0
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00013098"
+      ],
+      "date": "2025-09-30",
+      "root": "1C25TUV/00007718",
+      "buyer": "KHÁCH HÀNG LẺ TIKTOK - KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "31 chuỗi đã khớp",
+      "source_excel_row": 64,
+      "accountant_locator": "dòng 8509 (cột F1/F2/F3)",
+      "group": "Đã khớp chi tiết và số tiền",
+      "reason": "Đã điều chỉnh khớp chi tiết và số tiền; tổng các hóa đơn liên quan = 0.",
+      "rank": 0
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00007810"
+      ],
+      "date": "2025-06-22",
+      "root": "1C25TUV/00007810",
+      "buyer": "KHÁCH HÀNG LẺ TIKTOK - KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "31 chuỗi đã khớp",
+      "source_excel_row": 65,
+      "accountant_locator": "dòng 8601 (B–C)",
+      "group": "Đã khớp chi tiết và số tiền",
+      "reason": "Đã điều chỉnh khớp chi tiết và số tiền; tổng các hóa đơn liên quan = 0.",
+      "rank": 0
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00013100"
+      ],
+      "date": "2025-09-30",
+      "root": "1C25TUV/00007810",
+      "buyer": "KHÁCH HÀNG LẺ TIKTOK - KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "31 chuỗi đã khớp",
+      "source_excel_row": 66,
+      "accountant_locator": "dòng 8601 (cột F1/F2/F3)",
+      "group": "Đã khớp chi tiết và số tiền",
+      "reason": "Đã điều chỉnh khớp chi tiết và số tiền; tổng các hóa đơn liên quan = 0.",
+      "rank": 0
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00009565"
+      ],
+      "date": "2025-06-30",
+      "root": "1C25TUV/00009565",
+      "buyer": "KHÁCH HÀNG LẺ TIKTOK - KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "31 chuỗi đã khớp",
+      "source_excel_row": 67,
+      "accountant_locator": "dòng 10356 (B–C)",
+      "group": "Đã khớp chi tiết và số tiền",
+      "reason": "Đã điều chỉnh khớp chi tiết và số tiền; tổng các hóa đơn liên quan = 0.",
+      "rank": 0
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00013101"
+      ],
+      "date": "2025-09-30",
+      "root": "1C25TUV/00009565",
+      "buyer": "KHÁCH HÀNG LẺ TIKTOK - KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "31 chuỗi đã khớp",
+      "source_excel_row": 68,
+      "accountant_locator": "dòng 10356 (cột F1/F2/F3)",
+      "group": "Đã khớp chi tiết và số tiền",
+      "reason": "Đã điều chỉnh khớp chi tiết và số tiền; tổng các hóa đơn liên quan = 0.",
+      "rank": 0
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00004026"
+      ],
+      "date": "2025-06-08",
+      "root": "1C25TUV/00004026",
+      "buyer": "KHÁCH HÀNG LẺ TIKTOK - KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "3 chuỗi cùng sản phẩm",
+      "source_excel_row": 85,
+      "accountant_locator": "dòng 4817 (B–C)",
+      "group": "Cùng chuỗi sản phẩm, đã khớp",
+      "reason": "Đã điều chỉnh cùng chuỗi sản phẩm, khớp chi tiết và số tiền; tổng các hóa đơn liên quan = 0.",
+      "rank": 1
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00013079"
+      ],
+      "date": "2025-09-30",
+      "root": "1C25TUV/00004026",
+      "buyer": "KHÁCH HÀNG LẺ TIKTOK - KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "3 chuỗi cùng sản phẩm",
+      "source_excel_row": 86,
+      "accountant_locator": "dòng 4817 (cột F1/F2/F3)",
+      "group": "Cùng chuỗi sản phẩm, đã khớp",
+      "reason": "Đã điều chỉnh cùng chuỗi sản phẩm, khớp chi tiết và số tiền; tổng các hóa đơn liên quan = 0.",
+      "rank": 1
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00004953"
+      ],
+      "date": "2025-06-12",
+      "root": "1C25TUV/00004953",
+      "buyer": "KHÁCH HÀNG LẺ TIKTOK - KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "3 chuỗi cùng sản phẩm",
+      "source_excel_row": 87,
+      "accountant_locator": "dòng 5744 (B–C)",
+      "group": "Cùng chuỗi sản phẩm, đã khớp",
+      "reason": "Đã điều chỉnh cùng chuỗi sản phẩm, khớp chi tiết và số tiền; tổng các hóa đơn liên quan = 0.",
+      "rank": 1
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00013089"
+      ],
+      "date": "2025-09-30",
+      "root": "1C25TUV/00004953",
+      "buyer": "KHÁCH HÀNG LẺ TIKTOK - KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "3 chuỗi cùng sản phẩm",
+      "source_excel_row": 88,
+      "accountant_locator": "dòng 5744 (cột F1/F2/F3)",
+      "group": "Cùng chuỗi sản phẩm, đã khớp",
+      "reason": "Đã điều chỉnh cùng chuỗi sản phẩm, khớp chi tiết và số tiền; tổng các hóa đơn liên quan = 0.",
+      "rank": 1
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00007766"
+      ],
+      "date": "2025-06-22",
+      "root": "1C25TUV/00007766",
+      "buyer": "KHÁCH HÀNG LẺ TIKTOK - KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "3 chuỗi cùng sản phẩm",
+      "source_excel_row": 89,
+      "accountant_locator": "dòng 8557 (B–C)",
+      "group": "Cùng chuỗi sản phẩm, đã khớp",
+      "reason": "Đã điều chỉnh cùng chuỗi sản phẩm, khớp chi tiết và số tiền; tổng các hóa đơn liên quan = 0.",
+      "rank": 1
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00013099"
+      ],
+      "date": "2025-09-30",
+      "root": "1C25TUV/00007766",
+      "buyer": "KHÁCH HÀNG LẺ TIKTOK - KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "3 chuỗi cùng sản phẩm",
+      "source_excel_row": 90,
+      "accountant_locator": "dòng 8557 (cột F1/F2/F3)",
+      "group": "Cùng chuỗi sản phẩm, đã khớp",
+      "reason": "Đã điều chỉnh cùng chuỗi sản phẩm, khớp chi tiết và số tiền; tổng các hóa đơn liên quan = 0.",
+      "rank": 1
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00006108"
+      ],
+      "date": "2025-06-17",
+      "root": "1C25TUV/00001348",
+      "buyer": "KHÁCH HÀNG LẺ SP - KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "6 cặp giữ riêng",
+      "source_excel_row": 76,
+      "accountant_locator": "dòng 2139 (cột F1/F2/F3); dòng 6899 (B–C)",
+      "group": "Chỉ điều chỉnh thông tin",
+      "reason": "Chỉ điều chỉnh tên/thông tin người mua, không đổi tiền hàng và tiền thuế; chỉ xử lý hóa đơn gốc.",
+      "rank": 2
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00004203"
+      ],
+      "date": "2025-06-09",
+      "root": "1C25TUV/00002377",
+      "buyer": "KHÁCH HÀNG LẺ SP - KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "6 cặp giữ riêng",
+      "source_excel_row": 78,
+      "accountant_locator": "dòng 3168 (cột F1/F2/F3); dòng 4994 (B–C)",
+      "group": "Chỉ điều chỉnh thông tin",
+      "reason": "Chỉ điều chỉnh tên/thông tin người mua, không đổi tiền hàng và tiền thuế; chỉ xử lý hóa đơn gốc.",
+      "rank": 2
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00004204"
+      ],
+      "date": "2025-06-09",
+      "root": "1C25TUV/00002378",
+      "buyer": "KHÁCH HÀNG LẺ SP - KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "6 cặp giữ riêng",
+      "source_excel_row": 80,
+      "accountant_locator": "dòng 3169 (cột F1/F2/F3); dòng 4995 (B–C)",
+      "group": "Chỉ điều chỉnh thông tin",
+      "reason": "Chỉ điều chỉnh tên/thông tin người mua, không đổi tiền hàng và tiền thuế; chỉ xử lý hóa đơn gốc.",
+      "rank": 2
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00009186"
+      ],
+      "date": "2025-06-29",
+      "root": "1C25TUV/00009072",
+      "buyer": "KHÁCH HÀNG LẺ TIKTOK - KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "Chỉ điều chỉnh tên",
+      "source_excel_row": 91,
+      "accountant_locator": "dòng 9863 (cột F1/F2/F3); dòng 9977 (B–C)",
+      "group": "Chỉ điều chỉnh thông tin",
+      "reason": "Chỉ điều chỉnh tên hàng, không đổi tiền hàng và tiền thuế; giữ 00009186, chỉ xử lý gốc 00009072.",
+      "rank": 2
+    }
+  ],
+  "additional_records": [
+    {
+      "key": [
+        "1C24TUV",
+        "00000003"
+      ],
+      "date": "2024-01-10",
+      "root": "1C24TUV/00000003",
+      "buyer": "Khách lẻ không lấy hóa đơn",
+      "old_group": "6 cặp giữ riêng",
+      "source_excel_row": 69,
+      "accountant_locator": "dòng 8 (B–C)",
+      "reason": "Thay quyết định giữ cả cặp; bổ sung điều chỉnh trái dấu."
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000508"
+      ],
+      "date": "2025-04-26",
+      "root": "1C24TUV/00000003",
+      "buyer": "Khách lẻ không lấy hóa đơn",
+      "old_group": "6 cặp giữ riêng",
+      "source_excel_row": 70,
+      "accountant_locator": "dòng 8 (cột F1/F2/F3); dòng 1299 (B–C)",
+      "reason": "Thay quyết định giữ cả cặp; bổ sung điều chỉnh trái dấu."
+    },
+    {
+      "key": [
+        "1C24TUV",
+        "00000498"
+      ],
+      "date": "2024-09-30",
+      "root": "1C24TUV/00000498",
+      "buyer": "Khách lẻ không lấy hoá đơn",
+      "old_group": "6 cặp giữ riêng",
+      "source_excel_row": 71,
+      "accountant_locator": "dòng 503 (B–C)",
+      "reason": "Thay quyết định giữ cả cặp; bổ sung điều chỉnh trái dấu."
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00002140"
+      ],
+      "date": "2025-05-30",
+      "root": "1C24TUV/00000498",
+      "buyer": "Khách lẻ không lấy hoá đơn",
+      "old_group": "6 cặp giữ riêng",
+      "source_excel_row": 72,
+      "accountant_locator": "dòng 503 (cột F1/F2/F3); dòng 2931 (B–C)",
+      "reason": "Thay quyết định giữ cả cặp; bổ sung điều chỉnh trái dấu."
+    },
+    {
+      "key": [
+        "1C24TUV",
+        "00000574"
+      ],
+      "date": "2024-11-15",
+      "root": "1C24TUV/00000574",
+      "buyer": "Khách lẻ không lấy hóa đơn",
+      "old_group": "6 cặp giữ riêng",
+      "source_excel_row": 73,
+      "accountant_locator": "dòng 579 (B–C)",
+      "reason": "Thay quyết định giữ cả cặp; bổ sung điều chỉnh trái dấu."
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00002189"
+      ],
+      "date": "2025-05-30",
+      "root": "1C24TUV/00000574",
+      "buyer": "Khách lẻ không lấy hóa đơn",
+      "old_group": "6 cặp giữ riêng",
+      "source_excel_row": 74,
+      "accountant_locator": "dòng 579 (cột F1/F2/F3); dòng 2980 (B–C)",
+      "reason": "Thay quyết định giữ cả cặp; bổ sung điều chỉnh trái dấu."
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00001348"
+      ],
+      "date": "2025-05-27",
+      "root": "1C25TUV/00001348",
+      "buyer": "KHÁCH HÀNG LẺ SP - KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "6 cặp giữ riêng",
+      "source_excel_row": 75,
+      "accountant_locator": "dòng 2139 (B–C)",
+      "reason": "Thay quyết định giữ cả cặp; bổ sung điều chỉnh trái dấu."
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00002377"
+      ],
+      "date": "2025-05-30",
+      "root": "1C25TUV/00002377",
+      "buyer": "KHÁCH HÀNG LẺ SP - KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "6 cặp giữ riêng",
+      "source_excel_row": 77,
+      "accountant_locator": "dòng 3168 (B–C)",
+      "reason": "Thay quyết định giữ cả cặp; bổ sung điều chỉnh trái dấu."
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00002378"
+      ],
+      "date": "2025-05-30",
+      "root": "1C25TUV/00002378",
+      "buyer": "KHÁCH HÀNG LẺ SP - KHÔNG LẤY HÓA ĐƠN",
+      "old_group": "6 cặp giữ riêng",
+      "source_excel_row": 79,
+      "accountant_locator": "dòng 3169 (B–C)",
+      "reason": "Thay quyết định giữ cả cặp; bổ sung điều chỉnh trái dấu."
+    },
+    {
+      "key": [
+        "1C24TUV",
+        "00000478"
+      ],
+      "date": "2024-09-25",
+      "root": "1C24TUV/00000478",
+      "buyer": "Đào Duy Tùng",
+      "old_group": "Ngoại lệ công ty",
+      "source_excel_row": 81,
+      "accountant_locator": "dòng 483 (B–C)",
+      "reason": "MST cá nhân; bổ sung điều chỉnh trái dấu."
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00002578"
+      ],
+      "date": "2025-05-31",
+      "root": "1C24TUV/00000478",
+      "buyer": "Đào Duy Tùng",
+      "old_group": "Ngoại lệ công ty",
+      "source_excel_row": 82,
+      "accountant_locator": "dòng 483 (cột F1/F2/F3); dòng 3369 (B–C)",
+      "reason": "MST cá nhân; bổ sung điều chỉnh trái dấu."
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000040"
+      ],
+      "date": "2025-01-26",
+      "root": "1C25TUV/00000040",
+      "buyer": "Trần Thị Kim Phụng",
+      "old_group": "Ngoại lệ công ty",
+      "source_excel_row": 83,
+      "accountant_locator": "dòng 831 (B–C)",
+      "reason": "MST cá nhân; bổ sung điều chỉnh trái dấu."
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00000662"
+      ],
+      "date": "2025-05-05",
+      "root": "1C25TUV/00000040",
+      "buyer": "Trần Thị Kim Phụng",
+      "old_group": "Ngoại lệ công ty",
+      "source_excel_row": 84,
+      "accountant_locator": "dòng 831 (cột F1/F2/F3); dòng 1453 (B–C)",
+      "reason": "MST cá nhân; bổ sung điều chỉnh trái dấu."
+    }
+  ],
+  "information_only_evidence": [
+    {
+      "key": [
+        "1C25TUV",
+        "00004203"
+      ],
+      "money": [
+        0,
+        0,
+        0
+      ],
+      "note": [
+        "Điều chỉnh thông tin khách hàng: Hộ kinh doanh Châu Mễ- Mã số thuế: 3501911256-001- Địa chỉ: Thôn 3, xã Tân Phúc, huyện Hàm Tân, Bình Thuận"
+      ]
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00004204"
+      ],
+      "money": [
+        0,
+        0,
+        0
+      ],
+      "note": [
+        "Điều chỉnh thông tin khách hàng- Hộ kinh doanh Châu Mễ- Mã số thuế: 3501911256-001- Địa chỉ: Thôn 3, xã Tân Phúc, huyện Hàm Tân, Bình Thuận"
+      ]
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00006108"
+      ],
+      "money": [
+        0,
+        0,
+        0
+      ],
+      "note": [
+        "Điều chỉnh thông tin người mua hàng. Cụ thể: Tên đơn vị:  Công ty TNHH Thương Mại Dịch Vụ Truyền Thông Giải Trí MMC- Địa chỉ: 204 Đinh Tiên Hoàng, Phường Đa Kao, Quận 1, Tp. HCM- Mã số thuế: 0317749334"
+      ]
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00009186"
+      ],
+      "money": [
+        0,
+        0,
+        0
+      ],
+      "note": [
+        "Điều chỉnh tên hàng hoá"
+      ]
+    }
+  ],
+  "zero_money_checks": [
+    {
+      "root": "1C25TUV/00000850",
+      "goods_tax_payment": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "root": "1C25TUV/00001640",
+      "goods_tax_payment": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "root": "1C25TUV/00001680",
+      "goods_tax_payment": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "root": "1C25TUV/00001892",
+      "goods_tax_payment": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "root": "1C25TUV/00002500",
+      "goods_tax_payment": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "root": "1C25TUV/00003139",
+      "goods_tax_payment": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "root": "1C25TUV/00003256",
+      "goods_tax_payment": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "root": "1C25TUV/00003267",
+      "goods_tax_payment": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "root": "1C25TUV/00003271",
+      "goods_tax_payment": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "root": "1C25TUV/00003433",
+      "goods_tax_payment": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "root": "1C25TUV/00003498",
+      "goods_tax_payment": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "root": "1C25TUV/00003510",
+      "goods_tax_payment": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "root": "1C25TUV/00003673",
+      "goods_tax_payment": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "root": "1C25TUV/00003746",
+      "goods_tax_payment": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "root": "1C25TUV/00004002",
+      "goods_tax_payment": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "root": "1C25TUV/00004005",
+      "goods_tax_payment": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "root": "1C25TUV/00004266",
+      "goods_tax_payment": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "root": "1C25TUV/00004269",
+      "goods_tax_payment": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "root": "1C25TUV/00004494",
+      "goods_tax_payment": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "root": "1C25TUV/00004526",
+      "goods_tax_payment": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "root": "1C25TUV/00004719",
+      "goods_tax_payment": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "root": "1C25TUV/00004730",
+      "goods_tax_payment": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "root": "1C25TUV/00004795",
+      "goods_tax_payment": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "root": "1C25TUV/00005154",
+      "goods_tax_payment": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "root": "1C25TUV/00005212",
+      "goods_tax_payment": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "root": "1C25TUV/00005577",
+      "goods_tax_payment": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "root": "1C25TUV/00005925",
+      "goods_tax_payment": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "root": "1C25TUV/00006593",
+      "goods_tax_payment": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "root": "1C25TUV/00007718",
+      "goods_tax_payment": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "root": "1C25TUV/00007810",
+      "goods_tax_payment": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "root": "1C25TUV/00009565",
+      "goods_tax_payment": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "root": "1C25TUV/00004026",
+      "goods_tax_payment": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "root": "1C25TUV/00004953",
+      "goods_tax_payment": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "root": "1C25TUV/00007766",
+      "goods_tax_payment": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "source_hashes": {
+    "outputs/HOA_DON_CHUA_DIEU_CHINH_F0_2024_T6_2025.xlsx": "8a7cdf7b45f533403461076df350e27e27bb685f35ab24cdb97e0da82a09f658",
+    "outputs/HOA_DON_DA_DIEU_CHINH_F0_2024_T6_2025.xlsx": "f0056ce91b0a351aa25ea42c7d792b047ad6ce284778f0e073b86a98e79e9f37",
+    "outputs/NGOAI_LE_F0_2024_T6_2025.xlsx": "e71cd26bd35e833b1caa587612ad3ccb1b3e6d8c1e699018539d809acc84eaa8",
+    "outputs/HOA_DON_CHUA_DIEU_CHINH_IMPORT_2_SHEET.xlsx": "d31f5f1c7f6e48b4c345bff14472053d1c6e5489977d91fbb35d10b0f1d7c96c",
+    "outputs/HOA_DON_DA_DIEU_CHINH_IMPORT_2_SHEET.xlsx": "f5661f3f3717ee2a9c78446f185b231a6b0372f13174d4bda4a83c775c5f7ea9",
+    "outputs/doi-chieu-85-20261019/DANH_SACH_85_HOA_DON_KHONG_DUA_VAO_IMPORT.xlsx": "27931b5db0abe271e907a0095c34334050380d0582ac081aa657351d37dc913a",
+    "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00004203.xml": "33c04541df967c00e4d8b064ce495d26c9c06110df05c29ae96349795b30ba49",
+    "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00004204.xml": "57b8499ba9ebb181c8705f9d09ef0d1e605cb3396eb9f309c9d3b09fc7c8bff8",
+    "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00006108.xml": "c2b040544b22a8991443418b467201aaa232ca7c7aaef0b5a4a89d3cbe3eee44",
+    "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00009186.xml": "ad50c6d83f0e5b4deb4a3951e545ee680fb6a8521d98aa25adc36450f34e9c71"
+  },
+  "quantity_price_rule": "Giảm số lượng khi điều chỉnh giảm hóa đơn gốc; đơn giá dương. Hóa đơn mới trái dấu với hóa đơn được điều chỉnh; kiểm tổng cả chuỗi bằng 0. Không lập đảo tiền cho điều chỉnh chỉ thay thông tin người mua.",
+  "import_workbooks_modified": false,
+  "software_imported": false,
+  "signed": false,
+  "issued": false
+}

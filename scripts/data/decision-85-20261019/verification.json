@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "output": "outputs/doi-chieu-85-20261019/UVG_72_HOA_DON_KHONG_CAN_DIEU_CHINH_20261019.xlsx",
+  "no_adjustment_invoices": 72,
+  "groups": {
+    "Đã khớp chi tiết và số tiền": 62,
+    "Cùng chuỗi sản phẩm, đã khớp": 6,
+    "Chỉ điều chỉnh thông tin": 4
+  },
+  "previous_to_issue": 10442,
+  "additional_to_issue": 13,
+  "new_to_issue": 10455,
+  "unique_source_invoices": 10527,
+  "distinct_keys": 72,
+  "checked_zero_chains": 34,
+  "information_only_invoices": 4,
+  "information_buyer_only": 3,
+  "information_product_name_only": 1,
+  "all_dates_and_invoice_numbers_checked": true,
+  "original_sources_and_import_workbooks_unchanged": true,
+  "formula_errors": 0,
+  "output_sha256": "82bb9d02a6c522afbc7060b17248bb737f53cb973362fd3014f9470fb982332c"
+}

@@ -1,3 +1,65 @@
+# Bàn giao công việc cục bộ máy này — 28/10/2026
+
+Đây là snapshot công việc trên máy `D:\UVG`, dựa trên commit `0801258`. Người dùng đã đồng ý đưa cả workbook và dữ liệu kế toán lên repo GitHub công khai `vansang2409/UVG`. Chưa nhập phần mềm, ký hoặc phát hành hóa đơn. Các mục bên dưới lưu lịch sử; trạng thái “chưa commit/push” trong mục cũ là trạng thái tại thời điểm thực hiện công việc đó.
+
+**Cảnh báo đồng bộ:** đã fetch chỉ để đọc lịch sử, không thay đổi nội dung working tree. `origin/master` hiện ở `fb6e1ffcd5efb4e8d4ec2b60e348665998d926d7`, có 3 commit ngày 26–27/10 chưa có trong nhánh cục bộ: `ec7e77f`, `30561f2`, `fb6e1ff`. Trước đợt bàn giao này, máy không có commit riêng chưa push; công việc ngày 12–19/10 còn ở working tree. Snapshot này chưa tích hợp 3 commit trên. Chỉ thử push thường lên `origin/master`; nếu bị từ chối thì dừng, không pull/reset/clean/force push hoặc tự hợp nhất dữ liệu. Kết quả push phải xem thông báo cuối của phiên bàn giao và kiểm tra Git, không suy ra đã đồng bộ chỉ vì có commit cục bộ.
+
+## Đã làm và bộ file cục bộ đang dùng
+
+- Đã áp dụng phương án 19/10: bổ sung **13 hóa đơn / 206 dòng / 8 chuỗi**, STT 2033–2045; bộ Đã điều chỉnh đạt **2.045 hóa đơn / 41.996 dòng / 1.015 chuỗi**. Cộng 8.410 hóa đơn Chưa điều chỉnh thành **10.455 hóa đơn / 55.564 dòng**; Ngoại lệ còn **236 chuỗi / 322 hóa đơn**. Đây là bộ điều chỉnh cục bộ, không phải bộ bán gốc AMIS 2024 mới trên GitHub.
+- File chính: `outputs/HOA_DON_DA_DIEU_CHINH_F0_2024_T6_2025.xlsx`, `outputs/HOA_DON_DA_DIEU_CHINH_IMPORT_2_SHEET.xlsx`, `outputs/NGOAI_LE_F0_2024_T6_2025.xlsx`, `outputs/doi-chieu-85-20261019/UVG_72_HOA_DON_KHONG_CAN_DIEU_CHINH_20261019.xlsx`. Hai bản Chưa điều chỉnh ở `outputs/HOA_DON_CHUA_DIEU_CHINH_F0_2024_T6_2025.xlsx` và `outputs/HOA_DON_CHUA_DIEU_CHINH_IMPORT_2_SHEET.xlsx` giữ nguyên.
+- Quyết định máy đọc được: `scripts/data/check-review/kt-workbook-20261011/accountant-decisions.json`, mục `latest_override_20261019`. Kế hoạch, dữ liệu nguồn trích, bản trước sửa, script và kết quả kiểm tại `scripts/data/apply-13-20261019/`; căn cứ danh sách 72 tại `scripts/data/decision-85-20261019/`. Báo cáo hiện tại là `apply-13-20261019/final-verification.json`; báo cáo `decision-85-20261019/verification.json` là thời điểm trước khi cập nhật tổng hợp của bảng 72, không dùng hash cũ của báo cáo đó để kiểm bản hiện tại.
+- Đã gộp đối soát Shopee/TikTok tháng 7–12/2025 tại `outputs/merge_20261012/ĐỐI SOÁT ĐÃ GỘP.xlsx`: **301 tệp / 602 sheet nguồn, 26.550 dòng / 50 cột / 1 sheet kết quả**. Giữ `rows.jsonl`, `merge_manifest.json`, dữ liệu kiểm nguồn và script cùng thư mục để tiếp tục trên máy khác. `validation.json` ghi PASS, không lệch giá trị ô/tổng tiền; các lỗi nguồn 1.197 `#N/A` và 6 `#REF!` được giữ dưới dạng chữ. SHA-256 workbook khớp `final_delivery.json`: `9385a2b97b37f721763be1195ce8893ded8525542f6b29ad25ceef9a90763eef`. Đường dẫn Downloads trong `final_delivery.json` là nơi giao bản cũ; bản bàn giao qua Git nằm trong `outputs/merge_20261012/`.
+- Mẫu đối soát công nợ sàn: `outputs/doi_soat_san_20261019/Mau_doi_soat_cong_no_san_theo_thang.xlsx`. Bản này được chép nguyên byte từ Downloads trong đợt bàn giao, SHA-256 `e58390dc4db69400005c3d36de0fd255d4760b9d9f7a755d69d5e27767a666de`. Script dựng/kiểm Excel và báo cáo có sẵn tại `outputs/doi_soat_san_20261019/support/`; báo cáo cũ ghi 17 kiểm tra logic và 8 kiểm tra Excel. Đợt bàn giao chỉ kiểm file/hash, không tuyên bố đã chạy lại các kiểm tra Excel đó.
+- Đã rà hash ngày 28/10: cả 4 workbook của đợt áp dụng 13 hóa đơn khớp `final-verification.json`; 12 nguồn và 2 workbook Chưa điều chỉnh khớp hash trong `plan.json`. Không dựng lại hoặc thay đổi số liệu workbook trong đợt bàn giao. Giữ thêm script kiểm lịch sử `scripts/layout-tools/verify-reports.py`; script này dựa trên cache/baseline cũ, không dùng nó để kết luận bộ 19/10 hiện tại sai.
+
+## Cặp 478/2578: có bằng chứng nhưng đang mâu thuẫn giữa hai máy
+
+**Bằng chứng cục bộ ngày 19/10:** `decision-85-20261019/data.json` ghi `1C24TUV/00000478` và `1C25TUV/00002578` thuộc người mua Đào Duy Tùng, mã nguồn **8823260350**, lý do “MST cá nhân; bổ sung điều chỉnh trái dấu”. `accountant-decisions.json/latest_override_20261019` đánh dấu đã áp dụng, thay phân loại ngoại lệ theo mã 10 số của chuỗi này. `apply-13-20261019/plan.json` có STT **2042** giảm gốc 478 (SL âm, đơn giá có sẵn dương), STT **2043** đảo riêng khoản tăng 2578 (chỉ tiền, để trống SL/đơn giá). Báo cáo `final-verification.json` ghi nguồn + các khoản mới của chuỗi 478 đạt **(0, 0, 0)** tiền hàng/thuế/thanh toán, và hash workbook hiện tại khớp báo cáo. Như vậy **bản cục bộ đã xử lý cả cặp**, không còn là phương án chưa áp dụng.
+
+**Bằng chứng khác trên GitHub:** `TIEP_TUC_UVG.md` ở `origin/master` commit `fb6e1ff`, mục “Làm rõ lý do giữ 10 chuỗi trong dự tính” ngày 27/10, vẫn mô tả 478/2578 là ngoại lệ do `tax_shaped` nhận mã 10 số, **chưa xác minh loại người mua** và không phải cặp được KT chỉ định giữ riêng như 3/508, 498/2140, 574/2189. Ghi chú này khác quyết định đã áp dụng cục bộ ngày 19/10. Chưa tự chọn một phương án để ghi đè phương án kia; cần đối chiếu hai lịch sử và chốt phạm vi trước khi tiếp tục nghiệp vụ hoặc hợp nhất workbook. Không suy ra loại người mua chỉ từ độ dài mã số.
+
+## Việc còn lại khi tiếp tục
+
+1. Giải quyết chênh lịch sử giữa snapshot máy này và 3 commit trên GitHub trước khi có thể đồng bộ nhánh master bằng push thường. Giữ đầy đủ cả hai phía, đặc biệt các mục bàn giao ngày 26–27/10 và các workbook AMIS mới trên remote; không chép đè bằng snapshot cũ.
+2. Đối chiếu riêng quyết định 478/2578 nêu trên, đồng thời rà các chuỗi 3/508, 498/2140, 574/2189 mà bản 19/10 đã xử lý nhưng ghi chú remote ngày 27/10 vẫn gọi là giữ nguyên. Các tổng 10.455 của máy này và 34.739 hóa đơn bán gốc AMIS trên remote thuộc hai bộ khác nhau, không cộng/trừ lẫn hoặc coi là cùng một file hiện hành.
+3. Với bộ cục bộ, tiếp tục lưu ý 2 dòng gốc 498 (import 41865 và 41915) có thành tiền nguồn khác SL × đơn giá làm tròn 1 đồng; xem `rounding-review.json`, không tự tính lại thành tiền. Giữ các hóa đơn chỉ đổi thông tin 6108/4203/4204/9186, không tự lập đảo tiền; không chạy lại builder/prepare/merge/promote lịch sử chỉ để kiểm.
+4. Nguồn gộp 301 tệp gốc được script tham chiếu ở `C:\Users\thuong ngo\Downloads\ĐỐI SOÁT CẦN GỘP`, ngoài repo; snapshot hàng dữ liệu `rows.jsonl` và workbook kết quả được bàn giao, còn muốn kiểm lại trực tiếp từng tệp gốc cần có lại thư mục nguồn. Một số script đối soát còn đường dẫn tuyệt đối Windows, cần sửa đường dẫn khi dùng trên máy khác. Mẫu đối soát sàn là file mẫu; nhập nguồn thực tế và kiểm lại trước khi dùng.
+5. Không đưa cache review `.codex_review/`, `tmp/`, `node_modules/`, `__pycache__/`, ảnh preview, workbook chụp mẫu và log xuất tạm vào commit. Giữ dữ liệu kế toán, JSON căn cứ, workbook trước sửa cần đối chiếu, code và Markdown. Không nhập, ký hoặc phát hành hóa đơn trong phiên bàn giao này.
+
+---
+
+# Đã bổ sung 13 hóa đơn vào bộ import theo phương án 19/10/2026
+
+Người dùng đã yêu cầu thực hiện: “Ok, bổ sung 13 hóa đơn vào bộ import theo phương án mới đi, giữ đơn giá dương và kiểm tra tổng các hóa đơn liên quan về 0 nha.” Đã cập nhật các file chính, thay thế trạng thái chưa bổ sung của mục lịch sử bên dưới.
+
+- Bộ Đã điều chỉnh: **2.045 hóa đơn /41.996 dòng /1.015 chuỗi**. Bổ sung13 hóa đơn /206 dòng, STT**2033–2045**, ngày dự thảo19/10/2026. Bản đầy đủ và `HOA_DON_DA_DIEU_CHINH_IMPORT_2_SHEET.xlsx` có XML cả2sheet chung và styles giống hệt nhau. Giữ nguyên2.032hóađơn đã chuẩn bị trước.
+- Cả bộ: **10.455 hóa đơn /55.564 dòng** =8.410chưađiềuchỉnh +2.045đãđiềuchỉnh. Hai workbook Chưa điều chỉnh giữ nguyên byte.
+- Đã chuyển8chuỗi ra khỏi Ngoại lệ, còn **236 chuỗi /322 hóa đơn**. Hai gốc478 và40 được thêm vào bảng Đã điều chỉnh; 4hóađơn nguồn liên quan được bổ sung nguyên trạng vào Chi tiet nguon, thành2.117hóađơn nguồn. MST8823260350 và8743683287 giữ nguyên giá trị nguồn, được xác nhận là cá nhân trong phạm vi hai chuỗi này.
+- Danh sách72hóađơn khôngcầnđiềuchỉnh vẫn giữ nguyên72dòng và lýdo; sheet tổnghợp đã ghi “đã bổ sung13” và tổng hiện tại10.455.
+
+Đã kiểm độc lập từng dòng mới, số/ngày thamchiếu, 8chữsố, trường thanh toán TM/CK, giá có sẵn dương và số lượng gốc giảm đúng. **Cả8chuỗi về(0,0,0)** theo tiền hàng/thuế/thanh toán, cả phép cộng nguồn +13HĐmới và công thức dự kiến lưu trong file. Mọi trường nguồn ngoài phạm vi, công thức, styles, bảng lọc, frozen panes và tài nguyên gốc được giữ nguyên; hơn1,8triệuô ngoài phạm vi đã đối chiếu trên hai bản Đã điều chỉnh. 0lỗi côngthức; đã xem trước/sau các vùng thay đổi. Các file chính có SHA-256 khớp bản đã kiểm độc lập sau khi thay file.
+
+Các điểm cần giữ đúng: 5HĐđiềuchỉnh cũ508/2140/2189/2578/662 chỉ có khoản tiền, nên phần đảo không tự thêm số lượng/đơn giá. Gốc574 chỉ giảm số lượng, ô đơn giá/thànhtiền dòng vẫn trống; thanh toán nguồn trống giữ nguyên, tính dự thảo0 theo chốt cũ. Giữ6108/4203/4204 chỉđổi thôngtin ngườimua và9186 chỉđổi tênhàng; không lập đảo tiền các HĐnày. Giá âm theo các quyết định cũ trong2.032HĐtrước không thuộc phạm vi sửa13HĐlần này.
+
+Có **2dòng của gốc498** giữ thành tiền đã phát hành khác SL×đơn giá làmtròn1đồng: STT2035, dòng import**41865 và41915** (dòng chi tiết58 và108 của gốc). Đã giữ đơn giá dương và thành tiền nguồn đảo dấu để tổngchuỗi khớp0; cần đối chiếu2dòng này khi xem bản nháp, tránh phần mềm tự tính lại từ đơn giá làmtròn. Căn cứ: `scripts/data/apply-13-20261019/rounding-review.json`.
+
+Script, kế hoạch và bản trước sửa: `scripts/data/apply-13-20261019/`. Báo cáo hiện tại: `final-verification.json`. Kiểm hiện tại bằng `python scripts/data/apply-13-20261019/verify.py --final`; chỉ đọc Excel và ghi JSON. Không chạy lại prepare/build/merge/promote chỉ để kiểm tra. Chưa nhập phần mềm, ký/phát hành hoặc commit/push đợt này. Nguồn gốc không thay đổi.
+
+---
+
+# Đã tính lại nhóm 85: giữ 72, bổ sung 13 — 19/10/2026
+
+Người dùng thay quyết định giữ 6 cặp riêng và xác nhận 4 hóa đơn 1C24TUV/00000478, 1C25TUV/00002578, 1C25TUV/00000040, 1C25TUV/00000662 dùng MST cá nhân, cần xử lý. Sau đó làm rõ: điều chỉnh giảm hóa đơn gốc bằng giảm số lượng, giữ đơn giá dương; hóa đơn mới phải trái dấu với hóa đơn được điều chỉnh và kiểm tổng các hóa đơn liên quan bằng 0. Không lập đảo tiền cho hóa đơn chỉ sửa thông tin mà không đổi tiền hàng, tiền thuế; chỉ xử lý gốc tương ứng.
+
+Trong 85 hóa đơn: giữ **72 = 62 thuộc 31 chuỗi đã khớp + 6 thuộc 3 chuỗi cùng sản phẩm đã khớp + 4 chỉ đổi thông tin**. Ba HĐ 00006108/00004203/00004204 chỉ đổi thông tin người mua; 00009186 chỉ đổi tên hàng. Cả4 có tiền hàng/thuế/thanh toán XML=0; không gọi 9186 là đổi người mua. Hóa đơn gốc 9072 đã có trong import hiện tại; ba gốc1348/2377/2378 cần bổ sung. Chín HĐ còn lại thuộc6cặp cũ +4HĐ MSTcá nhân = **13 HĐ bổ sung trên8chuỗi**. Tổng theo phương án mới **10.455 =10.442+13 =10.527−72**.
+
+Theo yêu cầu hiện tại đã xuất riêng `outputs/doi-chieu-85-20261019/UVG_72_HOA_DON_KHONG_CAN_DIEU_CHINH_20261019.xlsx`: 2sheet tổng hợp và danh sách72, có ký hiệu/số/ngày/gốc/người mua/lý do ngắn. Đã kiểm độc lập toàn bộ72 dòng, số0đầu, ngày, công thức, tổng phân nhóm; đọc lại nguồn để kiểm34chuỗi giữ nguyên đều cộng tiền hàng/thuế/thanh toán bằng0; kiểm4XML chỉđổi thôngtin và xem trước cả2sheet. 0lỗi côngthức. Kết quả: `scripts/data/decision-85-20261019/verification.json`; JSONcùngthưmục có đầyđủ13khóa cần bổ sung.
+
+**Chưa cập nhật bộ import chính/bản2sheet/Ngoại lệ theo quyết định mới; các file import hiện vẫn có10.442HĐ.** Chưa áp dụng lại quy tắc dấu/đơn giá mới vào các khoản đã chuẩn bị trước. Không chạy builder lịch sử hoặc nhầm phương án10.455 với dữ liệu import đã cập nhật. Nguồn và5workbook hiện tại đã kiểm hash giữ nguyên. Không nhập/ký/phát hành; chưa commit/push đợt tính lại này. Danh sách85 và các quyết định giữ6cặp bên dưới là lịch sử trước thay đổi này.
+
+---
+
 # Danh sách 85 hóa đơn giữ ngoài import — 19/10/2026
 
 Đã đối chiếu file kế toán `KE HOACH XUAT LAI HD 2024-T6.2025.xls`, sheet `BK HĐ 24-25 (BSUNG) (2)`, và xuất `outputs/doi-chieu-85-20261019/DANH_SACH_85_HOA_DON_KHONG_DUA_VAO_IMPORT.xlsx`. File gồm `Tong hop` và `85 hoa don`; mỗi hóa đơn có nhóm, lý do giữ ngoài import, gốc của chuỗi, ngày, người mua, thanh toán, vị trí trong sheet KT và căn cứ phân nhóm. Đã kiểm độc lập đủ 85 khóa riêng biệt, toàn bộ 1.020 ô dữ liệu khớp bản trích, tổng nhóm 62/12/4/6/1 và không có ô lỗi Excel; đã xem trước bố cục. Không sửa file KT hoặc các workbook import.

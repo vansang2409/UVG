@@ -17,6 +17,7 @@ node_modules/
 /scripts/data/*.png
 /scripts/layout-tools/*
 !/scripts/layout-tools/build-adjusted.mjs
+!/scripts/layout-tools/verify-reports.py
 /outputs/**/_build/
 /outputs/ngoai-le-meinvoice-2024/NGOAI_LE_2024_THEO_CHUOI.xlsx
 
@@ -37,8 +38,24 @@ node_modules/
 /scripts/data/check-review/kt-workbook-20261011/previews/
 /scripts/data/check-review/kt-workbook-20261011/confirmed-previews/
 /scripts/data/check-review/kt-workbook-20261011/*.ndjson
+/scripts/data/decision-85-20261019/*.png
+/scripts/data/decision-85-20261019/*.ndjson
+/scripts/data/apply-13-20261019/authored/
+/scripts/data/apply-13-20261019/staged/
+/scripts/data/apply-13-20261019/previews/
+/scripts/data/apply-13-20261019/*.ndjson
 
 # Bản xuất tạm và ảnh của đợt chuẩn hóa diễn giải 14/10.
 /scripts/data/import-reasons-20261014/staged/
 /scripts/data/import-reasons-20261014/*.png
 /scripts/data/count-difference-20261019/*.png
+
+# Cache rà soát, ảnh xem trước và workbook chụp mẫu; giữ dữ liệu/báo cáo kiểm tra.
+/.codex_review/
+/tmp/
+/outputs/merge_20261012/*.png
+/outputs/merge_20261012/qa_snapshot.xlsx
+/outputs/merge_20261012/preparation.log
+/outputs/merge_20261012/artifact_check.ndjson
+/outputs/doi_soat_san_20261019/support/*.png
+/outputs/doi_soat_san_20261019/support/export_inspection.ndjson

@@ -100,7 +100,8 @@
       ],
       "user_instruction": "Là giữ cả cặp hóa đơn ngoài đợt xử lý. Lưu ý: các hóa đơn xuất cho người mua là công ty/ hộ kinh doanh, hoặc đã có hóa đơn điều chỉnh tên người mua thành công ty/ hộ kinh doanh thì không điều chỉnh nữa. Giữ nguyên tất cả các hóa đơn liên quan.",
       "rule": "Loại toàn bộ thành phần liên thông của chuỗi khỏi đợt điều chỉnh nếu bất kỳ hóa đơn nào xuất cho/đổi người mua thành công ty hoặc hộ kinh doanh. Giữ6cặp đã nêu ngoài đợt này, ưu tiên hơn các quyết định chuẩn bị cũ.",
-      "applied_to_import": true
+      "applied_to_import": true,
+      "superseded_by": "latest_override_20261019"
     }
   ],
   "remaining_points": [],
@@ -110,5 +111,35 @@
   "software_imported": false,
   "signed": false,
   "issued": false,
-  "application_report": "scripts\\data\\apply-confirmed-20261012\\final-verification.json"
+  "application_report": "scripts/data/apply-13-20261019/final-verification.json",
+  "latest_override_20261019": {
+    "applied_to_import": true,
+    "approved_plan_date": "2026-10-19",
+    "supersedes": "Giữ6cặp CC01–CC06 và phân loại công ty/MST của hai chuỗi478/2578,40/662",
+    "root_overrides": [
+      "1C24TUV/00000003",
+      "1C24TUV/00000498",
+      "1C24TUV/00000574",
+      "1C25TUV/00001348",
+      "1C25TUV/00002377",
+      "1C25TUV/00002378",
+      "1C24TUV/00000478",
+      "1C25TUV/00000040"
+    ],
+    "retained_information_invoices": [
+      "1C25TUV/00006108",
+      "1C25TUV/00004203",
+      "1C25TUV/00004204",
+      "1C25TUV/00009186"
+    ],
+    "added_invoices": 13,
+    "added_rows": 206,
+    "total_to_issue": 10455,
+    "new_nonblank_unit_prices_positive": true,
+    "zero_goods_tax_payment_chains": 8,
+    "application_report": "scripts/data/apply-13-20261019/final-verification.json",
+    "software_imported": false,
+    "signed": false,
+    "issued": false
+  }
 }

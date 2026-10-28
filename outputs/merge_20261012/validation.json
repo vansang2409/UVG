@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "files": 301,
+  "source_sheets": 602,
+  "output_sheets": 1,
+  "data_rows": 26550,
+  "columns": 50,
+  "cell_value_differences": 0,
+  "formulas": 0,
+  "output_excel_errors": {},
+  "money_total_differences": {
+    "Giá sản phẩm": "0",
+    "Giảm giá của shop": "0",
+    "Giá sau giảm (có VAT)": "0",
+    "Giá trị trước thuế": "0E-11"
+  },
+  "source_errors_preserved_as_text": {
+    "#N/A": 1197,
+    "#REF!": 6
+  },
+  "file_size": 5939829
+}

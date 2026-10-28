@@ -1,0 +1,21 @@
+{
+  "tests": [
+    "TikTok closing balance 1,160,000",
+    "Shopee closing balance 1,408,000",
+    "Lazada closing balance 1,406,000",
+    "Lazada independent balance mismatch 1,000",
+    "Shopee order fee variance -2,000",
+    "Lazada payout short receipt 1,000",
+    "Overdue/under-settled orders visible",
+    "Changing bank input removes Lazada difference",
+    "Corrected Shopee shipping recalculates order",
+    "Missing opening balance is not a valid zero",
+    "Unmatched bank reference is flagged",
+    "Duplicate transaction is flagged",
+    "Last-day credit is included in selected month",
+    "Next-month credit remains in transit",
+    "Changing month does not validate stale snapshots",
+    "Appended table record feeds SUMIFS after formula copy",
+    "All mutation tests restored"
+  ]
+}

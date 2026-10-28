@@ -1,0 +1,27 @@
+{
+  "lines": [
+    {
+      "target": "1C24TUV/00000498",
+      "sequence": 2035,
+      "import_row": 41865,
+      "target_line": 58,
+      "qty": -2,
+      "positive_unit_price": 2867954,
+      "issued_line_amount_reversed": -5735907,
+      "multiplication_difference": "-1",
+      "source": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_chi_tiet_hoa_don_da_su_dung_1791533073074.xlsx | dòng 19511"
+    },
+    {
+      "target": "1C24TUV/00000498",
+      "sequence": 2035,
+      "import_row": 41915,
+      "target_line": 108,
+      "qty": -2,
+      "positive_unit_price": 695556,
+      "issued_line_amount_reversed": -1391111,
+      "multiplication_difference": "-1",
+      "source": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_chi_tiet_hoa_don_da_su_dung_1791533073074.xlsx | dòng 19561"
+    }
+  ],
+  "treatment": "Preserve the issued line amount and unit price; do not recompute the line amount from rounded unit prices."
+}

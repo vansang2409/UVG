@@ -1,0 +1,14 @@
+{
+  "checks": [
+    "Native Excel TikTok balance",
+    "Native Excel Shopee balance",
+    "Native Excel Lazada balance",
+    "Native Excel independent difference",
+    "Native Excel order difference",
+    "No formula errors in all seven sheets after full Excel recalculation",
+    "Native Excel changing bank receipt recalculates balance",
+    "Native Excel expanded table automatically included in SUMIFS"
+  ],
+  "application": "16.0",
+  "total": 8
+}
