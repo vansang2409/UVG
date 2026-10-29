@@ -1,3 +1,15 @@
+# Cập nhật báo cáo Google Sheets theo phát hành thực tế — 30/10/2026
+
+Theo yêu cầu cập nhật link báo cáo, đã sửa trực tiếp tab **Ra soat chuoi 2024**, gid **700000010**, trong Google Sheet **IMPORT MEINV 2024** (`1d4fLQRALDLXOFOQQlZuXMCTAg4lnRQ7NbKH-UPJN0XE`). Giữ bố cục ba cột tóm tắt và phần 778 dòng chi tiết thu gọn.
+
+- Đã kiểm lại toàn bộ 778 gốc trên bảng kê hiện hành và liên kết cũ đã xác minh: **654 gốc/1.253 HĐ điều chỉnh** và **6 chuỗi thay thế** đều đã phát hành, về 0 đủ ba khoản. 118 dòng ngoài diện xử lý gồm 116 gốc còn tiền, một HĐ hàng tặng 0đ và HĐ78 đã hủy; không đưa các dòng này về 0 bằng thao tác sửa báo cáo.
+- Cập nhật A1:C13 để phân biệt phần cũ đã kiểm thực tế với phần bán mới/trả hàng còn dự tính. Đổi nhãn J/K/N và cập nhật N15:N792, P15:R792 bằng kết quả, liên kết, nguồn/dòng phát hành mới. Không đổi số tiền, công thức hay ghi vào các tab import.
+- Tiền cũ giữ **622.963.131đ**, dự tính sau bán mới/trả hàng **49.930.540.760đ**, AMIS **49.928.171.800đ**, chênh **2.368.960đ** giữ nguyên. Chênh này là HĐ111 khác kỳ +3.888.889đ và 16 nhóm khác tiền hàng -1.519.929đ, khác với số dư các chuỗi xử lý đã về0. Phần bán mới AMIS 49.533.443.555đ và 163 phiếu trả hàng -225.865.926đ chưa được đối chiếu phát hành trong đợt kiểm này, không gọi tổng dự tính là doanh thu đã phát hành thực tế.
+- Đã đọc lại **16.992 ô** trên tab chính và tab chênh: đúng **3.138 ô** cần cập nhật, không thay đổi ngoài phạm vi, không lỗi công thức; **1.163 kết quả công thức** giữ nguyên. Đã xem ảnh Google Sheets trên Chrome ở100%, bố cục tóm tắt hiển thị đủ. Hash 40 file nguồn không đổi.
+- Tái lập nội dung: `scripts/prepare_report_post_issue_20261030.py`; căn cứ `scripts/data/report-post-issue-20261030/{before-cells,after-cells,prepared,requests,google-verification}.json`. Các `batch-*.json` chỉ là yêu cầu chia nhỏ tạm, được bỏ qua bởi Git. Dùng snapshot/kiểm tra bản live trước khi gửi lại requests, tránh ghi đè thay đổi về sau của người dùng. Phạm vi bàn giao Git đợt này gồm script chuẩn bị, năm JSON căn cứ/kiểm chứng, ghi chú và quy tắc bỏ qua batch tạm; không thay đổi workbook nguồn hoặc dữ liệu import.
+
+---
+
 # Chốt kiểm tra sau phát hành và bàn giao Git — 30/10/2026
 
 Người dùng xác nhận KT đã import/phát hành và tải nguồn mới tại `data/Meinv_SAU_PHAT_HANH_20261029/`. Cập nhật30/10/2026 đã đối chiếu chỉ đọc đủ40file: 33phần bảng kê (159.589HĐ duy nhất), 5phần điều chỉnh (13.400liên kết), 2file thay thế (468liên kết). Bộ đầu chọn kỳ01/01/2024–29/10/2026; file bổ sung xuất theo ngàyHĐ thay thế29/10/2026. Đây là kết quả từ dữ liệu phát hành mới, thay cho các dự tính lịch sử bên dưới khi đánh giá đã về0 hay chưa.

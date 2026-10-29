@@ -82,3 +82,6 @@ node_modules/
 /scripts/data/h2-chain-readiness-20261022/preview-*.png
 /scripts/data/nb-fill-20261022/*.png
 /scripts/data/replacement-zero-20261029/*.png
+
+# Yêu cầu chia nhỏ tạm khi cập nhật báo cáo; giữ requests.json và kết quả kiểm.
+/scripts/data/report-post-issue-20261030/batch-*.json

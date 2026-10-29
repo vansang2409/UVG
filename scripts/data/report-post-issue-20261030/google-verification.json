@@ -1,0 +1,74 @@
+{
+  "checkedCells": 16992,
+  "expectedUpdatedCells": 3138,
+  "matchedUpdatedCells": 3138,
+  "unexpectedChanges": [],
+  "errors": [],
+  "unchangedFormulaResults": 1163,
+  "statuses": {
+    "Giữ lại, đã kiểm": 117,
+    "Đã phát hành, về 0": 654,
+    "Đã hủy, không cộng DT": 1,
+    "Đã thay thế, về 0": 6
+  },
+  "summary": [
+    {
+      "row": 4,
+      "label": "1. Hóa đơn cũ trước xử lý",
+      "value": 47402157888
+    },
+    {
+      "row": 5,
+      "label": "2. Điều chỉnh đã phát hành",
+      "value": -46407850480
+    },
+    {
+      "row": 6,
+      "label": "3. Thay thế đã phát hành",
+      "value": -371344277
+    },
+    {
+      "row": 7,
+      "label": "4. Hóa đơn cũ còn giữ lại",
+      "value": 622963131
+    },
+    {
+      "row": 8,
+      "label": "5. Bán mới AMIS — dự kiến",
+      "value": 49533443555
+    },
+    {
+      "row": 9,
+      "label": "6. Trả hàng — dự kiến",
+      "value": -225865926
+    },
+    {
+      "row": 10,
+      "label": "SAU BÁN MỚI/TRẢ HÀNG — DỰ TÍNH",
+      "value": 49930540760
+    },
+    {
+      "row": 11,
+      "label": "Doanh thu theo sổ AMIS",
+      "value": 49928171800
+    },
+    {
+      "row": 12,
+      "label": "CHÊNH CẦN ĐỐI CHIẾU",
+      "value": 2368960
+    },
+    {
+      "row": 13,
+      "label": "Chênh còn lại: khác năm và tiền hàng",
+      "value": 2368960
+    }
+  ],
+  "googleNormalizedEmptyCells": 51,
+  "passed": true,
+  "source_hashes_unchanged": true,
+  "manual_visual_review": {
+    "surface": "Google Sheets in Chrome at100%",
+    "range": "Ra soat chuoi 2024!A1:C13",
+    "result": "Reviewed after update; no clipping or overlap"
+  }
+}
