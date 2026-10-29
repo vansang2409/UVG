@@ -3,3 +3,6 @@
 
 # Giữ nguyên byte của phương án được xác minh bằng SHA-256 trên mọi máy.
 scripts/data/check-review/kt-workbook-20261011/confirmed-plan-data.json -text whitespace=cr-at-eol
+
+# Giữ nguyên byte JSON căn cứ và xác nhận của đợt đối soát sau phát hành.
+scripts/data/post-issue-20261029/*.json -text whitespace=cr-at-eol

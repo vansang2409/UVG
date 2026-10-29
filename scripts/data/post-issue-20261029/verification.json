@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "source_reader": "openpyxl independent of extraction parser",
+  "invoice_source_rows_verified": 20925,
+  "total_files_reopened": 6,
+  "zero_chains_verified": 9430,
+  "unknown_payment_chains": 0,
+  "actual_nonzero_roots_in_scope": 0,
+  "accountant_excluded_roots": 1,
+  "replacement_pairs_verified": 6,
+  "replacement_candidates_without_verified_links": 0,
+  "replacement_chains_unknown_payment": 0,
+  "payment_fields_zero_by_user_confirmation": 24,
+  "confirmation_date": "2026-10-30",
+  "report_csv_rows": {
+    "TAT_CA_CHUOI.csv": 9431,
+    "CAC_TRUONG_HOP_CAN_KIEM_TRA.csv": 0,
+    "LOAI_TRU_THEO_XAC_NHAN_KT.csv": 1
+  },
+  "source_and_plan_hashes_unchanged": true,
+  "limits": "No live CQT query, signature validation or new invoice line-item verification."
+}

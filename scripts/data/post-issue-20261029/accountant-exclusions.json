@@ -1,0 +1,13 @@
+{
+  "confirmed_on": "2026-10-29",
+  "confirmed_by": "User directly in chat, with meInvoice status screenshot",
+  "exclusions": [
+    {
+      "group": "untreated",
+      "root": ["1C25TUV", "00001943"],
+      "import_seq": 1168,
+      "reason": "Kế toán đã chủ động loại khỏi đợt import/phát hành vì TĐ không hợp lệ.",
+      "scope": "Exclude from this issuance reconciliation only; preserve source invoices and import workbooks."
+    }
+  ]
+}

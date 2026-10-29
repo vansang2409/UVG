@@ -1,0 +1,102 @@
+{
+  "read_only_sources": true,
+  "source_files": 40,
+  "rows_by_kind": {
+    "total": 159589,
+    "adjustment": 13400,
+    "replacement": 468
+  },
+  "unique_total_keys": 159589,
+  "duplicate_total_keys": [],
+  "source_conflicts": [],
+  "date_min": "2024-01-09",
+  "date_max": "2026-10-29",
+  "groups": {
+    "adjusted": {
+      "roots": 1015,
+      "planned_invoices": 2045,
+      "statuses": {
+        "zero": 1015
+      },
+      "issue_kinds": {},
+      "known_balance_totals": [
+        0,
+        0,
+        0
+      ],
+      "unknown_balance_roots": 0
+    },
+    "untreated": {
+      "roots": 8409,
+      "planned_invoices": 8409,
+      "statuses": {
+        "zero": 8409
+      },
+      "issue_kinds": {},
+      "known_balance_totals": [
+        0,
+        0,
+        0
+      ],
+      "unknown_balance_roots": 0
+    },
+    "replacement_six": {
+      "roots": 6,
+      "planned_invoices": 0,
+      "statuses": {
+        "zero": 6
+      },
+      "issue_kinds": {},
+      "known_balance_totals": [
+        0,
+        0,
+        0
+      ],
+      "unknown_balance_roots": 0
+    }
+  },
+  "cqt_statuses_all": {
+    "": 13969,
+    "HĐ hợp lệ": 145617,
+    "HĐ không hợp lệ": 3
+  },
+  "linked_2026_cqt_statuses": {
+    "HĐ hợp lệ": 10454
+  },
+  "replacement_zero_candidates": [
+    [
+      "1C26MUV",
+      "00110705"
+    ],
+    [
+      "1C26MUV",
+      "00110706"
+    ],
+    [
+      "1C26MUV",
+      "00110707"
+    ],
+    [
+      "1C26MUV",
+      "00110708"
+    ],
+    [
+      "1C26MUV",
+      "00110709"
+    ],
+    [
+      "1C26MUV",
+      "00110710"
+    ]
+  ],
+  "supplemental_matching": {
+    "unique": 13
+  },
+  "blank_payment_zero_confirmation": {
+    "date": "2026-10-30",
+    "chains": 15,
+    "invoice_fields": 24,
+    "source_blanks_preserved": true
+  },
+  "accountant_exclusion_count": 1
+}

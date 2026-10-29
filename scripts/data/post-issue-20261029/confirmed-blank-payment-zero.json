@@ -1,0 +1,213 @@
+{
+  "confirmed_on": "2026-10-30",
+  "confirmed_by": "User directly in chat",
+  "user_instruction": "trống là 0 á",
+  "field": "payment",
+  "scope": "Only the blank payment fields of the 15 pending zero-goods/zero-VAT chains in this audit",
+  "source_policy": "Preserve original blanks; normalize to 0 in reconciliation only",
+  "roots": [
+    {
+      "group": "adjusted",
+      "root": [
+        "1C24TUV",
+        "00000574"
+      ]
+    },
+    {
+      "group": "adjusted",
+      "root": [
+        "1C25TUV",
+        "00000006"
+      ]
+    },
+    {
+      "group": "adjusted",
+      "root": [
+        "1C25TUV",
+        "00000016"
+      ]
+    },
+    {
+      "group": "untreated",
+      "root": [
+        "1C24TUV",
+        "00000671"
+      ]
+    },
+    {
+      "group": "untreated",
+      "root": [
+        "1C24TUV",
+        "00000744"
+      ]
+    },
+    {
+      "group": "untreated",
+      "root": [
+        "1C25TUV",
+        "00000391"
+      ]
+    },
+    {
+      "group": "untreated",
+      "root": [
+        "1C25TUV",
+        "00000761"
+      ]
+    },
+    {
+      "group": "untreated",
+      "root": [
+        "1C25TUV",
+        "00000835"
+      ]
+    },
+    {
+      "group": "untreated",
+      "root": [
+        "1C25TUV",
+        "00004748"
+      ]
+    },
+    {
+      "group": "replacement_six",
+      "root": [
+        "1C25TUV",
+        "00002601"
+      ]
+    },
+    {
+      "group": "replacement_six",
+      "root": [
+        "1C25TUV",
+        "00002610"
+      ]
+    },
+    {
+      "group": "replacement_six",
+      "root": [
+        "1C25TUV",
+        "00002602"
+      ]
+    },
+    {
+      "group": "replacement_six",
+      "root": [
+        "1C25TUV",
+        "00002603"
+      ]
+    },
+    {
+      "group": "replacement_six",
+      "root": [
+        "1C25TUV",
+        "00002604"
+      ]
+    },
+    {
+      "group": "replacement_six",
+      "root": [
+        "1C25TUV",
+        "00002617"
+      ]
+    }
+  ],
+  "invoice_keys": [
+    [
+      "1C24TUV",
+      "00000574"
+    ],
+    [
+      "1C24TUV",
+      "00000671"
+    ],
+    [
+      "1C24TUV",
+      "00000744"
+    ],
+    [
+      "1C25TUV",
+      "00000006"
+    ],
+    [
+      "1C25TUV",
+      "00000016"
+    ],
+    [
+      "1C25TUV",
+      "00000391"
+    ],
+    [
+      "1C25TUV",
+      "00000761"
+    ],
+    [
+      "1C25TUV",
+      "00000835"
+    ],
+    [
+      "1C25TUV",
+      "00004748"
+    ],
+    [
+      "1C26MUV",
+      "00101944"
+    ],
+    [
+      "1C26MUV",
+      "00101946"
+    ],
+    [
+      "1C26MUV",
+      "00102243"
+    ],
+    [
+      "1C26MUV",
+      "00102257"
+    ],
+    [
+      "1C26MUV",
+      "00102465"
+    ],
+    [
+      "1C26MUV",
+      "00102587"
+    ],
+    [
+      "1C26MUV",
+      "00102613"
+    ],
+    [
+      "1C26MUV",
+      "00105733"
+    ],
+    [
+      "1C26MUV",
+      "00110696"
+    ],
+    [
+      "1C26MUV",
+      "00110705"
+    ],
+    [
+      "1C26MUV",
+      "00110706"
+    ],
+    [
+      "1C26MUV",
+      "00110707"
+    ],
+    [
+      "1C26MUV",
+      "00110708"
+    ],
+    [
+      "1C26MUV",
+      "00110709"
+    ],
+    [
+      "1C26MUV",
+      "00110710"
+    ]
+  ]
+}
