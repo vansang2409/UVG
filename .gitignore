@@ -74,3 +74,6 @@ node_modules/
 /scripts/data/new-amis-2024-20261026/*.log
 /scripts/data/btl-bhh-live-20261026/*.png
 /scripts/data/btl-bhh-live-20261026/*.log
+
+# Ảnh kiểm tra của file bổ sung; giữ workbook, builder và JSON kiểm chứng.
+/outputs/bo-sung-13-20261029/*.png

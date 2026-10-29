@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "rows": 206,
+  "invoices": 13,
+  "roots": 8,
+  "totals": [
+    -233262118,
+    -18660968,
+    -251923086
+  ],
+  "all_4944_data_cells_equal_source": true,
+  "source_unchanged": true,
+  "sha256": "e7b8a8b551a7e4f4169421d182ab2c1fd5532308bf1065e19d7906c554436daa"
+}

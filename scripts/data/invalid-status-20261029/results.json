@@ -1,0 +1,86 @@
+{
+  "explicit_invalid": [
+    {
+      "key": "1C25MUV/00010792",
+      "date": "09/09/2025",
+      "cqt_code": "M1-25-XXNAS-00000010792",
+      "cqt_status": "HĐ không hợp lệ",
+      "invoice_status": "Hoá đơn mới",
+      "money": [
+        "1239811",
+        "99185",
+        "1338996"
+      ],
+      "plan": [],
+      "file": "data\\Meinv\\2025\\Bang_ke_hoa_don_da_su_dung_1793262482896_4.xls",
+      "row": 4817
+    },
+    {
+      "key": "1C25MUV/00012398",
+      "date": "15/09/2025",
+      "cqt_code": "M1-25-XXNAS-00000012398",
+      "cqt_status": "HĐ không hợp lệ",
+      "invoice_status": "Hoá đơn mới",
+      "money": [
+        "2884305",
+        "230744",
+        "3115049"
+      ],
+      "plan": [],
+      "file": "data\\Meinv\\2025\\Bang_ke_hoa_don_da_su_dung_1793262482896_5.xls",
+      "row": 230
+    },
+    {
+      "key": "1C25MUV/00016401",
+      "date": "11/10/2025",
+      "cqt_code": "M1-25-XXNAS-00000016401",
+      "cqt_status": "HĐ không hợp lệ",
+      "invoice_status": "Hoá đơn mới",
+      "money": [
+        "499074",
+        "39926",
+        "539000"
+      ],
+      "plan": [],
+      "file": "data\\Meinv\\2025\\Bang_ke_hoa_don_da_su_dung_1793262482896_5.xls",
+      "row": 4304
+    }
+  ],
+  "missing_cqt_code_in_plan": [
+    {
+      "key": "1C25TUV/00001943",
+      "date": "29/05/2025",
+      "cqt_code": "",
+      "cqt_status": "",
+      "invoice_status": "Hoá đơn mới",
+      "money": [
+        "597269",
+        "47782",
+        "645051"
+      ],
+      "plan": [
+        {
+          "group": "Chưa điều chỉnh",
+          "seq": 1168,
+          "row": 5584,
+          "money": [
+            -597269,
+            -47782,
+            -645051
+          ],
+          "file": "HOA_DON_CHUA_DIEU_CHINH_IMPORT_2_SHEET.xlsx"
+        }
+      ],
+      "file": "data\\Meinv\\2025\\Bang_ke_hoa_don_da_su_dung_1793262482896_1.xls",
+      "row": 1948
+    }
+  ],
+  "planned_blank_status_in_scanned_files": 9425,
+  "files_read": [
+    "data\\Meinv\\2024.xls",
+    "data\\Meinv\\2025\\Bang_ke_hoa_don_da_su_dung_1793262482896_1.xls",
+    "data\\Meinv\\2025\\Bang_ke_hoa_don_da_su_dung_1793262482896_2.xls",
+    "data\\Meinv\\2025\\Bang_ke_hoa_don_da_su_dung_1793262482896_4.xls",
+    "data\\Meinv\\2025\\Bang_ke_hoa_don_da_su_dung_1793262482896_5.xls"
+  ]
+}
