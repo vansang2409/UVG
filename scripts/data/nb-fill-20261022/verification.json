@@ -1,0 +1,19 @@
+{
+  "spreadsheetId": "1bhOnhnBcHaHiy06-REAdVVEk160FG94a6XgkfH0AQsw",
+  "sheet": "MEINV F0, F1, F2, ...",
+  "column": "D",
+  "date": "2026-10-22",
+  "filled": 18637,
+  "yellowVerified": 18637,
+  "originalCodesPreserved": 17179,
+  "totalCodes": 35816,
+  "remainingBlank": 1271,
+  "remainingReasons": {
+    "no_exact_match": 1266,
+    "multiple_nb_codes": 5
+  },
+  "otherInspectedCellsUnchanged": true,
+  "errors": [],
+  "screenshot": "google-sheet-after.png",
+  "localXlsxUpdated": false
+}

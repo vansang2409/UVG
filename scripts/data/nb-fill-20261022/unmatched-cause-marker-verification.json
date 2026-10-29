@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-22",
+  "column": "F",
+  "header": "Nguyên nhân chưa ghép mã đơn",
+  "marked": 1210,
+  "yellow": 1210,
+  "counts": {
+    "Không tìm thấy số HĐ trong NB": 659,
+    "Khớp thông tin nhưng có nhiều mã đơn NB": 5,
+    "Cùng số HĐ nhưng tên người mua không khớp": 536,
+    "Khớp số và tên; tiền lệch quá 2 đồng": 10
+  },
+  "checkedRows": 37087,
+  "originalCellsIncludingMoneyUnchanged": true,
+  "filterExtendedTo": "AG",
+  "errors": [],
+  "localXlsxUpdated": false
+}

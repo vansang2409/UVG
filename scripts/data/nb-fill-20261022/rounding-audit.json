@@ -1,0 +1,2210 @@
+{
+  "rule": "Same invoice number and NFC/case/space-normalized buyer; compare all three independently rounded integer VND amounts; each absolute delta <=2 and at least one nonzero. No Sheet edits.",
+  "stats": {
+    "remaining_checked": 1271,
+    "same_number_and_buyer": 76,
+    "near_1_or_2_dong": 61,
+    "unique_code": 61,
+    "ambiguous": 0,
+    "within_1_dong": 60,
+    "requires_2_dong": 1
+  },
+  "cases": [
+    {
+      "row": 103,
+      "invoice": [
+        "1C25MUV",
+        "00000102"
+      ],
+      "buyer": "t***nminh_vanicltn",
+      "main_money": [
+        5443519,
+        435482,
+        5879001
+      ],
+      "previous_reason": "no_exact_match",
+      "candidate_codes": [
+        "579553797596284212"
+      ],
+      "exact_codes": [],
+      "unique_code": true,
+      "candidates": [
+        {
+          "nb_row": 4026,
+          "code": "579553797596284212",
+          "nb_money": [
+            5443519,
+            435481,
+            5879000
+          ],
+          "delta_meinvoice_minus_nb": [
+            0,
+            1,
+            1
+          ],
+          "max_delta": 1
+        }
+      ]
+    },
+    {
+      "row": 469,
+      "invoice": [
+        "1C25MUV",
+        "00000468"
+      ],
+      "buyer": "khagaby",
+      "main_money": [
+        1543518,
+        123481,
+        1666999
+      ],
+      "previous_reason": "no_exact_match",
+      "candidate_codes": [
+        "250710RS5506RG"
+      ],
+      "exact_codes": [],
+      "unique_code": true,
+      "candidates": [
+        {
+          "nb_row": 1170,
+          "code": "250710RS5506RG",
+          "nb_money": [
+            1543519,
+            123481,
+            1667000
+          ],
+          "delta_meinvoice_minus_nb": [
+            -1,
+            0,
+            -1
+          ],
+          "max_delta": 1
+        }
+      ]
+    },
+    {
+      "row": 478,
+      "invoice": [
+        "1C25MUV",
+        "00000477"
+      ],
+      "buyer": "thaoden1907",
+      "main_money": [
+        1018519,
+        81482,
+        1100001
+      ],
+      "previous_reason": "no_exact_match",
+      "candidate_codes": [
+        "250711TA0NKGKR"
+      ],
+      "exact_codes": [],
+      "unique_code": true,
+      "candidates": [
+        {
+          "nb_row": 1179,
+          "code": "250711TA0NKGKR",
+          "nb_money": [
+            1018519,
+            81481,
+            1100000
+          ],
+          "delta_meinvoice_minus_nb": [
+            0,
+            1,
+            1
+          ],
+          "max_delta": 1
+        }
+      ]
+    },
+    {
+      "row": 816,
+      "invoice": [
+        "1C25MUV",
+        "00000815"
+      ],
+      "buyer": "oanhtran8899",
+      "main_money": [
+        2443519,
+        195482,
+        2639001
+      ],
+      "previous_reason": "no_exact_match",
+      "candidate_codes": [
+        "250710QYC69S79"
+      ],
+      "exact_codes": [],
+      "unique_code": true,
+      "candidates": [
+        {
+          "nb_row": 1382,
+          "code": "250710QYC69S79",
+          "nb_money": [
+            2443519,
+            195481,
+            2639000
+          ],
+          "delta_meinvoice_minus_nb": [
+            0,
+            1,
+            1
+          ],
+          "max_delta": 1
+        }
+      ]
+    },
+    {
+      "row": 1002,
+      "invoice": [
+        "1C25MUV",
+        "00001001"
+      ],
+      "buyer": "tiem159",
+      "main_money": [
+        2443519,
+        195482,
+        2639001
+      ],
+      "previous_reason": "no_exact_match",
+      "candidate_codes": [
+        "2507157TTWX5RH"
+      ],
+      "exact_codes": [],
+      "unique_code": true,
+      "candidates": [
+        {
+          "nb_row": 1472,
+          "code": "2507157TTWX5RH",
+          "nb_money": [
+            2443519,
+            195481,
+            2639000
+          ],
+          "delta_meinvoice_minus_nb": [
+            0,
+            1,
+            1
+          ],
+          "max_delta": 1
+        }
+      ]
+    },
+    {
+      "row": 1083,
+      "invoice": [
+        "1C25MUV",
+        "00001082"
+      ],
+      "buyer": "k***7_12",
+      "main_money": [
+        3868519,
+        309482,
+        4178001
+      ],
+      "previous_reason": "no_exact_match",
+      "candidate_codes": [
+        "579595352657266302"
+      ],
+      "exact_codes": [],
+      "unique_code": true,
+      "candidates": [
+        {
+          "nb_row": 4546,
+          "code": "579595352657266302",
+          "nb_money": [
+            3868519,
+            309481,
+            4178000
+          ],
+          "delta_meinvoice_minus_nb": [
+            0,
+            1,
+            1
+          ],
+          "max_delta": 1
+        }
+      ]
+    },
+    {
+      "row": 1215,
+      "invoice": [
+        "1C25MUV",
+        "00001214"
+      ],
+      "buyer": "thihoanghongnga",
+      "main_money": [
+        1543519,
+        123482,
+        1667001
+      ],
+      "previous_reason": "no_exact_match",
+      "candidate_codes": [
+        "25071453WUUP68"
+      ],
+      "exact_codes": [],
+      "unique_code": true,
+      "candidates": [
+        {
+          "nb_row": 1483,
+          "code": "25071453WUUP68",
+          "nb_money": [
+            1543519,
+            123481,
+            1667000
+          ],
+          "delta_meinvoice_minus_nb": [
+            0,
+            1,
+            1
+          ],
+          "max_delta": 1
+        }
+      ]
+    },
+    {
+      "row": 1632,
+      "invoice": [
+        "1C25MUV",
+        "00001631"
+      ],
+      "buyer": "trienchieu27099",
+      "main_money": [
+        1018519,
+        81482,
+        1100001
+      ],
+      "previous_reason": "no_exact_match",
+      "candidate_codes": [
+        "250719H100XC7S"
+      ],
+      "exact_codes": [],
+      "unique_code": true,
+      "candidates": [
+        {
+          "nb_row": 1688,
+          "code": "250719H100XC7S",
+          "nb_money": [
+            1018519,
+            81481,
+            1100000
+          ],
+          "delta_meinvoice_minus_nb": [
+            0,
+            1,
+            1
+          ],
+          "max_delta": 1
+        }
+      ]
+    },
+    {
+      "row": 1917,
+      "invoice": [
+        "1C25MUV",
+        "00001916"
+      ],
+      "buyer": "5bflql38dn",
+      "main_money": [
+        5443519,
+        435482,
+        5879001
+      ],
+      "previous_reason": "no_exact_match",
+      "candidate_codes": [
+        "250720N061A4P8"
+      ],
+      "exact_codes": [],
+      "unique_code": true,
+      "candidates": [
+        {
+          "nb_row": 1815,
+          "code": "250720N061A4P8",
+          "nb_money": [
+            5443519,
+            435481,
+            5879000
+          ],
+          "delta_meinvoice_minus_nb": [
+            0,
+            1,
+            1
+          ],
+          "max_delta": 1
+        }
+      ]
+    },
+    {
+      "row": 1961,
+      "invoice": [
+        "1C25MUV",
+        "00001960"
+      ],
+      "buyer": "ngocthao2206",
+      "main_money": [
+        1018519,
+        81482,
+        1100001
+      ],
+      "previous_reason": "no_exact_match",
+      "candidate_codes": [
+        "250721PHRTS0YV"
+      ],
+      "exact_codes": [],
+      "unique_code": true,
+      "candidates": [
+        {
+          "nb_row": 1801,
+          "code": "250721PHRTS0YV",
+          "nb_money": [
+            1018519,
+            81481,
+            1100000
+          ],
+          "delta_meinvoice_minus_nb": [
+            0,
+            1,
+            1
+          ],
+          "max_delta": 1
+        }
+      ]
+    },
+    {
+      "row": 2063,
+      "invoice": [
+        "1C25MUV",
+        "00002062"
+      ],
+      "buyer": "longnguyen111991",
+      "main_money": [
+        1543519,
+        123482,
+        1667001
+      ],
+      "previous_reason": "no_exact_match",
+      "candidate_codes": [
+        "250721N6Y8NK9T"
+      ],
+      "exact_codes": [],
+      "unique_code": true,
+      "candidates": [
+        {
+          "nb_row": 1870,
+          "code": "250721N6Y8NK9T",
+          "nb_money": [
+            1543519,
+            123481,
+            1667000
+          ],
+          "delta_meinvoice_minus_nb": [
+            0,
+            1,
+            1
+          ],
+          "max_delta": 1
+        }
+      ]
+    },
+    {
+      "row": 2080,
+      "invoice": [
+        "1C25MUV",
+        "00002079"
+      ],
+      "buyer": "lucyphuong90",
+      "main_money": [
+        1018519,
+        81482,
+        1100001
+      ],
+      "previous_reason": "no_exact_match",
+      "candidate_codes": [
+        "250720KXTW3JNN"
+      ],
+      "exact_codes": [],
+      "unique_code": true,
+      "candidates": [
+        {
+          "nb_row": 1831,
+          "code": "250720KXTW3JNN",
+          "nb_money": [
+            1018519,
+            81481,
+            1100000
+          ],
+          "delta_meinvoice_minus_nb": [
+            0,
+            1,
+            1
+          ],
+          "max_delta": 1
+        }
+      ]
+    },
+    {
+      "row": 2124,
+      "invoice": [
+        "1C25MUV",
+        "00002123"
+      ],
+      "buyer": "trungtin0121",
+      "main_money": [
+        2443519,
+        195482,
+        2639001
+      ],
+      "previous_reason": "no_exact_match",
+      "candidate_codes": [
+        "250723UBFMU6V7"
+      ],
+      "exact_codes": [],
+      "unique_code": true,
+      "candidates": [
+        {
+          "nb_row": 1948,
+          "code": "250723UBFMU6V7",
+          "nb_money": [
+            2443519,
+            195481,
+            2639000
+          ],
+          "delta_meinvoice_minus_nb": [
+            0,
+            1,
+            1
+          ],
+          "max_delta": 1
+        }
+      ]
+    },
+    {
+      "row": 2458,
+      "invoice": [
+        "1C25MUV",
+        "00002458"
+      ],
+      "buyer": "anhthu30790",
+      "main_money": [
+        1018519,
+        81482,
+        1100001
+      ],
+      "previous_reason": "no_exact_match",
+      "candidate_codes": [
+        "250722RYYYU400"
+      ],
+      "exact_codes": [],
+      "unique_code": true,
+      "candidates": [
+        {
+          "nb_row": 2019,
+          "code": "250722RYYYU400",
+          "nb_money": [
+            1018519,
+            81481,
+            1100000
+          ],
+          "delta_meinvoice_minus_nb": [
+            0,
+            1,
+            1
+          ],
+          "max_delta": 1
+        }
+      ]
+    },
+    {
+      "row": 2614,
+      "invoice": [
+        "1C25MUV",
+        "00002614"
+      ],
+      "buyer": "khoitruongtrong",
+      "main_money": [
+        2443519,
+        195482,
+        2639001
+      ],
+      "previous_reason": "no_exact_match",
+      "candidate_codes": [
+        "25072537FU7HJ4"
+      ],
+      "exact_codes": [],
+      "unique_code": true,
+      "candidates": [
+        {
+          "nb_row": 2136,
+          "code": "25072537FU7HJ4",
+          "nb_money": [
+            2443519,
+            195481,
+            2639000
+          ],
+          "delta_meinvoice_minus_nb": [
+            0,
+            1,
+            1
+          ],
+          "max_delta": 1
+        }
+      ]
+    },
+    {
+      "row": 2947,
+      "invoice": [
+        "1C25MUV",
+        "00002947"
+      ],
+      "buyer": "m***56ss",
+      "main_money": [
+        581481,
+        46518,
+        627999
+      ],
+      "previous_reason": "no_exact_match",
+      "candidate_codes": [
+        "579740400612705468"
+      ],
+      "exact_codes": [],
+      "unique_code": true,
+      "candidates": [
+        {
+          "nb_row": 5544,
+          "code": "579740400612705468",
+          "nb_money": [
+            581481,
+            46519,
+            628000
+          ],
+          "delta_meinvoice_minus_nb": [
+            0,
+            -1,
+            -1
+          ],
+          "max_delta": 1
+        }
+      ]
+    },
+    {
+      "row": 2952,
+      "invoice": [
+        "1C25MUV",
+        "00002952"
+      ],
+      "buyer": "m***un20",
+      "main_money": [
+        581481,
+        46518,
+        627999
+      ],
+      "previous_reason": "no_exact_match",
+      "candidate_codes": [
+        "579742145040909404"
+      ],
+      "exact_codes": [],
+      "unique_code": true,
+      "candidates": [
+        {
+          "nb_row": 5549,
+          "code": "579742145040909404",
+          "nb_money": [
+            581481,
+            46519,
+            628000
+          ],
+          "delta_meinvoice_minus_nb": [
+            0,
+            -1,
+            -1
+          ],
+          "max_delta": 1
+        }
+      ]
+    },
+    {
+      "row": 2959,
+      "invoice": [
+        "1C25MUV",
+        "00002959"
+      ],
+      "buyer": "d***nhson29",
+      "main_money": [
+        581481,
+        46518,
+        627999
+      ],
+      "previous_reason": "no_exact_match",
+      "candidate_codes": [
+        "579746635578246442"
+      ],
+      "exact_codes": [],
+      "unique_code": true,
+      "candidates": [
+        {
+          "nb_row": 5556,
+          "code": "579746635578246442",
+          "nb_money": [
+            581481,
+            46519,
+            628000
+          ],
+          "delta_meinvoice_minus_nb": [
+            0,
+            -1,
+            -1
+          ],
+          "max_delta": 1
+        }
+      ]
+    },
+    {
+      "row": 2961,
+      "invoice": [
+        "1C25MUV",
+        "00002961"
+      ],
+      "buyer": "t***anh19",
+      "main_money": [
+        581481,
+        46518,
+        627999
+      ],
+      "previous_reason": "no_exact_match",
+      "candidate_codes": [
+        "579747925636383885"
+      ],
+      "exact_codes": [],
+      "unique_code": true,
+      "candidates": [
+        {
+          "nb_row": 5558,
+          "code": "579747925636383885",
+          "nb_money": [
+            581481,
+            46519,
+            628000
+          ],
+          "delta_meinvoice_minus_nb": [
+            0,
+            -1,
+            -1
+          ],
+          "max_delta": 1
+        }
+      ]
+    },
+    {
+      "row": 2962,
+      "invoice": [
+        "1C25MUV",
+        "00002962"
+      ],
+      "buyer": "n***ennhi_2015",
+      "main_money": [
+        581481,
+        46518,
+        627999
+      ],
+      "previous_reason": "no_exact_match",
+      "candidate_codes": [
+        "579748061691217214"
+      ],
+      "exact_codes": [],
+      "unique_code": true,
+      "candidates": [
+        {
+          "nb_row": 5559,
+          "code": "579748061691217214",
+          "nb_money": [
+            581481,
+            46519,
+            628000
+          ],
+          "delta_meinvoice_minus_nb": [
+            0,
+            -1,
+            -1
+          ],
+          "max_delta": 1
+        }
+      ]
+    },
+    {
+      "row": 2965,
+      "invoice": [
+        "1C25MUV",
+        "00002965"
+      ],
+      "buyer": "c***ngoanhien",
+      "main_money": [
+        581481,
+        46518,
+        627999
+      ],
+      "previous_reason": "no_exact_match",
+      "candidate_codes": [
+        "579749114020071169"
+      ],
+      "exact_codes": [],
+      "unique_code": true,
+      "candidates": [
+        {
+          "nb_row": 5562,
+          "code": "579749114020071169",
+          "nb_money": [
+            581481,
+            46519,
+            628000
+          ],
+          "delta_meinvoice_minus_nb": [
+            0,
+            -1,
+            -1
+          ],
+          "max_delta": 1
+        }
+      ]
+    },
+    {
+      "row": 2966,
+      "invoice": [
+        "1C25MUV",
+        "00002966"
+      ],
+      "buyer": "i***2201",
+      "main_money": [
+        581481,
+        46518,
+        627999
+      ],
+      "previous_reason": "no_exact_match",
+      "candidate_codes": [
+        "579749137455416601"
+      ],
+      "exact_codes": [],
+      "unique_code": true,
+      "candidates": [
+        {
+          "nb_row": 5563,
+          "code": "579749137455416601",
+          "nb_money": [
+            581481,
+            46519,
+            628000
+          ],
+          "delta_meinvoice_minus_nb": [
+            0,
+            -1,
+            -1
+          ],
+          "max_delta": 1
+        }
+      ]
+    },
+    {
+      "row": 3031,
+      "invoice": [
+        "1C25MUV",
+        "00003031"
+      ],
+      "buyer": "h***oang1088",
+      "main_money": [
+        1211731,
+        96938,
+        1308669
+      ],
+      "previous_reason": "no_exact_match",
+      "candidate_codes": [
+        "579781545541404468"
+      ],
+      "exact_codes": [],
+      "unique_code": true,
+      "candidates": [
+        {
+          "nb_row": 5628,
+          "code": "579781545541404468",
+          "nb_money": [
+            1211731,
+            96939,
+            1308670
+          ],
+          "delta_meinvoice_minus_nb": [
+            0,
+            -1,
+            -1
+          ],
+          "max_delta": 1
+        }
+      ]
+    },
+    {
+      "row": 3171,
+      "invoice": [
+        "1C25MUV",
+        "00003171"
+      ],
+      "buyer": "n***enthianh12_12",
+      "main_money": [
+        581481,
+        46518,
+        627999
+      ],
+      "previous_reason": "no_exact_match",
+      "candidate_codes": [
+        "579750828621071961"
+      ],
+      "exact_codes": [],
+      "unique_code": true,
+      "candidates": [
+        {
+          "nb_row": 5656,
+          "code": "579750828621071961",
+          "nb_money": [
+            581481,
+            46519,
+            628000
+          ],
+          "delta_meinvoice_minus_nb": [
+            0,
+            -1,
+            -1
+          ],
+          "max_delta": 1
+        }
+      ]
+    },
+    {
+      "row": 3173,
+      "invoice": [
+        "1C25MUV",
+        "00003173"
+      ],
+      "buyer": "p***nganhdang179",
+      "main_money": [
+        581481,
+        46518,
+        627999
+      ],
+      "previous_reason": "no_exact_match",
+      "candidate_codes": [
+        "579751127173792934"
+      ],
+      "exact_codes": [],
+      "unique_code": true,
+      "candidates": [
+        {
+          "nb_row": 5658,
+          "code": "579751127173792934",
+          "nb_money": [
+            581481,
+            46519,
+            628000
+          ],
+          "delta_meinvoice_minus_nb": [
+            0,
+            -1,
+            -1
+          ],
+          "max_delta": 1
+        }
+      ]
+    },
+    {
+      "row": 3178,
+      "invoice": [
+        "1C25MUV",
+        "00003178"
+      ],
+      "buyer": "d***z.chan",
+      "main_money": [
+        581481,
+        46518,
+        627999
+      ],
+      "previous_reason": "no_exact_match",
+      "candidate_codes": [
+        "579755309573702916"
+      ],
+      "exact_codes": [],
+      "unique_code": true,
+      "candidates": [
+        {
+          "nb_row": 5663,
+          "code": "579755309573702916",
+          "nb_money": [
+            581481,
+            46519,
+            628000
+          ],
+          "delta_meinvoice_minus_nb": [
+            0,
+            -1,
+            -1
+          ],
+          "max_delta": 1
+        }
+      ]
+    },
+    {
+      "row": 3306,
+      "invoice": [
+        "1C25MUV",
+        "00003306"
+      ],
+      "buyer": "liem2208",
+      "main_money": [
+        1729629,
+        138370,
+        1867999
+      ],
+      "previous_reason": "no_exact_match",
+      "candidate_codes": [
+        "250730GW152J10"
+      ],
+      "exact_codes": [],
+      "unique_code": true,
+      "candidates": [
+        {
+          "nb_row": 2365,
+          "code": "250730GW152J10",
+          "nb_money": [
+            1729630,
+            138370,
+            1868000
+          ],
+          "delta_meinvoice_minus_nb": [
+            -1,
+            0,
+            -1
+          ],
+          "max_delta": 1
+        }
+      ]
+    },
+    {
+      "row": 3317,
+      "invoice": [
+        "1C25MUV",
+        "00003317"
+      ],
+      "buyer": "r***oalexwat",
+      "main_money": [
+        581481,
+        46518,
+        627999
+      ],
+      "previous_reason": "no_exact_match",
+      "candidate_codes": [
+        "579749557476492882"
+      ],
+      "exact_codes": [],
+      "unique_code": true,
+      "candidates": [
+        {
+          "nb_row": 5754,
+          "code": "579749557476492882",
+          "nb_money": [
+            581481,
+            46519,
+            628000
+          ],
+          "delta_meinvoice_minus_nb": [
+            0,
+            -1,
+            -1
+          ],
+          "max_delta": 1
+        }
+      ]
+    },
+    {
+      "row": 3448,
+      "invoice": [
+        "1C25MUV",
+        "00003448"
+      ],
+      "buyer": "_***ong",
+      "main_money": [
+        1211731,
+        96938,
+        1308669
+      ],
+      "previous_reason": "no_exact_match",
+      "candidate_codes": [
+        "579781369383454716"
+      ],
+      "exact_codes": [],
+      "unique_code": true,
+      "candidates": [
+        {
+          "nb_row": 8475,
+          "code": "579781369383454716",
+          "nb_money": [
+            1211731,
+            96939,
+            1308670
+          ],
+          "delta_meinvoice_minus_nb": [
+            0,
+            -1,
+            -1
+          ],
+          "max_delta": 1
+        }
+      ]
+    },
+    {
+      "row": 3527,
+      "invoice": [
+        "1C25MUV",
+        "00003527"
+      ],
+      "buyer": "havthoai",
+      "main_money": [
+        4646297,
+        371704,
+        5018001
+      ],
+      "previous_reason": "no_exact_match",
+      "candidate_codes": [
+        "250731JM7M9NSQ"
+      ],
+      "exact_codes": [],
+      "unique_code": true,
+      "candidates": [
+        {
+          "nb_row": 5906,
+          "code": "250731JM7M9NSQ",
+          "nb_money": [
+            4646296,
+            371704,
+            5018000
+          ],
+          "delta_meinvoice_minus_nb": [
+            1,
+            0,
+            1
+          ],
+          "max_delta": 1
+        }
+      ]
+    },
+    {
+      "row": 4399,
+      "invoice": [
+        "1C25MUV",
+        "00004399"
+      ],
+      "buyer": "huyvo123quang",
+      "main_money": [
+        1543519,
+        123482,
+        1667001
+      ],
+      "previous_reason": "no_exact_match",
+      "candidate_codes": [
+        "250802R8812UHS"
+      ],
+      "exact_codes": [],
+      "unique_code": true,
+      "candidates": [
+        {
+          "nb_row": 6230,
+          "code": "250802R8812UHS",
+          "nb_money": [
+            1543519,
+            123481,
+            1667000
+          ],
+          "delta_meinvoice_minus_nb": [
+            0,
+            1,
+            1
+          ],
+          "max_delta": 1
+        }
+      ]
+    },
+    {
+      "row": 4426,
+      "invoice": [
+        "1C25MUV",
+        "00004426"
+      ],
+      "buyer": "chuc.clothing",
+      "main_money": [
+        1543519,
+        123482,
+        1667001
+      ],
+      "previous_reason": "no_exact_match",
+      "candidate_codes": [
+        "250804V8T7UPWG"
+      ],
+      "exact_codes": [],
+      "unique_code": true,
+      "candidates": [
+        {
+          "nb_row": 6257,
+          "code": "250804V8T7UPWG",
+          "nb_money": [
+            1543519,
+            123481,
+            1667000
+          ],
+          "delta_meinvoice_minus_nb": [
+            0,
+            1,
+            1
+          ],
+          "max_delta": 1
+        }
+      ]
+    },
+    {
+      "row": 4907,
+      "invoice": [
+        "1C25MUV",
+        "00004907"
+      ],
+      "buyer": "o5w_wojoaj",
+      "main_money": [
+        2109260,
+        168741,
+        2278001
+      ],
+      "previous_reason": "no_exact_match",
+      "candidate_codes": [
+        "250804VMGG2BDJ"
+      ],
+      "exact_codes": [],
+      "unique_code": true,
+      "candidates": [
+        {
+          "nb_row": 6432,
+          "code": "250804VMGG2BDJ",
+          "nb_money": [
+            2109259,
+            168741,
+            2278000
+          ],
+          "delta_meinvoice_minus_nb": [
+            1,
+            0,
+            1
+          ],
+          "max_delta": 1
+        }
+      ]
+    },
+    {
+      "row": 5487,
+      "invoice": [
+        "1C25MUV",
+        "00005487"
+      ],
+      "buyer": "ngaomedia",
+      "main_money": [
+        1257409,
+        100593,
+        1358002
+      ],
+      "previous_reason": "no_exact_match",
+      "candidate_codes": [
+        "2508088CFM4RR0"
+      ],
+      "exact_codes": [],
+      "unique_code": true,
+      "candidates": [
+        {
+          "nb_row": 6617,
+          "code": "2508088CFM4RR0",
+          "nb_money": [
+            1257407,
+            100593,
+            1358000
+          ],
+          "delta_meinvoice_minus_nb": [
+            2,
+            0,
+            2
+          ],
+          "max_delta": 2
+        }
+      ]
+    },
+    {
+      "row": 6666,
+      "invoice": [
+        "1C25MUV",
+        "00006666"
+      ],
+      "buyer": "lelinh98kkt",
+      "main_money": [
+        868518,
+        69481,
+        937999
+      ],
+      "previous_reason": "no_exact_match",
+      "candidate_codes": [
+        "250810F1E1JHPW"
+      ],
+      "exact_codes": [],
+      "unique_code": true,
+      "candidates": [
+        {
+          "nb_row": 7151,
+          "code": "250810F1E1JHPW",
+          "nb_money": [
+            868519,
+            69481,
+            938000
+          ],
+          "delta_meinvoice_minus_nb": [
+            -1,
+            0,
+            -1
+          ],
+          "max_delta": 1
+        }
+      ]
+    },
+    {
+      "row": 7324,
+      "invoice": [
+        "1C25MUV",
+        "00007326"
+      ],
+      "buyer": "k***_010319",
+      "main_money": [
+        1154469,
+        92358,
+        1246827
+      ],
+      "previous_reason": "no_exact_match",
+      "candidate_codes": [
+        "579983284295140604"
+      ],
+      "exact_codes": [],
+      "unique_code": true,
+      "candidates": [
+        {
+          "nb_row": 10794,
+          "code": "579983284295140604",
+          "nb_money": [
+            1154469,
+            92357,
+            1246826
+          ],
+          "delta_meinvoice_minus_nb": [
+            0,
+            1,
+            1
+          ],
+          "max_delta": 1
+        }
+      ]
+    },
+    {
+      "row": 8728,
+      "invoice": [
+        "1C25MUV",
+        "00008730"
+      ],
+      "buyer": "h***i25",
+      "main_money": [
+        6200925,
+        496074,
+        6696999
+      ],
+      "previous_reason": "no_exact_match",
+      "candidate_codes": [
+        "580049571549644580"
+      ],
+      "exact_codes": [],
+      "unique_code": true,
+      "candidates": [
+        {
+          "nb_row": 11421,
+          "code": "580049571549644580",
+          "nb_money": [
+            6200926,
+            496074,
+            6697000
+          ],
+          "delta_meinvoice_minus_nb": [
+            -1,
+            0,
+            -1
+          ],
+          "max_delta": 1
+        }
+      ]
+    },
+    {
+      "row": 9398,
+      "invoice": [
+        "1C25MUV",
+        "00009400"
+      ],
+      "buyer": "18daniel",
+      "main_money": [
+        1859260,
+        148740,
+        2008000
+      ],
+      "previous_reason": "no_exact_match",
+      "candidate_codes": [
+        "250824KPS1X0V4"
+      ],
+      "exact_codes": [],
+      "unique_code": true,
+      "candidates": [
+        {
+          "nb_row": 8294,
+          "code": "250824KPS1X0V4",
+          "nb_money": [
+            1859259,
+            148741,
+            2008000
+          ],
+          "delta_meinvoice_minus_nb": [
+            1,
+            -1,
+            0
+          ],
+          "max_delta": 1
+        }
+      ]
+    },
+    {
+      "row": 9399,
+      "invoice": [
+        "1C25MUV",
+        "00009401"
+      ],
+      "buyer": "nanoil",
+      "main_money": [
+        2758334,
+        220666,
+        2979000
+      ],
+      "previous_reason": "no_exact_match",
+      "candidate_codes": [
+        "250823K0SKC4F5"
+      ],
+      "exact_codes": [],
+      "unique_code": true,
+      "candidates": [
+        {
+          "nb_row": 8295,
+          "code": "250823K0SKC4F5",
+          "nb_money": [
+            2758333,
+            220667,
+            2979000
+          ],
+          "delta_meinvoice_minus_nb": [
+            1,
+            -1,
+            0
+          ],
+          "max_delta": 1
+        }
+      ]
+    },
+    {
+      "row": 10479,
+      "invoice": [
+        "1C25MUV",
+        "00010481"
+      ],
+      "buyer": "u***hanh8",
+      "main_money": [
+        5443519,
+        435482,
+        5879001
+      ],
+      "previous_reason": "no_exact_match",
+      "candidate_codes": [
+        "580208154347668579"
+      ],
+      "exact_codes": [],
+      "unique_code": true,
+      "candidates": [
+        {
+          "nb_row": 14327,
+          "code": "580208154347668579",
+          "nb_money": [
+            5443519,
+            435481,
+            5879000
+          ],
+          "delta_meinvoice_minus_nb": [
+            0,
+            1,
+            1
+          ],
+          "max_delta": 1
+        }
+      ]
+    },
+    {
+      "row": 10589,
+      "invoice": [
+        "1C25MUV",
+        "00010591"
+      ],
+      "buyer": "p***.titan.68",
+      "main_money": [
+        2443519,
+        195482,
+        2639001
+      ],
+      "previous_reason": "no_exact_match",
+      "candidate_codes": [
+        "580237943795451199"
+      ],
+      "exact_codes": [],
+      "unique_code": true,
+      "candidates": [
+        {
+          "nb_row": 14434,
+          "code": "580237943795451199",
+          "nb_money": [
+            2443519,
+            195481,
+            2639000
+          ],
+          "delta_meinvoice_minus_nb": [
+            0,
+            1,
+            1
+          ],
+          "max_delta": 1
+        }
+      ]
+    },
+    {
+      "row": 11218,
+      "invoice": [
+        "1C25MUV",
+        "00011220"
+      ],
+      "buyer": "saintdj",
+      "main_money": [
+        3128703,
+        250297,
+        3379000
+      ],
+      "previous_reason": "no_exact_match",
+      "candidate_codes": [
+        "250903HF6TYE8V"
+      ],
+      "exact_codes": [],
+      "unique_code": true,
+      "candidates": [
+        {
+          "nb_row": 12447,
+          "code": "250903HF6TYE8V",
+          "nb_money": [
+            3128704,
+            250296,
+            3379000
+          ],
+          "delta_meinvoice_minus_nb": [
+            -1,
+            1,
+            0
+          ],
+          "max_delta": 1
+        }
+      ]
+    },
+    {
+      "row": 11219,
+      "invoice": [
+        "1C25MUV",
+        "00011221"
+      ],
+      "buyer": "cxr_ublcty",
+      "main_money": [
+        3128703,
+        250297,
+        3379000
+      ],
+      "previous_reason": "no_exact_match",
+      "candidate_codes": [
+        "250907UDNRTBQ2"
+      ],
+      "exact_codes": [],
+      "unique_code": true,
+      "candidates": [
+        {
+          "nb_row": 12448,
+          "code": "250907UDNRTBQ2",
+          "nb_money": [
+            3128704,
+            250296,
+            3379000
+          ],
+          "delta_meinvoice_minus_nb": [
+            -1,
+            1,
+            0
+          ],
+          "max_delta": 1
+        }
+      ]
+    },
+    {
+      "row": 11881,
+      "invoice": [
+        "1C25MUV",
+        "00011883"
+      ],
+      "buyer": "thuan_sino",
+      "main_money": [
+        2442592,
+        195407,
+        2637999
+      ],
+      "previous_reason": "no_exact_match",
+      "candidate_codes": [
+        "250912A9U3YSPE"
+      ],
+      "exact_codes": [],
+      "unique_code": true,
+      "candidates": [
+        {
+          "nb_row": 12737,
+          "code": "250912A9U3YSPE",
+          "nb_money": [
+            2442593,
+            195407,
+            2638000
+          ],
+          "delta_meinvoice_minus_nb": [
+            -1,
+            0,
+            -1
+          ],
+          "max_delta": 1
+        }
+      ]
+    },
+    {
+      "row": 11882,
+      "invoice": [
+        "1C25MUV",
+        "00011884"
+      ],
+      "buyer": "tyquayshop",
+      "main_money": [
+        3296297,
+        263704,
+        3560001
+      ],
+      "previous_reason": "no_exact_match",
+      "candidate_codes": [
+        "2509093GJEEUNN"
+      ],
+      "exact_codes": [],
+      "unique_code": true,
+      "candidates": [
+        {
+          "nb_row": 12738,
+          "code": "2509093GJEEUNN",
+          "nb_money": [
+            3296296,
+            263704,
+            3560000
+          ],
+          "delta_meinvoice_minus_nb": [
+            1,
+            0,
+            1
+          ],
+          "max_delta": 1
+        }
+      ]
+    },
+    {
+      "row": 12316,
+      "invoice": [
+        "1C25MUV",
+        "00012319"
+      ],
+      "buyer": "a***atruong",
+      "main_money": [
+        499069,
+        39926,
+        538995
+      ],
+      "previous_reason": "no_exact_match",
+      "candidate_codes": [
+        "580353993737406247"
+      ],
+      "exact_codes": [],
+      "unique_code": true,
+      "candidates": [
+        {
+          "nb_row": 15323,
+          "code": "580353993737406247",
+          "nb_money": [
+            499069,
+            39925,
+            538994
+          ],
+          "delta_meinvoice_minus_nb": [
+            0,
+            1,
+            1
+          ],
+          "max_delta": 1
+        }
+      ]
+    },
+    {
+      "row": 13369,
+      "invoice": [
+        "1C25MUV",
+        "00013378"
+      ],
+      "buyer": "hoangthau250401",
+      "main_money": [
+        3155555,
+        252445,
+        3408000
+      ],
+      "previous_reason": "no_exact_match",
+      "candidate_codes": [
+        "2509093QJSRVQR"
+      ],
+      "exact_codes": [],
+      "unique_code": true,
+      "candidates": [
+        {
+          "nb_row": 13283,
+          "code": "2509093QJSRVQR",
+          "nb_money": [
+            3155556,
+            252444,
+            3408000
+          ],
+          "delta_meinvoice_minus_nb": [
+            -1,
+            1,
+            0
+          ],
+          "max_delta": 1
+        }
+      ]
+    },
+    {
+      "row": 13372,
+      "invoice": [
+        "1C25MUV",
+        "00013381"
+      ],
+      "buyer": "usianbol969",
+      "main_money": [
+        3162116,
+        252970,
+        3415086
+      ],
+      "previous_reason": "no_exact_match",
+      "candidate_codes": [
+        "250916MQ50N33F"
+      ],
+      "exact_codes": [],
+      "unique_code": true,
+      "candidates": [
+        {
+          "nb_row": 13286,
+          "code": "250916MQ50N33F",
+          "nb_money": [
+            3162117,
+            252969,
+            3415086
+          ],
+          "delta_meinvoice_minus_nb": [
+            -1,
+            1,
+            0
+          ],
+          "max_delta": 1
+        }
+      ]
+    },
+    {
+      "row": 13551,
+      "invoice": [
+        "1C25MUV",
+        "00013560"
+      ],
+      "buyer": "whisky199111",
+      "main_money": [
+        1535147,
+        122811,
+        1657958
+      ],
+      "previous_reason": "no_exact_match",
+      "candidate_codes": [
+        "2509201BJT35SM"
+      ],
+      "exact_codes": [],
+      "unique_code": true,
+      "candidates": [
+        {
+          "nb_row": 13357,
+          "code": "2509201BJT35SM",
+          "nb_money": [
+            1535146,
+            122812,
+            1657958
+          ],
+          "delta_meinvoice_minus_nb": [
+            1,
+            -1,
+            0
+          ],
+          "max_delta": 1
+        }
+      ]
+    },
+    {
+      "row": 14230,
+      "invoice": [
+        "1C25MUV",
+        "00014239"
+      ],
+      "buyer": "tothuthuy61183",
+      "main_money": [
+        1405555,
+        112445,
+        1518000
+      ],
+      "previous_reason": "no_exact_match",
+      "candidate_codes": [
+        "250925DQT157P1"
+      ],
+      "exact_codes": [],
+      "unique_code": true,
+      "candidates": [
+        {
+          "nb_row": 13644,
+          "code": "250925DQT157P1",
+          "nb_money": [
+            1405556,
+            112444,
+            1518000
+          ],
+          "delta_meinvoice_minus_nb": [
+            -1,
+            1,
+            0
+          ],
+          "max_delta": 1
+        }
+      ]
+    },
+    {
+      "row": 14770,
+      "invoice": [
+        "1C25MUV",
+        "00014780"
+      ],
+      "buyer": "phnglmhng485",
+      "main_money": [
+        5257407,
+        420592,
+        5677999
+      ],
+      "previous_reason": "no_exact_match",
+      "candidate_codes": [
+        "250928NUBDVK41"
+      ],
+      "exact_codes": [],
+      "unique_code": true,
+      "candidates": [
+        {
+          "nb_row": 13884,
+          "code": "250928NUBDVK41",
+          "nb_money": [
+            5257406,
+            420593,
+            5677999
+          ],
+          "delta_meinvoice_minus_nb": [
+            1,
+            -1,
+            0
+          ],
+          "max_delta": 1
+        }
+      ]
+    },
+    {
+      "row": 15619,
+      "invoice": [
+        "1C25MUV",
+        "00015630"
+      ],
+      "buyer": "zunnguyen",
+      "main_money": [
+        834260,
+        66740,
+        901000
+      ],
+      "previous_reason": "no_exact_match",
+      "candidate_codes": [
+        "2510033XGUHXRN"
+      ],
+      "exact_codes": [],
+      "unique_code": true,
+      "candidates": [
+        {
+          "nb_row": 17183,
+          "code": "2510033XGUHXRN",
+          "nb_money": [
+            834259,
+            66741,
+            901000
+          ],
+          "delta_meinvoice_minus_nb": [
+            1,
+            -1,
+            0
+          ],
+          "max_delta": 1
+        }
+      ]
+    },
+    {
+      "row": 16017,
+      "invoice": [
+        "1C25MUV",
+        "00016028"
+      ],
+      "buyer": "nhthnphm555",
+      "main_money": [
+        2044445,
+        163555,
+        2208000
+      ],
+      "previous_reason": "no_exact_match",
+      "candidate_codes": [
+        "251004881THRFW"
+      ],
+      "exact_codes": [],
+      "unique_code": true,
+      "candidates": [
+        {
+          "nb_row": 17366,
+          "code": "251004881THRFW",
+          "nb_money": [
+            2044444,
+            163556,
+            2208000
+          ],
+          "delta_meinvoice_minus_nb": [
+            1,
+            -1,
+            0
+          ],
+          "max_delta": 1
+        }
+      ]
+    },
+    {
+      "row": 34628,
+      "invoice": [
+        "1C25TUV",
+        "00010393"
+      ],
+      "buyer": "09gd47pmvv",
+      "main_money": [
+        2331481,
+        186518,
+        2517999
+      ],
+      "previous_reason": "no_exact_match",
+      "candidate_codes": [
+        "250629SN7HFM4S"
+      ],
+      "exact_codes": [],
+      "unique_code": true,
+      "candidates": [
+        {
+          "nb_row": 94,
+          "code": "250629SN7HFM4S",
+          "nb_money": [
+            2331481,
+            186519,
+            2518000
+          ],
+          "delta_meinvoice_minus_nb": [
+            0,
+            -1,
+            -1
+          ],
+          "max_delta": 1
+        }
+      ]
+    },
+    {
+      "row": 34629,
+      "invoice": [
+        "1C25TUV",
+        "00010394"
+      ],
+      "buyer": "m***uynh8626",
+      "main_money": [
+        5443519,
+        435482,
+        5879001
+      ],
+      "previous_reason": "no_exact_match",
+      "candidate_codes": [
+        "579331463715259784"
+      ],
+      "exact_codes": [],
+      "unique_code": true,
+      "candidates": [
+        {
+          "nb_row": 2571,
+          "code": "579331463715259784",
+          "nb_money": [
+            5443519,
+            435481,
+            5879000
+          ],
+          "delta_meinvoice_minus_nb": [
+            0,
+            1,
+            1
+          ],
+          "max_delta": 1
+        }
+      ]
+    },
+    {
+      "row": 34780,
+      "invoice": [
+        "1C25TUV",
+        "00010545"
+      ],
+      "buyer": "t***mm8889",
+      "main_money": [
+        2178306,
+        174264,
+        2352570
+      ],
+      "previous_reason": "no_exact_match",
+      "candidate_codes": [
+        "579467574978775020"
+      ],
+      "exact_codes": [],
+      "unique_code": true,
+      "candidates": [
+        {
+          "nb_row": 2691,
+          "code": "579467574978775020",
+          "nb_money": [
+            2178306,
+            174265,
+            2352571
+          ],
+          "delta_meinvoice_minus_nb": [
+            0,
+            -1,
+            -1
+          ],
+          "max_delta": 1
+        }
+      ]
+    },
+    {
+      "row": 34902,
+      "invoice": [
+        "1C25TUV",
+        "00010667"
+      ],
+      "buyer": "vypht.96",
+      "main_money": [
+        3868518,
+        309481,
+        4177999
+      ],
+      "previous_reason": "no_exact_match",
+      "candidate_codes": [
+        "2507022GA706JH"
+      ],
+      "exact_codes": [],
+      "unique_code": true,
+      "candidates": [
+        {
+          "nb_row": 154,
+          "code": "2507022GA706JH",
+          "nb_money": [
+            3868519,
+            309481,
+            4178000
+          ],
+          "delta_meinvoice_minus_nb": [
+            -1,
+            0,
+            -1
+          ],
+          "max_delta": 1
+        }
+      ]
+    },
+    {
+      "row": 34939,
+      "invoice": [
+        "1C25TUV",
+        "00010704"
+      ],
+      "buyer": "ngocduc0612",
+      "main_money": [
+        5107408,
+        408593,
+        5516001
+      ],
+      "previous_reason": "no_exact_match",
+      "candidate_codes": [
+        "2507023JJ4EYGF"
+      ],
+      "exact_codes": [],
+      "unique_code": true,
+      "candidates": [
+        {
+          "nb_row": 130,
+          "code": "2507023JJ4EYGF",
+          "nb_money": [
+            5107407,
+            408593,
+            5516000
+          ],
+          "delta_meinvoice_minus_nb": [
+            1,
+            0,
+            1
+          ],
+          "max_delta": 1
+        }
+      ]
+    },
+    {
+      "row": 35351,
+      "invoice": [
+        "1C25TUV",
+        "00011117"
+      ],
+      "buyer": "e776ach7x5",
+      "main_money": [
+        656481,
+        52518,
+        708999
+      ],
+      "previous_reason": "no_exact_match",
+      "candidate_codes": [
+        "250630VGEBDYV4"
+      ],
+      "exact_codes": [],
+      "unique_code": true,
+      "candidates": [
+        {
+          "nb_row": 230,
+          "code": "250630VGEBDYV4",
+          "nb_money": [
+            656481,
+            52519,
+            709000
+          ],
+          "delta_meinvoice_minus_nb": [
+            0,
+            -1,
+            -1
+          ],
+          "max_delta": 1
+        }
+      ]
+    },
+    {
+      "row": 35659,
+      "invoice": [
+        "1C25TUV",
+        "00011425"
+      ],
+      "buyer": "m***venus5",
+      "main_money": [
+        2178306,
+        174264,
+        2352570
+      ],
+      "previous_reason": "no_exact_match",
+      "candidate_codes": [
+        "579477046753395818"
+      ],
+      "exact_codes": [],
+      "unique_code": true,
+      "candidates": [
+        {
+          "nb_row": 3129,
+          "code": "579477046753395818",
+          "nb_money": [
+            2178306,
+            174265,
+            2352571
+          ],
+          "delta_meinvoice_minus_nb": [
+            0,
+            -1,
+            -1
+          ],
+          "max_delta": 1
+        }
+      ]
+    },
+    {
+      "row": 36450,
+      "invoice": [
+        "1C25TUV",
+        "00012216"
+      ],
+      "buyer": "p***thuynguyen",
+      "main_money": [
+        3868519,
+        309482,
+        4178001
+      ],
+      "previous_reason": "no_exact_match",
+      "candidate_codes": [
+        "579506820509239055"
+      ],
+      "exact_codes": [],
+      "unique_code": true,
+      "candidates": [
+        {
+          "nb_row": 3621,
+          "code": "579506820509239055",
+          "nb_money": [
+            3868519,
+            309481,
+            4178000
+          ],
+          "delta_meinvoice_minus_nb": [
+            0,
+            1,
+            1
+          ],
+          "max_delta": 1
+        }
+      ]
+    }
+  ]
+}

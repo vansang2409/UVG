@@ -77,3 +77,8 @@ node_modules/
 
 # Ảnh kiểm tra của file bổ sung; giữ workbook, builder và JSON kiểm chứng.
 /outputs/bo-sung-13-20261029/*.png
+
+# Preview của các lượt kiểm tra còn lại; ảnh nguồn trong data/ vẫn được lưu.
+/scripts/data/h2-chain-readiness-20261022/preview-*.png
+/scripts/data/nb-fill-20261022/*.png
+/scripts/data/replacement-zero-20261029/*.png

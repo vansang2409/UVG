@@ -1,0 +1,15 @@
+{
+  "confirmed_on": "2026-10-22",
+  "confirmed_edges": [
+    {
+      "parent": ["1C25MUV", "00031054"],
+      "parent_date": "2025-12-19",
+      "child": ["1C25MUV", "00034893"],
+      "child_date": "2025-12-31",
+      "kind": "replacement",
+      "agreement": "BBTT00109",
+      "evidence": ["data/Bo sung/2026-10-22/31054-thay-the.png", "data/Bo sung/2026-10-22/34893-ban-the-hien.png"],
+      "note": "Ảnh màn hình thay thế và bản thể hiện đều xác nhận liên kết. Bản thể hiện 34893 có dấu Đã bị thay thế; báo cáo 2026 xác nhận tiếp 34893 -> 1C26MUV/00002639 ngày 13/01/2026. Không coi nhãn HĐ hợp lệ là trạng thái cuối của chuỗi."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "source": "C:\\Users\\tranq\\Downloads\\Bang_ke_hoa_don_dieu_chinh_xuat_theo_HD_dieu_chinh_1792636231350.xls",
+  "saved": "data\\Du lieu Meinvoice\\Xuat_lai_2026-10-22\\Bang_ke_hoa_don_dieu_chinh_xuat_theo_HD_dieu_chinh_1792636231350.xls",
+  "sha256": "6801ddc8ad0709352adf8462e07a2134abf9eaa040f5c5727109c3774f3daf98",
+  "period": "2026-01-01..2026-10-22",
+  "export_by": "adjusting_invoice",
+  "rows": 1288,
+  "unique_adjusting_invoices": 1288,
+  "direct_parent_links_in_2025_H2": 51,
+  "note": "Direct-parent count only; not yet a complete rooted-chain count. Source bytes preserved."
+}

@@ -1,0 +1,6 @@
+{
+  "authoring": "Artifact Tool đã dựng model và render đủ 7 sheet kiểm tra; xuất workbook lớn không hoàn tất, dừng tiến trình riêng sau chờ kéo dài và bộ nhớ tăng ~3.7GB",
+  "final_packaging": "Bundled XlsxWriter; kiểm độc lập bằng openpyxl chỉ đọc",
+  "template_columns": 17,
+  "template_header_row": 9
+}

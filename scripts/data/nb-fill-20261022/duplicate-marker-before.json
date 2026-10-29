@@ -1,0 +1,3594 @@
+{
+  "date": "2026-10-22",
+  "sheet": {
+    "properties": {
+      "sheetId": 2070647506,
+      "title": "MEINV F0, F1, F2, ...",
+      "index": 9,
+      "sheetType": "GRID",
+      "gridProperties": {
+        "rowCount": 37088,
+        "columnCount": 31,
+        "frozenRowCount": 1,
+        "hideGridlines": true,
+        "rowGroupControlAfter": true,
+        "columnGroupControlAfter": true
+      },
+      "tabColor": {
+        "red": 0.1254902,
+        "green": 0.21568628,
+        "blue": 0.27450982
+      },
+      "tabColorStyle": {
+        "rgbColor": {
+          "red": 0.1254902,
+          "green": 0.21568628,
+          "blue": 0.27450982
+        }
+      }
+    },
+    "filterViews": [
+      {
+        "filterViewId": 579756795,
+        "title": "Chuoi_H2_2025 filter view",
+        "range": {
+          "sheetId": 2070647506,
+          "startRowIndex": 0,
+          "endRowIndex": 37088,
+          "startColumnIndex": 0,
+          "endColumnIndex": 31
+        }
+      }
+    ],
+    "basicFilter": {
+      "range": {
+        "sheetId": 2070647506,
+        "startRowIndex": 0,
+        "endRowIndex": 37088,
+        "startColumnIndex": 0,
+        "endColumnIndex": 31
+      }
+    }
+  },
+  "groups": [
+    [
+      "2507253B5H7D5V",
+      [
+        {
+          "row": 2871,
+          "series": "1C25MUV",
+          "number": "00002871"
+        },
+        {
+          "row": 2926,
+          "series": "1C25MUV",
+          "number": "00002926"
+        }
+      ]
+    ],
+    [
+      "250730FSGHWRQG",
+      [
+        {
+          "row": 3533,
+          "series": "1C25MUV",
+          "number": "00003533"
+        },
+        {
+          "row": 3558,
+          "series": "1C25MUV",
+          "number": "00003558"
+        }
+      ]
+    ],
+    [
+      "580200900891018389",
+      [
+        {
+          "row": 10588,
+          "series": "1C25MUV",
+          "number": "00010590"
+        },
+        {
+          "row": 10600,
+          "series": "1C25MUV",
+          "number": "00010602"
+        }
+      ]
+    ],
+    [
+      "2509091JRD7MF6",
+      [
+        {
+          "row": 10963,
+          "series": "1C25MUV",
+          "number": "00010965"
+        },
+        {
+          "row": 10964,
+          "series": "1C25MUV",
+          "number": "00010966"
+        }
+      ]
+    ],
+    [
+      "580285625155814781",
+      [
+        {
+          "row": 12342,
+          "series": "1C25MUV",
+          "number": "00012345"
+        },
+        {
+          "row": 12515,
+          "series": "1C25MUV",
+          "number": "00012524"
+        }
+      ]
+    ],
+    [
+      "580287539860178021",
+      [
+        {
+          "row": 12343,
+          "series": "1C25MUV",
+          "number": "00012346"
+        },
+        {
+          "row": 12516,
+          "series": "1C25MUV",
+          "number": "00012525"
+        }
+      ]
+    ],
+    [
+      "580295579776681745",
+      [
+        {
+          "row": 12344,
+          "series": "1C25MUV",
+          "number": "00012347"
+        },
+        {
+          "row": 12517,
+          "series": "1C25MUV",
+          "number": "00012526"
+        }
+      ]
+    ],
+    [
+      "580297968883500571",
+      [
+        {
+          "row": 12345,
+          "series": "1C25MUV",
+          "number": "00012348"
+        },
+        {
+          "row": 12519,
+          "series": "1C25MUV",
+          "number": "00012528"
+        }
+      ]
+    ],
+    [
+      "580318258906563797",
+      [
+        {
+          "row": 12346,
+          "series": "1C25MUV",
+          "number": "00012349"
+        },
+        {
+          "row": 12523,
+          "series": "1C25MUV",
+          "number": "00012532"
+        }
+      ]
+    ],
+    [
+      "580322043294811991",
+      [
+        {
+          "row": 12347,
+          "series": "1C25MUV",
+          "number": "00012350"
+        },
+        {
+          "row": 12525,
+          "series": "1C25MUV",
+          "number": "00012534"
+        }
+      ]
+    ],
+    [
+      "580322618297386042",
+      [
+        {
+          "row": 12348,
+          "series": "1C25MUV",
+          "number": "00012351"
+        },
+        {
+          "row": 12527,
+          "series": "1C25MUV",
+          "number": "00012536"
+        }
+      ]
+    ],
+    [
+      "580324501123794627",
+      [
+        {
+          "row": 12349,
+          "series": "1C25MUV",
+          "number": "00012352"
+        },
+        {
+          "row": 12529,
+          "series": "1C25MUV",
+          "number": "00012538"
+        }
+      ]
+    ],
+    [
+      "580329843129812223",
+      [
+        {
+          "row": 12350,
+          "series": "1C25MUV",
+          "number": "00012353"
+        },
+        {
+          "row": 12531,
+          "series": "1C25MUV",
+          "number": "00012540"
+        }
+      ]
+    ],
+    [
+      "580339152772958002",
+      [
+        {
+          "row": 12351,
+          "series": "1C25MUV",
+          "number": "00012354"
+        },
+        {
+          "row": 12532,
+          "series": "1C25MUV",
+          "number": "00012541"
+        }
+      ]
+    ],
+    [
+      "580310547750946587",
+      [
+        {
+          "row": 12352,
+          "series": "1C25MUV",
+          "number": "00012355"
+        },
+        {
+          "row": 12537,
+          "series": "1C25MUV",
+          "number": "00012546"
+        }
+      ]
+    ],
+    [
+      "580316510822171912",
+      [
+        {
+          "row": 12353,
+          "series": "1C25MUV",
+          "number": "00012356"
+        },
+        {
+          "row": 12538,
+          "series": "1C25MUV",
+          "number": "00012547"
+        }
+      ]
+    ],
+    [
+      "250907SG5RX10D",
+      [
+        {
+          "row": 12541,
+          "series": "1C25MUV",
+          "number": "00012550"
+        },
+        {
+          "row": 12595,
+          "series": "1C25MUV",
+          "number": "00012604"
+        }
+      ]
+    ],
+    [
+      "250907TK8HMBBV",
+      [
+        {
+          "row": 12542,
+          "series": "1C25MUV",
+          "number": "00012551"
+        },
+        {
+          "row": 12596,
+          "series": "1C25MUV",
+          "number": "00012605"
+        }
+      ]
+    ],
+    [
+      "25090819WMR1JT",
+      [
+        {
+          "row": 12543,
+          "series": "1C25MUV",
+          "number": "00012552"
+        },
+        {
+          "row": 12598,
+          "series": "1C25MUV",
+          "number": "00012607"
+        }
+      ]
+    ],
+    [
+      "2509092B3PUFA7",
+      [
+        {
+          "row": 12544,
+          "series": "1C25MUV",
+          "number": "00012553"
+        },
+        {
+          "row": 12602,
+          "series": "1C25MUV",
+          "number": "00012611"
+        }
+      ]
+    ],
+    [
+      "2509092CUKVBXT",
+      [
+        {
+          "row": 12545,
+          "series": "1C25MUV",
+          "number": "00012554"
+        },
+        {
+          "row": 12603,
+          "series": "1C25MUV",
+          "number": "00012612"
+        }
+      ]
+    ],
+    [
+      "2509092YB0NT6W",
+      [
+        {
+          "row": 12546,
+          "series": "1C25MUV",
+          "number": "00012555"
+        },
+        {
+          "row": 12605,
+          "series": "1C25MUV",
+          "number": "00012614"
+        }
+      ]
+    ],
+    [
+      "2509093B88YU8X",
+      [
+        {
+          "row": 12547,
+          "series": "1C25MUV",
+          "number": "00012556"
+        },
+        {
+          "row": 12606,
+          "series": "1C25MUV",
+          "number": "00012615"
+        }
+      ]
+    ],
+    [
+      "2509093M30F0HS",
+      [
+        {
+          "row": 12548,
+          "series": "1C25MUV",
+          "number": "00012557"
+        },
+        {
+          "row": 12607,
+          "series": "1C25MUV",
+          "number": "00012616"
+        }
+      ]
+    ],
+    [
+      "2509103Y6SFSX6",
+      [
+        {
+          "row": 12549,
+          "series": "1C25MUV",
+          "number": "00012558"
+        },
+        {
+          "row": 12609,
+          "series": "1C25MUV",
+          "number": "00012618"
+        }
+      ]
+    ],
+    [
+      "25091044BP5A1P",
+      [
+        {
+          "row": 12550,
+          "series": "1C25MUV",
+          "number": "00012559"
+        },
+        {
+          "row": 12610,
+          "series": "1C25MUV",
+          "number": "00012619"
+        }
+      ]
+    ],
+    [
+      "2509105AF1RAME",
+      [
+        {
+          "row": 12551,
+          "series": "1C25MUV",
+          "number": "00012560"
+        },
+        {
+          "row": 12612,
+          "series": "1C25MUV",
+          "number": "00012621"
+        }
+      ]
+    ],
+    [
+      "2509105WJUQ8TC",
+      [
+        {
+          "row": 12552,
+          "series": "1C25MUV",
+          "number": "00012561"
+        },
+        {
+          "row": 12613,
+          "series": "1C25MUV",
+          "number": "00012622"
+        }
+      ]
+    ],
+    [
+      "2509117B4VBHUK",
+      [
+        {
+          "row": 12553,
+          "series": "1C25MUV",
+          "number": "00012562"
+        },
+        {
+          "row": 12615,
+          "series": "1C25MUV",
+          "number": "00012624"
+        }
+      ]
+    ],
+    [
+      "2509117MBSUFU0",
+      [
+        {
+          "row": 12554,
+          "series": "1C25MUV",
+          "number": "00012563"
+        },
+        {
+          "row": 12617,
+          "series": "1C25MUV",
+          "number": "00012626"
+        }
+      ]
+    ],
+    [
+      "2509117WNVJGUT",
+      [
+        {
+          "row": 12555,
+          "series": "1C25MUV",
+          "number": "00012564"
+        },
+        {
+          "row": 12619,
+          "series": "1C25MUV",
+          "number": "00012628"
+        }
+      ]
+    ],
+    [
+      "250912989D2UAA",
+      [
+        {
+          "row": 12556,
+          "series": "1C25MUV",
+          "number": "00012565"
+        },
+        {
+          "row": 12622,
+          "series": "1C25MUV",
+          "number": "00012631"
+        }
+      ]
+    ],
+    [
+      "250912A2U7235U",
+      [
+        {
+          "row": 12557,
+          "series": "1C25MUV",
+          "number": "00012566"
+        },
+        {
+          "row": 12624,
+          "series": "1C25MUV",
+          "number": "00012633"
+        }
+      ]
+    ],
+    [
+      "250912A7M868HX",
+      [
+        {
+          "row": 12558,
+          "series": "1C25MUV",
+          "number": "00012567"
+        },
+        {
+          "row": 12625,
+          "series": "1C25MUV",
+          "number": "00012634"
+        }
+      ]
+    ],
+    [
+      "250912A8BF2SQV",
+      [
+        {
+          "row": 12559,
+          "series": "1C25MUV",
+          "number": "00012568"
+        },
+        {
+          "row": 12626,
+          "series": "1C25MUV",
+          "number": "00012635"
+        }
+      ]
+    ],
+    [
+      "250912AAB28D5E",
+      [
+        {
+          "row": 12560,
+          "series": "1C25MUV",
+          "number": "00012569"
+        },
+        {
+          "row": 12627,
+          "series": "1C25MUV",
+          "number": "00012636"
+        }
+      ]
+    ],
+    [
+      "250912AM5JCA4S",
+      [
+        {
+          "row": 12561,
+          "series": "1C25MUV",
+          "number": "00012570"
+        },
+        {
+          "row": 12632,
+          "series": "1C25MUV",
+          "number": "00012641"
+        }
+      ]
+    ],
+    [
+      "250912AYWNRATS",
+      [
+        {
+          "row": 12562,
+          "series": "1C25MUV",
+          "number": "00012571"
+        },
+        {
+          "row": 12635,
+          "series": "1C25MUV",
+          "number": "00012644"
+        }
+      ]
+    ],
+    [
+      "250912B7F2FF1P",
+      [
+        {
+          "row": 12563,
+          "series": "1C25MUV",
+          "number": "00012572"
+        },
+        {
+          "row": 12636,
+          "series": "1C25MUV",
+          "number": "00012645"
+        }
+      ]
+    ],
+    [
+      "250912B7H90P6R",
+      [
+        {
+          "row": 12564,
+          "series": "1C25MUV",
+          "number": "00012573"
+        },
+        {
+          "row": 12637,
+          "series": "1C25MUV",
+          "number": "00012646"
+        }
+      ]
+    ],
+    [
+      "250913BQS9R7YM",
+      [
+        {
+          "row": 12565,
+          "series": "1C25MUV",
+          "number": "00012574"
+        },
+        {
+          "row": 12639,
+          "series": "1C25MUV",
+          "number": "00012648"
+        }
+      ]
+    ],
+    [
+      "250913CF575HR8",
+      [
+        {
+          "row": 12566,
+          "series": "1C25MUV",
+          "number": "00012575"
+        },
+        {
+          "row": 12640,
+          "series": "1C25MUV",
+          "number": "00012649"
+        }
+      ]
+    ],
+    [
+      "250913CNN9NRQ7",
+      [
+        {
+          "row": 12567,
+          "series": "1C25MUV",
+          "number": "00012576"
+        },
+        {
+          "row": 12641,
+          "series": "1C25MUV",
+          "number": "00012650"
+        }
+      ]
+    ],
+    [
+      "250913CXJHAGQ4",
+      [
+        {
+          "row": 12568,
+          "series": "1C25MUV",
+          "number": "00012577"
+        },
+        {
+          "row": 12643,
+          "series": "1C25MUV",
+          "number": "00012652"
+        }
+      ]
+    ],
+    [
+      "250913DF9RC420",
+      [
+        {
+          "row": 12569,
+          "series": "1C25MUV",
+          "number": "00012578"
+        },
+        {
+          "row": 12645,
+          "series": "1C25MUV",
+          "number": "00012654"
+        }
+      ]
+    ],
+    [
+      "250914ED8RK17P",
+      [
+        {
+          "row": 12570,
+          "series": "1C25MUV",
+          "number": "00012579"
+        },
+        {
+          "row": 12651,
+          "series": "1C25MUV",
+          "number": "00012660"
+        }
+      ]
+    ],
+    [
+      "250914F84MYUES",
+      [
+        {
+          "row": 12571,
+          "series": "1C25MUV",
+          "number": "00012580"
+        },
+        {
+          "row": 12656,
+          "series": "1C25MUV",
+          "number": "00012665"
+        }
+      ]
+    ],
+    [
+      "250914FPDHQWEG",
+      [
+        {
+          "row": 12572,
+          "series": "1C25MUV",
+          "number": "00012581"
+        },
+        {
+          "row": 12659,
+          "series": "1C25MUV",
+          "number": "00012668"
+        }
+      ]
+    ],
+    [
+      "250915GEP2QX49",
+      [
+        {
+          "row": 12573,
+          "series": "1C25MUV",
+          "number": "00012582"
+        },
+        {
+          "row": 12663,
+          "series": "1C25MUV",
+          "number": "00012672"
+        }
+      ]
+    ],
+    [
+      "250915GPCBWAK1",
+      [
+        {
+          "row": 12574,
+          "series": "1C25MUV",
+          "number": "00012583"
+        },
+        {
+          "row": 12666,
+          "series": "1C25MUV",
+          "number": "00012675"
+        }
+      ]
+    ],
+    [
+      "250915H199F2U8",
+      [
+        {
+          "row": 12575,
+          "series": "1C25MUV",
+          "number": "00012584"
+        },
+        {
+          "row": 12667,
+          "series": "1C25MUV",
+          "number": "00012676"
+        }
+      ]
+    ],
+    [
+      "250915H6G627TB",
+      [
+        {
+          "row": 12576,
+          "series": "1C25MUV",
+          "number": "00012585"
+        },
+        {
+          "row": 12669,
+          "series": "1C25MUV",
+          "number": "00012678"
+        }
+      ]
+    ],
+    [
+      "250915HA26T03S",
+      [
+        {
+          "row": 12577,
+          "series": "1C25MUV",
+          "number": "00012586"
+        },
+        {
+          "row": 12670,
+          "series": "1C25MUV",
+          "number": "00012679"
+        }
+      ]
+    ],
+    [
+      "250915HFSWA33Y",
+      [
+        {
+          "row": 12578,
+          "series": "1C25MUV",
+          "number": "00012587"
+        },
+        {
+          "row": 12672,
+          "series": "1C25MUV",
+          "number": "00012681"
+        }
+      ]
+    ],
+    [
+      "250915HRKVY65Q",
+      [
+        {
+          "row": 12579,
+          "series": "1C25MUV",
+          "number": "00012588"
+        },
+        {
+          "row": 12675,
+          "series": "1C25MUV",
+          "number": "00012684"
+        }
+      ]
+    ],
+    [
+      "250915HS6D6K7A",
+      [
+        {
+          "row": 12580,
+          "series": "1C25MUV",
+          "number": "00012589"
+        },
+        {
+          "row": 12676,
+          "series": "1C25MUV",
+          "number": "00012685"
+        }
+      ]
+    ],
+    [
+      "250915HSASCF2X",
+      [
+        {
+          "row": 12581,
+          "series": "1C25MUV",
+          "number": "00012590"
+        },
+        {
+          "row": 12677,
+          "series": "1C25MUV",
+          "number": "00012686"
+        }
+      ]
+    ],
+    [
+      "250915HU799DVH",
+      [
+        {
+          "row": 12582,
+          "series": "1C25MUV",
+          "number": "00012591"
+        },
+        {
+          "row": 12679,
+          "series": "1C25MUV",
+          "number": "00012688"
+        }
+      ]
+    ],
+    [
+      "250915J1KE0JB7",
+      [
+        {
+          "row": 12583,
+          "series": "1C25MUV",
+          "number": "00012592"
+        },
+        {
+          "row": 12682,
+          "series": "1C25MUV",
+          "number": "00012691"
+        }
+      ]
+    ],
+    [
+      "250915J3B0JE21",
+      [
+        {
+          "row": 12584,
+          "series": "1C25MUV",
+          "number": "00012593"
+        },
+        {
+          "row": 12683,
+          "series": "1C25MUV",
+          "number": "00012692"
+        }
+      ]
+    ],
+    [
+      "250913DQSB6K9T",
+      [
+        {
+          "row": 12585,
+          "series": "1C25MUV",
+          "number": "00012594"
+        },
+        {
+          "row": 12704,
+          "series": "1C25MUV",
+          "number": "00012713"
+        }
+      ]
+    ],
+    [
+      "2509080TT77T1V",
+      [
+        {
+          "row": 12586,
+          "series": "1C25MUV",
+          "number": "00012595"
+        },
+        {
+          "row": 12695,
+          "series": "1C25MUV",
+          "number": "00012704"
+        }
+      ]
+    ],
+    [
+      "25090936P0CDPV",
+      [
+        {
+          "row": 12587,
+          "series": "1C25MUV",
+          "number": "00012596"
+        },
+        {
+          "row": 12696,
+          "series": "1C25MUV",
+          "number": "00012705"
+        }
+      ]
+    ],
+    [
+      "2509093QGEE0Y7",
+      [
+        {
+          "row": 12588,
+          "series": "1C25MUV",
+          "number": "00012597"
+        },
+        {
+          "row": 12697,
+          "series": "1C25MUV",
+          "number": "00012706"
+        }
+      ]
+    ],
+    [
+      "250915GERMPFJN",
+      [
+        {
+          "row": 12589,
+          "series": "1C25MUV",
+          "number": "00012598"
+        },
+        {
+          "row": 12699,
+          "series": "1C25MUV",
+          "number": "00012708"
+        }
+      ]
+    ],
+    [
+      "2509091F4UU345",
+      [
+        {
+          "row": 12590,
+          "series": "1C25MUV",
+          "number": "00012599"
+        },
+        {
+          "row": 12706,
+          "series": "1C25MUV",
+          "number": "00012715"
+        }
+      ]
+    ],
+    [
+      "25090923X7J1AA",
+      [
+        {
+          "row": 12591,
+          "series": "1C25MUV",
+          "number": "00012600"
+        },
+        {
+          "row": 12705,
+          "series": "1C25MUV",
+          "number": "00012714"
+        }
+      ]
+    ],
+    [
+      "2509103Y6C35WS",
+      [
+        {
+          "row": 12592,
+          "series": "1C25MUV",
+          "number": "00012601"
+        },
+        {
+          "row": 12703,
+          "series": "1C25MUV",
+          "number": "00012712"
+        }
+      ]
+    ],
+    [
+      "580517103674361298",
+      [
+        {
+          "row": 14317,
+          "series": "1C25MUV",
+          "number": "00014326"
+        },
+        {
+          "row": 14351,
+          "series": "1C25MUV",
+          "number": "00014360"
+        }
+      ]
+    ],
+    [
+      "580586630038193551",
+      [
+        {
+          "row": 15620,
+          "series": "1C25MUV",
+          "number": "00015631"
+        },
+        {
+          "row": 15659,
+          "series": "1C25MUV",
+          "number": "00015670"
+        }
+      ]
+    ],
+    [
+      "580592087923786915",
+      [
+        {
+          "row": 15621,
+          "series": "1C25MUV",
+          "number": "00015632"
+        },
+        {
+          "row": 15662,
+          "series": "1C25MUV",
+          "number": "00015673"
+        }
+      ]
+    ],
+    [
+      "580602796619564249",
+      [
+        {
+          "row": 15622,
+          "series": "1C25MUV",
+          "number": "00015633"
+        },
+        {
+          "row": 15668,
+          "series": "1C25MUV",
+          "number": "00015679"
+        }
+      ]
+    ],
+    [
+      "580605388675254024",
+      [
+        {
+          "row": 15623,
+          "series": "1C25MUV",
+          "number": "00015634"
+        },
+        {
+          "row": 15671,
+          "series": "1C25MUV",
+          "number": "00015682"
+        }
+      ]
+    ],
+    [
+      "580608389490115936",
+      [
+        {
+          "row": 15624,
+          "series": "1C25MUV",
+          "number": "00015635"
+        },
+        {
+          "row": 15672,
+          "series": "1C25MUV",
+          "number": "00015683"
+        }
+      ]
+    ],
+    [
+      "580610999979705499",
+      [
+        {
+          "row": 15625,
+          "series": "1C25MUV",
+          "number": "00015636"
+        },
+        {
+          "row": 15673,
+          "series": "1C25MUV",
+          "number": "00015684"
+        }
+      ]
+    ],
+    [
+      "580611060953154807",
+      [
+        {
+          "row": 15626,
+          "series": "1C25MUV",
+          "number": "00015637"
+        },
+        {
+          "row": 15674,
+          "series": "1C25MUV",
+          "number": "00015685"
+        }
+      ]
+    ],
+    [
+      "580611517500983111",
+      [
+        {
+          "row": 15627,
+          "series": "1C25MUV",
+          "number": "00015638"
+        },
+        {
+          "row": 15675,
+          "series": "1C25MUV",
+          "number": "00015686"
+        }
+      ]
+    ],
+    [
+      "580614127507244673",
+      [
+        {
+          "row": 15628,
+          "series": "1C25MUV",
+          "number": "00015639"
+        },
+        {
+          "row": 15676,
+          "series": "1C25MUV",
+          "number": "00015687"
+        }
+      ]
+    ],
+    [
+      "580614805185070257",
+      [
+        {
+          "row": 15629,
+          "series": "1C25MUV",
+          "number": "00015640"
+        },
+        {
+          "row": 15677,
+          "series": "1C25MUV",
+          "number": "00015688"
+        }
+      ]
+    ],
+    [
+      "580615431090964191",
+      [
+        {
+          "row": 15630,
+          "series": "1C25MUV",
+          "number": "00015641"
+        },
+        {
+          "row": 15679,
+          "series": "1C25MUV",
+          "number": "00015690"
+        }
+      ]
+    ],
+    [
+      "580615980517393773",
+      [
+        {
+          "row": 15631,
+          "series": "1C25MUV",
+          "number": "00015642"
+        },
+        {
+          "row": 15680,
+          "series": "1C25MUV",
+          "number": "00015691"
+        }
+      ]
+    ],
+    [
+      "580617471889999500",
+      [
+        {
+          "row": 15632,
+          "series": "1C25MUV",
+          "number": "00015643"
+        },
+        {
+          "row": 15682,
+          "series": "1C25MUV",
+          "number": "00015693"
+        }
+      ]
+    ],
+    [
+      "580618295036446006",
+      [
+        {
+          "row": 15633,
+          "series": "1C25MUV",
+          "number": "00015644"
+        },
+        {
+          "row": 15683,
+          "series": "1C25MUV",
+          "number": "00015694"
+        }
+      ]
+    ],
+    [
+      "580622873926927506",
+      [
+        {
+          "row": 15634,
+          "series": "1C25MUV",
+          "number": "00015645"
+        },
+        {
+          "row": 15691,
+          "series": "1C25MUV",
+          "number": "00015702"
+        }
+      ]
+    ],
+    [
+      "580623065101403793",
+      [
+        {
+          "row": 15635,
+          "series": "1C25MUV",
+          "number": "00015646"
+        },
+        {
+          "row": 15693,
+          "series": "1C25MUV",
+          "number": "00015704"
+        }
+      ]
+    ],
+    [
+      "580623130554041857",
+      [
+        {
+          "row": 15636,
+          "series": "1C25MUV",
+          "number": "00015647"
+        },
+        {
+          "row": 15694,
+          "series": "1C25MUV",
+          "number": "00015705"
+        }
+      ]
+    ],
+    [
+      "580624025671927452",
+      [
+        {
+          "row": 15637,
+          "series": "1C25MUV",
+          "number": "00015648"
+        },
+        {
+          "row": 15696,
+          "series": "1C25MUV",
+          "number": "00015707"
+        }
+      ]
+    ],
+    [
+      "580626102983689957",
+      [
+        {
+          "row": 15638,
+          "series": "1C25MUV",
+          "number": "00015649"
+        },
+        {
+          "row": 15698,
+          "series": "1C25MUV",
+          "number": "00015709"
+        }
+      ]
+    ],
+    [
+      "580626216022606981",
+      [
+        {
+          "row": 15639,
+          "series": "1C25MUV",
+          "number": "00015650"
+        },
+        {
+          "row": 15699,
+          "series": "1C25MUV",
+          "number": "00015710"
+        }
+      ]
+    ],
+    [
+      "580626663384385148",
+      [
+        {
+          "row": 15640,
+          "series": "1C25MUV",
+          "number": "00015651"
+        },
+        {
+          "row": 15702,
+          "series": "1C25MUV",
+          "number": "00015713"
+        }
+      ]
+    ],
+    [
+      "580626732370920892",
+      [
+        {
+          "row": 15641,
+          "series": "1C25MUV",
+          "number": "00015652"
+        },
+        {
+          "row": 15704,
+          "series": "1C25MUV",
+          "number": "00015715"
+        }
+      ]
+    ],
+    [
+      "580628624807593654",
+      [
+        {
+          "row": 15642,
+          "series": "1C25MUV",
+          "number": "00015653"
+        },
+        {
+          "row": 15706,
+          "series": "1C25MUV",
+          "number": "00015717"
+        }
+      ]
+    ],
+    [
+      "580634521683658003",
+      [
+        {
+          "row": 15643,
+          "series": "1C25MUV",
+          "number": "00015654"
+        },
+        {
+          "row": 15710,
+          "series": "1C25MUV",
+          "number": "00015721"
+        }
+      ]
+    ],
+    [
+      "580635434752968437",
+      [
+        {
+          "row": 15644,
+          "series": "1C25MUV",
+          "number": "00015655"
+        },
+        {
+          "row": 15712,
+          "series": "1C25MUV",
+          "number": "00015723"
+        }
+      ]
+    ],
+    [
+      "580656323199534539",
+      [
+        {
+          "row": 15645,
+          "series": "1C25MUV",
+          "number": "00015656"
+        },
+        {
+          "row": 15739,
+          "series": "1C25MUV",
+          "number": "00015750"
+        }
+      ]
+    ],
+    [
+      "580771131904198000",
+      [
+        {
+          "row": 17729,
+          "series": "1C25MUV",
+          "number": "00017754"
+        },
+        {
+          "row": 17786,
+          "series": "1C25MUV",
+          "number": "00017811"
+        },
+        {
+          "row": 17920,
+          "series": "1C25MUV",
+          "number": "00017994"
+        },
+        {
+          "row": 18227,
+          "series": "1C25MUV",
+          "number": "00018305"
+        }
+      ]
+    ],
+    [
+      "4600165749",
+      [
+        {
+          "row": 20538,
+          "series": "1C25MUV",
+          "number": "00020631"
+        },
+        {
+          "row": 20539,
+          "series": "1C25MUV",
+          "number": "00020632"
+        }
+      ]
+    ],
+    [
+      "517633221987111",
+      [
+        {
+          "row": 21159,
+          "series": "1C25MUV",
+          "number": "00021270"
+        },
+        {
+          "row": 21396,
+          "series": "1C25MUV",
+          "number": "00021512"
+        }
+      ]
+    ],
+    [
+      "580767119224636718",
+      [
+        {
+          "row": 21681,
+          "series": "1C25MUV",
+          "number": "00021797"
+        },
+        {
+          "row": 26239,
+          "series": "1C25MUV",
+          "number": "00026379"
+        }
+      ]
+    ],
+    [
+      "580776485358634323",
+      [
+        {
+          "row": 21682,
+          "series": "1C25MUV",
+          "number": "00021798"
+        },
+        {
+          "row": 26240,
+          "series": "1C25MUV",
+          "number": "00026380"
+        }
+      ]
+    ],
+    [
+      "581066749866116615",
+      [
+        {
+          "row": 21683,
+          "series": "1C25MUV",
+          "number": "00021799"
+        },
+        {
+          "row": 26241,
+          "series": "1C25MUV",
+          "number": "00026381"
+        }
+      ]
+    ],
+    [
+      "HD009926",
+      [
+        {
+          "row": 22656,
+          "series": "1C25MUV",
+          "number": "00022777"
+        },
+        {
+          "row": 22770,
+          "series": "1C25MUV",
+          "number": "00022893"
+        }
+      ]
+    ],
+    [
+      "581284749358761903",
+      [
+        {
+          "row": 22963,
+          "series": "1C25MUV",
+          "number": "00023087"
+        },
+        {
+          "row": 22964,
+          "series": "1C25MUV",
+          "number": "00023088"
+        },
+        {
+          "row": 22965,
+          "series": "1C25MUV",
+          "number": "00023089"
+        },
+        {
+          "row": 22966,
+          "series": "1C25MUV",
+          "number": "00023090"
+        }
+      ]
+    ],
+    [
+      "581552381877388498",
+      [
+        {
+          "row": 25777,
+          "series": "1C25MUV",
+          "number": "00025916"
+        },
+        {
+          "row": 25778,
+          "series": "1C25MUV",
+          "number": "00025917"
+        }
+      ]
+    ],
+    [
+      "HD010043",
+      [
+        {
+          "row": 28259,
+          "series": "1C25MUV",
+          "number": "00028831"
+        },
+        {
+          "row": 28260,
+          "series": "1C25MUV",
+          "number": "00028832"
+        },
+        {
+          "row": 33809,
+          "series": "1C25MUV",
+          "number": "00034385"
+        }
+      ]
+    ],
+    [
+      "HDSC010071",
+      [
+        {
+          "row": 28268,
+          "series": "1C25MUV",
+          "number": "00028840"
+        },
+        {
+          "row": 28269,
+          "series": "1C25MUV",
+          "number": "00028841"
+        }
+      ]
+    ],
+    [
+      "581562017688946109",
+      [
+        {
+          "row": 28734,
+          "series": "1C25MUV",
+          "number": "00029306"
+        },
+        {
+          "row": 28735,
+          "series": "1C25MUV",
+          "number": "00029307"
+        }
+      ]
+    ],
+    [
+      "581685718150775872",
+      [
+        {
+          "row": 31780,
+          "series": "1C25MUV",
+          "number": "00032352"
+        },
+        {
+          "row": 32038,
+          "series": "1C25MUV",
+          "number": "00032610"
+        }
+      ]
+    ],
+    [
+      "2507023RYPXNHH",
+      [
+        {
+          "row": 34899,
+          "series": "1C25TUV",
+          "number": "00010664"
+        },
+        {
+          "row": 34942,
+          "series": "1C25TUV",
+          "number": "00010707"
+        }
+      ]
+    ],
+    [
+      "579481171676530037",
+      [
+        {
+          "row": 35189,
+          "series": "1C25TUV",
+          "number": "00010955"
+        },
+        {
+          "row": 35252,
+          "series": "1C25TUV",
+          "number": "00011018"
+        }
+      ]
+    ],
+    [
+      "250707FQR3MX4H",
+      [
+        {
+          "row": 35570,
+          "series": "1C25TUV",
+          "number": "00011336"
+        },
+        {
+          "row": 35572,
+          "series": "1C25TUV",
+          "number": "00011338"
+        }
+      ]
+    ],
+    [
+      "579480236401199097",
+      [
+        {
+          "row": 35842,
+          "series": "1C25TUV",
+          "number": "00011608"
+        },
+        {
+          "row": 35853,
+          "series": "1C25TUV",
+          "number": "00011619"
+        }
+      ]
+    ]
+  ],
+  "plan": [
+    {
+      "row": 2871,
+      "series": "1C25MUV",
+      "number": "00002871",
+      "code": "2507253B5H7D5V",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 2926,
+      "series": "1C25MUV",
+      "number": "00002926",
+      "code": "2507253B5H7D5V",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 3533,
+      "series": "1C25MUV",
+      "number": "00003533",
+      "code": "250730FSGHWRQG",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 3558,
+      "series": "1C25MUV",
+      "number": "00003558",
+      "code": "250730FSGHWRQG",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 10588,
+      "series": "1C25MUV",
+      "number": "00010590",
+      "code": "580200900891018389",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 10600,
+      "series": "1C25MUV",
+      "number": "00010602",
+      "code": "580200900891018389",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 10963,
+      "series": "1C25MUV",
+      "number": "00010965",
+      "code": "2509091JRD7MF6",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 10964,
+      "series": "1C25MUV",
+      "number": "00010966",
+      "code": "2509091JRD7MF6",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12342,
+      "series": "1C25MUV",
+      "number": "00012345",
+      "code": "580285625155814781",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12343,
+      "series": "1C25MUV",
+      "number": "00012346",
+      "code": "580287539860178021",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12344,
+      "series": "1C25MUV",
+      "number": "00012347",
+      "code": "580295579776681745",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12345,
+      "series": "1C25MUV",
+      "number": "00012348",
+      "code": "580297968883500571",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12346,
+      "series": "1C25MUV",
+      "number": "00012349",
+      "code": "580318258906563797",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12347,
+      "series": "1C25MUV",
+      "number": "00012350",
+      "code": "580322043294811991",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12348,
+      "series": "1C25MUV",
+      "number": "00012351",
+      "code": "580322618297386042",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12349,
+      "series": "1C25MUV",
+      "number": "00012352",
+      "code": "580324501123794627",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12350,
+      "series": "1C25MUV",
+      "number": "00012353",
+      "code": "580329843129812223",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12351,
+      "series": "1C25MUV",
+      "number": "00012354",
+      "code": "580339152772958002",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12352,
+      "series": "1C25MUV",
+      "number": "00012355",
+      "code": "580310547750946587",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12353,
+      "series": "1C25MUV",
+      "number": "00012356",
+      "code": "580316510822171912",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12515,
+      "series": "1C25MUV",
+      "number": "00012524",
+      "code": "580285625155814781",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12516,
+      "series": "1C25MUV",
+      "number": "00012525",
+      "code": "580287539860178021",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12517,
+      "series": "1C25MUV",
+      "number": "00012526",
+      "code": "580295579776681745",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12519,
+      "series": "1C25MUV",
+      "number": "00012528",
+      "code": "580297968883500571",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12523,
+      "series": "1C25MUV",
+      "number": "00012532",
+      "code": "580318258906563797",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12525,
+      "series": "1C25MUV",
+      "number": "00012534",
+      "code": "580322043294811991",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12527,
+      "series": "1C25MUV",
+      "number": "00012536",
+      "code": "580322618297386042",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12529,
+      "series": "1C25MUV",
+      "number": "00012538",
+      "code": "580324501123794627",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12531,
+      "series": "1C25MUV",
+      "number": "00012540",
+      "code": "580329843129812223",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12532,
+      "series": "1C25MUV",
+      "number": "00012541",
+      "code": "580339152772958002",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12537,
+      "series": "1C25MUV",
+      "number": "00012546",
+      "code": "580310547750946587",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12538,
+      "series": "1C25MUV",
+      "number": "00012547",
+      "code": "580316510822171912",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12541,
+      "series": "1C25MUV",
+      "number": "00012550",
+      "code": "250907SG5RX10D",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12542,
+      "series": "1C25MUV",
+      "number": "00012551",
+      "code": "250907TK8HMBBV",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12543,
+      "series": "1C25MUV",
+      "number": "00012552",
+      "code": "25090819WMR1JT",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12544,
+      "series": "1C25MUV",
+      "number": "00012553",
+      "code": "2509092B3PUFA7",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12545,
+      "series": "1C25MUV",
+      "number": "00012554",
+      "code": "2509092CUKVBXT",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12546,
+      "series": "1C25MUV",
+      "number": "00012555",
+      "code": "2509092YB0NT6W",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12547,
+      "series": "1C25MUV",
+      "number": "00012556",
+      "code": "2509093B88YU8X",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12548,
+      "series": "1C25MUV",
+      "number": "00012557",
+      "code": "2509093M30F0HS",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12549,
+      "series": "1C25MUV",
+      "number": "00012558",
+      "code": "2509103Y6SFSX6",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12550,
+      "series": "1C25MUV",
+      "number": "00012559",
+      "code": "25091044BP5A1P",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12551,
+      "series": "1C25MUV",
+      "number": "00012560",
+      "code": "2509105AF1RAME",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12552,
+      "series": "1C25MUV",
+      "number": "00012561",
+      "code": "2509105WJUQ8TC",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12553,
+      "series": "1C25MUV",
+      "number": "00012562",
+      "code": "2509117B4VBHUK",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12554,
+      "series": "1C25MUV",
+      "number": "00012563",
+      "code": "2509117MBSUFU0",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12555,
+      "series": "1C25MUV",
+      "number": "00012564",
+      "code": "2509117WNVJGUT",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12556,
+      "series": "1C25MUV",
+      "number": "00012565",
+      "code": "250912989D2UAA",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12557,
+      "series": "1C25MUV",
+      "number": "00012566",
+      "code": "250912A2U7235U",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12558,
+      "series": "1C25MUV",
+      "number": "00012567",
+      "code": "250912A7M868HX",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12559,
+      "series": "1C25MUV",
+      "number": "00012568",
+      "code": "250912A8BF2SQV",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12560,
+      "series": "1C25MUV",
+      "number": "00012569",
+      "code": "250912AAB28D5E",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12561,
+      "series": "1C25MUV",
+      "number": "00012570",
+      "code": "250912AM5JCA4S",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12562,
+      "series": "1C25MUV",
+      "number": "00012571",
+      "code": "250912AYWNRATS",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12563,
+      "series": "1C25MUV",
+      "number": "00012572",
+      "code": "250912B7F2FF1P",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12564,
+      "series": "1C25MUV",
+      "number": "00012573",
+      "code": "250912B7H90P6R",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12565,
+      "series": "1C25MUV",
+      "number": "00012574",
+      "code": "250913BQS9R7YM",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12566,
+      "series": "1C25MUV",
+      "number": "00012575",
+      "code": "250913CF575HR8",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12567,
+      "series": "1C25MUV",
+      "number": "00012576",
+      "code": "250913CNN9NRQ7",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12568,
+      "series": "1C25MUV",
+      "number": "00012577",
+      "code": "250913CXJHAGQ4",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12569,
+      "series": "1C25MUV",
+      "number": "00012578",
+      "code": "250913DF9RC420",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12570,
+      "series": "1C25MUV",
+      "number": "00012579",
+      "code": "250914ED8RK17P",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12571,
+      "series": "1C25MUV",
+      "number": "00012580",
+      "code": "250914F84MYUES",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12572,
+      "series": "1C25MUV",
+      "number": "00012581",
+      "code": "250914FPDHQWEG",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12573,
+      "series": "1C25MUV",
+      "number": "00012582",
+      "code": "250915GEP2QX49",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12574,
+      "series": "1C25MUV",
+      "number": "00012583",
+      "code": "250915GPCBWAK1",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12575,
+      "series": "1C25MUV",
+      "number": "00012584",
+      "code": "250915H199F2U8",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12576,
+      "series": "1C25MUV",
+      "number": "00012585",
+      "code": "250915H6G627TB",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12577,
+      "series": "1C25MUV",
+      "number": "00012586",
+      "code": "250915HA26T03S",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12578,
+      "series": "1C25MUV",
+      "number": "00012587",
+      "code": "250915HFSWA33Y",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12579,
+      "series": "1C25MUV",
+      "number": "00012588",
+      "code": "250915HRKVY65Q",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12580,
+      "series": "1C25MUV",
+      "number": "00012589",
+      "code": "250915HS6D6K7A",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12581,
+      "series": "1C25MUV",
+      "number": "00012590",
+      "code": "250915HSASCF2X",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12582,
+      "series": "1C25MUV",
+      "number": "00012591",
+      "code": "250915HU799DVH",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12583,
+      "series": "1C25MUV",
+      "number": "00012592",
+      "code": "250915J1KE0JB7",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12584,
+      "series": "1C25MUV",
+      "number": "00012593",
+      "code": "250915J3B0JE21",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12585,
+      "series": "1C25MUV",
+      "number": "00012594",
+      "code": "250913DQSB6K9T",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12586,
+      "series": "1C25MUV",
+      "number": "00012595",
+      "code": "2509080TT77T1V",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12587,
+      "series": "1C25MUV",
+      "number": "00012596",
+      "code": "25090936P0CDPV",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12588,
+      "series": "1C25MUV",
+      "number": "00012597",
+      "code": "2509093QGEE0Y7",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12589,
+      "series": "1C25MUV",
+      "number": "00012598",
+      "code": "250915GERMPFJN",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12590,
+      "series": "1C25MUV",
+      "number": "00012599",
+      "code": "2509091F4UU345",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12591,
+      "series": "1C25MUV",
+      "number": "00012600",
+      "code": "25090923X7J1AA",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12592,
+      "series": "1C25MUV",
+      "number": "00012601",
+      "code": "2509103Y6C35WS",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12595,
+      "series": "1C25MUV",
+      "number": "00012604",
+      "code": "250907SG5RX10D",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12596,
+      "series": "1C25MUV",
+      "number": "00012605",
+      "code": "250907TK8HMBBV",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12598,
+      "series": "1C25MUV",
+      "number": "00012607",
+      "code": "25090819WMR1JT",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12602,
+      "series": "1C25MUV",
+      "number": "00012611",
+      "code": "2509092B3PUFA7",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12603,
+      "series": "1C25MUV",
+      "number": "00012612",
+      "code": "2509092CUKVBXT",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12605,
+      "series": "1C25MUV",
+      "number": "00012614",
+      "code": "2509092YB0NT6W",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12606,
+      "series": "1C25MUV",
+      "number": "00012615",
+      "code": "2509093B88YU8X",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12607,
+      "series": "1C25MUV",
+      "number": "00012616",
+      "code": "2509093M30F0HS",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12609,
+      "series": "1C25MUV",
+      "number": "00012618",
+      "code": "2509103Y6SFSX6",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12610,
+      "series": "1C25MUV",
+      "number": "00012619",
+      "code": "25091044BP5A1P",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12612,
+      "series": "1C25MUV",
+      "number": "00012621",
+      "code": "2509105AF1RAME",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12613,
+      "series": "1C25MUV",
+      "number": "00012622",
+      "code": "2509105WJUQ8TC",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12615,
+      "series": "1C25MUV",
+      "number": "00012624",
+      "code": "2509117B4VBHUK",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12617,
+      "series": "1C25MUV",
+      "number": "00012626",
+      "code": "2509117MBSUFU0",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12619,
+      "series": "1C25MUV",
+      "number": "00012628",
+      "code": "2509117WNVJGUT",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12622,
+      "series": "1C25MUV",
+      "number": "00012631",
+      "code": "250912989D2UAA",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12624,
+      "series": "1C25MUV",
+      "number": "00012633",
+      "code": "250912A2U7235U",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12625,
+      "series": "1C25MUV",
+      "number": "00012634",
+      "code": "250912A7M868HX",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12626,
+      "series": "1C25MUV",
+      "number": "00012635",
+      "code": "250912A8BF2SQV",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12627,
+      "series": "1C25MUV",
+      "number": "00012636",
+      "code": "250912AAB28D5E",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12632,
+      "series": "1C25MUV",
+      "number": "00012641",
+      "code": "250912AM5JCA4S",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12635,
+      "series": "1C25MUV",
+      "number": "00012644",
+      "code": "250912AYWNRATS",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12636,
+      "series": "1C25MUV",
+      "number": "00012645",
+      "code": "250912B7F2FF1P",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12637,
+      "series": "1C25MUV",
+      "number": "00012646",
+      "code": "250912B7H90P6R",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12639,
+      "series": "1C25MUV",
+      "number": "00012648",
+      "code": "250913BQS9R7YM",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12640,
+      "series": "1C25MUV",
+      "number": "00012649",
+      "code": "250913CF575HR8",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12641,
+      "series": "1C25MUV",
+      "number": "00012650",
+      "code": "250913CNN9NRQ7",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12643,
+      "series": "1C25MUV",
+      "number": "00012652",
+      "code": "250913CXJHAGQ4",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12645,
+      "series": "1C25MUV",
+      "number": "00012654",
+      "code": "250913DF9RC420",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12651,
+      "series": "1C25MUV",
+      "number": "00012660",
+      "code": "250914ED8RK17P",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12656,
+      "series": "1C25MUV",
+      "number": "00012665",
+      "code": "250914F84MYUES",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12659,
+      "series": "1C25MUV",
+      "number": "00012668",
+      "code": "250914FPDHQWEG",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12663,
+      "series": "1C25MUV",
+      "number": "00012672",
+      "code": "250915GEP2QX49",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12666,
+      "series": "1C25MUV",
+      "number": "00012675",
+      "code": "250915GPCBWAK1",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12667,
+      "series": "1C25MUV",
+      "number": "00012676",
+      "code": "250915H199F2U8",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12669,
+      "series": "1C25MUV",
+      "number": "00012678",
+      "code": "250915H6G627TB",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12670,
+      "series": "1C25MUV",
+      "number": "00012679",
+      "code": "250915HA26T03S",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12672,
+      "series": "1C25MUV",
+      "number": "00012681",
+      "code": "250915HFSWA33Y",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12675,
+      "series": "1C25MUV",
+      "number": "00012684",
+      "code": "250915HRKVY65Q",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12676,
+      "series": "1C25MUV",
+      "number": "00012685",
+      "code": "250915HS6D6K7A",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12677,
+      "series": "1C25MUV",
+      "number": "00012686",
+      "code": "250915HSASCF2X",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12679,
+      "series": "1C25MUV",
+      "number": "00012688",
+      "code": "250915HU799DVH",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12682,
+      "series": "1C25MUV",
+      "number": "00012691",
+      "code": "250915J1KE0JB7",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12683,
+      "series": "1C25MUV",
+      "number": "00012692",
+      "code": "250915J3B0JE21",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12695,
+      "series": "1C25MUV",
+      "number": "00012704",
+      "code": "2509080TT77T1V",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12696,
+      "series": "1C25MUV",
+      "number": "00012705",
+      "code": "25090936P0CDPV",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12697,
+      "series": "1C25MUV",
+      "number": "00012706",
+      "code": "2509093QGEE0Y7",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12699,
+      "series": "1C25MUV",
+      "number": "00012708",
+      "code": "250915GERMPFJN",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12703,
+      "series": "1C25MUV",
+      "number": "00012712",
+      "code": "2509103Y6C35WS",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12704,
+      "series": "1C25MUV",
+      "number": "00012713",
+      "code": "250913DQSB6K9T",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12705,
+      "series": "1C25MUV",
+      "number": "00012714",
+      "code": "25090923X7J1AA",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 12706,
+      "series": "1C25MUV",
+      "number": "00012715",
+      "code": "2509091F4UU345",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 14317,
+      "series": "1C25MUV",
+      "number": "00014326",
+      "code": "580517103674361298",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 14351,
+      "series": "1C25MUV",
+      "number": "00014360",
+      "code": "580517103674361298",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 15620,
+      "series": "1C25MUV",
+      "number": "00015631",
+      "code": "580586630038193551",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 15621,
+      "series": "1C25MUV",
+      "number": "00015632",
+      "code": "580592087923786915",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 15622,
+      "series": "1C25MUV",
+      "number": "00015633",
+      "code": "580602796619564249",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 15623,
+      "series": "1C25MUV",
+      "number": "00015634",
+      "code": "580605388675254024",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 15624,
+      "series": "1C25MUV",
+      "number": "00015635",
+      "code": "580608389490115936",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 15625,
+      "series": "1C25MUV",
+      "number": "00015636",
+      "code": "580610999979705499",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 15626,
+      "series": "1C25MUV",
+      "number": "00015637",
+      "code": "580611060953154807",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 15627,
+      "series": "1C25MUV",
+      "number": "00015638",
+      "code": "580611517500983111",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 15628,
+      "series": "1C25MUV",
+      "number": "00015639",
+      "code": "580614127507244673",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 15629,
+      "series": "1C25MUV",
+      "number": "00015640",
+      "code": "580614805185070257",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 15630,
+      "series": "1C25MUV",
+      "number": "00015641",
+      "code": "580615431090964191",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 15631,
+      "series": "1C25MUV",
+      "number": "00015642",
+      "code": "580615980517393773",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 15632,
+      "series": "1C25MUV",
+      "number": "00015643",
+      "code": "580617471889999500",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 15633,
+      "series": "1C25MUV",
+      "number": "00015644",
+      "code": "580618295036446006",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 15634,
+      "series": "1C25MUV",
+      "number": "00015645",
+      "code": "580622873926927506",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 15635,
+      "series": "1C25MUV",
+      "number": "00015646",
+      "code": "580623065101403793",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 15636,
+      "series": "1C25MUV",
+      "number": "00015647",
+      "code": "580623130554041857",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 15637,
+      "series": "1C25MUV",
+      "number": "00015648",
+      "code": "580624025671927452",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 15638,
+      "series": "1C25MUV",
+      "number": "00015649",
+      "code": "580626102983689957",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 15639,
+      "series": "1C25MUV",
+      "number": "00015650",
+      "code": "580626216022606981",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 15640,
+      "series": "1C25MUV",
+      "number": "00015651",
+      "code": "580626663384385148",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 15641,
+      "series": "1C25MUV",
+      "number": "00015652",
+      "code": "580626732370920892",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 15642,
+      "series": "1C25MUV",
+      "number": "00015653",
+      "code": "580628624807593654",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 15643,
+      "series": "1C25MUV",
+      "number": "00015654",
+      "code": "580634521683658003",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 15644,
+      "series": "1C25MUV",
+      "number": "00015655",
+      "code": "580635434752968437",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 15645,
+      "series": "1C25MUV",
+      "number": "00015656",
+      "code": "580656323199534539",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 15659,
+      "series": "1C25MUV",
+      "number": "00015670",
+      "code": "580586630038193551",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 15662,
+      "series": "1C25MUV",
+      "number": "00015673",
+      "code": "580592087923786915",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 15668,
+      "series": "1C25MUV",
+      "number": "00015679",
+      "code": "580602796619564249",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 15671,
+      "series": "1C25MUV",
+      "number": "00015682",
+      "code": "580605388675254024",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 15672,
+      "series": "1C25MUV",
+      "number": "00015683",
+      "code": "580608389490115936",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 15673,
+      "series": "1C25MUV",
+      "number": "00015684",
+      "code": "580610999979705499",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 15674,
+      "series": "1C25MUV",
+      "number": "00015685",
+      "code": "580611060953154807",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 15675,
+      "series": "1C25MUV",
+      "number": "00015686",
+      "code": "580611517500983111",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 15676,
+      "series": "1C25MUV",
+      "number": "00015687",
+      "code": "580614127507244673",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 15677,
+      "series": "1C25MUV",
+      "number": "00015688",
+      "code": "580614805185070257",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 15679,
+      "series": "1C25MUV",
+      "number": "00015690",
+      "code": "580615431090964191",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 15680,
+      "series": "1C25MUV",
+      "number": "00015691",
+      "code": "580615980517393773",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 15682,
+      "series": "1C25MUV",
+      "number": "00015693",
+      "code": "580617471889999500",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 15683,
+      "series": "1C25MUV",
+      "number": "00015694",
+      "code": "580618295036446006",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 15691,
+      "series": "1C25MUV",
+      "number": "00015702",
+      "code": "580622873926927506",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 15693,
+      "series": "1C25MUV",
+      "number": "00015704",
+      "code": "580623065101403793",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 15694,
+      "series": "1C25MUV",
+      "number": "00015705",
+      "code": "580623130554041857",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 15696,
+      "series": "1C25MUV",
+      "number": "00015707",
+      "code": "580624025671927452",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 15698,
+      "series": "1C25MUV",
+      "number": "00015709",
+      "code": "580626102983689957",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 15699,
+      "series": "1C25MUV",
+      "number": "00015710",
+      "code": "580626216022606981",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 15702,
+      "series": "1C25MUV",
+      "number": "00015713",
+      "code": "580626663384385148",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 15704,
+      "series": "1C25MUV",
+      "number": "00015715",
+      "code": "580626732370920892",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 15706,
+      "series": "1C25MUV",
+      "number": "00015717",
+      "code": "580628624807593654",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 15710,
+      "series": "1C25MUV",
+      "number": "00015721",
+      "code": "580634521683658003",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 15712,
+      "series": "1C25MUV",
+      "number": "00015723",
+      "code": "580635434752968437",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 15739,
+      "series": "1C25MUV",
+      "number": "00015750",
+      "code": "580656323199534539",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 17729,
+      "series": "1C25MUV",
+      "number": "00017754",
+      "code": "580771131904198000",
+      "count": 4,
+      "marker": "Trùng mã (4 HĐ)"
+    },
+    {
+      "row": 17786,
+      "series": "1C25MUV",
+      "number": "00017811",
+      "code": "580771131904198000",
+      "count": 4,
+      "marker": "Trùng mã (4 HĐ)"
+    },
+    {
+      "row": 17920,
+      "series": "1C25MUV",
+      "number": "00017994",
+      "code": "580771131904198000",
+      "count": 4,
+      "marker": "Trùng mã (4 HĐ)"
+    },
+    {
+      "row": 18227,
+      "series": "1C25MUV",
+      "number": "00018305",
+      "code": "580771131904198000",
+      "count": 4,
+      "marker": "Trùng mã (4 HĐ)"
+    },
+    {
+      "row": 20538,
+      "series": "1C25MUV",
+      "number": "00020631",
+      "code": "4600165749",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 20539,
+      "series": "1C25MUV",
+      "number": "00020632",
+      "code": "4600165749",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 21159,
+      "series": "1C25MUV",
+      "number": "00021270",
+      "code": "517633221987111",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 21396,
+      "series": "1C25MUV",
+      "number": "00021512",
+      "code": "517633221987111",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 21681,
+      "series": "1C25MUV",
+      "number": "00021797",
+      "code": "580767119224636718",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 21682,
+      "series": "1C25MUV",
+      "number": "00021798",
+      "code": "580776485358634323",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 21683,
+      "series": "1C25MUV",
+      "number": "00021799",
+      "code": "581066749866116615",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 22656,
+      "series": "1C25MUV",
+      "number": "00022777",
+      "code": "HD009926",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 22770,
+      "series": "1C25MUV",
+      "number": "00022893",
+      "code": "HD009926",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 22963,
+      "series": "1C25MUV",
+      "number": "00023087",
+      "code": "581284749358761903",
+      "count": 4,
+      "marker": "Trùng mã (4 HĐ)"
+    },
+    {
+      "row": 22964,
+      "series": "1C25MUV",
+      "number": "00023088",
+      "code": "581284749358761903",
+      "count": 4,
+      "marker": "Trùng mã (4 HĐ)"
+    },
+    {
+      "row": 22965,
+      "series": "1C25MUV",
+      "number": "00023089",
+      "code": "581284749358761903",
+      "count": 4,
+      "marker": "Trùng mã (4 HĐ)"
+    },
+    {
+      "row": 22966,
+      "series": "1C25MUV",
+      "number": "00023090",
+      "code": "581284749358761903",
+      "count": 4,
+      "marker": "Trùng mã (4 HĐ)"
+    },
+    {
+      "row": 25777,
+      "series": "1C25MUV",
+      "number": "00025916",
+      "code": "581552381877388498",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 25778,
+      "series": "1C25MUV",
+      "number": "00025917",
+      "code": "581552381877388498",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 26239,
+      "series": "1C25MUV",
+      "number": "00026379",
+      "code": "580767119224636718",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 26240,
+      "series": "1C25MUV",
+      "number": "00026380",
+      "code": "580776485358634323",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 26241,
+      "series": "1C25MUV",
+      "number": "00026381",
+      "code": "581066749866116615",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 28259,
+      "series": "1C25MUV",
+      "number": "00028831",
+      "code": "HD010043",
+      "count": 3,
+      "marker": "Trùng mã (3 HĐ)"
+    },
+    {
+      "row": 28260,
+      "series": "1C25MUV",
+      "number": "00028832",
+      "code": "HD010043",
+      "count": 3,
+      "marker": "Trùng mã (3 HĐ)"
+    },
+    {
+      "row": 28268,
+      "series": "1C25MUV",
+      "number": "00028840",
+      "code": "HDSC010071",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 28269,
+      "series": "1C25MUV",
+      "number": "00028841",
+      "code": "HDSC010071",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 28734,
+      "series": "1C25MUV",
+      "number": "00029306",
+      "code": "581562017688946109",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 28735,
+      "series": "1C25MUV",
+      "number": "00029307",
+      "code": "581562017688946109",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 31780,
+      "series": "1C25MUV",
+      "number": "00032352",
+      "code": "581685718150775872",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 32038,
+      "series": "1C25MUV",
+      "number": "00032610",
+      "code": "581685718150775872",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 33809,
+      "series": "1C25MUV",
+      "number": "00034385",
+      "code": "HD010043",
+      "count": 3,
+      "marker": "Trùng mã (3 HĐ)"
+    },
+    {
+      "row": 34899,
+      "series": "1C25TUV",
+      "number": "00010664",
+      "code": "2507023RYPXNHH",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 34942,
+      "series": "1C25TUV",
+      "number": "00010707",
+      "code": "2507023RYPXNHH",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 35189,
+      "series": "1C25TUV",
+      "number": "00010955",
+      "code": "579481171676530037",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 35252,
+      "series": "1C25TUV",
+      "number": "00011018",
+      "code": "579481171676530037",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 35570,
+      "series": "1C25TUV",
+      "number": "00011336",
+      "code": "250707FQR3MX4H",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 35572,
+      "series": "1C25TUV",
+      "number": "00011338",
+      "code": "250707FQR3MX4H",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 35842,
+      "series": "1C25TUV",
+      "number": "00011608",
+      "code": "579480236401199097",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    },
+    {
+      "row": 35853,
+      "series": "1C25TUV",
+      "number": "00011619",
+      "code": "579480236401199097",
+      "count": 2,
+      "marker": "Trùng mã (2 HĐ)"
+    }
+  ]
+}

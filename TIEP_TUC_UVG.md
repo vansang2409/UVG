@@ -1,3 +1,15 @@
+# File import thay thế về 0 cho 6 chuỗi — 29/10/2026
+
+Người dùng cung cấp `data/Mau_hoa_don_GTGT_MTT_1_thue_suat_Thay_the.xls` và yêu cầu tạo import, chưa nhập meInvoice. Đã tạo đúng một file bàn giao: `outputs/amis-2024-theo-btl-bhh-20261026/IMPORT_THAY_THE_VE_0_6_CHUOI_2024.xlsx`, sheet `Hóa đơn GTGT`, đúng 22 cột A:V, tiêu đề hàng9.
+
+- 6 tham chiếu HĐ cuối `1C25TUV/00002601, 00002610, 00002602, 00002603, 00002604, 00002617`, đều ngày31/05/2025; lần lượt thuộc gốc2024 số80,87,116,117,118,184. Số dòng tương ứng21,12,10,14,28,96; tổng181dòng.
+- Giữ nguyên từng tên hàng và ĐVT của HĐ cuối. Đưa SL, đơn giá, thành tiền về0 ở từng dòng; VAT0 ở dòng đầu mỗi HĐ, thuế suất8 theo nguồn. Thông tin người mua và TM/CK giữ nguồn, tên đơn vị/MST nguồn trống giữ trống. CộtK “HĐ bị thay thế thuộc hệ thống khác” để trống vì HĐ cùng hệ thống, cộtO mãCQT trống vì nguồn không cung cấp. Không tự điền email/điện thoại/CCCD.
+- Ngày hóa đơn thay thế mới (cộtB) để trống, cần KT chọn trước khi nhập. Tổng HĐ bị thay thế371.344.277đ tiền hàng +29.707.543đVAT =401.051.820đ; bản thay thế mới0đ. Không ghi số âm của hóa đơn điều chỉnh vào mẫu thay thế.
+- Đã đối chiếu tổng chi tiết với tổng6HĐ, giữ số tham chiếu dạngtext8chữsố, đọc lại đủ181dòng với dữ liệu chuẩn bị, kiểm không còn dòng ví dụ hay công thức mẫu. Đã xem ảnhrender vùng tham chiếu/tiền/những dòng cuối; nguồn và mẫu không đổi. Bản xuất đầu có công thức mẫu rỗng còn sót nên builder dựng vùng nhập sạch theo đúng22tiêuđề và hướng dẫn mẫu; bản cuối đã kiểm đạt, SHA256 `749d2f2b3c8a486a0a791d07f726104e5baaa67435d490010652d92f352819ad`.
+- Builder/kiểm chứng: `scripts/{prepare_replacement_zero_2024.py,build_replacement_zero_2024.mjs,verify_replacement_zero_2024.py}`, căn cứ `scripts/data/replacement-zero-20261029/{prepared,verification}.json`. Chưa thử nhập meInvoice, chưa ký/phát hành; báo cáo doanh thu vẫn là dự tính. Không sửa các file import/báo cáo khác; chưa commit/push đợt này.
+
+---
+
 # Làm gọn cách xem mục 2 — 28/10/2026
 
 Theo phản hồi “khó xem quá”, đã sửa trực tiếp hai tab hiện tại, giữ nguyên số liệu:

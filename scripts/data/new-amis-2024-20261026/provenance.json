@@ -1,0 +1,55 @@
+{
+  "rules": {
+    "date": "Ngày chứng từ AMIS (người dùng xác nhận lấy theo AMIS)",
+    "payment": "TM/CK (người dùng xác nhận)",
+    "tax_rate": "Suy ra duy nhất trong 5/8/10% khi VAT khớp sau làm tròn nguyên đồng, dung sai 1đ/dòng; không tự cân số tiền",
+    "exclusions": "HD cty 2024 cột BHH và mã BHH tại Hướng xử lý; tab F0/F1/F2 chỉ là tham khảo, không loại toàn tab",
+    "returns": "Giữ riêng phiếu trả lại và mọi ứng viên bán cùng mã KH/mã hàng/đơn giá (±1đ), bán trước hoặc cùng ngày, đủ SL. Không tự chọn đơn để bù trừ."
+  },
+  "summary": {
+    "Đưa vào import": {
+      "documents": 18850,
+      "lines": 24677,
+      "goods": 27244438581,
+      "returns": 0,
+      "vat": 2179555670,
+      "payment": 29423994251
+    },
+    "Đã loại": {
+      "documents": 115,
+      "lines": 170,
+      "goods": 620594171,
+      "returns": 0,
+      "vat": 49647538,
+      "payment": 670241709
+    },
+    "Cần kiểm tra": {
+      "documents": 16052,
+      "lines": 19731,
+      "goods": 22289004974,
+      "returns": 225865926,
+      "vat": 1765050842,
+      "payment": 23828189890
+    }
+  },
+  "review_reason_counts_overlapping": {
+    "Có thể liên quan trả lại": 15879,
+    "Phiếu trả lại": 163,
+    "Có số lượng/đơn giá/tiền âm": 163,
+    "Dòng số lượng hoặc thành tiền bằng 0, chưa rõ hàng khuyến mại/diễn giải": 165,
+    "Chứng từ chưa có một thuế suất duy nhất": 165,
+    "Tổng thanh toán không dương": 165,
+    "Tổng tiền hàng + VAT không bằng tổng thanh toán nguồn": 163,
+    "Có ký hiệu/số hóa đơn tại AMIS, cần xác nhận trước khi lập mới": 1,
+    "Thành tiền lệch số lượng nhân đơn giá quá 1 đồng": 7
+  },
+  "template": {
+    "path": "data/Du lieu Meinvoice/Mau_hoa_don_GTGT_MTT_1_thue_suat.xls",
+    "sha256": "64346fb386624e1f900ac9130303737f79348491951eb17e53133190514847be"
+  },
+  "required_header_row": 9,
+  "original_template_columns": 17,
+  "date_confirmation": "Người dùng: lấy theo AMIS; chọn Ngày chứng từ, lưu riêng ngày hạch toán/ngày hóa đơn nguồn",
+  "payment_confirmation": "Người dùng xác nhận TM/CK cho toàn bộ",
+  "status": "Chuẩn bị file; chưa nhập/ký/phát hành"
+}

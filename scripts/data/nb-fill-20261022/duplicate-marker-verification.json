@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-22",
+  "column": "E",
+  "header": "Mã đơn trùng",
+  "duplicateCodes": 112,
+  "markedInvoices": 229,
+  "yellowVerified": 229,
+  "checkedRows": 37087,
+  "orderCodesPreserved": true,
+  "moneyPreserved": true,
+  "blankPaymentPreserved": true,
+  "datesPreserved": true,
+  "headersMovedAsExpected": true,
+  "filterExtendedTo": "AF",
+  "errors": [],
+  "localXlsxUpdated": false
+}

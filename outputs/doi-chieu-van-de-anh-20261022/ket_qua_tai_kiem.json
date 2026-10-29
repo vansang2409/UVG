@@ -1,0 +1,2795 @@
+{
+  "verified_snapshot_date": "2026-10-21",
+  "rerun_matches_saved_summary": true,
+  "source_hashes_verified": 42,
+  "source_counts": {
+    "AMIS": 65495,
+    "Meinvoice": 37768,
+    "NB": 26550,
+    "MISA_HD_GOC": 65436
+  },
+  "categories": {
+    "no_nb_invoice": 11398,
+    "corroborated": 23938,
+    "no_amis_order": 435,
+    "invoice_date_conflict": 1619,
+    "buyer_conflict": 114,
+    "amis_money_conflict": 247,
+    "multiple_nb_orders": 5,
+    "money_conflict": 12
+  },
+  "amis_date_range": [
+    "2025-01-01",
+    "2025-12-31"
+  ],
+  "amis_years": {
+    "2025": 65495
+  },
+  "old_candidates": 116,
+  "old_candidate_total": "133039951",
+  "old_candidate_amis_date_range": [
+    "2025-05-23",
+    "2025-06-30"
+  ],
+  "old_candidate_receipt_range": [
+    "2025-05-23",
+    "2025-06-30"
+  ],
+  "old_candidate_invoice_range": [
+    "2025-07-01",
+    "2025-07-22"
+  ],
+  "old_candidate_masked_names": 35,
+  "old_candidate_current_excel_statuses": {
+    "Hoá đơn mới": 116
+  },
+  "old_candidate_multiple_invoice_chains": 0,
+  "old_candidates_already_in_existing_import_source": 0,
+  "duplicate_codes": 629,
+  "duplicate_chain_classification": {
+    "multiple_known_roots": 112,
+    "one_known_chain": 517
+  },
+  "duplicate_groups_at_least_two_new_invoices": 108,
+  "new_invoice_direct_money_conflicts": 276,
+  "books": [
+    {
+      "file": "outputs\\HOA_DON_CHUA_DIEU_CHINH_IMPORT_2_SHEET.xlsx",
+      "sha256": "d31f5f1c7f6e48b4c345bff14472053d1c6e5489977d91fbb35d10b0f1d7c96c",
+      "sheets": [
+        "Import dieu chinh",
+        "F0"
+      ],
+      "rows": 13579,
+      "invoice_count": 8410,
+      "header_preview": [
+        [
+          "File mẫu danh sách hóa đơn để nhập vào phần mềm",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Hướng dẫn:",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "- Phần bổ sung theo chốt kế toán dùng ngày 12/10/2026; phần đã chuẩn bị trước giữ ngày 08/10 hoặc 09/10/2026. Kiểm tra ngày dự thảo trước khi nhập.",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "- Các cột có dấu (*) là những cột bắt buộc.",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "- Tổng tiền hàng, thuế suất, tổng thuế và tổng thanh toán chỉ ghi ở dòng đầu mỗi số thứ tự hóa đơn; số tổng lấy từ bảng tổng đã chốt.",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "- Mỗi số thứ tự tương ứng một hóa đơn điều chỉnh giảm, tham chiếu đúng F0; giữ từng dòng hàng, đảo dấu số lượng/thành tiền.",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "- Đã bổ sung 6 hóa đơn theo chốt kế toán; tổng 8.410 hóa đơn / 13.568 dòng. Dòng chú thích giữ số lượng/đơn giá/thành tiền trống; bỏ đúng dòng 0 của 2796 và 2797.",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ]
+    },
+    {
+      "file": "outputs\\HOA_DON_DA_DIEU_CHINH_IMPORT_2_SHEET.xlsx",
+      "sha256": "f5661f3f3717ee2a9c78446f185b231a6b0372f13174d4bda4a83c775c5f7ea9",
+      "sheets": [
+        "Import dieu chinh",
+        "F0, F1, F2, ..."
+      ],
+      "rows": 41799,
+      "invoice_count": 2032,
+      "header_preview": [
+        [
+          "File mẫu danh sách hóa đơn điều chỉnh để nhập vào phần mềm",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Hướng dẫn:",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "- Phần bổ sung theo chốt kế toán dùng ngày 12/10/2026; phần đã chuẩn bị trước giữ ngày 08/10 hoặc 09/10/2026. Kiểm tra ngày dự thảo trước khi nhập.",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "- 1.007 chuỗi / 2.032 hóa đơn / 41.790 dòng. Đã bổ sung 42 hóa đơn theo chốt kế toán ngày 11/10; dự thảo ngày 12/10/2026.",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "- Tổng tiền hàng, thuế suất, tổng thuế, tổng thanh toán chỉ ghi dòng đầu mỗi hóa đơn; lấy số tổng từ bảng kê tổng, không thay bằng phép nhân SL × đơn giá.",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "- Tất cả hóa đơn mới đều tham chiếu F0. Dòng đảo khoản cũ ghi rõ hóa đơn cũ trong lý do và tên dịch vụ; SL, đơn giá để trống theo mẫu.",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "- Không còn hồ sơ chờ trả lời trong nhóm đã chốt. Giữ 6 cặp ngoài đợt xử lý và 3 cặp cùng sản phẩm; 8 khoản đảo tô vàng giữ chênh tổng tiền theo XML, cần kiểm tra khả năng nhập trên phần mềm.",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ]
+    }
+  ],
+  "candidate_details": [
+    {
+      "key": [
+        "1C25TUV",
+        "00010072"
+      ],
+      "row": 4,
+      "nb_rows": [
+        2473
+      ],
+      "amis_rows": [
+        35711
+      ],
+      "amis_documents": [
+        "BHHT2025019397"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "1270711"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010076"
+      ],
+      "row": 8,
+      "nb_rows": [
+        2370
+      ],
+      "amis_rows": [
+        35649
+      ],
+      "amis_documents": [
+        "BHHT2025019460"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "1365210"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010077"
+      ],
+      "row": 9,
+      "nb_rows": [
+        2371
+      ],
+      "amis_rows": [
+        35653
+      ],
+      "amis_documents": [
+        "BHHT2025019456"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "645050"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010078"
+      ],
+      "row": 10,
+      "nb_rows": [
+        2372
+      ],
+      "amis_rows": [
+        35656
+      ],
+      "amis_documents": [
+        "BHHT2025019453"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "645050"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010079"
+      ],
+      "row": 11,
+      "nb_rows": [
+        2373
+      ],
+      "amis_rows": [
+        35658
+      ],
+      "amis_documents": [
+        "BHHT2025019451"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "1938000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010080"
+      ],
+      "row": 12,
+      "nb_rows": [
+        2374
+      ],
+      "amis_rows": [
+        35659
+      ],
+      "amis_documents": [
+        "BHHT2025019450"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "645050"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010081"
+      ],
+      "row": 13,
+      "nb_rows": [
+        2375
+      ],
+      "amis_rows": [
+        35661
+      ],
+      "amis_documents": [
+        "BHHT2025019448"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "645050"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010082"
+      ],
+      "row": 14,
+      "nb_rows": [
+        2376
+      ],
+      "amis_rows": [
+        35662
+      ],
+      "amis_documents": [
+        "BHHT2025019447"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "1310050"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010083"
+      ],
+      "row": 15,
+      "nb_rows": [
+        2377
+      ],
+      "amis_rows": [
+        35663
+      ],
+      "amis_documents": [
+        "BHHT2025019446"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "679000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010086"
+      ],
+      "row": 18,
+      "nb_rows": [
+        2380
+      ],
+      "amis_rows": [
+        35669
+      ],
+      "amis_documents": [
+        "BHHT2025019440"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "679000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010087"
+      ],
+      "row": 19,
+      "nb_rows": [
+        2381
+      ],
+      "amis_rows": [
+        35670
+      ],
+      "amis_documents": [
+        "BHHT2025019439"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "659988"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010088"
+      ],
+      "row": 20,
+      "nb_rows": [
+        2382
+      ],
+      "amis_rows": [
+        35673
+      ],
+      "amis_documents": [
+        "BHHT2025019436"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "679000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010089"
+      ],
+      "row": 21,
+      "nb_rows": [
+        2383
+      ],
+      "amis_rows": [
+        35674
+      ],
+      "amis_documents": [
+        "BHHT2025019435"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "2139000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010090"
+      ],
+      "row": 22,
+      "nb_rows": [
+        2384
+      ],
+      "amis_rows": [
+        35682
+      ],
+      "amis_documents": [
+        "BHHT2025019427"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "679000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010091"
+      ],
+      "row": 23,
+      "nb_rows": [
+        2385
+      ],
+      "amis_rows": [
+        35684
+      ],
+      "amis_documents": [
+        "BHHT2025019425"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "679000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010092"
+      ],
+      "row": 24,
+      "nb_rows": [
+        2386
+      ],
+      "amis_rows": [
+        35685
+      ],
+      "amis_documents": [
+        "BHHT2025019424"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "679000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010093"
+      ],
+      "row": 25,
+      "nb_rows": [
+        2387
+      ],
+      "amis_rows": [
+        35688
+      ],
+      "amis_documents": [
+        "BHHT2025019421"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "679000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010094"
+      ],
+      "row": 26,
+      "nb_rows": [
+        2388
+      ],
+      "amis_rows": [
+        35691
+      ],
+      "amis_documents": [
+        "BHHT2025019418"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "679000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010095"
+      ],
+      "row": 27,
+      "nb_rows": [
+        2389
+      ],
+      "amis_rows": [
+        35692
+      ],
+      "amis_documents": [
+        "BHHT2025019417"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "679000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010096"
+      ],
+      "row": 28,
+      "nb_rows": [
+        2390
+      ],
+      "amis_rows": [
+        35693
+      ],
+      "amis_documents": [
+        "BHHT2025019416"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "679000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010100"
+      ],
+      "row": 32,
+      "nb_rows": [
+        2394
+      ],
+      "amis_rows": [
+        35698
+      ],
+      "amis_documents": [
+        "BHHT2025019411"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "679000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010103"
+      ],
+      "row": 35,
+      "nb_rows": [
+        2397
+      ],
+      "amis_rows": [
+        35705
+      ],
+      "amis_documents": [
+        "BHHT2025019403"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "679000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010105"
+      ],
+      "row": 37,
+      "nb_rows": [
+        2399
+      ],
+      "amis_rows": [
+        35707
+      ],
+      "amis_documents": [
+        "BHHT2025019401"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "1839000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010108"
+      ],
+      "row": 40,
+      "nb_rows": [
+        2402
+      ],
+      "amis_rows": [
+        35712
+      ],
+      "amis_documents": [
+        "BHHT2025019396"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "538999"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010109"
+      ],
+      "row": 41,
+      "nb_rows": [
+        2403
+      ],
+      "amis_rows": [
+        35716
+      ],
+      "amis_documents": [
+        "BHHT2025019392"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "648445"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010110"
+      ],
+      "row": 42,
+      "nb_rows": [
+        2404
+      ],
+      "amis_rows": [
+        35719
+      ],
+      "amis_documents": [
+        "BHHT2025019389"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "648445"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010111"
+      ],
+      "row": 43,
+      "nb_rows": [
+        2405
+      ],
+      "amis_rows": [
+        35720
+      ],
+      "amis_documents": [
+        "BHHT2025019388"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "648445"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010112"
+      ],
+      "row": 44,
+      "nb_rows": [
+        2406
+      ],
+      "amis_rows": [
+        35722
+      ],
+      "amis_documents": [
+        "BHHT2025019386"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "648445"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010113"
+      ],
+      "row": 45,
+      "nb_rows": [
+        2407
+      ],
+      "amis_rows": [
+        35723
+      ],
+      "amis_documents": [
+        "BHHT2025019385"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "679000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010114"
+      ],
+      "row": 46,
+      "nb_rows": [
+        2408
+      ],
+      "amis_rows": [
+        35726
+      ],
+      "amis_documents": [
+        "BHHT2025019382"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "648445"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010115"
+      ],
+      "row": 47,
+      "nb_rows": [
+        2409
+      ],
+      "amis_rows": [
+        35732
+      ],
+      "amis_documents": [
+        "BHHT2025019376"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "538999"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010116"
+      ],
+      "row": 48,
+      "nb_rows": [
+        2410
+      ],
+      "amis_rows": [
+        35733
+      ],
+      "amis_documents": [
+        "BHHT2025019375"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "1139000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010117"
+      ],
+      "row": 49,
+      "nb_rows": [
+        2411
+      ],
+      "amis_rows": [
+        35736
+      ],
+      "amis_documents": [
+        "BHHT2025019372"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "2352571"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010120"
+      ],
+      "row": 52,
+      "nb_rows": [
+        2414
+      ],
+      "amis_rows": [
+        35738
+      ],
+      "amis_documents": [
+        "BHHT2025019370"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "538999"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010182"
+      ],
+      "row": 114,
+      "nb_rows": [
+        45
+      ],
+      "amis_rows": [
+        36030
+      ],
+      "amis_documents": [
+        "BHHS2025010135"
+      ],
+      "received": "2025-06-28",
+      "amis_dates": [
+        "2025-06-28"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "3527000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010183"
+      ],
+      "row": 115,
+      "nb_rows": [
+        44
+      ],
+      "amis_rows": [
+        36481
+      ],
+      "amis_documents": [
+        "BHHS2025009981"
+      ],
+      "received": "2025-06-26",
+      "amis_dates": [
+        "2025-06-26"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "2779000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010299"
+      ],
+      "row": 231,
+      "nb_rows": [
+        2
+      ],
+      "amis_rows": [
+        36420
+      ],
+      "amis_documents": [
+        "BHHS2025010042"
+      ],
+      "received": "2025-06-26",
+      "amis_dates": [
+        "2025-06-26"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "2779000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010300"
+      ],
+      "row": 232,
+      "nb_rows": [
+        3
+      ],
+      "amis_rows": [
+        36239
+      ],
+      "amis_documents": [
+        "BHHS2025010061"
+      ],
+      "received": "2025-06-27",
+      "amis_dates": [
+        "2025-06-27"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "709000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010301"
+      ],
+      "row": 233,
+      "nb_rows": [
+        4
+      ],
+      "amis_rows": [
+        36230
+      ],
+      "amis_documents": [
+        "BHHS2025010070"
+      ],
+      "received": "2025-06-27",
+      "amis_dates": [
+        "2025-06-27"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "1379000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010302"
+      ],
+      "row": 234,
+      "nb_rows": [
+        5
+      ],
+      "amis_rows": [
+        36226
+      ],
+      "amis_documents": [
+        "BHHS2025010074"
+      ],
+      "received": "2025-06-27",
+      "amis_dates": [
+        "2025-06-27"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "1139000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010303"
+      ],
+      "row": 235,
+      "nb_rows": [
+        6
+      ],
+      "amis_rows": [
+        36225
+      ],
+      "amis_documents": [
+        "BHHS2025010075"
+      ],
+      "received": "2025-06-27",
+      "amis_dates": [
+        "2025-06-27"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "1379000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010304"
+      ],
+      "row": 236,
+      "nb_rows": [
+        7
+      ],
+      "amis_rows": [
+        36203
+      ],
+      "amis_documents": [
+        "BHHS2025010097"
+      ],
+      "received": "2025-06-27",
+      "amis_dates": [
+        "2025-06-27"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "2658000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010305"
+      ],
+      "row": 237,
+      "nb_rows": [
+        8
+      ],
+      "amis_rows": [
+        36060
+      ],
+      "amis_documents": [
+        "BHHS2025010105"
+      ],
+      "received": "2025-06-28",
+      "amis_dates": [
+        "2025-06-28"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "709000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010306"
+      ],
+      "row": 238,
+      "nb_rows": [
+        9
+      ],
+      "amis_rows": [
+        36048
+      ],
+      "amis_documents": [
+        "BHHS2025010117"
+      ],
+      "received": "2025-06-28",
+      "amis_dates": [
+        "2025-06-28"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "709000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010307"
+      ],
+      "row": 239,
+      "nb_rows": [
+        10
+      ],
+      "amis_rows": [
+        36044
+      ],
+      "amis_documents": [
+        "BHHS2025010121"
+      ],
+      "received": "2025-06-28",
+      "amis_dates": [
+        "2025-06-28"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "709000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010308"
+      ],
+      "row": 240,
+      "nb_rows": [
+        11
+      ],
+      "amis_rows": [
+        36042
+      ],
+      "amis_documents": [
+        "BHHS2025010123"
+      ],
+      "received": "2025-06-28",
+      "amis_dates": [
+        "2025-06-28"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "569000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010309"
+      ],
+      "row": 241,
+      "nb_rows": [
+        12
+      ],
+      "amis_rows": [
+        36034
+      ],
+      "amis_documents": [
+        "BHHS2025010131"
+      ],
+      "received": "2025-06-28",
+      "amis_dates": [
+        "2025-06-28"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "569000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010310"
+      ],
+      "row": 242,
+      "nb_rows": [
+        13
+      ],
+      "amis_rows": [
+        36032
+      ],
+      "amis_documents": [
+        "BHHS2025010133"
+      ],
+      "received": "2025-06-28",
+      "amis_dates": [
+        "2025-06-28"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "709000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010311"
+      ],
+      "row": 243,
+      "nb_rows": [
+        14
+      ],
+      "amis_rows": [
+        36031
+      ],
+      "amis_documents": [
+        "BHHS2025010134"
+      ],
+      "received": "2025-06-28",
+      "amis_dates": [
+        "2025-06-28"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "709000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010312"
+      ],
+      "row": 244,
+      "nb_rows": [
+        15
+      ],
+      "amis_rows": [
+        36023
+      ],
+      "amis_documents": [
+        "BHHS2025010142"
+      ],
+      "received": "2025-06-28",
+      "amis_dates": [
+        "2025-06-28"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "709000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010313"
+      ],
+      "row": 245,
+      "nb_rows": [
+        16
+      ],
+      "amis_rows": [
+        35816
+      ],
+      "amis_documents": [
+        "BHHS2025010145"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "569000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010314"
+      ],
+      "row": 246,
+      "nb_rows": [
+        17
+      ],
+      "amis_rows": [
+        35815
+      ],
+      "amis_documents": [
+        "BHHS2025010146"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "569000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010315"
+      ],
+      "row": 247,
+      "nb_rows": [
+        18
+      ],
+      "amis_rows": [
+        35813
+      ],
+      "amis_documents": [
+        "BHHS2025010148"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "569000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010316"
+      ],
+      "row": 248,
+      "nb_rows": [
+        19
+      ],
+      "amis_rows": [
+        35809
+      ],
+      "amis_documents": [
+        "BHHS2025010152"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "1078000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010317"
+      ],
+      "row": 249,
+      "nb_rows": [
+        20
+      ],
+      "amis_rows": [
+        35805
+      ],
+      "amis_documents": [
+        "BHHS2025010156"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "2479000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010318"
+      ],
+      "row": 250,
+      "nb_rows": [
+        21
+      ],
+      "amis_rows": [
+        35804
+      ],
+      "amis_documents": [
+        "BHHS2025010157"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "709000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010319"
+      ],
+      "row": 251,
+      "nb_rows": [
+        22
+      ],
+      "amis_rows": [
+        35795
+      ],
+      "amis_documents": [
+        "BHHS2025010166"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "569000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010320"
+      ],
+      "row": 252,
+      "nb_rows": [
+        23
+      ],
+      "amis_rows": [
+        35786
+      ],
+      "amis_documents": [
+        "BHHS2025010175"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "1039000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010321"
+      ],
+      "row": 253,
+      "nb_rows": [
+        24
+      ],
+      "amis_rows": [
+        35785
+      ],
+      "amis_documents": [
+        "BHHS2025010176"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "709000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010322"
+      ],
+      "row": 254,
+      "nb_rows": [
+        25
+      ],
+      "amis_rows": [
+        35782
+      ],
+      "amis_documents": [
+        "BHHS2025010179"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "2139000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010323"
+      ],
+      "row": 255,
+      "nb_rows": [
+        26
+      ],
+      "amis_rows": [
+        35780
+      ],
+      "amis_documents": [
+        "BHHS2025010181"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "1078000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010324"
+      ],
+      "row": 256,
+      "nb_rows": [
+        27
+      ],
+      "amis_rows": [
+        35779
+      ],
+      "amis_documents": [
+        "BHHS2025010182"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "569000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010325"
+      ],
+      "row": 257,
+      "nb_rows": [
+        28
+      ],
+      "amis_rows": [
+        35775
+      ],
+      "amis_documents": [
+        "BHHS2025010186"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "580000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010326"
+      ],
+      "row": 258,
+      "nb_rows": [
+        29
+      ],
+      "amis_rows": [
+        35774
+      ],
+      "amis_documents": [
+        "BHHS2025010187"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "2479000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010327"
+      ],
+      "row": 259,
+      "nb_rows": [
+        30
+      ],
+      "amis_rows": [
+        35773
+      ],
+      "amis_documents": [
+        "BHHS2025010188"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "569000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010328"
+      ],
+      "row": 260,
+      "nb_rows": [
+        31
+      ],
+      "amis_rows": [
+        35772
+      ],
+      "amis_documents": [
+        "BHHS2025010189"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "1139000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010329"
+      ],
+      "row": 261,
+      "nb_rows": [
+        32
+      ],
+      "amis_rows": [
+        35767
+      ],
+      "amis_documents": [
+        "BHHS2025010194"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "2139000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010330"
+      ],
+      "row": 262,
+      "nb_rows": [
+        33
+      ],
+      "amis_rows": [
+        35765
+      ],
+      "amis_documents": [
+        "BHHS2025010196"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "709000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010331"
+      ],
+      "row": 263,
+      "nb_rows": [
+        34
+      ],
+      "amis_rows": [
+        35761
+      ],
+      "amis_documents": [
+        "BHHS2025010200"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "569000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010332"
+      ],
+      "row": 264,
+      "nb_rows": [
+        35
+      ],
+      "amis_rows": [
+        35758
+      ],
+      "amis_documents": [
+        "BHHS2025010203"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "709000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010333"
+      ],
+      "row": 265,
+      "nb_rows": [
+        36
+      ],
+      "amis_rows": [
+        35750
+      ],
+      "amis_documents": [
+        "BHHS2025010212"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-01",
+      "total": "539000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010392"
+      ],
+      "row": 324,
+      "nb_rows": [
+        93
+      ],
+      "amis_rows": [
+        35797
+      ],
+      "amis_documents": [
+        "BHHS2025010164"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-02",
+      "total": "1939000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010393"
+      ],
+      "row": 325,
+      "nb_rows": [
+        94
+      ],
+      "amis_rows": [
+        35777
+      ],
+      "amis_documents": [
+        "BHHS2025010184"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-02",
+      "total": "2517999"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010495"
+      ],
+      "row": 427,
+      "nb_rows": [
+        48
+      ],
+      "amis_rows": [
+        36200
+      ],
+      "amis_documents": [
+        "BHHS2025024080"
+      ],
+      "received": "2025-06-27",
+      "amis_dates": [
+        "2025-06-27"
+      ],
+      "invoice_date": "2025-07-02",
+      "total": "679000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010496"
+      ],
+      "row": 428,
+      "nb_rows": [
+        49
+      ],
+      "amis_rows": [
+        36216
+      ],
+      "amis_documents": [
+        "BHHS2025010084"
+      ],
+      "received": "2025-06-27",
+      "amis_dates": [
+        "2025-06-27"
+      ],
+      "invoice_date": "2025-07-02",
+      "total": "569000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010497"
+      ],
+      "row": 429,
+      "nb_rows": [
+        51
+      ],
+      "amis_rows": [
+        36038
+      ],
+      "amis_documents": [
+        "BHHS2025010127"
+      ],
+      "received": "2025-06-28",
+      "amis_dates": [
+        "2025-06-28"
+      ],
+      "invoice_date": "2025-07-02",
+      "total": "1379000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010498"
+      ],
+      "row": 430,
+      "nb_rows": [
+        52
+      ],
+      "amis_rows": [
+        35808
+      ],
+      "amis_documents": [
+        "BHHS2025010153"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-02",
+      "total": "569000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010499"
+      ],
+      "row": 431,
+      "nb_rows": [
+        53
+      ],
+      "amis_rows": [
+        35800
+      ],
+      "amis_documents": [
+        "BHHS2025010161"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-02",
+      "total": "1379000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010500"
+      ],
+      "row": 432,
+      "nb_rows": [
+        54
+      ],
+      "amis_rows": [
+        35794
+      ],
+      "amis_documents": [
+        "BHHS2025010167"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-02",
+      "total": "580000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010501"
+      ],
+      "row": 433,
+      "nb_rows": [
+        56
+      ],
+      "amis_rows": [
+        35788
+      ],
+      "amis_documents": [
+        "BHHS2025010173"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-02",
+      "total": "1139000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010502"
+      ],
+      "row": 434,
+      "nb_rows": [
+        57
+      ],
+      "amis_rows": [
+        35781
+      ],
+      "amis_documents": [
+        "BHHS2025010180"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-02",
+      "total": "2139000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010503"
+      ],
+      "row": 435,
+      "nb_rows": [
+        58
+      ],
+      "amis_rows": [
+        35771
+      ],
+      "amis_documents": [
+        "BHHS2025010190"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-02",
+      "total": "2779000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010504"
+      ],
+      "row": 436,
+      "nb_rows": [
+        59
+      ],
+      "amis_rows": [
+        35769
+      ],
+      "amis_documents": [
+        "BHHS2025010192"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-02",
+      "total": "539000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010505"
+      ],
+      "row": 437,
+      "nb_rows": [
+        61
+      ],
+      "amis_rows": [
+        35759
+      ],
+      "amis_documents": [
+        "BHHS2025010202"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-02",
+      "total": "2139000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010506"
+      ],
+      "row": 438,
+      "nb_rows": [
+        62
+      ],
+      "amis_rows": [
+        35751
+      ],
+      "amis_documents": [
+        "BHHS2025010211"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-02",
+      "total": "2779000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010537"
+      ],
+      "row": 469,
+      "nb_rows": [
+        46
+      ],
+      "amis_rows": [
+        36425
+      ],
+      "amis_documents": [
+        "BHHS2025010037"
+      ],
+      "received": "2025-06-26",
+      "amis_dates": [
+        "2025-06-26"
+      ],
+      "invoice_date": "2025-07-02",
+      "total": "709000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010538"
+      ],
+      "row": 470,
+      "nb_rows": [
+        47
+      ],
+      "amis_rows": [
+        36423
+      ],
+      "amis_documents": [
+        "BHHS2025010039"
+      ],
+      "received": "2025-06-26",
+      "amis_dates": [
+        "2025-06-26"
+      ],
+      "invoice_date": "2025-07-02",
+      "total": "709000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010539"
+      ],
+      "row": 471,
+      "nb_rows": [
+        50
+      ],
+      "amis_rows": [
+        36041
+      ],
+      "amis_documents": [
+        "BHHS2025010124"
+      ],
+      "received": "2025-06-28",
+      "amis_dates": [
+        "2025-06-28"
+      ],
+      "invoice_date": "2025-07-02",
+      "total": "439000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010540"
+      ],
+      "row": 472,
+      "nb_rows": [
+        55
+      ],
+      "amis_rows": [
+        35791
+      ],
+      "amis_documents": [
+        "BHHS2025010170"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-02",
+      "total": "439000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010541"
+      ],
+      "row": 473,
+      "nb_rows": [
+        60
+      ],
+      "amis_rows": [
+        35760
+      ],
+      "amis_documents": [
+        "BHHS2025010201"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-02",
+      "total": "439000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010669"
+      ],
+      "row": 601,
+      "nb_rows": [
+        95
+      ],
+      "amis_rows": [
+        36065
+      ],
+      "amis_documents": [
+        "BHHS2025010100"
+      ],
+      "received": "2025-06-28",
+      "amis_dates": [
+        "2025-06-28"
+      ],
+      "invoice_date": "2025-07-04",
+      "total": "1379000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010670"
+      ],
+      "row": 602,
+      "nb_rows": [
+        96
+      ],
+      "amis_rows": [
+        35814
+      ],
+      "amis_documents": [
+        "BHHS2025010147"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-04",
+      "total": "569000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010671"
+      ],
+      "row": 603,
+      "nb_rows": [
+        97
+      ],
+      "amis_rows": [
+        35811
+      ],
+      "amis_documents": [
+        "BHHS2025010150"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-04",
+      "total": "1078000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010672"
+      ],
+      "row": 604,
+      "nb_rows": [
+        98
+      ],
+      "amis_rows": [
+        35798
+      ],
+      "amis_documents": [
+        "BHHS2025010163"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-04",
+      "total": "569000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010673"
+      ],
+      "row": 605,
+      "nb_rows": [
+        99
+      ],
+      "amis_rows": [
+        35793
+      ],
+      "amis_documents": [
+        "BHHS2025010168"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-04",
+      "total": "1379000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010674"
+      ],
+      "row": 606,
+      "nb_rows": [
+        100
+      ],
+      "amis_rows": [
+        35783
+      ],
+      "amis_documents": [
+        "BHHS2025010178"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-04",
+      "total": "1379000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010675"
+      ],
+      "row": 607,
+      "nb_rows": [
+        101
+      ],
+      "amis_rows": [
+        35778
+      ],
+      "amis_documents": [
+        "BHHS2025010183"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-04",
+      "total": "2779000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010676"
+      ],
+      "row": 608,
+      "nb_rows": [
+        102
+      ],
+      "amis_rows": [
+        35776
+      ],
+      "amis_documents": [
+        "BHHS2025010185"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-04",
+      "total": "2779000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010677"
+      ],
+      "row": 609,
+      "nb_rows": [
+        103
+      ],
+      "amis_rows": [
+        35770
+      ],
+      "amis_documents": [
+        "BHHS2025010191"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-04",
+      "total": "2779000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010678"
+      ],
+      "row": 610,
+      "nb_rows": [
+        104
+      ],
+      "amis_rows": [
+        35762
+      ],
+      "amis_documents": [
+        "BHHS2025010199"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-04",
+      "total": "1379000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010679"
+      ],
+      "row": 611,
+      "nb_rows": [
+        105
+      ],
+      "amis_rows": [
+        35757
+      ],
+      "amis_documents": [
+        "BHHS2025010204"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-04",
+      "total": "709000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010680"
+      ],
+      "row": 612,
+      "nb_rows": [
+        106
+      ],
+      "amis_rows": [
+        35754
+      ],
+      "amis_documents": [
+        "BHHS2025010207"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-04",
+      "total": "2479000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010681"
+      ],
+      "row": 613,
+      "nb_rows": [
+        107
+      ],
+      "amis_rows": [
+        35753
+      ],
+      "amis_documents": [
+        "BHHS2025010209"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-04",
+      "total": "1379000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010682"
+      ],
+      "row": 614,
+      "nb_rows": [
+        108
+      ],
+      "amis_rows": [
+        35752
+      ],
+      "amis_documents": [
+        "BHHS2025010210"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-04",
+      "total": "1379000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010683"
+      ],
+      "row": 615,
+      "nb_rows": [
+        109
+      ],
+      "amis_rows": [
+        35749
+      ],
+      "amis_documents": [
+        "BHHS2025010213"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-04",
+      "total": "1139000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010684"
+      ],
+      "row": 616,
+      "nb_rows": [
+        110
+      ],
+      "amis_rows": [
+        35748
+      ],
+      "amis_documents": [
+        "BHHS2025010214"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-04",
+      "total": "405000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010685"
+      ],
+      "row": 617,
+      "nb_rows": [
+        111
+      ],
+      "amis_rows": [
+        35747
+      ],
+      "amis_documents": [
+        "BHHS2025010215"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-04",
+      "total": "1139000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010686"
+      ],
+      "row": 618,
+      "nb_rows": [
+        112
+      ],
+      "amis_rows": [
+        35746
+      ],
+      "amis_documents": [
+        "BHHS2025010217"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-04",
+      "total": "709000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010881"
+      ],
+      "row": 813,
+      "nb_rows": [
+        227
+      ],
+      "amis_rows": [
+        35806
+      ],
+      "amis_documents": [
+        "BHHS2025010155"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-04",
+      "total": "2979000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010883"
+      ],
+      "row": 815,
+      "nb_rows": [
+        159
+      ],
+      "amis_rows": [
+        35801
+      ],
+      "amis_documents": [
+        "BHHS2025010160"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-04",
+      "total": "1379000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010884"
+      ],
+      "row": 816,
+      "nb_rows": [
+        160
+      ],
+      "amis_rows": [
+        35792
+      ],
+      "amis_documents": [
+        "BHHS2025010169"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-04",
+      "total": "569000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010885"
+      ],
+      "row": 817,
+      "nb_rows": [
+        161
+      ],
+      "amis_rows": [
+        35789
+      ],
+      "amis_documents": [
+        "BHHS2025010172"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-04",
+      "total": "709000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00010886"
+      ],
+      "row": 818,
+      "nb_rows": [
+        162
+      ],
+      "amis_rows": [
+        35784
+      ],
+      "amis_documents": [
+        "BHHS2025010177"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-04",
+      "total": "569000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00011052"
+      ],
+      "row": 984,
+      "nb_rows": [
+        231
+      ],
+      "amis_rows": [
+        35790
+      ],
+      "amis_documents": [
+        "BHHS2025010171"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-05",
+      "total": "2779000"
+    },
+    {
+      "key": [
+        "1C25TUV",
+        "00011053"
+      ],
+      "row": 985,
+      "nb_rows": [
+        232
+      ],
+      "amis_rows": [
+        35756
+      ],
+      "amis_documents": [
+        "BHHS2025010205"
+      ],
+      "received": "2025-06-30",
+      "amis_dates": [
+        "2025-06-30"
+      ],
+      "invoice_date": "2025-07-05",
+      "total": "709000"
+    },
+    {
+      "key": [
+        "1C25MUV",
+        "00001854"
+      ],
+      "row": 4551,
+      "nb_rows": [
+        4918
+      ],
+      "amis_rows": [
+        43453
+      ],
+      "amis_documents": [
+        "BHHT2025040420"
+      ],
+      "received": "2025-05-23",
+      "amis_dates": [
+        "2025-05-23"
+      ],
+      "invoice_date": "2025-07-22",
+      "total": "550000"
+    }
+  ]
+}

@@ -1,0 +1,300 @@
+{
+  "spreadsheetId": "1bhOnhnBcHaHiy06-REAdVVEk160FG94a6XgkfH0AQsw",
+  "readAt": "2026-10-21",
+  "files": [
+    {
+      "file": "scripts/data/link-audit-20261021/source/s0-000000.json",
+      "sheet": "AMIS",
+      "count": 5000,
+      "firstRow": 1,
+      "lastRow": 5000
+    },
+    {
+      "file": "scripts/data/link-audit-20261021/source/s0-005000.json",
+      "sheet": "AMIS",
+      "count": 5000,
+      "firstRow": 5001,
+      "lastRow": 10000
+    },
+    {
+      "file": "scripts/data/link-audit-20261021/source/s0-010000.json",
+      "sheet": "AMIS",
+      "count": 5000,
+      "firstRow": 10001,
+      "lastRow": 15000
+    },
+    {
+      "file": "scripts/data/link-audit-20261021/source/s0-015000.json",
+      "sheet": "AMIS",
+      "count": 5000,
+      "firstRow": 15001,
+      "lastRow": 20000
+    },
+    {
+      "file": "scripts/data/link-audit-20261021/source/s0-020000.json",
+      "sheet": "AMIS",
+      "count": 5000,
+      "firstRow": 20001,
+      "lastRow": 25000
+    },
+    {
+      "file": "scripts/data/link-audit-20261021/source/s0-025000.json",
+      "sheet": "AMIS",
+      "count": 5000,
+      "firstRow": 25001,
+      "lastRow": 30000
+    },
+    {
+      "file": "scripts/data/link-audit-20261021/source/s0-030000.json",
+      "sheet": "AMIS",
+      "count": 5000,
+      "firstRow": 30001,
+      "lastRow": 35000
+    },
+    {
+      "file": "scripts/data/link-audit-20261021/source/s0-035000.json",
+      "sheet": "AMIS",
+      "count": 5000,
+      "firstRow": 35001,
+      "lastRow": 40000
+    },
+    {
+      "file": "scripts/data/link-audit-20261021/source/s0-040000.json",
+      "sheet": "AMIS",
+      "count": 5000,
+      "firstRow": 40001,
+      "lastRow": 45000
+    },
+    {
+      "file": "scripts/data/link-audit-20261021/source/s0-045000.json",
+      "sheet": "AMIS",
+      "count": 5000,
+      "firstRow": 45001,
+      "lastRow": 50000
+    },
+    {
+      "file": "scripts/data/link-audit-20261021/source/s0-050000.json",
+      "sheet": "AMIS",
+      "count": 5000,
+      "firstRow": 50001,
+      "lastRow": 55000
+    },
+    {
+      "file": "scripts/data/link-audit-20261021/source/s0-055000.json",
+      "sheet": "AMIS",
+      "count": 5000,
+      "firstRow": 55001,
+      "lastRow": 60000
+    },
+    {
+      "file": "scripts/data/link-audit-20261021/source/s0-060000.json",
+      "sheet": "AMIS",
+      "count": 5000,
+      "firstRow": 60001,
+      "lastRow": 65000
+    },
+    {
+      "file": "scripts/data/link-audit-20261021/source/s0-065000.json",
+      "sheet": "AMIS",
+      "count": 496,
+      "firstRow": 65001,
+      "lastRow": 65496
+    },
+    {
+      "file": "scripts/data/link-audit-20261021/source/s1-000000.json",
+      "sheet": "Meinvoice 07 -> 12 / 2025",
+      "count": 5000,
+      "firstRow": 1,
+      "lastRow": 5000
+    },
+    {
+      "file": "scripts/data/link-audit-20261021/source/s1-005000.json",
+      "sheet": "Meinvoice 07 -> 12 / 2025",
+      "count": 5000,
+      "firstRow": 5001,
+      "lastRow": 10000
+    },
+    {
+      "file": "scripts/data/link-audit-20261021/source/s1-010000.json",
+      "sheet": "Meinvoice 07 -> 12 / 2025",
+      "count": 5000,
+      "firstRow": 10001,
+      "lastRow": 15000
+    },
+    {
+      "file": "scripts/data/link-audit-20261021/source/s1-015000.json",
+      "sheet": "Meinvoice 07 -> 12 / 2025",
+      "count": 5000,
+      "firstRow": 15001,
+      "lastRow": 20000
+    },
+    {
+      "file": "scripts/data/link-audit-20261021/source/s1-020000.json",
+      "sheet": "Meinvoice 07 -> 12 / 2025",
+      "count": 5000,
+      "firstRow": 20001,
+      "lastRow": 25000
+    },
+    {
+      "file": "scripts/data/link-audit-20261021/source/s1-025000.json",
+      "sheet": "Meinvoice 07 -> 12 / 2025",
+      "count": 5000,
+      "firstRow": 25001,
+      "lastRow": 30000
+    },
+    {
+      "file": "scripts/data/link-audit-20261021/source/s1-030000.json",
+      "sheet": "Meinvoice 07 -> 12 / 2025",
+      "count": 5000,
+      "firstRow": 30001,
+      "lastRow": 35000
+    },
+    {
+      "file": "scripts/data/link-audit-20261021/source/s1-035000.json",
+      "sheet": "Meinvoice 07 -> 12 / 2025",
+      "count": 2769,
+      "firstRow": 35001,
+      "lastRow": 37769
+    },
+    {
+      "file": "scripts/data/link-audit-20261021/source/s2-000000.json",
+      "sheet": "Đối soát NB",
+      "count": 5000,
+      "firstRow": 1,
+      "lastRow": 5000
+    },
+    {
+      "file": "scripts/data/link-audit-20261021/source/s2-005000.json",
+      "sheet": "Đối soát NB",
+      "count": 5000,
+      "firstRow": 5001,
+      "lastRow": 10000
+    },
+    {
+      "file": "scripts/data/link-audit-20261021/source/s2-010000.json",
+      "sheet": "Đối soát NB",
+      "count": 5000,
+      "firstRow": 10001,
+      "lastRow": 15000
+    },
+    {
+      "file": "scripts/data/link-audit-20261021/source/s2-015000.json",
+      "sheet": "Đối soát NB",
+      "count": 5000,
+      "firstRow": 15001,
+      "lastRow": 20000
+    },
+    {
+      "file": "scripts/data/link-audit-20261021/source/s2-020000.json",
+      "sheet": "Đối soát NB",
+      "count": 5000,
+      "firstRow": 20001,
+      "lastRow": 25000
+    },
+    {
+      "file": "scripts/data/link-audit-20261021/source/s2-025000.json",
+      "sheet": "Đối soát NB",
+      "count": 1551,
+      "firstRow": 25001,
+      "lastRow": 26551
+    },
+    {
+      "file": "scripts/data/link-audit-20261021/source/s3-000000.json",
+      "sheet": "MISA_HD_GOC",
+      "count": 5000,
+      "firstRow": 1,
+      "lastRow": 5000
+    },
+    {
+      "file": "scripts/data/link-audit-20261021/source/s3-005000.json",
+      "sheet": "MISA_HD_GOC",
+      "count": 5000,
+      "firstRow": 5001,
+      "lastRow": 10000
+    },
+    {
+      "file": "scripts/data/link-audit-20261021/source/s3-010000.json",
+      "sheet": "MISA_HD_GOC",
+      "count": 5000,
+      "firstRow": 10001,
+      "lastRow": 15000
+    },
+    {
+      "file": "scripts/data/link-audit-20261021/source/s3-015000.json",
+      "sheet": "MISA_HD_GOC",
+      "count": 5000,
+      "firstRow": 15001,
+      "lastRow": 20000
+    },
+    {
+      "file": "scripts/data/link-audit-20261021/source/s3-020000.json",
+      "sheet": "MISA_HD_GOC",
+      "count": 5000,
+      "firstRow": 20001,
+      "lastRow": 25000
+    },
+    {
+      "file": "scripts/data/link-audit-20261021/source/s3-025000.json",
+      "sheet": "MISA_HD_GOC",
+      "count": 5000,
+      "firstRow": 25001,
+      "lastRow": 30000
+    },
+    {
+      "file": "scripts/data/link-audit-20261021/source/s3-030000.json",
+      "sheet": "MISA_HD_GOC",
+      "count": 5000,
+      "firstRow": 30001,
+      "lastRow": 35000
+    },
+    {
+      "file": "scripts/data/link-audit-20261021/source/s3-035000.json",
+      "sheet": "MISA_HD_GOC",
+      "count": 5000,
+      "firstRow": 35001,
+      "lastRow": 40000
+    },
+    {
+      "file": "scripts/data/link-audit-20261021/source/s3-040000.json",
+      "sheet": "MISA_HD_GOC",
+      "count": 5000,
+      "firstRow": 40001,
+      "lastRow": 45000
+    },
+    {
+      "file": "scripts/data/link-audit-20261021/source/s3-045000.json",
+      "sheet": "MISA_HD_GOC",
+      "count": 5000,
+      "firstRow": 45001,
+      "lastRow": 50000
+    },
+    {
+      "file": "scripts/data/link-audit-20261021/source/s3-050000.json",
+      "sheet": "MISA_HD_GOC",
+      "count": 5000,
+      "firstRow": 50001,
+      "lastRow": 55000
+    },
+    {
+      "file": "scripts/data/link-audit-20261021/source/s3-055000.json",
+      "sheet": "MISA_HD_GOC",
+      "count": 5000,
+      "firstRow": 55001,
+      "lastRow": 60000
+    },
+    {
+      "file": "scripts/data/link-audit-20261021/source/s3-060000.json",
+      "sheet": "MISA_HD_GOC",
+      "count": 5000,
+      "firstRow": 60001,
+      "lastRow": 65000
+    },
+    {
+      "file": "scripts/data/link-audit-20261021/source/s3-065000.json",
+      "sheet": "MISA_HD_GOC",
+      "count": 437,
+      "firstRow": 65001,
+      "lastRow": 65437
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "invoices": 6,
+  "lines": 181,
+  "quantity_price_goods_tax_zero": true,
+  "new_dates_blank": true,
+  "replaced_dates": "2025-05-31",
+  "reference_series": "1C25TUV",
+  "reference_numbers": [
+    "00002601",
+    "00002610",
+    "00002602",
+    "00002603",
+    "00002604",
+    "00002617"
+  ],
+  "template_headers_exact": true,
+  "source_files_unchanged": true,
+  "before": [
+    371344277,
+    29707543,
+    401051820
+  ],
+  "after": [
+    0,
+    0,
+    0
+  ],
+  "sha256": "749d2f2b3c8a486a0a791d07f726104e5baaa67435d490010652d92f352819ad",
+  "not_imported_to_meinvoice": true
+}

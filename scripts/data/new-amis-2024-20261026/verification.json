@@ -1,0 +1,54 @@
+{
+  "passed": true,
+  "source_documents": 35017,
+  "source_lines": 44578,
+  "summary": {
+    "Đưa vào import": {
+      "documents": 18850,
+      "lines": 24677,
+      "goods": 27244438581,
+      "returns": 0,
+      "vat": 2179555670,
+      "payment": 29423994251
+    },
+    "Đã loại": {
+      "documents": 115,
+      "lines": 170,
+      "goods": 620594171,
+      "returns": 0,
+      "vat": 49647538,
+      "payment": 670241709
+    },
+    "Cần kiểm tra": {
+      "documents": 16052,
+      "lines": 19731,
+      "goods": 22289004974,
+      "returns": 225865926,
+      "vat": 1765050842,
+      "payment": 23828189890
+    }
+  },
+  "checks": [
+    "17 cột mẫu đúng thứ tự; dòng tiêu đề 9",
+    "Mọi dòng import khớp giá trị nguồn",
+    "Mọi dòng kiểm tra khớp 42 cột nguồn",
+    "Phân nhóm đủ, không trùng/thiếu dòng",
+    "Không có BHH loại trừ hoặc ứng viên trả lại trong import",
+    "Tổng 3 nhóm khớp dòng tổng sổ AMIS",
+    "Không có lỗi ô Excel hoặc công thức trong import",
+    "Hash nguồn giữ nguyên"
+  ],
+  "template_sha256": "64346fb386624e1f900ac9130303737f79348491951eb17e53133190514847be",
+  "files": [
+    {
+      "path": "D:\\UVG\\outputs\\amis-2024-moi-20261026\\IMPORT_HOA_DON_MOI_AMIS_2024.xlsx",
+      "sha256": "87c098ab498c811f21ddf84977341833cf0b7d6bc79c5edf3e3a84e968fb6a82",
+      "bytes": 2429836
+    },
+    {
+      "path": "D:\\UVG\\outputs\\amis-2024-moi-20261026\\KIEM_TRA_VA_LOAI_TRU_AMIS_2024.xlsx",
+      "sha256": "457e412fb04d7da1764dcb5e3e100b4577d1f67fc0eb8bd62e5272296fbf5e1d",
+      "bytes": 5564299
+    }
+  ]
+}

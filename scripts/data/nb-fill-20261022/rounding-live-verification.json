@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-22",
+  "liveVerified": 61,
+  "stats": {
+    "remaining_checked": 1271,
+    "same_number_and_buyer": 76,
+    "near_1_or_2_dong": 61,
+    "unique_code": 61,
+    "ambiguous": 0,
+    "within_1_dong": 60,
+    "requires_2_dong": 1
+  },
+  "noSheetEdits": true,
+  "twoDong": [
+    {
+      "row": 5487,
+      "invoice": [
+        "1C25MUV",
+        "00005487"
+      ],
+      "buyer": "ngaomedia",
+      "main_money": [
+        1257409,
+        100593,
+        1358002
+      ],
+      "previous_reason": "no_exact_match",
+      "candidate_codes": [
+        "2508088CFM4RR0"
+      ],
+      "exact_codes": [],
+      "unique_code": true,
+      "candidates": [
+        {
+          "nb_row": 6617,
+          "code": "2508088CFM4RR0",
+          "nb_money": [
+            1257407,
+            100593,
+            1358000
+          ],
+          "delta_meinvoice_minus_nb": [
+            2,
+            0,
+            2
+          ],
+          "max_delta": 2
+        }
+      ]
+    }
+  ]
+}

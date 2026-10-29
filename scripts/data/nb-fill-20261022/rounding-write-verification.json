@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-22",
+  "sheet": "MEINV F0, F1, F2, ...",
+  "filled": 61,
+  "verified": 61,
+  "yellowVerified": 61,
+  "skipped": [],
+  "allOtherInspectedCellsUnchanged": true,
+  "moneyUnchanged": true,
+  "localXlsxUpdated": false,
+  "errors": []
+}

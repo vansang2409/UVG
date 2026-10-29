@@ -1,0 +1,1 @@
+Artifact Tool: authored, recalculated and rendered main/source/blank views. Large final export did not complete after prolonged wait; stopped only verified exporter PID 20632. Final XLSX written using bundled XlsxWriter, with identical layout/formulas and explicit formula caches; independently verify all rows using verify_h2_workbook_20261022.py.
