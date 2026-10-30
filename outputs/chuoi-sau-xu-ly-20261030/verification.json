@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "sheets": [
+    {
+      "sheet": "Điều chỉnh",
+      "rows": 9425,
+      "statuses": {
+        "Đã về 0": 9424,
+        "KT loại trừ": 1
+      },
+      "stages": 8
+    },
+    {
+      "sheet": "Thay thế",
+      "rows": 6,
+      "statuses": {
+        "Đã về 0": 6
+      },
+      "stages": 4
+    }
+  ],
+  "data_fields_compared": 499699,
+  "all_balances_and_formula_caches_correct": true,
+  "formula_errors": 0,
+  "all_sources_unchanged": true,
+  "sha256": "8877d5f5c52146b621213f1e6650ff8fc368209c62241837a7682b7dc0e02d72"
+}

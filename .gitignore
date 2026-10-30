@@ -85,3 +85,6 @@ node_modules/
 
 # Yêu cầu chia nhỏ tạm khi cập nhật báo cáo; giữ requests.json và kết quả kiểm.
 /scripts/data/report-post-issue-20261030/batch-*.json
+
+# Bản xem trước file chuỗi sau xử lý; giữ Excel và JSON kiểm chứng.
+/outputs/chuoi-sau-xu-ly-20261030/*.png

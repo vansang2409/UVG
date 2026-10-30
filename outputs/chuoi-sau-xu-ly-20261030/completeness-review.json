@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "scope": "Các chuỗi điều chỉnh/thay thế trong đợt xử lý 29/10/2026, gồm một gốc KT loại trừ.",
+  "adjustment_rows": 9425,
+  "replacement_rows": 6,
+  "unique_chain_invoice_keys": 20937,
+  "duplicate_within_chain": 0,
+  "duplicate_across_chains": 0,
+  "missing_from_source_graph": 0,
+  "extra_against_source_graph": 0,
+  "raw_link_rows_read": 13868,
+  "raw_total_files_read": 6,
+  "raw_total_invoice_rows_matched": 20937,
+  "invoice_fields_matched": 125622,
+  "issued_2026_adjustments": 10454,
+  "issued_2026_replacements": 6,
+  "supplemental_13_all_present_once": true,
+  "blank_payment_fields_with_zero_shown": 28,
+  "accountant_excluded_invoice": "1C25TUV/00001943",
+  "sources_unchanged": true
+}

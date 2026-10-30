@@ -1,3 +1,17 @@
+# File chuỗi F0–F1–F2 sau xử lý và kiểm thiếu/trùng — 30/10/2026
+
+Đã tạo `outputs/chuoi-sau-xu-ly-20261030/CHUOI_F0_F1_SAU_XU_LY_20261029.xlsx` theo nguồn sau phát hành đến29/10 và các xác nhận đã chốt30/10. Theo yêu cầu mới đã **bỏ cột Nguồn đối chiếu ở cả hai sheet**, giữ ghi chú, bộ lọc, cột nhận diện cố định và công thức số dư. Chỉ làm file báo cáo, không sửa nguồn hay nhập/phát hành lại.
+
+- **Điều chỉnh:** 9.425 dòng chuỗi, gồm9.424 chuỗi đã về0 và1dòng `1C25TUV/00001943` KT loại trừ vì TĐ không hợp lệ. Giữ đúng số tiền nguồn của1943 là597.269đ +47.782đVAT =645.051đ; không gộp vào số chuỗi đã xử lý. Mở tối đaF0–F7, mỗiF gồm ký hiệu, sốHĐ, ngày, tiền hàng, VAT, thanh toán. F1–F7 xếp theo ngày/số; nhiều HĐ có thể cùng tham chiếuF0, không ngầm coiF2 điều chỉnhF1.
+- **Thay thế:** 6chuỗi đầy đủF0–F3: gốc2024 → bản thay thế trung gian2024 → bản2025 → bản0đ ngày29/10/2026. Số dư chỉ lấy hóa đơn cuối, không cộng các bản đã bị thay thế. Đã dùng ngày từ bảng kê tổng hiện hành để xử lý chênh ngày ở các phía của bảng liên kết lịch sử.
+- **Kiểm thiếu/trùng độc lập:** đọc lại13.868dòng liên kết hiện hành, thêm nguồn liên kết thay thế lịch sử để nối về gốc thật, rồi đọc lại6file bảng kê tổng bằngopenpyxl. Đối chiếu **20.937 ký hiệu/số hóa đơn duy nhất**; không thiếu/thừa so đồ thị nguồn, không trùng trong chuỗi hoặc giữa các chuỗi. Danh sách gốc khớp hai bộ import; đủ10.454HĐ điều chỉnh2026,6HĐ thay thế mới và13HĐ bổ sung, mỗi HĐ xuất hiện đúng1lần trong các khốiF. Cột nhận diện gốcC:D nhắc lạiF0 để giữ khi cuộn, không tính là thêm một hóa đơn.
+- **Đọc lại Excel bản cuối:**499.699ô dữ liệu khớp chuẩn bị; công thức/cache số dư và tổng số chuỗi đúng; không lỗi công thức; hai bảng lọc giữ đúng vùng; số hóa đơn giữ text8chữsố và định dạng hiển thị đủ số0. Đã xem ảnhrender cả2sheet và vùng cuối sau khi bỏ cột. Tất cả nguồn giữ nguyênhash.
+- Số dư9.430chuỗi trong phạm vi KT thực hiện đều0 cả tiền hàng/VAT/thanh toán. Ô thanh toán nguồn trống hiển thị0 chỉ theo căn cứ đã chốt:24ô xác nhận người dùng và4ô có căn cứ khác đã lưu trong đối soát trước; không áp dụng quy tắc0 cho ô trống bất kỳ. Không tra cứuCQT trực tiếp, kiểm chữ ký hay xác minh chi tiết mặt hàng mới trong file chuỗi này.
+- Mã tái lập: `scripts/prepare_post_issue_chains_workbook.py`, `scripts/build_post_issue_chains_workbook.mjs`, `scripts/verify_post_issue_chains_workbook.py`, `scripts/audit_post_issue_chain_completeness.py`. Căn cứ cùng thư mụcoutput: `prepared.json`, `verification.json`, `completeness-review.json`. Ảnhpreview, inspectNDJSON vàjunctionnode_modules không đưa vàoGit.
+- SHA256 file cuối: `8877d5f5c52146b621213f1e6650ff8fc368209c62241837a7682b7dc0e02d72`.
+
+---
+
 # Sửa 21 mã HĐ gốc bị dạng số khoa học — 30/10/2026
 
 Theo link/ảnh người dùng, đã đối chiếu tab `Mã đơn hàng` (gid1329950983) của `IMPORT MEINV 2024` với nguồn Google Sheet `1mjflp5J02lLB42yDzh4gJdtYwjaqing1eC6A0iKuRVI`, tab `Amis_import` (gid909512061): khóa Số chứng từ ởH, mã HĐ gốc ởBF. Nguồn31991dòng có25182chứngtừ/mãduynhất, không xung đột. Đích25161mã khớp,21mã sai dạngnumeric18chữsố đã bị làm tròn mạnh; không có trường hợp thiếu nguồn/mơ hồ trong nhóm numeric lỗi.
