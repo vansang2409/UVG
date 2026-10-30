@@ -1,0 +1,110 @@
+{
+  "passed": true,
+  "month_range": "A3:G17",
+  "quarter_range": "A19:G25",
+  "cost_month_range": "A27:D42",
+  "cost_quarter_range": "A43:D49",
+  "detail_range": "A54:N335",
+  "detail_total": 336,
+  "detail_values_preserved": true,
+  "monthly_values_preserved": true,
+  "formula_errors": [],
+  "totals": [
+    {
+      "row": 17,
+      "values": [
+        "CẢ NĂM",
+        49928171800,
+        3994254050,
+        49930540760,
+        3994443568,
+        2368960,
+        189518,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "row": 25,
+      "values": [
+        "CẢ NĂM",
+        49928171800,
+        3994254050,
+        49930540760,
+        3994443568,
+        2368960,
+        189518,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "row": 41,
+      "values": [
+        "CẢ NĂM",
+        24542992457,
+        24542992457,
+        "Còn thiếu giá vốn HĐ 63 và 111.",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "row": 49,
+      "values": [
+        "CẢ NĂM",
+        24542992457,
+        24542992457,
+        "Còn thiếu giá vốn HĐ 63 và 111",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "row": 336,
+      "values": [
+        "TỔNG TIỀN",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        49928171800,
+        49930540760,
+        2368960,
+        24542992457,
+        24542992457,
+        null,
+        "Không cộng chung số lượng khác ĐVT; GV còn thiếu ở HĐ 111/63."
+      ]
+    }
+  ],
+  "format_check": "Native API; 11pt wrapped headers; numeric separators; no browser screenshot"
+}

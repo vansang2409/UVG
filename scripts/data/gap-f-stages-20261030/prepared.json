@@ -1,0 +1,803 @@
+{
+  "headers": [
+    "F0 — Tiền hàng",
+    "F1 — Tiền hàng",
+    "F2 — Tiền hàng",
+    "F0 — Số HĐ",
+    "F1 — Số HĐ",
+    "F2 — Số HĐ"
+  ],
+  "rows": [
+    [
+      1464200,
+      null,
+      null,
+      "1C24TUV/00000001",
+      null,
+      null
+    ],
+    [
+      2870093,
+      null,
+      null,
+      "1C24TUV/00000002",
+      null,
+      null
+    ],
+    [
+      1793889,
+      null,
+      null,
+      "1C24TUV/00000022",
+      null,
+      null
+    ],
+    [
+      2407407,
+      -482407,
+      482407,
+      "1C24TUV/00000064",
+      "1C25TUV/00002609",
+      "1C25TUV/00009375"
+    ],
+    [
+      2554074,
+      null,
+      null,
+      "1C24TUV/00000112",
+      null,
+      null
+    ],
+    [
+      811111,
+      76852,
+      -76852,
+      "1C24TUV/00000122",
+      "1C25TUV/00002611",
+      "1C25TUV/00009436"
+    ],
+    [
+      1229556,
+      null,
+      null,
+      "1C24TUV/00000163",
+      null,
+      null
+    ],
+    [
+      1050000,
+      null,
+      null,
+      "1C24TUV/00000243",
+      null,
+      null
+    ],
+    [
+      1971296,
+      null,
+      null,
+      "1C24TUV/00000360",
+      null,
+      null
+    ],
+    [
+      670185,
+      null,
+      null,
+      "1C24TUV/00000392",
+      null,
+      null
+    ],
+    [
+      4981482,
+      null,
+      null,
+      "1C24TUV/00000395",
+      null,
+      null
+    ],
+    [
+      521111,
+      null,
+      null,
+      "1C24TUV/00000452",
+      null,
+      null
+    ],
+    [
+      1967650,
+      79757,
+      null,
+      "1C24TUV/00000457",
+      "1C25TUV/00002556",
+      null
+    ],
+    [
+      1148074,
+      null,
+      null,
+      "1C24TUV/00000470",
+      null,
+      null
+    ],
+    [
+      2397221,
+      416667,
+      -416667,
+      "1C24TUV/00000659",
+      "1C25TUV/00002639",
+      "1C25TUV/00012764"
+    ],
+    [
+      1149167,
+      null,
+      null,
+      "1C24TUV/00000696",
+      null,
+      null
+    ]
+  ],
+  "audit": [
+    {
+      "row": 15,
+      "root": "1C24TUV/00000001",
+      "nodes": [
+        {
+          "key": [
+            "1C24TUV",
+            "00000001"
+          ],
+          "date": "2024-01-09",
+          "money": [
+            1464200,
+            117136,
+            1581336
+          ],
+          "status": "Hoá đơn mới",
+          "buyer": "CÔNG TY TNHH GIA SƯ ETEACHER",
+          "source": "data\\Du lieu Meinvoice\\Bang_ke_hoa_don_da_su_dung_2024_2025\\Bang_ke_hoa_don_da_su_dung_1791380301707_1.xlsx",
+          "row": 6,
+          "header": true,
+          "root": [
+            "1C24TUV",
+            "00000001"
+          ],
+          "root_date": "2024-01-09"
+        }
+      ],
+      "total": 1464200
+    },
+    {
+      "row": 16,
+      "root": "1C24TUV/00000002",
+      "nodes": [
+        {
+          "key": [
+            "1C24TUV",
+            "00000002"
+          ],
+          "date": "2024-01-09",
+          "money": [
+            2870093,
+            229607,
+            3099700
+          ],
+          "status": "Hoá đơn mới",
+          "buyer": "CÔNG TY TNHH QUỐC TẾ SYNEX",
+          "source": "data\\Du lieu Meinvoice\\Bang_ke_hoa_don_da_su_dung_2024_2025\\Bang_ke_hoa_don_da_su_dung_1791380301707_1.xlsx",
+          "row": 7,
+          "header": true,
+          "root": [
+            "1C24TUV",
+            "00000002"
+          ],
+          "root_date": "2024-01-09"
+        }
+      ],
+      "total": 2870093
+    },
+    {
+      "row": 17,
+      "root": "1C24TUV/00000022",
+      "nodes": [
+        {
+          "key": [
+            "1C24TUV",
+            "00000022"
+          ],
+          "date": "2024-01-24",
+          "money": [
+            1793889,
+            143511,
+            1937400
+          ],
+          "status": "Hoá đơn mới",
+          "buyer": "CÔNG TY TNHH THIẾT BỊ CÔNG NGHỆ QUỐC ANH",
+          "source": "data\\Du lieu Meinvoice\\Bang_ke_hoa_don_da_su_dung_2024_2025\\Bang_ke_hoa_don_da_su_dung_1791380301707_1.xlsx",
+          "row": 27,
+          "header": true,
+          "root": [
+            "1C24TUV",
+            "00000022"
+          ],
+          "root_date": "2024-01-24"
+        }
+      ],
+      "total": 1793889
+    },
+    {
+      "row": 18,
+      "root": "1C24TUV/00000064",
+      "nodes": [
+        {
+          "key": [
+            "1C24TUV",
+            "00000064"
+          ],
+          "date": "2024-02-28",
+          "money": [
+            2407407,
+            192593,
+            2600000
+          ],
+          "status": "Hóa đơn đã bị điều chỉnh",
+          "buyer": "CÔNG TY TNHH CƠ KHÍ XÂY DỰNG ANH ĐẠT",
+          "source": "data\\Du lieu Meinvoice\\Bang_ke_hoa_don_da_su_dung_2024_2025\\Bang_ke_hoa_don_da_su_dung_1791380301707_1.xlsx",
+          "row": 69,
+          "header": true,
+          "root": [
+            "1C24TUV",
+            "00000064"
+          ],
+          "root_date": "2024-02-28"
+        },
+        {
+          "key": [
+            "1C25TUV",
+            "00002609"
+          ],
+          "date": "2025-05-31",
+          "money": [
+            -482407,
+            -38593,
+            -521000
+          ],
+          "status": "Hoá đơn điều chỉnh",
+          "buyer": "CÔNG TY TNHH CƠ KHÍ XÂY DỰNG ANH ĐẠT",
+          "source": "data\\Du lieu Meinvoice\\Bang_ke_hoa_don_da_su_dung_2024_2025\\Bang_ke_hoa_don_da_su_dung_1791380301707_1.xlsx",
+          "row": 3400,
+          "header": true,
+          "root": [
+            "1C24TUV",
+            "00000064"
+          ],
+          "root_date": "2024-02-28"
+        },
+        {
+          "key": [
+            "1C25TUV",
+            "00009375"
+          ],
+          "date": "2025-06-30",
+          "money": [
+            482407,
+            38593,
+            521000
+          ],
+          "status": "Hoá đơn điều chỉnh",
+          "buyer": "CÔNG TY TNHH CƠ KHÍ XÂY DỰNG ANH ĐẠT",
+          "source": "data\\Du lieu Meinvoice\\Bang_ke_hoa_don_da_su_dung_2024_2025\\Bang_ke_hoa_don_da_su_dung_1791380301707_3.xlsx",
+          "row": 195,
+          "header": true,
+          "root": [
+            "1C24TUV",
+            "00000064"
+          ],
+          "root_date": "2024-02-28"
+        }
+      ],
+      "total": 2407407
+    },
+    {
+      "row": 19,
+      "root": "1C24TUV/00000112",
+      "nodes": [
+        {
+          "key": [
+            "1C24TUV",
+            "00000112"
+          ],
+          "date": "2024-03-19",
+          "money": [
+            2554074,
+            204326,
+            2758400
+          ],
+          "status": "Hoá đơn mới",
+          "buyer": "CÔNG TY TNHH SPECTOS ASIA",
+          "source": "data\\Du lieu Meinvoice\\Bang_ke_hoa_don_da_su_dung_2024_2025\\Bang_ke_hoa_don_da_su_dung_1791380301707_1.xlsx",
+          "row": 117,
+          "header": true,
+          "root": [
+            "1C24TUV",
+            "00000112"
+          ],
+          "root_date": "2024-03-19"
+        }
+      ],
+      "total": 2554074
+    },
+    {
+      "row": 20,
+      "root": "1C24TUV/00000122",
+      "nodes": [
+        {
+          "key": [
+            "1C24TUV",
+            "00000122"
+          ],
+          "date": "2024-03-28",
+          "money": [
+            811111,
+            64889,
+            876000
+          ],
+          "status": "Hóa đơn đã bị điều chỉnh",
+          "buyer": "CÔNG TY TNHH THƯƠNG MẠI SẢN XUẤT XÂY DỰNG VÀ XUẤT NHẬP KHẨU GỖ KHÁNH THY",
+          "source": "data\\Du lieu Meinvoice\\Bang_ke_hoa_don_da_su_dung_2024_2025\\Bang_ke_hoa_don_da_su_dung_1791380301707_1.xlsx",
+          "row": 127,
+          "header": true,
+          "root": [
+            "1C24TUV",
+            "00000122"
+          ],
+          "root_date": "2024-03-28"
+        },
+        {
+          "key": [
+            "1C25TUV",
+            "00002611"
+          ],
+          "date": "2025-05-31",
+          "money": [
+            76852,
+            6148,
+            83000
+          ],
+          "status": "Hoá đơn điều chỉnh",
+          "buyer": "CÔNG TY TNHH THƯƠNG MẠI SẢN XUẤT XÂY DỰNG VÀ XUẤT NHẬP KHẨU GỖ KHÁNH THY",
+          "source": "data\\Du lieu Meinvoice\\Bang_ke_hoa_don_da_su_dung_2024_2025\\Bang_ke_hoa_don_da_su_dung_1791380301707_1.xlsx",
+          "row": 3402,
+          "header": true,
+          "root": [
+            "1C24TUV",
+            "00000122"
+          ],
+          "root_date": "2024-03-28"
+        },
+        {
+          "key": [
+            "1C25TUV",
+            "00009436"
+          ],
+          "date": "2025-06-30",
+          "money": [
+            -76852,
+            -6148,
+            -83000
+          ],
+          "status": "Hoá đơn điều chỉnh",
+          "buyer": "CÔNG TY TNHH THƯƠNG MẠI SẢN XUẤT XÂY DỰNG VÀ XUẤT NHẬP KHẨU GỖ KHÁNH THY",
+          "source": "data\\Du lieu Meinvoice\\Bang_ke_hoa_don_da_su_dung_2024_2025\\Bang_ke_hoa_don_da_su_dung_1791380301707_3.xlsx",
+          "row": 256,
+          "header": true,
+          "root": [
+            "1C24TUV",
+            "00000122"
+          ],
+          "root_date": "2024-03-28"
+        }
+      ],
+      "total": 811111
+    },
+    {
+      "row": 21,
+      "root": "1C24TUV/00000163",
+      "nodes": [
+        {
+          "key": [
+            "1C24TUV",
+            "00000163"
+          ],
+          "date": "2024-04-09",
+          "money": [
+            1229556,
+            98364,
+            1327920
+          ],
+          "status": "Hoá đơn mới",
+          "buyer": "CÔNG TY CỔ PHẦN NTQ SOLUTION",
+          "source": "data\\Du lieu Meinvoice\\Bang_ke_hoa_don_da_su_dung_2024_2025\\Bang_ke_hoa_don_da_su_dung_1791380301707_1.xlsx",
+          "row": 168,
+          "header": true,
+          "root": [
+            "1C24TUV",
+            "00000163"
+          ],
+          "root_date": "2024-04-09"
+        }
+      ],
+      "total": 1229556
+    },
+    {
+      "row": 22,
+      "root": "1C24TUV/00000243",
+      "nodes": [
+        {
+          "key": [
+            "1C24TUV",
+            "00000243"
+          ],
+          "date": "2024-05-27",
+          "money": [
+            1050000,
+            84000,
+            1134000
+          ],
+          "status": "Hoá đơn mới",
+          "buyer": "CÔNG TY TNHH TRANS MEDIA",
+          "source": "data\\Du lieu Meinvoice\\Bang_ke_hoa_don_da_su_dung_2024_2025\\Bang_ke_hoa_don_da_su_dung_1791380301707_1.xlsx",
+          "row": 248,
+          "header": true,
+          "root": [
+            "1C24TUV",
+            "00000243"
+          ],
+          "root_date": "2024-05-27"
+        }
+      ],
+      "total": 1050000
+    },
+    {
+      "row": 23,
+      "root": "1C24TUV/00000360",
+      "nodes": [
+        {
+          "key": [
+            "1C24TUV",
+            "00000360"
+          ],
+          "date": "2024-07-29",
+          "money": [
+            1971296,
+            157704,
+            2129000
+          ],
+          "status": "Hoá đơn mới",
+          "buyer": "CÔNG TY TNHH THƯƠNG MẠI - XÂY DỰNG - CƠ ĐIỆN THỦY TIẾN",
+          "source": "data\\Du lieu Meinvoice\\Bang_ke_hoa_don_da_su_dung_2024_2025\\Bang_ke_hoa_don_da_su_dung_1791380301707_1.xlsx",
+          "row": 365,
+          "header": true,
+          "root": [
+            "1C24TUV",
+            "00000360"
+          ],
+          "root_date": "2024-07-29"
+        }
+      ],
+      "total": 1971296
+    },
+    {
+      "row": 24,
+      "root": "1C24TUV/00000392",
+      "nodes": [
+        {
+          "key": [
+            "1C24TUV",
+            "00000392"
+          ],
+          "date": "2024-08-21",
+          "money": [
+            670185,
+            53615,
+            723800
+          ],
+          "status": "Hoá đơn mới",
+          "buyer": "CÔNG TY TNHH ICAPITAL",
+          "source": "data\\Du lieu Meinvoice\\Bang_ke_hoa_don_da_su_dung_2024_2025\\Bang_ke_hoa_don_da_su_dung_1791380301707_1.xlsx",
+          "row": 397,
+          "header": true,
+          "root": [
+            "1C24TUV",
+            "00000392"
+          ],
+          "root_date": "2024-08-21"
+        }
+      ],
+      "total": 670185
+    },
+    {
+      "row": 25,
+      "root": "1C24TUV/00000395",
+      "nodes": [
+        {
+          "key": [
+            "1C24TUV",
+            "00000395"
+          ],
+          "date": "2024-08-21",
+          "money": [
+            4981482,
+            398519,
+            5380001
+          ],
+          "status": "Hoá đơn mới",
+          "buyer": "CÔNG TY TNHH SẢN XUẤT VÀ THƯƠNG MẠI DAVIMAX",
+          "source": "data\\Du lieu Meinvoice\\Bang_ke_hoa_don_da_su_dung_2024_2025\\Bang_ke_hoa_don_da_su_dung_1791380301707_1.xlsx",
+          "row": 400,
+          "header": true,
+          "root": [
+            "1C24TUV",
+            "00000395"
+          ],
+          "root_date": "2024-08-21"
+        }
+      ],
+      "total": 4981482
+    },
+    {
+      "row": 26,
+      "root": "1C24TUV/00000452",
+      "nodes": [
+        {
+          "key": [
+            "1C24TUV",
+            "00000452"
+          ],
+          "date": "2024-09-09",
+          "money": [
+            521111,
+            41689,
+            562800
+          ],
+          "status": "Hoá đơn mới",
+          "buyer": "TRƯỜNG TIỂU HỌC, TRUNG HỌC CƠ SỞ VÀ TRUNG HỌC PHỔ THÔNG QUỐC TẾ Á CHÂU",
+          "source": "data\\Du lieu Meinvoice\\Bang_ke_hoa_don_da_su_dung_2024_2025\\Bang_ke_hoa_don_da_su_dung_1791380301707_1.xlsx",
+          "row": 457,
+          "header": true,
+          "root": [
+            "1C24TUV",
+            "00000452"
+          ],
+          "root_date": "2024-09-09"
+        }
+      ],
+      "total": 521111
+    },
+    {
+      "row": 27,
+      "root": "1C24TUV/00000457",
+      "nodes": [
+        {
+          "key": [
+            "1C24TUV",
+            "00000457"
+          ],
+          "date": "2024-09-11",
+          "money": [
+            1967650,
+            157412,
+            2125062
+          ],
+          "status": "Hóa đơn đã bị điều chỉnh",
+          "buyer": "CÔNG TY TNHH THƯƠNG MẠI TRUNG PHONG",
+          "source": "data\\Du lieu Meinvoice\\Bang_ke_hoa_don_da_su_dung_2024_2025\\Bang_ke_hoa_don_da_su_dung_1791380301707_1.xlsx",
+          "row": 462,
+          "header": true,
+          "root": [
+            "1C24TUV",
+            "00000457"
+          ],
+          "root_date": "2024-09-11"
+        },
+        {
+          "key": [
+            "1C25TUV",
+            "00002556"
+          ],
+          "date": "2025-05-31",
+          "money": [
+            79757,
+            6381,
+            86138
+          ],
+          "status": "Hoá đơn điều chỉnh",
+          "buyer": "CÔNG TY TNHH THƯƠNG MẠI TRUNG PHONG",
+          "source": "data\\Du lieu Meinvoice\\Bang_ke_hoa_don_da_su_dung_2024_2025\\Bang_ke_hoa_don_da_su_dung_1791380301707_1.xlsx",
+          "row": 3347,
+          "header": true,
+          "root": [
+            "1C24TUV",
+            "00000457"
+          ],
+          "root_date": "2024-09-11"
+        }
+      ],
+      "total": 2047407
+    },
+    {
+      "row": 28,
+      "root": "1C24TUV/00000470",
+      "nodes": [
+        {
+          "key": [
+            "1C24TUV",
+            "00000470"
+          ],
+          "date": "2024-09-24",
+          "money": [
+            1148074,
+            91846,
+            1239920
+          ],
+          "status": "Hoá đơn mới",
+          "buyer": "CÔNG TY CỔ PHẦN PHÁT TRIỂN BỀN VỮNG OSHE",
+          "source": "data\\Du lieu Meinvoice\\Bang_ke_hoa_don_da_su_dung_2024_2025\\Bang_ke_hoa_don_da_su_dung_1791380301707_1.xlsx",
+          "row": 475,
+          "header": true,
+          "root": [
+            "1C24TUV",
+            "00000470"
+          ],
+          "root_date": "2024-09-24"
+        }
+      ],
+      "total": 1148074
+    },
+    {
+      "row": 29,
+      "root": "1C24TUV/00000659",
+      "nodes": [
+        {
+          "key": [
+            "1C24TUV",
+            "00000659"
+          ],
+          "date": "2024-12-11",
+          "money": [
+            2397221,
+            191778,
+            2588999
+          ],
+          "status": "Hóa đơn đã bị điều chỉnh",
+          "buyer": "CÔNG TY CỔ PHẦN VGENTECH",
+          "source": "data\\Du lieu Meinvoice\\Bang_ke_hoa_don_da_su_dung_2024_2025\\Bang_ke_hoa_don_da_su_dung_1791380301707_1.xlsx",
+          "row": 664,
+          "header": true,
+          "root": [
+            "1C24TUV",
+            "00000659"
+          ],
+          "root_date": "2024-12-11"
+        },
+        {
+          "key": [
+            "1C25TUV",
+            "00002639"
+          ],
+          "date": "2025-05-31",
+          "money": [
+            416667,
+            33333,
+            450000
+          ],
+          "status": "Hoá đơn điều chỉnh",
+          "buyer": "CÔNG TY CỔ PHẦN VGENTECH",
+          "source": "data\\Du lieu Meinvoice\\Bang_ke_hoa_don_da_su_dung_2024_2025\\Bang_ke_hoa_don_da_su_dung_1791380301707_1.xlsx",
+          "row": 3430,
+          "header": true,
+          "root": [
+            "1C24TUV",
+            "00000659"
+          ],
+          "root_date": "2024-12-11"
+        },
+        {
+          "key": [
+            "1C25TUV",
+            "00012764"
+          ],
+          "date": "2025-07-15",
+          "money": [
+            -416667,
+            -33333,
+            -450000
+          ],
+          "status": "Hoá đơn điều chỉnh",
+          "buyer": "CÔNG TY CỔ PHẦN VGENTECH",
+          "source": "data\\Du lieu Meinvoice\\Bang_ke_hoa_don_da_su_dung_2024_2025\\Bang_ke_hoa_don_da_su_dung_1791380301707_3.xlsx",
+          "row": 4385,
+          "header": true,
+          "root": [
+            "1C24TUV",
+            "00000659"
+          ],
+          "root_date": "2024-12-11"
+        }
+      ],
+      "total": 2397221
+    },
+    {
+      "row": 30,
+      "root": "1C24TUV/00000696",
+      "nodes": [
+        {
+          "key": [
+            "1C24TUV",
+            "00000696"
+          ],
+          "date": "2024-12-21",
+          "money": [
+            1149167,
+            91933,
+            1241100
+          ],
+          "status": "Hoá đơn mới",
+          "buyer": "CÔNG TY TRÁCH NHIỆM HỮU HẠN YEOU LIH SILICA SAND VIỆT NAM",
+          "source": "data\\Du lieu Meinvoice\\Bang_ke_hoa_don_da_su_dung_2024_2025\\Bang_ke_hoa_don_da_su_dung_1791380301707_1.xlsx",
+          "row": 701,
+          "header": true,
+          "root": [
+            "1C24TUV",
+            "00000696"
+          ],
+          "root_date": "2024-12-21"
+        }
+      ],
+      "total": 1149167
+    }
+  ],
+  "source_hashes": {
+    "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_1.xls": "da70182e4b691ca18e769b5403e2b0429babdc44b5971d9c715a28217cf920b4",
+    "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls": "840e41162a0ad2504e05854df9613448e83cb090c651f4d7413f776798c8d51d",
+    "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_11.xls": "35c81ca35cc7ebeb670fbff8824ee3e7265fb0f9ad8aa3909299f1358ff092bb",
+    "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_12.xls": "37a8c14ea30e5ca131928b93e7f9d5cfc19bfc7b6aab5eef21aa2649812f4efb",
+    "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_13.xls": "d311f63641580f44f30c60baa1205e4949e82cd2466925bea768c669fa2eb344",
+    "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_14.xls": "175da205761a567ad589d610d4ab64809b6a6258ab8836de2b9b979c62094071",
+    "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_15.xls": "82027d9b39bebd997aa02d2fee08c7bf9040214da096844f7aefca163635d68a",
+    "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_16.xls": "2d5e4a98e029cbd3878ec574cf54c063b8fdc23b6f3085e4dd3e6b58b60931fc",
+    "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_17.xls": "f670f4e1cb4c838946cbc4f8b66c7723b3b19d252dcd9163d68a92f6e7fe54e3",
+    "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_18.xls": "5e1924f9241e284eb8138586d68dfb2bf7595edb59922abcbf81443a78e0d654",
+    "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_19.xls": "44efaa45132c86a74ad44ced70b136fdbba8daec3f551436fe8f7b4d3e3724f1",
+    "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_2.xls": "8cae3ae1be2f71c57377656acdc118ccb7d850e0addc6792f676ace6f1904623",
+    "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_20.xls": "33d1745caf99d2188b66132a450aaab006f6a6a47a087ca9629147a714e33432",
+    "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_21.xls": "732ab6493e6ca1659d0c033006115d7bb3a11d5d7b4651fd588553107ae02de2",
+    "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_22.xls": "0434c639751a6e2b01aa2a75a75a75ae68b2d7a8e37f7a1347c9c6ac9bcfd64c",
+    "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_23.xls": "a7525c82449cb8f69dc98c2cc357ab6ae486cb6f205eecef26efddedda649dd7",
+    "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_24.xls": "ff4542a1c486623b94b52cf14049faea4b1bb8db761a9aea6f23ed9e16c12ca0",
+    "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_25.xls": "87458c4b8f9aa06cb866ad278c983e3950c544be0606324cb171ff26d5d31013",
+    "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_26.xls": "2c5ca282fa4c95b706be41a297fa927081fb151d3107e326c12b54efe66f7b14",
+    "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_27.xls": "4ad0cce616f4dac71ad75713e5b160bab73f815b06ba50af1e12366aff33eb76",
+    "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_28.xls": "6cab86d157f388cc03676691f55fa3ce0a529b2c18968a7eb58d3ed53bc56fae",
+    "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_29.xls": "4c791724243d49e0dcb8a5ee7800202f3855b14060dd5ad686052692bcf006b8",
+    "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_3.xls": "4b30094bb647e025c2dd87c93f2b86176a74e25f185f0cf66e8ec598bc795438",
+    "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_30.xls": "c67c95a1f27fe0d40d1e8623b0aca368ddb4acda9c57bb8e837f9607bf2e0624",
+    "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_31.xls": "11bb0308292927bd228b59b5027ed26b3fff2ff6fa06c83c9bfc3c6aa328fc5e",
+    "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_32.xls": "6eb46ed75f4aa5d200f8c88863a87478fb82798d29f333965ba20cece2043341",
+    "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_33.xls": "44542143675ae9ebf271176a200bd2ef0d5220c37f6866c56cfb550119d438c4",
+    "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_4.xls": "1bcb0adfd93406c21233c1db6344e05bb22d07450affd153da8764184e510560",
+    "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_5.xls": "db5cbe855cb62c52f86af1003ea852c2601717c56c1287c40c3bbf87a06ed99d",
+    "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_6.xls": "8133cdd38b1ba03e6d4ac323b1cc5c80b60f3f3a095ed593c37d30b2fa574a31",
+    "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_7.xls": "1ac2a74a9d6b00e557668fa9cd4e5e35ec496ccd1cc8a9ec42151e16c307679e",
+    "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_8.xls": "97ade71b4681d99b9b384ff0c75abf0ca24673d77fcada7eafa9946866de8701",
+    "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_9.xls": "e073a521b60e2a6f520a1d64f76986b00a2d5b102c94671c3570f78346b2c4cb",
+    "data/Meinv_SAU_PHAT_HANH_20261029/DIEU_CHINH/Bang_ke_hoa_don_dieu_chinh_xuat_theo_HD_bi_dieu_chinh_1793291608325_1.xls": "be2d669db5fdaf1c58fa3d3a4b034b87a877158941e86787226064aab91d153e",
+    "data/Meinv_SAU_PHAT_HANH_20261029/DIEU_CHINH/Bang_ke_hoa_don_dieu_chinh_xuat_theo_HD_bi_dieu_chinh_1793291608325_2.xls": "bbb31bd0809f34afff0288163e6be87e9c691a473e1e51803ee668ffb23a4c39",
+    "data/Meinv_SAU_PHAT_HANH_20261029/DIEU_CHINH/Bang_ke_hoa_don_dieu_chinh_xuat_theo_HD_bi_dieu_chinh_1793291608325_3.xls": "fb289e6d945f9c344b87e36d89ed35c958018fbc781dd2df2d3d7c79fd56d09a",
+    "data/Meinv_SAU_PHAT_HANH_20261029/DIEU_CHINH/Bang_ke_hoa_don_dieu_chinh_xuat_theo_HD_bi_dieu_chinh_1793291608325_4.xls": "ff880e07c63f0f6c14da7d856a8515f2d0aea9babdde75565b68989199d8ac40",
+    "data/Meinv_SAU_PHAT_HANH_20261029/DIEU_CHINH/Bang_ke_hoa_don_dieu_chinh_xuat_theo_HD_bi_dieu_chinh_1793291608325_5.xls": "6462c7dd2cc964a25e8ce00a23bcb3d825af0b2a3d90dc4484eb974f6ed819d7",
+    "data/Meinv_SAU_PHAT_HANH_20261029/THAY_THE/Bang_ke_hoa_don_thay_the_xuat_theo_HD_thay_the_1793293386111.xls": "b13451d54e1194a975849af41f9ff597f3efdb49cebc833496565daaaf809160",
+    "data/Meinv_SAU_PHAT_HANH_20261029/THAY_THE/Thay_the.xls": "a7c375e4bc4601011b270be27e60837805c5b79d4102f2e6bc9469a7aaa6a9dc"
+  },
+  "meaning": "F0 là HĐ gốc; F1/F2 là từng HĐ điều chỉnh theo ngày, số tiền mang dấu nguồn. Không phát sinh để trống."
+}

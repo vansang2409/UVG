@@ -1,0 +1,168 @@
+{
+  "passed": true,
+  "fixed_cells": 21,
+  "dependent_lines": 26,
+  "dependent_documents": 21,
+  "dependent_errors": [],
+  "dependent_values": [
+    {
+      "row": 340,
+      "doc": "BHHT2024000665",
+      "value": "578316489381546000",
+      "formula": "=IFERROR(INDEX('Mã đơn hàng'!B:B;MATCH(T340;'Mã đơn hàng'!A:A;0));\"\")"
+    },
+    {
+      "row": 5292,
+      "doc": "BHHT2024001965",
+      "value": "578659411083758000",
+      "formula": "=IFERROR(INDEX('Mã đơn hàng'!B:B;MATCH(T5292;'Mã đơn hàng'!A:A;0));\"\")"
+    },
+    {
+      "row": 7144,
+      "doc": "BHHT2024005035",
+      "value": "578678898304322000",
+      "formula": "=IFERROR(INDEX('Mã đơn hàng'!B:B;MATCH(T7144;'Mã đơn hàng'!A:A;0));\"\")"
+    },
+    {
+      "row": 7145,
+      "doc": "BHHT2024005035",
+      "value": "578678898304322000",
+      "formula": "=IFERROR(INDEX('Mã đơn hàng'!B:B;MATCH(T7145;'Mã đơn hàng'!A:A;0));\"\")"
+    },
+    {
+      "row": 8138,
+      "doc": "BHHT2024004420",
+      "value": "578729502518447000",
+      "formula": "=IFERROR(INDEX('Mã đơn hàng'!B:B;MATCH(T8138;'Mã đơn hàng'!A:A;0));\"\")"
+    },
+    {
+      "row": 9265,
+      "doc": "BHHT2024003662",
+      "value": "578733165206473000",
+      "formula": "=IFERROR(INDEX('Mã đơn hàng'!B:B;MATCH(T9265;'Mã đơn hàng'!A:A;0));\"\")"
+    },
+    {
+      "row": 9266,
+      "doc": "BHHT2024003662",
+      "value": "578733165206473000",
+      "formula": "=IFERROR(INDEX('Mã đơn hàng'!B:B;MATCH(T9266;'Mã đơn hàng'!A:A;0));\"\")"
+    },
+    {
+      "row": 14257,
+      "doc": "BHHT2024009188",
+      "value": "578899065867635000",
+      "formula": "=IFERROR(INDEX('Mã đơn hàng'!B:B;MATCH(T14257;'Mã đơn hàng'!A:A;0));\"\")"
+    },
+    {
+      "row": 14258,
+      "doc": "BHHT2024009188",
+      "value": "578899065867635000",
+      "formula": "=IFERROR(INDEX('Mã đơn hàng'!B:B;MATCH(T14258;'Mã đơn hàng'!A:A;0));\"\")"
+    },
+    {
+      "row": 14307,
+      "doc": "BHHT2024009215",
+      "value": "578896979423038000",
+      "formula": "=IFERROR(INDEX('Mã đơn hàng'!B:B;MATCH(T14307;'Mã đơn hàng'!A:A;0));\"\")"
+    },
+    {
+      "row": 15483,
+      "doc": "BHHT2024008409",
+      "value": "578925872619228000",
+      "formula": "=IFERROR(INDEX('Mã đơn hàng'!B:B;MATCH(T15483;'Mã đơn hàng'!A:A;0));\"\")"
+    },
+    {
+      "row": 15754,
+      "doc": "BHHT2024008262",
+      "value": "578937092153183000",
+      "formula": "=IFERROR(INDEX('Mã đơn hàng'!B:B;MATCH(T15754;'Mã đơn hàng'!A:A;0));\"\")"
+    },
+    {
+      "row": 16579,
+      "doc": "BHHT2024007769",
+      "value": "578951995969014000",
+      "formula": "=IFERROR(INDEX('Mã đơn hàng'!B:B;MATCH(T16579;'Mã đơn hàng'!A:A;0));\"\")"
+    },
+    {
+      "row": 18343,
+      "doc": "BHHT2024011548",
+      "value": "579032916724452000",
+      "formula": "=IFERROR(INDEX('Mã đơn hàng'!B:B;MATCH(T18343;'Mã đơn hàng'!A:A;0));\"\")"
+    },
+    {
+      "row": 18790,
+      "doc": "BHHT2024011219",
+      "value": "579038103454518000",
+      "formula": "=IFERROR(INDEX('Mã đơn hàng'!B:B;MATCH(T18790;'Mã đơn hàng'!A:A;0));\"\")"
+    },
+    {
+      "row": 18791,
+      "doc": "BHHT2024011219",
+      "value": "579038103454518000",
+      "formula": "=IFERROR(INDEX('Mã đơn hàng'!B:B;MATCH(T18791;'Mã đơn hàng'!A:A;0));\"\")"
+    },
+    {
+      "row": 19471,
+      "doc": "BHHT2024010854",
+      "value": "579062475134962000",
+      "formula": "=IFERROR(INDEX('Mã đơn hàng'!B:B;MATCH(T19471;'Mã đơn hàng'!A:A;0));\"\")"
+    },
+    {
+      "row": 20266,
+      "doc": "BHHT2024010144",
+      "value": "579092938682633000",
+      "formula": "=IFERROR(INDEX('Mã đơn hàng'!B:B;MATCH(T20266;'Mã đơn hàng'!A:A;0));\"\")"
+    },
+    {
+      "row": 22046,
+      "doc": "BHHT2024014036",
+      "value": "579132764906884000",
+      "formula": "=IFERROR(INDEX('Mã đơn hàng'!B:B;MATCH(T22046;'Mã đơn hàng'!A:A;0));\"\")"
+    },
+    {
+      "row": 25769,
+      "doc": "BHHT2024016915",
+      "value": "579257255983287000",
+      "formula": "=IFERROR(INDEX('Mã đơn hàng'!B:B;MATCH(T25769;'Mã đơn hàng'!A:A;0));\"\")"
+    },
+    {
+      "row": 30585,
+      "doc": "BHHT2024019432",
+      "value": "579418923418881000",
+      "formula": "=IFERROR(INDEX('Mã đơn hàng'!B:B;MATCH(T30585;'Mã đơn hàng'!A:A;0));\"\")"
+    },
+    {
+      "row": 32837,
+      "doc": "BHHT2024018105",
+      "value": "579483937445481000",
+      "formula": "=IFERROR(INDEX('Mã đơn hàng'!B:B;MATCH(T32837;'Mã đơn hàng'!A:A;0));\"\")"
+    },
+    {
+      "row": 32838,
+      "doc": "BHHT2024018105",
+      "value": "579483937445481000",
+      "formula": "=IFERROR(INDEX('Mã đơn hàng'!B:B;MATCH(T32838;'Mã đơn hàng'!A:A;0));\"\")"
+    },
+    {
+      "row": 35966,
+      "doc": "BHHT2024021557",
+      "value": "579604127506533000",
+      "formula": "=IFERROR(INDEX('Mã đơn hàng'!B:B;MATCH(T35966;'Mã đơn hàng'!A:A;0));\"\")"
+    },
+    {
+      "row": 36591,
+      "doc": "BHHT2024021397",
+      "value": "579615026469833000",
+      "formula": "=IFERROR(INDEX('Mã đơn hàng'!B:B;MATCH(T36591;'Mã đơn hàng'!A:A;0));\"\")"
+    },
+    {
+      "row": 42701,
+      "doc": "BHHT2024023056",
+      "value": "579776418789428000",
+      "formula": "=IFERROR(INDEX('Mã đơn hàng'!B:B;MATCH(T42701;'Mã đơn hàng'!A:A;0));\"\")"
+    }
+  ],
+  "unmatched_or_conflicting": 0,
+  "source_preserved": true,
+  "source_limit": "21 identifiers end in 000 in the supplied source; restoration matches source text only."
+}

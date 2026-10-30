@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "range": "H14:M30",
+  "groups": 16,
+  "invoices": 23,
+  "max_stage": "F2",
+  "changed_cells": 52,
+  "outside_cells_changed": 0,
+  "formula_errors": [],
+  "all_stage_sums_match_column_D": true,
+  "total_goods": 29066273,
+  "source_files_verified": 40,
+  "render_check": "Native formatting API: text wrap, 155px money columns, 190px invoice columns, 10pt font; no browser screenshot"
+}

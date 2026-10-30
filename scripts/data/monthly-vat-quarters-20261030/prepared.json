@@ -1,0 +1,423 @@
+{
+  "monthly_vat": [
+    {
+      "month": 1,
+      "amis": 294110663,
+      "invoice": 293886767
+    },
+    {
+      "month": 2,
+      "amis": 143749375,
+      "invoice": 143990857
+    },
+    {
+      "month": 3,
+      "amis": 204017409,
+      "invoice": 204322994
+    },
+    {
+      "month": 4,
+      "amis": 391758575,
+      "invoice": 393017680
+    },
+    {
+      "month": 5,
+      "amis": 267554266,
+      "invoice": 265924487
+    },
+    {
+      "month": 6,
+      "amis": 329700068,
+      "invoice": 329525179
+    },
+    {
+      "month": 7,
+      "amis": 375756909,
+      "invoice": 375997650
+    },
+    {
+      "month": 8,
+      "amis": 389391539,
+      "invoice": 389247226
+    },
+    {
+      "month": 9,
+      "amis": 399959864,
+      "invoice": 398898444
+    },
+    {
+      "month": 10,
+      "amis": 407909990,
+      "invoice": 408570586
+    },
+    {
+      "month": 11,
+      "amis": 388535059,
+      "invoice": 386806248
+    },
+    {
+      "month": 12,
+      "amis": 401810333,
+      "invoice": 404255450
+    }
+  ],
+  "quarters": [
+    {
+      "kind": "revenue",
+      "first_row": 37,
+      "last_row": 40
+    },
+    {
+      "kind": "vat",
+      "first_row": 45,
+      "last_row": 48
+    },
+    {
+      "kind": "cost",
+      "first_row": 53,
+      "last_row": 56
+    }
+  ],
+  "rows": [
+    [
+      "2. VAT THEO THÁNG"
+    ],
+    [
+      "Tháng",
+      "Sổ AMIS",
+      "Hóa đơn sau xử lý (dự tính)",
+      "Chênh HĐ − AMIS"
+    ],
+    [
+      1,
+      294110663,
+      293886767,
+      "=C21-B21"
+    ],
+    [
+      2,
+      143749375,
+      143990857,
+      "=C22-B22"
+    ],
+    [
+      3,
+      204017409,
+      204322994,
+      "=C23-B23"
+    ],
+    [
+      4,
+      391758575,
+      393017680,
+      "=C24-B24"
+    ],
+    [
+      5,
+      267554266,
+      265924487,
+      "=C25-B25"
+    ],
+    [
+      6,
+      329700068,
+      329525179,
+      "=C26-B26"
+    ],
+    [
+      7,
+      375756909,
+      375997650,
+      "=C27-B27"
+    ],
+    [
+      8,
+      389391539,
+      389247226,
+      "=C28-B28"
+    ],
+    [
+      9,
+      399959864,
+      398898444,
+      "=C29-B29"
+    ],
+    [
+      10,
+      407909990,
+      408570586,
+      "=C30-B30"
+    ],
+    [
+      11,
+      388535059,
+      386806248,
+      "=C31-B31"
+    ],
+    [
+      12,
+      401810333,
+      404255450,
+      "=C32-B32"
+    ],
+    [
+      "CẢ NĂM",
+      "=SUM(B21:B32)",
+      "=SUM(C21:C32)",
+      "=SUM(D21:D32)"
+    ],
+    [],
+    [
+      "3. DOANH THU THEO QUÝ"
+    ],
+    [
+      "Quý",
+      "Sổ AMIS",
+      "Hóa đơn sau xử lý (dự tính)",
+      "Chênh HĐ − AMIS"
+    ],
+    [
+      "Quý 1",
+      "=SUM(B5:B7)",
+      "=SUM(C5:C7)",
+      "=C37-B37"
+    ],
+    [
+      "Quý 2",
+      "=SUM(B8:B10)",
+      "=SUM(C8:C10)",
+      "=C38-B38"
+    ],
+    [
+      "Quý 3",
+      "=SUM(B11:B13)",
+      "=SUM(C11:C13)",
+      "=C39-B39"
+    ],
+    [
+      "Quý 4",
+      "=SUM(B14:B16)",
+      "=SUM(C14:C16)",
+      "=C40-B40"
+    ],
+    [
+      "CẢ NĂM",
+      "=SUM(B37:B40)",
+      "=SUM(C37:C40)",
+      "=SUM(D37:D40)"
+    ],
+    [],
+    [
+      "4. VAT THEO QUÝ"
+    ],
+    [
+      "Quý",
+      "Sổ AMIS",
+      "Hóa đơn sau xử lý (dự tính)",
+      "Chênh HĐ − AMIS"
+    ],
+    [
+      "Quý 1",
+      "=SUM(B21:B23)",
+      "=SUM(C21:C23)",
+      "=C45-B45"
+    ],
+    [
+      "Quý 2",
+      "=SUM(B24:B26)",
+      "=SUM(C24:C26)",
+      "=C46-B46"
+    ],
+    [
+      "Quý 3",
+      "=SUM(B27:B29)",
+      "=SUM(C27:C29)",
+      "=C47-B47"
+    ],
+    [
+      "Quý 4",
+      "=SUM(B30:B32)",
+      "=SUM(C30:C32)",
+      "=C48-B48"
+    ],
+    [
+      "CẢ NĂM",
+      "=SUM(B45:B48)",
+      "=SUM(C45:C48)",
+      "=SUM(D45:D48)"
+    ],
+    [],
+    [
+      "5. GIÁ VỐN THEO QUÝ"
+    ],
+    [
+      "Quý",
+      "Sổ AMIS",
+      "Hóa đơn: phần đã có giá vốn",
+      "Còn cần bổ sung"
+    ],
+    [
+      "Quý 1",
+      "=SUM(B61:B63)",
+      "=SUM(C61:C63)",
+      "Thiếu giá vốn HĐ 63 và 111"
+    ],
+    [
+      "Quý 2",
+      "=SUM(B64:B66)",
+      "=SUM(C64:C66)",
+      null
+    ],
+    [
+      "Quý 3",
+      "=SUM(B67:B69)",
+      "=SUM(C67:C69)",
+      null
+    ],
+    [
+      "Quý 4",
+      "=SUM(B70:B72)",
+      "=SUM(C70:C72)",
+      null
+    ],
+    [
+      "CẢ NĂM",
+      "=SUM(B53:B56)",
+      "=SUM(C53:C56)",
+      "Còn thiếu giá vốn HĐ 63 và 111"
+    ],
+    []
+  ],
+  "totals": {
+    "amis_vat": 3994254050,
+    "invoice_vat": 3994443568,
+    "vat_gap": 189518
+  },
+  "scope": "Bán mới/trả theo ngày chứng từ AMIS; hóa đơn cũ theo tháng HĐ gốc 2024. Không phải báo cáo ngày phát hành thực tế.",
+  "source_hashes": [
+    {
+      "path": "data\\Du lieu Meinvoice\\Bang_ke_hoa_don_da_su_dung_2024_2025\\Bang_ke_hoa_don_da_su_dung_1791380301707_1.xlsx",
+      "sha256": "99bc8550b4dae85793b7b5baebf27b0543116e4a70956750092f1e259b948918"
+    },
+    {
+      "path": "data\\Du lieu Meinvoice\\Bang_ke_hoa_don_da_su_dung_2024_2025\\Bang_ke_hoa_don_da_su_dung_1791380301707_10.xlsx",
+      "sha256": "96475567ed78e1276c126bf04fc416c131b5eb2dfa6e35f2fa88952dde568a4f"
+    },
+    {
+      "path": "data\\Du lieu Meinvoice\\Bang_ke_hoa_don_da_su_dung_2024_2025\\Bang_ke_hoa_don_da_su_dung_1791380301707_2.xlsx",
+      "sha256": "55447835cba9a69f2d0a0057760769c33139837687259f8259b97a8506a7042e"
+    },
+    {
+      "path": "data\\Du lieu Meinvoice\\Bang_ke_hoa_don_da_su_dung_2024_2025\\Bang_ke_hoa_don_da_su_dung_1791380301707_3.xlsx",
+      "sha256": "ac315d8ccbd6f4d77ed0584d09b268beae39276507bd43529fce16d78011d303"
+    },
+    {
+      "path": "data\\Du lieu Meinvoice\\Bang_ke_hoa_don_da_su_dung_2024_2025\\Bang_ke_hoa_don_da_su_dung_1791380301707_4.xlsx",
+      "sha256": "5bc2275ade60933ab2bbfe39d3de1cdfa260da6db0fa7e6ba4a689fe4582a9bc"
+    },
+    {
+      "path": "data\\Du lieu Meinvoice\\Bang_ke_hoa_don_da_su_dung_2024_2025\\Bang_ke_hoa_don_da_su_dung_1791380301707_5.xlsx",
+      "sha256": "1a92fc7536b78441354c9cc2a1d6bff8b0d8c2cd4d9655bf1e6d154f0070407f"
+    },
+    {
+      "path": "data\\Du lieu Meinvoice\\Bang_ke_hoa_don_da_su_dung_2024_2025\\Bang_ke_hoa_don_da_su_dung_1791380301707_6.xlsx",
+      "sha256": "8c4b280b4c256c4cf780b0032b0329786c74ac6b2527955b523bbf41152137cd"
+    },
+    {
+      "path": "data\\Du lieu Meinvoice\\Bang_ke_hoa_don_da_su_dung_2024_2025\\Bang_ke_hoa_don_da_su_dung_1791380301707_7.xlsx",
+      "sha256": "eaedcd7cbeaed3679451024f2dd5a752bc3308b57926551e88f97615200c18f2"
+    },
+    {
+      "path": "data\\Du lieu Meinvoice\\Bang_ke_hoa_don_da_su_dung_2024_2025\\Bang_ke_hoa_don_da_su_dung_1791380301707_8.xlsx",
+      "sha256": "07b8bf38067d19d75f1bbaa0f6ff9ff8b46b18987c901ea7ee04105aa2bd881a"
+    },
+    {
+      "path": "data\\Du lieu Meinvoice\\Bang_ke_hoa_don_da_su_dung_2024_2025\\Bang_ke_hoa_don_da_su_dung_1791380301707_9.xlsx",
+      "sha256": "515ee38914bace28f767d502c89573c8cbd499b60264178a6ec69cd8e73c3631"
+    },
+    {
+      "path": "data\\Du lieu Meinvoice\\Bang_ke_hoa_don_dieu_chinh_xuat_theo_HD_dieu_chinh_2024.xls",
+      "sha256": "755a717e2f64bcac36448e9187f675048816b9adfa6ad0f5ee26d3d1af7f5ea3"
+    },
+    {
+      "path": "data\\Du lieu Meinvoice\\Bang_ke_hoa_don_dieu_chinh_xuat_theo_HD_dieu_chinh_2025.xls",
+      "sha256": "791d20968ca2f6ca29b4116c63803c00166150fac45ac9716e04fc0383c94e4d"
+    },
+    {
+      "path": "data\\Du lieu Meinvoice\\Bang_ke_hoa_don_thay_the_xuat_theo_HD_bi_thay_the_1793158686512.xls",
+      "sha256": "4c015c740185be2c856838c47667d42a02c6bd16c40ed6584010efb961b05b4a"
+    },
+    {
+      "path": "data\\Du lieu Meinvoice\\Bang_ke_hoa_don_thay_the_xuat_theo_HD_thay_the_2024_2025.xls",
+      "sha256": "519402e85435b628546dcace62460c3b54e4d665c75f6f819940075afc087193"
+    },
+    {
+      "path": "data\\Du lieu Meinvoice\\Xuat_lai_2026-10-09\\Bang_ke_hoa_don_dieu_chinh_xuat_theo_HD_dieu_chinh_1791533363253.xls",
+      "sha256": "9c4d7fd2748782f7029c6619c69ecec9bfcec15ba3726dfa3312b2a7fd0c10a7"
+    },
+    {
+      "path": "data\\Du lieu Meinvoice\\Xuat_lai_2026-10-09\\Bang_ke_hoa_don_dieu_chinh_xuat_theo_HD_dieu_chinh_1791533378419.xls",
+      "sha256": "1984590a5d17c9484e275b1508b7a5c462b67d04fa9852bd0439071d409afca5"
+    },
+    {
+      "path": "data\\Du lieu Meinvoice\\Xuat_lai_2026-10-09\\Bang_ke_hoa_don_dieu_chinh_xuat_theo_HD_dieu_chinh_1791535046109.xls",
+      "sha256": "a22f4b45e748bd1e0515ded6abc869bfb9c4fc607c78abbdc524dd7545c7cee8"
+    },
+    {
+      "path": "data\\Du lieu Meinvoice\\Xuat_lai_2026-10-09\\Bang_ke_hoa_don_thay_the_xuat_theo_HD_thay_the_1791533430588.xls",
+      "sha256": "617565f39b96937ad1a975a2802d40e0b71d5b97554cbfd0f0da45852cfb5737"
+    },
+    {
+      "path": "data\\Du lieu Meinvoice\\Xuat_lai_2026-10-09\\Bang_ke_hoa_don_thay_the_xuat_theo_HD_thay_the_1791535075764.xls",
+      "sha256": "d1a4f4ee5c4cd6942bf4d38b125e539e87861d33d1af1f16639c952e09ffad8e"
+    },
+    {
+      "path": "data\\Du lieu Meinvoice\\Xuat_lai_2026-10-22\\Bang_ke_hoa_don_dieu_chinh_xuat_theo_HD_dieu_chinh_1792636231350.xls",
+      "sha256": "6801ddc8ad0709352adf8462e07a2134abf9eaa040f5c5727109c3774f3daf98"
+    },
+    {
+      "path": "data\\Du lieu Meinvoice\\Xuat_lai_2026-10-22\\Bang_ke_hoa_don_thay_the_xuat_theo_HD_thay_the_1792637478021.xls",
+      "sha256": "c5a93fee4f809da713b7b1d405a0d0cdef94f05c8e9a1c5f93cf35da3bed3a67"
+    },
+    {
+      "path": "outputs\\HOA_DON_CHUA_DIEU_CHINH_F0_2024_T6_2025.xlsx",
+      "sha256": "8a7cdf7b45f533403461076df350e27e27bb685f35ab24cdb97e0da82a09f658"
+    },
+    {
+      "path": "outputs\\HOA_DON_DA_DIEU_CHINH_F0_2024_T6_2025.xlsx",
+      "sha256": "fcdb1706e813e2a6e0fedfbeeb645eca39ed9e2521628d35c54ffa9cc91fa068"
+    },
+    {
+      "path": "outputs\\NGOAI_LE_F0_2024_T6_2025.xlsx",
+      "sha256": "7a20d03a3eef7f294c828453e09ba68c1e9794acde2790e16e780f2dea514e0e"
+    },
+    {
+      "path": "data\\Du lieu Meinvoice\\Bang_ke_chi_tiet_HD_da_su_dung_2024.xls",
+      "sha256": "0667285dec31e8b0ff5b463c21a405ef15c0a86ff1f84a25eac33866d10dede4"
+    },
+    {
+      "path": "outputs\\HOA_DON_CHUA_DIEU_CHINH_IMPORT_2_SHEET.xlsx",
+      "sha256": "d31f5f1c7f6e48b4c345bff14472053d1c6e5489977d91fbb35d10b0f1d7c96c"
+    },
+    {
+      "path": "outputs\\HOA_DON_DA_DIEU_CHINH_IMPORT_2_SHEET.xlsx",
+      "sha256": "44ef4cd16327f5d7e1bb7f6a03fad17257eac3de908f4496142b2c7b4f233787"
+    },
+    {
+      "path": "outputs\\amis-2024-theo-btl-bhh-20261026\\IMPORT_HOA_DON_MOI_AMIS_2024.xlsx",
+      "sha256": "c6ea974aeabc67e9912d6359448f853f4257fe79a808e3f16cf60d82f6f321ee"
+    },
+    {
+      "path": "outputs\\amis-2024-theo-btl-bhh-20261026\\KIEM_TRA_VA_LOAI_TRU_AMIS_2024.xlsx",
+      "sha256": "3850271d41b1df24d108c7295c7deaa802ec2954f6b73c341b30bc2ecde95b90"
+    },
+    {
+      "path": "data\\Du lieu Amis\\So_chi_tiet_ban_hang_2024.xlsx",
+      "sha256": "3bd10cb45981c1634255e5a0a0a37237853e6bac2f637707514afaa01349df4d"
+    }
+  ],
+  "missing_cost_invoices": [
+    63,
+    111
+  ]
+}

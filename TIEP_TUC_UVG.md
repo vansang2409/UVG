@@ -1,3 +1,43 @@
+# Sửa 21 mã HĐ gốc bị dạng số khoa học — 30/10/2026
+
+Theo link/ảnh người dùng, đã đối chiếu tab `Mã đơn hàng` (gid1329950983) của `IMPORT MEINV 2024` với nguồn Google Sheet `1mjflp5J02lLB42yDzh4gJdtYwjaqing1eC6A0iKuRVI`, tab `Amis_import` (gid909512061): khóa Số chứng từ ởH, mã HĐ gốc ởBF. Nguồn31991dòng có25182chứngtừ/mãduynhất, không xung đột. Đích25161mã khớp,21mã sai dạngnumeric18chữsố đã bị làm tròn mạnh; không có trường hợp thiếu nguồn/mơ hồ trong nhóm numeric lỗi.
+
+Đã sửa đúng21ô B tại các hàng10323,11623,13320,14078,14693,17427,17920,18067,18846,18873,19802,20512,20877,21206,23694,26573,27763,29090,31055,31215,32714; ghi `stringValue` và định dạngTEXT. Ví dụ BHHT2024008262:578937000000000000 → `578937092153183000` đúng nguồn. Đọc lại21ô xác nhận đủ chuỗi text, không còn hiển thịE+17. Kiểm các công thức cộtS tab `Hóa đơn GTGT`:26dòng thuộc21chứngtừ đều tự lấy đúng mã mới, không lỗi; không sửa công thức hay số tiền.
+
+Giới hạn nguồn cần giữ rõ: cả21mã trong `Amis_import` vốn đã cóđuôi000, tab `Check Amis(Th)`/`data` cũng cùnggiátrị. Chỉ phục hồi đúng chuỗi trong nguồn người dùng cung cấp, không suy đoán ba chữ số gốc trên TikTok hoặc khẳng định đã khôi phục ID nền tảng đầy đủ. File nguồn chỉ đọc; không đổi các mã đang khớp, không sửa workbook Excel hay phát hành/import. Căn cứ `scripts/data/order-id-repair-20261030/{prepared,google-verification}.json`. Chưa commit/push đợt này.
+
+---
+
+# Gộp doanh thu và VAT chung bảng — 30/10/2026
+
+Người dùng chốt gộp chung, đã sửa trực tiếp `Hang hoa theo thang 2024` (gid700000020): A3:G17 bảng tháng, A19:G25 bảng quý. Thứ tự7cột: Kỳ / DT AMIS / VAT AMIS / DT HĐ dự tính / VAT HĐ dự tính / Chênh DT / Chênh VAT. Bỏ các bảng VAT riêng. Giá vốn vẫn riêng: tháng A27:D42, quý A43:D49, còn ghi thiếu giá vốn HĐ63/111. Chi tiết mã hàng header53/data54–335/total336, vẫn282dòng thu gọn.
+
+Đã đọc lại toàn bộ336hàng:12tháng DT/VAT nguyên số, tổng tháng và quý cùng khớp DT49.928.171.800/49.930.540.760đ, VAT3.994.254.050/3.994.443.568đ, chênh DT2.368.960đ/VAT189.518đ. 282dòng chi tiết và tổng giá vốn giữ nguyên sau chuyển vị trí, không lỗi công thức. Google đã tự dịch bộ lọc/nhóm và2quy tắc định dạng điều kiện về hàng mới; kiểm nội dung/định dạng quaAPI, chưa có ảnh trình duyệt. Không sửa tab khác hoặc import. Builder `scripts/build_monthly_goods_requests.py` cập nhật cùng bố cục336hàng; kiểm chứng `scripts/data/monthly-vat-quarters-20261030/combined-google-verification.json`. Chưa commit/push đợt này.
+
+---
+
+# Bổ sung VAT và tổng hợp quý ở tab hàng hóa — 30/10/2026
+
+Đã sửa cùng tab `Hang hoa theo thang 2024`, gid700000020, giữ bảng4cột dễ đọc. Doanh thu tháng A3:D17 giữ nguyên; thêm VAT tháng A19:D33, doanh thu quý A35:D41, VAT quý A43:D49, giá vốn quý A51:D57. Giá vốn tháng chuyển xuống A59:D74; chi tiết mã hàng vẫn282dòng, nay hàng78–359, tổng360, tiếp tục thu gọn từ hàng77. Không thêm tab hay Excel bàn giao.
+
+VAT lấy nguyên số nguồn: AMIS cộtAG theo ngày chứng từ, bao gồm VAT trả hàng mang dấu nguồn. Hóa đơn dự tính: VAT của bộ bán mới + VAT từng HĐ cũ giữ lại theo tháng gốc + VAT163BTL theo ngày BTL; không nhân doanh thu với8%. Kiểm tổng VAT AMIS3.994.254.050đ, HĐ dự tính3.994.443.568đ, chênh189.518đ. Bán mới/trả hàng vẫn dự tính, phần cũ đã kiểm phát hành theo lần pull trước. Giữ cùng cơ sở phân tháng, không chuyển sang báo cáo ngày phát hành thực tế.
+
+Các bảng quý dùng SUM trực tiếp các tháng tương ứng, không nhập cứng tổng. Doanh thu cả năm49.928.171.800/49.930.540.760đ, chênh2.368.960đ giữ nguyên. Giá vốn đã có nguồn24.542.992.457đ; Quý1 và cả năm ghi rõ còn thiếu HĐ63/111, không kết luận khớp đầy đủ. Chèn40hàng trước giá vốn, Google tự dịch công thức/bộ lọc/nhóm và định dạng điều kiện. Đọc lại toàn bộ360hàng: toàn bộ giá trị320hàng cũ (kể cả282dòng chi tiết) giữ nguyên sau dịch vị trí, không lỗi công thức, tổng tháng/quý/cả năm khớp. Đã kiểm định dạng và giá trị hiển thị quaAPI, chưa có ảnh trình duyệt.
+
+Tái lập: `scripts/prepare_monthly_vat_quarters_20261030.py`, `scripts/data/monthly-vat-quarters-20261030/{prepared,request,google-verification}.json`; builder `scripts/build_monthly_goods_requests.py` đã bổ sung bố cục mới, output360hàng/9chunk, tránh tái tạo bản thiếu VAT. Không sửa các bộ import; chưa commit/push đợt này.
+
+---
+
+# Bổ sung F0/F1/F2 cho 16 nhóm lệch — 30/10/2026
+
+Theo yêu cầu người dùng, đã bổ sung trực tiếp `Doi chieu lech 2024` (gid700000011), vùng H14:M30: H–J là tiền hàng F0/F1/F2, K–M là số HĐ tương ứng. F0 là gốc; F1/F2 là từng HĐ điều chỉnh theo thứ tự ngày/số, giữ dấu nguồn, không phát sinh để trống. 16 nhóm có23HĐ, tối đaF2; không có F3 cần thêm.
+
+Đối chiếu đủ40hash nguồn hiện hành và kết quả kiểm phát hành vừa pull: tập HĐ/giá trị16nhóm khớp căn cứ cũ. Từng dòng F0+F1+F2 khớp cộtD, tổng29.066.273đ. Ví dụ HĐ64:2.407.407−482.407+482.407=2.407.407đ; HĐ659:2.397.221+416.667−416.667=2.397.221đ. Không sửa cộtA:F hay các số báo cáo.
+
+Đã đọc lại A1:R160: đúng52ô có thêm giá trị, mọi giá trị/công thức/validation/định dạng ô ngoài H14:M30 giữ nguyên, không lỗi công thức; chỉ đổi độ rộng cộtH:M để đọc phần mới. Kiểm định dạng quaAPI (wrap, chữ10pt; tiền155px, sốHĐ190px), chưa có ảnh trình duyệt. Script `scripts/prepare_gap_f_stages_20261030.py`; căn cứ `scripts/data/gap-f-stages-20261030/{prepared,request,google-verification}.json`. Chưa commit/push đợt này; không sửa các bộ import.
+
+---
+
 # Cập nhật báo cáo Google Sheets theo phát hành thực tế — 30/10/2026
 
 Theo yêu cầu cập nhật link báo cáo, đã sửa trực tiếp tab **Ra soat chuoi 2024**, gid **700000010**, trong Google Sheet **IMPORT MEINV 2024** (`1d4fLQRALDLXOFOQQlZuXMCTAg4lnRQ7NbKH-UPJN0XE`). Giữ bố cục ba cột tóm tắt và phần 778 dòng chi tiết thu gọn.

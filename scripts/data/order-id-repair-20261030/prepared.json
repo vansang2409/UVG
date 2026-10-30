@@ -1,0 +1,395 @@
+{
+  "target": "1d4fLQRALDLXOFOQQlZuXMCTAg4lnRQ7NbKH-UPJN0XE",
+  "source": "1mjflp5J02lLB42yDzh4gJdtYwjaqing1eC6A0iKuRVI",
+  "source_sheet": "Amis_import",
+  "source_doc_column": "H",
+  "source_id_column": "BF",
+  "target_sheet": "Mã đơn hàng",
+  "target_column": "B",
+  "changes": [
+    {
+      "row": 10323,
+      "doc": "BHHT2024000665",
+      "old": 578316000000000000,
+      "old_cell": {
+        "formattedValue": "5,78E+17",
+        "userEnteredValue": {
+          "numberValue": 578316000000000000
+        },
+        "effectiveValue": {
+          "numberValue": 578316000000000000
+        }
+      },
+      "expected": "578316489381546000",
+      "source_rows": [
+        882
+      ]
+    },
+    {
+      "row": 11623,
+      "doc": "BHHT2024001965",
+      "old": 578659000000000000,
+      "old_cell": {
+        "formattedValue": "5,79E+17",
+        "userEnteredValue": {
+          "numberValue": 578659000000000000
+        },
+        "effectiveValue": {
+          "numberValue": 578659000000000000
+        }
+      },
+      "expected": "578659411083758000",
+      "source_rows": [
+        2552
+      ]
+    },
+    {
+      "row": 13320,
+      "doc": "BHHT2024003662",
+      "old": 578733000000000000,
+      "old_cell": {
+        "formattedValue": "5,79E+17",
+        "userEnteredValue": {
+          "numberValue": 578733000000000000
+        },
+        "effectiveValue": {
+          "numberValue": 578733000000000000
+        }
+      },
+      "expected": "578733165206473000",
+      "source_rows": [
+        4531,
+        4532
+      ]
+    },
+    {
+      "row": 14078,
+      "doc": "BHHT2024004420",
+      "old": 578730000000000000,
+      "old_cell": {
+        "formattedValue": "5,79E+17",
+        "userEnteredValue": {
+          "numberValue": 578730000000000000
+        },
+        "effectiveValue": {
+          "numberValue": 578730000000000000
+        }
+      },
+      "expected": "578729502518447000",
+      "source_rows": [
+        5672
+      ]
+    },
+    {
+      "row": 14693,
+      "doc": "BHHT2024005035",
+      "old": 578679000000000000,
+      "old_cell": {
+        "formattedValue": "5,79E+17",
+        "userEnteredValue": {
+          "numberValue": 578679000000000000
+        },
+        "effectiveValue": {
+          "numberValue": 578679000000000000
+        }
+      },
+      "expected": "578678898304322000",
+      "source_rows": [
+        6490,
+        6491
+      ]
+    },
+    {
+      "row": 17427,
+      "doc": "BHHT2024007769",
+      "old": 578952000000000000,
+      "old_cell": {
+        "formattedValue": "5,79E+17",
+        "userEnteredValue": {
+          "numberValue": 578952000000000000
+        },
+        "effectiveValue": {
+          "numberValue": 578952000000000000
+        }
+      },
+      "expected": "578951995969014000",
+      "source_rows": [
+        9988
+      ]
+    },
+    {
+      "row": 17920,
+      "doc": "BHHT2024008262",
+      "old": 578937000000000000,
+      "old_cell": {
+        "formattedValue": "5,79E+17",
+        "userEnteredValue": {
+          "numberValue": 578937000000000000
+        },
+        "effectiveValue": {
+          "numberValue": 578937000000000000
+        }
+      },
+      "expected": "578937092153183000",
+      "source_rows": [
+        10599
+      ]
+    },
+    {
+      "row": 18067,
+      "doc": "BHHT2024008409",
+      "old": 578926000000000000,
+      "old_cell": {
+        "formattedValue": "5,79E+17",
+        "userEnteredValue": {
+          "numberValue": 578926000000000000
+        },
+        "effectiveValue": {
+          "numberValue": 578926000000000000
+        }
+      },
+      "expected": "578925872619228000",
+      "source_rows": [
+        10765
+      ]
+    },
+    {
+      "row": 18846,
+      "doc": "BHHT2024009188",
+      "old": 578899000000000000,
+      "old_cell": {
+        "formattedValue": "5,79E+17",
+        "userEnteredValue": {
+          "numberValue": 578899000000000000
+        },
+        "effectiveValue": {
+          "numberValue": 578899000000000000
+        }
+      },
+      "expected": "578899065867635000",
+      "source_rows": [
+        11790,
+        11791
+      ]
+    },
+    {
+      "row": 18873,
+      "doc": "BHHT2024009215",
+      "old": 578897000000000000,
+      "old_cell": {
+        "formattedValue": "5,79E+17",
+        "userEnteredValue": {
+          "numberValue": 578897000000000000
+        },
+        "effectiveValue": {
+          "numberValue": 578897000000000000
+        }
+      },
+      "expected": "578896979423038000",
+      "source_rows": [
+        11840
+      ]
+    },
+    {
+      "row": 19802,
+      "doc": "BHHT2024010144",
+      "old": 579093000000000000,
+      "old_cell": {
+        "formattedValue": "5,79E+17",
+        "userEnteredValue": {
+          "numberValue": 579093000000000000
+        },
+        "effectiveValue": {
+          "numberValue": 579093000000000000
+        }
+      },
+      "expected": "579092938682633000",
+      "source_rows": [
+        13020
+      ]
+    },
+    {
+      "row": 20512,
+      "doc": "BHHT2024010854",
+      "old": 579062000000000000,
+      "old_cell": {
+        "formattedValue": "5,79E+17",
+        "userEnteredValue": {
+          "numberValue": 579062000000000000
+        },
+        "effectiveValue": {
+          "numberValue": 579062000000000000
+        }
+      },
+      "expected": "579062475134962000",
+      "source_rows": [
+        13820
+      ]
+    },
+    {
+      "row": 20877,
+      "doc": "BHHT2024011219",
+      "old": 579038000000000000,
+      "old_cell": {
+        "formattedValue": "5,79E+17",
+        "userEnteredValue": {
+          "numberValue": 579038000000000000
+        },
+        "effectiveValue": {
+          "numberValue": 579038000000000000
+        }
+      },
+      "expected": "579038103454518000",
+      "source_rows": [
+        14242,
+        14243
+      ]
+    },
+    {
+      "row": 21206,
+      "doc": "BHHT2024011548",
+      "old": 579033000000000000,
+      "old_cell": {
+        "formattedValue": "5,79E+17",
+        "userEnteredValue": {
+          "numberValue": 579033000000000000
+        },
+        "effectiveValue": {
+          "numberValue": 579033000000000000
+        }
+      },
+      "expected": "579032916724452000",
+      "source_rows": [
+        14756
+      ]
+    },
+    {
+      "row": 23694,
+      "doc": "BHHT2024014036",
+      "old": 579133000000000000,
+      "old_cell": {
+        "formattedValue": "5,79E+17",
+        "userEnteredValue": {
+          "numberValue": 579133000000000000
+        },
+        "effectiveValue": {
+          "numberValue": 579133000000000000
+        }
+      },
+      "expected": "579132764906884000",
+      "source_rows": [
+        17964
+      ]
+    },
+    {
+      "row": 26573,
+      "doc": "BHHT2024016915",
+      "old": 579257000000000000,
+      "old_cell": {
+        "formattedValue": "5,79E+17",
+        "userEnteredValue": {
+          "numberValue": 579257000000000000
+        },
+        "effectiveValue": {
+          "numberValue": 579257000000000000
+        }
+      },
+      "expected": "579257255983287000",
+      "source_rows": [
+        21868
+      ]
+    },
+    {
+      "row": 27763,
+      "doc": "BHHT2024018105",
+      "old": 579484000000000000,
+      "old_cell": {
+        "formattedValue": "5,79E+17",
+        "userEnteredValue": {
+          "numberValue": 579484000000000000
+        },
+        "effectiveValue": {
+          "numberValue": 579484000000000000
+        }
+      },
+      "expected": "579483937445481000",
+      "source_rows": [
+        23238,
+        23239
+      ]
+    },
+    {
+      "row": 29090,
+      "doc": "BHHT2024019432",
+      "old": 579419000000000000,
+      "old_cell": {
+        "formattedValue": "5,79E+17",
+        "userEnteredValue": {
+          "numberValue": 579419000000000000
+        },
+        "effectiveValue": {
+          "numberValue": 579419000000000000
+        }
+      },
+      "expected": "579418923418881000",
+      "source_rows": [
+        24861
+      ]
+    },
+    {
+      "row": 31055,
+      "doc": "BHHT2024021397",
+      "old": 579615000000000000,
+      "old_cell": {
+        "formattedValue": "5,80E+17",
+        "userEnteredValue": {
+          "numberValue": 579615000000000000
+        },
+        "effectiveValue": {
+          "numberValue": 579615000000000000
+        }
+      },
+      "expected": "579615026469833000",
+      "source_rows": [
+        27343
+      ]
+    },
+    {
+      "row": 31215,
+      "doc": "BHHT2024021557",
+      "old": 579604000000000000,
+      "old_cell": {
+        "formattedValue": "5,80E+17",
+        "userEnteredValue": {
+          "numberValue": 579604000000000000
+        },
+        "effectiveValue": {
+          "numberValue": 579604000000000000
+        }
+      },
+      "expected": "579604127506533000",
+      "source_rows": [
+        27511
+      ]
+    },
+    {
+      "row": 32714,
+      "doc": "BHHT2024023056",
+      "old": 579776000000000000,
+      "old_cell": {
+        "formattedValue": "5,80E+17",
+        "userEnteredValue": {
+          "numberValue": 579776000000000000
+        },
+        "effectiveValue": {
+          "numberValue": 579776000000000000
+        }
+      },
+      "expected": "579776418789428000",
+      "source_rows": [
+        29227
+      ]
+    }
+  ],
+  "source_limit": "All 21 source identifiers already end with 000, confirmed also in data tab. Values restored exactly from supplied source, not reconstructed as platform originals."
+}

@@ -9,23 +9,38 @@ def cell(v):
     if v is None:return {}
     if isinstance(v,(int,float)):return {'userEnteredValue':{'numberValue':v}}
     return {'userEnteredValue':{'formulaValue':v} if v.startswith('=') else {'stringValue':v}}
-main=[['HÀNG XUẤT BÁN NĂM 2024 — TỔNG HỢP THEO THÁNG'],
+vat=json.loads((ROOT/'scripts/data/monthly-vat-quarters-20261030/prepared.json').read_text(encoding='utf8'))
+vat_by_month={r['month']:r for r in vat['monthly_vat']}
+combined_headers=['Tháng','DT AMIS','VAT AMIS','DT hóa đơn (dự tính)','VAT hóa đơn (dự tính)','Chênh DT','Chênh VAT']
+main=[['HÀNG XUẤT BÁN NĂM 2024 — TỔNG HỢP THEO THÁNG VÀ QUÝ'],
 ['Đơn vị: đồng, doanh thu chưa VAT. Bán/trả theo ngày AMIS; HĐ cũ theo tháng hóa đơn gốc.'],
-['1. DOANH THU'],['Tháng','Sổ AMIS','Hóa đơn sau xử lý (dự tính)','Chênh HĐ − AMIS']]
+['1. DOANH THU VÀ VAT THEO THÁNG'],combined_headers]
 for r in d['monthly']:
     rn=len(main)+1
-    main.append([r['month'],r['rev_amis'],r['rev_invoice'],f'=C{rn}-B{rn}'])
+    v=vat_by_month[r['month']]
+    main.append([r['month'],r['rev_amis'],v['amis'],r['rev_invoice'],v['invoice'],f'=D{rn}-B{rn}',f'=E{rn}-C{rn}'])
 assert len(main)==16
-main.extend([['CẢ NĂM','=SUM(B5:B16)','=SUM(C5:C16)','=SUM(D5:D16)'],[],['2. GIÁ VỐN'],['Tháng','Sổ AMIS','Hóa đơn: phần đã có giá vốn','Còn cần bổ sung']])
+main.extend([['CẢ NĂM']+[f'=SUM({c}5:{c}16)' for c in 'BCDEFG'],[],['2. DOANH THU VÀ VAT THEO QUÝ'],['Quý']+combined_headers[1:]])
+for q in range(1,5):
+    a=5+(q-1)*3;b=a+2;rn=len(main)+1
+    main.append([f'Quý {q}']+[f'=SUM({c}{a}:{c}{b})' for c in 'BCDE']+[f'=D{rn}-B{rn}',f'=E{rn}-C{rn}'])
+main.extend([['CẢ NĂM']+[f'=SUM({c}21:{c}24)' for c in 'BCDEFG'],[],['3. GIÁ VỐN THEO THÁNG'],['Tháng','Sổ AMIS','Hóa đơn: phần đã có giá vốn','Còn cần bổ sung']])
 for r in d['monthly']:
     refs=[x['invoice'].split('/')[-1].lstrip('0') for x in d['cost_pending'] if x['month']==r['month']]
     main.append([r['month'],r['cost_amis'],r['cost_invoice_known'],'Giá vốn HĐ '+', '.join(refs) if refs else None])
-assert len(main)==32
-main.extend([['CẢ NĂM','=SUM(B21:B32)','=SUM(C21:C32)','Còn thiếu giá vốn HĐ 63 và 111.'],
+assert len(main)==40
+main.extend([['CẢ NĂM','=SUM(B29:B40)','=SUM(C29:C40)','Còn thiếu giá vốn HĐ 63 và 111.'],
 ['Giá vốn HĐ ở cột C chỉ là phần đã đối chiếu; chưa bao gồm hai hóa đơn đang thiếu nguồn.'],[],
+])
+main[42]=['4. GIÁ VỐN THEO QUÝ']
+main.append(['Quý','Sổ AMIS','Hóa đơn: phần đã có giá vốn','Còn cần bổ sung'])
+for q in range(1,5):
+    a=29+(q-1)*3;b=a+2
+    main.append([f'Quý {q}',f'=SUM(B{a}:B{b})',f'=SUM(C{a}:C{b})','Thiếu giá vốn HĐ 63 và 111' if q==1 else None])
+main.extend([['CẢ NĂM','=SUM(B45:B48)','=SUM(C45:C48)','Còn thiếu giá vốn HĐ 63 và 111'],[],[],
 ['CHI TIẾT MÃ HÀNG VÀ SỐ LƯỢNG — mở dấu + bên trái khi cần xem'],
 ['Tháng','Mã hàng','Tên hàng','ĐVT','SL AMIS','SL HĐ dự tính','Chênh SL','DT AMIS','DT HĐ dự tính','Chênh DT','GV AMIS','GV HĐ đã ghép','Chênh GV đã ghép','Tình trạng']])
-assert len(main)==37
+assert len(main)==53
 first_detail=len(main)+1
 heights=[]
 for r in d['stats']:
@@ -37,7 +52,7 @@ for r in d['stats']:
     main.append([r['month'],r['code'],r['name'],r['unit'],r['qty_amis'],r['qty_invoice'],f'=F{rn}-E{rn}',r['rev_amis'],r['rev_invoice'],f'=I{rn}-H{rn}',r['cost_amis'],None if missing and not r['cost_invoice'] else r['cost_invoice'],None if missing else f'=L{rn}-K{rn}',status])
     heights.append({'row':rn,'height':min(110,max(42,math.ceil(len(r['name'])/38)*13+10))})
 last_detail=len(main)
-main.append(['TỔNG TIỀN',None,None,None,None,None,None]+[f'=SUM({c}{first_detail}:{c}{last_detail})' for c in 'HIJKL']+[f'=IF(COUNTA($D$21:$D$32)>0;"";L{last_detail+1}-K{last_detail+1})','Không cộng chung số lượng khác ĐVT; GV còn thiếu ở HĐ 111/63.'])
+main.append(['TỔNG TIỀN',None,None,None,None,None,None]+[f'=SUM({c}{first_detail}:{c}{last_detail})' for c in 'HIJKL']+[f'=IF(COUNTA($D$29:$D$40)>0;"";L{last_detail+1}-K{last_detail+1})','Không cộng chung số lượng khác ĐVT; GV còn thiếu ở HĐ 111/63.'])
 assert len(main[-1])==14
 pending=[['HÀNG HÓA 2024 — NHỮNG VIỆC CẦN BỔ SUNG'],
 ['Đọc 5 việc chính dưới đây. Chi tiết từng dòng được thu gọn bên dưới.'],

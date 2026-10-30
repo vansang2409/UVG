@@ -1,0 +1,204 @@
+{
+  "passed": true,
+  "preserved_rows": 320,
+  "added_rows": 40,
+  "moved_value_differences": [],
+  "formula_errors": [],
+  "totals": {
+    "17": [
+      "CẢ NĂM",
+      49928171800,
+      49930540760,
+      2368960,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "33": [
+      "CẢ NĂM",
+      3994254050,
+      3994443568,
+      189518,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "41": [
+      "CẢ NĂM",
+      49928171800,
+      49930540760,
+      2368960,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "49": [
+      "CẢ NĂM",
+      3994254050,
+      3994443568,
+      189518,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "57": [
+      "CẢ NĂM",
+      24542992457,
+      24542992457,
+      "Còn thiếu giá vốn HĐ 63 và 111",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "73": [
+      "CẢ NĂM",
+      24542992457,
+      24542992457,
+      "Còn thiếu giá vốn HĐ 63 và 111.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "360": [
+      "TỔNG TIỀN",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      49928171800,
+      49930540760,
+      2368960,
+      24542992457,
+      24542992457,
+      null,
+      "Không cộng chung số lượng khác ĐVT; GV còn thiếu ở HĐ 111/63."
+    ]
+  },
+  "quarterTables": {
+    "revenue": [
+      [
+        "Quý 1",
+        8023466074,
+        8027505738,
+        4039664
+      ],
+      [
+        "Quý 2",
+        12362650365,
+        12355830847,
+        -6819518
+      ],
+      [
+        "Quý 3",
+        14563858048,
+        14551795659,
+        -12062389
+      ],
+      [
+        "Quý 4",
+        14978197313,
+        14995408516,
+        17211203
+      ]
+    ],
+    "vat": [
+      [
+        "Quý 1",
+        641877447,
+        642200618,
+        323171
+      ],
+      [
+        "Quý 2",
+        989012909,
+        988467346,
+        -545563
+      ],
+      [
+        "Quý 3",
+        1165108312,
+        1164143320,
+        -964992
+      ],
+      [
+        "Quý 4",
+        1198255382,
+        1199632284,
+        1376902
+      ]
+    ],
+    "cost": [
+      [
+        "Quý 1",
+        3716131032,
+        3716131032,
+        "Thiếu giá vốn HĐ 63 và 111"
+      ],
+      [
+        "Quý 2",
+        6259706158,
+        6256152062,
+        null
+      ],
+      [
+        "Quý 3",
+        7224798117,
+        7219814320,
+        null
+      ],
+      [
+        "Quý 4",
+        7342357150,
+        7350895043,
+        null
+      ]
+    ]
+  },
+  "detail_rows_preserved": 282,
+  "scope": "Existing month basis; forecast after new sales and returns",
+  "format_check": "API format and displayed values; no screenshot"
+}
