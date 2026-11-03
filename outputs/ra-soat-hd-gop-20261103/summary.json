@@ -1,0 +1,44 @@
+{
+  "checkedDate": "2026-11-03",
+  "readOnlyGoogleSheets": true,
+  "sourceSpreadsheet": "https://docs.google.com/spreadsheets/d/1bhOnhnBcHaHiy06-REAdVVEk160FG94a6XgkfH0AQsw/edit#gid=700000030",
+  "groupCount": 417,
+  "detailCount": 22022,
+  "groupSumErrors": 0,
+  "sourceMoneyRowsChecked": 22022,
+  "sourceMoneyChanges": 0,
+  "sourceKeyRowsChecked": 22022,
+  "sourceReferenceChanges": 89,
+  "known2026References": 89,
+  "currentBlankSignatureRows": 21933,
+  "affectedGroups": 89,
+  "groupsBecomingSingleDocument": 38,
+  "affectedGroupsStillMultiple": 51,
+  "groupsRemainingMultipleIfRemovingKnown2026References": 379,
+  "oldSelectedCandidateChainStatus": {
+    "verifiedZero": 314,
+    "adjustedOutsideVerifiedScope": 9,
+    "newInvoice": 94
+  },
+  "notes": [
+    "314 zero balances apply to the selected candidate invoices; group-to-invoice assignments are not proven by bare invoice number.",
+    "89 references have matching order, VAT and payment on the 2026 source export; 88 remain nonzero in the live chain and one is already correctly reduced to zero.",
+    "Do not treat a blank signature as zero payment or a bare invoice-number group as verified combined invoicing."
+  ],
+  "invoice31": {
+    "signature": "1C26MUV",
+    "invoice": "00000031",
+    "adjustment": "00058521",
+    "originalPayment": 679000,
+    "adjustmentPayment": -679000,
+    "liveChainPayment": 0,
+    "amisRow": 358,
+    "ktoanRow": 37108,
+    "alreadyUpdated": true
+  },
+  "sourceCrosschecks": {
+    "2026-source-verification.json": "89 invoice references verified against the source export",
+    "chain-crosscheck.json": "417 selected candidate keys checked against verified historical reconciliation",
+    "2026-31-money-confirmed.json": "Parent and adjustment checked in 29/10 source exports"
+  }
+}

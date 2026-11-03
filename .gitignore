@@ -88,3 +88,6 @@ node_modules/
 
 # Bản xem trước file chuỗi sau xử lý; giữ Excel và JSON kiểm chứng.
 /outputs/chuoi-sau-xu-ly-20261030/*.png
+
+# Sao lưu ô Google Sheets trước khi dựng lại báo cáo 03/11; chỉ giữ cục bộ.
+/outputs/ra-soat-hd-gop-20261103/before-cells-*.json

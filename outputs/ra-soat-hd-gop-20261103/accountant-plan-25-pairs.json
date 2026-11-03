@@ -1,0 +1,239 @@
+{
+  "date": "2026-11-03",
+  "sourceSpreadsheet": "https://docs.google.com/spreadsheets/d/1bhOnhnBcHaHiy06-REAdVVEk160FG94a6XgkfH0AQsw/edit#gid=700000031",
+  "sourceRange": "A7:N31",
+  "status": "accountant_reviewed_not_executed",
+  "userConfirmation": "Kế toán mới kiểm tra và note, chưa làm gì trên meInvoice.",
+  "interpretation": "Giữ HĐ 1; HĐ 2 được kế toán ghi 'bỏ HĐ'. Chưa tự chọn hình thức xử lý pháp lý, chưa tạo import, ký, phát hành hay sửa trạng thái hóa đơn.",
+  "invoiceSignature": "1C25MUV",
+  "invoiceDate": "2025-09-15",
+  "pairs": [
+    {
+      "row": 7,
+      "order": "580278484688209834",
+      "keep": "00012243",
+      "drop": "00012367",
+      "note": "bỏ HĐ 00012367",
+      "payment": 537999,
+      "evidence": ""
+    },
+    {
+      "row": 8,
+      "order": "580304571145225691",
+      "keep": "00012245",
+      "drop": "00012371",
+      "note": "bỏ HĐ 00012371",
+      "payment": 1082049,
+      "evidence": ""
+    },
+    {
+      "row": 9,
+      "order": "580306900429473715",
+      "keep": "00012247",
+      "drop": "00012373",
+      "note": "bỏ HĐ 00012373",
+      "payment": 645049,
+      "evidence": ""
+    },
+    {
+      "row": 10,
+      "order": "580317828578510840",
+      "keep": "00012251",
+      "drop": "00012380",
+      "note": "bỏ HĐ 00012380",
+      "payment": 645049,
+      "evidence": ""
+    },
+    {
+      "row": 11,
+      "order": "580319445980841272",
+      "keep": "00012254",
+      "drop": "00012383",
+      "note": "bỏ HĐ 00012383",
+      "payment": 511099,
+      "evidence": ""
+    },
+    {
+      "row": 12,
+      "order": "580320338485216432",
+      "keep": "00012255",
+      "drop": "00012384",
+      "note": "bỏ HĐ 00012384",
+      "payment": 645049,
+      "evidence": ""
+    },
+    {
+      "row": 13,
+      "order": "580332307070682772",
+      "keep": "00012273",
+      "drop": "00012404",
+      "note": "bỏ HĐ 00012404",
+      "payment": 645049,
+      "evidence": ""
+    },
+    {
+      "row": 14,
+      "order": "580333865327298472",
+      "keep": "00012279",
+      "drop": "00012411",
+      "note": "bỏ HĐ 00012411",
+      "payment": 548999,
+      "evidence": ""
+    },
+    {
+      "row": 15,
+      "order": "580337166475560648",
+      "keep": "00012287",
+      "drop": "00012421",
+      "note": "bỏ HĐ 00012421",
+      "payment": 549999,
+      "evidence": ""
+    },
+    {
+      "row": 16,
+      "order": "580341950882612598",
+      "keep": "00012292",
+      "drop": "00012432",
+      "note": "bỏ HĐ 00012432",
+      "payment": 679000,
+      "evidence": ""
+    },
+    {
+      "row": 17,
+      "order": "580342729849079421",
+      "keep": "00012294",
+      "drop": "00012434",
+      "note": "bỏ HĐ 00012434",
+      "payment": 679000,
+      "evidence": ""
+    },
+    {
+      "row": 18,
+      "order": "580344920964170820",
+      "keep": "00012299",
+      "drop": "00012442",
+      "note": "bỏ HĐ 00012442",
+      "payment": 2776999,
+      "evidence": ""
+    },
+    {
+      "row": 19,
+      "order": "580346781602579853",
+      "keep": "00012301",
+      "drop": "00012448",
+      "note": "bỏ HĐ 00012448",
+      "payment": 1837998,
+      "evidence": ""
+    },
+    {
+      "row": 20,
+      "order": "580348530619811644",
+      "keep": "00012302",
+      "drop": "00012450",
+      "note": "bỏ HĐ 00012450",
+      "payment": 178999,
+      "evidence": ""
+    },
+    {
+      "row": 21,
+      "order": "580348676620584196",
+      "keep": "00012303",
+      "drop": "00012451",
+      "note": "bỏ HĐ 00012451",
+      "payment": 1139000,
+      "evidence": ""
+    },
+    {
+      "row": 22,
+      "order": "580349433988416985",
+      "keep": "00012306",
+      "drop": "00012454",
+      "note": "bỏ HĐ 00012454",
+      "payment": 179000,
+      "evidence": ""
+    },
+    {
+      "row": 23,
+      "order": "580351845802935457",
+      "keep": "00012312",
+      "drop": "00012461",
+      "note": "bỏ HĐ 00012461",
+      "payment": 1378994,
+      "evidence": ""
+    },
+    {
+      "row": 24,
+      "order": "580352820992050871",
+      "keep": "00012313",
+      "drop": "00012464",
+      "note": "bỏ HĐ 00012464",
+      "payment": 2032046,
+      "evidence": ""
+    },
+    {
+      "row": 25,
+      "order": "580354130273208214",
+      "keep": "00012320",
+      "drop": "00012473",
+      "note": "bỏ HĐ 00012473",
+      "payment": 499000,
+      "evidence": ""
+    },
+    {
+      "row": 26,
+      "order": "580354350371407282",
+      "keep": "00012321",
+      "drop": "00012474",
+      "note": "bỏ HĐ 00012474",
+      "payment": 1837998,
+      "evidence": ""
+    },
+    {
+      "row": 27,
+      "order": "580355036448655355",
+      "keep": "00012322",
+      "drop": "00012477",
+      "note": "bỏ HĐ 00012477",
+      "payment": 1479000,
+      "evidence": ""
+    },
+    {
+      "row": 28,
+      "order": "580356238660634181",
+      "keep": "00012326",
+      "drop": "00012482",
+      "note": "bỏ HĐ 00012482",
+      "payment": 537999,
+      "evidence": ""
+    },
+    {
+      "row": 29,
+      "order": "580360830991370102",
+      "keep": "00012335",
+      "drop": "00012502",
+      "note": "bỏ HĐ 00012502",
+      "payment": 172555,
+      "evidence": ""
+    },
+    {
+      "row": 30,
+      "order": "580368831202297212",
+      "keep": "00012340",
+      "drop": "00012513",
+      "note": "bỏ HĐ 00012513",
+      "payment": 1379000,
+      "evidence": ""
+    },
+    {
+      "row": 31,
+      "order": "580371082795976656",
+      "keep": "00012344",
+      "drop": "00012521",
+      "note": "bỏ HĐ 00012521",
+      "payment": 679000,
+      "evidence": ""
+    }
+  ],
+  "totalPaymentOfSecondInvoices": 23275929,
+  "evidenceFilled": 0
+}

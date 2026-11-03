@@ -1,0 +1,26 @@
+[
+  {
+    "file": "data\\Meinv_SAU_PHAT_HANH_20261029\\DIEU_CHINH\\Bang_ke_hoa_don_dieu_chinh_xuat_theo_HD_bi_dieu_chinh_1793291608325_5.xls",
+    "row": 491,
+    "old": [
+      "1C26MUV",
+      "00000031",
+      "46024"
+    ],
+    "new": [
+      "1C26MUV",
+      "00058521",
+      "03/07/2026"
+    ],
+    "old_money": [
+      "628704",
+      "50296",
+      "679000"
+    ],
+    "new_money": [
+      "-628704",
+      "-50296",
+      "-679000"
+    ]
+  }
+]

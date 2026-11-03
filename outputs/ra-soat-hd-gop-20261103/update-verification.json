@@ -1,0 +1,34 @@
+{
+  "mainRows": 506,
+  "detailRows": 22022,
+  "sourcePayment": 30694466425,
+  "workingDetailLinks": 22022,
+  "unidentifiedDetails": 21933,
+  "uniqueCT": 22022,
+  "formulaErrors": 0,
+  "notesPreserved": true,
+  "labels": {
+    "Chênh theo chuỗi": 1,
+    "Chờ ký hiệu": 379,
+    "1 CT - chờ ký hiệu": 38,
+    "Khớp theo khóa": 88
+  },
+  "layout": {
+    "parentsStart": 7,
+    "parentsEnd": 512,
+    "detailTitle": 514,
+    "detailHeader": 516,
+    "detailStart": 517,
+    "detailEnd": 22538,
+    "newRowCount": 22548,
+    "counts": {
+      "issue": 1,
+      "pendingMulti": 379,
+      "pendingSingle": 38,
+      "matched": 88
+    },
+    "collapsedParentStart": 387
+  },
+  "sheetId": 700000030,
+  "sourceTabsWritten": false
+}

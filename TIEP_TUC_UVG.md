@@ -1,3 +1,13 @@
+# Đối soát 2025 và 25 cặp kế toán đã chốt phương án — 03/11/2026
+
+- Bàn giao chi tiết: [GHI_CHU_DOI_SOAT_HD_2025_20261103.md](GHI_CHU_DOI_SOAT_HD_2025_20261103.md).
+- Tab `25 cap nghi trung - KT check` (gid700000031) trong `HD 2025`: kế toán đã note đủ25cặp, giữHĐ1/bỏHĐ2, tổng thanh toán HĐ2 **23.275.929đ**. **Người dùng xác nhận mới kiểm tra/note, chưa xử lý trên meInvoice**; chưa có số HĐ xử lý. Không tự tạo import hay coi là đã hoàn tất phát hành.
+- Tab `HD gop nhieu chung tu` (gid700000030) đã phân lại theo ký hiệu+số: giữ22.022CT/tổng30.694.466.425đ; 89khóa HĐ thật (88khớp,1chênh chuỗi) và417nhóm tạm thiếu ký hiệu (379nhiềuCT/38mộtCT). **21.933CT chưa có ký hiệu**, không tự gán ứng viên cũ và không tính chênh khi thiếu khóa.
+- HĐ `1C26MUV/00000031` đã có điều chỉnh `00058521` giảm hết679.000đ; Ktoan và AMIS L358 đã lấy đúng0. Đã đọc lại đầy đủ506dòng chính/22.022dòng chi tiết, giữ số tiền/ghi chú, không lỗi công thức; bố cục kiểm quaAPI, chưa chụp được ảnh lượt cuối vì công cụ không phản hồi.
+- Căn cứ/kiểm chứng: `outputs/ra-soat-hd-gop-20261103/`; các bản sao lưu ô lớn giữ cục bộ và bỏ quaGit. Không sửa AMIS/Ktoan hoặc file nguồn; không nhập/ký/phát hành HĐ. Đọc mới bản live trước mọi lần ghi tiếp theo để giữ note kế toán.
+
+---
+
 # Kiểm tab báo cáo Google Sheets theo yêu cầu xem khớp chưa — 01/11/2026
 
 Đã đọc live tab `Ra soat chuoi 2024` (gid **700000010**) của `IMPORT MEINV 2024`, spreadsheet `1d4fLQRALDLXOFOQQlZuXMCTAg4lnRQ7NbKH-UPJN0XE`. Chỉ kiểm tra, **không sửa Google Sheets**. Đã kiểm A1:C13 cả công thức/giá trị và toàn bộ **778 gốc A15:P792**, đối chiếu bằng chứng đã kiểm ngày 30/10 và đợt bán mới/trả hàng/thay thế thực tế mới nhất. Tiền G/J/K/L, trạng thái N, các công thức tổng và số chênh đều khớp; 654 chuỗi điều chỉnh +6 thay thế cũ vẫn 0 theo bằng chứng đã kiểm, số cũ giữ 622.963.131đ.

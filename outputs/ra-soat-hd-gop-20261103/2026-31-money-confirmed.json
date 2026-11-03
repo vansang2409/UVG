@@ -1,0 +1,36 @@
+[
+  {
+    "file": "data\\Meinv_SAU_PHAT_HANH_20261029\\Bảng kê hóa đơn đã sử dụng\\Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+    "row": 4480,
+    "key": [
+      "1C26MUV",
+      "00000031"
+    ],
+    "date": "02/01/2026",
+    "money": [
+      "628704",
+      "50296",
+      "679000"
+    ],
+    "status": "Hóa đơn đã bị điều chỉnh",
+    "cqt_status": "HĐ hợp lệ",
+    "order": "251229MWJ0WUKR"
+  },
+  {
+    "file": "data\\Meinv_SAU_PHAT_HANH_20261029\\Bảng kê hóa đơn đã sử dụng\\Bang_ke_hoa_don_da_su_dung_1793291495460_23.xls",
+    "row": 1481,
+    "key": [
+      "1C26MUV",
+      "00058521"
+    ],
+    "date": "03/07/2026",
+    "money": [
+      "-628704",
+      "-50296",
+      "-679000"
+    ],
+    "status": "Hoá đơn điều chỉnh",
+    "cqt_status": "HĐ hợp lệ",
+    "order": "251229MWJ0WUKR"
+  }
+]
