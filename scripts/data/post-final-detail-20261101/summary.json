@@ -1,0 +1,547 @@
+{
+  "archive": {
+    "file": "C:\\Users\\thuong ngo\\Downloads\\Bang_ke_chi_tiet_hoa_don_da_su_dung_20261101_161720.zip",
+    "sha256": "b631adb9c7c4fdf419cfc3801d54dc27bae6370918c2f97aeb911619f90082ac"
+  },
+  "source_manifest": [
+    {
+      "file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/CHI_TIET/Bang_ke_chi_tiet_hoa_don_da_su_dung_20261101_161720.xls",
+      "sha256": "c9f1244fae37c5189888b578a68bbf4ffb196fbe3202b03799d354c620779375",
+      "bytes": 14766118
+    }
+  ],
+  "file_controls": [
+    {
+      "file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/CHI_TIET/Bang_ke_chi_tiet_hoa_don_da_su_dung_20261101_161720.xls",
+      "period": "Từ ngày 03/10/2026 đến ngày 01/11/2026",
+      "headers": [
+        "STT",
+        "Ký hiệu",
+        "Số hóa đơn",
+        "Ngày hóa đơn",
+        "Tên khách hàng",
+        "Địa chỉ",
+        "MST/CCCD chủ hộ",
+        "Người mua hàng",
+        "Căn cước công dân",
+        "Hình thức TT",
+        "Tính chất HHDV",
+        "Tên hàng",
+        "ĐVT",
+        "Số lượng",
+        "Đơn giá",
+        "Thành tiền",
+        "Thuế suất (%)",
+        "Tiền thuế GTGT",
+        "Tổng tiền TT",
+        "Trạng thái gửi CQT",
+        "Mã nhóm HHDV",
+        "Tên nhóm HHDV",
+        "Hàng KM",
+        "Trạng thái HĐ",
+        "Trạng thái phát hành",
+        "Thời gian phát hành"
+      ],
+      "lines": 115248,
+      "footer_known_sums": [
+        -24234521159,
+        -1939187738,
+        -26173708897
+      ]
+    }
+  ],
+  "all_detail_invoices": 59409,
+  "all_detail_lines": 115248,
+  "target_summary_invoices": 39175,
+  "missing_target_invoices": [],
+  "outside_summary_invoices": 20234,
+  "all_prior_37012_invoice_product_lines_unchanged": true,
+  "header_money_differences": [],
+  "adjustments": {
+    "invoices": 163,
+    "lines": 219,
+    "checks_passed": 163,
+    "money": [
+      -225865926,
+      -18069275,
+      -243935201
+    ],
+    "latest_cqt_statuses": {
+      "HĐ hợp lệ": 163
+    },
+    "status_updates": [
+      {
+        "invoice": "1C26MUV/00150113",
+        "earlier_summary": "Đã gửi CQT",
+        "latest_detail": [
+          "HĐ hợp lệ"
+        ]
+      },
+      {
+        "invoice": "1C26MUV/00150114",
+        "earlier_summary": "Đã gửi CQT",
+        "latest_detail": [
+          "HĐ hợp lệ"
+        ]
+      },
+      {
+        "invoice": "1C26MUV/00150115",
+        "earlier_summary": "Đã gửi CQT",
+        "latest_detail": [
+          "HĐ hợp lệ"
+        ]
+      },
+      {
+        "invoice": "1C26MUV/00150116",
+        "earlier_summary": "Đã gửi CQT",
+        "latest_detail": [
+          "HĐ hợp lệ"
+        ]
+      },
+      {
+        "invoice": "1C26MUV/00150117",
+        "earlier_summary": "Đã gửi CQT",
+        "latest_detail": [
+          "HĐ hợp lệ"
+        ]
+      },
+      {
+        "invoice": "1C26MUV/00150118",
+        "earlier_summary": "Đã gửi CQT",
+        "latest_detail": [
+          "HĐ hợp lệ"
+        ]
+      },
+      {
+        "invoice": "1C26MUV/00150119",
+        "earlier_summary": "Đã gửi CQT",
+        "latest_detail": [
+          "HĐ hợp lệ"
+        ]
+      },
+      {
+        "invoice": "1C26MUV/00150120",
+        "earlier_summary": "Đã gửi CQT",
+        "latest_detail": [
+          "HĐ hợp lệ"
+        ]
+      },
+      {
+        "invoice": "1C26MUV/00150121",
+        "earlier_summary": "Đã gửi CQT",
+        "latest_detail": [
+          "HĐ hợp lệ"
+        ]
+      },
+      {
+        "invoice": "1C26MUV/00150122",
+        "earlier_summary": "Đã gửi CQT",
+        "latest_detail": [
+          "HĐ hợp lệ"
+        ]
+      },
+      {
+        "invoice": "1C26MUV/00150123",
+        "earlier_summary": "Đã gửi CQT",
+        "latest_detail": [
+          "HĐ hợp lệ"
+        ]
+      },
+      {
+        "invoice": "1C26MUV/00150124",
+        "earlier_summary": "Đã gửi CQT",
+        "latest_detail": [
+          "HĐ hợp lệ"
+        ]
+      },
+      {
+        "invoice": "1C26MUV/00150125",
+        "earlier_summary": "Đã gửi CQT",
+        "latest_detail": [
+          "HĐ hợp lệ"
+        ]
+      },
+      {
+        "invoice": "1C26MUV/00150126",
+        "earlier_summary": "Đã gửi CQT",
+        "latest_detail": [
+          "HĐ hợp lệ"
+        ]
+      },
+      {
+        "invoice": "1C26MUV/00150127",
+        "earlier_summary": "Đã gửi CQT",
+        "latest_detail": [
+          "HĐ hợp lệ"
+        ]
+      },
+      {
+        "invoice": "1C26MUV/00150128",
+        "earlier_summary": "Đã gửi CQT",
+        "latest_detail": [
+          "HĐ hợp lệ"
+        ]
+      },
+      {
+        "invoice": "1C26MUV/00150129",
+        "earlier_summary": "Đã gửi CQT",
+        "latest_detail": [
+          "HĐ hợp lệ"
+        ]
+      },
+      {
+        "invoice": "1C26MUV/00150130",
+        "earlier_summary": "Đã gửi CQT",
+        "latest_detail": [
+          "HĐ hợp lệ"
+        ]
+      },
+      {
+        "invoice": "1C26MUV/00150131",
+        "earlier_summary": "Đã gửi CQT",
+        "latest_detail": [
+          "HĐ hợp lệ"
+        ]
+      },
+      {
+        "invoice": "1C26MUV/00150132",
+        "earlier_summary": "Đã gửi CQT",
+        "latest_detail": [
+          "HĐ hợp lệ"
+        ]
+      },
+      {
+        "invoice": "1C26MUV/00150133",
+        "earlier_summary": "Đã gửi CQT",
+        "latest_detail": [
+          "HĐ hợp lệ"
+        ]
+      },
+      {
+        "invoice": "1C26MUV/00150134",
+        "earlier_summary": "Đã gửi CQT",
+        "latest_detail": [
+          "HĐ hợp lệ"
+        ]
+      },
+      {
+        "invoice": "1C26MUV/00150135",
+        "earlier_summary": "Đã gửi CQT",
+        "latest_detail": [
+          "HĐ hợp lệ"
+        ]
+      },
+      {
+        "invoice": "1C26MUV/00150136",
+        "earlier_summary": "Đã gửi CQT",
+        "latest_detail": [
+          "HĐ hợp lệ"
+        ]
+      },
+      {
+        "invoice": "1C26MUV/00150137",
+        "earlier_summary": "Đã gửi CQT",
+        "latest_detail": [
+          "HĐ hợp lệ"
+        ]
+      },
+      {
+        "invoice": "1C26MUV/00150138",
+        "earlier_summary": "Đã gửi CQT",
+        "latest_detail": [
+          "HĐ hợp lệ"
+        ]
+      },
+      {
+        "invoice": "1C26MUV/00150139",
+        "earlier_summary": "Đã gửi CQT",
+        "latest_detail": [
+          "HĐ hợp lệ"
+        ]
+      },
+      {
+        "invoice": "1C26MUV/00150140",
+        "earlier_summary": "Đã gửi CQT",
+        "latest_detail": [
+          "HĐ hợp lệ"
+        ]
+      },
+      {
+        "invoice": "1C26MUV/00150141",
+        "earlier_summary": "Đã gửi CQT",
+        "latest_detail": [
+          "HĐ hợp lệ"
+        ]
+      },
+      {
+        "invoice": "1C26MUV/00150142",
+        "earlier_summary": "Đã gửi CQT",
+        "latest_detail": [
+          "HĐ hợp lệ"
+        ]
+      },
+      {
+        "invoice": "1C26MUV/00150143",
+        "earlier_summary": "Đã gửi CQT",
+        "latest_detail": [
+          "HĐ hợp lệ"
+        ]
+      },
+      {
+        "invoice": "1C26MUV/00150144",
+        "earlier_summary": "Đã gửi CQT",
+        "latest_detail": [
+          "HĐ hợp lệ"
+        ]
+      },
+      {
+        "invoice": "1C26MUV/00150145",
+        "earlier_summary": "Đã gửi CQT",
+        "latest_detail": [
+          "HĐ hợp lệ"
+        ]
+      },
+      {
+        "invoice": "1C26MUV/00150146",
+        "earlier_summary": "Đã gửi CQT",
+        "latest_detail": [
+          "HĐ hợp lệ"
+        ]
+      },
+      {
+        "invoice": "1C26MUV/00150147",
+        "earlier_summary": "Đã gửi CQT",
+        "latest_detail": [
+          "HĐ hợp lệ"
+        ]
+      },
+      {
+        "invoice": "1C26MUV/00150148",
+        "earlier_summary": "Đã gửi CQT",
+        "latest_detail": [
+          "HĐ hợp lệ"
+        ]
+      },
+      {
+        "invoice": "1C26MUV/00150149",
+        "earlier_summary": "Đã gửi CQT",
+        "latest_detail": [
+          "HĐ hợp lệ"
+        ]
+      },
+      {
+        "invoice": "1C26MUV/00150150",
+        "earlier_summary": "Đã gửi CQT",
+        "latest_detail": [
+          "HĐ hợp lệ"
+        ]
+      },
+      {
+        "invoice": "1C26MUV/00150151",
+        "earlier_summary": "Đã gửi CQT",
+        "latest_detail": [
+          "HĐ hợp lệ"
+        ]
+      },
+      {
+        "invoice": "1C26MUV/00150152",
+        "earlier_summary": "Đã gửi CQT",
+        "latest_detail": [
+          "HĐ hợp lệ"
+        ]
+      },
+      {
+        "invoice": "1C26MUV/00150153",
+        "earlier_summary": "Đã gửi CQT",
+        "latest_detail": [
+          "HĐ hợp lệ"
+        ]
+      },
+      {
+        "invoice": "1C26MUV/00150154",
+        "earlier_summary": "Đã gửi CQT",
+        "latest_detail": [
+          "HĐ hợp lệ"
+        ]
+      },
+      {
+        "invoice": "1C26MUV/00150155",
+        "earlier_summary": "Đã gửi CQT",
+        "latest_detail": [
+          "HĐ hợp lệ"
+        ]
+      },
+      {
+        "invoice": "1C26MUV/00150156",
+        "earlier_summary": "Đã gửi CQT",
+        "latest_detail": [
+          "HĐ hợp lệ"
+        ]
+      },
+      {
+        "invoice": "1C26MUV/00150157",
+        "earlier_summary": "Đã gửi CQT",
+        "latest_detail": [
+          "HĐ hợp lệ"
+        ]
+      },
+      {
+        "invoice": "1C26MUV/00150158",
+        "earlier_summary": "Đã gửi CQT",
+        "latest_detail": [
+          "HĐ hợp lệ"
+        ]
+      },
+      {
+        "invoice": "1C26MUV/00150159",
+        "earlier_summary": "Đã gửi CQT",
+        "latest_detail": [
+          "HĐ hợp lệ"
+        ]
+      },
+      {
+        "invoice": "1C26MUV/00150160",
+        "earlier_summary": "Đã gửi CQT",
+        "latest_detail": [
+          "HĐ hợp lệ"
+        ]
+      },
+      {
+        "invoice": "1C26MUV/00150161",
+        "earlier_summary": "Đã gửi CQT",
+        "latest_detail": [
+          "HĐ hợp lệ"
+        ]
+      },
+      {
+        "invoice": "1C26MUV/00150162",
+        "earlier_summary": "Đã gửi CQT",
+        "latest_detail": [
+          "HĐ hợp lệ"
+        ]
+      },
+      {
+        "invoice": "1C26MUV/00150163",
+        "earlier_summary": "Đã gửi CQT",
+        "latest_detail": [
+          "HĐ hợp lệ"
+        ]
+      },
+      {
+        "invoice": "1C26MUV/00150164",
+        "earlier_summary": "Đã gửi CQT",
+        "latest_detail": [
+          "HĐ hợp lệ"
+        ]
+      },
+      {
+        "invoice": "1C26MUV/00150165",
+        "earlier_summary": "Đã gửi CQT",
+        "latest_detail": [
+          "HĐ hợp lệ"
+        ]
+      },
+      {
+        "invoice": "1C26MUV/00150166",
+        "earlier_summary": "Đã gửi CQT",
+        "latest_detail": [
+          "HĐ hợp lệ"
+        ]
+      },
+      {
+        "invoice": "1C26MUV/00150167",
+        "earlier_summary": "Đã gửi CQT",
+        "latest_detail": [
+          "HĐ hợp lệ"
+        ]
+      },
+      {
+        "invoice": "1C26MUV/00150168",
+        "earlier_summary": "Đã gửi CQT",
+        "latest_detail": [
+          "HĐ hợp lệ"
+        ]
+      },
+      {
+        "invoice": "1C26MUV/00150169",
+        "earlier_summary": "Đã gửi CQT",
+        "latest_detail": [
+          "HĐ hợp lệ"
+        ]
+      },
+      {
+        "invoice": "1C26MUV/00150170",
+        "earlier_summary": "Đã gửi CQT",
+        "latest_detail": [
+          "HĐ hợp lệ"
+        ]
+      },
+      {
+        "invoice": "1C26MUV/00150171",
+        "earlier_summary": "Đã gửi CQT",
+        "latest_detail": [
+          "HĐ hợp lệ"
+        ]
+      },
+      {
+        "invoice": "1C26MUV/00150172",
+        "earlier_summary": "Đã gửi CQT",
+        "latest_detail": [
+          "HĐ hợp lệ"
+        ]
+      },
+      {
+        "invoice": "1C26MUV/00150173",
+        "earlier_summary": "Đã gửi CQT",
+        "latest_detail": [
+          "HĐ hợp lệ"
+        ]
+      },
+      {
+        "invoice": "1C26MUV/00150174",
+        "earlier_summary": "Đã gửi CQT",
+        "latest_detail": [
+          "HĐ hợp lệ"
+        ]
+      },
+      {
+        "invoice": "1C26MUV/00150175",
+        "earlier_summary": "Đã gửi CQT",
+        "latest_detail": [
+          "HĐ hợp lệ"
+        ]
+      }
+    ],
+    "sku_exported": false,
+    "exact_product_invoices": 157,
+    "price_rounding_invoices": 6,
+    "price_rounding_lines": 7
+  },
+  "replacements": {
+    "invoices": 2000,
+    "lines": 2000,
+    "checks_passed": 2000,
+    "latest_cqt_statuses": {
+      "HĐ hợp lệ": 2000
+    },
+    "notes": 2000,
+    "payment_blank_in_detail": 2000,
+    "rate_values": {
+      "": 2000
+    },
+    "computed_payment_from_summary_goods_plus_vat": 0
+  },
+  "base_sales_money": [
+    49533443555,
+    3962675787,
+    53496119342
+  ],
+  "net_new_sales_goods": 49307577629,
+  "net_new_sales_vat": 3944606512,
+  "net_new_sales_payment_calculated": 53252184141,
+  "payment_basis": "Payment is calculated from verified goods and VAT; source payment cells for note-only replacements remain blank, not overwritten as numeric zero.",
+  "scope": "Bộ bán mới 2024 sau trả hàng, không cộng 273 HĐ ngoài bộ hoặc các HĐ lịch sử giữ riêng.",
+  "issues": [],
+  "sku_limit": "Bảng kê không có cột Mã hàng hóa/dịch vụ. Mã nhóm HHDV không phải SKU.",
+  "rate_limit": "Dòng ghi chú của 2.000 HĐ thay thế không xuất thuế suất; không xác minh được 8% từ bảng chi tiết."
+}

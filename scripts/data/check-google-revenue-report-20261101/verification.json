@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "read_only": true,
+  "tab": "Ra soat chuoi 2024",
+  "sheet_id": 700000010,
+  "historical_roots_checked": 778,
+  "historical_status_counts": {
+    "Giữ lại, đã kiểm": 117,
+    "Đã phát hành, về 0": 654,
+    "Đã hủy, không cộng DT": 1,
+    "Đã thay thế, về 0": 6
+  },
+  "old_retained_goods": 622963131,
+  "new_sales_goods_after_returns": 49307577629,
+  "combined_report_goods": 49930540760,
+  "amis_goods": 49928171800,
+  "gap": 2368960,
+  "gap_components": {
+    "invoice_111_different_year": 3888889,
+    "sixteen_groups": -1519929
+  },
+  "money_matches_verified_issued_scope": true,
+  "not_fully_matched_to_amis": true,
+  "outdated_text": [
+    "A1:A2 update date / evidence cutoff",
+    "A8:C10 still forecast / not yet checked"
+  ],
+  "google_sheet_edited": false
+}

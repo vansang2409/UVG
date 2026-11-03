@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "target": "C:\\Users\\thuong ngo\\Downloads\\CHECK HOA DON XUAT MOI 2024 31.10.2026\\IMPORT_DIEU_CHINH_163_PHIEU_TRA_HANG_2024_MOI_NHAT.xlsx",
+  "filled_cells": 56,
+  "column": "K",
+  "multiline_invoices": 43,
+  "invoices": 163,
+  "rows_with_adjusted_invoice_number": 219,
+  "numbers_preserved_as_eight_digit_text": true,
+  "all_other_values_styles_preserved": true,
+  "filter_freeze_merges_preserved": true,
+  "native_filter_restored": true,
+  "money": [
+    -225865926,
+    -18069275,
+    -243935201
+  ],
+  "sha256": "e17738f3bd55b77b75986837ba5dd7fc506ecd4c465f4484ae5c3f5bc8c6bb46"
+}

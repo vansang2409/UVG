@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "independent_reader": "openpyxl",
+  "detail_invoices": 59409,
+  "detail_lines": 115248,
+  "adjustments": 163,
+  "adjustment_lines": 219,
+  "adjustments_cqt_valid": 163,
+  "replacements_cqt_valid": 2000,
+  "correct_note_lines": 2000,
+  "exact_product_invoices": 157,
+  "rounded_unit_price_invoices": [
+    "1C26MUV/00150024",
+    "1C26MUV/00150063",
+    "1C26MUV/00150070",
+    "1C26MUV/00150087",
+    "1C26MUV/00150098",
+    "1C26MUV/00150162"
+  ],
+  "rounded_unit_price_lines": 7,
+  "source_payment_blanks_preserved": 2000,
+  "net_goods": 49307577629,
+  "net_vat": 3944606512,
+  "payment_calculated_not_raw": 53252184141,
+  "sku_not_exported": true,
+  "note_rate_not_exported": true,
+  "unrelated_report_values_preserved": true,
+  "tables_and_freeze_panes_preserved": true,
+  "report_changed_cells": {
+    "Dieu chinh 163": 452,
+    "Thay the 2000": 6000
+  },
+  "sha256": "6ade8bd916da60f5c6f5793e00c5bdc2a2880b432fb26bd4ff5fcb7d7e8c8f82"
+}

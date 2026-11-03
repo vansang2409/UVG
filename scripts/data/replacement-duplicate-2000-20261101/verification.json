@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "independent_source_reader": "openpyxl",
+  "invoices": 2000,
+  "lines": 2000,
+  "first_reference": "1C26MUV/00133274",
+  "last_reference": "1C26MUV/00135273",
+  "reference_date": "2026-11-01",
+  "reference_cqt_codes_checked": 2000,
+  "retained_batch_excluded": true,
+  "new_dates_blank": false,
+  "new_date": "2026-11-01",
+  "one_note_line_per_invoice": true,
+  "reason_matches_description": true,
+  "note_flag_all_one": true,
+  "buyer_and_reference_data_preserved": true,
+  "all_quantity_price_goods_vat_zero": true,
+  "vat_rate_numeric": 8,
+  "original_template_columns_exact": 22,
+  "total_columns": 24,
+  "no_example_rows_or_formulas": true,
+  "sources_unchanged": true,
+  "before": [
+    2883691447,
+    230695306,
+    3114386753
+  ],
+  "replacement_totals": [
+    0,
+    0,
+    0
+  ],
+  "sha256": "8482badc9e8a5a9c9c7c430f46edbc952f99e9f06c471a9c5cd8dd0d241808ec",
+  "not_imported_or_issued": true
+}

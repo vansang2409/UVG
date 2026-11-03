@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "independent_reader": "openpyxl",
+  "source_spreadsheet_id": "1d4fLQRALDLXOFOQQlZuXMCTAg4lnRQ7NbKH-UPJN0XE",
+  "source_sheet": "Import dieu chinh",
+  "source_range": "A1:Z228",
+  "exported_sheets": 1,
+  "invoices": 163,
+  "lines": 219,
+  "columns": 26,
+  "checked_source_cells": 5928,
+  "header_row": 9,
+  "adjustment_date": "2026-11-01",
+  "original_invoice_references": 163,
+  "reasons_verified": 219,
+  "cached_order_lookups_exported_as_exact_text": true,
+  "no_formulas_or_extra_data": true,
+  "goods": -225865926,
+  "vat": -18069275,
+  "payment": -243935201,
+  "source_snapshot_sha256": "6c800bdd4580653a3f3b886322725bde679be639a543af38d70a79ce50be4670",
+  "sha256": "8334bd62a397f012adc75c44bc2c6fcd8b359e32dd80df23b6aff5a321dff5de"
+}

@@ -1,0 +1,2396 @@
+[
+  {
+    "doc": "BHHT2024014868",
+    "order": "579342047978097046",
+    "sequence": 99,
+    "old": "1C26MUV/00147958",
+    "new": "1C26MUV/00150113",
+    "new_date": "2026-11-01",
+    "expected": [
+      -1702778,
+      -136222,
+      -1839000
+    ],
+    "actual": [
+      -1702778,
+      -136222,
+      -1839000
+    ],
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "parent_status": "Hoá đơn mới",
+    "cqt_status": "Đã gửi CQT",
+    "cqt": "M1-26-XXNAS-00003154154",
+    "reason": "Điều chỉnh cho hóa đơn số 00147958, ký hiệu 1C26MUV, ngày 01/11/2026 do trả lại hàng của mã đơn hàng 579342047978097046",
+    "checks": {
+      "money": true,
+      "order": true,
+      "date": true,
+      "parent_date": true,
+      "parent_cqt": true,
+      "reason": true,
+      "kind": true
+    },
+    "source_file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Bang_ke_hoa_don_da_su_dung_1793524594152_2.xls",
+    "source_row": 29445
+  },
+  {
+    "doc": "BHHS2024004695",
+    "order": "2408257U173D7W",
+    "sequence": 100,
+    "old": "1C26MUV/00147937",
+    "new": "1C26MUV/00150114",
+    "new_date": "2026-11-01",
+    "expected": [
+      -2573148,
+      -205852,
+      -2779000
+    ],
+    "actual": [
+      -2573148,
+      -205852,
+      -2779000
+    ],
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "parent_status": "Hoá đơn mới",
+    "cqt_status": "Đã gửi CQT",
+    "cqt": "M1-26-XXNAS-00003154155",
+    "reason": "Điều chỉnh cho hóa đơn số 00147937, ký hiệu 1C26MUV, ngày 01/11/2026 do trả lại hàng của mã đơn hàng 2408257U173D7W",
+    "checks": {
+      "money": true,
+      "order": true,
+      "date": true,
+      "parent_date": true,
+      "parent_cqt": true,
+      "reason": true,
+      "kind": true
+    },
+    "source_file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Bang_ke_hoa_don_da_su_dung_1793524594152_2.xls",
+    "source_row": 29446
+  },
+  {
+    "doc": "BHHT2024012208",
+    "order": "579242626379451361",
+    "sequence": 101,
+    "old": "1C26MUV/00147940",
+    "new": "1C26MUV/00150115",
+    "new_date": "2026-11-01",
+    "expected": [
+      -1739815,
+      -139185,
+      -1879000
+    ],
+    "actual": [
+      -1739815,
+      -139185,
+      -1879000
+    ],
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "parent_status": "Hoá đơn mới",
+    "cqt_status": "Đã gửi CQT",
+    "cqt": "M1-26-XXNAS-00003154156",
+    "reason": "Điều chỉnh cho hóa đơn số 00147940, ký hiệu 1C26MUV, ngày 01/11/2026 do trả lại hàng của mã đơn hàng 579242626379451361",
+    "checks": {
+      "money": true,
+      "order": true,
+      "date": true,
+      "parent_date": true,
+      "parent_cqt": true,
+      "reason": true,
+      "kind": true
+    },
+    "source_file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Bang_ke_hoa_don_da_su_dung_1793524594152_2.xls",
+    "source_row": 29447
+  },
+  {
+    "doc": "BHHT2024019620",
+    "order": "579394316955847395",
+    "sequence": 102,
+    "old": "1C26MUV/00147959",
+    "new": "1C26MUV/00150116",
+    "new_date": "2026-11-01",
+    "expected": [
+      -952417,
+      -76193,
+      -1028610
+    ],
+    "actual": [
+      -952417,
+      -76193,
+      -1028610
+    ],
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "parent_status": "Hoá đơn mới",
+    "cqt_status": "Đã gửi CQT",
+    "cqt": "M1-26-XXNAS-00003154157",
+    "reason": "Điều chỉnh cho hóa đơn số 00147959, ký hiệu 1C26MUV, ngày 01/11/2026 do trả lại hàng của mã đơn hàng 579394316955847395",
+    "checks": {
+      "money": true,
+      "order": true,
+      "date": true,
+      "parent_date": true,
+      "parent_cqt": true,
+      "reason": true,
+      "kind": true
+    },
+    "source_file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Bang_ke_hoa_don_da_su_dung_1793524594152_2.xls",
+    "source_row": 29448
+  },
+  {
+    "doc": "BHHS2024005508",
+    "order": "2409163EETM402",
+    "sequence": 103,
+    "old": "1C26MUV/00147952",
+    "new": "1C26MUV/00150117",
+    "new_date": "2026-11-01",
+    "expected": [
+      -925000,
+      -74000,
+      -999000
+    ],
+    "actual": [
+      -925000,
+      -74000,
+      -999000
+    ],
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "parent_status": "Hoá đơn mới",
+    "cqt_status": "Đã gửi CQT",
+    "cqt": "M1-26-XXNAS-00003154158",
+    "reason": "Điều chỉnh cho hóa đơn số 00147952, ký hiệu 1C26MUV, ngày 01/11/2026 do trả lại hàng của mã đơn hàng 2409163EETM402",
+    "checks": {
+      "money": true,
+      "order": true,
+      "date": true,
+      "parent_date": true,
+      "parent_cqt": true,
+      "reason": true,
+      "kind": true
+    },
+    "source_file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Bang_ke_hoa_don_da_su_dung_1793524594152_2.xls",
+    "source_row": 29449
+  },
+  {
+    "doc": "BHHS2024005689",
+    "order": "240921J5YG9RGG",
+    "sequence": 104,
+    "old": "1C26MUV/00147955",
+    "new": "1C26MUV/00150118",
+    "new_date": "2026-11-01",
+    "expected": [
+      -165741,
+      -13259,
+      -179000
+    ],
+    "actual": [
+      -165741,
+      -13259,
+      -179000
+    ],
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "parent_status": "Hoá đơn mới",
+    "cqt_status": "Đã gửi CQT",
+    "cqt": "M1-26-XXNAS-00003154159",
+    "reason": "Điều chỉnh cho hóa đơn số 00147955, ký hiệu 1C26MUV, ngày 01/11/2026 do trả lại hàng của mã đơn hàng 240921J5YG9RGG",
+    "checks": {
+      "money": true,
+      "order": true,
+      "date": true,
+      "parent_date": true,
+      "parent_cqt": true,
+      "reason": true,
+      "kind": true
+    },
+    "source_file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Bang_ke_hoa_don_da_su_dung_1793524594152_2.xls",
+    "source_row": 29450
+  },
+  {
+    "doc": "BHHT2024019621",
+    "order": "579393511958480976",
+    "sequence": 105,
+    "old": "1C26MUV/00147960",
+    "new": "1C26MUV/00150119",
+    "new_date": "2026-11-01",
+    "expected": [
+      -1702778,
+      -136222,
+      -1839000
+    ],
+    "actual": [
+      -1702778,
+      -136222,
+      -1839000
+    ],
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "parent_status": "Hoá đơn mới",
+    "cqt_status": "Đã gửi CQT",
+    "cqt": "M1-26-XXNAS-00003154160",
+    "reason": "Điều chỉnh cho hóa đơn số 00147960, ký hiệu 1C26MUV, ngày 01/11/2026 do trả lại hàng của mã đơn hàng 579393511958480976",
+    "checks": {
+      "money": true,
+      "order": true,
+      "date": true,
+      "parent_date": true,
+      "parent_cqt": true,
+      "reason": true,
+      "kind": true
+    },
+    "source_file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Bang_ke_hoa_don_da_su_dung_1793524594152_2.xls",
+    "source_row": 29451
+  },
+  {
+    "doc": "BHHT2024015528",
+    "order": "579343383734815459",
+    "sequence": 106,
+    "old": "1C26MUV/00147954",
+    "new": "1C26MUV/00150120",
+    "new_date": "2026-11-01",
+    "expected": [
+      -401852,
+      -32148,
+      -434000
+    ],
+    "actual": [
+      -401852,
+      -32148,
+      -434000
+    ],
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "parent_status": "Hoá đơn mới",
+    "cqt_status": "Đã gửi CQT",
+    "cqt": "M1-26-XXNAS-00003154161",
+    "reason": "Điều chỉnh cho hóa đơn số 00147954, ký hiệu 1C26MUV, ngày 01/11/2026 do trả lại hàng của mã đơn hàng 579343383734815459",
+    "checks": {
+      "money": true,
+      "order": true,
+      "date": true,
+      "parent_date": true,
+      "parent_cqt": true,
+      "reason": true,
+      "kind": true
+    },
+    "source_file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Bang_ke_hoa_don_da_su_dung_1793524594152_2.xls",
+    "source_row": 29452
+  },
+  {
+    "doc": "BHHT2024019209",
+    "order": "579432700482128359",
+    "sequence": 107,
+    "old": "1C26MUV/00147964",
+    "new": "1C26MUV/00150121",
+    "new_date": "2026-11-01",
+    "expected": [
+      -2573148,
+      -205852,
+      -2779000
+    ],
+    "actual": [
+      -2573148,
+      -205852,
+      -2779000
+    ],
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "parent_status": "Hoá đơn mới",
+    "cqt_status": "Đã gửi CQT",
+    "cqt": "M1-26-XXNAS-00003154162",
+    "reason": "Điều chỉnh cho hóa đơn số 00147964, ký hiệu 1C26MUV, ngày 01/11/2026 do trả lại hàng của mã đơn hàng 579432700482128359",
+    "checks": {
+      "money": true,
+      "order": true,
+      "date": true,
+      "parent_date": true,
+      "parent_cqt": true,
+      "reason": true,
+      "kind": true
+    },
+    "source_file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Bang_ke_hoa_don_da_su_dung_1793524594152_2.xls",
+    "source_row": 29453
+  },
+  {
+    "doc": "BHHT2024019120",
+    "order": "579444836591372303",
+    "sequence": 108,
+    "old": "1C26MUV/00147965",
+    "new": "1C26MUV/00150122",
+    "new_date": "2026-11-01",
+    "expected": [
+      -962037,
+      -76963,
+      -1039000
+    ],
+    "actual": [
+      -962037,
+      -76963,
+      -1039000
+    ],
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "parent_status": "Hoá đơn mới",
+    "cqt_status": "Đã gửi CQT",
+    "cqt": "M1-26-XXNAS-00003154163",
+    "reason": "Điều chỉnh cho hóa đơn số 00147965, ký hiệu 1C26MUV, ngày 01/11/2026 do trả lại hàng của mã đơn hàng 579444836591372303",
+    "checks": {
+      "money": true,
+      "order": true,
+      "date": true,
+      "parent_date": true,
+      "parent_cqt": true,
+      "reason": true,
+      "kind": true
+    },
+    "source_file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Bang_ke_hoa_don_da_su_dung_1793524594152_2.xls",
+    "source_row": 29454
+  },
+  {
+    "doc": "BHHT2024018878",
+    "order": "579439417246124936",
+    "sequence": 109,
+    "old": "1C26MUV/00147968",
+    "new": "1C26MUV/00150123",
+    "new_date": "2026-11-01",
+    "expected": [
+      -962037,
+      -76963,
+      -1039000
+    ],
+    "actual": [
+      -962037,
+      -76963,
+      -1039000
+    ],
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "parent_status": "Hoá đơn mới",
+    "cqt_status": "Đã gửi CQT",
+    "cqt": "M1-26-XXNAS-00003154164",
+    "reason": "Điều chỉnh cho hóa đơn số 00147968, ký hiệu 1C26MUV, ngày 01/11/2026 do trả lại hàng của mã đơn hàng 579439417246124936",
+    "checks": {
+      "money": true,
+      "order": true,
+      "date": true,
+      "parent_date": true,
+      "parent_cqt": true,
+      "reason": true,
+      "kind": true
+    },
+    "source_file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Bang_ke_hoa_don_da_su_dung_1793524594152_2.xls",
+    "source_row": 29455
+  },
+  {
+    "doc": "BHHT2024018930",
+    "order": "579455688593279718",
+    "sequence": 110,
+    "old": "1C26MUV/00147969",
+    "new": "1C26MUV/00150124",
+    "new_date": "2026-11-01",
+    "expected": [
+      -1702778,
+      -136222,
+      -1839000
+    ],
+    "actual": [
+      -1702778,
+      -136222,
+      -1839000
+    ],
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "parent_status": "Hoá đơn mới",
+    "cqt_status": "Đã gửi CQT",
+    "cqt": "M1-26-XXNAS-00003154165",
+    "reason": "Điều chỉnh cho hóa đơn số 00147969, ký hiệu 1C26MUV, ngày 01/11/2026 do trả lại hàng của mã đơn hàng 579455688593279718",
+    "checks": {
+      "money": true,
+      "order": true,
+      "date": true,
+      "parent_date": true,
+      "parent_cqt": true,
+      "reason": true,
+      "kind": true
+    },
+    "source_file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Bang_ke_hoa_don_da_su_dung_1793524594152_2.xls",
+    "source_row": 29456
+  },
+  {
+    "doc": "BHHT2024019578",
+    "order": "579398067810044509",
+    "sequence": 111,
+    "old": "1C26MUV/00147961",
+    "new": "1C26MUV/00150125",
+    "new_date": "2026-11-01",
+    "expected": [
+      -1702778,
+      -136222,
+      -1839000
+    ],
+    "actual": [
+      -1702778,
+      -136222,
+      -1839000
+    ],
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "parent_status": "Hoá đơn mới",
+    "cqt_status": "Đã gửi CQT",
+    "cqt": "M1-26-XXNAS-00003154166",
+    "reason": "Điều chỉnh cho hóa đơn số 00147961, ký hiệu 1C26MUV, ngày 01/11/2026 do trả lại hàng của mã đơn hàng 579398067810044509",
+    "checks": {
+      "money": true,
+      "order": true,
+      "date": true,
+      "parent_date": true,
+      "parent_cqt": true,
+      "reason": true,
+      "kind": true
+    },
+    "source_file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Bang_ke_hoa_don_da_su_dung_1793524594152_2.xls",
+    "source_row": 29457
+  },
+  {
+    "doc": "BHHT2024012010",
+    "order": "578998075886570223",
+    "sequence": 112,
+    "old": "1C26MUV/00147921",
+    "new": "1C26MUV/00150126",
+    "new_date": "2026-11-01",
+    "expected": [
+      -1702778,
+      -136222,
+      -1839000
+    ],
+    "actual": [
+      -1702778,
+      -136222,
+      -1839000
+    ],
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "parent_status": "Hoá đơn mới",
+    "cqt_status": "Đã gửi CQT",
+    "cqt": "M1-26-XXNAS-00003154167",
+    "reason": "Điều chỉnh cho hóa đơn số 00147921, ký hiệu 1C26MUV, ngày 01/11/2026 do trả lại hàng của mã đơn hàng 578998075886570223",
+    "checks": {
+      "money": true,
+      "order": true,
+      "date": true,
+      "parent_date": true,
+      "parent_cqt": true,
+      "reason": true,
+      "kind": true
+    },
+    "source_file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Bang_ke_hoa_don_da_su_dung_1793524594152_2.xls",
+    "source_row": 29458
+  },
+  {
+    "doc": "BHHS2024005878",
+    "order": "2409260NHR24FV",
+    "sequence": 113,
+    "old": "1C26MUV/00147957",
+    "new": "1C26MUV/00150127",
+    "new_date": "2026-11-01",
+    "expected": [
+      -2573148,
+      -205852,
+      -2779000
+    ],
+    "actual": [
+      -2573148,
+      -205852,
+      -2779000
+    ],
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "parent_status": "Hoá đơn mới",
+    "cqt_status": "Đã gửi CQT",
+    "cqt": "M1-26-XXNAS-00003154168",
+    "reason": "Điều chỉnh cho hóa đơn số 00147957, ký hiệu 1C26MUV, ngày 01/11/2026 do trả lại hàng của mã đơn hàng 2409260NHR24FV",
+    "checks": {
+      "money": true,
+      "order": true,
+      "date": true,
+      "parent_date": true,
+      "parent_cqt": true,
+      "reason": true,
+      "kind": true
+    },
+    "source_file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Bang_ke_hoa_don_da_su_dung_1793524594152_2.xls",
+    "source_row": 29459
+  },
+  {
+    "doc": "BHHS2024006318",
+    "order": "2410106HDRSMYU",
+    "sequence": 114,
+    "old": "1C26MUV/00147967",
+    "new": "1C26MUV/00150128",
+    "new_date": "2026-11-01",
+    "expected": [
+      -2573148,
+      -205852,
+      -2779000
+    ],
+    "actual": [
+      -2573148,
+      -205852,
+      -2779000
+    ],
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "parent_status": "Hoá đơn mới",
+    "cqt_status": "Đã gửi CQT",
+    "cqt": "M1-26-XXNAS-00003154169",
+    "reason": "Điều chỉnh cho hóa đơn số 00147967, ký hiệu 1C26MUV, ngày 01/11/2026 do trả lại hàng của mã đơn hàng 2410106HDRSMYU",
+    "checks": {
+      "money": true,
+      "order": true,
+      "date": true,
+      "parent_date": true,
+      "parent_cqt": true,
+      "reason": true,
+      "kind": true
+    },
+    "source_file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Bang_ke_hoa_don_da_su_dung_1793524594152_2.xls",
+    "source_row": 29460
+  },
+  {
+    "doc": "BHHS2024006036",
+    "order": "241003H6YXJWDY",
+    "sequence": 115,
+    "old": "1C26MUV/00147962",
+    "new": "1C26MUV/00150129",
+    "new_date": "2026-11-01",
+    "expected": [
+      -962037,
+      -76963,
+      -1039000
+    ],
+    "actual": [
+      -962037,
+      -76963,
+      -1039000
+    ],
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "parent_status": "Hoá đơn mới",
+    "cqt_status": "Đã gửi CQT",
+    "cqt": "M1-26-XXNAS-00003154170",
+    "reason": "Điều chỉnh cho hóa đơn số 00147962, ký hiệu 1C26MUV, ngày 01/11/2026 do trả lại hàng của mã đơn hàng 241003H6YXJWDY",
+    "checks": {
+      "money": true,
+      "order": true,
+      "date": true,
+      "parent_date": true,
+      "parent_cqt": true,
+      "reason": true,
+      "kind": true
+    },
+    "source_file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Bang_ke_hoa_don_da_su_dung_1793524594152_2.xls",
+    "source_row": 29461
+  },
+  {
+    "doc": "BHHS2024006455",
+    "order": "241011A3W1GRKU",
+    "sequence": 116,
+    "old": "1C26MUV/00147970",
+    "new": "1C26MUV/00150130",
+    "new_date": "2026-11-01",
+    "expected": [
+      -258333,
+      -20667,
+      -279000
+    ],
+    "actual": [
+      -258333,
+      -20667,
+      -279000
+    ],
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "parent_status": "Hoá đơn mới",
+    "cqt_status": "Đã gửi CQT",
+    "cqt": "M1-26-XXNAS-00003154171",
+    "reason": "Điều chỉnh cho hóa đơn số 00147970, ký hiệu 1C26MUV, ngày 01/11/2026 do trả lại hàng của mã đơn hàng 241011A3W1GRKU",
+    "checks": {
+      "money": true,
+      "order": true,
+      "date": true,
+      "parent_date": true,
+      "parent_cqt": true,
+      "reason": true,
+      "kind": true
+    },
+    "source_file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Bang_ke_hoa_don_da_su_dung_1793524594152_2.xls",
+    "source_row": 29462
+  },
+  {
+    "doc": "BHHT2024017854",
+    "order": "579483923698191261",
+    "sequence": 117,
+    "old": "1C26MUV/00147977",
+    "new": "1C26MUV/00150131",
+    "new_date": "2026-11-01",
+    "expected": [
+      -415741,
+      -33259,
+      -449000
+    ],
+    "actual": [
+      -415741,
+      -33259,
+      -449000
+    ],
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "parent_status": "Hoá đơn mới",
+    "cqt_status": "Đã gửi CQT",
+    "cqt": "M1-26-XXNAS-00003154172",
+    "reason": "Điều chỉnh cho hóa đơn số 00147977, ký hiệu 1C26MUV, ngày 01/11/2026 do trả lại hàng của mã đơn hàng 579483923698191261",
+    "checks": {
+      "money": true,
+      "order": true,
+      "date": true,
+      "parent_date": true,
+      "parent_cqt": true,
+      "reason": true,
+      "kind": true
+    },
+    "source_file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Bang_ke_hoa_don_da_su_dung_1793524594152_2.xls",
+    "source_row": 29463
+  },
+  {
+    "doc": "BHHT2024018508",
+    "order": "579463905425131624",
+    "sequence": 118,
+    "old": "1C26MUV/00147972",
+    "new": "1C26MUV/00150132",
+    "new_date": "2026-11-01",
+    "expected": [
+      -1663519,
+      -133081,
+      -1796600
+    ],
+    "actual": [
+      -1663519,
+      -133081,
+      -1796600
+    ],
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "parent_status": "Hoá đơn mới",
+    "cqt_status": "Đã gửi CQT",
+    "cqt": "M1-26-XXNAS-00003154173",
+    "reason": "Điều chỉnh cho hóa đơn số 00147972, ký hiệu 1C26MUV, ngày 01/11/2026 do trả lại hàng của mã đơn hàng 579463905425131624",
+    "checks": {
+      "money": true,
+      "order": true,
+      "date": true,
+      "parent_date": true,
+      "parent_cqt": true,
+      "reason": true,
+      "kind": true
+    },
+    "source_file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Bang_ke_hoa_don_da_su_dung_1793524594152_2.xls",
+    "source_row": 29464
+  },
+  {
+    "doc": "BHHT2024018446",
+    "order": "579463021977635133",
+    "sequence": 119,
+    "old": "1C26MUV/00147973",
+    "new": "1C26MUV/00150133",
+    "new_date": "2026-11-01",
+    "expected": [
+      -1702778,
+      -136222,
+      -1839000
+    ],
+    "actual": [
+      -1702778,
+      -136222,
+      -1839000
+    ],
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "parent_status": "Hoá đơn mới",
+    "cqt_status": "Đã gửi CQT",
+    "cqt": "M1-26-XXNAS-00003154174",
+    "reason": "Điều chỉnh cho hóa đơn số 00147973, ký hiệu 1C26MUV, ngày 01/11/2026 do trả lại hàng của mã đơn hàng 579463021977635133",
+    "checks": {
+      "money": true,
+      "order": true,
+      "date": true,
+      "parent_date": true,
+      "parent_cqt": true,
+      "reason": true,
+      "kind": true
+    },
+    "source_file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Bang_ke_hoa_don_da_su_dung_1793524594152_2.xls",
+    "source_row": 29465
+  },
+  {
+    "doc": "BHHT2024018751",
+    "order": "579462359554033676",
+    "sequence": 120,
+    "old": "1C26MUV/00147971",
+    "new": "1C26MUV/00150134",
+    "new_date": "2026-11-01",
+    "expected": [
+      -1702778,
+      -136222,
+      -1839000
+    ],
+    "actual": [
+      -1702778,
+      -136222,
+      -1839000
+    ],
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "parent_status": "Hoá đơn mới",
+    "cqt_status": "Đã gửi CQT",
+    "cqt": "M1-26-XXNAS-00003154175",
+    "reason": "Điều chỉnh cho hóa đơn số 00147971, ký hiệu 1C26MUV, ngày 01/11/2026 do trả lại hàng của mã đơn hàng 579462359554033676",
+    "checks": {
+      "money": true,
+      "order": true,
+      "date": true,
+      "parent_date": true,
+      "parent_cqt": true,
+      "reason": true,
+      "kind": true
+    },
+    "source_file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Bang_ke_hoa_don_da_su_dung_1793524594152_2.xls",
+    "source_row": 29466
+  },
+  {
+    "doc": "BHHT2024018262",
+    "order": "579481710328515528",
+    "sequence": 121,
+    "old": "1C26MUV/00147974",
+    "new": "1C26MUV/00150135",
+    "new_date": "2026-11-01",
+    "expected": [
+      -1702778,
+      -136222,
+      -1839000
+    ],
+    "actual": [
+      -1702778,
+      -136222,
+      -1839000
+    ],
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "parent_status": "Hoá đơn mới",
+    "cqt_status": "Đã gửi CQT",
+    "cqt": "M1-26-XXNAS-00003154176",
+    "reason": "Điều chỉnh cho hóa đơn số 00147974, ký hiệu 1C26MUV, ngày 01/11/2026 do trả lại hàng của mã đơn hàng 579481710328515528",
+    "checks": {
+      "money": true,
+      "order": true,
+      "date": true,
+      "parent_date": true,
+      "parent_cqt": true,
+      "reason": true,
+      "kind": true
+    },
+    "source_file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Bang_ke_hoa_don_da_su_dung_1793524594152_2.xls",
+    "source_row": 29467
+  },
+  {
+    "doc": "BHHT2024017215",
+    "order": "579528519869958281",
+    "sequence": 122,
+    "old": "1C26MUV/00147981",
+    "new": "1C26MUV/00150136",
+    "new_date": "2026-11-01",
+    "expected": [
+      -962037,
+      -76963,
+      -1039000
+    ],
+    "actual": [
+      -962037,
+      -76963,
+      -1039000
+    ],
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "parent_status": "Hoá đơn mới",
+    "cqt_status": "Đã gửi CQT",
+    "cqt": "M1-26-XXNAS-00003154177",
+    "reason": "Điều chỉnh cho hóa đơn số 00147981, ký hiệu 1C26MUV, ngày 01/11/2026 do trả lại hàng của mã đơn hàng 579528519869958281",
+    "checks": {
+      "money": true,
+      "order": true,
+      "date": true,
+      "parent_date": true,
+      "parent_cqt": true,
+      "reason": true,
+      "kind": true
+    },
+    "source_file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Bang_ke_hoa_don_da_su_dung_1793524594152_2.xls",
+    "source_row": 29468
+  },
+  {
+    "doc": "BHHT2024017420",
+    "order": "579517575691668106",
+    "sequence": 123,
+    "old": "1C26MUV/00147979",
+    "new": "1C26MUV/00150137",
+    "new_date": "2026-11-01",
+    "expected": [
+      -1276852,
+      -102148,
+      -1379000
+    ],
+    "actual": [
+      -1276852,
+      -102148,
+      -1379000
+    ],
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "parent_status": "Hoá đơn mới",
+    "cqt_status": "Đã gửi CQT",
+    "cqt": "M1-26-XXNAS-00003154178",
+    "reason": "Điều chỉnh cho hóa đơn số 00147979, ký hiệu 1C26MUV, ngày 01/11/2026 do trả lại hàng của mã đơn hàng 579517575691668106",
+    "checks": {
+      "money": true,
+      "order": true,
+      "date": true,
+      "parent_date": true,
+      "parent_cqt": true,
+      "reason": true,
+      "kind": true
+    },
+    "source_file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Bang_ke_hoa_don_da_su_dung_1793524594152_2.xls",
+    "source_row": 29469
+  },
+  {
+    "doc": "BHHT2024018052",
+    "order": "579450892955060361",
+    "sequence": 124,
+    "old": "1C26MUV/00147975",
+    "new": "1C26MUV/00150138",
+    "new_date": "2026-11-01",
+    "expected": [
+      -962037,
+      -76963,
+      -1039000
+    ],
+    "actual": [
+      -962037,
+      -76963,
+      -1039000
+    ],
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "parent_status": "Hoá đơn mới",
+    "cqt_status": "Đã gửi CQT",
+    "cqt": "M1-26-XXNAS-00003154179",
+    "reason": "Điều chỉnh cho hóa đơn số 00147975, ký hiệu 1C26MUV, ngày 01/11/2026 do trả lại hàng của mã đơn hàng 579450892955060361",
+    "checks": {
+      "money": true,
+      "order": true,
+      "date": true,
+      "parent_date": true,
+      "parent_cqt": true,
+      "reason": true,
+      "kind": true
+    },
+    "source_file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Bang_ke_hoa_don_da_su_dung_1793524594152_2.xls",
+    "source_row": 29470
+  },
+  {
+    "doc": "BHHT2024017754",
+    "order": "579487742734207365",
+    "sequence": 125,
+    "old": "1C26MUV/00147978",
+    "new": "1C26MUV/00150139",
+    "new_date": "2026-11-01",
+    "expected": [
+      -508333,
+      -40667,
+      -549000
+    ],
+    "actual": [
+      -508333,
+      -40667,
+      -549000
+    ],
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "parent_status": "Hoá đơn mới",
+    "cqt_status": "Đã gửi CQT",
+    "cqt": "M1-26-XXNAS-00003154180",
+    "reason": "Điều chỉnh cho hóa đơn số 00147978, ký hiệu 1C26MUV, ngày 01/11/2026 do trả lại hàng của mã đơn hàng 579487742734207365",
+    "checks": {
+      "money": true,
+      "order": true,
+      "date": true,
+      "parent_date": true,
+      "parent_cqt": true,
+      "reason": true,
+      "kind": true
+    },
+    "source_file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Bang_ke_hoa_don_da_su_dung_1793524594152_2.xls",
+    "source_row": 29471
+  },
+  {
+    "doc": "BHHT2024017809",
+    "order": "579486162672978309",
+    "sequence": 126,
+    "old": "1C26MUV/00147976",
+    "new": "1C26MUV/00150140",
+    "new_date": "2026-11-01",
+    "expected": [
+      -2526852,
+      -202148,
+      -2729000
+    ],
+    "actual": [
+      -2526852,
+      -202148,
+      -2729000
+    ],
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "parent_status": "Hoá đơn mới",
+    "cqt_status": "Đã gửi CQT",
+    "cqt": "M1-26-XXNAS-00003154181",
+    "reason": "Điều chỉnh cho hóa đơn số 00147976, ký hiệu 1C26MUV, ngày 01/11/2026 do trả lại hàng của mã đơn hàng 579486162672978309",
+    "checks": {
+      "money": true,
+      "order": true,
+      "date": true,
+      "parent_date": true,
+      "parent_cqt": true,
+      "reason": true,
+      "kind": true
+    },
+    "source_file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Bang_ke_hoa_don_da_su_dung_1793524594152_2.xls",
+    "source_row": 29472
+  },
+  {
+    "doc": "BHHN2024000165",
+    "order": "HD007312",
+    "sequence": 127,
+    "old": "1C26MUV/00147984",
+    "new": "1C26MUV/00150141",
+    "new_date": "2026-11-01",
+    "expected": [
+      -480556,
+      -38444,
+      -519000
+    ],
+    "actual": [
+      -480556,
+      -38444,
+      -519000
+    ],
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "parent_status": "Hoá đơn mới",
+    "cqt_status": "Đã gửi CQT",
+    "cqt": "M1-26-XXNAS-00003154182",
+    "reason": "Điều chỉnh cho hóa đơn số 00147984, ký hiệu 1C26MUV, ngày 01/11/2026 do trả lại hàng của mã đơn hàng HD007312",
+    "checks": {
+      "money": true,
+      "order": true,
+      "date": true,
+      "parent_date": true,
+      "parent_cqt": true,
+      "reason": true,
+      "kind": true
+    },
+    "source_file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Bang_ke_hoa_don_da_su_dung_1793524594152_2.xls",
+    "source_row": 29473
+  },
+  {
+    "doc": "BHHS2024006823",
+    "order": "241025E7NQWFXE",
+    "sequence": 128,
+    "old": "1C26MUV/00147980",
+    "new": "1C26MUV/00150142",
+    "new_date": "2026-11-01",
+    "expected": [
+      -2573148,
+      -205852,
+      -2779000
+    ],
+    "actual": [
+      -2573148,
+      -205852,
+      -2779000
+    ],
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "parent_status": "Hoá đơn mới",
+    "cqt_status": "Đã gửi CQT",
+    "cqt": "M1-26-XXNAS-00003154183",
+    "reason": "Điều chỉnh cho hóa đơn số 00147980, ký hiệu 1C26MUV, ngày 01/11/2026 do trả lại hàng của mã đơn hàng 241025E7NQWFXE",
+    "checks": {
+      "money": true,
+      "order": true,
+      "date": true,
+      "parent_date": true,
+      "parent_cqt": true,
+      "reason": true,
+      "kind": true
+    },
+    "source_file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Bang_ke_hoa_don_da_su_dung_1793524594152_2.xls",
+    "source_row": 29474
+  },
+  {
+    "doc": "BHHS2024006209",
+    "order": "2410105K981XAM",
+    "sequence": 129,
+    "old": "1C26MUV/00147966",
+    "new": "1C26MUV/00150143",
+    "new_date": "2026-11-01",
+    "expected": [
+      -1739815,
+      -139185,
+      -1879000
+    ],
+    "actual": [
+      -1739815,
+      -139185,
+      -1879000
+    ],
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "parent_status": "Hoá đơn mới",
+    "cqt_status": "Đã gửi CQT",
+    "cqt": "M1-26-XXNAS-00003154184",
+    "reason": "Điều chỉnh cho hóa đơn số 00147966, ký hiệu 1C26MUV, ngày 01/11/2026 do trả lại hàng của mã đơn hàng 2410105K981XAM",
+    "checks": {
+      "money": true,
+      "order": true,
+      "date": true,
+      "parent_date": true,
+      "parent_cqt": true,
+      "reason": true,
+      "kind": true
+    },
+    "source_file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Bang_ke_hoa_don_da_su_dung_1793524594152_2.xls",
+    "source_row": 29475
+  },
+  {
+    "doc": "BHHT2024017243",
+    "order": "579522480673097962",
+    "sequence": 130,
+    "old": "1C26MUV/00147982",
+    "new": "1C26MUV/00150144",
+    "new_date": "2026-11-01",
+    "expected": [
+      -258333,
+      -20667,
+      -279000
+    ],
+    "actual": [
+      -258333,
+      -20667,
+      -279000
+    ],
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "parent_status": "Hoá đơn mới",
+    "cqt_status": "Đã gửi CQT",
+    "cqt": "M1-26-XXNAS-00003154185",
+    "reason": "Điều chỉnh cho hóa đơn số 00147982, ký hiệu 1C26MUV, ngày 01/11/2026 do trả lại hàng của mã đơn hàng 579522480673097962",
+    "checks": {
+      "money": true,
+      "order": true,
+      "date": true,
+      "parent_date": true,
+      "parent_cqt": true,
+      "reason": true,
+      "kind": true
+    },
+    "source_file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Bang_ke_hoa_don_da_su_dung_1793524594152_2.xls",
+    "source_row": 29476
+  },
+  {
+    "doc": "BHHT2024022352",
+    "order": "579513123286518666",
+    "sequence": 131,
+    "old": "1C26MUV/00147983",
+    "new": "1C26MUV/00150145",
+    "new_date": "2026-11-01",
+    "expected": [
+      -1702778,
+      -136222,
+      -1839000
+    ],
+    "actual": [
+      -1702778,
+      -136222,
+      -1839000
+    ],
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "parent_status": "Hoá đơn mới",
+    "cqt_status": "Đã gửi CQT",
+    "cqt": "M1-26-XXNAS-00003154186",
+    "reason": "Điều chỉnh cho hóa đơn số 00147983, ký hiệu 1C26MUV, ngày 01/11/2026 do trả lại hàng của mã đơn hàng 579513123286518666",
+    "checks": {
+      "money": true,
+      "order": true,
+      "date": true,
+      "parent_date": true,
+      "parent_cqt": true,
+      "reason": true,
+      "kind": true
+    },
+    "source_file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Bang_ke_hoa_don_da_su_dung_1793524594152_2.xls",
+    "source_row": 29477
+  },
+  {
+    "doc": "BHHS2024006117",
+    "order": "241007V3F1YJ0F",
+    "sequence": 132,
+    "old": "1C26MUV/00147963",
+    "new": "1C26MUV/00150146",
+    "new_date": "2026-11-01",
+    "expected": [
+      -2573148,
+      -205852,
+      -2779000
+    ],
+    "actual": [
+      -2573148,
+      -205852,
+      -2779000
+    ],
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "parent_status": "Hoá đơn mới",
+    "cqt_status": "Đã gửi CQT",
+    "cqt": "M1-26-XXNAS-00003154187",
+    "reason": "Điều chỉnh cho hóa đơn số 00147963, ký hiệu 1C26MUV, ngày 01/11/2026 do trả lại hàng của mã đơn hàng 241007V3F1YJ0F",
+    "checks": {
+      "money": true,
+      "order": true,
+      "date": true,
+      "parent_date": true,
+      "parent_cqt": true,
+      "reason": true,
+      "kind": true
+    },
+    "source_file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Bang_ke_hoa_don_da_su_dung_1793524594152_2.xls",
+    "source_row": 29478
+  },
+  {
+    "doc": "BHHT2024021563",
+    "order": "579600695513942368",
+    "sequence": 133,
+    "old": "1C26MUV/00147985",
+    "new": "1C26MUV/00150147",
+    "new_date": "2026-11-01",
+    "expected": [
+      -258333,
+      -20667,
+      -279000
+    ],
+    "actual": [
+      -258333,
+      -20667,
+      -279000
+    ],
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "parent_status": "Hoá đơn mới",
+    "cqt_status": "Đã gửi CQT",
+    "cqt": "M1-26-XXNAS-00003154188",
+    "reason": "Điều chỉnh cho hóa đơn số 00147985, ký hiệu 1C26MUV, ngày 01/11/2026 do trả lại hàng của mã đơn hàng 579600695513942368",
+    "checks": {
+      "money": true,
+      "order": true,
+      "date": true,
+      "parent_date": true,
+      "parent_cqt": true,
+      "reason": true,
+      "kind": true
+    },
+    "source_file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Bang_ke_hoa_don_da_su_dung_1793524594152_2.xls",
+    "source_row": 29479
+  },
+  {
+    "doc": "BHHT2024020876",
+    "order": "579630776199973167",
+    "sequence": 134,
+    "old": "1C26MUV/00147991",
+    "new": "1C26MUV/00150148",
+    "new_date": "2026-11-01",
+    "expected": [
+      -1702778,
+      -136222,
+      -1839000
+    ],
+    "actual": [
+      -1702778,
+      -136222,
+      -1839000
+    ],
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "parent_status": "Hoá đơn mới",
+    "cqt_status": "Đã gửi CQT",
+    "cqt": "M1-26-XXNAS-00003154189",
+    "reason": "Điều chỉnh cho hóa đơn số 00147991, ký hiệu 1C26MUV, ngày 01/11/2026 do trả lại hàng của mã đơn hàng 579630776199973167",
+    "checks": {
+      "money": true,
+      "order": true,
+      "date": true,
+      "parent_date": true,
+      "parent_cqt": true,
+      "reason": true,
+      "kind": true
+    },
+    "source_file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Bang_ke_hoa_don_da_su_dung_1793524594152_2.xls",
+    "source_row": 29480
+  },
+  {
+    "doc": "BHHT2024021404",
+    "order": "579613378321549785",
+    "sequence": 135,
+    "old": "1C26MUV/00147986",
+    "new": "1C26MUV/00150149",
+    "new_date": "2026-11-01",
+    "expected": [
+      -1369444,
+      -109556,
+      -1479000
+    ],
+    "actual": [
+      -1369444,
+      -109556,
+      -1479000
+    ],
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "parent_status": "Hoá đơn mới",
+    "cqt_status": "Đã gửi CQT",
+    "cqt": "M1-26-XXNAS-00003154190",
+    "reason": "Điều chỉnh cho hóa đơn số 00147986, ký hiệu 1C26MUV, ngày 01/11/2026 do trả lại hàng của mã đơn hàng 579613378321549785",
+    "checks": {
+      "money": true,
+      "order": true,
+      "date": true,
+      "parent_date": true,
+      "parent_cqt": true,
+      "reason": true,
+      "kind": true
+    },
+    "source_file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Bang_ke_hoa_don_da_su_dung_1793524594152_2.xls",
+    "source_row": 29481
+  },
+  {
+    "doc": "BHHT2024021245",
+    "order": "579621103539161662",
+    "sequence": 136,
+    "old": "1C26MUV/00147989",
+    "new": "1C26MUV/00150150",
+    "new_date": "2026-11-01",
+    "expected": [
+      -237417,
+      -18993,
+      -256410
+    ],
+    "actual": [
+      -237417,
+      -18993,
+      -256410
+    ],
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "parent_status": "Hoá đơn mới",
+    "cqt_status": "Đã gửi CQT",
+    "cqt": "M1-26-XXNAS-00003154191",
+    "reason": "Điều chỉnh cho hóa đơn số 00147989, ký hiệu 1C26MUV, ngày 01/11/2026 do trả lại hàng của mã đơn hàng 579621103539161662",
+    "checks": {
+      "money": true,
+      "order": true,
+      "date": true,
+      "parent_date": true,
+      "parent_cqt": true,
+      "reason": true,
+      "kind": true
+    },
+    "source_file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Bang_ke_hoa_don_da_su_dung_1793524594152_2.xls",
+    "source_row": 29482
+  },
+  {
+    "doc": "BHHT2024020920",
+    "order": "579625164047616389",
+    "sequence": 137,
+    "old": "1C26MUV/00147992",
+    "new": "1C26MUV/00150151",
+    "new_date": "2026-11-01",
+    "expected": [
+      -237417,
+      -18993,
+      -256410
+    ],
+    "actual": [
+      -237417,
+      -18993,
+      -256410
+    ],
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "parent_status": "Hoá đơn mới",
+    "cqt_status": "Đã gửi CQT",
+    "cqt": "M1-26-XXNAS-00003154192",
+    "reason": "Điều chỉnh cho hóa đơn số 00147992, ký hiệu 1C26MUV, ngày 01/11/2026 do trả lại hàng của mã đơn hàng 579625164047616389",
+    "checks": {
+      "money": true,
+      "order": true,
+      "date": true,
+      "parent_date": true,
+      "parent_cqt": true,
+      "reason": true,
+      "kind": true
+    },
+    "source_file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Bang_ke_hoa_don_da_su_dung_1793524594152_2.xls",
+    "source_row": 29483
+  },
+  {
+    "doc": "BHHT2024021064",
+    "order": "579621872255273135",
+    "sequence": 138,
+    "old": "1C26MUV/00147990",
+    "new": "1C26MUV/00150152",
+    "new_date": "2026-11-01",
+    "expected": [
+      -2515185,
+      -201215,
+      -2716400
+    ],
+    "actual": [
+      -2515185,
+      -201215,
+      -2716400
+    ],
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "parent_status": "Hoá đơn mới",
+    "cqt_status": "Đã gửi CQT",
+    "cqt": "M1-26-XXNAS-00003154193",
+    "reason": "Điều chỉnh cho hóa đơn số 00147990, ký hiệu 1C26MUV, ngày 01/11/2026 do trả lại hàng của mã đơn hàng 579621872255273135",
+    "checks": {
+      "money": true,
+      "order": true,
+      "date": true,
+      "parent_date": true,
+      "parent_cqt": true,
+      "reason": true,
+      "kind": true
+    },
+    "source_file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Bang_ke_hoa_don_da_su_dung_1793524594152_2.xls",
+    "source_row": 29484
+  },
+  {
+    "doc": "BHHT2024021229",
+    "order": "579623104733743790",
+    "sequence": 139,
+    "old": "1C26MUV/00147988",
+    "new": "1C26MUV/00150153",
+    "new_date": "2026-11-01",
+    "expected": [
+      -938889,
+      -75111,
+      -1014000
+    ],
+    "actual": [
+      -938889,
+      -75111,
+      -1014000
+    ],
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "parent_status": "Hoá đơn mới",
+    "cqt_status": "Đã gửi CQT",
+    "cqt": "M1-26-XXNAS-00003154194",
+    "reason": "Điều chỉnh cho hóa đơn số 00147988, ký hiệu 1C26MUV, ngày 01/11/2026 do trả lại hàng của mã đơn hàng 579623104733743790",
+    "checks": {
+      "money": true,
+      "order": true,
+      "date": true,
+      "parent_date": true,
+      "parent_cqt": true,
+      "reason": true,
+      "kind": true
+    },
+    "source_file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Bang_ke_hoa_don_da_su_dung_1793524594152_2.xls",
+    "source_row": 29485
+  },
+  {
+    "doc": "BHHT2024020489",
+    "order": "579643009940031692",
+    "sequence": 140,
+    "old": "1C26MUV/00147994",
+    "new": "1C26MUV/00150154",
+    "new_date": "2026-11-01",
+    "expected": [
+      -221296,
+      -17704,
+      -239000
+    ],
+    "actual": [
+      -221296,
+      -17704,
+      -239000
+    ],
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "parent_status": "Hoá đơn mới",
+    "cqt_status": "Đã gửi CQT",
+    "cqt": "M1-26-XXNAS-00003154195",
+    "reason": "Điều chỉnh cho hóa đơn số 00147994, ký hiệu 1C26MUV, ngày 01/11/2026 do trả lại hàng của mã đơn hàng 579643009940031692",
+    "checks": {
+      "money": true,
+      "order": true,
+      "date": true,
+      "parent_date": true,
+      "parent_cqt": true,
+      "reason": true,
+      "kind": true
+    },
+    "source_file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Bang_ke_hoa_don_da_su_dung_1793524594152_2.xls",
+    "source_row": 29486
+  },
+  {
+    "doc": "BHHT2024020800",
+    "order": "579632307882723524",
+    "sequence": 141,
+    "old": "1C26MUV/00147993",
+    "new": "1C26MUV/00150155",
+    "new_date": "2026-11-01",
+    "expected": [
+      -962037,
+      -76963,
+      -1039000
+    ],
+    "actual": [
+      -962037,
+      -76963,
+      -1039000
+    ],
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "parent_status": "Hoá đơn mới",
+    "cqt_status": "Đã gửi CQT",
+    "cqt": "M1-26-XXNAS-00003154196",
+    "reason": "Điều chỉnh cho hóa đơn số 00147993, ký hiệu 1C26MUV, ngày 01/11/2026 do trả lại hàng của mã đơn hàng 579632307882723524",
+    "checks": {
+      "money": true,
+      "order": true,
+      "date": true,
+      "parent_date": true,
+      "parent_cqt": true,
+      "reason": true,
+      "kind": true
+    },
+    "source_file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Bang_ke_hoa_don_da_su_dung_1793524594152_2.xls",
+    "source_row": 29487
+  },
+  {
+    "doc": "BHHT2024020204",
+    "order": "579642995473550008",
+    "sequence": 142,
+    "old": "1C26MUV/00147996",
+    "new": "1C26MUV/00150156",
+    "new_date": "2026-11-01",
+    "expected": [
+      -258333,
+      -20667,
+      -279000
+    ],
+    "actual": [
+      -258333,
+      -20667,
+      -279000
+    ],
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "parent_status": "Hoá đơn mới",
+    "cqt_status": "Đã gửi CQT",
+    "cqt": "M1-26-XXNAS-00003154197",
+    "reason": "Điều chỉnh cho hóa đơn số 00147996, ký hiệu 1C26MUV, ngày 01/11/2026 do trả lại hàng của mã đơn hàng 579642995473550008",
+    "checks": {
+      "money": true,
+      "order": true,
+      "date": true,
+      "parent_date": true,
+      "parent_cqt": true,
+      "reason": true,
+      "kind": true
+    },
+    "source_file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Bang_ke_hoa_don_da_su_dung_1793524594152_2.xls",
+    "source_row": 29488
+  },
+  {
+    "doc": "BHHT2024020202",
+    "order": "579642990301907640",
+    "sequence": 143,
+    "old": "1C26MUV/00147995",
+    "new": "1C26MUV/00150157",
+    "new_date": "2026-11-01",
+    "expected": [
+      -258333,
+      -20667,
+      -279000
+    ],
+    "actual": [
+      -258333,
+      -20667,
+      -279000
+    ],
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "parent_status": "Hoá đơn mới",
+    "cqt_status": "Đã gửi CQT",
+    "cqt": "M1-26-XXNAS-00003154198",
+    "reason": "Điều chỉnh cho hóa đơn số 00147995, ký hiệu 1C26MUV, ngày 01/11/2026 do trả lại hàng của mã đơn hàng 579642990301907640",
+    "checks": {
+      "money": true,
+      "order": true,
+      "date": true,
+      "parent_date": true,
+      "parent_cqt": true,
+      "reason": true,
+      "kind": true
+    },
+    "source_file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Bang_ke_hoa_don_da_su_dung_1793524594152_2.xls",
+    "source_row": 29489
+  },
+  {
+    "doc": "BHHT2024024972",
+    "order": "579678147215198332",
+    "sequence": 144,
+    "old": "1C26MUV/00147999",
+    "new": "1C26MUV/00150158",
+    "new_date": "2026-11-01",
+    "expected": [
+      -972222,
+      -77778,
+      -1050000
+    ],
+    "actual": [
+      -972222,
+      -77778,
+      -1050000
+    ],
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "parent_status": "Hoá đơn mới",
+    "cqt_status": "Đã gửi CQT",
+    "cqt": "M1-26-XXNAS-00003154199",
+    "reason": "Điều chỉnh cho hóa đơn số 00147999, ký hiệu 1C26MUV, ngày 01/11/2026 do trả lại hàng của mã đơn hàng 579678147215198332",
+    "checks": {
+      "money": true,
+      "order": true,
+      "date": true,
+      "parent_date": true,
+      "parent_cqt": true,
+      "reason": true,
+      "kind": true
+    },
+    "source_file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Bang_ke_hoa_don_da_su_dung_1793524594152_2.xls",
+    "source_row": 29490
+  },
+  {
+    "doc": "BHHT2024024917",
+    "order": "579685476935633680",
+    "sequence": 145,
+    "old": "1C26MUV/00147998",
+    "new": "1C26MUV/00150159",
+    "new_date": "2026-11-01",
+    "expected": [
+      -1702778,
+      -136222,
+      -1839000
+    ],
+    "actual": [
+      -1702778,
+      -136222,
+      -1839000
+    ],
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "parent_status": "Hoá đơn mới",
+    "cqt_status": "Đã gửi CQT",
+    "cqt": "M1-26-XXNAS-00003154200",
+    "reason": "Điều chỉnh cho hóa đơn số 00147998, ký hiệu 1C26MUV, ngày 01/11/2026 do trả lại hàng của mã đơn hàng 579685476935633680",
+    "checks": {
+      "money": true,
+      "order": true,
+      "date": true,
+      "parent_date": true,
+      "parent_cqt": true,
+      "reason": true,
+      "kind": true
+    },
+    "source_file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Bang_ke_hoa_don_da_su_dung_1793524594152_2.xls",
+    "source_row": 29491
+  },
+  {
+    "doc": "BHHT2024024570",
+    "order": "579692598267120584",
+    "sequence": 146,
+    "old": "1C26MUV/00148004",
+    "new": "1C26MUV/00150160",
+    "new_date": "2026-11-01",
+    "expected": [
+      -2366444,
+      -189316,
+      -2555760
+    ],
+    "actual": [
+      -2366444,
+      -189316,
+      -2555760
+    ],
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "parent_status": "Hoá đơn mới",
+    "cqt_status": "Đã gửi CQT",
+    "cqt": "M1-26-XXNAS-00003154201",
+    "reason": "Điều chỉnh cho hóa đơn số 00148004, ký hiệu 1C26MUV, ngày 01/11/2026 do trả lại hàng của mã đơn hàng 579692598267120584",
+    "checks": {
+      "money": true,
+      "order": true,
+      "date": true,
+      "parent_date": true,
+      "parent_cqt": true,
+      "reason": true,
+      "kind": true
+    },
+    "source_file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Bang_ke_hoa_don_da_su_dung_1793524594152_2.xls",
+    "source_row": 29492
+  },
+  {
+    "doc": "BHHT2024024644",
+    "order": "579686158120290800",
+    "sequence": 147,
+    "old": "1C26MUV/00148005",
+    "new": "1C26MUV/00150161",
+    "new_date": "2026-11-01",
+    "expected": [
+      -2573148,
+      -205852,
+      -2779000
+    ],
+    "actual": [
+      -2573148,
+      -205852,
+      -2779000
+    ],
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "parent_status": "Hoá đơn mới",
+    "cqt_status": "Đã gửi CQT",
+    "cqt": "M1-26-XXNAS-00003154202",
+    "reason": "Điều chỉnh cho hóa đơn số 00148005, ký hiệu 1C26MUV, ngày 01/11/2026 do trả lại hàng của mã đơn hàng 579686158120290800",
+    "checks": {
+      "money": true,
+      "order": true,
+      "date": true,
+      "parent_date": true,
+      "parent_cqt": true,
+      "reason": true,
+      "kind": true
+    },
+    "source_file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Bang_ke_hoa_don_da_su_dung_1793524594152_2.xls",
+    "source_row": 29493
+  },
+  {
+    "doc": "BHHT2024024887",
+    "order": "579681520466496107",
+    "sequence": 148,
+    "old": "1C26MUV/00144123",
+    "new": "1C26MUV/00150162",
+    "new_date": "2026-11-01",
+    "expected": [
+      -5344445,
+      -427555,
+      -5772000
+    ],
+    "actual": [
+      -5344445,
+      -427555,
+      -5772000
+    ],
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "parent_status": "Hoá đơn mới",
+    "cqt_status": "Đã gửi CQT",
+    "cqt": "M1-26-XXNAS-00003154203",
+    "reason": "Điều chỉnh cho hóa đơn số 00144123, ký hiệu 1C26MUV, ngày 01/11/2026 do trả lại hàng của mã đơn hàng 579681520466496107",
+    "checks": {
+      "money": true,
+      "order": true,
+      "date": true,
+      "parent_date": true,
+      "parent_cqt": true,
+      "reason": true,
+      "kind": true
+    },
+    "source_file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Bang_ke_hoa_don_da_su_dung_1793524594152_2.xls",
+    "source_row": 29494
+  },
+  {
+    "doc": "BHHT2024021197",
+    "order": "579625436086897238",
+    "sequence": 149,
+    "old": "1C26MUV/00147987",
+    "new": "1C26MUV/00150163",
+    "new_date": "2026-11-01",
+    "expected": [
+      -1702778,
+      -136222,
+      -1839000
+    ],
+    "actual": [
+      -1702778,
+      -136222,
+      -1839000
+    ],
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "parent_status": "Hoá đơn mới",
+    "cqt_status": "Đã gửi CQT",
+    "cqt": "M1-26-XXNAS-00003154204",
+    "reason": "Điều chỉnh cho hóa đơn số 00147987, ký hiệu 1C26MUV, ngày 01/11/2026 do trả lại hàng của mã đơn hàng 579625436086897238",
+    "checks": {
+      "money": true,
+      "order": true,
+      "date": true,
+      "parent_date": true,
+      "parent_cqt": true,
+      "reason": true,
+      "kind": true
+    },
+    "source_file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Bang_ke_hoa_don_da_su_dung_1793524594152_2.xls",
+    "source_row": 29495
+  },
+  {
+    "doc": "BHHT2024024845",
+    "order": "579684148043549201",
+    "sequence": 150,
+    "old": "1C26MUV/00148002",
+    "new": "1C26MUV/00150164",
+    "new_date": "2026-11-01",
+    "expected": [
+      -2202778,
+      -176222,
+      -2379000
+    ],
+    "actual": [
+      -2202778,
+      -176222,
+      -2379000
+    ],
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "parent_status": "Hoá đơn mới",
+    "cqt_status": "Đã gửi CQT",
+    "cqt": "M1-26-XXNAS-00003154205",
+    "reason": "Điều chỉnh cho hóa đơn số 00148002, ký hiệu 1C26MUV, ngày 01/11/2026 do trả lại hàng của mã đơn hàng 579684148043549201",
+    "checks": {
+      "money": true,
+      "order": true,
+      "date": true,
+      "parent_date": true,
+      "parent_cqt": true,
+      "reason": true,
+      "kind": true
+    },
+    "source_file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Bang_ke_hoa_don_da_su_dung_1793524594152_2.xls",
+    "source_row": 29496
+  },
+  {
+    "doc": "BHHT2024024997",
+    "order": "579670249523088218",
+    "sequence": 151,
+    "old": "1C26MUV/00148000",
+    "new": "1C26MUV/00150165",
+    "new_date": "2026-11-01",
+    "expected": [
+      -2315833,
+      -185267,
+      -2501100
+    ],
+    "actual": [
+      -2315833,
+      -185267,
+      -2501100
+    ],
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "parent_status": "Hoá đơn mới",
+    "cqt_status": "Đã gửi CQT",
+    "cqt": "M1-26-XXNAS-00003154206",
+    "reason": "Điều chỉnh cho hóa đơn số 00148000, ký hiệu 1C26MUV, ngày 01/11/2026 do trả lại hàng của mã đơn hàng 579670249523088218",
+    "checks": {
+      "money": true,
+      "order": true,
+      "date": true,
+      "parent_date": true,
+      "parent_cqt": true,
+      "reason": true,
+      "kind": true
+    },
+    "source_file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Bang_ke_hoa_don_da_su_dung_1793524594152_2.xls",
+    "source_row": 29497
+  },
+  {
+    "doc": "BHHT2024023988",
+    "order": "579726271259314591",
+    "sequence": 152,
+    "old": "1C26MUV/00148006",
+    "new": "1C26MUV/00150166",
+    "new_date": "2026-11-01",
+    "expected": [
+      -962037,
+      -76963,
+      -1039000
+    ],
+    "actual": [
+      -962037,
+      -76963,
+      -1039000
+    ],
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "parent_status": "Hoá đơn mới",
+    "cqt_status": "Đã gửi CQT",
+    "cqt": "M1-26-XXNAS-00003154207",
+    "reason": "Điều chỉnh cho hóa đơn số 00148006, ký hiệu 1C26MUV, ngày 01/11/2026 do trả lại hàng của mã đơn hàng 579726271259314591",
+    "checks": {
+      "money": true,
+      "order": true,
+      "date": true,
+      "parent_date": true,
+      "parent_cqt": true,
+      "reason": true,
+      "kind": true
+    },
+    "source_file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Bang_ke_hoa_don_da_su_dung_1793524594152_2.xls",
+    "source_row": 29498
+  },
+  {
+    "doc": "BHHT2024024699",
+    "order": "579693600119228674",
+    "sequence": 153,
+    "old": "1C26MUV/00148003",
+    "new": "1C26MUV/00150167",
+    "new_date": "2026-11-01",
+    "expected": [
+      -1276851,
+      -102148,
+      -1378999
+    ],
+    "actual": [
+      -1276851,
+      -102148,
+      -1378999
+    ],
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "parent_status": "Hoá đơn mới",
+    "cqt_status": "Đã gửi CQT",
+    "cqt": "M1-26-XXNAS-00003154208",
+    "reason": "Điều chỉnh cho hóa đơn số 00148003, ký hiệu 1C26MUV, ngày 01/11/2026 do trả lại hàng của mã đơn hàng 579693600119228674",
+    "checks": {
+      "money": true,
+      "order": true,
+      "date": true,
+      "parent_date": true,
+      "parent_cqt": true,
+      "reason": true,
+      "kind": true
+    },
+    "source_file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Bang_ke_hoa_don_da_su_dung_1793524594152_2.xls",
+    "source_row": 29499
+  },
+  {
+    "doc": "BHHT2024023181",
+    "order": "579775968180078760",
+    "sequence": 154,
+    "old": "1C26MUV/00148010",
+    "new": "1C26MUV/00150168",
+    "new_date": "2026-11-01",
+    "expected": [
+      -449074,
+      -35926,
+      -485000
+    ],
+    "actual": [
+      -449074,
+      -35926,
+      -485000
+    ],
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "parent_status": "Hoá đơn mới",
+    "cqt_status": "Đã gửi CQT",
+    "cqt": "M1-26-XXNAS-00003154209",
+    "reason": "Điều chỉnh cho hóa đơn số 00148010, ký hiệu 1C26MUV, ngày 01/11/2026 do trả lại hàng của mã đơn hàng 579775968180078760",
+    "checks": {
+      "money": true,
+      "order": true,
+      "date": true,
+      "parent_date": true,
+      "parent_cqt": true,
+      "reason": true,
+      "kind": true
+    },
+    "source_file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Bang_ke_hoa_don_da_su_dung_1793524594152_2.xls",
+    "source_row": 29500
+  },
+  {
+    "doc": "BHHS2024007983",
+    "order": "241127B75SVV44",
+    "sequence": 155,
+    "old": "1C26MUV/00147997",
+    "new": "1C26MUV/00150169",
+    "new_date": "2026-11-01",
+    "expected": [
+      -2573148,
+      -205852,
+      -2779000
+    ],
+    "actual": [
+      -2573148,
+      -205852,
+      -2779000
+    ],
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "parent_status": "Hoá đơn mới",
+    "cqt_status": "Đã gửi CQT",
+    "cqt": "M1-26-XXNAS-00003154210",
+    "reason": "Điều chỉnh cho hóa đơn số 00147997, ký hiệu 1C26MUV, ngày 01/11/2026 do trả lại hàng của mã đơn hàng 241127B75SVV44",
+    "checks": {
+      "money": true,
+      "order": true,
+      "date": true,
+      "parent_date": true,
+      "parent_cqt": true,
+      "reason": true,
+      "kind": true
+    },
+    "source_file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Bang_ke_hoa_don_da_su_dung_1793524594152_2.xls",
+    "source_row": 29501
+  },
+  {
+    "doc": "BHHT2024023783",
+    "order": "579749328987064795",
+    "sequence": 156,
+    "old": "1C26MUV/00148007",
+    "new": "1C26MUV/00150170",
+    "new_date": "2026-11-01",
+    "expected": [
+      -371875,
+      -29750,
+      -401625
+    ],
+    "actual": [
+      -371875,
+      -29750,
+      -401625
+    ],
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "parent_status": "Hoá đơn mới",
+    "cqt_status": "Đã gửi CQT",
+    "cqt": "M1-26-XXNAS-00003154211",
+    "reason": "Điều chỉnh cho hóa đơn số 00148007, ký hiệu 1C26MUV, ngày 01/11/2026 do trả lại hàng của mã đơn hàng 579749328987064795",
+    "checks": {
+      "money": true,
+      "order": true,
+      "date": true,
+      "parent_date": true,
+      "parent_cqt": true,
+      "reason": true,
+      "kind": true
+    },
+    "source_file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Bang_ke_hoa_don_da_su_dung_1793524594152_2.xls",
+    "source_row": 29502
+  },
+  {
+    "doc": "BHHT2024023250",
+    "order": "579771455164024967",
+    "sequence": 157,
+    "old": "1C26MUV/00148009",
+    "new": "1C26MUV/00150171",
+    "new_date": "2026-11-01",
+    "expected": [
+      -1671296,
+      -133704,
+      -1805000
+    ],
+    "actual": [
+      -1671296,
+      -133704,
+      -1805000
+    ],
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "parent_status": "Hoá đơn mới",
+    "cqt_status": "Đã gửi CQT",
+    "cqt": "M1-26-XXNAS-00003154212",
+    "reason": "Điều chỉnh cho hóa đơn số 00148009, ký hiệu 1C26MUV, ngày 01/11/2026 do trả lại hàng của mã đơn hàng 579771455164024967",
+    "checks": {
+      "money": true,
+      "order": true,
+      "date": true,
+      "parent_date": true,
+      "parent_cqt": true,
+      "reason": true,
+      "kind": true
+    },
+    "source_file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Bang_ke_hoa_don_da_su_dung_1793524594152_2.xls",
+    "source_row": 29503
+  },
+  {
+    "doc": "BHHS2024008054",
+    "order": "241129G60J24A0",
+    "sequence": 158,
+    "old": "1C26MUV/00148001",
+    "new": "1C26MUV/00150172",
+    "new_date": "2026-11-01",
+    "expected": [
+      -1702778,
+      -136222,
+      -1839000
+    ],
+    "actual": [
+      -1702778,
+      -136222,
+      -1839000
+    ],
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "parent_status": "Hoá đơn mới",
+    "cqt_status": "Đã gửi CQT",
+    "cqt": "M1-26-XXNAS-00003154213",
+    "reason": "Điều chỉnh cho hóa đơn số 00148001, ký hiệu 1C26MUV, ngày 01/11/2026 do trả lại hàng của mã đơn hàng 241129G60J24A0",
+    "checks": {
+      "money": true,
+      "order": true,
+      "date": true,
+      "parent_date": true,
+      "parent_cqt": true,
+      "reason": true,
+      "kind": true
+    },
+    "source_file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Bang_ke_hoa_don_da_su_dung_1793524594152_2.xls",
+    "source_row": 29504
+  },
+  {
+    "doc": "BHHT2024023050",
+    "order": "579777152908167243",
+    "sequence": 159,
+    "old": "1C26MUV/00148011",
+    "new": "1C26MUV/00150173",
+    "new_date": "2026-11-01",
+    "expected": [
+      -1636111,
+      -130889,
+      -1767000
+    ],
+    "actual": [
+      -1636111,
+      -130889,
+      -1767000
+    ],
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "parent_status": "Hoá đơn mới",
+    "cqt_status": "Đã gửi CQT",
+    "cqt": "M1-26-XXNAS-00003154214",
+    "reason": "Điều chỉnh cho hóa đơn số 00148011, ký hiệu 1C26MUV, ngày 01/11/2026 do trả lại hàng của mã đơn hàng 579777152908167243",
+    "checks": {
+      "money": true,
+      "order": true,
+      "date": true,
+      "parent_date": true,
+      "parent_cqt": true,
+      "reason": true,
+      "kind": true
+    },
+    "source_file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Bang_ke_hoa_don_da_su_dung_1793524594152_2.xls",
+    "source_row": 29505
+  },
+  {
+    "doc": "BHHT2024023305",
+    "order": "579755212285315207",
+    "sequence": 160,
+    "old": "1C26MUV/00148008",
+    "new": "1C26MUV/00150174",
+    "new_date": "2026-11-01",
+    "expected": [
+      -1702778,
+      -136222,
+      -1839000
+    ],
+    "actual": [
+      -1702778,
+      -136222,
+      -1839000
+    ],
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "parent_status": "Hoá đơn mới",
+    "cqt_status": "Đã gửi CQT",
+    "cqt": "M1-26-XXNAS-00003154215",
+    "reason": "Điều chỉnh cho hóa đơn số 00148008, ký hiệu 1C26MUV, ngày 01/11/2026 do trả lại hàng của mã đơn hàng 579755212285315207",
+    "checks": {
+      "money": true,
+      "order": true,
+      "date": true,
+      "parent_date": true,
+      "parent_cqt": true,
+      "reason": true,
+      "kind": true
+    },
+    "source_file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Bang_ke_hoa_don_da_su_dung_1793524594152_2.xls",
+    "source_row": 29506
+  },
+  {
+    "doc": "BHHS2024008957",
+    "order": "241224NT6J8N0W",
+    "sequence": 161,
+    "old": "1C26MUV/00148012",
+    "new": "1C26MUV/00150175",
+    "new_date": "2026-11-01",
+    "expected": [
+      -962037,
+      -76963,
+      -1039000
+    ],
+    "actual": [
+      -962037,
+      -76963,
+      -1039000
+    ],
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "parent_status": "Hoá đơn mới",
+    "cqt_status": "Đã gửi CQT",
+    "cqt": "M1-26-XXNAS-00003154216",
+    "reason": "Điều chỉnh cho hóa đơn số 00148012, ký hiệu 1C26MUV, ngày 01/11/2026 do trả lại hàng của mã đơn hàng 241224NT6J8N0W",
+    "checks": {
+      "money": true,
+      "order": true,
+      "date": true,
+      "parent_date": true,
+      "parent_cqt": true,
+      "reason": true,
+      "kind": true
+    },
+    "source_file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Bang_ke_hoa_don_da_su_dung_1793524594152_2.xls",
+    "source_row": 29507
+  }
+]

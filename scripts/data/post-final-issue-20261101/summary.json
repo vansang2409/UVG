@@ -1,0 +1,127 @@
+{
+  "source_manifest": [
+    {
+      "file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Bang_ke_hoa_don_da_su_dung_1793524594152_1.xls",
+      "kind": "summary",
+      "bytes": 1266175,
+      "sha256": "304f4f7a2a5a1937e057aa037ecc3bc3defb58e51209db896729bf1987d91422"
+    },
+    {
+      "file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Bang_ke_hoa_don_da_su_dung_1793524594152_2.xls",
+      "kind": "summary",
+      "bytes": 3805996,
+      "sha256": "adc75c1eff4db7cd41bbf2d27b6198962ff96e96c1609b9b2cbc5cf0cfcfc25b"
+    },
+    {
+      "file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Danh_sach_hoa_don_dieu_chinh.xlsx",
+      "kind": "adjustment",
+      "bytes": 22440,
+      "sha256": "33d61f21df00ba914a15ae1ac577d99e0eb0b96f117a9d1c73002d78e2b8e5ad"
+    },
+    {
+      "file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Danh_sach_hoa_don_thay_the.xlsx",
+      "kind": "replacement",
+      "bytes": 148412,
+      "sha256": "1006300c73476d0cc87ce6b1ce5cfbf610774cf0c872c36ec91354fae705be19"
+    }
+  ],
+  "archive_sha256": "506507b35281202c0c74929109cbe1c600aeb53e41e82b49a484928bc5ed12df",
+  "plan_file": "C:\\Users\\thuong ngo\\Downloads\\CHECK HOA DON XUAT MOI 2024 31.10.2026\\IMPORT_DIEU_CHINH_163_PHIEU_TRA_HANG_2024_MOI_NHAT.xlsx",
+  "plan_sha256": "e17738f3bd55b77b75986837ba5dd7fc506ecd4c465f4484ae5c3f5bc8c6bb46",
+  "file_controls": [
+    {
+      "file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Bang_ke_hoa_don_da_su_dung_1793524594152_1.xls",
+      "invoices": 9673,
+      "period": "Từ ngày 31/10/2026 đến ngày 01/11/2026",
+      "money": [
+        15220231910,
+        1217619214,
+        16437851124
+      ]
+    },
+    {
+      "file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Bang_ke_hoa_don_da_su_dung_1793524594152_2.xls",
+      "invoices": 29502,
+      "period": "Từ ngày 31/10/2026 đến ngày 01/11/2026",
+      "money": [
+        37257774492,
+        2980621552,
+        40238396044
+      ]
+    }
+  ],
+  "export_invoices": 39175,
+  "export_money": [
+    52478006402,
+    4198240766,
+    56676247168
+  ],
+  "link_counts": {
+    "adjustment": 163,
+    "replacement": 2000
+  },
+  "new_invoices": 2163,
+  "prior_invoice_values_unchanged": true,
+  "adjustments": {
+    "invoices": 163,
+    "money": [
+      -225865926,
+      -18069275,
+      -243935201
+    ],
+    "all_reference_money_reason_checks_passed": true,
+    "cqt_statuses": {
+      "HĐ hợp lệ": 100,
+      "Đã gửi CQT": 63
+    },
+    "new_min": "1C26MUV/00150013",
+    "new_max": "1C26MUV/00150175",
+    "original_statuses": {
+      "Hóa đơn đã bị điều chỉnh": 100,
+      "Hoá đơn mới": 63
+    },
+    "pending_min": "1C26MUV/00150113",
+    "pending_max": "1C26MUV/00150175"
+  },
+  "replacements": {
+    "invoices": 2000,
+    "old_min": "1C26MUV/00133274",
+    "old_max": "1C26MUV/00135273",
+    "new_min": "1C26MUV/00148013",
+    "new_max": "1C26MUV/00150012",
+    "all_checks_passed": true,
+    "old_amount_removed": [
+      2883691447,
+      230695306,
+      3114386753
+    ],
+    "new_goods_vat": [
+      0,
+      0
+    ],
+    "cqt_statuses": {
+      "HĐ hợp lệ": 2000
+    },
+    "new_payment_blank_count": 2000
+  },
+  "revenue_scope": "Only the 2024 new-sales import after returns and duplicate replacements; excludes 273 unrelated invoices and historic invoices retained separately.",
+  "base_sales_money": [
+    49533443555,
+    3962675787,
+    53496119342
+  ],
+  "new_sales_net_goods": 49307577629,
+  "new_sales_net_vat": 3944606512,
+  "new_sales_net_payment": null,
+  "new_sales_net_payment_known_part": 53252184141,
+  "new_sales_net_payment_if_replacement_totals_zero": 53252184141,
+  "unknown_replacement_payment_invoices": 2000,
+  "issues": [],
+  "missing_latest_detail_export": true,
+  "limits": [
+    "63 invoice status values may still be awaiting update/CQT response; not automatically treated as rejected.",
+    "No current detailed export: cannot verify new product-level details, note flags or the 2000 blank replacement total-payment fields.",
+    "Blank payment is not changed to zero; the previous two promotional zero invoices use their own existing detailed-source evidence."
+  ],
+  "status_help": "https://helpv4.meinvoice.vn/kb/mot-so-van-de-lien-quan-den-hoa-don-khoi-tao-tu-may-tinh-tien-theo-nghi-dinh-254-2026-nd-cp/"
+}

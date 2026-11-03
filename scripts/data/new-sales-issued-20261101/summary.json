@@ -1,0 +1,280 @@
+{
+  "archive": {
+    "path": "C:\\Users\\thuong ngo\\Downloads\\Bang_ke_hoa_don_da_su_dung_1793518718337.zip",
+    "sha256": "ac10806265d4fdcaafc402a10bbfeb58e82b12279b5cd862431d6be34cf73f15"
+  },
+  "source_manifest": [
+    {
+      "file": "data/Meinv_SAU_XUAT_MOI_20261101/Bang_ke_hoa_don_da_su_dung_1793518718337_1.xls",
+      "bytes": 1266141,
+      "sha256": "ccfdfbf2b044358281d2c7de03ba29cab1d61b78cf68e094b8d1c67ba8dc4ee0"
+    },
+    {
+      "file": "data/Meinv_SAU_XUAT_MOI_20261101/Bang_ke_hoa_don_da_su_dung_1793518718337_2.xls",
+      "bytes": 3561592,
+      "sha256": "2af5d4a20627895b7a948c5926c6c3ca52981d9b0cac49bb2068ff5aed005f35"
+    }
+  ],
+  "plan": {
+    "file": "outputs/amis-2024-theo-btl-bhh-20261026/IMPORT_HOA_DON_MOI_AMIS_2024.xlsx",
+    "sha256": "c6ea974aeabc67e9912d6359448f853f4257fe79a808e3f16cf60d82f6f321ee",
+    "invoices": 34739,
+    "lines": 44189,
+    "money": [
+      49533443555,
+      3962675787,
+      53496119342
+    ]
+  },
+  "live_mapping": {
+    "url": "https://docs.google.com/spreadsheets/d/1d4fLQRALDLXOFOQQlZuXMCTAg4lnRQ7NbKH-UPJN0XE/edit",
+    "sheet": "Hóa đơn GTGT",
+    "range": "T10:U44198",
+    "rows_checked_against_local_plan_by_document_and_line_count": 44189,
+    "different_row_positions": 43817,
+    "snapshots": [
+      {
+        "file": "scripts/data/new-sales-issued-20261101/google-import-map-0.json",
+        "sha256": "31a0f8627afb18d3d640befd8a6d5d15a283811d257ba77d4cacc2024152be4e",
+        "range": "'Hóa đơn GTGT'!T10:U10009"
+      },
+      {
+        "file": "scripts/data/new-sales-issued-20261101/google-import-map-1.json",
+        "sha256": "77232194c7afe508c70d3aef6ece80fd92b0eef95fb4057957f7cb417fd96c63",
+        "range": "'Hóa đơn GTGT'!T10010:U20009"
+      },
+      {
+        "file": "scripts/data/new-sales-issued-20261101/google-import-map-2.json",
+        "sha256": "b88297333d66aa81ca869523cadc016f91451589467a61d663d8405a3583e09a",
+        "range": "'Hóa đơn GTGT'!T20010:U30009"
+      },
+      {
+        "file": "scripts/data/new-sales-issued-20261101/google-import-map-3.json",
+        "sha256": "ac613ea8a29964c75f5b80f1426cbb209c355f1aac85a1f05a5d21f946149be6",
+        "range": "'Hóa đơn GTGT'!T30010:U40009"
+      },
+      {
+        "file": "scripts/data/new-sales-issued-20261101/google-import-map-4.json",
+        "sha256": "2637f1b4e9d25af3979b89f04dacacd8201c47cca1f9c4e6d2448a2128a6bf15",
+        "range": "'Hóa đơn GTGT'!T40010:U44198"
+      }
+    ]
+  },
+  "export": {
+    "invoices": 37012,
+    "money": [
+      52703872328,
+      4216310041,
+      56920182369
+    ],
+    "files": [
+      {
+        "file": "data/Meinv_SAU_XUAT_MOI_20261101/Bang_ke_hoa_don_da_su_dung_1793518718337_1.xls",
+        "period": "Từ ngày 31/10/2026 đến ngày 01/11/2026",
+        "invoices": 9673,
+        "money": [
+          15220231910,
+          1217619214,
+          16437851124
+        ],
+        "dates": {
+          "2026-10-31": 9673
+        }
+      },
+      {
+        "file": "data/Meinv_SAU_XUAT_MOI_20261101/Bang_ke_hoa_don_da_su_dung_1793518718337_2.xls",
+        "period": "Từ ngày 31/10/2026 đến ngày 01/11/2026",
+        "invoices": 27339,
+        "money": [
+          37483640418,
+          2998690827,
+          40482331245
+        ],
+        "dates": {
+          "2026-11-01": 27339
+        }
+      }
+    ],
+    "footer_controls": [
+      {
+        "file": "data/Meinv_SAU_XUAT_MOI_20261101/Bang_ke_hoa_don_da_su_dung_1793518718337_1.xls",
+        "row": 9679,
+        "label": "Tổng cộng",
+        "money": [
+          15220231910,
+          1217619214,
+          16437851124
+        ]
+      },
+      {
+        "file": "data/Meinv_SAU_XUAT_MOI_20261101/Bang_ke_hoa_don_da_su_dung_1793518718337_2.xls",
+        "row": 27345,
+        "label": "Tổng cộng",
+        "money": [
+          37483640418,
+          2998690827,
+          40482331245
+        ]
+      }
+    ],
+    "dates": {
+      "2026-10-31": 9673,
+      "2026-11-01": 27339
+    },
+    "statuses": [
+      {
+        "invoice_status": "Hoá đơn thay thế",
+        "cqt_status": "HĐ hợp lệ",
+        "cqt_code_present": true,
+        "count": 2
+      },
+      {
+        "invoice_status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "cqt_code_present": true,
+        "count": 37010
+      }
+    ],
+    "order_types": {
+      "other": 10205,
+      "digits": 26807
+    }
+  },
+  "reconciliation": {
+    "exact_unique_matches": 32734,
+    "matched_money": [
+      46647604886,
+      3731808703,
+      50379413589
+    ],
+    "money_mismatches": 2,
+    "missing_documents": 0,
+    "ambiguous_orders": 2001,
+    "ambiguous_plan_documents": 2003,
+    "outside_plan_invoices": 273,
+    "outside_plan_money": [
+      286737326,
+      22938948,
+      309676274
+    ],
+    "matched_dates": {
+      "2026-10-31": 9398,
+      "2026-11-01": 23336
+    },
+    "matched_cqt_statuses": {
+      "HĐ hợp lệ": 32734
+    },
+    "matched_invoice_statuses": {
+      "Hoá đơn mới": 32734
+    },
+    "matched_missing_cqt_codes": 0,
+    "duplicate_invoice_keys": {},
+    "outside_declared_date_period": [],
+    "plan_duplicate_orders": {
+      "578322690199620003": 2,
+      "2409164C7X296M": 2
+    }
+  },
+  "resolved_by_order_and_exact_amount": {
+    "plan_documents_with_exact_money": 34737,
+    "plan_documents_with_unknown_payment_only": 2,
+    "plan_documents_with_other_money_or_missing_issues": 0,
+    "duplicate_groups": 2000,
+    "additional_invoices_vs_plan": 2000,
+    "additional_money_vs_plan": [
+      2883691447,
+      230695306,
+      3114386753
+    ],
+    "duplication_blocks": [
+      {
+        "first_min": 131274,
+        "first_max": 133273,
+        "second_min": 133274,
+        "second_max": 135273,
+        "first_contiguous": true,
+        "second_contiguous": true,
+        "number_offsets": {
+          "2000": 2000
+        }
+      }
+    ],
+    "covered_plan_dates": {
+      "2026-10-31": 9400,
+      "2026-11-01": 25339
+    },
+    "all_plan_candidate_statuses": {
+      "HĐ hợp lệ": 36739
+    },
+    "all_plan_candidates_have_cqt_code": true,
+    "blank_payment_invoices": [
+      {
+        "doc": "BHHT2024013153",
+        "seq": 18441,
+        "order": "579194726731254077",
+        "expected": [
+          0,
+          0,
+          0
+        ],
+        "invoices": [
+          {
+            "key": "1C26MUV/00129632",
+            "date": "2026-11-01",
+            "order": "579194726731254077",
+            "money": [
+              0,
+              0,
+              null
+            ],
+            "goods_before_discount": 0,
+            "discount": 0,
+            "invoice_status": "Hoá đơn mới",
+            "cqt_status": "HĐ hợp lệ",
+            "cqt_code_present": true,
+            "source": {
+              "file": "data/Meinv_SAU_XUAT_MOI_20261101/Bang_ke_hoa_don_da_su_dung_1793518718337_2.xls",
+              "row": 8964
+            }
+          }
+        ]
+      },
+      {
+        "doc": "BHHT2024013026",
+        "seq": 18616,
+        "order": "579196668846639119",
+        "expected": [
+          0,
+          0,
+          0
+        ],
+        "invoices": [
+          {
+            "key": "1C26MUV/00129806",
+            "date": "2026-11-01",
+            "order": "579196668846639119",
+            "money": [
+              0,
+              0,
+              null
+            ],
+            "goods_before_discount": 0,
+            "discount": 0,
+            "invoice_status": "Hoá đơn mới",
+            "cqt_status": "HĐ hợp lệ",
+            "cqt_code_present": true,
+            "source": {
+              "file": "data/Meinv_SAU_XUAT_MOI_20261101/Bang_ke_hoa_don_da_su_dung_1793518718337_2.xls",
+              "row": 9138
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "limits": [
+    "Bảng kê tổng kiểm tra số lượng, mã đơn và tiền ở cấp hóa đơn; chưa có bảng kê chi tiết mặt hàng.",
+    "Trạng thái và mã CQT theo bảng kê nguồn; chưa tra cứu CQT trực tiếp.",
+    "Không sửa nguồn, bộ import hoặc Google Sheets; chưa xử lý hoặc xác nhận phát hành phần trả hàng."
+  ]
+}

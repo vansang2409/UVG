@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "independent_reader": "openpyxl",
+  "source_invoices": 39175,
+  "adjustment_links": 163,
+  "replacement_links": 2000,
+  "adjustment_money": [
+    -225865926,
+    -18069275,
+    -243935201
+  ],
+  "adjustment_cqt_valid": 100,
+  "adjustment_cqt_sent": 63,
+  "replacements_cqt_valid": 2000,
+  "replacement_goods_vat_zero": 2000,
+  "replacement_payment_blanks_preserved": 2000,
+  "old_duplicate_value": [
+    2883691447,
+    230695306,
+    3114386753
+  ],
+  "net_new_2024_goods": 49307577629,
+  "net_new_2024_vat": 3944606512,
+  "net_payment_not_claimed_verified": true,
+  "report_rows_and_formulas_verified": true,
+  "sha256": "a726273f0800f984f0acdfce7ecb04905c955d6c3a7a9418c1a13be0b5064cb0"
+}

@@ -1,3 +1,173 @@
+# Kiểm tab báo cáo Google Sheets theo yêu cầu xem khớp chưa — 01/11/2026
+
+Đã đọc live tab `Ra soat chuoi 2024` (gid **700000010**) của `IMPORT MEINV 2024`, spreadsheet `1d4fLQRALDLXOFOQQlZuXMCTAg4lnRQ7NbKH-UPJN0XE`. Chỉ kiểm tra, **không sửa Google Sheets**. Đã kiểm A1:C13 cả công thức/giá trị và toàn bộ **778 gốc A15:P792**, đối chiếu bằng chứng đã kiểm ngày 30/10 và đợt bán mới/trả hàng/thay thế thực tế mới nhất. Tiền G/J/K/L, trạng thái N, các công thức tổng và số chênh đều khớp; 654 chuỗi điều chỉnh +6 thay thế cũ vẫn 0 theo bằng chứng đã kiểm, số cũ giữ 622.963.131đ.
+
+Tổng báo cáo **49.930.540.760đ chưa VAT** = **622.963.131đ cũ giữ** + **49.307.577.629đ bán mới sau trả hàng** (49.533.443.555 −225.865.926). Vì vậy khác số 49.307.577.629đ ở báo cáo chỉ bán mới là do cộng thêm phần cũ giữ, không phải lệch thêm. Không cộng lại 2.000 bản trùng cũ đã bị thay thế.
+
+**Chưa khớp hoàn toàn AMIS**: B11 **49.928.171.800đ**, B12 còn **+2.368.960đ**. Đọc thêm `Doi chieu lech 2024!A1:F33`, kiểm đủ 16 dòng và phép cộng: **HĐ111/đơn BHH2023005090 khác năm +3.888.889đ**, **16 nhóm khác tiền hàng −1.519.929đ**. Không tự sửa tiền nguồn để cân.
+
+Nội dung báo cáo còn cũ: A1/A2 ghi cập nhật 30/10 và kiểm đến29/10; A8:C10 vẫn “dự kiến/chưa đối chiếu phát hành”. Số tiền khớp kết quả phát hành đã kiểm nhưng các nhãn này chưa phản ánh 34.739 chứng từ bán mới đã kiểm, 163 HĐ điều chỉnh/219 dòng và 2.000 HĐ thay thế đều hợp lệ theo bảng chi tiết mới. Đã báo người dùng sự khác biệt giữa khớp tiền phát hành và còn chênh sổ AMIS; chưa được yêu cầu chỉnh tab nên giữ nguyên.
+
+Snapshot/căn cứ và kiểm số tại `scripts/data/check-google-revenue-report-20261101/{live,verification}.json`, `verify.py`: **passed**. Dùng file live mới nếu sau này được yêu cầu cập nhật, không gửi lại các request cũ vì có thể ghi đè thay đổi về sau.
+
+---
+
+# Đối chiếu bảng chi tiết mới: đủ 2.163 HĐ hợp lệ — 01/11/2026
+
+Người dùng bổ sung `C:\Users\thuong ngo\Downloads\Bang_ke_chi_tiet_hoa_don_da_su_dung_20261101_161720.zip`. Có một bảng chi tiết kỳ **03/10–01/11/2026**, rộng hơn kỳ bảng tổng trước, **59.409 HĐ /115.248 dòng**. Đã lưu bản giải nén byte-identical vào `data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/CHI_TIET/`. Đủ toàn bộ 39.175 HĐ của bảng tổng sau phát hành, không thiếu; 20.234 HĐ ngoài kỳ/phạm vi bảng tổng được giữ ngoài phép đối chiếu doanh thu bán mới 2024. Tổng tiền footer khớp các số có trong nguồn; không có chênh tiền số giữa các trường có giá trị trong bảng tổng và chi tiết. Toàn bộ sản phẩm của 37.012 HĐ trước đợt điều chỉnh/thay thế không đổi.
+
+- **163/163 HĐ điều chỉnh đều “HĐ hợp lệ”** trong bảng chi tiết mới, gồm cả 63 số `00150113–00150175` trước đó còn “Đã gửi CQT”. HĐ gốc tương ứng nay đều “Hóa đơn đã bị điều chỉnh”. Đủ **219 dòng**, tên hàng/ĐVT/SL/thành tiền khớp, thuế suất hàng 8%, số tiền vẫn giảm **225.865.926đ +18.069.275đ VAT =243.935.201đ**. Tham chiếu/lý do/mã đơn vẫn dựa trên hai bảng liên kết đã kiểm; bảng chi tiết không chứa các trường này.
+- **157 HĐ khớp cả đơn giá chính xác; 6 HĐ có 7 dòng đơn giá làm tròn đến đồng (ROUND_HALF_UP)**, giữ nguyên thành tiền từng dòng, VAT và thanh toán. Các số: `1C26MUV/00150024`, `00150063`, `00150070` (2 dòng), `00150087`, `00150098`, `00150162`. Không gọi toàn bộ đơn giá khớp tuyệt đối; báo cáo có bảng 7 dòng tại `Dieu chinh 163!A173:I180`.
+- **2.000/2.000 HĐ thay thế đều “HĐ hợp lệ”**, mỗi HĐ đúng một dòng có tính chất **“Ghi chú/diễn giải”**, tên hàng đúng `Thay thế hóa đơn số ... ngày 01/11/2026 do xuất trùng đơn hàng`. Tiền hàng/VAT ở bảng tổng là 0; ở dòng chi tiết, SL/đơn giá/thành tiền/VAT/thanh toán và thuế suất **đều trống**. Giữ nguyên trống, không đổi thành số 0 nguồn. Tài liệu MISA chính thức xác nhận dòng ghi chú không cho nhập đơn giá/thành tiền/thuế suất/tiền thuế: <https://helpv4.meinvoice.vn/kb/lamthenaodephathanhhoadoncodongghichudiengiai/>. Do đó **chưa xác minh được yêu cầu giữ 8% trên dòng thay thế** từ bản xuất thực tế.
+- **Bảng chi tiết không có cột Mã hàng hóa/dịch vụ**, chỉ có Mã nhóm HHDV; chưa xác minh được SKU thực tế sau phát hành. Không suy ra SKU đã phát hành từ SKU file import hoặc tên hàng.
+- Bộ bán mới 2024 sau trả hàng và loại bản trùng: tiền hàng **49.307.577.629đ**, VAT **3.944.606.512đ**, tổng thanh toán **tính từ tiền hàng + VAT =53.252.184.141đ**. Phần thay thế tính thanh toán =0 từ tiền hàng/VAT tổng đã xác minh và dòng ghi chú, không còn gọi đây là số thanh toán trực tiếp từ trường nguồn. Báo cáo ghi rõ cơ sở tính và vẫn giữ 2.000 ô thanh toán nguồn trống. Không cộng 273 HĐ ngoài bộ hoặc HĐ lịch sử giữ riêng.
+
+Đã cập nhật **chính báo cáo** `outputs/kiem-tra-sau-dieu-chinh-thay-the-20261101/KET_QUA_KIEM_TRA_SAU_PHAT_HANH_20261101.xlsx`, giữ ba tab/tham chiếu/giá trị ngoài phạm vi, bộ lọc bảng và cố định khung; bổ sung bảng 7 dòng làm tròn trong tab điều chỉnh. Trạng thái mới 163 hợp lệ/0 chờ được cập nhật, số tiền thanh toán có nhãn tính toán. Đã render xem đủ vùng thay đổi và kiểm độc lập openpyxl toàn bộ 115.248 dòng nguồn, 163/219 dòng điều chỉnh, 2.000 dòng ghi chú, công thức/cached values, số nguồn/trống và phạm vi sửa báo cáo: **passed**.
+
+Căn cứ: `scripts/audit_final_detail_20261101.py`, `scripts/verify_final_detail_20261101.py`, `scripts/data/post-final-detail-20261101/{summary,adjustments,adjustment-lines,replacements,price-rounding,verification}.json`, `update.mjs`; bản báo cáo trước lưu nội bộ `before.xlsx`. SHA256 ZIP **`b631adb9c7c4fdf419cfc3801d54dc27bae6370918c2f97aeb911619f90082ac`**, bảng giải nén **`c9f1244fae37c5189888b578a68bbf4ffb196fbe3202b03799d354c620779375`**, báo cáo mới **`6ade8bd916da60f5c6f5793e00c5bdc2a2880b432fb26bd4ff5fcb7d7e8c8f82`**. Nguồn, file import và các bảng Google Sheets không sửa; không nhập/ký/phát hành, commit/push.
+
+---
+
+# Kiểm tra thực tế sau phát hành điều chỉnh, thay thế — 01/11/2026
+
+Đã nhận ba file mới từ Downloads: `Bang_ke_hoa_don_da_su_dung_1793524594152.zip`, `Danh_sach_hoa_don_dieu_chinh.xlsx`, `Danh_sach_hoa_don_thay_the.xlsx`. Lưu bản sao byte-identical trong `data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/`; ZIP có hai bảng tổng kỳ 31/10–01/11/2026. Có **39.175 HĐ**, tăng đúng **2.163 HĐ** so với bảng trước; không thiếu/thừa số HĐ mới, tiền/ngày/mã đơn/mã CQT của HĐ cũ không đổi. Kết quả thực tế dưới đây thay phần chờ bằng chứng ở mục lịch sử kế tiếp.
+
+- **2.000 HĐ thay thế**: liên kết đúng một-một từ lô trùng `1C26MUV/00133274–00135273` sang `1C26MUV/00148013–00150012`, ngày 01/11/2026. Lô trùng cũ đã có trạng thái “Hóa đơn đã bị thay thế”; lô gốc giữ lại `00131274–00133273` không đổi. Bản thay thế mới đủ 2.000 trạng thái **“HĐ hợp lệ”**, tiền hàng/VAT đều 0. **Cả 2.000 ô tổng thanh toán trong bảng tổng mới đều trống**, chưa được xác minh bằng 0; giữ nguyên trống trong báo cáo.
+- **163 HĐ điều chỉnh** mới `1C26MUV/00150013–00150175`, ngày 01/11/2026: khớp toàn bộ tham chiếu, mã CQT gốc, lý do và mã đơn từ HĐ gốc, số tiền theo file import Downloads mới nhất (hash `e17738f3bd55b77b75986837ba5dd7fc506ecd4c465f4484ae5c3f5bc8c6bb46`). Tổng giảm **225.865.926đ tiền hàng +18.069.275đ VAT =243.935.201đ thanh toán**. Có **100 “HĐ hợp lệ” và 63 “Đã gửi CQT”**; 63 số cuối là **`1C26MUV/00150113–00150175`**, HĐ gốc tương ứng vẫn ghi “Hoá đơn mới”. Chưa suy diễn 63 HĐ bị từ chối; cần cập nhật trạng thái/kiểm tra lịch sử truyền nhận.
+- Phạm vi **bán mới 2024**, tính một bản mỗi chứng từ rồi trừ đủ 163 HĐ trả hàng: tiền hàng **49.307.577.629đ**, VAT **3.944.606.512đ**. Bao gồm cả 63 điều chỉnh còn “Đã gửi CQT”; loại 273 HĐ ngoài bộ và các HĐ lịch sử giữ riêng. Thanh toán **53.252.184.141đ là giá trị dự kiến có điều kiện nếu 2.000 HĐ thay thế có tổng thanh toán bằng 0**, chưa phải tổng thanh toán đã xác minh. Không cộng toàn bộ bảng tổng thô vì còn HĐ cũ đã bị thay thế.
+- **Chưa có bảng kê chi tiết mới**: chưa kiểm được dòng hàng, SKU, cờ ghi chú/diễn giải của HĐ mới hoặc 2.000 ô tổng thanh toán trống. Hai HĐ khuyến mại gốc `00129632`, `00129806` có bằng chứng chi tiết cũ riêng xác nhận 0; không dùng đó làm quy tắc cho mọi ô trống.
+
+Báo cáo giao người dùng: `outputs/kiem-tra-sau-dieu-chinh-thay-the-20261101/KET_QUA_KIEM_TRA_SAU_PHAT_HANH_20261101.xlsx`, gồm tổng hợp, 163 liên kết điều chỉnh và 2.000 liên kết thay thế; đánh dấu trạng thái chờ và giữ trống thanh toán chưa xác minh. Đã render xem ảnh và kiểm độc lập bằng openpyxl toàn bộ số liệu, liên kết, công thức, kiểu text mã/số HĐ; **verification passed**. SHA256 báo cáo `a726273f0800f984f0acdfce7ecb04905c955d6c3a7a9418c1a13be0b5064cb0`.
+
+Căn cứ: `scripts/audit_final_issue_20261101.py`, `scripts/verify_final_issue_20261101.py`, và `scripts/data/post-final-issue-20261101/{summary,adjustments,replacements,pending-cqt,verification}.json`, `build.mjs`. SHA256 ZIP `506507b35281202c0c74929109cbe1c600aeb53e41e82b49a484928bc5ed12df`; hai bảng tổng giải nén `304f4f7a2a5a1937e057aa037ecc3bc3defb58e51209db896729bf1987d91422` và `adc75c1eff4db7cd41bbf2d27b6198962ff96e96c1609b9b2cbc5cf0cfcfc25b`; danh sách điều chỉnh `33d61f21df00ba914a15ae1ac577d99e0eb0b96f117a9d1c73002d78e2b8e5ad`; danh sách thay thế `1006300c73476d0cc87ce6b1ce5cfbf610774cf0c872c36ec91354fae705be19`.
+
+Hướng dẫn MISA đã tra: <https://helpv4.meinvoice.vn/kb/mot-so-van-de-lien-quan-den-hoa-don-khoi-tao-tu-may-tinh-tien-theo-nghi-dinh-254-2026-nd-cp/> (Câu 2): cập nhật thông tin hóa đơn và xem lịch sử truyền nhận khi trạng thái còn “Đã gửi CQT”. Không đề nghị phát hành lại 63 HĐ. Không sửa Google Sheets hoặc file import; không nhập/ký/phát hành HĐ, commit/push trong lượt kiểm tra này.
+
+---
+
+# Người dùng xác nhận đã import và phát hành điều chỉnh, thay thế — 01/11/2026
+
+Người dùng thông báo **“Đã import điều chỉnh và thay thế”**, sau đó xác nhận thêm **“phát hành rồi”**. Ghi nhận **đã import và phát hành cả hai bộ**: **điều chỉnh163phiếu trả hàng/219dòng** và **thay thế về0 cho2.000HĐ trùng phát hành sau** (`1C26MUV/00133274–00135273`, mỗiHĐ một dòng diễn giải). Xác nhận này thay trạng thái chờimport/pháthành trong các mục lịch sử; ngày01/11/2026 là ngày nhận xác nhận, chưa tự suy ra số/ngày của từngHĐ mới.
+
+Trạng thái đãpháthành hiện dựa trên xác nhận của người dùng. Chưa có bảng kê/liên kết sau đợt xử lý để đối chiếu độc lập sốHĐ thực tế, trạngtháiCQT, thamchiếu và tổngtiền; chưa kết luận sốliệu sau xử lý đã khớp từ nguồn mới.
+
+Bước tiếp theo: nhận bảng kê tổng, chi tiết và bảng liên kết điều chỉnh/thay thế mới, kỳbao phủ ngàypháthành thực tế; đối chiếu đủ163phiếu với HĐgốc, đủ2.000HĐ thay thếvề0, giữ lôgốcpháthànhtrước, rồi tính lại doanhthu/VAT/thanh toán từ dữliệuthực tế. Các JSONkiểmchứng/fileimport vẫn lưu trạngthái tại thờiđiểm chuẩn bị; mục này là cậpnhật trạngthái hiệnhành. Chưa có thao tác nhập/ký/pháthành doCodex thực hiện.
+
+---
+
+# Điền số HĐ bị điều chỉnh cho các dòng tiếp theo — 01/11/2026
+
+Đã sửa tiếp chính file ởDownloads `C:\Users\thuong ngo\Downloads\CHECK HOA DON XUAT MOI 2024 31.10.2026\IMPORT_DIEU_CHINH_163_PHIEU_TRA_HANG_2024_MOI_NHAT.xlsx`: điền **56ô trống cộtK (Số hóa đơn bị điều chỉnh)** ở dòngthứ2trởđi của **43phiếu nhiều dòng**, lấy đúng sốHĐ từ dòngđầu theo nhómSTT. Nay đủ **219/219dòng** có sốHĐ bịđiềuchỉnh, giữtext8chữsố; vẫn163phiếu.
+
+Bản người dùng đã sửa thêm sau lượtSKU (hashđầu `c52e2ea67d1ecf73a9a4d0f0ad75c4ae8034689ff65d4956b1931d6a44732f06`), nên lấy chính bản đó làmnguồn, không khôi phục bảncũ. Đối chiếu đủ5.928ô: chỉ56giátrịK đổi; mọi ô/kiểu dữliệu/địnhdạng còn lại giữnguyên, kểcảSKU tạiZ, ngày/lýdo/sốtiền. Giữ bộlọcA9:Z228 và chínhxác trạngthái cốđịnh/cuộn/chọnô của người dùng (A11/F1/J11); nguồn gócnhìn được khôi phục sau bước xuất của thưviện. Tổng giảm vẫn225.865.926đ +18.069.275đVAT =243.935.201đ.
+
+Căn cứ/bảntrước/builder/kiểmđộc lập tại `scripts/data/fill-return-invoice-number-20261101/{before.xlsx,prepare.py,prepared.json,edit.mjs,verify_install.py,verification.json}`. Đã xemảnh trước/sau và đọc lại bằngopenpyxl; lưu đè trực tiếp file đã chỉđịnh. SHA256 bảncuối: `e17738f3bd55b77b75986837ba5dd7fc506ecd4c465f4484ae5c3f5bc8c6bb46`. Không sửaGoogleSheets hoặc cácbảnExcel trongoutputs; chưaimport/phát hành hoặccommit/push.
+
+---
+
+# Bổ sung mã hàng vào file import điều chỉnh ở Downloads — 01/11/2026
+
+Theo đường dẫn người dùng chỉ định, đã sửa **trực tiếp** `C:\Users\thuong ngo\Downloads\CHECK HOA DON XUAT MOI 2024 31.10.2026\IMPORT_DIEU_CHINH_163_PHIEU_TRA_HANG_2024_MOI_NHAT.xlsx`. Bản người dùng đã bỏ cộtSố chứng từ, còn25cộtA:Y, khác bảnExcel xuất trongoutputs. Đã thêm **Z9 `Mã hàng hóa/dịch vụ`**, điền đủ **219dòng/163phiếu**, gồm **18mã hàng**, không khôi phục lại cộtSố chứng từ đã bỏ.
+
+Ghép chính xác kýhiệu/sốHĐgốc → BHH theo thamchiếu đã kiểm, rồi BHH +tênhàng +ĐVT +SL +đơngiá +thànhtiền với nguồn trảhàng AMIS đã đốisoát (`scripts/data/amis-2024-linked-20261026/return-adjustment-import.json`, audit cóSKU/mãAMIS/dòngnguồn). Không dùng ghép gầnđúng theo tênhàng; đủ219dòng có một mãduynhất.
+
+Đã đọc lại toàn bộ **5.700ô cũ A1:Y228**: giátrị, kiểu ô và địnhdạng hiểnthị giữnguyên; giữ ôgộp, bộlọc và cốđịnh dòng. Bộlọc gốcA9:Y9 được giữ lại sau khi thưviệnxuất bỏ qua; cộtmới chỉ thêm ởZ. Tổng giảm vẫn225.865.926đ +18.069.275đVAT =243.935.201đ. Đã xem ảnh trước/sau và cácdòngcuối; kiểm độc lập nguồn/SKU bằngopenpyxl đạt. Bản gốc lưu nội bộ tại `scripts/data/add-return-sku-20261101/before.xlsx`; căn cứ/builder cùngthưmục. Mã `scripts/{prepare_add_return_sku_20261101,verify_install_return_sku_20261101}.py`.
+
+SHA256 file ởDownloads sau cậpnhật: `bcf12e6d4c5fde7b7cc3dbf283ba5dd276392a68c027f73046b8790fafc4e600`. **Bản mới nhất có mãhàng là fileDownloads trên**; filecùngtên tại `outputs/import-dieu-chinh-163-20261101/` và GoogleSheets chưa được sửa theo yêu cầu thêmSKU này. Chưaimport/phát hành hoặccommit/push.
+
+---
+
+# Xuất Excel import điều chỉnh 163 phiếu trả hàng bản mới nhất — 01/11/2026
+
+Theo yêu cầu xuất file, đã đọc mới trực tiếp tab `Import dieu chinh` (gid700000001), A1:Z228, và tạo **một file Excel riêng** `outputs/import-dieu-chinh-163-20261101/IMPORT_DIEU_CHINH_163_PHIEU_TRA_HANG_2024_MOI_NHAT.xlsx`. Một sheet cùng tên, tiêu đềhàng9, đủ **163phiếu/219dòng/26cột**. Giữ nguyên thứ tự và nội dung bảnlive, gồm ngàyđiềuchỉnh01/11/2026, đủ163thamchiếu HĐgốc/ngày/mãCQT, lýdo mới ởN theo mãđơn HĐgốc và thông tin người mua đã sửa.
+
+Đã chuyển kết quả219côngthức tra mãđơn ởY thành **giá trịtext đúng kết quảhiện tại**, giữ đủ chữ số mãđơn/sốHĐ; file riêng không cần các tabtra củaGoogleSheets. Các ô ngày làngàyExcel, tiền/SL làsố đúngdấu, ôtrống giữtrống. Tổng giảm **225.865.926đ tiền hàng +18.069.275đ VAT =243.935.201đ thanh toán**.
+
+Kiểm độc lập bằngopenpyxl đọc lại đủ5.928ô khớpsnapshotnguồn; đủsốphiếu, ngày, thamchiếu/lýdo, mãđơntext; không côngthức hoặc dữliệuthừa. Đã xem ảnhrender vùngngày, thamchiếu/lýdo, tiềnhàng và cácdòngcuối. Đọc lại bảnlive sauxuất xác nhận giátrịnguồn chưađổi. SHA256 filecuối: `8334bd62a397f012adc75c44bc2c6fcd8b359e32dd80df23b6aff5a321dff5de`.
+
+Builder/snapshot/kiểmchứng: `scripts/data/export-return-adjustment-163-20261101/{build.mjs,source-cells.json,verification.json,live-recheck.json}` và `scripts/verify_export_return_adjustment_163_20261101.py`. Không sửaGoogleSheets, cácworkbook kếhoạch cũ, import/phát hành hoặccommit/push tronglượt xuất này. Dùng file riêng mới trên khi cần nhập bộ163phiếu; các bảnExcel cũ chứa tabtrảhàng chưa được đồngbộ theo bảnlive.
+
+---
+
+# Cập nhật import điều chỉnh trả hàng: tham chiếu thực tế và lý do theo mã đơn HĐ gốc — 01/11/2026
+
+Đã sửa trực tiếp tab `Import dieu chinh` (gid700000001) trong `IMPORT MEINV 2024` theo yêu cầu người dùng. Sau khi xác nhận chỉ điền thông tin HĐ gốc/ngày, đã cập nhật ngày điều chỉnh **01/11/2026** tại B và ký hiệu/số/ngày/mãCQT gốc tại J:M, chỉ ở dòng đầu của **163phiếu/219dòng**. Tất cả163chứngtừ ghép duy nhất với HĐ đã phát hành ngày01/11, không thuộc lô2.000HĐ trùng. Cập nhật ghi chúA7, giữ nguyên số thứ tự/thông tin người mua đã được người dùng sửa trên bảnlive. Căn cứ `scripts/data/return-adjustment-issued-20261101/{before-cells,after-cells,prepared,verification}.json`, script `scripts/prepare_return_adjustment_issued_20261101.py`.
+
+Yêu cầu tiếp theo đã cập nhật riêng **N10:N228 (Lý do điều chỉnh)**, đủ219dòng, theo mẫu **`Điều chỉnh cho hóa đơn số 00147854, ký hiệu 1C26MUV, ngày 01/11/2026 do trả lại hàng của mã đơn hàng 578327706779224564`**, đổi số/ngày/mãđơn theo từngHĐ gốc. Mã đơn đọc trực tiếp cộtMã đơn hàng từ bảng kê tổng đã phát hành, ghép bằng ký hiệu/sốHĐ đang tham chiếu; không chỉ lấy mặc định cộtY của fileimport. Đã đối chiếu đủ163HĐ gốc và các mã đơn hiện cũng khớpY. Các dòng cùngphiếu dùng cùnglýdo.
+
+Đọc lại toàn bộ5.928ô của tab sau mỗi lượt: lượt thamchiếu đổi816ô (815ô ngày/thamchiếu +ghi chúA7), lượt lýdo đổi đúng219ô ởN; mọi giá trị/định dạng/validation/ghi chú ngoài phạm vi giữ nguyên, cộtN vẫnWRAP. Giữ219dòng hàng, SL/đơn giá/tiền và tổng giảm **225.865.926đ tiền hàng +18.069.275đ VAT =243.935.201đ thanh toán**. Căn cứ lýdo `scripts/data/return-adjustment-reasons-20261101/{before-cells,after-cells,prepared,verification}.json`. Kiểm bằngAPI; ComputerUse ở lượt trước bị dừng vì không xác định chắc URL Chrome trênWindows, chưa xác minh ảnhnative. Chưaimport/phát hành hoặccommit/push; các fileExcel cục bộ của bộ trả hàng cũ chưa được cập nhật theo bảnlive này.
+
+---
+
+# Sửa file thay thế: mỗi HĐ một dòng diễn giải, ngày 01/11/2026 — 01/11/2026
+
+Theo yêu cầu bổ sung của người dùng, đã sửa **chính file** `outputs/thay-the-trung-2000-20261101/IMPORT_THAY_THE_VE_0_2000_HD_TRUNG_2024.xlsx`: nay **2.000HĐ/2.000dòng**, thay cho bản2.720dòng/ngày mới trống bên dưới. Giữ cùng sheet `Hóa đơn GTGT`, tiêu đềhàng9 và nguyên22cột mẫu A:V; thêmW `Lý do thay thế`, X **`Là dòng ghi chú/diễn giải`**.
+
+- B điền ngày **01/11/2026** cho toàn bộHĐ. Tham chiếu vẫn đúng lô `1C26MUV/00133274–00135273`, Nngàygốc01/11/2026, Ocùng mãCQT nguồn; thông tin người mua giữ nguyên.
+- Mỗi HĐ một dòng. P(Tên hàng hóa/dịch vụ) và W(Lý do thay thế) cùng nội dung chính xác **`Thay thế hóa đơn số 00133274 ngày 01/11/2026 do xuất trùng đơn hàng`**, thay sốHĐ tương ứng từng dòng. Xđánh số **1** ở đủ2.000dòng; QĐVT để trống vì nay là dòng diễn giải.
+- RSL/Sđơn giá/Tthành tiền/VtổngVAT đều số0. Uthuế suất giữ **giá trị số8**, định dạng hiển thị **8%** để đúng cách nhập thuế suất của mẫu. Không có dòng hàng cũ còn sót sau hàng2009.
+- Đã cập nhật scriptchuẩn bị/builder/kiểm chứng cùng đợt trước, đọc lại2.000dòng24cột bằngopenpyxl và đối chiếu nguồn độc lập: đủtham chiếu/ngày/mãCQT, một dòngmỗiHĐ, P=W, X=1, tiền/SL0, U8; không côngthức hoặc dữ liệu ngoài vùng nhập. Đã xem ảnh ngày, tham chiếu, lý do/cờ ghi chú, tiền và dòng cuối. Nguồn/mẫu không đổihash; chưaimport/phát hành hoặccommit/push.
+- SHA256 bảnmới: `8482badc9e8a5a9c9c7c430f46edbc952f99e9f06c471a9c5cd8dd0d241808ec`. Căn cứ hiện hành: `scripts/data/replacement-duplicate-2000-20261101/{prepared,verification}.json`. Các mô tả2.720dòng và Bđể trống trong mục lịch sử dưới đây đã được thay thế theo yêu cầu mới.
+
+---
+
+# File import thay thế về 0 cho lô 2.000 HĐ trùng phát hành sau — 01/11/2026
+
+Theo yêu cầu người dùng, đã tạo **một file import** `outputs/thay-the-trung-2000-20261101/IMPORT_THAY_THE_VE_0_2000_HD_TRUNG_2024.xlsx`, sheet `Hóa đơn GTGT`, tiêu đềhàng9, đúng22cột A:V theo mẫu thay thế MTT một thuế suất người dùng đã cung cấp `data/Mau_hoa_don_GTGT_MTT_1_thue_suat_Thay_the.xls`.
+
+- Đủ **2.000HĐ/2.720dòng hàng**, thay thế đúng lô phát hành sau **`1C26MUV/00133274–00135273`**, ngàygốc **01/11/2026**. Giữ lô phát hành trước `00131274–00133273`; không đưa273HĐ ngoài bộ2024 hoặc hai HĐ khuyến mại0đ vào file này.
+- Giữ nguyên tên hàng, ĐVT và thông tin người mua từ bảng kê chi tiết từng HĐ sau phát hành; để trống trường nguồn không có. Đưa **SL, đơn giá, thành tiền về0 từng dòng**; thuế suất8, tổngVAT0 ở dòngđầu mỗi HĐ. Không ghi số âm của mẫu điều chỉnh vào file thay thế.
+- Tham chiếu L:M:N điền đúng ký hiệu/số8chữsố/ngàygốc; **O điền mãCQT thật của đủ2.000HĐ** từ bảng kê tổng. K để trống vì cùng hệ thống MISA. Các cột thông tin chung/tham chiếu/thuế suất/VAT chỉ ghi dòngđầu mỗi HĐ; STT1–2000 lặp đúng nhóm dòng hàng.
+- **Ngày HĐ mới cộtB để trống**, tô vàng, có hướng dẫn trênhàng7: người nhập chọn ngày thực tế trước khi nhập. Ngày ởN là ngày HĐ bị thay thế01/11/2026, không phải ngày HĐ mới.
+- Giá trị lô bị thay thế **2.883.691.447đ tiền hàng +230.695.306đ VAT =3.114.386.753đ thanh toán**; bản thay thế dự tính0 cả ba khoản. File chỉ được chuẩn bị, **chưa import/ký/phát hành**, nên kết quả kiểm phát hành hiện tại vẫn còn phần dư cho đến khi KT thực hiện và có bảng kê mới để đối chiếu.
+- Đã đọc lại toàn bộ2.720dòng/22cột bằngopenpyxl, đối chiếu độc lập với hai bảng kê tổng và bảng chi tiết gốc: đủ tham chiếu, mãCQT, ngày, tên/ĐVT/người mua; tất cả SL/đơn giá/thành tiền/VAT0; sốHĐ giữtext8chữsố. Không có dòng ví dụ, công thức hoặc dữ liệu ngoài vùng nhập. Đã xem ảnh mẫu, tham chiếu, tiền0, người mua và dòng cuối; nguồn/mẫu không đổihash. SHA256 file: `59b7b0e211502bb6bd6407233fca96d0748892b34a564c3d8d6cd8ce9e247429`.
+
+Mã: `scripts/{prepare_replacement_duplicate_2000_20261101,verify_replacement_duplicate_2000_20261101}.py`; builder và căn cứ tại `scripts/data/replacement-duplicate-2000-20261101/{build.mjs,prepared.json,verification.json}`. Hướng dẫn nhập MISA đã kiểm: [Nhập khẩu hóa đơn thay thế](https://helpv4.meinvoice.vn/kb/nhap-khau-hoa-don-thay-the/), chọn trạng tháiHóa đơn thay thế và ghép đúng ký hiệu/sốHĐ tồn tại. Chưacommit/push hoặc sửaGoogleSheets.
+
+---
+
+# Đã so bảng kê chi tiết: xác nhận 2.000 cặp lặp hàng; tách phát sinh team2026 — 01/11/2026
+
+Người dùng bổ sung ZIP `Bang_ke_chi_tiet_hoa_don_da_su_dung_20261101_143931.zip` và xác nhận **hôm qua (31/10/2026) team2026 cũng xuất/phát hành đơn2026**. Bảng kê hai ngày có lẫn phát sinh ngoài bộ2024; giữ riêng273HĐ ngoài danh sách mã đơn của bộ2024, tất cả273đều ngày31/10. Không cộng273HĐ này vào phần dư2.000HĐ. Chưa đối chiếu từng HĐ trong nhóm273 với sổ bán2026.
+
+- Đã kiểm CRC, lưu nguyên byte file chi tiết tại `data/Meinv_SAU_XUAT_MOI_20261101/CHI_TIET/`. Đọc đủ **47.187 dòng/37.012 HĐ**, đúng kỳ31/10–01/11; tập ký hiệu/số HĐ khớp bảng tổng, không thiếu/thừa, ngày từng HĐ khớp; STT liên tục và tổng tiền hàng/VAT/thanh toán khớp dòng tổng cộng nguồn. Sheet2 của file chi tiết trống dữ liệu.
+- **Xác nhận2.000cặp lặp nội dung:** hai dải `1C26MUV/00131274–00133273` và `1C26MUV/00133274–00135273` cùng ngày01/11, mỗi dải2.720dòng hàng. Từng cặp trùng đầy đủ tên hàng, ĐVT, SL, đơn giá, thành tiền, thuế suất, VAT, thanh toán, tính chất/khuyến mại và thông tin người mua/địa chỉ/MST/hình thức thanh toán. Bảng chi tiết ghiĐã cấp mã. So theo tập dòng có giữ số lần xuất hiện, không chỉ dựa vào tổng tiền hay cùng mã đơn.
+- Thời gian phát hành nguồn (đã đổi serialExcel sang ngày/giờ): lô số nhỏ **01/11/2026 10:45:06–11:01:09**, lô số lớn **11:09:13–11:26:03**. Phần dư so bộ import2024 vẫn **2.883.691.447đ tiền hàng +230.695.306đ VAT =3.114.386.753đ thanh toán**. Đây là hai lô của ngày01/11; việc team2026 phát hành đơn ngày31/10 đã được giữ riêng như trên.
+- Đối chiếu tất cả36.739HĐ có mã đơn thuộc34.739chứngtừ kế hoạch: **36.701HĐ khớp chính xác năm trường tên/ĐVT/SL/đơn giá/thành tiền**; **36HĐ thuộc33chứngtừ chỉ khác đơn giá được làm tròn đồng theohalf-up**, giữ nguyên tên/ĐVT/SL/thành tiền; **2HĐ khuyến mại0đ** có cách biểu diễn riêng nêu dưới. Không có khác biệt dòng hàng nào khác trong phạm vi kiểm. Trong2.000cặp có3chứngtừ đơn giá làm tròn ở cả hai bản, nên hai HĐ trong cặp vẫn giống nhau hoàn toàn.
+- Hai HĐ `1C26MUV/00129632` và `1C26MUV/00129806` nay **có căn cứ thanh toán0 từ chính bảng chi tiết**, không phải áp dụng quy tắc trống=0. Chi tiết ghiKhuyến mại, SL1, thêm hậu tố(Hàng khuyến mại không thu tiền), thanh toán0; đơn giá/thành tiền/VAT dòng trống. Bảng tổng ghi tiền hàng/VAT0 và thanh toántrống. Giữ nguyên ô nguồn, dùng giá trị thanh toán0 từ chi tiết cùng sốHĐ để đối soát. Hai chứngtừ tương ứng BHHT2024013153/BHHT2024013026 vốn có đơn giá/thành tiền0 trong kế hoạch.
+- Đã cập nhật cùng file `outputs/kiem-tra-xuat-moi-20261101/KIEM_TRA_XUAT_MOI_2024.xlsx`: tabKiem tra trung thêm số dòng, kết quả so chi tiết/người mua, giờ phát hành mỗi HĐ và so đơn giá với bộimport; tabDon gia va hang KM liệt kê36HĐ làm tròn và2HĐ khuyến mại. Các mã đơn vẫn giữtext đủ chữ số; số tiền, công thức tổng và2.000cặp cũ giữ nguyên.
+
+Mã và căn cứ: `scripts/{audit_new_sales_details_20261101,verify_new_sales_details_20261101}.py`, `scripts/data/new-sales-issued-20261101/{detail-summary,detail-pairs,detail-plan-comparison,detail-lines,detail-verification}.json`. Kiểm độc lập bằngopenpyxl đọc nguồn, từng cặp, bộimport và file báo cáo đã cập nhật; nguồn/bộimport không đổihash. Không tra cứuCQT trực tiếp hoặc kiểm chữ kýXML; chưa chọn HĐ giữ lại trong cặp, chưa sửaGoogleSheets, import/phát hành hoặc chốt tham chiếu trả hàng cho nhóm trùng. Chưacommit/push.
+
+---
+
+# Kiểm bảng kê sau xuất mới 2024: 2.000 cặp cùng mã đơn và tiền — 01/11/2026
+
+Đã nhận `Bang_ke_hoa_don_da_su_dung_1793518718337.zip` từ Downloads, kiểm CRC và lưu nguyên byte hai file bảng kê vào `data/Meinv_SAU_XUAT_MOI_20261101/`. Cả hai chọn kỳ **31/10/2026–01/11/2026**; tổng **37.012 HĐ**, gồm 9.673 HĐ ngày31/10 và27.339 HĐ ngày01/11. STT từng phần liên tục, không trùng ký hiệu/số HĐ giữa hai phần; tổng tính lại khớp dòng tổng cộng nguồn.
+
+- Đối chiếu bộ xuất mới **34.739 chứng từ/44.189 dòng**, tiền hàng49.533.443.555đ, VAT3.962.675.787đ, thanh toán53.496.119.342đ. Đọc trực tiếp cộtT:U (Mã đơn hàng/Số chứng từ) tab `Hóa đơn GTGT` của `IMPORT MEINV 2024`, giữ snapshot và kiểm đủ số dòng từng chứng từ với file cục bộ. Vị trí một số dòng khác nhau giữa hai bản nên ghép bằng chứng từ, không ghép theo số hàng.
+- **Có dấu hiệu xuất trùng một lô2.000 HĐ:** dải `1C26MUV/00131274–00133273` và `1C26MUV/00133274–00135273`, tất cả ngày01/11/2026. Mỗi cặp chênh đúng2.000 số HĐ, cùng mã đơn hàng và cả ba khoản tiền. Bộ kế hoạch chỉ có một chứng từ cho từng tổ hợp mã đơn/tiền này. Phần dư so kế hoạch: **2.883.691.447đ tiền hàng +230.695.306đ VAT =3.114.386.753đ thanh toán**. Chưa chọn một HĐ trong mỗi cặp làm tham chiếu trả hàng hoặc tự xử lý hóa đơn.
+- Tìm đủ mã đơn và tiền hàng/VAT của34.739chứng từ: **34.737 chứng từ có HĐ khớp đủ ba khoản**, trong đó2.000chứng từ có hai HĐ cùng khớp; **2chứng từ còn lại có thanh toán nguồn trống**, tiền hàng/VAT0, gồm BHHT2024013153 → `1C26MUV/00129632`, BHHT2024013026 → `1C26MUV/00129806`. Đây là thiếu giá trị thanh toán, không phải đã chứng minh lệch tiền. Không áp dụng xác nhận trống=0 của24ô chuỗi cũ cho hai ô mới.
+- Hai mã đơn có nhiều chứng từ trong kế hoạch được tách theo khoản tiền: `578322690199620003` có hai chứng từ/hai HĐ khác tiền, không coi là trùng; `2409164C7X296M` có hai chứng từ khác tiền, trong đó chỉ chứng từ350.000đ tiền hàng nằm trong lô bị lặp. Không chỉ dựa vào trùng mã đơn để kết luận xuất dư.
+- Có273HĐ với mã đơn ngoài bộ xuất mới đang đối chiếu (gồm hai HĐ thay thế); giữ riêng, không coi toàn bộ37.012HĐ là xuất mới2024. Các36.739HĐ có mã đơn thuộc kế hoạch đều ghi trạng thái gửiCQT **HĐ hợp lệ** và có mãCQT trên bảng kê; chưa tra cứuCQT trực tiếp.
+- Chưa có **Bảng kê chi tiết hóa đơn đã sử dụng** sau đợt xuất mới để so tên hàng, SL, đơn giá và thành tiền từng dòng. Bước tiếp theo: nhận bảng chi tiết cùng kỳ31/10–01/11/2026, đối chiếu mặt hàng và xác minh2.000cặp trước khi chốt liên kết phần trả hàng. Chưa có xác nhận mới về việc phát hành trả hàng.
+
+File rà soát: `outputs/kiem-tra-xuat-moi-20261101/KIEM_TRA_XUAT_MOI_2024.xlsx` (2.000cặp, mã đơn giữtext đủ chữ số) và danh sáchCSV cùng thư mục. Script `scripts/{audit_new_sales_issued_20261101,verify_new_sales_issued_20261101}.py`; căn cứ `scripts/data/new-sales-issued-20261101/{summary,resolved-coverage,verification}.json` và snapshot ánh xạ. Kiểm độc lập bằngopenpyxl đọc lại đủ37.012HĐ, bộ kế hoạch, từng cặp và file báo cáo; nguồn/bộ import không đổihash. Không sửaGoogleSheets, import hoặc phát hành; chưacommit/push.
+
+---
+
+# Xác nhận đã import và phát hành bộ xuất mới 2024 — 01/11/2026
+
+Người dùng xác nhận: **“đã import và phát hành xuất mới 2024 rồi nha”**. Ghi nhận bộ xuất mới 2024 đã import và phát hành theo xác nhận này; không còn coi bước thực hiện bộ xuất mới là đang chờ. Bộ file đã chuẩn bị tương ứng là `outputs/amis-2024-theo-btl-bhh-20261026/IMPORT_HOA_DON_MOI_AMIS_2024.xlsx`.
+
+- Người dùng bổ sung ngày 01/11/2026: **đã đổi ngày hóa đơn thành “ngày hôm qua và hôm nay” khi import**, tương ứng **31/10/2026 và 01/11/2026** (giờ Việt Nam). Đây là bộ xuất mới cho dữ liệu bán hàng 2024 nhưng ngày hóa đơn khi import thuộc hai ngày năm 2026 trên. Chưa có phân bổ từng hóa đơn theo từng ngày hoặc bảng kê sau phát hành để kiểm chứng số lượng, ký hiệu/số hóa đơn và các khoản tiền.
+- Khi đối chiếu sau phát hành, ngày khác với file import đã chuẩn bị là thay đổi chủ động theo xác nhận này; không dùng ngày cũ làm điều kiện ghép bắt buộc hoặc tự kết luận thiếu/trùng vì lệch ngày. Lấy ngày từng hóa đơn từ bảng kê thực tế, giữ riêng kỳ bán hàng AMIS 2024 và ngày hóa đơn 2026; phần trả hàng tham chiếu ngày thực tế của hóa đơn đã phát hành.
+- Xác nhận này áp dụng phần **xuất mới 2024**; chưa có xác nhận mới cho phần **điều chỉnh trả hàng**. Không tự chuyển trạng thái phần trả hàng thành đã phát hành.
+- Các số bán mới và tổng sau phương án trong báo cáo lịch sử vẫn là số từ kế hoạch cho đến khi đối chiếu bảng kê sau phát hành. Cập nhật trạng thái thực hiện không đồng nghĩa đã kiểm chứng toàn bộ số phát hành thực tế; chưa đổi số tiền hoặc nhãn trên Google Sheets.
+- Khi có nguồn sau đợt xuất mới, đối chiếu với bộ import để kiểm thiếu/trùng và các khoản tiền; lấy số hóa đơn/ngày thực tế làm căn cứ nối phần trả hàng khi tiếp tục xử lý.
+
+---
+
 # File chuỗi F0–F1–F2 sau xử lý và kiểm thiếu/trùng — 30/10/2026
 
 Đã tạo `outputs/chuoi-sau-xu-ly-20261030/CHUOI_F0_F1_SAU_XU_LY_20261029.xlsx` theo nguồn sau phát hành đến29/10 và các xác nhận đã chốt30/10. Theo yêu cầu mới đã **bỏ cột Nguồn đối chiếu ở cả hai sheet**, giữ ghi chú, bộ lọc, cột nhận diện cố định và công thức số dư. Chỉ làm file báo cáo, không sửa nguồn hay nhập/phát hành lại.

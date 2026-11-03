@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "source_reader": "openpyxl independently of XML audit parser",
+  "export_invoices": 37012,
+  "plan_documents": 34739,
+  "exact_money_coverage": 34737,
+  "unknown_zero_payment": 2,
+  "duplicate_groups_and_extra_invoices": 2000,
+  "source_footer_controls_match": true,
+  "csv_rows": 2000,
+  "workbook_readback": true
+}

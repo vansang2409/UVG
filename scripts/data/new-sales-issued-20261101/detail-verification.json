@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "independent_reader": "openpyxl",
+  "detail_invoices": 37012,
+  "detail_rows": 47187,
+  "duplicate_pairs_identical": 2000,
+  "lines_each_block": 2720,
+  "plan_candidates_exact": 36701,
+  "rounded_price_invoices": 36,
+  "rounded_price_documents": 33,
+  "promotion_zero_payment_evidence": 2,
+  "report_readback": true
+}

@@ -1,0 +1,3763 @@
+{
+  "target": "C:\\Users\\thuong ngo\\Downloads\\CHECK HOA DON XUAT MOI 2024 31.10.2026\\IMPORT_DIEU_CHINH_163_PHIEU_TRA_HANG_2024_MOI_NHAT.xlsx",
+  "backup": "D:\\UVG\\scripts\\data\\add-return-sku-20261101\\before.xlsx",
+  "staged": "C:\\Users\\thuong ngo\\Downloads\\CHECK HOA DON XUAT MOI 2024 31.10.2026\\._codex_ADD_SKU_163_20261101.tmp.xlsx",
+  "before_sha256": "1f725eb177f4fa3f49383a1deb1234aa81f625428d7c27bf15aef327cb7e3b6d",
+  "source_audit": "D:\\UVG\\scripts\\data\\amis-2024-linked-20261026\\return-adjustment-import.json",
+  "source_audit_sha256": "bfba618b84c33657207c1113f5a2253761b3cfdf660844e422ccb281a13cf8f9",
+  "source_references": "D:\\UVG\\scripts\\data\\return-adjustment-issued-20261101\\prepared.json",
+  "source_references_sha256": "cc98321792fbd0e32e85a11e346847b47fba9c18dbd90ff1d504666e7b8d8e52",
+  "sheet": "Import dieu chinh",
+  "header_row": 9,
+  "new_column": "Z",
+  "header": "Mã hàng hóa/dịch vụ",
+  "invoices": 163,
+  "rows": 219,
+  "sku_counts": {
+    "KA350LIGHTFULL": 52,
+    "KA150SFULL": 43,
+    "KA150SFILTERFULL": 9,
+    "KA600FULL": 22,
+    "KA600FILTERFULL": 17,
+    "KA350FILTERFULL": 23,
+    "KA100UVC70": 4,
+    "COKACN01CBFL": 3,
+    "VCOKACN01STAP": 6,
+    "COKACN01CRCH": 5,
+    "SP000031": 2,
+    "KA350PROFULLNEW": 2,
+    "SP000042": 3,
+    "KM300FULL": 9,
+    "KM100FULL": 5,
+    "KM200FULL": 9,
+    "KK100FULL": 2,
+    "KA150PFULL": 3
+  },
+  "mapping": [
+    {
+      "row": 10,
+      "code": "KA350LIGHTFULL",
+      "invoice": "1C26MUV/00147854",
+      "doc": "BHHT2024000430",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 1647222,
+      "goods": -1647222,
+      "btl": [
+        "BTL00025"
+      ],
+      "amis_source_rows": [
+        "1480"
+      ]
+    },
+    {
+      "row": 11,
+      "code": "KA150SFULL",
+      "invoice": "1C26MUV/00147859",
+      "doc": "BHHS2024000277",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifiers - KA150S",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 1020833,
+      "goods": -1020833,
+      "btl": [
+        "BTL00184"
+      ],
+      "amis_source_rows": [
+        "1481"
+      ]
+    },
+    {
+      "row": 12,
+      "code": "KA150SFILTERFULL",
+      "invoice": "1C26MUV/00147859",
+      "doc": "BHHS2024000277",
+      "name": "Lõi lọc diệt khuẩn (Filter-FT-KA150S), model: FT-KA150S",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 385648,
+      "goods": -385648,
+      "btl": [
+        "BTL00184"
+      ],
+      "amis_source_rows": [
+        "1482"
+      ]
+    },
+    {
+      "row": 13,
+      "code": "KA600FULL",
+      "invoice": "1C26MUV/00147853",
+      "doc": "BHHT2024000729",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifier . Model: KA600",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 2227662,
+      "goods": -2227662,
+      "btl": [
+        "BTL00026"
+      ],
+      "amis_source_rows": [
+        "1852"
+      ]
+    },
+    {
+      "row": 14,
+      "code": "KA600FILTERFULL",
+      "invoice": "1C26MUV/00147853",
+      "doc": "BHHT2024000729",
+      "name": "Lõi lọc diệt khuẩn - Filter, model:FT- KA600",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 586227,
+      "goods": -586227,
+      "btl": [
+        "BTL00026"
+      ],
+      "amis_source_rows": [
+        "1853"
+      ]
+    },
+    {
+      "row": 15,
+      "code": "KA600FULL",
+      "invoice": "1C26MUV/00147858",
+      "doc": "BHHS2024000259",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifier . Model: KA600",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 2033781,
+      "goods": -2033781,
+      "btl": [
+        "BTL00185"
+      ],
+      "amis_source_rows": [
+        "2286"
+      ]
+    },
+    {
+      "row": 16,
+      "code": "KA600FILTERFULL",
+      "invoice": "1C26MUV/00147858",
+      "doc": "BHHS2024000259",
+      "name": "Lõi lọc diệt khuẩn - Filter, model:FT- KA600",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 535205,
+      "goods": -535205,
+      "btl": [
+        "BTL00185"
+      ],
+      "amis_source_rows": [
+        "2287"
+      ]
+    },
+    {
+      "row": 17,
+      "code": "KA150SFULL",
+      "invoice": "1C26MUV/00147858",
+      "doc": "BHHS2024000259",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifiers - KA150S",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 963370,
+      "goods": -963370,
+      "btl": [
+        "BTL00185"
+      ],
+      "amis_source_rows": [
+        "2288"
+      ]
+    },
+    {
+      "row": 18,
+      "code": "KA150SFILTERFULL",
+      "invoice": "1C26MUV/00147858",
+      "doc": "BHHS2024000259",
+      "name": "Lõi lọc diệt khuẩn (Filter-FT-KA150S), model: FT-KA150S",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 363940,
+      "goods": -363940,
+      "btl": [
+        "BTL00185"
+      ],
+      "amis_source_rows": [
+        "2289"
+      ]
+    },
+    {
+      "row": 19,
+      "code": "KA150SFILTERFULL",
+      "invoice": "1C26MUV/00147862",
+      "doc": "BHHT2024001390",
+      "name": "Lõi lọc diệt khuẩn (Filter-FT-KA150S), model: FT-KA150S",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 972222,
+      "goods": -972222,
+      "btl": [
+        "BTL00027"
+      ],
+      "amis_source_rows": [
+        "2435"
+      ]
+    },
+    {
+      "row": 20,
+      "code": "KA600FILTERFULL",
+      "invoice": "1C26MUV/00147856",
+      "doc": "BHHT2024000226",
+      "name": "Lõi lọc diệt khuẩn - Filter, model:FT- KA600",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 509259,
+      "goods": -509259,
+      "btl": [
+        "BTL00028"
+      ],
+      "amis_source_rows": [
+        "2625"
+      ]
+    },
+    {
+      "row": 21,
+      "code": "KA350LIGHTFULL",
+      "invoice": "1C26MUV/00147855",
+      "doc": "BHHT2024000383",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 1647222,
+      "goods": -1647222,
+      "btl": [
+        "BTL00029"
+      ],
+      "amis_source_rows": [
+        "2626"
+      ]
+    },
+    {
+      "row": 22,
+      "code": "KA350LIGHTFULL",
+      "invoice": "1C26MUV/00147863",
+      "doc": "BHHT2024001346",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 1619444,
+      "goods": -1619444,
+      "btl": [
+        "BTL00030"
+      ],
+      "amis_source_rows": [
+        "2627"
+      ]
+    },
+    {
+      "row": 23,
+      "code": "KA600FULL",
+      "invoice": "1C26MUV/00147860",
+      "doc": "BHHT2024001562",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifier . Model: KA600",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 2024247,
+      "goods": -2024247,
+      "btl": [
+        "BTL00031"
+      ],
+      "amis_source_rows": [
+        "2693"
+      ]
+    },
+    {
+      "row": 24,
+      "code": "KA600FILTERFULL",
+      "invoice": "1C26MUV/00147860",
+      "doc": "BHHT2024001562",
+      "name": "Lõi lọc diệt khuẩn - Filter, model:FT- KA600",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 532697,
+      "goods": -532697,
+      "btl": [
+        "BTL00031"
+      ],
+      "amis_source_rows": [
+        "2694"
+      ]
+    },
+    {
+      "row": 25,
+      "code": "KA350LIGHTFULL",
+      "invoice": "1C26MUV/00147852",
+      "doc": "BHHT2024000707",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 1225372,
+      "goods": -1225372,
+      "btl": [
+        "BTL00032"
+      ],
+      "amis_source_rows": [
+        "2853"
+      ]
+    },
+    {
+      "row": 26,
+      "code": "KA350FILTERFULL",
+      "invoice": "1C26MUV/00147852",
+      "doc": "BHHT2024000707",
+      "name": "Lõi lọc diệt khuẩn Filter KA350 - model: FT KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 421850,
+      "goods": -421850,
+      "btl": [
+        "BTL00032"
+      ],
+      "amis_source_rows": [
+        "2854"
+      ]
+    },
+    {
+      "row": 27,
+      "code": "KA150SFULL",
+      "invoice": "1C26MUV/00147866",
+      "doc": "BHHT2024000977",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifiers - KA150S",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 1091667,
+      "goods": -1091667,
+      "btl": [
+        "BTL00186"
+      ],
+      "amis_source_rows": [
+        "3040"
+      ]
+    },
+    {
+      "row": 28,
+      "code": "KA100UVC70",
+      "invoice": "1C26MUV/00147861",
+      "doc": "BHHT2024001511",
+      "name": "Máy Lọc Không Khí Ô Tô, Khử Mùi, Diệt Khuẩn UVC LED UVGREEN KA100",
+      "unit": "Bộ",
+      "quantity": -1,
+      "price": 1429957,
+      "goods": -1429957,
+      "btl": [
+        "BTL00033"
+      ],
+      "amis_source_rows": [
+        "3155"
+      ]
+    },
+    {
+      "row": 29,
+      "code": "COKACN01CBFL",
+      "invoice": "1C26MUV/00147861",
+      "doc": "BHHT2024001511",
+      "name": "Màng lọc carbon",
+      "unit": "Cái",
+      "quantity": -3,
+      "price": 16499.33,
+      "goods": -49498,
+      "btl": [
+        "BTL00033"
+      ],
+      "amis_source_rows": [
+        "3156"
+      ]
+    },
+    {
+      "row": 30,
+      "code": "VCOKACN01STAP",
+      "invoice": "1C26MUV/00147861",
+      "doc": "BHHT2024001511",
+      "name": "Dây đeo băng vải cao su 60cm, code: TL-RUB60, dùng kết nối xe và máy UVC tia cực tím, nhà sx Tonglu, mới 100%",
+      "unit": "Sợi",
+      "quantity": -1,
+      "price": 32999,
+      "goods": -32999,
+      "btl": [
+        "BTL00033"
+      ],
+      "amis_source_rows": [
+        "3157"
+      ]
+    },
+    {
+      "row": 31,
+      "code": "COKACN01CRCH",
+      "invoice": "1C26MUV/00147861",
+      "doc": "BHHT2024001511",
+      "name": "Nguồn sạc điện 12V-2A",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 76998,
+      "goods": -76998,
+      "btl": [
+        "BTL00033"
+      ],
+      "amis_source_rows": [
+        "3158"
+      ]
+    },
+    {
+      "row": 32,
+      "code": "KA150SFULL",
+      "invoice": "1C26MUV/00147867",
+      "doc": "BHHS2024000629",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifiers - KA150S",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 1733199,
+      "goods": -1733199,
+      "btl": [
+        "BTL00023"
+      ],
+      "amis_source_rows": [
+        "3381"
+      ]
+    },
+    {
+      "row": 33,
+      "code": "KA150SFILTERFULL",
+      "invoice": "1C26MUV/00147867",
+      "doc": "BHHS2024000629",
+      "name": "Lõi lọc diệt khuẩn (Filter-FT-KA150S), model: FT-KA150S",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 747356,
+      "goods": -747356,
+      "btl": [
+        "BTL00023"
+      ],
+      "amis_source_rows": [
+        "3382"
+      ]
+    },
+    {
+      "row": 34,
+      "code": "KA350LIGHTFULL",
+      "invoice": "1C26MUV/00147857",
+      "doc": "BHHT2024000119",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 1647222,
+      "goods": -1647222,
+      "btl": [
+        "BTL00034"
+      ],
+      "amis_source_rows": [
+        "3988"
+      ]
+    },
+    {
+      "row": 35,
+      "code": "KA150SFULL",
+      "invoice": "1C26MUV/00147864",
+      "doc": "BHHS2024000456",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifiers - KA150S",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 869444,
+      "goods": -869444,
+      "btl": [
+        "BTL00183"
+      ],
+      "amis_source_rows": [
+        "4070"
+      ]
+    },
+    {
+      "row": 36,
+      "code": "SP000031",
+      "invoice": "1C26MUV/00147870",
+      "doc": "BHHS2024000842",
+      "name": "Bình nước giữ nhiệt thông minh UVGREEN UK100 Màu đen",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 1527778,
+      "goods": -1527778,
+      "btl": [
+        "BTL00173"
+      ],
+      "amis_source_rows": [
+        "4347"
+      ]
+    },
+    {
+      "row": 37,
+      "code": "KA350PROFULLNEW",
+      "invoice": "1C26MUV/00147871",
+      "doc": "BHHS2024000935",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC KA350 Pro",
+      "unit": "Chiếc",
+      "quantity": -1,
+      "price": 2387963,
+      "goods": -2387963,
+      "btl": [
+        "BTL00172"
+      ],
+      "amis_source_rows": [
+        "4451"
+      ]
+    },
+    {
+      "row": 38,
+      "code": "KA350LIGHTFULL",
+      "invoice": "1C26MUV/00147868",
+      "doc": "BHHT2024002719",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 1925000,
+      "goods": -1925000,
+      "btl": [
+        "BTL00035"
+      ],
+      "amis_source_rows": [
+        "4813"
+      ]
+    },
+    {
+      "row": 39,
+      "code": "KA350LIGHTFULL",
+      "invoice": "1C26MUV/00147872",
+      "doc": "BHHS2024000940",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 1898148,
+      "goods": -1898148,
+      "btl": [
+        "BTL00171"
+      ],
+      "amis_source_rows": [
+        "4869"
+      ]
+    },
+    {
+      "row": 40,
+      "code": "KA350LIGHTFULL",
+      "invoice": "1C26MUV/00147873",
+      "doc": "BHHT2024002285",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 1925000,
+      "goods": -1925000,
+      "btl": [
+        "BTL00036"
+      ],
+      "amis_source_rows": [
+        "4922"
+      ]
+    },
+    {
+      "row": 41,
+      "code": "KA150SFULL",
+      "invoice": "1C26MUV/00147876",
+      "doc": "BHHT2024001995",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifiers - KA150S",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 887963,
+      "goods": -887963,
+      "btl": [
+        "BTL00037"
+      ],
+      "amis_source_rows": [
+        "6131"
+      ]
+    },
+    {
+      "row": 42,
+      "code": "KA150SFULL",
+      "invoice": "1C26MUV/00147878",
+      "doc": "BHHT2024005622",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifiers - KA150S",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 952778,
+      "goods": -952778,
+      "btl": [
+        "BTL00038"
+      ],
+      "amis_source_rows": [
+        "6274"
+      ]
+    },
+    {
+      "row": 43,
+      "code": "KA150SFULL",
+      "invoice": "1C26MUV/00147881",
+      "doc": "BHHT2024005209",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifiers - KA150S",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 887963,
+      "goods": -887963,
+      "btl": [
+        "BTL00039"
+      ],
+      "amis_source_rows": [
+        "6986"
+      ]
+    },
+    {
+      "row": 44,
+      "code": "KA150SFULL",
+      "invoice": "1C26MUV/00147869",
+      "doc": "BHHT2024002667",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifiers - KA150S",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 1091667,
+      "goods": -1091667,
+      "btl": [
+        "BTL00040"
+      ],
+      "amis_source_rows": [
+        "6987"
+      ]
+    },
+    {
+      "row": 45,
+      "code": "KA150SFULL",
+      "invoice": "1C26MUV/00147884",
+      "doc": "BHHT2024004877",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifiers - KA150S",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 1239815,
+      "goods": -1239815,
+      "btl": [
+        "BTL00041"
+      ],
+      "amis_source_rows": [
+        "7652"
+      ]
+    },
+    {
+      "row": 46,
+      "code": "KA150SFULL",
+      "invoice": "1C26MUV/00147880",
+      "doc": "BHHT2024005315",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifiers - KA150S",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 1054630,
+      "goods": -1054630,
+      "btl": [
+        "BTL00042"
+      ],
+      "amis_source_rows": [
+        "7914"
+      ]
+    },
+    {
+      "row": 47,
+      "code": "KA350LIGHTFULL",
+      "invoice": "1C26MUV/00147877",
+      "doc": "BHHT2024001801",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 1363132,
+      "goods": -1363132,
+      "btl": [
+        "BTL00043"
+      ],
+      "amis_source_rows": [
+        "7915"
+      ]
+    },
+    {
+      "row": 48,
+      "code": "KA350FILTERFULL",
+      "invoice": "1C26MUV/00147877",
+      "doc": "BHHT2024001801",
+      "name": "Lõi lọc diệt khuẩn Filter KA350 - model: FT KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 469275,
+      "goods": -469275,
+      "btl": [
+        "BTL00043"
+      ],
+      "amis_source_rows": [
+        "7916"
+      ]
+    },
+    {
+      "row": 49,
+      "code": "KA350LIGHTFULL",
+      "invoice": "1C26MUV/00147874",
+      "doc": "BHHT2024002272",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 1931944,
+      "goods": -1931944,
+      "btl": [
+        "BTL00044"
+      ],
+      "amis_source_rows": [
+        "7917"
+      ]
+    },
+    {
+      "row": 50,
+      "code": "KA150SFULL",
+      "invoice": "1C26MUV/00147879",
+      "doc": "BHHT2024005462",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifiers - KA150S",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 887963,
+      "goods": -887963,
+      "btl": [
+        "BTL00045"
+      ],
+      "amis_source_rows": [
+        "8695"
+      ]
+    },
+    {
+      "row": 51,
+      "code": "KA350LIGHTFULL",
+      "invoice": "1C26MUV/00147883",
+      "doc": "BHHT2024004830",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 1832407,
+      "goods": -1832407,
+      "btl": [
+        "BTL00046"
+      ],
+      "amis_source_rows": [
+        "8696"
+      ]
+    },
+    {
+      "row": 52,
+      "code": "SP000042",
+      "invoice": "1C26MUV/00147890",
+      "doc": "BHHT2024004091",
+      "name": "Bình nước giữ nhiệt thông minh UVGREEN UK100 Màu trắng",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 425000,
+      "goods": -425000,
+      "btl": [
+        "BTL00047"
+      ],
+      "amis_source_rows": [
+        "9030"
+      ]
+    },
+    {
+      "row": 53,
+      "code": "KA350LIGHTFULL",
+      "invoice": "1C26MUV/00147888",
+      "doc": "BHHT2024004384",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 1239838,
+      "goods": -1239838,
+      "btl": [
+        "BTL00048"
+      ],
+      "amis_source_rows": [
+        "9031"
+      ]
+    },
+    {
+      "row": 54,
+      "code": "KA350FILTERFULL",
+      "invoice": "1C26MUV/00147888",
+      "doc": "BHHT2024004384",
+      "name": "Lõi lọc diệt khuẩn Filter KA350 - model: FT KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 426829,
+      "goods": -426829,
+      "btl": [
+        "BTL00048"
+      ],
+      "amis_source_rows": [
+        "9032"
+      ]
+    },
+    {
+      "row": 55,
+      "code": "KA150SFULL",
+      "invoice": "1C26MUV/00147882",
+      "doc": "BHHS2024001381",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifiers - KA150S",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 1147222,
+      "goods": -1147222,
+      "btl": [
+        "BTL00170"
+      ],
+      "amis_source_rows": [
+        "9033"
+      ]
+    },
+    {
+      "row": 56,
+      "code": "KA350LIGHTFULL",
+      "invoice": "1C26MUV/00147886",
+      "doc": "BHHT2024004661",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 1266701,
+      "goods": -1266701,
+      "btl": [
+        "BTL00049"
+      ],
+      "amis_source_rows": [
+        "9512"
+      ]
+    },
+    {
+      "row": 57,
+      "code": "KA350FILTERFULL",
+      "invoice": "1C26MUV/00147886",
+      "doc": "BHHT2024004661",
+      "name": "Lõi lọc diệt khuẩn Filter KA350 - model: FT KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 436077,
+      "goods": -436077,
+      "btl": [
+        "BTL00049"
+      ],
+      "amis_source_rows": [
+        "9513"
+      ]
+    },
+    {
+      "row": 58,
+      "code": "KA350LIGHTFULL",
+      "invoice": "1C26MUV/00147885",
+      "doc": "BHHT2024004718",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 1242592,
+      "goods": -1242592,
+      "btl": [
+        "BTL00050"
+      ],
+      "amis_source_rows": [
+        "9611"
+      ]
+    },
+    {
+      "row": 59,
+      "code": "KA350FILTERFULL",
+      "invoice": "1C26MUV/00147885",
+      "doc": "BHHT2024004718",
+      "name": "Lõi lọc diệt khuẩn Filter KA350 - model: FT KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 427778,
+      "goods": -427778,
+      "btl": [
+        "BTL00050"
+      ],
+      "amis_source_rows": [
+        "9612"
+      ]
+    },
+    {
+      "row": 60,
+      "code": "KA150SFULL",
+      "invoice": "1C26MUV/00147889",
+      "doc": "BHHT2024003595",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifiers - KA150S",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 786111,
+      "goods": -786111,
+      "btl": [
+        "BTL00051"
+      ],
+      "amis_source_rows": [
+        "9747"
+      ]
+    },
+    {
+      "row": 61,
+      "code": "KA350LIGHTFULL",
+      "invoice": "1C26MUV/00147892",
+      "doc": "BHHT2024003623",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 1308028,
+      "goods": -1308028,
+      "btl": [
+        "BTL00175"
+      ],
+      "amis_source_rows": [
+        "9748"
+      ]
+    },
+    {
+      "row": 62,
+      "code": "KA350FILTERFULL",
+      "invoice": "1C26MUV/00147892",
+      "doc": "BHHT2024003623",
+      "name": "Lõi lọc diệt khuẩn Filter KA350 - model: FT KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 450305,
+      "goods": -450305,
+      "btl": [
+        "BTL00175"
+      ],
+      "amis_source_rows": [
+        "9749"
+      ]
+    },
+    {
+      "row": 63,
+      "code": "KA350LIGHTFULL",
+      "invoice": "1C26MUV/00147891",
+      "doc": "BHHT2024003622",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 1445789,
+      "goods": -1445789,
+      "btl": [
+        "BTL00176"
+      ],
+      "amis_source_rows": [
+        "9750"
+      ]
+    },
+    {
+      "row": 64,
+      "code": "KA350FILTERFULL",
+      "invoice": "1C26MUV/00147891",
+      "doc": "BHHT2024003622",
+      "name": "Lõi lọc diệt khuẩn Filter KA350 - model: FT KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 497730,
+      "goods": -497730,
+      "btl": [
+        "BTL00176"
+      ],
+      "amis_source_rows": [
+        "9751"
+      ]
+    },
+    {
+      "row": 65,
+      "code": "KA350FILTERFULL",
+      "invoice": "1C26MUV/00147893",
+      "doc": "BHHT2024003432",
+      "name": "Lõi lọc diệt khuẩn Filter KA350 - model: FT KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 501063,
+      "goods": -501063,
+      "btl": [
+        "BTL00052"
+      ],
+      "amis_source_rows": [
+        "10495"
+      ]
+    },
+    {
+      "row": 66,
+      "code": "KA350LIGHTFULL",
+      "invoice": "1C26MUV/00147894",
+      "doc": "BHHT2024003162",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 1712037,
+      "goods": -1712037,
+      "btl": [
+        "BTL00053"
+      ],
+      "amis_source_rows": [
+        "10496"
+      ]
+    },
+    {
+      "row": 67,
+      "code": "KA150SFULL",
+      "invoice": "1C26MUV/00147887",
+      "doc": "BHHT2024004376",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifiers - KA150S",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 869444,
+      "goods": -869444,
+      "btl": [
+        "BTL00054"
+      ],
+      "amis_source_rows": [
+        "11090"
+      ]
+    },
+    {
+      "row": 68,
+      "code": "KA600FULL",
+      "invoice": "1C26MUV/00147895",
+      "doc": "BHHT2024007142",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifier . Model: KA600",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 2793056,
+      "goods": -2793056,
+      "btl": [
+        "BTL00055"
+      ],
+      "amis_source_rows": [
+        "12435"
+      ]
+    },
+    {
+      "row": 69,
+      "code": "KA350LIGHTFULL",
+      "invoice": "1C26MUV/00147865",
+      "doc": "BHHT2024001010",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 1857407,
+      "goods": -1857407,
+      "btl": [
+        "BTL00056"
+      ],
+      "amis_source_rows": [
+        "12752"
+      ]
+    },
+    {
+      "row": 70,
+      "code": "KA150SFILTERFULL",
+      "invoice": "1C26MUV/00147899",
+      "doc": "BHHT2024006046",
+      "name": "Lõi lọc diệt khuẩn (Filter-FT-KA150S), model: FT-KA150S",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 462963,
+      "goods": -462963,
+      "btl": [
+        "BTL00057"
+      ],
+      "amis_source_rows": [
+        "12865"
+      ]
+    },
+    {
+      "row": 71,
+      "code": "KA350LIGHTFULL",
+      "invoice": "1C26MUV/00147897",
+      "doc": "BHHT2024006130",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 1795370,
+      "goods": -1795370,
+      "btl": [
+        "BTL00058"
+      ],
+      "amis_source_rows": [
+        "12866"
+      ]
+    },
+    {
+      "row": 72,
+      "code": "KM300FULL",
+      "invoice": "1C26MUV/00147904",
+      "doc": "BHHT2024005700",
+      "name": "Đèn bắt muỗi, ruồi và các loại côn trùng UVA Electronical Mosquito Killer, Model: KM300",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 462037,
+      "goods": -462037,
+      "btl": [
+        "BTL00059"
+      ],
+      "amis_source_rows": [
+        "13968"
+      ]
+    },
+    {
+      "row": 73,
+      "code": "KM100FULL",
+      "invoice": "1C26MUV/00147901",
+      "doc": "BHHT2024005898",
+      "name": "Đèn bắt muỗi, ruồi và các loại côn trùng KM100",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 184259,
+      "goods": -184259,
+      "btl": [
+        "BTL00060"
+      ],
+      "amis_source_rows": [
+        "14222"
+      ]
+    },
+    {
+      "row": 74,
+      "code": "KA150SFULL",
+      "invoice": "1C26MUV/00147898",
+      "doc": "BHHT2024006012",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifiers - KA150S",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 1054630,
+      "goods": -1054630,
+      "btl": [
+        "BTL00061"
+      ],
+      "amis_source_rows": [
+        "14223"
+      ]
+    },
+    {
+      "row": 75,
+      "code": "KA350LIGHTFULL",
+      "invoice": "1C26MUV/00147907",
+      "doc": "BHHT2024009243",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 1795370,
+      "goods": -1795370,
+      "btl": [
+        "BTL00062"
+      ],
+      "amis_source_rows": [
+        "14540"
+      ]
+    },
+    {
+      "row": 76,
+      "code": "KM300FULL",
+      "invoice": "1C26MUV/00147902",
+      "doc": "BHHT2024005852",
+      "name": "Đèn bắt muỗi, ruồi và các loại côn trùng UVA Electronical Mosquito Killer, Model: KM300",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 369444,
+      "goods": -369444,
+      "btl": [
+        "BTL00063"
+      ],
+      "amis_source_rows": [
+        "15308"
+      ]
+    },
+    {
+      "row": 77,
+      "code": "KA100UVC70",
+      "invoice": "1C26MUV/00147900",
+      "doc": "BHHS2024002364",
+      "name": "Máy Lọc Không Khí Ô Tô, Khử Mùi, Diệt Khuẩn UVC LED UVGREEN KA100",
+      "unit": "Bộ",
+      "quantity": -1,
+      "price": 979284,
+      "goods": -979284,
+      "btl": [
+        "BTL00169"
+      ],
+      "amis_source_rows": [
+        "15309"
+      ]
+    },
+    {
+      "row": 78,
+      "code": "COKACN01CBFL",
+      "invoice": "1C26MUV/00147900",
+      "doc": "BHHS2024002364",
+      "name": "Màng lọc carbon",
+      "unit": "Cái",
+      "quantity": -3,
+      "price": 11299.33,
+      "goods": -33898,
+      "btl": [
+        "BTL00169"
+      ],
+      "amis_source_rows": [
+        "15310"
+      ]
+    },
+    {
+      "row": 79,
+      "code": "VCOKACN01STAP",
+      "invoice": "1C26MUV/00147900",
+      "doc": "BHHS2024002364",
+      "name": "Dây đeo băng vải cao su 60cm, code: TL-RUB60, dùng kết nối xe và máy UVC tia cực tím, nhà sx Tonglu, mới 100%",
+      "unit": "Sợi",
+      "quantity": -1,
+      "price": 22599,
+      "goods": -22599,
+      "btl": [
+        "BTL00169"
+      ],
+      "amis_source_rows": [
+        "15311, 15313"
+      ]
+    },
+    {
+      "row": 80,
+      "code": "COKACN01CRCH",
+      "invoice": "1C26MUV/00147900",
+      "doc": "BHHS2024002364",
+      "name": "Nguồn sạc điện 12V-2A",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 52731,
+      "goods": -52731,
+      "btl": [
+        "BTL00169"
+      ],
+      "amis_source_rows": [
+        "15312"
+      ]
+    },
+    {
+      "row": 81,
+      "code": "VCOKACN01STAP",
+      "invoice": "1C26MUV/00147900",
+      "doc": "BHHS2024002364",
+      "name": "Dây đeo băng vải cao su 60cm, code: TL-RUB60, dùng kết nối xe và máy UVC tia cực tím, nhà sx Tonglu, mới 100%",
+      "unit": "Sợi",
+      "quantity": -1,
+      "price": 22599,
+      "goods": -22599,
+      "btl": [
+        "BTL00169"
+      ],
+      "amis_source_rows": [
+        "15311, 15313"
+      ]
+    },
+    {
+      "row": 82,
+      "code": "KM200FULL",
+      "invoice": "1C26MUV/00147905",
+      "doc": "BHHT2024005715",
+      "name": "Đèn bắt muỗi, ruồi và các loại côn trùng KM200",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 276852,
+      "goods": -276852,
+      "btl": [
+        "BTL00064"
+      ],
+      "amis_source_rows": [
+        "15759"
+      ]
+    },
+    {
+      "row": 83,
+      "code": "KK100FULL",
+      "invoice": "1C26MUV/00147911",
+      "doc": "BHHS2024002718",
+      "name": "Máy tiệt trùng sấy khô bằng tia UVC - True UVC Kitchenware Drying Sterilizer - Model KK100",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 869444,
+      "goods": -869444,
+      "btl": [
+        "BTL00174"
+      ],
+      "amis_source_rows": [
+        "15760"
+      ]
+    },
+    {
+      "row": 84,
+      "code": "KA150SFULL",
+      "invoice": "1C26MUV/00147906",
+      "doc": "BHHT2024009413",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifiers - KA150S",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 869444,
+      "goods": -869444,
+      "btl": [
+        "BTL00065"
+      ],
+      "amis_source_rows": [
+        "15840"
+      ]
+    },
+    {
+      "row": 85,
+      "code": "KA150SFULL",
+      "invoice": "1C26MUV/00147896",
+      "doc": "BHHT2024006530",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifiers - KA150S",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 813889,
+      "goods": -813889,
+      "btl": [
+        "BTL00066"
+      ],
+      "amis_source_rows": [
+        "15918"
+      ]
+    },
+    {
+      "row": 86,
+      "code": "SP000031",
+      "invoice": "1C26MUV/00147875",
+      "doc": "BHHT2024001935",
+      "name": "Bình nước giữ nhiệt thông minh UVGREEN UK100 Màu đen",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 443519,
+      "goods": -443519,
+      "btl": [
+        "BTL00067"
+      ],
+      "amis_source_rows": [
+        "15997"
+      ]
+    },
+    {
+      "row": 87,
+      "code": "KA150SFULL",
+      "invoice": "1C26MUV/00147910",
+      "doc": "BHHT2024009221",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifiers - KA150S",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 906481,
+      "goods": -906481,
+      "btl": [
+        "BTL00068"
+      ],
+      "amis_source_rows": [
+        "16355"
+      ]
+    },
+    {
+      "row": 88,
+      "code": "KM300FULL",
+      "invoice": "1C26MUV/00120680",
+      "doc": "BHHT2024006103",
+      "name": "Đèn bắt muỗi, ruồi và các loại côn trùng UVA Electronical Mosquito Killer, Model: KM300",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 81539,
+      "goods": -81539,
+      "btl": [
+        "BTL00070"
+      ],
+      "amis_source_rows": [
+        "16484"
+      ]
+    },
+    {
+      "row": 89,
+      "code": "KA150SFULL",
+      "invoice": "1C26MUV/00120680",
+      "doc": "BHHT2024006103",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifiers - KA150S",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 917317.5,
+      "goods": -917318,
+      "btl": [
+        "BTL00070"
+      ],
+      "amis_source_rows": [
+        "16485"
+      ]
+    },
+    {
+      "row": 90,
+      "code": "KA150SFILTERFULL",
+      "invoice": "1C26MUV/00120680",
+      "doc": "BHHT2024006103",
+      "name": "Lõi lọc diệt khuẩn (Filter-FT-KA150S), model: FT-KA150S",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 346542.5,
+      "goods": -346543,
+      "btl": [
+        "BTL00070"
+      ],
+      "amis_source_rows": [
+        "16486"
+      ]
+    },
+    {
+      "row": 91,
+      "code": "KA150SFULL",
+      "invoice": "1C26MUV/00147912",
+      "doc": "BHHT2024009087",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifiers - KA150S",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 869444,
+      "goods": -869444,
+      "btl": [
+        "BTL00074"
+      ],
+      "amis_source_rows": [
+        "16641"
+      ]
+    },
+    {
+      "row": 92,
+      "code": "KA150SFULL",
+      "invoice": "1C26MUV/00147909",
+      "doc": "BHHT2024009171",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifiers - KA150S",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 869444,
+      "goods": -869444,
+      "btl": [
+        "BTL00075"
+      ],
+      "amis_source_rows": [
+        "16642"
+      ]
+    },
+    {
+      "row": 93,
+      "code": "KM100FULL",
+      "invoice": "1C26MUV/00147903",
+      "doc": "BHHT2024005796",
+      "name": "Đèn bắt muỗi, ruồi và các loại côn trùng KM100",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 165741,
+      "goods": -165741,
+      "btl": [
+        "BTL00076"
+      ],
+      "amis_source_rows": [
+        "16750"
+      ]
+    },
+    {
+      "row": 94,
+      "code": "SP000042",
+      "invoice": "1C26MUV/00147914",
+      "doc": "BHHS2024002845",
+      "name": "Bình nước giữ nhiệt thông minh UVGREEN UK100 Màu trắng",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 1527778,
+      "goods": -1527778,
+      "btl": [
+        "BTL00168"
+      ],
+      "amis_source_rows": [
+        "16751"
+      ]
+    },
+    {
+      "row": 95,
+      "code": "KA350LIGHTFULL",
+      "invoice": "1C26MUV/00147918",
+      "doc": "BHHT2024007556",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 1739815,
+      "goods": -1739815,
+      "btl": [
+        "BTL00077"
+      ],
+      "amis_source_rows": [
+        "17207"
+      ]
+    },
+    {
+      "row": 96,
+      "code": "KA100UVC70",
+      "invoice": "1C26MUV/00147915",
+      "doc": "BHHT2024008113",
+      "name": "Máy Lọc Không Khí Ô Tô, Khử Mùi, Diệt Khuẩn UVC LED UVGREEN KA100",
+      "unit": "Bộ",
+      "quantity": -1,
+      "price": 893320,
+      "goods": -893320,
+      "btl": [
+        "BTL00078"
+      ],
+      "amis_source_rows": [
+        "17347"
+      ]
+    },
+    {
+      "row": 97,
+      "code": "COKACN01CRCH",
+      "invoice": "1C26MUV/00147915",
+      "doc": "BHHT2024008113",
+      "name": "Nguồn sạc điện 12V-2A",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 48102,
+      "goods": -48102,
+      "btl": [
+        "BTL00078"
+      ],
+      "amis_source_rows": [
+        "17348"
+      ]
+    },
+    {
+      "row": 98,
+      "code": "VCOKACN01STAP",
+      "invoice": "1C26MUV/00147915",
+      "doc": "BHHT2024008113",
+      "name": "Dây đeo băng vải cao su 60cm, code: TL-RUB60, dùng kết nối xe và máy UVC tia cực tím, nhà sx Tonglu, mới 100%",
+      "unit": "Sợi",
+      "quantity": -1,
+      "price": 20615,
+      "goods": -20615,
+      "btl": [
+        "BTL00078"
+      ],
+      "amis_source_rows": [
+        "17349"
+      ]
+    },
+    {
+      "row": 99,
+      "code": "KA600FULL",
+      "invoice": "1C26MUV/00147919",
+      "doc": "BHHS2024003188",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifier . Model: KA600",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 2037076,
+      "goods": -2037076,
+      "btl": [
+        "BTL00167"
+      ],
+      "amis_source_rows": [
+        "17710"
+      ]
+    },
+    {
+      "row": 100,
+      "code": "KA600FILTERFULL",
+      "invoice": "1C26MUV/00147919",
+      "doc": "BHHS2024003188",
+      "name": "Lõi lọc diệt khuẩn - Filter, model:FT- KA600",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 536072,
+      "goods": -536072,
+      "btl": [
+        "BTL00167"
+      ],
+      "amis_source_rows": [
+        "17711"
+      ]
+    },
+    {
+      "row": 101,
+      "code": "KA350LIGHTFULL",
+      "invoice": "1C26MUV/00147913",
+      "doc": "BHHT2024008892",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 1252924,
+      "goods": -1252924,
+      "btl": [
+        "BTL00080"
+      ],
+      "amis_source_rows": [
+        "17816"
+      ]
+    },
+    {
+      "row": 102,
+      "code": "KA350FILTERFULL",
+      "invoice": "1C26MUV/00147913",
+      "doc": "BHHT2024008892",
+      "name": "Lõi lọc diệt khuẩn Filter KA350 - model: FT KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 431335,
+      "goods": -431335,
+      "btl": [
+        "BTL00080"
+      ],
+      "amis_source_rows": [
+        "17817"
+      ]
+    },
+    {
+      "row": 103,
+      "code": "KA350LIGHTFULL",
+      "invoice": "1C26MUV/00147917",
+      "doc": "BHHT2024007951",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 1702778,
+      "goods": -1702778,
+      "btl": [
+        "BTL00081"
+      ],
+      "amis_source_rows": [
+        "17927"
+      ]
+    },
+    {
+      "row": 104,
+      "code": "KA150SFULL",
+      "invoice": "1C26MUV/00147923",
+      "doc": "BHHT2024011737",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifiers - KA150S",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 999074,
+      "goods": -999074,
+      "btl": [
+        "BTL00082"
+      ],
+      "amis_source_rows": [
+        "18718"
+      ]
+    },
+    {
+      "row": 105,
+      "code": "KA150SFULL",
+      "invoice": "1C26MUV/00147922",
+      "doc": "BHHT2024011825",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifiers - KA150S",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 962037,
+      "goods": -962037,
+      "btl": [
+        "BTL00084"
+      ],
+      "amis_source_rows": [
+        "18719"
+      ]
+    },
+    {
+      "row": 106,
+      "code": "KA150SFULL",
+      "invoice": "1C26MUV/00147920",
+      "doc": "BHHT2024012087",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifiers - KA150S",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 962037,
+      "goods": -962037,
+      "btl": [
+        "BTL00160"
+      ],
+      "amis_source_rows": [
+        "19202"
+      ]
+    },
+    {
+      "row": 107,
+      "code": "KA150SFULL",
+      "invoice": "1C26MUV/00147925",
+      "doc": "BHHT2024010786",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifiers - KA150S",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 962037,
+      "goods": -962037,
+      "btl": [
+        "BTL00087"
+      ],
+      "amis_source_rows": [
+        "19925"
+      ]
+    },
+    {
+      "row": 108,
+      "code": "KA350LIGHTFULL",
+      "invoice": "1C26MUV/00147908",
+      "doc": "BHHT2024009354",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 1266701,
+      "goods": -1266701,
+      "btl": [
+        "BTL00089"
+      ],
+      "amis_source_rows": [
+        "20581"
+      ]
+    },
+    {
+      "row": 109,
+      "code": "KA350FILTERFULL",
+      "invoice": "1C26MUV/00147908",
+      "doc": "BHHT2024009354",
+      "name": "Lõi lọc diệt khuẩn Filter KA350 - model: FT KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 436077,
+      "goods": -436077,
+      "btl": [
+        "BTL00089"
+      ],
+      "amis_source_rows": [
+        "20582"
+      ]
+    },
+    {
+      "row": 110,
+      "code": "KA600FULL",
+      "invoice": "1C26MUV/00147926",
+      "doc": "BHHT2024010747",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifier . Model: KA600",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 2037076,
+      "goods": -2037076,
+      "btl": [
+        "BTL00090"
+      ],
+      "amis_source_rows": [
+        "21523"
+      ]
+    },
+    {
+      "row": 111,
+      "code": "KA600FILTERFULL",
+      "invoice": "1C26MUV/00147926",
+      "doc": "BHHT2024010747",
+      "name": "Lõi lọc diệt khuẩn - Filter, model:FT- KA600",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 536072,
+      "goods": -536072,
+      "btl": [
+        "BTL00090"
+      ],
+      "amis_source_rows": [
+        "21524"
+      ]
+    },
+    {
+      "row": 112,
+      "code": "KA350LIGHTFULL",
+      "invoice": "1C26MUV/00147928",
+      "doc": "BHHS2024003749",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 1266701,
+      "goods": -1266701,
+      "btl": [
+        "BTL00166"
+      ],
+      "amis_source_rows": [
+        "21525"
+      ]
+    },
+    {
+      "row": 113,
+      "code": "KA350FILTERFULL",
+      "invoice": "1C26MUV/00147928",
+      "doc": "BHHS2024003749",
+      "name": "Lõi lọc diệt khuẩn Filter KA350 - model: FT KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 436077,
+      "goods": -436077,
+      "btl": [
+        "BTL00166"
+      ],
+      "amis_source_rows": [
+        "21526"
+      ]
+    },
+    {
+      "row": 114,
+      "code": "KM100FULL",
+      "invoice": "1C26MUV/00147927",
+      "doc": "BHHS2024003694",
+      "name": "Đèn bắt muỗi, ruồi và các loại côn trùng KM100",
+      "unit": "Cái",
+      "quantity": -2,
+      "price": 193518.5,
+      "goods": -387037,
+      "btl": [
+        "BTL00165"
+      ],
+      "amis_source_rows": [
+        "21659"
+      ]
+    },
+    {
+      "row": 115,
+      "code": "KA350LIGHTFULL",
+      "invoice": "1C26MUV/00147924",
+      "doc": "BHHT2024011482",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 1266701,
+      "goods": -1266701,
+      "btl": [
+        "BTL00092"
+      ],
+      "amis_source_rows": [
+        "21858"
+      ]
+    },
+    {
+      "row": 116,
+      "code": "KA350FILTERFULL",
+      "invoice": "1C26MUV/00147924",
+      "doc": "BHHT2024011482",
+      "name": "Lõi lọc diệt khuẩn Filter KA350 - model: FT KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 436077,
+      "goods": -436077,
+      "btl": [
+        "BTL00092"
+      ],
+      "amis_source_rows": [
+        "21859"
+      ]
+    },
+    {
+      "row": 117,
+      "code": "KA150SFULL",
+      "invoice": "1C26MUV/00147930",
+      "doc": "BHHT2024014145",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifiers - KA150S",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 962037,
+      "goods": -962037,
+      "btl": [
+        "BTL00093"
+      ],
+      "amis_source_rows": [
+        "22901"
+      ]
+    },
+    {
+      "row": 118,
+      "code": "KA600FULL",
+      "invoice": "1C26MUV/00147929",
+      "doc": "BHHT2024014393",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifier . Model: KA600",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 2573148,
+      "goods": -2573148,
+      "btl": [
+        "BTL00094"
+      ],
+      "amis_source_rows": [
+        "23441"
+      ]
+    },
+    {
+      "row": 119,
+      "code": "KA350LIGHTFULL",
+      "invoice": "1C26MUV/00147931",
+      "doc": "BHHT2024014174",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 1739815,
+      "goods": -1739815,
+      "btl": [
+        "BTL00095"
+      ],
+      "amis_source_rows": [
+        "23934"
+      ]
+    },
+    {
+      "row": 120,
+      "code": "KA350LIGHTFULL",
+      "invoice": "1C26MUV/00147933",
+      "doc": "BHHT2024013129",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 1266701,
+      "goods": -1266701,
+      "btl": [
+        "BTL00096"
+      ],
+      "amis_source_rows": [
+        "24800"
+      ]
+    },
+    {
+      "row": 121,
+      "code": "KA350FILTERFULL",
+      "invoice": "1C26MUV/00147933",
+      "doc": "BHHT2024013129",
+      "name": "Lõi lọc diệt khuẩn Filter KA350 - model: FT KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 436077,
+      "goods": -436077,
+      "btl": [
+        "BTL00096"
+      ],
+      "amis_source_rows": [
+        "24801"
+      ]
+    },
+    {
+      "row": 122,
+      "code": "KA350LIGHTFULL",
+      "invoice": "1C26MUV/00147934",
+      "doc": "BHHT2024012463",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 1266701,
+      "goods": -1266701,
+      "btl": [
+        "BTL00097"
+      ],
+      "amis_source_rows": [
+        "25050"
+      ]
+    },
+    {
+      "row": 123,
+      "code": "KA350FILTERFULL",
+      "invoice": "1C26MUV/00147934",
+      "doc": "BHHT2024012463",
+      "name": "Lõi lọc diệt khuẩn Filter KA350 - model: FT KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 436077,
+      "goods": -436077,
+      "btl": [
+        "BTL00097"
+      ],
+      "amis_source_rows": [
+        "25051"
+      ]
+    },
+    {
+      "row": 124,
+      "code": "KA150SFULL",
+      "invoice": "1C26MUV/00147936",
+      "doc": "BHHT2024012648",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifiers - KA150S",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 962037,
+      "goods": -962037,
+      "btl": [
+        "BTL00098"
+      ],
+      "amis_source_rows": [
+        "25770"
+      ]
+    },
+    {
+      "row": 125,
+      "code": "COKACN01CRCH",
+      "invoice": "1C26MUV/00147942",
+      "doc": "BHHT2024017020",
+      "name": "Nguồn sạc điện 12V-2A",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 51978,
+      "goods": -51978,
+      "btl": [
+        "BTL00099"
+      ],
+      "amis_source_rows": [
+        "25985",
+        "25990"
+      ]
+    },
+    {
+      "row": 126,
+      "code": "VCOKACN01STAP",
+      "invoice": "1C26MUV/00147942",
+      "doc": "BHHT2024017020",
+      "name": "Dây đeo băng vải cao su 60cm, code: TL-RUB60, dùng kết nối xe và máy UVC tia cực tím, nhà sx Tonglu, mới 100%",
+      "unit": "Sợi",
+      "quantity": -1,
+      "price": 22276,
+      "goods": -22276,
+      "btl": [
+        "BTL00099"
+      ],
+      "amis_source_rows": [
+        "25986, 25989"
+      ]
+    },
+    {
+      "row": 127,
+      "code": "KA100UVC70",
+      "invoice": "1C26MUV/00147942",
+      "doc": "BHHT2024017020",
+      "name": "Máy Lọc Không Khí Ô Tô, Khử Mùi, Diệt Khuẩn UVC LED UVGREEN KA100",
+      "unit": "Bộ",
+      "quantity": -1,
+      "price": 965300,
+      "goods": -965300,
+      "btl": [
+        "BTL00099"
+      ],
+      "amis_source_rows": [
+        "25987"
+      ]
+    },
+    {
+      "row": 128,
+      "code": "COKACN01CBFL",
+      "invoice": "1C26MUV/00147942",
+      "doc": "BHHT2024017020",
+      "name": "Màng lọc carbon",
+      "unit": "Cái",
+      "quantity": -3,
+      "price": 11138,
+      "goods": -33414,
+      "btl": [
+        "BTL00099"
+      ],
+      "amis_source_rows": [
+        "25988"
+      ]
+    },
+    {
+      "row": 129,
+      "code": "VCOKACN01STAP",
+      "invoice": "1C26MUV/00147942",
+      "doc": "BHHT2024017020",
+      "name": "Dây đeo băng vải cao su 60cm, code: TL-RUB60, dùng kết nối xe và máy UVC tia cực tím, nhà sx Tonglu, mới 100%",
+      "unit": "Sợi",
+      "quantity": -1,
+      "price": 22276,
+      "goods": -22276,
+      "btl": [
+        "BTL00099"
+      ],
+      "amis_source_rows": [
+        "25986, 25989"
+      ]
+    },
+    {
+      "row": 130,
+      "code": "COKACN01CRCH",
+      "invoice": "1C26MUV/00147942",
+      "doc": "BHHT2024017020",
+      "name": "Nguồn sạc điện 12V-2A",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 51978,
+      "goods": -51978,
+      "btl": [
+        "BTL00099"
+      ],
+      "amis_source_rows": [
+        "25985",
+        "25990"
+      ]
+    },
+    {
+      "row": 131,
+      "code": "KA150SFULL",
+      "invoice": "1C26MUV/00147938",
+      "doc": "BHHT2024012234",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifiers - KA150S",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 943519,
+      "goods": -943519,
+      "btl": [
+        "BTL00100"
+      ],
+      "amis_source_rows": [
+        "26542"
+      ]
+    },
+    {
+      "row": 132,
+      "code": "KA150SFULL",
+      "invoice": "1C26MUV/00147939",
+      "doc": "BHHT2024012197",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifiers - KA150S",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 962037,
+      "goods": -962037,
+      "btl": [
+        "BTL00101"
+      ],
+      "amis_source_rows": [
+        "26543"
+      ]
+    },
+    {
+      "row": 133,
+      "code": "KM300FULL",
+      "invoice": "1C26MUV/00147932",
+      "doc": "BHHT2024013685",
+      "name": "Đèn bắt muỗi, ruồi và các loại côn trùng UVA Electronical Mosquito Killer, Model: KM300",
+      "unit": "Cái",
+      "quantity": -3,
+      "price": 455864.33,
+      "goods": -1367593,
+      "btl": [
+        "BTL00102"
+      ],
+      "amis_source_rows": [
+        "26840"
+      ]
+    },
+    {
+      "row": 134,
+      "code": "KA350LIGHTFULL",
+      "invoice": "1C26MUV/00147944",
+      "doc": "BHHS2024004950",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 1542220,
+      "goods": -1542220,
+      "btl": [
+        "BTL00164"
+      ],
+      "amis_source_rows": [
+        "27875"
+      ]
+    },
+    {
+      "row": 135,
+      "code": "KA350FILTERFULL",
+      "invoice": "1C26MUV/00147944",
+      "doc": "BHHS2024004950",
+      "name": "Lõi lọc diệt khuẩn Filter KA350 - model: FT KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 530928,
+      "goods": -530928,
+      "btl": [
+        "BTL00164"
+      ],
+      "amis_source_rows": [
+        "27876"
+      ]
+    },
+    {
+      "row": 136,
+      "code": "KA150SFULL",
+      "invoice": "1C26MUV/00147948",
+      "doc": "BHHT2024015945",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifiers - KA150S",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 962037,
+      "goods": -962037,
+      "btl": [
+        "BTL00103"
+      ],
+      "amis_source_rows": [
+        "28337"
+      ]
+    },
+    {
+      "row": 137,
+      "code": "KA150SFULL",
+      "invoice": "1C26MUV/00147943",
+      "doc": "BHHT2024016643",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifiers - KA150S",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 962037,
+      "goods": -962037,
+      "btl": [
+        "BTL00104"
+      ],
+      "amis_source_rows": [
+        "28338"
+      ]
+    },
+    {
+      "row": 138,
+      "code": "KA350LIGHTFULL",
+      "invoice": "1C26MUV/00147916",
+      "doc": "BHHT2024007997",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 1239149,
+      "goods": -1239149,
+      "btl": [
+        "BTL00105"
+      ],
+      "amis_source_rows": [
+        "28339"
+      ]
+    },
+    {
+      "row": 139,
+      "code": "KA350FILTERFULL",
+      "invoice": "1C26MUV/00147916",
+      "doc": "BHHT2024007997",
+      "name": "Lõi lọc diệt khuẩn Filter KA350 - model: FT KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 426592,
+      "goods": -426592,
+      "btl": [
+        "BTL00105"
+      ],
+      "amis_source_rows": [
+        "28340"
+      ]
+    },
+    {
+      "row": 140,
+      "code": "KA150SFULL",
+      "invoice": "1C26MUV/00147949",
+      "doc": "BHHT2024015976",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifiers - KA150S",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 950926,
+      "goods": -950926,
+      "btl": [
+        "BTL00106"
+      ],
+      "amis_source_rows": [
+        "28719"
+      ]
+    },
+    {
+      "row": 141,
+      "code": "KA350LIGHTFULL",
+      "invoice": "1C26MUV/00147935",
+      "doc": "BHHS2024004547",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 1739815,
+      "goods": -1739815,
+      "btl": [
+        "BTL00162"
+      ],
+      "amis_source_rows": [
+        "28720"
+      ]
+    },
+    {
+      "row": 142,
+      "code": "KM300FULL",
+      "invoice": "1C26MUV/00147941",
+      "doc": "BHHS2024004811",
+      "name": "Đèn bắt muỗi, ruồi và các loại côn trùng UVA Electronical Mosquito Killer, Model: KM300",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 434259,
+      "goods": -434259,
+      "btl": [
+        "BTL00163"
+      ],
+      "amis_source_rows": [
+        "28721"
+      ]
+    },
+    {
+      "row": 143,
+      "code": "KA600FULL",
+      "invoice": "1C26MUV/00147947",
+      "doc": "BHHS2024005256",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifier . Model: KA600",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 2037076,
+      "goods": -2037076,
+      "btl": [
+        "BTL00182"
+      ],
+      "amis_source_rows": [
+        "28722"
+      ]
+    },
+    {
+      "row": 144,
+      "code": "KA600FILTERFULL",
+      "invoice": "1C26MUV/00147947",
+      "doc": "BHHS2024005256",
+      "name": "Lõi lọc diệt khuẩn - Filter, model:FT- KA600",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 536073,
+      "goods": -536073,
+      "btl": [
+        "BTL00182"
+      ],
+      "amis_source_rows": [
+        "28723"
+      ]
+    },
+    {
+      "row": 145,
+      "code": "KM100FULL",
+      "invoice": "1C26MUV/00147956",
+      "doc": "BHHS2024005761",
+      "name": "Đèn bắt muỗi, ruồi và các loại côn trùng KM100",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 202778,
+      "goods": -202778,
+      "btl": [
+        "BTL00024"
+      ],
+      "amis_source_rows": [
+        "30054"
+      ]
+    },
+    {
+      "row": 146,
+      "code": "KA350LIGHTFULL",
+      "invoice": "1C26MUV/00147950",
+      "doc": "BHHS2024005303",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 1739815,
+      "goods": -1739815,
+      "btl": [
+        "BTL00130"
+      ],
+      "amis_source_rows": [
+        "30055"
+      ]
+    },
+    {
+      "row": 147,
+      "code": "KA150SFILTERFULL",
+      "invoice": "1C26MUV/00147946",
+      "doc": "BHHS2024005127",
+      "name": "Lõi lọc diệt khuẩn (Filter-FT-KA150S), model: FT-KA150S",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 462963,
+      "goods": -462963,
+      "btl": [
+        "BTL00131"
+      ],
+      "amis_source_rows": [
+        "30056"
+      ]
+    },
+    {
+      "row": 148,
+      "code": "KM300FULL",
+      "invoice": "1C26MUV/00147945",
+      "doc": "BHHS2024005124",
+      "name": "Đèn bắt muỗi, ruồi và các loại côn trùng UVA Electronical Mosquito Killer, Model: KM300",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 416667,
+      "goods": -416667,
+      "btl": [
+        "BTL00161"
+      ],
+      "amis_source_rows": [
+        "30057"
+      ]
+    },
+    {
+      "row": 149,
+      "code": "KA150SFILTERFULL",
+      "invoice": "1C26MUV/00147953",
+      "doc": "BHHL2024000079",
+      "name": "Lõi lọc diệt khuẩn (Filter-FT-KA150S), model: FT-KA150S",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 412037,
+      "goods": -412037,
+      "btl": [
+        "BTL00181"
+      ],
+      "amis_source_rows": [
+        "30058"
+      ]
+    },
+    {
+      "row": 150,
+      "code": "KA600FULL",
+      "invoice": "1C26MUV/00147951",
+      "doc": "BHHT2024015848",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifier . Model: KA600",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 2037076,
+      "goods": -2037076,
+      "btl": [
+        "BTL00108"
+      ],
+      "amis_source_rows": [
+        "30401"
+      ]
+    },
+    {
+      "row": 151,
+      "code": "KA600FILTERFULL",
+      "invoice": "1C26MUV/00147951",
+      "doc": "BHHT2024015848",
+      "name": "Lõi lọc diệt khuẩn - Filter, model:FT- KA600",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 536072,
+      "goods": -536072,
+      "btl": [
+        "BTL00108"
+      ],
+      "amis_source_rows": [
+        "30402"
+      ]
+    },
+    {
+      "row": 152,
+      "code": "KA350LIGHTFULL",
+      "invoice": "1C26MUV/00147958",
+      "doc": "BHHT2024014868",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 1702778,
+      "goods": -1702778,
+      "btl": [
+        "BTL00109"
+      ],
+      "amis_source_rows": [
+        "30603"
+      ]
+    },
+    {
+      "row": 153,
+      "code": "KA600FULL",
+      "invoice": "1C26MUV/00147937",
+      "doc": "BHHS2024004695",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifier . Model: KA600",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 2037076,
+      "goods": -2037076,
+      "btl": [
+        "BTL00129"
+      ],
+      "amis_source_rows": [
+        "30604"
+      ]
+    },
+    {
+      "row": 154,
+      "code": "KA600FILTERFULL",
+      "invoice": "1C26MUV/00147937",
+      "doc": "BHHS2024004695",
+      "name": "Lõi lọc diệt khuẩn - Filter, model:FT- KA600",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 536072,
+      "goods": -536072,
+      "btl": [
+        "BTL00129"
+      ],
+      "amis_source_rows": [
+        "30605"
+      ]
+    },
+    {
+      "row": 155,
+      "code": "KA350LIGHTFULL",
+      "invoice": "1C26MUV/00147940",
+      "doc": "BHHT2024012208",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 1739815,
+      "goods": -1739815,
+      "btl": [
+        "BTL00110"
+      ],
+      "amis_source_rows": [
+        "30961"
+      ]
+    },
+    {
+      "row": 156,
+      "code": "KA150SFULL",
+      "invoice": "1C26MUV/00147959",
+      "doc": "BHHT2024019620",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifiers - KA150S",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 952417,
+      "goods": -952417,
+      "btl": [
+        "BTL00111"
+      ],
+      "amis_source_rows": [
+        "31047"
+      ]
+    },
+    {
+      "row": 157,
+      "code": "KA150SFULL",
+      "invoice": "1C26MUV/00147952",
+      "doc": "BHHS2024005508",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifiers - KA150S",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 925000,
+      "goods": -925000,
+      "btl": [
+        "BTL00107"
+      ],
+      "amis_source_rows": [
+        "31132"
+      ]
+    },
+    {
+      "row": 158,
+      "code": "KM100FULL",
+      "invoice": "1C26MUV/00147955",
+      "doc": "BHHS2024005689",
+      "name": "Đèn bắt muỗi, ruồi và các loại côn trùng KM100",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 165741,
+      "goods": -165741,
+      "btl": [
+        "BTL00128"
+      ],
+      "amis_source_rows": [
+        "31133"
+      ]
+    },
+    {
+      "row": 159,
+      "code": "KA350LIGHTFULL",
+      "invoice": "1C26MUV/00147960",
+      "doc": "BHHT2024019621",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 1702778,
+      "goods": -1702778,
+      "btl": [
+        "BTL00112"
+      ],
+      "amis_source_rows": [
+        "31337"
+      ]
+    },
+    {
+      "row": 160,
+      "code": "KM300FULL",
+      "invoice": "1C26MUV/00147954",
+      "doc": "BHHT2024015528",
+      "name": "Đèn bắt muỗi, ruồi và các loại côn trùng UVA Electronical Mosquito Killer, Model: KM300",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 401852,
+      "goods": -401852,
+      "btl": [
+        "BTL00113"
+      ],
+      "amis_source_rows": [
+        "31508"
+      ]
+    },
+    {
+      "row": 161,
+      "code": "KA600FULL",
+      "invoice": "1C26MUV/00147964",
+      "doc": "BHHT2024019209",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifier . Model: KA600",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 2573148,
+      "goods": -2573148,
+      "btl": [
+        "BTL00114"
+      ],
+      "amis_source_rows": [
+        "32591"
+      ]
+    },
+    {
+      "row": 162,
+      "code": "KA150SFULL",
+      "invoice": "1C26MUV/00147965",
+      "doc": "BHHT2024019120",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifiers - KA150S",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 962037,
+      "goods": -962037,
+      "btl": [
+        "BTL00115"
+      ],
+      "amis_source_rows": [
+        "32833"
+      ]
+    },
+    {
+      "row": 163,
+      "code": "KA150SFULL",
+      "invoice": "1C26MUV/00147968",
+      "doc": "BHHT2024018878",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifiers - KA150S",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 962037,
+      "goods": -962037,
+      "btl": [
+        "BTL00116"
+      ],
+      "amis_source_rows": [
+        "33012"
+      ]
+    },
+    {
+      "row": 164,
+      "code": "KA350LIGHTFULL",
+      "invoice": "1C26MUV/00147969",
+      "doc": "BHHT2024018930",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 1266701,
+      "goods": -1266701,
+      "btl": [
+        "BTL00117"
+      ],
+      "amis_source_rows": [
+        "33013"
+      ]
+    },
+    {
+      "row": 165,
+      "code": "KA350FILTERFULL",
+      "invoice": "1C26MUV/00147969",
+      "doc": "BHHT2024018930",
+      "name": "Lõi lọc diệt khuẩn Filter KA350 - model: FT KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 436077,
+      "goods": -436077,
+      "btl": [
+        "BTL00117"
+      ],
+      "amis_source_rows": [
+        "33014"
+      ]
+    },
+    {
+      "row": 166,
+      "code": "KA350LIGHTFULL",
+      "invoice": "1C26MUV/00147961",
+      "doc": "BHHT2024019578",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 1702778,
+      "goods": -1702778,
+      "btl": [
+        "BTL00118"
+      ],
+      "amis_source_rows": [
+        "33472"
+      ]
+    },
+    {
+      "row": 167,
+      "code": "KA350LIGHTFULL",
+      "invoice": "1C26MUV/00147921",
+      "doc": "BHHT2024012010",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 1702778,
+      "goods": -1702778,
+      "btl": [
+        "BTL00119"
+      ],
+      "amis_source_rows": [
+        "33473"
+      ]
+    },
+    {
+      "row": 168,
+      "code": "KA600FULL",
+      "invoice": "1C26MUV/00147957",
+      "doc": "BHHS2024005878",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifier . Model: KA600",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 2573148,
+      "goods": -2573148,
+      "btl": [
+        "BTL00159"
+      ],
+      "amis_source_rows": [
+        "33474"
+      ]
+    },
+    {
+      "row": 169,
+      "code": "KA600FULL",
+      "invoice": "1C26MUV/00147967",
+      "doc": "BHHS2024006318",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifier . Model: KA600",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 2037076,
+      "goods": -2037076,
+      "btl": [
+        "BTL00088"
+      ],
+      "amis_source_rows": [
+        "33715"
+      ]
+    },
+    {
+      "row": 170,
+      "code": "KA600FILTERFULL",
+      "invoice": "1C26MUV/00147967",
+      "doc": "BHHS2024006318",
+      "name": "Lõi lọc diệt khuẩn - Filter, model:FT- KA600",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 536072,
+      "goods": -536072,
+      "btl": [
+        "BTL00088"
+      ],
+      "amis_source_rows": [
+        "33716"
+      ]
+    },
+    {
+      "row": 171,
+      "code": "KA150SFULL",
+      "invoice": "1C26MUV/00147962",
+      "doc": "BHHS2024006036",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifiers - KA150S",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 962037,
+      "goods": -962037,
+      "btl": [
+        "BTL00091"
+      ],
+      "amis_source_rows": [
+        "33717"
+      ]
+    },
+    {
+      "row": 172,
+      "code": "KM200FULL",
+      "invoice": "1C26MUV/00147970",
+      "doc": "BHHS2024006455",
+      "name": "Đèn bắt muỗi, ruồi và các loại côn trùng KM200",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 258333,
+      "goods": -258333,
+      "btl": [
+        "BTL00086"
+      ],
+      "amis_source_rows": [
+        "34219"
+      ]
+    },
+    {
+      "row": 173,
+      "code": "KM300FULL",
+      "invoice": "1C26MUV/00147977",
+      "doc": "BHHT2024017854",
+      "name": "Đèn bắt muỗi, ruồi và các loại côn trùng UVA Electronical Mosquito Killer, Model: KM300",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 415741,
+      "goods": -415741,
+      "btl": [
+        "BTL00120"
+      ],
+      "amis_source_rows": [
+        "34220"
+      ]
+    },
+    {
+      "row": 174,
+      "code": "KA350LIGHTFULL",
+      "invoice": "1C26MUV/00147972",
+      "doc": "BHHT2024018508",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 1663519,
+      "goods": -1663519,
+      "btl": [
+        "BTL00121"
+      ],
+      "amis_source_rows": [
+        "34326"
+      ]
+    },
+    {
+      "row": 175,
+      "code": "KA350LIGHTFULL",
+      "invoice": "1C26MUV/00147973",
+      "doc": "BHHT2024018446",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 1702778,
+      "goods": -1702778,
+      "btl": [
+        "BTL00122"
+      ],
+      "amis_source_rows": [
+        "34725"
+      ]
+    },
+    {
+      "row": 176,
+      "code": "KA350LIGHTFULL",
+      "invoice": "1C26MUV/00147971",
+      "doc": "BHHT2024018751",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 1702778,
+      "goods": -1702778,
+      "btl": [
+        "BTL00123"
+      ],
+      "amis_source_rows": [
+        "34882"
+      ]
+    },
+    {
+      "row": 177,
+      "code": "KA350LIGHTFULL",
+      "invoice": "1C26MUV/00147974",
+      "doc": "BHHT2024018262",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 1266701,
+      "goods": -1266701,
+      "btl": [
+        "BTL00177"
+      ],
+      "amis_source_rows": [
+        "34883"
+      ]
+    },
+    {
+      "row": 178,
+      "code": "KA350FILTERFULL",
+      "invoice": "1C26MUV/00147974",
+      "doc": "BHHT2024018262",
+      "name": "Lõi lọc diệt khuẩn Filter KA350 - model: FT KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 436077,
+      "goods": -436077,
+      "btl": [
+        "BTL00177"
+      ],
+      "amis_source_rows": [
+        "34884"
+      ]
+    },
+    {
+      "row": 179,
+      "code": "KA150SFULL",
+      "invoice": "1C26MUV/00147981",
+      "doc": "BHHT2024017215",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifiers - KA150S",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 962037,
+      "goods": -962037,
+      "btl": [
+        "BTL00124"
+      ],
+      "amis_source_rows": [
+        "35297"
+      ]
+    },
+    {
+      "row": 180,
+      "code": "KA150PFULL",
+      "invoice": "1C26MUV/00147979",
+      "doc": "BHHT2024017420",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifiers - KA150P",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 1276852,
+      "goods": -1276852,
+      "btl": [
+        "BTL00125"
+      ],
+      "amis_source_rows": [
+        "35298"
+      ]
+    },
+    {
+      "row": 181,
+      "code": "KA150SFULL",
+      "invoice": "1C26MUV/00147975",
+      "doc": "BHHT2024018052",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifiers - KA150S",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 962037,
+      "goods": -962037,
+      "btl": [
+        "BTL00126"
+      ],
+      "amis_source_rows": [
+        "35468"
+      ]
+    },
+    {
+      "row": 182,
+      "code": "KA600FILTERFULL",
+      "invoice": "1C26MUV/00147978",
+      "doc": "BHHT2024017754",
+      "name": "Lõi lọc diệt khuẩn - Filter, model:FT- KA600",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 508333,
+      "goods": -508333,
+      "btl": [
+        "BTL00178"
+      ],
+      "amis_source_rows": [
+        "35834"
+      ]
+    },
+    {
+      "row": 183,
+      "code": "KA600FULL",
+      "invoice": "1C26MUV/00147976",
+      "doc": "BHHT2024017809",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifier . Model: KA600",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 2526852,
+      "goods": -2526852,
+      "btl": [
+        "BTL00179"
+      ],
+      "amis_source_rows": [
+        "35835"
+      ]
+    },
+    {
+      "row": 184,
+      "code": "KA150SFILTERFULL",
+      "invoice": "1C26MUV/00147984",
+      "doc": "BHHN2024000165",
+      "name": "Lõi lọc diệt khuẩn (Filter-FT-KA150S), model: FT-KA150S",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 480556,
+      "goods": -480556,
+      "btl": [
+        "BTL00187"
+      ],
+      "amis_source_rows": [
+        "35899"
+      ]
+    },
+    {
+      "row": 185,
+      "code": "KA600FULL",
+      "invoice": "1C26MUV/00147980",
+      "doc": "BHHS2024006823",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifier . Model: KA600",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 2037076,
+      "goods": -2037076,
+      "btl": [
+        "BTL00083"
+      ],
+      "amis_source_rows": [
+        "36006"
+      ]
+    },
+    {
+      "row": 186,
+      "code": "KA600FILTERFULL",
+      "invoice": "1C26MUV/00147980",
+      "doc": "BHHS2024006823",
+      "name": "Lõi lọc diệt khuẩn - Filter, model:FT- KA600",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 536072,
+      "goods": -536072,
+      "btl": [
+        "BTL00083"
+      ],
+      "amis_source_rows": [
+        "36007"
+      ]
+    },
+    {
+      "row": 187,
+      "code": "KA350LIGHTFULL",
+      "invoice": "1C26MUV/00147966",
+      "doc": "BHHS2024006209",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 1294253,
+      "goods": -1294253,
+      "btl": [
+        "BTL00085"
+      ],
+      "amis_source_rows": [
+        "36008"
+      ]
+    },
+    {
+      "row": 188,
+      "code": "KA350FILTERFULL",
+      "invoice": "1C26MUV/00147966",
+      "doc": "BHHS2024006209",
+      "name": "Lõi lọc diệt khuẩn Filter KA350 - model: FT KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 445562,
+      "goods": -445562,
+      "btl": [
+        "BTL00085"
+      ],
+      "amis_source_rows": [
+        "36009"
+      ]
+    },
+    {
+      "row": 189,
+      "code": "KM200FULL",
+      "invoice": "1C26MUV/00147982",
+      "doc": "BHHT2024017243",
+      "name": "Đèn bắt muỗi, ruồi và các loại côn trùng KM200",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 258333,
+      "goods": -258333,
+      "btl": [
+        "BTL00132"
+      ],
+      "amis_source_rows": [
+        "36010"
+      ]
+    },
+    {
+      "row": 190,
+      "code": "KA350LIGHTFULL",
+      "invoice": "1C26MUV/00147983",
+      "doc": "BHHT2024022352",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 1702778,
+      "goods": -1702778,
+      "btl": [
+        "BTL00133"
+      ],
+      "amis_source_rows": [
+        "36109"
+      ]
+    },
+    {
+      "row": 191,
+      "code": "KA600FULL",
+      "invoice": "1C26MUV/00147963",
+      "doc": "BHHS2024006117",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifier . Model: KA600",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 2573148,
+      "goods": -2573148,
+      "btl": [
+        "BTL00079"
+      ],
+      "amis_source_rows": [
+        "36336"
+      ]
+    },
+    {
+      "row": 192,
+      "code": "KM200FULL",
+      "invoice": "1C26MUV/00147985",
+      "doc": "BHHT2024021563",
+      "name": "Đèn bắt muỗi, ruồi và các loại côn trùng KM200",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 258333,
+      "goods": -258333,
+      "btl": [
+        "BTL00134"
+      ],
+      "amis_source_rows": [
+        "37368"
+      ]
+    },
+    {
+      "row": 193,
+      "code": "KA350LIGHTFULL",
+      "invoice": "1C26MUV/00147991",
+      "doc": "BHHT2024020876",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 1702778,
+      "goods": -1702778,
+      "btl": [
+        "BTL00135"
+      ],
+      "amis_source_rows": [
+        "38035"
+      ]
+    },
+    {
+      "row": 194,
+      "code": "KA150PFULL",
+      "invoice": "1C26MUV/00147986",
+      "doc": "BHHT2024021404",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifiers - KA150P",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 1369444,
+      "goods": -1369444,
+      "btl": [
+        "BTL00136"
+      ],
+      "amis_source_rows": [
+        "38443"
+      ]
+    },
+    {
+      "row": 195,
+      "code": "KM200FULL",
+      "invoice": "1C26MUV/00147989",
+      "doc": "BHHT2024021245",
+      "name": "Đèn bắt muỗi, ruồi và các loại côn trùng KM200",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 237417,
+      "goods": -237417,
+      "btl": [
+        "BTL00137"
+      ],
+      "amis_source_rows": [
+        "38681"
+      ]
+    },
+    {
+      "row": 196,
+      "code": "KM200FULL",
+      "invoice": "1C26MUV/00147992",
+      "doc": "BHHT2024020920",
+      "name": "Đèn bắt muỗi, ruồi và các loại côn trùng KM200",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 237417,
+      "goods": -237417,
+      "btl": [
+        "BTL00138"
+      ],
+      "amis_source_rows": [
+        "38895"
+      ]
+    },
+    {
+      "row": 197,
+      "code": "KA600FULL",
+      "invoice": "1C26MUV/00147990",
+      "doc": "BHHT2024021064",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifier . Model: KA600",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 1991188,
+      "goods": -1991188,
+      "btl": [
+        "BTL00139"
+      ],
+      "amis_source_rows": [
+        "38963"
+      ]
+    },
+    {
+      "row": 198,
+      "code": "KA600FILTERFULL",
+      "invoice": "1C26MUV/00147990",
+      "doc": "BHHT2024021064",
+      "name": "Lõi lọc diệt khuẩn - Filter, model:FT- KA600",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 523997,
+      "goods": -523997,
+      "btl": [
+        "BTL00139"
+      ],
+      "amis_source_rows": [
+        "38964"
+      ]
+    },
+    {
+      "row": 199,
+      "code": "KA150SFULL",
+      "invoice": "1C26MUV/00147988",
+      "doc": "BHHT2024021229",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifiers - KA150S",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 938889,
+      "goods": -938889,
+      "btl": [
+        "BTL00140"
+      ],
+      "amis_source_rows": [
+        "39262"
+      ]
+    },
+    {
+      "row": 200,
+      "code": "KM200FULL",
+      "invoice": "1C26MUV/00147994",
+      "doc": "BHHT2024020489",
+      "name": "Đèn bắt muỗi, ruồi và các loại côn trùng KM200",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 221296,
+      "goods": -221296,
+      "btl": [
+        "BTL00141"
+      ],
+      "amis_source_rows": [
+        "39635"
+      ]
+    },
+    {
+      "row": 201,
+      "code": "KA150SFULL",
+      "invoice": "1C26MUV/00147993",
+      "doc": "BHHT2024020800",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifiers - KA150S",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 962037,
+      "goods": -962037,
+      "btl": [
+        "BTL00142"
+      ],
+      "amis_source_rows": [
+        "40021"
+      ]
+    },
+    {
+      "row": 202,
+      "code": "KM200FULL",
+      "invoice": "1C26MUV/00147996",
+      "doc": "BHHT2024020204",
+      "name": "Đèn bắt muỗi, ruồi và các loại côn trùng KM200",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 258333,
+      "goods": -258333,
+      "btl": [
+        "BTL00143"
+      ],
+      "amis_source_rows": [
+        "40631"
+      ]
+    },
+    {
+      "row": 203,
+      "code": "KM200FULL",
+      "invoice": "1C26MUV/00147995",
+      "doc": "BHHT2024020202",
+      "name": "Đèn bắt muỗi, ruồi và các loại côn trùng KM200",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 258333,
+      "goods": -258333,
+      "btl": [
+        "BTL00144"
+      ],
+      "amis_source_rows": [
+        "40632"
+      ]
+    },
+    {
+      "row": 204,
+      "code": "SP000042",
+      "invoice": "1C26MUV/00147999",
+      "doc": "BHHT2024024972",
+      "name": "Bình nước giữ nhiệt thông minh UVGREEN UK100 Màu trắng",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 972222,
+      "goods": -972222,
+      "btl": [
+        "BTL00145"
+      ],
+      "amis_source_rows": [
+        "40633"
+      ]
+    },
+    {
+      "row": 205,
+      "code": "KA350LIGHTFULL",
+      "invoice": "1C26MUV/00147998",
+      "doc": "BHHT2024024917",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 1702778,
+      "goods": -1702778,
+      "btl": [
+        "BTL00146"
+      ],
+      "amis_source_rows": [
+        "40776"
+      ]
+    },
+    {
+      "row": 206,
+      "code": "KA600FULL",
+      "invoice": "1C26MUV/00148004",
+      "doc": "BHHT2024024570",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifier . Model: KA600",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 1873435,
+      "goods": -1873435,
+      "btl": [
+        "BTL00147"
+      ],
+      "amis_source_rows": [
+        "40940"
+      ]
+    },
+    {
+      "row": 207,
+      "code": "KA600FILTERFULL",
+      "invoice": "1C26MUV/00148004",
+      "doc": "BHHT2024024570",
+      "name": "Lõi lọc diệt khuẩn - Filter, model:FT- KA600",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 493009,
+      "goods": -493009,
+      "btl": [
+        "BTL00147"
+      ],
+      "amis_source_rows": [
+        "40941"
+      ]
+    },
+    {
+      "row": 208,
+      "code": "KA600FULL",
+      "invoice": "1C26MUV/00148005",
+      "doc": "BHHT2024024644",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifier . Model: KA600",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 2573148,
+      "goods": -2573148,
+      "btl": [
+        "BTL00148"
+      ],
+      "amis_source_rows": [
+        "40942"
+      ]
+    },
+    {
+      "row": 209,
+      "code": "KA600FULL",
+      "invoice": "1C26MUV/00144123",
+      "doc": "BHHT2024024887",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifier . Model: KA600",
+      "unit": "Cái",
+      "quantity": -2,
+      "price": 2115509.5,
+      "goods": -4231019,
+      "btl": [
+        "BTL00180"
+      ],
+      "amis_source_rows": [
+        "41154"
+      ]
+    },
+    {
+      "row": 210,
+      "code": "KA600FILTERFULL",
+      "invoice": "1C26MUV/00144123",
+      "doc": "BHHT2024024887",
+      "name": "Lõi lọc diệt khuẩn - Filter, model:FT- KA600",
+      "unit": "Cái",
+      "quantity": -2,
+      "price": 556713,
+      "goods": -1113426,
+      "btl": [
+        "BTL00180"
+      ],
+      "amis_source_rows": [
+        "41155"
+      ]
+    },
+    {
+      "row": 211,
+      "code": "KA350LIGHTFULL",
+      "invoice": "1C26MUV/00147987",
+      "doc": "BHHT2024021197",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 1266701,
+      "goods": -1266701,
+      "btl": [
+        "BTL00149"
+      ],
+      "amis_source_rows": [
+        "42280"
+      ]
+    },
+    {
+      "row": 212,
+      "code": "KA350FILTERFULL",
+      "invoice": "1C26MUV/00147987",
+      "doc": "BHHT2024021197",
+      "name": "Lõi lọc diệt khuẩn Filter KA350 - model: FT KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 436077,
+      "goods": -436077,
+      "btl": [
+        "BTL00149"
+      ],
+      "amis_source_rows": [
+        "42281"
+      ]
+    },
+    {
+      "row": 213,
+      "code": "KA350PROFULLNEW",
+      "invoice": "1C26MUV/00148002",
+      "doc": "BHHT2024024845",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC KA350 Pro",
+      "unit": "Chiếc",
+      "quantity": -1,
+      "price": 2202778,
+      "goods": -2202778,
+      "btl": [
+        "BTL00150"
+      ],
+      "amis_source_rows": [
+        "42282"
+      ]
+    },
+    {
+      "row": 214,
+      "code": "KA600FULL",
+      "invoice": "1C26MUV/00148000",
+      "doc": "BHHT2024024997",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifier . Model: KA600",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 1833368,
+      "goods": -1833368,
+      "btl": [
+        "BTL00151"
+      ],
+      "amis_source_rows": [
+        "42283"
+      ]
+    },
+    {
+      "row": 215,
+      "code": "KA600FILTERFULL",
+      "invoice": "1C26MUV/00148000",
+      "doc": "BHHT2024024997",
+      "name": "Lõi lọc diệt khuẩn - Filter, model:FT- KA600",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 482465,
+      "goods": -482465,
+      "btl": [
+        "BTL00151"
+      ],
+      "amis_source_rows": [
+        "42284"
+      ]
+    },
+    {
+      "row": 216,
+      "code": "KA150SFULL",
+      "invoice": "1C26MUV/00148006",
+      "doc": "BHHT2024023988",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifiers - KA150S",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 962037,
+      "goods": -962037,
+      "btl": [
+        "BTL00152"
+      ],
+      "amis_source_rows": [
+        "42637"
+      ]
+    },
+    {
+      "row": 217,
+      "code": "KA150PFULL",
+      "invoice": "1C26MUV/00148003",
+      "doc": "BHHT2024024699",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifiers - KA150P",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 1276851,
+      "goods": -1276851,
+      "btl": [
+        "BTL00153"
+      ],
+      "amis_source_rows": [
+        "42638"
+      ]
+    },
+    {
+      "row": 218,
+      "code": "KA600FILTERFULL",
+      "invoice": "1C26MUV/00148010",
+      "doc": "BHHT2024023181",
+      "name": "Lõi lọc diệt khuẩn - Filter, model:FT- KA600",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 449074,
+      "goods": -449074,
+      "btl": [
+        "BTL00154"
+      ],
+      "amis_source_rows": [
+        "43083"
+      ]
+    },
+    {
+      "row": 219,
+      "code": "KA600FULL",
+      "invoice": "1C26MUV/00147997",
+      "doc": "BHHS2024007983",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifier . Model: KA600",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 2573148,
+      "goods": -2573148,
+      "btl": [
+        "BTL00073"
+      ],
+      "amis_source_rows": [
+        "43573"
+      ]
+    },
+    {
+      "row": 220,
+      "code": "KM300FULL",
+      "invoice": "1C26MUV/00148007",
+      "doc": "BHHT2024023783",
+      "name": "Đèn bắt muỗi, ruồi và các loại côn trùng UVA Electronical Mosquito Killer, Model: KM300",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 371875,
+      "goods": -371875,
+      "btl": [
+        "BTL00155"
+      ],
+      "amis_source_rows": [
+        "43574"
+      ]
+    },
+    {
+      "row": 221,
+      "code": "KA350LIGHTFULL",
+      "invoice": "1C26MUV/00148009",
+      "doc": "BHHT2024023250",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 1671296,
+      "goods": -1671296,
+      "btl": [
+        "BTL00156"
+      ],
+      "amis_source_rows": [
+        "43798"
+      ]
+    },
+    {
+      "row": 222,
+      "code": "KA350LIGHTFULL",
+      "invoice": "1C26MUV/00148001",
+      "doc": "BHHS2024008054",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 1266701,
+      "goods": -1266701,
+      "btl": [
+        "BTL00072"
+      ],
+      "amis_source_rows": [
+        "44105"
+      ]
+    },
+    {
+      "row": 223,
+      "code": "KA350FILTERFULL",
+      "invoice": "1C26MUV/00148001",
+      "doc": "BHHS2024008054",
+      "name": "Lõi lọc diệt khuẩn Filter KA350 - model: FT KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 436077,
+      "goods": -436077,
+      "btl": [
+        "BTL00072"
+      ],
+      "amis_source_rows": [
+        "44106"
+      ]
+    },
+    {
+      "row": 224,
+      "code": "KA350LIGHTFULL",
+      "invoice": "1C26MUV/00148011",
+      "doc": "BHHT2024023050",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 1217107,
+      "goods": -1217107,
+      "btl": [
+        "BTL00157"
+      ],
+      "amis_source_rows": [
+        "44107"
+      ]
+    },
+    {
+      "row": 225,
+      "code": "KA350FILTERFULL",
+      "invoice": "1C26MUV/00148011",
+      "doc": "BHHT2024023050",
+      "name": "Lõi lọc diệt khuẩn Filter KA350 - model: FT KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 419004,
+      "goods": -419004,
+      "btl": [
+        "BTL00157"
+      ],
+      "amis_source_rows": [
+        "44108"
+      ]
+    },
+    {
+      "row": 226,
+      "code": "KA350LIGHTFULL",
+      "invoice": "1C26MUV/00148008",
+      "doc": "BHHT2024023305",
+      "name": "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 1266701,
+      "goods": -1266701,
+      "btl": [
+        "BTL00158"
+      ],
+      "amis_source_rows": [
+        "44109"
+      ]
+    },
+    {
+      "row": 227,
+      "code": "KA350FILTERFULL",
+      "invoice": "1C26MUV/00148008",
+      "doc": "BHHT2024023305",
+      "name": "Lõi lọc diệt khuẩn Filter KA350 - model: FT KA350",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 436077,
+      "goods": -436077,
+      "btl": [
+        "BTL00158"
+      ],
+      "amis_source_rows": [
+        "44110"
+      ]
+    },
+    {
+      "row": 228,
+      "code": "KK100FULL",
+      "invoice": "1C26MUV/00148012",
+      "doc": "BHHS2024008957",
+      "name": "Máy tiệt trùng sấy khô bằng tia UVC - True UVC Kitchenware Drying Sterilizer - Model KK100",
+      "unit": "Cái",
+      "quantity": -1,
+      "price": 962037,
+      "goods": -962037,
+      "btl": [
+        "BTL00071"
+      ],
+      "amis_source_rows": [
+        "44274"
+      ]
+    }
+  ]
+}

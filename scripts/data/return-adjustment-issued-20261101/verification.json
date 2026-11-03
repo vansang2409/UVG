@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "spreadsheet_id": "1d4fLQRALDLXOFOQQlZuXMCTAg4lnRQ7NbKH-UPJN0XE",
+  "sheet": "Import dieu chinh",
+  "invoices": 163,
+  "lines": 219,
+  "checked_cells": 5928,
+  "changed_cells": 816,
+  "adjustment_date": "2026-11-01",
+  "money": [
+    -225865926,
+    -18069275,
+    -243935201
+  ],
+  "all_unrelated_values_formats_validations_notes_preserved": true,
+  "no_duplicate_batch_references": true
+}

@@ -1,0 +1,293 @@
+{
+  "target": "C:\\Users\\thuong ngo\\Downloads\\CHECK HOA DON XUAT MOI 2024 31.10.2026\\IMPORT_DIEU_CHINH_163_PHIEU_TRA_HANG_2024_MOI_NHAT.xlsx",
+  "backup": "D:\\UVG\\scripts\\data\\fill-return-invoice-number-20261101\\before.xlsx",
+  "staged": "C:\\Users\\thuong ngo\\Downloads\\CHECK HOA DON XUAT MOI 2024 31.10.2026\\._codex_FILL_INVOICE_NUMBER_163_20261101.tmp.xlsx",
+  "before_sha256": "c52e2ea67d1ecf73a9a4d0f0ad75c4ae8034689ff65d4956b1931d6a44732f06",
+  "sheet": "Import dieu chinh",
+  "column": "K",
+  "invoices": 163,
+  "lines": 219,
+  "multiline_invoices": 43,
+  "changes": [
+    {
+      "row": 12,
+      "number": "00147859",
+      "sequence": 2
+    },
+    {
+      "row": 14,
+      "number": "00147853",
+      "sequence": 3
+    },
+    {
+      "row": 16,
+      "number": "00147858",
+      "sequence": 4
+    },
+    {
+      "row": 17,
+      "number": "00147858",
+      "sequence": 4
+    },
+    {
+      "row": 18,
+      "number": "00147858",
+      "sequence": 4
+    },
+    {
+      "row": 24,
+      "number": "00147860",
+      "sequence": 9
+    },
+    {
+      "row": 26,
+      "number": "00147852",
+      "sequence": 10
+    },
+    {
+      "row": 29,
+      "number": "00147861",
+      "sequence": 12
+    },
+    {
+      "row": 30,
+      "number": "00147861",
+      "sequence": 12
+    },
+    {
+      "row": 31,
+      "number": "00147861",
+      "sequence": 12
+    },
+    {
+      "row": 33,
+      "number": "00147867",
+      "sequence": 162
+    },
+    {
+      "row": 48,
+      "number": "00147877",
+      "sequence": 26
+    },
+    {
+      "row": 54,
+      "number": "00147888",
+      "sequence": 31
+    },
+    {
+      "row": 57,
+      "number": "00147886",
+      "sequence": 33
+    },
+    {
+      "row": 59,
+      "number": "00147885",
+      "sequence": 34
+    },
+    {
+      "row": 62,
+      "number": "00147892",
+      "sequence": 36
+    },
+    {
+      "row": 64,
+      "number": "00147891",
+      "sequence": 37
+    },
+    {
+      "row": 78,
+      "number": "00147900",
+      "sequence": 50
+    },
+    {
+      "row": 79,
+      "number": "00147900",
+      "sequence": 50
+    },
+    {
+      "row": 80,
+      "number": "00147900",
+      "sequence": 50
+    },
+    {
+      "row": 81,
+      "number": "00147900",
+      "sequence": 50
+    },
+    {
+      "row": 89,
+      "number": "00120680",
+      "sequence": 57
+    },
+    {
+      "row": 90,
+      "number": "00120680",
+      "sequence": 57
+    },
+    {
+      "row": 97,
+      "number": "00147915",
+      "sequence": 63
+    },
+    {
+      "row": 98,
+      "number": "00147915",
+      "sequence": 63
+    },
+    {
+      "row": 100,
+      "number": "00147919",
+      "sequence": 64
+    },
+    {
+      "row": 102,
+      "number": "00147913",
+      "sequence": 65
+    },
+    {
+      "row": 109,
+      "number": "00147908",
+      "sequence": 71
+    },
+    {
+      "row": 111,
+      "number": "00147926",
+      "sequence": 72
+    },
+    {
+      "row": 113,
+      "number": "00147928",
+      "sequence": 73
+    },
+    {
+      "row": 116,
+      "number": "00147924",
+      "sequence": 75
+    },
+    {
+      "row": 121,
+      "number": "00147933",
+      "sequence": 79
+    },
+    {
+      "row": 123,
+      "number": "00147934",
+      "sequence": 80
+    },
+    {
+      "row": 126,
+      "number": "00147942",
+      "sequence": 82
+    },
+    {
+      "row": 127,
+      "number": "00147942",
+      "sequence": 82
+    },
+    {
+      "row": 128,
+      "number": "00147942",
+      "sequence": 82
+    },
+    {
+      "row": 129,
+      "number": "00147942",
+      "sequence": 82
+    },
+    {
+      "row": 130,
+      "number": "00147942",
+      "sequence": 82
+    },
+    {
+      "row": 135,
+      "number": "00147944",
+      "sequence": 86
+    },
+    {
+      "row": 139,
+      "number": "00147916",
+      "sequence": 89
+    },
+    {
+      "row": 144,
+      "number": "00147947",
+      "sequence": 93
+    },
+    {
+      "row": 151,
+      "number": "00147951",
+      "sequence": 98
+    },
+    {
+      "row": 154,
+      "number": "00147937",
+      "sequence": 100
+    },
+    {
+      "row": 165,
+      "number": "00147969",
+      "sequence": 110
+    },
+    {
+      "row": 170,
+      "number": "00147967",
+      "sequence": 114
+    },
+    {
+      "row": 178,
+      "number": "00147974",
+      "sequence": 121
+    },
+    {
+      "row": 186,
+      "number": "00147980",
+      "sequence": 128
+    },
+    {
+      "row": 188,
+      "number": "00147966",
+      "sequence": 129
+    },
+    {
+      "row": 198,
+      "number": "00147990",
+      "sequence": 138
+    },
+    {
+      "row": 207,
+      "number": "00148004",
+      "sequence": 146
+    },
+    {
+      "row": 210,
+      "number": "00144123",
+      "sequence": 148
+    },
+    {
+      "row": 212,
+      "number": "00147987",
+      "sequence": 149
+    },
+    {
+      "row": 215,
+      "number": "00148000",
+      "sequence": 151
+    },
+    {
+      "row": 223,
+      "number": "00148001",
+      "sequence": 158
+    },
+    {
+      "row": 225,
+      "number": "00148011",
+      "sequence": 159
+    },
+    {
+      "row": 227,
+      "number": "00148008",
+      "sequence": 160
+    }
+  ]
+}

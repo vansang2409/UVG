@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "sheet": "Import dieu chinh",
+  "range": "N10:N228",
+  "invoices": 163,
+  "rows": 219,
+  "checked_cells": 5928,
+  "changed_cells": 219,
+  "original_invoice_order_source": "Mã đơn hàng in the issued invoice summary export, matched by exact series/number",
+  "all_other_values_formats_validations_preserved": true,
+  "reason_wrap_preserved": true,
+  "money": [
+    -225865926,
+    -18069275,
+    -243935201
+  ],
+  "first_reason": "Điều chỉnh cho hóa đơn số 00147854, ký hiệu 1C26MUV, ngày 01/11/2026 do trả lại hàng của mã đơn hàng 578327706779224564",
+  "last_reason": "Điều chỉnh cho hóa đơn số 00148012, ký hiệu 1C26MUV, ngày 01/11/2026 do trả lại hàng của mã đơn hàng 241224NT6J8N0W"
+}

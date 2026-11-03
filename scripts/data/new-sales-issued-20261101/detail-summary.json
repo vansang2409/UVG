@@ -1,0 +1,2594 @@
+{
+  "archive": {
+    "path": "C:\\Users\\thuong ngo\\Downloads\\Bang_ke_chi_tiet_hoa_don_da_su_dung_20261101_143931.zip",
+    "sha256": "c823c24d1601fc62fd99a55746d604390a711b94820c76ffe152e8a882f76703"
+  },
+  "source_manifest": [
+    {
+      "file": "data/Meinv_SAU_XUAT_MOI_20261101/CHI_TIET/Bang_ke_chi_tiet_hoa_don_da_su_dung_20261101_143931.xls",
+      "bytes": 5855539,
+      "sha256": "0d0c87f6a488418005fd84dada91e8f84d9c6cb9dbb8bd02492e59322cca1094"
+    }
+  ],
+  "periods": {
+    "data/Meinv_SAU_XUAT_MOI_20261101/CHI_TIET/Bang_ke_chi_tiet_hoa_don_da_su_dung_20261101_143931.xls": "Từ ngày 31/10/2026 đến ngày 01/11/2026"
+  },
+  "detail_rows": 47187,
+  "detail_invoices": 37012,
+  "summary_invoices": 37012,
+  "footer_controls": [
+    {
+      "file": "data/Meinv_SAU_XUAT_MOI_20261101/CHI_TIET/Bang_ke_chi_tiet_hoa_don_da_su_dung_20261101_143931.xls",
+      "row": 47193,
+      "label": "Tổng cộng",
+      "money": [
+        52703872328,
+        4216310041,
+        56920182369
+      ]
+    }
+  ],
+  "detail_missing_vs_summary": [],
+  "detail_extra_vs_summary": [],
+  "date_differences": [],
+  "invoice_total_differences": [
+    {
+      "invoice": "1C26MUV/00111001",
+      "summary": [
+        0,
+        0,
+        null
+      ],
+      "detail": [
+        null,
+        null,
+        null
+      ],
+      "lines": 1
+    },
+    {
+      "invoice": "1C26MUV/00129632",
+      "summary": [
+        0,
+        0,
+        null
+      ],
+      "detail": [
+        null,
+        null,
+        0
+      ],
+      "lines": 1
+    },
+    {
+      "invoice": "1C26MUV/00129806",
+      "summary": [
+        0,
+        0,
+        null
+      ],
+      "detail": [
+        null,
+        null,
+        0
+      ],
+      "lines": 1
+    }
+  ],
+  "duplicate_pair_count": 2000,
+  "pairs_with_both_invoices": 2000,
+  "pairs_with_identical_lines": 2000,
+  "pairs_with_identical_buyer_information": 2000,
+  "pairs_where_both_match_plan": 1997,
+  "duplicate_block_line_counts": {
+    "first": 2720,
+    "second": 2720
+  },
+  "plan_invoice_candidates_checked": 36739,
+  "plan_invoice_candidates_matching_lines": 36701,
+  "plan_line_differences": [
+    {
+      "doc": "BHHS2024000443",
+      "invoice": "1C26MUV/00113178",
+      "expected_lines": 1,
+      "actual_lines": 1,
+      "matches": false,
+      "differences": {
+        "expected_only": [
+          [
+            "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+            "Cái",
+            1,
+            "1795370.37",
+            1795370,
+            1
+          ]
+        ],
+        "actual_only": [
+          [
+            "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+            "Cái",
+            1,
+            1795370,
+            1795370,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "doc": "BHHT2024002575",
+      "invoice": "1C26MUV/00114399",
+      "expected_lines": 2,
+      "actual_lines": 2,
+      "matches": false,
+      "differences": {
+        "expected_only": [
+          [
+            "Lõi lọc diệt khuẩn Filter KA350 - model: FT KA350",
+            "Cái",
+            2,
+            "396184.5",
+            792369,
+            1
+          ]
+        ],
+        "actual_only": [
+          [
+            "Lõi lọc diệt khuẩn Filter KA350 - model: FT KA350",
+            "Cái",
+            2,
+            396185,
+            792369,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "doc": "BHHT2024002126",
+      "invoice": "1C26MUV/00115325",
+      "expected_lines": 1,
+      "actual_lines": 1,
+      "matches": false,
+      "differences": {
+        "expected_only": [
+          [
+            "Máy lọc không khí diệt khuẩn bằng tia UVC  KA350 Pro",
+            "Chiếc",
+            1,
+            "2350926.37",
+            2350926,
+            1
+          ]
+        ],
+        "actual_only": [
+          [
+            "Máy lọc không khí diệt khuẩn bằng tia UVC  KA350 Pro",
+            "Chiếc",
+            1,
+            2350926,
+            2350926,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "doc": "BHHT2024005166",
+      "invoice": "1C26MUV/00116564",
+      "expected_lines": 2,
+      "actual_lines": 2,
+      "matches": false,
+      "differences": {
+        "expected_only": [
+          [
+            "Lõi lọc diệt khuẩn Filter KA350 - model: FT KA350",
+            "Cái",
+            1,
+            "185185.19",
+            185185,
+            1
+          ]
+        ],
+        "actual_only": [
+          [
+            "Lõi lọc diệt khuẩn Filter KA350 - model: FT KA350",
+            "Cái",
+            1,
+            185185,
+            185185,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "doc": "BHHS2024001615",
+      "invoice": "1C26MUV/00116711",
+      "expected_lines": 1,
+      "actual_lines": 1,
+      "matches": false,
+      "differences": {
+        "expected_only": [
+          [
+            "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifier . Model: KA600",
+            "Cái",
+            1,
+            "1702777.96",
+            1702778,
+            1
+          ]
+        ],
+        "actual_only": [
+          [
+            "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifier . Model: KA600",
+            "Cái",
+            1,
+            1702778,
+            1702778,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "doc": "BHHT2024004882",
+      "invoice": "1C26MUV/00116952",
+      "expected_lines": 2,
+      "actual_lines": 2,
+      "matches": false,
+      "differences": {
+        "expected_only": [
+          [
+            "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+            "Cái",
+            1,
+            "1071375.07",
+            1071375,
+            1
+          ]
+        ],
+        "actual_only": [
+          [
+            "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+            "Cái",
+            1,
+            1071375,
+            1071375,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "doc": "BHHT2024004816",
+      "invoice": "1C26MUV/00117103",
+      "expected_lines": 2,
+      "actual_lines": 2,
+      "matches": false,
+      "differences": {
+        "expected_only": [
+          [
+            "Lõi lọc diệt khuẩn Filter KA350 - model: FT KA350",
+            "Cái",
+            1,
+            "185185.19",
+            185185,
+            1
+          ]
+        ],
+        "actual_only": [
+          [
+            "Lõi lọc diệt khuẩn Filter KA350 - model: FT KA350",
+            "Cái",
+            1,
+            185185,
+            185185,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "doc": "BHHT2024006190",
+      "invoice": "1C26MUV/00120570",
+      "expected_lines": 1,
+      "actual_lines": 1,
+      "matches": false,
+      "differences": {
+        "expected_only": [
+          [
+            "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+            "Cái",
+            1,
+            "1702777.78",
+            1702778,
+            1
+          ]
+        ],
+        "actual_only": [
+          [
+            "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+            "Cái",
+            1,
+            1702778,
+            1702778,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "doc": "BHHT2024005977",
+      "invoice": "1C26MUV/00120857",
+      "expected_lines": 1,
+      "actual_lines": 1,
+      "matches": false,
+      "differences": {
+        "expected_only": [
+          [
+            "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+            "Cái",
+            1,
+            "1702777.78",
+            1702778,
+            1
+          ]
+        ],
+        "actual_only": [
+          [
+            "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+            "Cái",
+            1,
+            1702778,
+            1702778,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "doc": "BHHS2024002396",
+      "invoice": "1C26MUV/00121046",
+      "expected_lines": 2,
+      "actual_lines": 2,
+      "matches": false,
+      "differences": {
+        "expected_only": [
+          [
+            "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+            "Cái",
+            1,
+            "1688545.52",
+            1688546,
+            1
+          ]
+        ],
+        "actual_only": [
+          [
+            "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+            "Cái",
+            1,
+            1688546,
+            1688546,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "doc": "BHHT2024008405",
+      "invoice": "1C26MUV/00123018",
+      "expected_lines": 1,
+      "actual_lines": 1,
+      "matches": false,
+      "differences": {
+        "expected_only": [
+          [
+            "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+            "Cái",
+            1,
+            "1702777.78",
+            1702778,
+            1
+          ]
+        ],
+        "actual_only": [
+          [
+            "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+            "Cái",
+            1,
+            1702778,
+            1702778,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "doc": "BHHT2024010693",
+      "invoice": "1C26MUV/00126325",
+      "expected_lines": 1,
+      "actual_lines": 1,
+      "matches": false,
+      "differences": {
+        "expected_only": [
+          [
+            "Lõi lọc diệt khuẩn Filter KA350 - model: FT KA350",
+            "Cái",
+            1,
+            "555555.5600000001",
+            555556,
+            1
+          ]
+        ],
+        "actual_only": [
+          [
+            "Lõi lọc diệt khuẩn Filter KA350 - model: FT KA350",
+            "Cái",
+            1,
+            555556,
+            555556,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "doc": "BHHT2024010141",
+      "invoice": "1C26MUV/00127097",
+      "expected_lines": 1,
+      "actual_lines": 1,
+      "matches": false,
+      "differences": {
+        "expected_only": [
+          [
+            "Lõi lọc diệt khuẩn Filter KA350 - model: FT KA350",
+            "Cái",
+            1,
+            "555555.5600000001",
+            555556,
+            1
+          ]
+        ],
+        "actual_only": [
+          [
+            "Lõi lọc diệt khuẩn Filter KA350 - model: FT KA350",
+            "Cái",
+            1,
+            555556,
+            555556,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "doc": "BHHT2024013394",
+      "invoice": "1C26MUV/00129231",
+      "expected_lines": 1,
+      "actual_lines": 1,
+      "matches": false,
+      "differences": {
+        "expected_only": [
+          [
+            "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+            "Cái",
+            1,
+            "1702777.78",
+            1702778,
+            1
+          ]
+        ],
+        "actual_only": [
+          [
+            "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+            "Cái",
+            1,
+            1702778,
+            1702778,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "doc": "BHHT2024013297",
+      "invoice": "1C26MUV/00129409",
+      "expected_lines": 1,
+      "actual_lines": 1,
+      "matches": false,
+      "differences": {
+        "expected_only": [
+          [
+            "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifier . Model: KA600",
+            "Cái",
+            1,
+            "2573148.15",
+            2573148,
+            1
+          ]
+        ],
+        "actual_only": [
+          [
+            "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifier . Model: KA600",
+            "Cái",
+            1,
+            2573148,
+            2573148,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "doc": "BHHS2024004516",
+      "invoice": "1C26MUV/00129898",
+      "expected_lines": 1,
+      "actual_lines": 1,
+      "matches": false,
+      "differences": {
+        "expected_only": [
+          [
+            "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifier . Model: KA600",
+            "Cái",
+            1,
+            "2573148.15",
+            2573148,
+            1
+          ]
+        ],
+        "actual_only": [
+          [
+            "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifier . Model: KA600",
+            "Cái",
+            1,
+            2573148,
+            2573148,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "doc": "BHHN2024000065",
+      "invoice": "1C26MUV/00130022",
+      "expected_lines": 1,
+      "actual_lines": 1,
+      "matches": false,
+      "differences": {
+        "expected_only": [
+          [
+            "Đèn bắt muỗi, ruồi và các loại côn trùng UVA Electronical Mosquito Killer, Model: KM300",
+            "Cái",
+            3,
+            "443518.67",
+            1330556,
+            1
+          ]
+        ],
+        "actual_only": [
+          [
+            "Đèn bắt muỗi, ruồi và các loại côn trùng UVA Electronical Mosquito Killer, Model: KM300",
+            "Cái",
+            3,
+            443519,
+            1330556,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "doc": "BHHT2024017006",
+      "invoice": "1C26MUV/00131146",
+      "expected_lines": 1,
+      "actual_lines": 1,
+      "matches": false,
+      "differences": {
+        "expected_only": [
+          [
+            "Lõi lọc diệt khuẩn Filter KA350 - model: FT KA350",
+            "Cái",
+            1,
+            "509259.3",
+            509259,
+            1
+          ]
+        ],
+        "actual_only": [
+          [
+            "Lõi lọc diệt khuẩn Filter KA350 - model: FT KA350",
+            "Cái",
+            1,
+            509259,
+            509259,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "doc": "BHHS2024004897",
+      "invoice": "1C26MUV/00131416",
+      "expected_lines": 1,
+      "actual_lines": 1,
+      "matches": false,
+      "differences": {
+        "expected_only": [
+          [
+            "Đèn bắt muỗi, ruồi và các loại côn trùng KM100",
+            "Cái",
+            1,
+            "258333.33",
+            258333,
+            1
+          ]
+        ],
+        "actual_only": [
+          [
+            "Đèn bắt muỗi, ruồi và các loại côn trùng KM100",
+            "Cái",
+            1,
+            258333,
+            258333,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "doc": "BHHS2024004897",
+      "invoice": "1C26MUV/00133416",
+      "expected_lines": 1,
+      "actual_lines": 1,
+      "matches": false,
+      "differences": {
+        "expected_only": [
+          [
+            "Đèn bắt muỗi, ruồi và các loại côn trùng KM100",
+            "Cái",
+            1,
+            "258333.33",
+            258333,
+            1
+          ]
+        ],
+        "actual_only": [
+          [
+            "Đèn bắt muỗi, ruồi và các loại côn trùng KM100",
+            "Cái",
+            1,
+            258333,
+            258333,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "doc": "BHHT2024016237",
+      "invoice": "1C26MUV/00132237",
+      "expected_lines": 2,
+      "actual_lines": 2,
+      "matches": false,
+      "differences": {
+        "expected_only": [
+          [
+            "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifier . Model: KA600",
+            "Cái",
+            1,
+            "2089219.82",
+            2089220,
+            1
+          ]
+        ],
+        "actual_only": [
+          [
+            "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifier . Model: KA600",
+            "Cái",
+            1,
+            2089220,
+            2089220,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "doc": "BHHT2024016237",
+      "invoice": "1C26MUV/00134237",
+      "expected_lines": 2,
+      "actual_lines": 2,
+      "matches": false,
+      "differences": {
+        "expected_only": [
+          [
+            "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifier . Model: KA600",
+            "Cái",
+            1,
+            "2089219.82",
+            2089220,
+            1
+          ]
+        ],
+        "actual_only": [
+          [
+            "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifier . Model: KA600",
+            "Cái",
+            1,
+            2089220,
+            2089220,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "doc": "BHHT2024015592",
+      "invoice": "1C26MUV/00133193",
+      "expected_lines": 2,
+      "actual_lines": 2,
+      "matches": false,
+      "differences": {
+        "expected_only": [
+          [
+            "Lõi lọc diệt khuẩn Filter KA350 - model: FT KA350",
+            "Cái",
+            1,
+            "259259.26",
+            259259,
+            1
+          ]
+        ],
+        "actual_only": [
+          [
+            "Lõi lọc diệt khuẩn Filter KA350 - model: FT KA350",
+            "Cái",
+            1,
+            259259,
+            259259,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "doc": "BHHT2024015592",
+      "invoice": "1C26MUV/00135193",
+      "expected_lines": 2,
+      "actual_lines": 2,
+      "matches": false,
+      "differences": {
+        "expected_only": [
+          [
+            "Lõi lọc diệt khuẩn Filter KA350 - model: FT KA350",
+            "Cái",
+            1,
+            "259259.26",
+            259259,
+            1
+          ]
+        ],
+        "actual_only": [
+          [
+            "Lõi lọc diệt khuẩn Filter KA350 - model: FT KA350",
+            "Cái",
+            1,
+            259259,
+            259259,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "doc": "BHHS2024005685",
+      "invoice": "1C26MUV/00135890",
+      "expected_lines": 1,
+      "actual_lines": 1,
+      "matches": false,
+      "differences": {
+        "expected_only": [
+          [
+            "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifier . Model: KA600",
+            "Cái",
+            1,
+            "2573148.15",
+            2573148,
+            1
+          ]
+        ],
+        "actual_only": [
+          [
+            "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifier . Model: KA600",
+            "Cái",
+            1,
+            2573148,
+            2573148,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "doc": "BHHT2024015040",
+      "invoice": "1C26MUV/00135963",
+      "expected_lines": 1,
+      "actual_lines": 1,
+      "matches": false,
+      "differences": {
+        "expected_only": [
+          [
+            "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+            "Cái",
+            1,
+            "1702777.78",
+            1702778,
+            1
+          ]
+        ],
+        "actual_only": [
+          [
+            "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+            "Cái",
+            1,
+            1702778,
+            1702778,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "doc": "BHHT2024019697",
+      "invoice": "1C26MUV/00136618",
+      "expected_lines": 1,
+      "actual_lines": 1,
+      "matches": false,
+      "differences": {
+        "expected_only": [
+          [
+            "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+            "Cái",
+            1,
+            "1702777.78",
+            1702778,
+            1
+          ]
+        ],
+        "actual_only": [
+          [
+            "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+            "Cái",
+            1,
+            1702778,
+            1702778,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "doc": "BHHS2024005971",
+      "invoice": "1C26MUV/00136676",
+      "expected_lines": 1,
+      "actual_lines": 1,
+      "matches": false,
+      "differences": {
+        "expected_only": [
+          [
+            "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+            "Cái",
+            1,
+            "509259.26",
+            509259,
+            1
+          ]
+        ],
+        "actual_only": [
+          [
+            "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+            "Cái",
+            1,
+            509259,
+            509259,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "doc": "BHHT2024018821",
+      "invoice": "1C26MUV/00138017",
+      "expected_lines": 2,
+      "actual_lines": 2,
+      "matches": false,
+      "differences": {
+        "expected_only": [
+          [
+            "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifier . Model: KA600",
+            "Cái",
+            1,
+            "2137071.37",
+            2137071,
+            1
+          ]
+        ],
+        "actual_only": [
+          [
+            "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifier . Model: KA600",
+            "Cái",
+            1,
+            2137071,
+            2137071,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "doc": "BHHT2024017744",
+      "invoice": "1C26MUV/00139275",
+      "expected_lines": 1,
+      "actual_lines": 1,
+      "matches": false,
+      "differences": {
+        "expected_only": [
+          [
+            "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifiers - KA150P",
+            "Cái",
+            1,
+            "1276851.82",
+            1276852,
+            1
+          ]
+        ],
+        "actual_only": [
+          [
+            "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifiers - KA150P",
+            "Cái",
+            1,
+            1276852,
+            1276852,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "doc": "BHHT2024017249",
+      "invoice": "1C26MUV/00140216",
+      "expected_lines": 1,
+      "actual_lines": 1,
+      "matches": false,
+      "differences": {
+        "expected_only": [
+          [
+            "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifier . Model: KA600",
+            "Cái",
+            1,
+            "2573148.37",
+            2573148,
+            1
+          ]
+        ],
+        "actual_only": [
+          [
+            "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifier . Model: KA600",
+            "Cái",
+            1,
+            2573148,
+            2573148,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "doc": "BHHT2024017163",
+      "invoice": "1C26MUV/00140350",
+      "expected_lines": 1,
+      "actual_lines": 1,
+      "matches": false,
+      "differences": {
+        "expected_only": [
+          [
+            "Đèn bắt muỗi, ruồi và các loại côn trùng UVA Electronical Mosquito Killer, Model: KM300",
+            "Cái",
+            1,
+            "304629.63",
+            304630,
+            1
+          ]
+        ],
+        "actual_only": [
+          [
+            "Đèn bắt muỗi, ruồi và các loại côn trùng UVA Electronical Mosquito Killer, Model: KM300",
+            "Cái",
+            1,
+            304630,
+            304630,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "doc": "BHHN2024000180",
+      "invoice": "1C26MUV/00140371",
+      "expected_lines": 1,
+      "actual_lines": 1,
+      "matches": false,
+      "differences": {
+        "expected_only": [
+          [
+            "Đèn bắt muỗi, ruồi và các loại côn trùng UVA Electronical Mosquito Killer, Model: KM300",
+            "Cái",
+            4,
+            "29101.75",
+            116407,
+            1
+          ]
+        ],
+        "actual_only": [
+          [
+            "Đèn bắt muỗi, ruồi và các loại côn trùng UVA Electronical Mosquito Killer, Model: KM300",
+            "Cái",
+            4,
+            29102,
+            116407,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "doc": "BHHT2024020938",
+      "invoice": "1C26MUV/00142565",
+      "expected_lines": 2,
+      "actual_lines": 2,
+      "matches": false,
+      "differences": {
+        "expected_only": [
+          [
+            "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifier . Model: KA600",
+            "Cái",
+            1,
+            "2147542.19",
+            2147542,
+            1
+          ]
+        ],
+        "actual_only": [
+          [
+            "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifier . Model: KA600",
+            "Cái",
+            1,
+            2147542,
+            2147542,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "doc": "BHHT2024024401",
+      "invoice": "1C26MUV/00144625",
+      "expected_lines": 1,
+      "actual_lines": 1,
+      "matches": false,
+      "differences": {
+        "expected_only": [
+          [
+            "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+            "Cái",
+            1,
+            "1702776.74",
+            1702777,
+            1
+          ]
+        ],
+        "actual_only": [
+          [
+            "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+            "Cái",
+            1,
+            1702777,
+            1702777,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "doc": "BHHT2024025182",
+      "invoice": "1C26MUV/00147851",
+      "expected_lines": 1,
+      "actual_lines": 1,
+      "matches": false,
+      "differences": {
+        "expected_only": [
+          [
+            "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifiers - KA150P",
+            "Cái",
+            1,
+            "1225776.85",
+            1225777,
+            1
+          ]
+        ],
+        "actual_only": [
+          [
+            "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifiers - KA150P",
+            "Cái",
+            1,
+            1225777,
+            1225777,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "doc": "BHHT2024013153",
+      "invoice": "1C26MUV/00129632",
+      "expected_lines": 1,
+      "actual_lines": 1,
+      "matches": false,
+      "differences": {
+        "expected_only": [
+          [
+            "Đèn bắt muỗi, ruồi và các loại côn trùng UVA Electronical Mosquito Killer, Model: KM300",
+            "Cái",
+            1,
+            0,
+            0,
+            1
+          ]
+        ],
+        "actual_only": [
+          [
+            "Đèn bắt muỗi, ruồi và các loại côn trùng UVA Electronical Mosquito Killer, Model: KM300 (Hàng khuyến mại không thu tiền)",
+            "Cái",
+            1,
+            null,
+            null,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "doc": "BHHT2024013026",
+      "invoice": "1C26MUV/00129806",
+      "expected_lines": 1,
+      "actual_lines": 1,
+      "matches": false,
+      "differences": {
+        "expected_only": [
+          [
+            "Đèn bắt muỗi, ruồi và các loại côn trùng UVA Electronical Mosquito Killer, Model: KM300",
+            "Cái",
+            1,
+            0,
+            0,
+            1
+          ]
+        ],
+        "actual_only": [
+          [
+            "Đèn bắt muỗi, ruồi và các loại côn trùng UVA Electronical Mosquito Killer, Model: KM300 (Hàng khuyến mại không thu tiền)",
+            "Cái",
+            1,
+            null,
+            null,
+            1
+          ]
+        ]
+      }
+    }
+  ],
+  "detail_issue_statuses": {
+    "Đã cấp mã": 47187
+  },
+  "price_rounding": {
+    "invoices": 36,
+    "documents": 33,
+    "items": [
+      {
+        "doc": "BHHS2024000443",
+        "invoice": "1C26MUV/00113178",
+        "expected_lines": 1,
+        "actual_lines": 1,
+        "matches": false,
+        "differences": {
+          "expected_only": [
+            [
+              "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+              "Cái",
+              1,
+              "1795370.37",
+              1795370,
+              1
+            ]
+          ],
+          "actual_only": [
+            [
+              "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+              "Cái",
+              1,
+              1795370,
+              1795370,
+              1
+            ]
+          ]
+        },
+        "item": "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+        "qty": 1,
+        "plan_price": "1795370.37",
+        "issued_price": 1795370,
+        "goods": 1795370
+      },
+      {
+        "doc": "BHHT2024002575",
+        "invoice": "1C26MUV/00114399",
+        "expected_lines": 2,
+        "actual_lines": 2,
+        "matches": false,
+        "differences": {
+          "expected_only": [
+            [
+              "Lõi lọc diệt khuẩn Filter KA350 - model: FT KA350",
+              "Cái",
+              2,
+              "396184.5",
+              792369,
+              1
+            ]
+          ],
+          "actual_only": [
+            [
+              "Lõi lọc diệt khuẩn Filter KA350 - model: FT KA350",
+              "Cái",
+              2,
+              396185,
+              792369,
+              1
+            ]
+          ]
+        },
+        "item": "Lõi lọc diệt khuẩn Filter KA350 - model: FT KA350",
+        "qty": 2,
+        "plan_price": "396184.5",
+        "issued_price": 396185,
+        "goods": 792369
+      },
+      {
+        "doc": "BHHT2024002126",
+        "invoice": "1C26MUV/00115325",
+        "expected_lines": 1,
+        "actual_lines": 1,
+        "matches": false,
+        "differences": {
+          "expected_only": [
+            [
+              "Máy lọc không khí diệt khuẩn bằng tia UVC  KA350 Pro",
+              "Chiếc",
+              1,
+              "2350926.37",
+              2350926,
+              1
+            ]
+          ],
+          "actual_only": [
+            [
+              "Máy lọc không khí diệt khuẩn bằng tia UVC  KA350 Pro",
+              "Chiếc",
+              1,
+              2350926,
+              2350926,
+              1
+            ]
+          ]
+        },
+        "item": "Máy lọc không khí diệt khuẩn bằng tia UVC  KA350 Pro",
+        "qty": 1,
+        "plan_price": "2350926.37",
+        "issued_price": 2350926,
+        "goods": 2350926
+      },
+      {
+        "doc": "BHHT2024005166",
+        "invoice": "1C26MUV/00116564",
+        "expected_lines": 2,
+        "actual_lines": 2,
+        "matches": false,
+        "differences": {
+          "expected_only": [
+            [
+              "Lõi lọc diệt khuẩn Filter KA350 - model: FT KA350",
+              "Cái",
+              1,
+              "185185.19",
+              185185,
+              1
+            ]
+          ],
+          "actual_only": [
+            [
+              "Lõi lọc diệt khuẩn Filter KA350 - model: FT KA350",
+              "Cái",
+              1,
+              185185,
+              185185,
+              1
+            ]
+          ]
+        },
+        "item": "Lõi lọc diệt khuẩn Filter KA350 - model: FT KA350",
+        "qty": 1,
+        "plan_price": "185185.19",
+        "issued_price": 185185,
+        "goods": 185185
+      },
+      {
+        "doc": "BHHS2024001615",
+        "invoice": "1C26MUV/00116711",
+        "expected_lines": 1,
+        "actual_lines": 1,
+        "matches": false,
+        "differences": {
+          "expected_only": [
+            [
+              "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifier . Model: KA600",
+              "Cái",
+              1,
+              "1702777.96",
+              1702778,
+              1
+            ]
+          ],
+          "actual_only": [
+            [
+              "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifier . Model: KA600",
+              "Cái",
+              1,
+              1702778,
+              1702778,
+              1
+            ]
+          ]
+        },
+        "item": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifier . Model: KA600",
+        "qty": 1,
+        "plan_price": "1702777.96",
+        "issued_price": 1702778,
+        "goods": 1702778
+      },
+      {
+        "doc": "BHHT2024004882",
+        "invoice": "1C26MUV/00116952",
+        "expected_lines": 2,
+        "actual_lines": 2,
+        "matches": false,
+        "differences": {
+          "expected_only": [
+            [
+              "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+              "Cái",
+              1,
+              "1071375.07",
+              1071375,
+              1
+            ]
+          ],
+          "actual_only": [
+            [
+              "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+              "Cái",
+              1,
+              1071375,
+              1071375,
+              1
+            ]
+          ]
+        },
+        "item": "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+        "qty": 1,
+        "plan_price": "1071375.07",
+        "issued_price": 1071375,
+        "goods": 1071375
+      },
+      {
+        "doc": "BHHT2024004816",
+        "invoice": "1C26MUV/00117103",
+        "expected_lines": 2,
+        "actual_lines": 2,
+        "matches": false,
+        "differences": {
+          "expected_only": [
+            [
+              "Lõi lọc diệt khuẩn Filter KA350 - model: FT KA350",
+              "Cái",
+              1,
+              "185185.19",
+              185185,
+              1
+            ]
+          ],
+          "actual_only": [
+            [
+              "Lõi lọc diệt khuẩn Filter KA350 - model: FT KA350",
+              "Cái",
+              1,
+              185185,
+              185185,
+              1
+            ]
+          ]
+        },
+        "item": "Lõi lọc diệt khuẩn Filter KA350 - model: FT KA350",
+        "qty": 1,
+        "plan_price": "185185.19",
+        "issued_price": 185185,
+        "goods": 185185
+      },
+      {
+        "doc": "BHHT2024006190",
+        "invoice": "1C26MUV/00120570",
+        "expected_lines": 1,
+        "actual_lines": 1,
+        "matches": false,
+        "differences": {
+          "expected_only": [
+            [
+              "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+              "Cái",
+              1,
+              "1702777.78",
+              1702778,
+              1
+            ]
+          ],
+          "actual_only": [
+            [
+              "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+              "Cái",
+              1,
+              1702778,
+              1702778,
+              1
+            ]
+          ]
+        },
+        "item": "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+        "qty": 1,
+        "plan_price": "1702777.78",
+        "issued_price": 1702778,
+        "goods": 1702778
+      },
+      {
+        "doc": "BHHT2024005977",
+        "invoice": "1C26MUV/00120857",
+        "expected_lines": 1,
+        "actual_lines": 1,
+        "matches": false,
+        "differences": {
+          "expected_only": [
+            [
+              "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+              "Cái",
+              1,
+              "1702777.78",
+              1702778,
+              1
+            ]
+          ],
+          "actual_only": [
+            [
+              "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+              "Cái",
+              1,
+              1702778,
+              1702778,
+              1
+            ]
+          ]
+        },
+        "item": "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+        "qty": 1,
+        "plan_price": "1702777.78",
+        "issued_price": 1702778,
+        "goods": 1702778
+      },
+      {
+        "doc": "BHHS2024002396",
+        "invoice": "1C26MUV/00121046",
+        "expected_lines": 2,
+        "actual_lines": 2,
+        "matches": false,
+        "differences": {
+          "expected_only": [
+            [
+              "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+              "Cái",
+              1,
+              "1688545.52",
+              1688546,
+              1
+            ]
+          ],
+          "actual_only": [
+            [
+              "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+              "Cái",
+              1,
+              1688546,
+              1688546,
+              1
+            ]
+          ]
+        },
+        "item": "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+        "qty": 1,
+        "plan_price": "1688545.52",
+        "issued_price": 1688546,
+        "goods": 1688546
+      },
+      {
+        "doc": "BHHT2024008405",
+        "invoice": "1C26MUV/00123018",
+        "expected_lines": 1,
+        "actual_lines": 1,
+        "matches": false,
+        "differences": {
+          "expected_only": [
+            [
+              "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+              "Cái",
+              1,
+              "1702777.78",
+              1702778,
+              1
+            ]
+          ],
+          "actual_only": [
+            [
+              "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+              "Cái",
+              1,
+              1702778,
+              1702778,
+              1
+            ]
+          ]
+        },
+        "item": "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+        "qty": 1,
+        "plan_price": "1702777.78",
+        "issued_price": 1702778,
+        "goods": 1702778
+      },
+      {
+        "doc": "BHHT2024010693",
+        "invoice": "1C26MUV/00126325",
+        "expected_lines": 1,
+        "actual_lines": 1,
+        "matches": false,
+        "differences": {
+          "expected_only": [
+            [
+              "Lõi lọc diệt khuẩn Filter KA350 - model: FT KA350",
+              "Cái",
+              1,
+              "555555.5600000001",
+              555556,
+              1
+            ]
+          ],
+          "actual_only": [
+            [
+              "Lõi lọc diệt khuẩn Filter KA350 - model: FT KA350",
+              "Cái",
+              1,
+              555556,
+              555556,
+              1
+            ]
+          ]
+        },
+        "item": "Lõi lọc diệt khuẩn Filter KA350 - model: FT KA350",
+        "qty": 1,
+        "plan_price": "555555.5600000001",
+        "issued_price": 555556,
+        "goods": 555556
+      },
+      {
+        "doc": "BHHT2024010141",
+        "invoice": "1C26MUV/00127097",
+        "expected_lines": 1,
+        "actual_lines": 1,
+        "matches": false,
+        "differences": {
+          "expected_only": [
+            [
+              "Lõi lọc diệt khuẩn Filter KA350 - model: FT KA350",
+              "Cái",
+              1,
+              "555555.5600000001",
+              555556,
+              1
+            ]
+          ],
+          "actual_only": [
+            [
+              "Lõi lọc diệt khuẩn Filter KA350 - model: FT KA350",
+              "Cái",
+              1,
+              555556,
+              555556,
+              1
+            ]
+          ]
+        },
+        "item": "Lõi lọc diệt khuẩn Filter KA350 - model: FT KA350",
+        "qty": 1,
+        "plan_price": "555555.5600000001",
+        "issued_price": 555556,
+        "goods": 555556
+      },
+      {
+        "doc": "BHHT2024013394",
+        "invoice": "1C26MUV/00129231",
+        "expected_lines": 1,
+        "actual_lines": 1,
+        "matches": false,
+        "differences": {
+          "expected_only": [
+            [
+              "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+              "Cái",
+              1,
+              "1702777.78",
+              1702778,
+              1
+            ]
+          ],
+          "actual_only": [
+            [
+              "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+              "Cái",
+              1,
+              1702778,
+              1702778,
+              1
+            ]
+          ]
+        },
+        "item": "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+        "qty": 1,
+        "plan_price": "1702777.78",
+        "issued_price": 1702778,
+        "goods": 1702778
+      },
+      {
+        "doc": "BHHT2024013297",
+        "invoice": "1C26MUV/00129409",
+        "expected_lines": 1,
+        "actual_lines": 1,
+        "matches": false,
+        "differences": {
+          "expected_only": [
+            [
+              "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifier . Model: KA600",
+              "Cái",
+              1,
+              "2573148.15",
+              2573148,
+              1
+            ]
+          ],
+          "actual_only": [
+            [
+              "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifier . Model: KA600",
+              "Cái",
+              1,
+              2573148,
+              2573148,
+              1
+            ]
+          ]
+        },
+        "item": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifier . Model: KA600",
+        "qty": 1,
+        "plan_price": "2573148.15",
+        "issued_price": 2573148,
+        "goods": 2573148
+      },
+      {
+        "doc": "BHHS2024004516",
+        "invoice": "1C26MUV/00129898",
+        "expected_lines": 1,
+        "actual_lines": 1,
+        "matches": false,
+        "differences": {
+          "expected_only": [
+            [
+              "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifier . Model: KA600",
+              "Cái",
+              1,
+              "2573148.15",
+              2573148,
+              1
+            ]
+          ],
+          "actual_only": [
+            [
+              "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifier . Model: KA600",
+              "Cái",
+              1,
+              2573148,
+              2573148,
+              1
+            ]
+          ]
+        },
+        "item": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifier . Model: KA600",
+        "qty": 1,
+        "plan_price": "2573148.15",
+        "issued_price": 2573148,
+        "goods": 2573148
+      },
+      {
+        "doc": "BHHN2024000065",
+        "invoice": "1C26MUV/00130022",
+        "expected_lines": 1,
+        "actual_lines": 1,
+        "matches": false,
+        "differences": {
+          "expected_only": [
+            [
+              "Đèn bắt muỗi, ruồi và các loại côn trùng UVA Electronical Mosquito Killer, Model: KM300",
+              "Cái",
+              3,
+              "443518.67",
+              1330556,
+              1
+            ]
+          ],
+          "actual_only": [
+            [
+              "Đèn bắt muỗi, ruồi và các loại côn trùng UVA Electronical Mosquito Killer, Model: KM300",
+              "Cái",
+              3,
+              443519,
+              1330556,
+              1
+            ]
+          ]
+        },
+        "item": "Đèn bắt muỗi, ruồi và các loại côn trùng UVA Electronical Mosquito Killer, Model: KM300",
+        "qty": 3,
+        "plan_price": "443518.67",
+        "issued_price": 443519,
+        "goods": 1330556
+      },
+      {
+        "doc": "BHHT2024017006",
+        "invoice": "1C26MUV/00131146",
+        "expected_lines": 1,
+        "actual_lines": 1,
+        "matches": false,
+        "differences": {
+          "expected_only": [
+            [
+              "Lõi lọc diệt khuẩn Filter KA350 - model: FT KA350",
+              "Cái",
+              1,
+              "509259.3",
+              509259,
+              1
+            ]
+          ],
+          "actual_only": [
+            [
+              "Lõi lọc diệt khuẩn Filter KA350 - model: FT KA350",
+              "Cái",
+              1,
+              509259,
+              509259,
+              1
+            ]
+          ]
+        },
+        "item": "Lõi lọc diệt khuẩn Filter KA350 - model: FT KA350",
+        "qty": 1,
+        "plan_price": "509259.3",
+        "issued_price": 509259,
+        "goods": 509259
+      },
+      {
+        "doc": "BHHS2024004897",
+        "invoice": "1C26MUV/00131416",
+        "expected_lines": 1,
+        "actual_lines": 1,
+        "matches": false,
+        "differences": {
+          "expected_only": [
+            [
+              "Đèn bắt muỗi, ruồi và các loại côn trùng KM100",
+              "Cái",
+              1,
+              "258333.33",
+              258333,
+              1
+            ]
+          ],
+          "actual_only": [
+            [
+              "Đèn bắt muỗi, ruồi và các loại côn trùng KM100",
+              "Cái",
+              1,
+              258333,
+              258333,
+              1
+            ]
+          ]
+        },
+        "item": "Đèn bắt muỗi, ruồi và các loại côn trùng KM100",
+        "qty": 1,
+        "plan_price": "258333.33",
+        "issued_price": 258333,
+        "goods": 258333
+      },
+      {
+        "doc": "BHHS2024004897",
+        "invoice": "1C26MUV/00133416",
+        "expected_lines": 1,
+        "actual_lines": 1,
+        "matches": false,
+        "differences": {
+          "expected_only": [
+            [
+              "Đèn bắt muỗi, ruồi và các loại côn trùng KM100",
+              "Cái",
+              1,
+              "258333.33",
+              258333,
+              1
+            ]
+          ],
+          "actual_only": [
+            [
+              "Đèn bắt muỗi, ruồi và các loại côn trùng KM100",
+              "Cái",
+              1,
+              258333,
+              258333,
+              1
+            ]
+          ]
+        },
+        "item": "Đèn bắt muỗi, ruồi và các loại côn trùng KM100",
+        "qty": 1,
+        "plan_price": "258333.33",
+        "issued_price": 258333,
+        "goods": 258333
+      },
+      {
+        "doc": "BHHT2024016237",
+        "invoice": "1C26MUV/00132237",
+        "expected_lines": 2,
+        "actual_lines": 2,
+        "matches": false,
+        "differences": {
+          "expected_only": [
+            [
+              "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifier . Model: KA600",
+              "Cái",
+              1,
+              "2089219.82",
+              2089220,
+              1
+            ]
+          ],
+          "actual_only": [
+            [
+              "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifier . Model: KA600",
+              "Cái",
+              1,
+              2089220,
+              2089220,
+              1
+            ]
+          ]
+        },
+        "item": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifier . Model: KA600",
+        "qty": 1,
+        "plan_price": "2089219.82",
+        "issued_price": 2089220,
+        "goods": 2089220
+      },
+      {
+        "doc": "BHHT2024016237",
+        "invoice": "1C26MUV/00134237",
+        "expected_lines": 2,
+        "actual_lines": 2,
+        "matches": false,
+        "differences": {
+          "expected_only": [
+            [
+              "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifier . Model: KA600",
+              "Cái",
+              1,
+              "2089219.82",
+              2089220,
+              1
+            ]
+          ],
+          "actual_only": [
+            [
+              "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifier . Model: KA600",
+              "Cái",
+              1,
+              2089220,
+              2089220,
+              1
+            ]
+          ]
+        },
+        "item": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifier . Model: KA600",
+        "qty": 1,
+        "plan_price": "2089219.82",
+        "issued_price": 2089220,
+        "goods": 2089220
+      },
+      {
+        "doc": "BHHT2024015592",
+        "invoice": "1C26MUV/00133193",
+        "expected_lines": 2,
+        "actual_lines": 2,
+        "matches": false,
+        "differences": {
+          "expected_only": [
+            [
+              "Lõi lọc diệt khuẩn Filter KA350 - model: FT KA350",
+              "Cái",
+              1,
+              "259259.26",
+              259259,
+              1
+            ]
+          ],
+          "actual_only": [
+            [
+              "Lõi lọc diệt khuẩn Filter KA350 - model: FT KA350",
+              "Cái",
+              1,
+              259259,
+              259259,
+              1
+            ]
+          ]
+        },
+        "item": "Lõi lọc diệt khuẩn Filter KA350 - model: FT KA350",
+        "qty": 1,
+        "plan_price": "259259.26",
+        "issued_price": 259259,
+        "goods": 259259
+      },
+      {
+        "doc": "BHHT2024015592",
+        "invoice": "1C26MUV/00135193",
+        "expected_lines": 2,
+        "actual_lines": 2,
+        "matches": false,
+        "differences": {
+          "expected_only": [
+            [
+              "Lõi lọc diệt khuẩn Filter KA350 - model: FT KA350",
+              "Cái",
+              1,
+              "259259.26",
+              259259,
+              1
+            ]
+          ],
+          "actual_only": [
+            [
+              "Lõi lọc diệt khuẩn Filter KA350 - model: FT KA350",
+              "Cái",
+              1,
+              259259,
+              259259,
+              1
+            ]
+          ]
+        },
+        "item": "Lõi lọc diệt khuẩn Filter KA350 - model: FT KA350",
+        "qty": 1,
+        "plan_price": "259259.26",
+        "issued_price": 259259,
+        "goods": 259259
+      },
+      {
+        "doc": "BHHS2024005685",
+        "invoice": "1C26MUV/00135890",
+        "expected_lines": 1,
+        "actual_lines": 1,
+        "matches": false,
+        "differences": {
+          "expected_only": [
+            [
+              "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifier . Model: KA600",
+              "Cái",
+              1,
+              "2573148.15",
+              2573148,
+              1
+            ]
+          ],
+          "actual_only": [
+            [
+              "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifier . Model: KA600",
+              "Cái",
+              1,
+              2573148,
+              2573148,
+              1
+            ]
+          ]
+        },
+        "item": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifier . Model: KA600",
+        "qty": 1,
+        "plan_price": "2573148.15",
+        "issued_price": 2573148,
+        "goods": 2573148
+      },
+      {
+        "doc": "BHHT2024015040",
+        "invoice": "1C26MUV/00135963",
+        "expected_lines": 1,
+        "actual_lines": 1,
+        "matches": false,
+        "differences": {
+          "expected_only": [
+            [
+              "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+              "Cái",
+              1,
+              "1702777.78",
+              1702778,
+              1
+            ]
+          ],
+          "actual_only": [
+            [
+              "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+              "Cái",
+              1,
+              1702778,
+              1702778,
+              1
+            ]
+          ]
+        },
+        "item": "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+        "qty": 1,
+        "plan_price": "1702777.78",
+        "issued_price": 1702778,
+        "goods": 1702778
+      },
+      {
+        "doc": "BHHT2024019697",
+        "invoice": "1C26MUV/00136618",
+        "expected_lines": 1,
+        "actual_lines": 1,
+        "matches": false,
+        "differences": {
+          "expected_only": [
+            [
+              "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+              "Cái",
+              1,
+              "1702777.78",
+              1702778,
+              1
+            ]
+          ],
+          "actual_only": [
+            [
+              "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+              "Cái",
+              1,
+              1702778,
+              1702778,
+              1
+            ]
+          ]
+        },
+        "item": "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+        "qty": 1,
+        "plan_price": "1702777.78",
+        "issued_price": 1702778,
+        "goods": 1702778
+      },
+      {
+        "doc": "BHHS2024005971",
+        "invoice": "1C26MUV/00136676",
+        "expected_lines": 1,
+        "actual_lines": 1,
+        "matches": false,
+        "differences": {
+          "expected_only": [
+            [
+              "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+              "Cái",
+              1,
+              "509259.26",
+              509259,
+              1
+            ]
+          ],
+          "actual_only": [
+            [
+              "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+              "Cái",
+              1,
+              509259,
+              509259,
+              1
+            ]
+          ]
+        },
+        "item": "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+        "qty": 1,
+        "plan_price": "509259.26",
+        "issued_price": 509259,
+        "goods": 509259
+      },
+      {
+        "doc": "BHHT2024018821",
+        "invoice": "1C26MUV/00138017",
+        "expected_lines": 2,
+        "actual_lines": 2,
+        "matches": false,
+        "differences": {
+          "expected_only": [
+            [
+              "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifier . Model: KA600",
+              "Cái",
+              1,
+              "2137071.37",
+              2137071,
+              1
+            ]
+          ],
+          "actual_only": [
+            [
+              "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifier . Model: KA600",
+              "Cái",
+              1,
+              2137071,
+              2137071,
+              1
+            ]
+          ]
+        },
+        "item": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifier . Model: KA600",
+        "qty": 1,
+        "plan_price": "2137071.37",
+        "issued_price": 2137071,
+        "goods": 2137071
+      },
+      {
+        "doc": "BHHT2024017744",
+        "invoice": "1C26MUV/00139275",
+        "expected_lines": 1,
+        "actual_lines": 1,
+        "matches": false,
+        "differences": {
+          "expected_only": [
+            [
+              "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifiers - KA150P",
+              "Cái",
+              1,
+              "1276851.82",
+              1276852,
+              1
+            ]
+          ],
+          "actual_only": [
+            [
+              "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifiers - KA150P",
+              "Cái",
+              1,
+              1276852,
+              1276852,
+              1
+            ]
+          ]
+        },
+        "item": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifiers - KA150P",
+        "qty": 1,
+        "plan_price": "1276851.82",
+        "issued_price": 1276852,
+        "goods": 1276852
+      },
+      {
+        "doc": "BHHT2024017249",
+        "invoice": "1C26MUV/00140216",
+        "expected_lines": 1,
+        "actual_lines": 1,
+        "matches": false,
+        "differences": {
+          "expected_only": [
+            [
+              "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifier . Model: KA600",
+              "Cái",
+              1,
+              "2573148.37",
+              2573148,
+              1
+            ]
+          ],
+          "actual_only": [
+            [
+              "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifier . Model: KA600",
+              "Cái",
+              1,
+              2573148,
+              2573148,
+              1
+            ]
+          ]
+        },
+        "item": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifier . Model: KA600",
+        "qty": 1,
+        "plan_price": "2573148.37",
+        "issued_price": 2573148,
+        "goods": 2573148
+      },
+      {
+        "doc": "BHHT2024017163",
+        "invoice": "1C26MUV/00140350",
+        "expected_lines": 1,
+        "actual_lines": 1,
+        "matches": false,
+        "differences": {
+          "expected_only": [
+            [
+              "Đèn bắt muỗi, ruồi và các loại côn trùng UVA Electronical Mosquito Killer, Model: KM300",
+              "Cái",
+              1,
+              "304629.63",
+              304630,
+              1
+            ]
+          ],
+          "actual_only": [
+            [
+              "Đèn bắt muỗi, ruồi và các loại côn trùng UVA Electronical Mosquito Killer, Model: KM300",
+              "Cái",
+              1,
+              304630,
+              304630,
+              1
+            ]
+          ]
+        },
+        "item": "Đèn bắt muỗi, ruồi và các loại côn trùng UVA Electronical Mosquito Killer, Model: KM300",
+        "qty": 1,
+        "plan_price": "304629.63",
+        "issued_price": 304630,
+        "goods": 304630
+      },
+      {
+        "doc": "BHHN2024000180",
+        "invoice": "1C26MUV/00140371",
+        "expected_lines": 1,
+        "actual_lines": 1,
+        "matches": false,
+        "differences": {
+          "expected_only": [
+            [
+              "Đèn bắt muỗi, ruồi và các loại côn trùng UVA Electronical Mosquito Killer, Model: KM300",
+              "Cái",
+              4,
+              "29101.75",
+              116407,
+              1
+            ]
+          ],
+          "actual_only": [
+            [
+              "Đèn bắt muỗi, ruồi và các loại côn trùng UVA Electronical Mosquito Killer, Model: KM300",
+              "Cái",
+              4,
+              29102,
+              116407,
+              1
+            ]
+          ]
+        },
+        "item": "Đèn bắt muỗi, ruồi và các loại côn trùng UVA Electronical Mosquito Killer, Model: KM300",
+        "qty": 4,
+        "plan_price": "29101.75",
+        "issued_price": 29102,
+        "goods": 116407
+      },
+      {
+        "doc": "BHHT2024020938",
+        "invoice": "1C26MUV/00142565",
+        "expected_lines": 2,
+        "actual_lines": 2,
+        "matches": false,
+        "differences": {
+          "expected_only": [
+            [
+              "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifier . Model: KA600",
+              "Cái",
+              1,
+              "2147542.19",
+              2147542,
+              1
+            ]
+          ],
+          "actual_only": [
+            [
+              "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifier . Model: KA600",
+              "Cái",
+              1,
+              2147542,
+              2147542,
+              1
+            ]
+          ]
+        },
+        "item": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifier . Model: KA600",
+        "qty": 1,
+        "plan_price": "2147542.19",
+        "issued_price": 2147542,
+        "goods": 2147542
+      },
+      {
+        "doc": "BHHT2024024401",
+        "invoice": "1C26MUV/00144625",
+        "expected_lines": 1,
+        "actual_lines": 1,
+        "matches": false,
+        "differences": {
+          "expected_only": [
+            [
+              "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+              "Cái",
+              1,
+              "1702776.74",
+              1702777,
+              1
+            ]
+          ],
+          "actual_only": [
+            [
+              "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+              "Cái",
+              1,
+              1702777,
+              1702777,
+              1
+            ]
+          ]
+        },
+        "item": "Máy lọc không khí diệt khuẩn bằng tia UVC (True UVC Air Purifier - KA350) model KA350",
+        "qty": 1,
+        "plan_price": "1702776.74",
+        "issued_price": 1702777,
+        "goods": 1702777
+      },
+      {
+        "doc": "BHHT2024025182",
+        "invoice": "1C26MUV/00147851",
+        "expected_lines": 1,
+        "actual_lines": 1,
+        "matches": false,
+        "differences": {
+          "expected_only": [
+            [
+              "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifiers - KA150P",
+              "Cái",
+              1,
+              "1225776.85",
+              1225777,
+              1
+            ]
+          ],
+          "actual_only": [
+            [
+              "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifiers - KA150P",
+              "Cái",
+              1,
+              1225777,
+              1225777,
+              1
+            ]
+          ]
+        },
+        "item": "Máy lọc không khí diệt khuẩn bằng tia UVC - True UVC Air Purifiers - KA150P",
+        "qty": 1,
+        "plan_price": "1225776.85",
+        "issued_price": 1225777,
+        "goods": 1225777
+      }
+    ]
+  },
+  "promotion_representation_changes": [
+    {
+      "doc": "BHHT2024013153",
+      "invoice": "1C26MUV/00129632",
+      "expected_lines": 1,
+      "actual_lines": 1,
+      "matches": false,
+      "differences": {
+        "expected_only": [
+          [
+            "Đèn bắt muỗi, ruồi và các loại côn trùng UVA Electronical Mosquito Killer, Model: KM300",
+            "Cái",
+            1,
+            0,
+            0,
+            1
+          ]
+        ],
+        "actual_only": [
+          [
+            "Đèn bắt muỗi, ruồi và các loại côn trùng UVA Electronical Mosquito Killer, Model: KM300 (Hàng khuyến mại không thu tiền)",
+            "Cái",
+            1,
+            null,
+            null,
+            1
+          ]
+        ]
+      },
+      "item": "Đèn bắt muỗi, ruồi và các loại côn trùng UVA Electronical Mosquito Killer, Model: KM300 (Hàng khuyến mại không thu tiền)",
+      "qty": 1,
+      "payment_evidence": 0
+    },
+    {
+      "doc": "BHHT2024013026",
+      "invoice": "1C26MUV/00129806",
+      "expected_lines": 1,
+      "actual_lines": 1,
+      "matches": false,
+      "differences": {
+        "expected_only": [
+          [
+            "Đèn bắt muỗi, ruồi và các loại côn trùng UVA Electronical Mosquito Killer, Model: KM300",
+            "Cái",
+            1,
+            0,
+            0,
+            1
+          ]
+        ],
+        "actual_only": [
+          [
+            "Đèn bắt muỗi, ruồi và các loại côn trùng UVA Electronical Mosquito Killer, Model: KM300 (Hàng khuyến mại không thu tiền)",
+            "Cái",
+            1,
+            null,
+            null,
+            1
+          ]
+        ]
+      },
+      "item": "Đèn bắt muỗi, ruồi và các loại côn trùng UVA Electronical Mosquito Killer, Model: KM300 (Hàng khuyến mại không thu tiền)",
+      "qty": 1,
+      "payment_evidence": 0
+    }
+  ],
+  "other_plan_changes": [],
+  "outside_plan_dates": {
+    "2026-10-31": 273
+  },
+  "team_2026_user_confirmation": "Người dùng xác nhận ngày31/10/2026 có team2026 xuất và phát hành đơn2026. Giữ273HĐ ngoài kế hoạch2024 riêng; chưa đối chiếu từng HĐ đó với sổ bán2026.",
+  "duplicate_issue_time_ranges": {
+    "first_issue_times": {
+      "min": "2026-11-01 10:45:06",
+      "max": "2026-11-01 11:01:09"
+    },
+    "second_issue_times": {
+      "min": "2026-11-01 11:09:13",
+      "max": "2026-11-01 11:26:03"
+    }
+  },
+  "blank_payment_evidence": [
+    {
+      "doc": "BHHT2024013153",
+      "invoice": "1C26MUV/00129632",
+      "summary_money": [
+        0,
+        0,
+        null
+      ],
+      "detail_rows": [
+        {
+          "name": "Đèn bắt muỗi, ruồi và các loại côn trùng UVA Electronical Mosquito Killer, Model: KM300 (Hàng khuyến mại không thu tiền)",
+          "unit": "Cái",
+          "qty": 1,
+          "price": null,
+          "goods": null,
+          "rate": "0",
+          "vat": null,
+          "payment": 0,
+          "kind": "Khuyến mại",
+          "promotion": "ü",
+          "date": "2026-11-01",
+          "buyer": "Bán cho người tiêu dùng Tiktok",
+          "customer": "",
+          "address": "",
+          "tax": "",
+          "payment_method": "TM/CK",
+          "cqt_status": "HĐ hợp lệ",
+          "invoice_status": "Hoá đơn mới",
+          "issue_status": "Đã cấp mã",
+          "issue_time": "2026-11-01 10:15:58",
+          "issue_time_raw": "46327.4277546296",
+          "source": {
+            "file": "data/Meinv_SAU_XUAT_MOI_20261101/CHI_TIET/Bang_ke_chi_tiet_hoa_don_da_su_dung_20261101_143931.xls",
+            "row": 24022
+          }
+        }
+      ]
+    },
+    {
+      "doc": "BHHT2024013026",
+      "invoice": "1C26MUV/00129806",
+      "summary_money": [
+        0,
+        0,
+        null
+      ],
+      "detail_rows": [
+        {
+          "name": "Đèn bắt muỗi, ruồi và các loại côn trùng UVA Electronical Mosquito Killer, Model: KM300 (Hàng khuyến mại không thu tiền)",
+          "unit": "Cái",
+          "qty": 1,
+          "price": null,
+          "goods": null,
+          "rate": "0",
+          "vat": null,
+          "payment": 0,
+          "kind": "Khuyến mại",
+          "promotion": "ü",
+          "date": "2026-11-01",
+          "buyer": "Bán cho người tiêu dùng Tiktok",
+          "customer": "",
+          "address": "",
+          "tax": "",
+          "payment_method": "TM/CK",
+          "cqt_status": "HĐ hợp lệ",
+          "invoice_status": "Hoá đơn mới",
+          "issue_status": "Đã cấp mã",
+          "issue_time": "2026-11-01 10:17:34",
+          "issue_time_raw": "46327.4288657407",
+          "source": {
+            "file": "data/Meinv_SAU_XUAT_MOI_20261101/CHI_TIET/Bang_ke_chi_tiet_hoa_don_da_su_dung_20261101_143931.xls",
+            "row": 24270
+          }
+        }
+      ]
+    }
+  ],
+  "amount_tuple_order": [
+    "Tiền hàng",
+    "VAT",
+    "Thanh toán"
+  ],
+  "limits": [
+    "Đối chiếu từ hai bảng kê người dùng xuất; chưa tra cứu trực tiếp CQT hoặc kiểm chữ ký XML.",
+    "Chưa tự chọn hóa đơn giữ lại trong các cặp trùng hoặc thực hiện xử lý hóa đơn."
+  ]
+}
