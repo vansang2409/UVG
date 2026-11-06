@@ -25,3 +25,11 @@ Khi có đủ ảnh chụp nguồn tại máy, chạy lần lượt các script 
 
 - Tab BTL 2025 có 321 phiếu và 411 dòng chi tiết. Tất cả đã ghép theo Số CT bán hàng lấy trực tiếp từ AMIS Kế toán và khớp mã hàng với chứng từ bán gốc.
 - Giá trị trả lại 441.952.027 đ, VAT giảm 35.356.147 đ và thanh toán giảm 477.308.174 đ. Đã đọc lại tab và kiểm tổng. Phần đối chiếu các khoản trả với hóa đơn điều chỉnh trên meInvoice còn cần thực hiện.
+
+## Tiến độ đối soát ngày 06/11/2026
+
+- Tab AMIS trong bản sao HD 2025 chỉ có chứng từ hạch toán tháng 7–12/2025. Khi dò HĐ cho chứng từ AMIS năm 2025, dùng cả bảng kê meInvoice năm 2026. Đã xác nhận có HĐ phát hành tháng 01/2026 cho các chứng từ hạch toán tháng 4–5/2025.
+- Tab **Sửa liên kết** có 114 dòng. Đã cập nhật và đánh dấu **Đã thực hiện** cho 30 dòng trên file đối soát, gồm 12 dòng sửa ký hiệu và bỏ ngày khỏi ô số HĐ, 17 dòng bổ sung liên kết và dòng 120 khớp tên khách hàng, ngày, tiền và VAT. Cột L trên AMIS bản gốc đã trả đúng tiền meInvoice cho cả 30 dòng. Đã bổ sung 28 HĐ còn thiếu vào tab Ktoan của bản gốc. Dòng 22 giữ số tiền theo bảng kê, lệch AMIS 1 đ VAT và thanh toán, có khả năng do làm tròn.
+- Trong 84 dòng còn lại, đã khoanh 69 dòng thuộc 57 nhóm nghi gắn nhầm. Sau khi loại các dòng này khỏi phép tính, chứng từ còn lại trong từng nhóm khớp tiền và VAT với HĐ. Lượt dò mã đơn chưa xác nhận được HĐ khác cho 69 dòng. Riêng dòng 49 và 104, tên người mua trên HĐ khớp chứng từ còn lại trong từng cặp. Cần xác minh qua đơn TikTok Shop hoặc phiếu giao hàng trước khi sửa AMIS.
+- Tab **Giữ HĐ** đã rà 475 dòng, gồm 106 dòng có ghi chú kế toán và 372 dòng đánh dấu lệch hàng, giao nhau 3 dòng. Khi AMIS phân bổ giá combo cho từng sản phẩm, so mã hoặc tên hàng, biến thể, số lượng, tổng thanh toán và VAT. Dòng 9173 cần xác minh số lõi lọc thực giao.
+- Tab **6 đơn trả hàng** ghi mã đơn, ngày hạch toán AMIS và chuỗi HĐ đã điều chỉnh về 0. Chưa tìm thấy chứng từ bán gốc tương ứng trong 411 dòng BTL năm 2025. Cần đối chiếu chứng từ trả hàng hoặc hoàn tiền trước khi chốt xuất bổ sung.
