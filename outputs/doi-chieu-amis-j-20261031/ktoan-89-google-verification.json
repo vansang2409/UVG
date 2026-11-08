@@ -1,0 +1,828 @@
+{
+  "oldKtCellsChecked": 1260992,
+  "oldKtRowsPreserved": 37087,
+  "newF0": 89,
+  "newF1": 1,
+  "newRows": [
+    37088,
+    37176
+  ],
+  "oldLastMovedTo": 37177,
+  "amisRowsChecked": 65494,
+  "amisChanges": 176,
+  "amisLookupValidated": 89,
+  "invoice31Balance": [
+    0,
+    0,
+    0
+  ],
+  "excludedTenKept": true,
+  "date": "2026-10-31",
+  "spreadsheetId": "1bhOnhnBcHaHiy06-REAdVVEk160FG94a6XgkfH0AQsw",
+  "sheetId": 1291269406,
+  "insertedBeforeOldLastRow": true,
+  "AMISformulaRangesAutomaticallyExtendedTo": 37177,
+  "additionKeys": [
+    {
+      "row": 37088,
+      "sourceKey": [
+        "1C26MUV",
+        "00000001"
+      ],
+      "AMISrow": 476,
+      "currentPayment": 539000
+    },
+    {
+      "row": 37089,
+      "sourceKey": [
+        "1C26MUV",
+        "00000004"
+      ],
+      "AMISrow": 198,
+      "currentPayment": 2239000
+    },
+    {
+      "row": 37090,
+      "sourceKey": [
+        "1C26MUV",
+        "00000007"
+      ],
+      "AMISrow": 468,
+      "currentPayment": 1189440
+    },
+    {
+      "row": 37091,
+      "sourceKey": [
+        "1C26MUV",
+        "00000010"
+      ],
+      "AMISrow": 924,
+      "currentPayment": 2239000
+    },
+    {
+      "row": 37092,
+      "sourceKey": [
+        "1C26MUV",
+        "00000011"
+      ],
+      "AMISrow": 646,
+      "currentPayment": 679000
+    },
+    {
+      "row": 37093,
+      "sourceKey": [
+        "1C26MUV",
+        "00000012"
+      ],
+      "AMISrow": 644,
+      "currentPayment": 679000
+    },
+    {
+      "row": 37094,
+      "sourceKey": [
+        "1C26MUV",
+        "00000013"
+      ],
+      "AMISrow": 643,
+      "currentPayment": 1479000
+    },
+    {
+      "row": 37095,
+      "sourceKey": [
+        "1C26MUV",
+        "00000015"
+      ],
+      "AMISrow": 637,
+      "currentPayment": 1277999
+    },
+    {
+      "row": 37096,
+      "sourceKey": [
+        "1C26MUV",
+        "00000018"
+      ],
+      "AMISrow": 624,
+      "currentPayment": 2638999
+    },
+    {
+      "row": 37097,
+      "sourceKey": [
+        "1C26MUV",
+        "00000019"
+      ],
+      "AMISrow": 616,
+      "currentPayment": 3039000
+    },
+    {
+      "row": 37098,
+      "sourceKey": [
+        "1C26MUV",
+        "00000020"
+      ],
+      "AMISrow": 602,
+      "currentPayment": 2638999
+    },
+    {
+      "row": 37099,
+      "sourceKey": [
+        "1C26MUV",
+        "00000021"
+      ],
+      "AMISrow": 601,
+      "currentPayment": 678999
+    },
+    {
+      "row": 37100,
+      "sourceKey": [
+        "1C26MUV",
+        "00000022"
+      ],
+      "AMISrow": 600,
+      "currentPayment": 1938999
+    },
+    {
+      "row": 37101,
+      "sourceKey": [
+        "1C26MUV",
+        "00000023"
+      ],
+      "AMISrow": 589,
+      "currentPayment": 2638999
+    },
+    {
+      "row": 37102,
+      "sourceKey": [
+        "1C26MUV",
+        "00000024"
+      ],
+      "AMISrow": 588,
+      "currentPayment": 539000
+    },
+    {
+      "row": 37103,
+      "sourceKey": [
+        "1C26MUV",
+        "00000025"
+      ],
+      "AMISrow": 578,
+      "currentPayment": 679000
+    },
+    {
+      "row": 37104,
+      "sourceKey": [
+        "1C26MUV",
+        "00000026"
+      ],
+      "AMISrow": 575,
+      "currentPayment": 2638999
+    },
+    {
+      "row": 37105,
+      "sourceKey": [
+        "1C26MUV",
+        "00000028"
+      ],
+      "AMISrow": 567,
+      "currentPayment": 1938999
+    },
+    {
+      "row": 37106,
+      "sourceKey": [
+        "1C26MUV",
+        "00000029"
+      ],
+      "AMISrow": 566,
+      "currentPayment": 250240
+    },
+    {
+      "row": 37107,
+      "sourceKey": [
+        "1C26MUV",
+        "00000030"
+      ],
+      "AMISrow": 360,
+      "currentPayment": 679000
+    },
+    {
+      "row": 37108,
+      "sourceKey": [
+        "1C26MUV",
+        "00000031"
+      ],
+      "AMISrow": 358,
+      "currentPayment": 0
+    },
+    {
+      "row": 37109,
+      "sourceKey": [
+        "1C26MUV",
+        "00000033"
+      ],
+      "AMISrow": 354,
+      "currentPayment": 1238998
+    },
+    {
+      "row": 37110,
+      "sourceKey": [
+        "1C26MUV",
+        "00000034"
+      ],
+      "AMISrow": 351,
+      "currentPayment": 200000
+    },
+    {
+      "row": 37111,
+      "sourceKey": [
+        "1C26MUV",
+        "00000035"
+      ],
+      "AMISrow": 347,
+      "currentPayment": 679000
+    },
+    {
+      "row": 37112,
+      "sourceKey": [
+        "1C26MUV",
+        "00000036"
+      ],
+      "AMISrow": 345,
+      "currentPayment": 2239000
+    },
+    {
+      "row": 37113,
+      "sourceKey": [
+        "1C26MUV",
+        "00000037"
+      ],
+      "AMISrow": 331,
+      "currentPayment": 539000
+    },
+    {
+      "row": 37114,
+      "sourceKey": [
+        "1C26MUV",
+        "00000038"
+      ],
+      "AMISrow": 326,
+      "currentPayment": 539000
+    },
+    {
+      "row": 37115,
+      "sourceKey": [
+        "1C26MUV",
+        "00000039"
+      ],
+      "AMISrow": 324,
+      "currentPayment": 2239000
+    },
+    {
+      "row": 37116,
+      "sourceKey": [
+        "1C26MUV",
+        "00000040"
+      ],
+      "AMISrow": 323,
+      "currentPayment": 272000
+    },
+    {
+      "row": 37117,
+      "sourceKey": [
+        "1C26MUV",
+        "00000041"
+      ],
+      "AMISrow": 322,
+      "currentPayment": 539000
+    },
+    {
+      "row": 37118,
+      "sourceKey": [
+        "1C26MUV",
+        "00000042"
+      ],
+      "AMISrow": 321,
+      "currentPayment": 2638999
+    },
+    {
+      "row": 37119,
+      "sourceKey": [
+        "1C26MUV",
+        "00000043"
+      ],
+      "AMISrow": 319,
+      "currentPayment": 585870
+    },
+    {
+      "row": 37120,
+      "sourceKey": [
+        "1C26MUV",
+        "00000044"
+      ],
+      "AMISrow": 317,
+      "currentPayment": 184000
+    },
+    {
+      "row": 37121,
+      "sourceKey": [
+        "1C26MUV",
+        "00000045"
+      ],
+      "AMISrow": 315,
+      "currentPayment": 679000
+    },
+    {
+      "row": 37122,
+      "sourceKey": [
+        "1C26MUV",
+        "00000046"
+      ],
+      "AMISrow": 161,
+      "currentPayment": 679000
+    },
+    {
+      "row": 37123,
+      "sourceKey": [
+        "1C26MUV",
+        "00000047"
+      ],
+      "AMISrow": 159,
+      "currentPayment": 250240
+    },
+    {
+      "row": 37124,
+      "sourceKey": [
+        "1C26MUV",
+        "00000048"
+      ],
+      "AMISrow": 157,
+      "currentPayment": 1238998
+    },
+    {
+      "row": 37125,
+      "sourceKey": [
+        "1C26MUV",
+        "00000049"
+      ],
+      "AMISrow": 156,
+      "currentPayment": 1479000
+    },
+    {
+      "row": 37126,
+      "sourceKey": [
+        "1C26MUV",
+        "00000050"
+      ],
+      "AMISrow": 155,
+      "currentPayment": 539000
+    },
+    {
+      "row": 37127,
+      "sourceKey": [
+        "1C26MUV",
+        "00000051"
+      ],
+      "AMISrow": 152,
+      "currentPayment": 1939000
+    },
+    {
+      "row": 37128,
+      "sourceKey": [
+        "1C26MUV",
+        "00000052"
+      ],
+      "AMISrow": 149,
+      "currentPayment": 778999
+    },
+    {
+      "row": 37129,
+      "sourceKey": [
+        "1C26MUV",
+        "00000053"
+      ],
+      "AMISrow": 144,
+      "currentPayment": 539000
+    },
+    {
+      "row": 37130,
+      "sourceKey": [
+        "1C26MUV",
+        "00000054"
+      ],
+      "AMISrow": 143,
+      "currentPayment": 679000
+    },
+    {
+      "row": 37131,
+      "sourceKey": [
+        "1C26MUV",
+        "00000055"
+      ],
+      "AMISrow": 142,
+      "currentPayment": 539000
+    },
+    {
+      "row": 37132,
+      "sourceKey": [
+        "1C26MUV",
+        "00000056"
+      ],
+      "AMISrow": 141,
+      "currentPayment": 778999
+    },
+    {
+      "row": 37133,
+      "sourceKey": [
+        "1C26MUV",
+        "00000057"
+      ],
+      "AMISrow": 138,
+      "currentPayment": 2239000
+    },
+    {
+      "row": 37134,
+      "sourceKey": [
+        "1C26MUV",
+        "00000058"
+      ],
+      "AMISrow": 137,
+      "currentPayment": 638998
+    },
+    {
+      "row": 37135,
+      "sourceKey": [
+        "1C26MUV",
+        "00000059"
+      ],
+      "AMISrow": 136,
+      "currentPayment": 539000
+    },
+    {
+      "row": 37136,
+      "sourceKey": [
+        "1C26MUV",
+        "00000060"
+      ],
+      "AMISrow": 135,
+      "currentPayment": 2638999
+    },
+    {
+      "row": 37137,
+      "sourceKey": [
+        "1C26MUV",
+        "00000061"
+      ],
+      "AMISrow": 134,
+      "currentPayment": 1939000
+    },
+    {
+      "row": 37138,
+      "sourceKey": [
+        "1C26MUV",
+        "00000062"
+      ],
+      "AMISrow": 133,
+      "currentPayment": 2239000
+    },
+    {
+      "row": 37139,
+      "sourceKey": [
+        "1C26MUV",
+        "00000063"
+      ],
+      "AMISrow": 131,
+      "currentPayment": 539000
+    },
+    {
+      "row": 37140,
+      "sourceKey": [
+        "1C26MUV",
+        "00000064"
+      ],
+      "AMISrow": 130,
+      "currentPayment": 1479000
+    },
+    {
+      "row": 37141,
+      "sourceKey": [
+        "1C26MUV",
+        "00000065"
+      ],
+      "AMISrow": 129,
+      "currentPayment": 2638999
+    },
+    {
+      "row": 37142,
+      "sourceKey": [
+        "1C26MUV",
+        "00000102"
+      ],
+      "AMISrow": 625,
+      "currentPayment": 4379000
+    },
+    {
+      "row": 37143,
+      "sourceKey": [
+        "1C26MUV",
+        "00000103"
+      ],
+      "AMISrow": 574,
+      "currentPayment": 2097000
+    },
+    {
+      "row": 37144,
+      "sourceKey": [
+        "1C26MUV",
+        "00000105"
+      ],
+      "AMISrow": 151,
+      "currentPayment": 1078000
+    },
+    {
+      "row": 37145,
+      "sourceKey": [
+        "1C26MUV",
+        "00000106"
+      ],
+      "AMISrow": 10,
+      "currentPayment": 4279000
+    },
+    {
+      "row": 37146,
+      "sourceKey": [
+        "1C26MUV",
+        "00000107"
+      ],
+      "AMISrow": 12,
+      "currentPayment": 2104660
+    },
+    {
+      "row": 37147,
+      "sourceKey": [
+        "1C26MUV",
+        "00000111"
+      ],
+      "AMISrow": 14,
+      "currentPayment": 539000
+    },
+    {
+      "row": 37148,
+      "sourceKey": [
+        "1C26MUV",
+        "00000114"
+      ],
+      "AMISrow": 15,
+      "currentPayment": 2639000
+    },
+    {
+      "row": 37149,
+      "sourceKey": [
+        "1C26MUV",
+        "00000117"
+      ],
+      "AMISrow": 16,
+      "currentPayment": 1478999
+    },
+    {
+      "row": 37150,
+      "sourceKey": [
+        "1C26MUV",
+        "00000118"
+      ],
+      "AMISrow": 18,
+      "currentPayment": 1478999
+    },
+    {
+      "row": 37151,
+      "sourceKey": [
+        "1C26MUV",
+        "00000121"
+      ],
+      "AMISrow": 20,
+      "currentPayment": 184000
+    },
+    {
+      "row": 37152,
+      "sourceKey": [
+        "1C26MUV",
+        "00000126"
+      ],
+      "AMISrow": 23,
+      "currentPayment": 2159000
+    },
+    {
+      "row": 37153,
+      "sourceKey": [
+        "1C26MUV",
+        "00000128"
+      ],
+      "AMISrow": 25,
+      "currentPayment": 1478999
+    },
+    {
+      "row": 37154,
+      "sourceKey": [
+        "1C26MUV",
+        "00000130"
+      ],
+      "AMISrow": 26,
+      "currentPayment": 2159000
+    },
+    {
+      "row": 37155,
+      "sourceKey": [
+        "1C26MUV",
+        "00000131"
+      ],
+      "AMISrow": 27,
+      "currentPayment": 4279000
+    },
+    {
+      "row": 37156,
+      "sourceKey": [
+        "1C26MUV",
+        "00000137"
+      ],
+      "AMISrow": 34,
+      "currentPayment": 2239000
+    },
+    {
+      "row": 37157,
+      "sourceKey": [
+        "1C26MUV",
+        "00000140"
+      ],
+      "AMISrow": 37,
+      "currentPayment": 639000
+    },
+    {
+      "row": 37158,
+      "sourceKey": [
+        "1C26MUV",
+        "00000151"
+      ],
+      "AMISrow": 41,
+      "currentPayment": 539000
+    },
+    {
+      "row": 37159,
+      "sourceKey": [
+        "1C26MUV",
+        "00000157"
+      ],
+      "AMISrow": 43,
+      "currentPayment": 1239000
+    },
+    {
+      "row": 37160,
+      "sourceKey": [
+        "1C26MUV",
+        "00000159"
+      ],
+      "AMISrow": 45,
+      "currentPayment": 3234999
+    },
+    {
+      "row": 37161,
+      "sourceKey": [
+        "1C26MUV",
+        "00000166"
+      ],
+      "AMISrow": 47,
+      "currentPayment": 1939000
+    },
+    {
+      "row": 37162,
+      "sourceKey": [
+        "1C26MUV",
+        "00000332"
+      ],
+      "AMISrow": 84,
+      "currentPayment": 2800260
+    },
+    {
+      "row": 37163,
+      "sourceKey": [
+        "1C26MUV",
+        "00000333"
+      ],
+      "AMISrow": 89,
+      "currentPayment": 2755575
+    },
+    {
+      "row": 37164,
+      "sourceKey": [
+        "1C26MUV",
+        "00000335"
+      ],
+      "AMISrow": 24,
+      "currentPayment": 2917999
+    },
+    {
+      "row": 37165,
+      "sourceKey": [
+        "1C26MUV",
+        "00000716"
+      ],
+      "AMISrow": 1160,
+      "currentPayment": 679000
+    },
+    {
+      "row": 37166,
+      "sourceKey": [
+        "1C26MUV",
+        "00000720"
+      ],
+      "AMISrow": 369,
+      "currentPayment": 1479000
+    },
+    {
+      "row": 37167,
+      "sourceKey": [
+        "1C26MUV",
+        "00000724"
+      ],
+      "AMISrow": 153,
+      "currentPayment": 539000
+    },
+    {
+      "row": 37168,
+      "sourceKey": [
+        "1C26MUV",
+        "00000725"
+      ],
+      "AMISrow": 148,
+      "currentPayment": 539000
+    },
+    {
+      "row": 37169,
+      "sourceKey": [
+        "1C26MUV",
+        "00000726"
+      ],
+      "AMISrow": 147,
+      "currentPayment": 4851003
+    },
+    {
+      "row": 37170,
+      "sourceKey": [
+        "1C26MUV",
+        "00000727"
+      ],
+      "AMISrow": 146,
+      "currentPayment": 1479000
+    },
+    {
+      "row": 37171,
+      "sourceKey": [
+        "1C26MUV",
+        "00000728"
+      ],
+      "AMISrow": 139,
+      "currentPayment": 1145868
+    },
+    {
+      "row": 37172,
+      "sourceKey": [
+        "1C26MUV",
+        "00000729"
+      ],
+      "AMISrow": 132,
+      "currentPayment": 778999
+    },
+    {
+      "row": 37173,
+      "sourceKey": [
+        "1C26MUV",
+        "00000730"
+      ],
+      "AMISrow": 128,
+      "currentPayment": 1938999
+    },
+    {
+      "row": 37174,
+      "sourceKey": [
+        "1C26MUV",
+        "00000946"
+      ],
+      "AMISrow": 162,
+      "currentPayment": 5978999
+    },
+    {
+      "row": 37175,
+      "sourceKey": [
+        "1C26MUV",
+        "00000948"
+      ],
+      "AMISrow": 594,
+      "currentPayment": 5238999
+    },
+    {
+      "row": 37176,
+      "sourceKey": [
+        "1C26MUV",
+        "00000952"
+      ],
+      "AMISrow": 336,
+      "currentPayment": 6917999
+    }
+  ]
+}

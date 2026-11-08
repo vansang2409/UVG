@@ -1,0 +1,2877 @@
+{
+  "summary": {
+    "strong_identity_matches": 89,
+    "new_invoices_no_modification_links": 88,
+    "invoices_with_modification_links": 1,
+    "modified_chains_zero": 1,
+    "ktoan_written": false
+  },
+  "invoices": [
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000001"
+        ],
+        "date": "2026-01-02",
+        "order_code": "581819571144263360",
+        "buyer": "m***anh14095",
+        "net": "499074",
+        "vat": "39926",
+        "payment": "539000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4450
+      },
+      "amis_rows": [
+        476
+      ],
+      "vouchers": [
+        "BHHT2025040369"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "499074",
+        "39926",
+        "539000"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000004"
+        ],
+        "date": "2026-01-02",
+        "order_code": "581818117416715667",
+        "buyer": "p***0310",
+        "net": "2073148",
+        "vat": "165852",
+        "payment": "2239000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4453
+      },
+      "amis_rows": [
+        198
+      ],
+      "vouchers": [
+        "BHHT2025040272"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "2073148",
+        "165852",
+        "2239000"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000007"
+        ],
+        "date": "2026-01-02",
+        "order_code": "581816253708797198",
+        "buyer": "n***enhaiduong10",
+        "net": "1101333",
+        "vat": "88107",
+        "payment": "1189440",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4456
+      },
+      "amis_rows": [
+        468
+      ],
+      "vouchers": [
+        "BHHT2025040377"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "1101333",
+        "88107",
+        "1189440"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000010"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251227FD1DB955",
+        "buyer": "dngnh813",
+        "net": "2073148",
+        "vat": "165852",
+        "payment": "2239000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4459
+      },
+      "amis_rows": [
+        924
+      ],
+      "vouchers": [
+        "BHHS2025023846"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "2073148",
+        "165852",
+        "2239000"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000011"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251228H91EQ066",
+        "buyer": "thubui0507",
+        "net": "628704",
+        "vat": "50296",
+        "payment": "679000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4460
+      },
+      "amis_rows": [
+        646
+      ],
+      "vouchers": [
+        "BHHS2025023879"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "628704",
+        "50296",
+        "679000"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000012"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251228HA4NY5GF",
+        "buyer": "qynhkun75",
+        "net": "628704",
+        "vat": "50296",
+        "payment": "679000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4461
+      },
+      "amis_rows": [
+        644
+      ],
+      "vouchers": [
+        "BHHS2025023881"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "628704",
+        "50296",
+        "679000"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000013"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251228HD3CSNVF",
+        "buyer": "trammoon_281297",
+        "net": "1369444",
+        "vat": "109556",
+        "payment": "1479000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4462
+      },
+      "amis_rows": [
+        643
+      ],
+      "vouchers": [
+        "BHHS2025023882"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "1369444",
+        "109556",
+        "1479000"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000015"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251228HKBJJJ40",
+        "buyer": "vantho302",
+        "net": "1183332",
+        "vat": "94667",
+        "payment": "1277999",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4464
+      },
+      "amis_rows": [
+        637
+      ],
+      "vouchers": [
+        "BHHS2025023888"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "1183332",
+        "94667",
+        "1277999"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000018"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251228HY7WC7T3",
+        "buyer": "hachi39",
+        "net": "2443518",
+        "vat": "195481",
+        "payment": "2638999",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4467
+      },
+      "amis_rows": [
+        624
+      ],
+      "vouchers": [
+        "BHHS2025023901"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "2443518",
+        "195481",
+        "2638999"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000019"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251228JATWN3JR",
+        "buyer": "hahp810",
+        "net": "2813889",
+        "vat": "225111",
+        "payment": "3039000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4468
+      },
+      "amis_rows": [
+        616
+      ],
+      "vouchers": [
+        "BHHS2025023909"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "2813889",
+        "225111",
+        "3039000"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000020"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251229K0SXW095",
+        "buyer": "nguyenphuongmai54829",
+        "net": "2443518",
+        "vat": "195481",
+        "payment": "2638999",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4469
+      },
+      "amis_rows": [
+        602
+      ],
+      "vouchers": [
+        "BHHS2025023923"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "2443518",
+        "195481",
+        "2638999"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000021"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251229K13QP008",
+        "buyer": "hinhin108",
+        "net": "628703",
+        "vat": "50296",
+        "payment": "678999",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4470
+      },
+      "amis_rows": [
+        601
+      ],
+      "vouchers": [
+        "BHHS2025023924"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "628703",
+        "50296",
+        "678999"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000022"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251229K1CB9B3M",
+        "buyer": "phammai_237hg",
+        "net": "1795369",
+        "vat": "143630",
+        "payment": "1938999",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4471
+      },
+      "amis_rows": [
+        600
+      ],
+      "vouchers": [
+        "BHHS2025023925"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "1795369",
+        "143630",
+        "1938999"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000023"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251229KJSRSVM7",
+        "buyer": "chbong2705",
+        "net": "2443518",
+        "vat": "195481",
+        "payment": "2638999",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4472
+      },
+      "amis_rows": [
+        589
+      ],
+      "vouchers": [
+        "BHHS2025023936"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "2443518",
+        "195481",
+        "2638999"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000024"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251229KK62N2JJ",
+        "buyer": "hoangngu53",
+        "net": "499074",
+        "vat": "39926",
+        "payment": "539000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4473
+      },
+      "amis_rows": [
+        588
+      ],
+      "vouchers": [
+        "BHHS2025023937"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "499074",
+        "39926",
+        "539000"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000025"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251229KVNWAYNQ",
+        "buyer": "nhunnhun955",
+        "net": "628704",
+        "vat": "50296",
+        "payment": "679000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4474
+      },
+      "amis_rows": [
+        578
+      ],
+      "vouchers": [
+        "BHHS2025023947"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "628704",
+        "50296",
+        "679000"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000026"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251229KX7STK3J",
+        "buyer": "thanhnga_90",
+        "net": "2443518",
+        "vat": "195481",
+        "payment": "2638999",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4475
+      },
+      "amis_rows": [
+        575
+      ],
+      "vouchers": [
+        "BHHS2025023950"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "2443518",
+        "195481",
+        "2638999"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000028"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251229M3WWPFKN",
+        "buyer": "nguyenthituyetanh1.",
+        "net": "1795369",
+        "vat": "143630",
+        "payment": "1938999",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4477
+      },
+      "amis_rows": [
+        567
+      ],
+      "vouchers": [
+        "BHHS2025023958"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "1795369",
+        "143630",
+        "1938999"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000029"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251229M648C2FJ",
+        "buyer": "miumiuumeo6868",
+        "net": "231704",
+        "vat": "18536",
+        "payment": "250240",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4478
+      },
+      "amis_rows": [
+        566
+      ],
+      "vouchers": [
+        "BHHS2025023959"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "231704",
+        "18536",
+        "250240"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000030"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251229MUDBN2GA",
+        "buyer": "dohaidoan480",
+        "net": "628704",
+        "vat": "50296",
+        "payment": "679000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4479
+      },
+      "amis_rows": [
+        360
+      ],
+      "vouchers": [
+        "BHHS2025023985"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "628704",
+        "50296",
+        "679000"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000031"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251229MWJ0WUKR",
+        "buyer": "thaoandduc1409",
+        "net": "628704",
+        "vat": "50296",
+        "payment": "679000",
+        "status": "Hóa đơn đã bị điều chỉnh",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4480
+      },
+      "amis_rows": [
+        358
+      ],
+      "vouchers": [
+        "BHHS2025023987"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [
+        {
+          "kind": "adjustment",
+          "old": [
+            "1C26MUV",
+            "00000031"
+          ],
+          "new": [
+            "1C26MUV",
+            "00058521"
+          ],
+          "new_date": "2026-07-03",
+          "new_net": "-628704",
+          "new_vat": "-50296",
+          "new_payment": "-679000",
+          "file": "data/Meinv_SAU_PHAT_HANH_20261029/DIEU_CHINH/Bang_ke_hoa_don_dieu_chinh_xuat_theo_HD_bi_dieu_chinh_1793291608325_5.xls",
+          "row": 491
+        }
+      ],
+      "current_chain_money": [
+        "0",
+        "0",
+        "0"
+      ],
+      "handling": "Cần đủ F0 + HĐ điều chỉnh, số dư chuỗi 0"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000033"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251230N1VS76C2",
+        "buyer": "adrwfbgj_123",
+        "net": "1147220",
+        "vat": "91778",
+        "payment": "1238998",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4482
+      },
+      "amis_rows": [
+        354
+      ],
+      "vouchers": [
+        "BHHS2025023991"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "1147220",
+        "91778",
+        "1238998"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000034"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251230N6FM05VA",
+        "buyer": "soccondh",
+        "net": "185185",
+        "vat": "14815",
+        "payment": "200000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4483
+      },
+      "amis_rows": [
+        351
+      ],
+      "vouchers": [
+        "BHHS2025023994"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "185185",
+        "14815",
+        "200000"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000035"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251230NXYFJNEF",
+        "buyer": "hoangann97",
+        "net": "628704",
+        "vat": "50296",
+        "payment": "679000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4484
+      },
+      "amis_rows": [
+        347
+      ],
+      "vouchers": [
+        "BHHS2025023998"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "628704",
+        "50296",
+        "679000"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000036"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251230NYK6UPR3",
+        "buyer": "ezickun",
+        "net": "2073148",
+        "vat": "165852",
+        "payment": "2239000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4485
+      },
+      "amis_rows": [
+        345
+      ],
+      "vouchers": [
+        "BHHS2025024000"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "2073148",
+        "165852",
+        "2239000"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000037"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251230PA9W4A52",
+        "buyer": "sakura9x1",
+        "net": "499074",
+        "vat": "39926",
+        "payment": "539000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4486
+      },
+      "amis_rows": [
+        331
+      ],
+      "vouchers": [
+        "BHHS2025024014"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "499074",
+        "39926",
+        "539000"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000038"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251230PG7Q553W",
+        "buyer": "1i8q_hstpn",
+        "net": "499074",
+        "vat": "39926",
+        "payment": "539000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4487
+      },
+      "amis_rows": [
+        326
+      ],
+      "vouchers": [
+        "BHHS2025024019"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "499074",
+        "39926",
+        "539000"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000039"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251230PJPR90VM",
+        "buyer": "n_loanhien282",
+        "net": "2073148",
+        "vat": "165852",
+        "payment": "2239000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4488
+      },
+      "amis_rows": [
+        324
+      ],
+      "vouchers": [
+        "BHHS2025024021"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "2073148",
+        "165852",
+        "2239000"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000040"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251230PK1XTR8P",
+        "buyer": "kuangtran",
+        "net": "251852",
+        "vat": "20148",
+        "payment": "272000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4489
+      },
+      "amis_rows": [
+        323
+      ],
+      "vouchers": [
+        "BHHS2025024022"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "251852",
+        "20148",
+        "272000"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000041"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251230PMKY2WK5",
+        "buyer": "ximxinhdep",
+        "net": "499074",
+        "vat": "39926",
+        "payment": "539000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4490
+      },
+      "amis_rows": [
+        322
+      ],
+      "vouchers": [
+        "BHHS2025024023"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "499074",
+        "39926",
+        "539000"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000042"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251230PP6U19FM",
+        "buyer": "0gae_0huah",
+        "net": "2443518",
+        "vat": "195481",
+        "payment": "2638999",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4491
+      },
+      "amis_rows": [
+        321
+      ],
+      "vouchers": [
+        "BHHS2025024024"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "2443518",
+        "195481",
+        "2638999"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000043"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251230PREBU9D6",
+        "buyer": "hoai_tc",
+        "net": "542472",
+        "vat": "43398",
+        "payment": "585870",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4492
+      },
+      "amis_rows": [
+        319
+      ],
+      "vouchers": [
+        "BHHS2025024026"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "542472",
+        "43398",
+        "585870"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000044"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251230PT4NG39A",
+        "buyer": "lamtgduy",
+        "net": "170370",
+        "vat": "13630",
+        "payment": "184000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4493
+      },
+      "amis_rows": [
+        317
+      ],
+      "vouchers": [
+        "BHHS2025024028"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "170370",
+        "13630",
+        "184000"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000045"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251230PXQRS7D9",
+        "buyer": "n5gs27wylb",
+        "net": "628704",
+        "vat": "50296",
+        "payment": "679000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4494
+      },
+      "amis_rows": [
+        315
+      ],
+      "vouchers": [
+        "BHHS2025024030"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "628704",
+        "50296",
+        "679000"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000046"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251230Q252VW03",
+        "buyer": "63emb_1e34",
+        "net": "628704",
+        "vat": "50296",
+        "payment": "679000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4495
+      },
+      "amis_rows": [
+        161
+      ],
+      "vouchers": [
+        "BHHS2025024032"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "628704",
+        "50296",
+        "679000"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000047"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251230Q6THHGPV",
+        "buyer": "nvthanh29",
+        "net": "231704",
+        "vat": "18536",
+        "payment": "250240",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4496
+      },
+      "amis_rows": [
+        159
+      ],
+      "vouchers": [
+        "BHHS2025024034"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "231704",
+        "18536",
+        "250240"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000048"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251230Q8BDGXCR",
+        "buyer": "sam020618",
+        "net": "1147220",
+        "vat": "91778",
+        "payment": "1238998",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4497
+      },
+      "amis_rows": [
+        157
+      ],
+      "vouchers": [
+        "BHHS2025024036"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "1147220",
+        "91778",
+        "1238998"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000049"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251230QA73RGMG",
+        "buyer": "lthanhsonn",
+        "net": "1369444",
+        "vat": "109556",
+        "payment": "1479000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4498
+      },
+      "amis_rows": [
+        156
+      ],
+      "vouchers": [
+        "BHHS2025024037"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "1369444",
+        "109556",
+        "1479000"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000050"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251230QBER64X4",
+        "buyer": "9et3d3hkqv",
+        "net": "499074",
+        "vat": "39926",
+        "payment": "539000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4499
+      },
+      "amis_rows": [
+        155
+      ],
+      "vouchers": [
+        "BHHS2025024038"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "499074",
+        "39926",
+        "539000"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000051"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251230QDKBHVER",
+        "buyer": "xuanhau18",
+        "net": "1795370",
+        "vat": "143630",
+        "payment": "1939000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4500
+      },
+      "amis_rows": [
+        152
+      ],
+      "vouchers": [
+        "BHHS2025024041"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "1795370",
+        "143630",
+        "1939000"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000052"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251231QJC8T6GQ",
+        "buyer": "nhatsinh97",
+        "net": "721295",
+        "vat": "57704",
+        "payment": "778999",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4501
+      },
+      "amis_rows": [
+        149
+      ],
+      "vouchers": [
+        "BHHS2025024044"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "721295",
+        "57704",
+        "778999"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000053"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251231QSVANU71",
+        "buyer": "i8dr2ts0m6",
+        "net": "499074",
+        "vat": "39926",
+        "payment": "539000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4502
+      },
+      "amis_rows": [
+        144
+      ],
+      "vouchers": [
+        "BHHS2025024049"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "499074",
+        "39926",
+        "539000"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000054"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251231R54A39E4",
+        "buyer": "thienbui1397",
+        "net": "628704",
+        "vat": "50296",
+        "payment": "679000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4503
+      },
+      "amis_rows": [
+        143
+      ],
+      "vouchers": [
+        "BHHS2025024050"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "628704",
+        "50296",
+        "679000"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000055"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251231RJUYM4TU",
+        "buyer": "sonnguyen0802",
+        "net": "499074",
+        "vat": "39926",
+        "payment": "539000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4504
+      },
+      "amis_rows": [
+        142
+      ],
+      "vouchers": [
+        "BHHS2025024051"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "499074",
+        "39926",
+        "539000"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000056"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251231RKN3J8QT",
+        "buyer": "coconhinguyen",
+        "net": "721295",
+        "vat": "57704",
+        "payment": "778999",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4505
+      },
+      "amis_rows": [
+        141
+      ],
+      "vouchers": [
+        "BHHS2025024052"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "721295",
+        "57704",
+        "778999"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000057"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251231RV56PJCS",
+        "buyer": "khoiminhduong787",
+        "net": "2073148",
+        "vat": "165852",
+        "payment": "2239000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4506
+      },
+      "amis_rows": [
+        138
+      ],
+      "vouchers": [
+        "BHHS2025024055"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "2073148",
+        "165852",
+        "2239000"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000058"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251231RYQE3XJ6",
+        "buyer": "ngaluu526",
+        "net": "591665",
+        "vat": "47333",
+        "payment": "638998",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4507
+      },
+      "amis_rows": [
+        137
+      ],
+      "vouchers": [
+        "BHHS2025024056"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "591665",
+        "47333",
+        "638998"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000059"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251231S6J19R65",
+        "buyer": "linhphuong1006",
+        "net": "499074",
+        "vat": "39926",
+        "payment": "539000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4508
+      },
+      "amis_rows": [
+        136
+      ],
+      "vouchers": [
+        "BHHS2025024057"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "499074",
+        "39926",
+        "539000"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000060"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251231S7HWR7GT",
+        "buyer": "lemylinh_2108",
+        "net": "2443518",
+        "vat": "195481",
+        "payment": "2638999",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4509
+      },
+      "amis_rows": [
+        135
+      ],
+      "vouchers": [
+        "BHHS2025024058"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "2443518",
+        "195481",
+        "2638999"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000061"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251231S7XYFD5V",
+        "buyer": "2uxd_meiul",
+        "net": "1795370",
+        "vat": "143630",
+        "payment": "1939000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4510
+      },
+      "amis_rows": [
+        134
+      ],
+      "vouchers": [
+        "BHHS2025024059"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "1795370",
+        "143630",
+        "1939000"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000062"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251231S906SC89",
+        "buyer": "imgailne",
+        "net": "2073148",
+        "vat": "165852",
+        "payment": "2239000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4511
+      },
+      "amis_rows": [
+        133
+      ],
+      "vouchers": [
+        "BHHS2025024060"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "2073148",
+        "165852",
+        "2239000"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000063"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251231SBJUAR2S",
+        "buyer": "linh140196",
+        "net": "499074",
+        "vat": "39926",
+        "payment": "539000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4512
+      },
+      "amis_rows": [
+        131
+      ],
+      "vouchers": [
+        "BHHS2025024062"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "499074",
+        "39926",
+        "539000"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000064"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251231SC92S0QN",
+        "buyer": "nguyenthuyduong1504",
+        "net": "1369444",
+        "vat": "109556",
+        "payment": "1479000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4513
+      },
+      "amis_rows": [
+        130
+      ],
+      "vouchers": [
+        "BHHS2025024063"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "1369444",
+        "109556",
+        "1479000"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000065"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251231SCRV5KWX",
+        "buyer": "btsmiling",
+        "net": "2443518",
+        "vat": "195481",
+        "payment": "2638999",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4514
+      },
+      "amis_rows": [
+        129
+      ],
+      "vouchers": [
+        "BHHS2025024064"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "2443518",
+        "195481",
+        "2638999"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000102"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251228HW43T32J",
+        "buyer": "dung.nguyen14",
+        "net": "4054630",
+        "vat": "324370",
+        "payment": "4379000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4551
+      },
+      "amis_rows": [
+        625
+      ],
+      "vouchers": [
+        "BHHS2025023900"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "4054630",
+        "324370",
+        "4379000"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000103"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251229KXREXRC2",
+        "buyer": "tao8866",
+        "net": "1941667",
+        "vat": "155333",
+        "payment": "2097000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4552
+      },
+      "amis_rows": [
+        574
+      ],
+      "vouchers": [
+        "BHHS2025023951"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "1941667",
+        "155333",
+        "2097000"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000105"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251230QGHK1Q63",
+        "buyer": "hophuong631",
+        "net": "998148",
+        "vat": "79852",
+        "payment": "1078000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4554
+      },
+      "amis_rows": [
+        151
+      ],
+      "vouchers": [
+        "BHHS2025024042"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "998148",
+        "79852",
+        "1078000"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000106"
+        ],
+        "date": "2026-01-03",
+        "order_code": "581740479291950316",
+        "buyer": "t***hoang_co.ltd",
+        "net": "3962037",
+        "vat": "316963",
+        "payment": "4279000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4555
+      },
+      "amis_rows": [
+        10
+      ],
+      "vouchers": [
+        "BHHT2025040149"
+      ],
+      "identity_state": "KT_DA_XAC_NHAN_VA_KHOP_MA_TIEN",
+      "links": [],
+      "current_chain_money": [
+        "3962037",
+        "316963",
+        "4279000"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000107"
+        ],
+        "date": "2026-01-03",
+        "order_code": "581765758488314985",
+        "buyer": "d***ochunglua_",
+        "net": "1948759",
+        "vat": "155901",
+        "payment": "2104660",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4556
+      },
+      "amis_rows": [
+        12
+      ],
+      "vouchers": [
+        "BHHT2025040147"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "1948759",
+        "155901",
+        "2104660"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000111"
+        ],
+        "date": "2026-01-03",
+        "order_code": "581782611472254410",
+        "buyer": "2***nh45",
+        "net": "499074",
+        "vat": "39926",
+        "payment": "539000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4560
+      },
+      "amis_rows": [
+        14
+      ],
+      "vouchers": [
+        "BHHT2025040145"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "499074",
+        "39926",
+        "539000"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000114"
+        ],
+        "date": "2026-01-03",
+        "order_code": "581786473186755744",
+        "buyer": "m***20995",
+        "net": "2443519",
+        "vat": "195481",
+        "payment": "2639000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4563
+      },
+      "amis_rows": [
+        15
+      ],
+      "vouchers": [
+        "BHHT2025040144"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "2443519",
+        "195481",
+        "2639000"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000117"
+        ],
+        "date": "2026-01-03",
+        "order_code": "581799568787670320",
+        "buyer": "t***gdng093",
+        "net": "1369444",
+        "vat": "109555",
+        "payment": "1478999",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4566
+      },
+      "amis_rows": [
+        16
+      ],
+      "vouchers": [
+        "BHHT2025040143"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "1369444",
+        "109555",
+        "1478999"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000118"
+        ],
+        "date": "2026-01-03",
+        "order_code": "581800458559915328",
+        "buyer": "p***.to.ni",
+        "net": "1369444",
+        "vat": "109555",
+        "payment": "1478999",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4567
+      },
+      "amis_rows": [
+        18
+      ],
+      "vouchers": [
+        "BHHT2025040141"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "1369444",
+        "109555",
+        "1478999"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000121"
+        ],
+        "date": "2026-01-03",
+        "order_code": "581821956586440264",
+        "buyer": "p***kbvision",
+        "net": "170370",
+        "vat": "13630",
+        "payment": "184000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4570
+      },
+      "amis_rows": [
+        20
+      ],
+      "vouchers": [
+        "BHHT2025040139"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "170370",
+        "13630",
+        "184000"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000126"
+        ],
+        "date": "2026-01-03",
+        "order_code": "581836766921720935",
+        "buyer": "z***2223",
+        "net": "1999074",
+        "vat": "159926",
+        "payment": "2159000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4575
+      },
+      "amis_rows": [
+        23
+      ],
+      "vouchers": [
+        "BHHT2025040136"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "1999074",
+        "159926",
+        "2159000"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000128"
+        ],
+        "date": "2026-01-03",
+        "order_code": "581841230806418569",
+        "buyer": "h***huc98",
+        "net": "1369444",
+        "vat": "109555",
+        "payment": "1478999",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4577
+      },
+      "amis_rows": [
+        25
+      ],
+      "vouchers": [
+        "BHHT2025040134"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "1369444",
+        "109555",
+        "1478999"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000130"
+        ],
+        "date": "2026-01-03",
+        "order_code": "581843157706441800",
+        "buyer": "d***inhtuan8686",
+        "net": "1999074",
+        "vat": "159926",
+        "payment": "2159000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4579
+      },
+      "amis_rows": [
+        26
+      ],
+      "vouchers": [
+        "BHHT2025040133"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "1999074",
+        "159926",
+        "2159000"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000131"
+        ],
+        "date": "2026-01-03",
+        "order_code": "581844683620386040",
+        "buyer": "d***c92",
+        "net": "3962037",
+        "vat": "316963",
+        "payment": "4279000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4580
+      },
+      "amis_rows": [
+        27
+      ],
+      "vouchers": [
+        "BHHT2025040132"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "3962037",
+        "316963",
+        "4279000"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000137"
+        ],
+        "date": "2026-01-03",
+        "order_code": "581850378133800482",
+        "buyer": "t***ahebentiu",
+        "net": "2073148",
+        "vat": "165852",
+        "payment": "2239000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4586
+      },
+      "amis_rows": [
+        34
+      ],
+      "vouchers": [
+        "BHHT2025040125"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "2073148",
+        "165852",
+        "2239000"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000140"
+        ],
+        "date": "2026-01-03",
+        "order_code": "581850902823601895",
+        "buyer": "t***haisonbac3rd",
+        "net": "591667",
+        "vat": "47333",
+        "payment": "639000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4589
+      },
+      "amis_rows": [
+        37
+      ],
+      "vouchers": [
+        "BHHT2025040122"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "591667",
+        "47333",
+        "639000"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000151"
+        ],
+        "date": "2026-01-03",
+        "order_code": "581852157676193045",
+        "buyer": "i***012023_milo",
+        "net": "499074",
+        "vat": "39926",
+        "payment": "539000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4600
+      },
+      "amis_rows": [
+        41
+      ],
+      "vouchers": [
+        "BHHT2025040118"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "499074",
+        "39926",
+        "539000"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000157"
+        ],
+        "date": "2026-01-03",
+        "order_code": "581853952755270671",
+        "buyer": "y***_177",
+        "net": "1147222",
+        "vat": "91778",
+        "payment": "1239000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4606
+      },
+      "amis_rows": [
+        43
+      ],
+      "vouchers": [
+        "BHHT2025040116"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "1147222",
+        "91778",
+        "1239000"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000159"
+        ],
+        "date": "2026-01-03",
+        "order_code": "581855730894735118",
+        "buyer": ".***.hunh1",
+        "net": "2995369",
+        "vat": "239630",
+        "payment": "3234999",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4608
+      },
+      "amis_rows": [
+        45
+      ],
+      "vouchers": [
+        "BHHT2025040114"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "2995369",
+        "239630",
+        "3234999"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000166"
+        ],
+        "date": "2026-01-03",
+        "order_code": "581857539913516244",
+        "buyer": "n***uyt7612",
+        "net": "1795370",
+        "vat": "143630",
+        "payment": "1939000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4615
+      },
+      "amis_rows": [
+        47
+      ],
+      "vouchers": [
+        "BHHT2025040112"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "1795370",
+        "143630",
+        "1939000"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000332"
+        ],
+        "date": "2026-01-03",
+        "order_code": "581878249351120584",
+        "buyer": "t***antho78",
+        "net": "2592833",
+        "vat": "207427",
+        "payment": "2800260",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4781
+      },
+      "amis_rows": [
+        84
+      ],
+      "vouchers": [
+        "BHHT2025040075"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "2592833",
+        "207427",
+        "2800260"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000333"
+        ],
+        "date": "2026-01-03",
+        "order_code": "581878689143424330",
+        "buyer": "h***.nguyen0909",
+        "net": "2551458",
+        "vat": "204117",
+        "payment": "2755575",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4782
+      },
+      "amis_rows": [
+        89
+      ],
+      "vouchers": [
+        "BHHT2025040070"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "2551458",
+        "204117",
+        "2755575"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000335"
+        ],
+        "date": "2026-01-03",
+        "order_code": "581839724908872763",
+        "buyer": "a***uctrunghoa2",
+        "net": "2701851",
+        "vat": "216148",
+        "payment": "2917999",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4784
+      },
+      "amis_rows": [
+        24
+      ],
+      "vouchers": [
+        "BHHT2025040135"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "2701851",
+        "216148",
+        "2917999"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000716"
+        ],
+        "date": "2026-01-05",
+        "order_code": "251226B2M778Q9",
+        "buyer": "vutman",
+        "net": "628704",
+        "vat": "50296",
+        "payment": "679000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_11.xls",
+        "row": 384
+      },
+      "amis_rows": [
+        1160
+      ],
+      "vouchers": [
+        "BHHS2025023764"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "628704",
+        "50296",
+        "679000"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000720"
+        ],
+        "date": "2026-01-05",
+        "order_code": "251229MN9WEHBQ",
+        "buyer": "luanntbg1986",
+        "net": "1369444",
+        "vat": "109556",
+        "payment": "1479000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_11.xls",
+        "row": 388
+      },
+      "amis_rows": [
+        369
+      ],
+      "vouchers": [
+        "BHHS2025023976"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "1369444",
+        "109556",
+        "1479000"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000724"
+        ],
+        "date": "2026-01-05",
+        "order_code": "251230QCN3JC26",
+        "buyer": "mwfud9dayh",
+        "net": "499074",
+        "vat": "39926",
+        "payment": "539000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_11.xls",
+        "row": 392
+      },
+      "amis_rows": [
+        153
+      ],
+      "vouchers": [
+        "BHHS2025024040"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "499074",
+        "39926",
+        "539000"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000725"
+        ],
+        "date": "2026-01-05",
+        "order_code": "251231QJF0HN7U",
+        "buyer": "vananh.ta",
+        "net": "499074",
+        "vat": "39926",
+        "payment": "539000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_11.xls",
+        "row": 393
+      },
+      "amis_rows": [
+        148
+      ],
+      "vouchers": [
+        "BHHS2025024045"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "499074",
+        "39926",
+        "539000"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000726"
+        ],
+        "date": "2026-01-05",
+        "order_code": "251231QJKCR2X2",
+        "buyer": "vananh.ta",
+        "net": "4491669",
+        "vat": "359334",
+        "payment": "4851003",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_11.xls",
+        "row": 394
+      },
+      "amis_rows": [
+        147
+      ],
+      "vouchers": [
+        "BHHS2025024046"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "4491669",
+        "359334",
+        "4851003"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000727"
+        ],
+        "date": "2026-01-05",
+        "order_code": "251231QKK95NY3",
+        "buyer": "mxj3q_mm41",
+        "net": "1369444",
+        "vat": "109556",
+        "payment": "1479000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_11.xls",
+        "row": 395
+      },
+      "amis_rows": [
+        146
+      ],
+      "vouchers": [
+        "BHHS2025024047"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "1369444",
+        "109556",
+        "1479000"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000728"
+        ],
+        "date": "2026-01-05",
+        "order_code": "251231RUPJEA6E",
+        "buyer": "krisrysg",
+        "net": "1060989",
+        "vat": "84879",
+        "payment": "1145868",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_11.xls",
+        "row": 396
+      },
+      "amis_rows": [
+        139
+      ],
+      "vouchers": [
+        "BHHS2025024054"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "1060989",
+        "84879",
+        "1145868"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000729"
+        ],
+        "date": "2026-01-05",
+        "order_code": "251231SB0QFFG3",
+        "buyer": "nd70w9k4up",
+        "net": "721295",
+        "vat": "57704",
+        "payment": "778999",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_11.xls",
+        "row": 397
+      },
+      "amis_rows": [
+        132
+      ],
+      "vouchers": [
+        "BHHS2025024061"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "721295",
+        "57704",
+        "778999"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000730"
+        ],
+        "date": "2026-01-05",
+        "order_code": "251231SCSAH975",
+        "buyer": "hngdungng981",
+        "net": "1795369",
+        "vat": "143630",
+        "payment": "1938999",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_11.xls",
+        "row": 398
+      },
+      "amis_rows": [
+        128
+      ],
+      "vouchers": [
+        "BHHS2025024065"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "1795369",
+        "143630",
+        "1938999"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000946"
+        ],
+        "date": "2026-01-05",
+        "order_code": "251217HGN8RP3D",
+        "buyer": "minhquanleo18",
+        "net": "5536110",
+        "vat": "442889",
+        "payment": "5978999",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_11.xls",
+        "row": 614
+      },
+      "amis_rows": [
+        162
+      ],
+      "vouchers": [
+        "BHHS2025023151"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "5536110",
+        "442889",
+        "5978999"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000948"
+        ],
+        "date": "2026-01-05",
+        "order_code": "251229KDRUUSHV",
+        "buyer": "truongtrinh2612",
+        "net": "4850925",
+        "vat": "388074",
+        "payment": "5238999",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_11.xls",
+        "row": 616
+      },
+      "amis_rows": [
+        594
+      ],
+      "vouchers": [
+        "BHHS2025023931"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "4850925",
+        "388074",
+        "5238999"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    },
+    {
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000952"
+        ],
+        "date": "2026-01-05",
+        "order_code": "251230P73RY1WP",
+        "buyer": "tramanhmap",
+        "net": "6405555",
+        "vat": "512444",
+        "payment": "6917999",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_11.xls",
+        "row": 620
+      },
+      "amis_rows": [
+        336
+      ],
+      "vouchers": [
+        "BHHS2025024009"
+      ],
+      "identity_state": "KHOP_DUY_NHAT_MA_DON_SO_HD_VAT_THANH_TOAN",
+      "links": [],
+      "current_chain_money": [
+        "6405555",
+        "512444",
+        "6917999"
+      ],
+      "handling": "Chưa có liên kết sửa trong nguồn; HĐ mới khớp mã và tiền"
+    }
+  ]
+}

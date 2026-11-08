@@ -1,3 +1,95 @@
+# Bản cuối: điều chỉnh theo quy cách 2024 và báo cáo 2025 — 09/11/2026
+
+Đã sửa quy cách điều chỉnh: **25 HĐ / 33 dòng / 18 chuỗi**. Đảo riêng 7 HĐ điều chỉnh cũ còn tiền, rồi giảm toàn bộ chi tiết 18 F0; 13 điều chỉnh cũ tiền bằng 0 đã kiểm và không tạo bút toán đảo. Tất cả tham chiếu F0; tổng chỉ ghi dòng đầu mỗi HĐ. Giữ nguyên tên hàng, đơn vị, đơn giá nguồn, số lượng/tiền đảo dấu; 8 dòng khuyến mại có cờ 1. Có 13 dòng F0 đơn giá nguồn bằng 0 nhưng thành tiền khác 0: giữ đúng nguồn/quy cách 2024, không tự tính lại giá; xem source_price_flags trong adjustment-rule-2024-plan.json. Kiểm độc lập 86 dòng nguồn và 33 dòng xuất, toàn bộ 18 chuỗi về 0 sau dự thảo ở cả tiền hàng/VAT/thanh toán.
+
+**Tên khách hàng C = H trên F0; Người mua hàng F = L trên F0, lấy riêng đúng nguyên bản, kể cả để trống.** Không dùng tên này thay thế tên kia hoặc áp quy tắc khách lẻ vào bộ điều chỉnh. Bán mới, thay thế và BTL giữ nguyên byte so với ngay trước lượt sửa này. Thay thế vẫn 2.039 HĐ; bán mới 30.244 HĐ/35.016 dòng; BTL 321 phiếu/410 dòng, chưa có tham chiếu HĐ thực tế.
+
+Theo yêu cầu mới, đã thêm tab [Ra soat chuoi 2025](https://docs.google.com/spreadsheets/d/1jACpDPSlOCjq-25hF_g5-06eZKD3e2Fq88j472wjTiA/edit?gid=700000010#gid=700000010), theo bố cục tab báo cáo 2024 người dùng cung cấp. Có **46.194 chuỗi**, 46.208 dòng/18 cột. Số dự kiến chưa VAT: **80.193.955.311đ**, AMIS cùng phạm vi **80.408.395.929đ**, chênh **−214.440.618đ** = chênh nhóm giữ **−81.923.747đ** − 95 CT AMIS chờ **133.737.241đ** + 2 phiếu trả chờ giảm **1.220.370đ**. Các khoản công ty/chờ/16 HĐ biếu tặng tách cột O, không ép chênh bằng 0. BTL chỉ 319/321 phiếu đủ số liệu được cộng dự kiến; tất cả vẫn chờ HĐ tham chiếu. Đây là dự thảo, chưa nhập/ký/phát hành.
+
+Đã đọc lại **1.705.021 ô trên 6 tab**: 873.277 ô import/KT và 831.744 ô báo cáo; công thức đã đối chiếu kết quả tính độc lập. Metadata 5 tab cũ giữ nguyên khi thêm báo cáo; ý kiến KT cột K được bảo vệ. Nguồn meInvoice đến 01/11/2026; chưa kiểm CQT live mới hơn. Bằng chứng: adjustment-rule-2024-verification.json, annual-report-google-verification.json, google-upload-verification.json, report-2025/verification.json, verification.json, zip-verification.json. Ảnh hiển thị ở qa/google-report-2025-final.png và qa/google-adjustment-2024-money.png.
+
+Thứ tự tái tạo: prepare/finalize/enrich_returns/consolidate → audit/review/refine/append_unmapped → audit_adjustment_rule_2024 → apply_adjustment_2024_rule → builder chỉ số 1 và 3 → verify_adjustment_2024_rule + verify_import → prepare_revenue_report + verify_revenue_report → cập nhật Google có đọc live trước → đọc lại → package. Các verifier giữ nguyên dòng/STT của mốc bổ sung trước, unmapped-import-sequences.json và mapping điều chỉnh 18 dòng là **lịch sử trước tái dựng**, không chạy trên bản 25/33. Mapping hiện hành trong authoring.adjustment_rule_2024 và tab Excel Quy cach DC2024. Không chạy lại batch Google lịch sử; giữ mọi ghi chú live.
+
+Người dùng đã cho phép commit/push tất cả dữ liệu công việc, rồi đóng ứng dụng và tắt máy **sau khi xác nhận push thành công**. Runtime, cache phụ thuộc và thông tin xác thực không thuộc dữ liệu bàn giao.
+
+---
+
+# Bổ sung HĐ meInvoice2025 chưa nối AMIS, tách16HĐ hỏiKT — 09/11/2026
+
+Người dùng yêu cầu rà HĐ meInvoice xuất2025 chưa mapAMIS/còn tiền, loại công ty, kiểm toàn bộ liên quan F0/F1/F2; đã làm và cập nhật file/Google đích. Rà46.983 thành phần chuỗi có HĐ2025:43.170 đã nối/có ứng viên AMIS,962 gốc năm khác bảo vệ,395 chuỗi công ty loại,955 đã về0 không thêm. Dò cả AMIS2024, mã đơn/CT và liên kết lịch sử; không tự coi ứng viên/khóa chưa chắc là HĐ thừa.
+
+**Bổ sung1.472 thay thế +11 điều chỉnh**, tổng số dư thanh toán2.560.105.903đ. Hai file hiện có **2.039 thay thế /18 điều chỉnh** (bổ sungSTT568–2.039 /8–18), giữ toàn bộ dòng/STT cũ. Bán mới30.244HĐ/35.016dòng và BTL321phiếu/410dòng giữ nguyên byte, tiền bán mới không đổi. Bằng chứng độc lập đọc1505dòng nguồn, kiểm đóng đủ chuỗi và mọi ô import xuất; báo cáo thêm bảng rà chuỗi/từng HĐ liên quan. 12HĐ điều chỉnh có tổng thanh toán trống ở bảng tổng được lấy từ ôAB=0 trong bảng chi tiết, tiền hàng/VAT khớp; không đổi nguồn. 11chuỗi còn tiền làm điều chỉnh, chuỗi `1C25MUV/00026722` +`00027949` +`1C26MUV/00057700` đã0 bỏ qua.
+
+**Người dùng chốt16HĐ biếu tặng/không thu tiền tách sheet hỏiKT**, không đưa vào import: Google `16 HD bieu tang - KT check` gid700000104, cộtK `Ý kiến kế toán` trống đểKT điền; cóHĐ/ngày/tên đơn vị/tiền/đầy đủ chuỗi/nguồn. Chưa gửi tin nhắn choKT. Chính sách/16khóa ở `unmapped-gift-confirmation.json`; phân loại `kt_review`, không gọi là lỗi thiếu người mua nữa. Hai ngoại lệ nguồn giữ ngoài: `1C25MUV/00012398` CQTchưa hợp lệ; `1C25TUV/00001943` KTđã chốt loại vìTĐkhông hợp lệ. Không cộng18trường hợp này vào95CT AMISchờ trước.
+
+Google chỉ thêm11dòng vào điều chỉnh,1472dòng thay thế, mở rộng filter/banding tương ứng và tạo tabKT; đã đọc lại **872.842ô/năm tab**, so metadata4tabcũ đúng ngoài vùng mở rộng, kiểm hiển thị3tab thay đổi ở100%. Xem `outputs/import-2025-20261109/{unmapped-import-verification,unmapped-google-verification,google-upload-verification,verification,zip-verification}.json`; snapshot trước tại `archive/before-unmapped-meinvoice-20261109/`. ZIP vẫn5Excel, CRC/SHA từng file đã kiểm. Nguồn đến01/11/2026; chưa nhập/ký/phát hành, chưa kiểm CQTlive mới hơn, chưa commit/push.
+
+Tái tạo: audit_unmapped → review_unmapped_invoice_details → refine_unmapped (áp chính sách16HĐ/khôi phục tiền từ chi tiết) → append_unmapped_invoice_import → builder1/2/3 → verify_unmapped_invoice_import và verifier chính → prepare_google_import → prepare_unmapped_google_patch → đọc live/append/đọc lại → package. Đọc `HUONG_DAN.md` để biết nguồn/mốc và giới hạn. Không chạy lại batch Google cũ; giữ ý kiếnKT cộtK và thay đổi người dùng. Audit/cache/rawQA lớn bị bỏ quaGit; chỉ cập nhật draft, không sửa nguồn.
+
+---
+
+# Mốc trước: dịch vụ, lệch 1–2đ và tên người mua — 09/11/2026
+
+Người dùng xác nhận `BHDV20250115`, `BHDV20250104` SL đúng 2; BHDV là dịch vụ. Hai dòng import 2 Lần ×138.889đ =277.778đ, VAT22.222đ, tổng300.000đ mỗi CT. Giữ SL1 trong dữ liệu AMIS gốc, chỉ override import đúng hai CT. Chấp nhận chênh tuyệt đối tối đa2đ giữa SL×đơn giá và thành tiền dòng AMIS, giữ các số tiền nguồn; không nới khớp AMIS–meInvoice/thuế suất/loại công ty. Thêm10CT/12dòng, tổng21.974.002đ; lệch3đ vẫn chờ.
+
+Người dùng sửa tên khách: Tên đơn vị mua hàng dành cho công ty, khách lẻ ở Người mua hàng. Đã sửa lớp chuẩn bị cho cả4bộ import và tab dự thảo BTL trong báo cáo: bán mới35.010dòng khách lẻ, điều chỉnh7, thay thế567, BTL410. Giữ Người mua hàng đã có trên HĐ cũ; chỉ lấy tên khách nguồn khi trường đó trống. Sáu dòng của hai pháp nhân rõ tên/MST giữ tên đơn vị; danh sách396CT loại không đổi. Tiền, STT, nguồn và tham chiếu giữ nguyên do sửa tên; các file khác được xuất lại vì sửa trường tên, không còn nguyên byte như mốc lịch sử trước.
+
+Hiện có **30.244 HĐ mới/35.016 dòng**, H1 **29.736**, H2 **508**. Giữ34.758/loại396; chờ95 (H1 **2**, H2 93); xử lý cũ7điều chỉnh/567thay thế, chờ77chuỗi. Tổng tiền hàng/VAT/thanh toán **37.033.879.723đ /2.962.708.588đ /39.996.588.311đ**, trước trả lại. Giữ STT1–30.232; dịch vụ30.233–30.234, làm tròn30.235–30.244. H1 còn `BHHT2025011220` (VAT/phân bổ giữa dòng) và `BHHT2025004408` (PSC2 SL0/540.000đ); không áp xác nhận BHDV cho dòng PSC2 này.
+
+Nguồn xác nhận và kiểm: `outputs/import-2025-20261109/{service-quantity-confirmations,rounding-confirmation,buyer-field-confirmation,service-quantity-verification,buyer-field-verification,verification}.json`. Đã xác minh Google ở `service-rounding-buyer-google-verification.json` và `google-upload-verification.json`: đọc lại đủ4tab **834.004 ô** khớp Excel, xem cả4tab ở100%, không có báo cáo. Đợt này chỉ thêm14dòng bán mới, sửa A2 và các trường tên C/F, mở rộng vùng lọc/màu xen kẽ bán mới; đã so đầy đủ metadata, bộ lọc/metadata còn lại giữ nguyên. ZIP và thư mục deliverables vẫn5Excel; đã kiểm CRC và SHA256 từng thành viên với file đã xác minh (`zip-verification.json`). Chưa nhập/ký/phát hành, commit/push.
+
+Tái tạo: prepare → finalize → enrich_returns → consolidate (áp dụng chính sách tên qua `import_2025_buyer_fields.py`) → build5file → `verify_import_2025_20261109.py`, `verify_service_quantity_correction_20261109.py`, `verify_import_2025_buyer_fields.py`. Hai regression test zero-chain/promotion vẫn dùng; các verifier cố định mốc419/12đơn/KM là lịch sử, không chạy lại trên bản mở rộng. Snapshot Google trước mọi sửa lần này: `archive/before-service-quantity-fix-20261109/google-upload/`; trước sửa tên payload: `archive/before-buyer-field-fix-20261109/`. Không chạy lại batch Google cũ khi chưa đọc live.
+
+---
+
+# Mốc trước: bổ sung 8 HĐ khuyến mại 2025 — 09/11/2026
+
+Người dùng sửa rõ tám chứng từ tiền bằng 0 là hàng khuyến mại: BHHT2025017828, BHHT2025012513, BHHT2025014083, BHHT2025011992, BHHT2025004652, BHHT2025002208, BHHT2025002229, BHHT2025000347. Cả 8 đã có dấu ✓ trong nguồn; bộ chuẩn bị trước bỏ sót điều kiện khuyến mại. Đã mở đủ 8 chứng từ AMIS live, kiểm cờ khuyến mại tích và thuế suất 8%; SL 1, đơn giá/tiền hàng/VAT/thanh toán 0. Không suy 0% từ tiền thuế 0, không mở rộng xác nhận sang mọi đơn tiền bằng 0.
+
+Đã thêm đúng 8 dòng/STT 30.225–30.232 vào dự thảo, giữ toàn bộ A:V của 34.994 dòng cũ. Thêm **W - Hàng khuyến mại**, giá trị 1 cho đúng 8 dòng mới, các dòng cũ trống; cần ghép W vào trường khuyến mại khi nhập. Giữ vị trí R:V và toàn bộ STT/tiền trước đó. Hai file 7 điều chỉnh/567 thay thế và file BTL 321 phiếu/410 dòng giữ nguyên byte; không xử lý lại chuỗi đã về 0. Hiện có **30.232 HĐ mới/35.002 dòng**, H1 29.724/H2 508; còn 107 chứng từ chờ (H1 14/H2 93). Giữ 34.758 và loại 396 công ty không đổi. Tổng tiền hàng/VAT/thanh toán vẫn 37.012.977.868đ /2.961.036.441đ /39.974.014.309đ.
+
+Đã cập nhật Google đích Xử lý HĐ 2025: thêm 8 dòng và cột W, sửa hai ghi chú A2/A5, mở rộng filter/banding; các tab khác và metadata còn lại giữ nguyên. Đọc lại đủ **833.682 ô**/bốn tab khớp Excel, kiểm hiển thị W35011=1 và các dòng KM ở100%. Không tải báo cáo lên Google. ZIP vẫn đúng 5 Excel, đã cập nhật. Chưa nhập/ký/phát hành, commit/push.
+
+Căn cứ `outputs/import-2025-20261109/{promotion-confirmations,promotion-verification,promotion-google-verification,verification,google-upload-verification}.json`; snapshot `archive/before-promotion-fix-20261109/`. Helper chỉ dùng thuế suất được kiểm riêng cho dòng KM bằng 0; các trường hợp thiếu xác nhận/không có cờ KM vẫn kiểm như trước. Ba regression test đạt; verifier kiểm đủ ô Excel, nguồn, STT, 8 cờ KM, tổng tiền giữ nguyên, 3 file khác nguyên byte. Hướng dẫn MISA: https://helpv4.meinvoice.vn/kb/nhap-khau-hoa-don-mot-thue-suat/ . Verifier mốc 419 đơn và mốc 12 H1 dưới đây là lịch sử, không chạy trên bản đã thêm 8 KM.
+
+---
+
+# Mốc trước: rà 12 đơn H1 và bổ sung vào dự thảo — 09/11/2026
+
+Người dùng yêu cầu kiểm HĐ thực tế của 12 chứng từ đang chờ và nhắc lại T1–T6 xuất mới toàn bộ trừ công ty. Đã mở đủ 12 chứng từ AMIS, tab Hóa đơn: trạng thái `Đã lập hóa đơn Chưa phát hành`, ký hiệu/số HĐ trống. Tìm đúng 12 mã đơn trong 591 file meInvoice .xls/.xlsx/.xml hiện có và đối chiếu Đối soát NB/Ktoan live: không có kết quả xác nhận. **HĐ thực tế của cả 12 đơn vẫn chưa xác định; không kết luận chắc chưa xuất bên ngoài AMIS.** Các số HĐ cũ ghi trên Sheet là liên kết chưa xác minh, không phải bằng chứng xuất gộp; không dùng để đưa HĐ tháng 7 đang giữ về 0. Bảng nguồn không sửa.
+
+Đã tách việc tìm HĐ cũ khỏi việc lập dự thảo H1 cho đúng 12 đơn được rà. Thêm STT 30.213–30.224/13 dòng, tổng thanh toán 11.699.000đ, giữ nguyên 34.981 dòng đã giao và STT cũ. Hiện có **30.224 HĐ mới/34.994 dòng**, H1 29.716/H2 508; giữ 34.758, loại 396 công ty (H1 119), chờ 115 (H1 22 cần kiểm dòng hàng/thuế suất, H2 93). Không có H1 giữ theo khớp tiền; 22 H1 còn chờ là phần chưa hoàn tất, không phải ngoại lệ được miễn xuất. Tiền bán mới: 37.012.977.868đ +2.961.036.441đ VAT =39.974.014.309đ. Hai file 7 điều chỉnh/567 thay thế và file BTL 321 phiếu/410 dòng giữ nguyên byte; 574 chuỗi xử lý sẵn sàng, 77 chuỗi còn chờ. BTL vẫn 240 chờ số mới, 79 kiểm trạng thái trên HĐ giữ, 2 ngoại lệ.
+
+Đã cập nhật tại bảng đích Xử lý HĐ 2025 (liên kết trong mục dưới), chỉ thêm 13 dòng bán và sửa A2, mở rộng bộ lọc/màu xen kẽ, giữ metadata và ba tab khác. Đọc lại đủ 798.495 ô/bốn tab, khớp Excel, xem phần thêm tại A34991 (STT 30.213) ở 100%. Không đưa báo cáo lên Google theo yêu cầu trước. Báo cáo cục bộ có tab `Ra soat 12 don T6` ghi từng mã đơn, HĐ trên Sheet chưa xác minh, trạng thái AMIS và URL chi tiết. ZIP cập nhật vẫn chỉ 5 Excel.
+
+Bằng chứng tại `outputs/import-2025-20261109/`: `h1-12-invoice-link-review.json`, `h1-12-invoice-source-audit.json`, `h1-12-import-verification.json`, `h1-12-google-verification.json`, `verification.json`, `google-upload-verification.json`. Snapshot trước lần này: `archive/before-h1-12-link-review-20261109/`. Script: `audit_h1_12_invoice_links_20261109.py`, `verify_h1_12_import_20261109.py`; prepare đọc kết quả rà liên kết có kiểm mã đơn, giữ số HĐ cũ như bằng chứng chưa xác minh, không biến thành khóa được phép tác động. Chưa nhập/ký/phát hành, commit/push. Các mục dưới là mốc trước lần cập nhật 12 đơn này; dùng số hiện hành tại đây.
+
+---
+
+# Mốc trước: sửa phân loại chuỗi về 0 và cập nhật 4 bộ import — 09/11/2026
+
+Theo yêu cầu người dùng, đã đưa bốn file import (không có báo cáo) lên `Xử lý HĐ 2025`: https://docs.google.com/spreadsheets/d/1jACpDPSlOCjq-25hF_g5-06eZKD3e2Fq88j472wjTiA/edit . Tab `Import HD moi` (gid0) hiện có 30.212 HĐ/34.981 dòng; `Dieu chinh ve 0` (gid700000101) có 7 HĐ; `Thay the ve 0` (gid700000102) có 567 HĐ; `Dieu chinh BTL - cho so HD` (gid700000103) có 321 phiếu/410 dòng. Sheet đích ban đầu trống, đã tái dùng gid0 và thêm ba tab, không tạo thêm file Drive.
+
+Đã đọc lại toàn bộ 798.209 ô trong phạm vi bốn tab sau sửa, so từng giá trị với Excel đã kiểm: khớp; giữ mã đơn/số HĐ dạng text và các ô tham chiếu BTL trống. Đã xem cả bốn tab ở lần tải ban đầu và kiểm phần bán mới/BTL sửa ở 100%; có bộ lọc, 9 hàng cố định, định dạng số/ngày và đánh dấu ô BTL chờ. Google không cho merge A:H qua ranh giới cột cố định A:B nên chỉ cố định hàng. Căn cứ `outputs/import-2025-20261109/google-upload-verification.json` và `google-correction-verification.json`; script chuẩn bị `scripts/prepare_google_import_2025_20261109.py`, snapshot/cache ở `google-upload/` giữ cục bộ và bỏ qua Git. Trước mọi ghi tiếp phải đọc lại live để giữ thay đổi về sau của người dùng; không gửi lại các batch cũ để ghi đè. Vẫn là dự thảo, chưa nhập/ký/phát hành.
+
+Lỗi đã sửa: chặn chuỗi gộp trước kiểm tra chuỗi đã về 0 khiến giữ nhầm 420 chứng từ tháng 4–5. Có 419 chứng từ đủ điều kiện được thêm (469 dòng, thanh toán 528.838.028đ); `BHHT2025014083` vẫn chờ vì thuế suất không duy nhất. Năm chuỗi `1C25TUV/00000781`, `00000732`, `00000720`, `00000702`, `00000541` đều đủ ba khoản bằng 0 và không có lỗi trạng thái. Không tạo thêm xử lý về 0; hai file 7 điều chỉnh/567 thay thế giữ nguyên byte. Giữ nguyên 34.512 dòng và toàn bộ STT cũ; đơn bổ sung nối STT 29.794–30.212, ánh xạ lưu trong `invoice-sequences.json`.
+
+Ba phiếu `BTL00356 → BHHT2025014212` (STT 30.073), `BTL00378 → BHHT2025014037` (29.973), `BTL00407 → BHHT2025014069` (29.953) đã chuyển chờ số HĐ mới, không thuộc nhóm giữ. Google chỉ thêm 469 dòng bán và sửa 17 ô có sẵn (hai ghi chú, 15 ô liên kết/trạng thái BTL); mở rộng bộ lọc/màu xen kẽ bán mới, giữ bộ lọc BTL và múi giờ Asia/Bangkok của người dùng. Đã kiểm snapshot trước sửa, toàn bộ ô Excel, tiền từng chứng từ, đọc lại bốn tab Google và ba regression test. Xem `zero-chain-correction-verification.json`; bản trước ở `archive/before-zero-chain-fix-20261109/`. Không chạy script tạo tab/ghi lại cả bảng để áp dụng bản sửa.
+
+---
+
+# Bộ dự thảo import AMIS 2025 — 09/11/2026
+
+Theo kế hoạch người dùng duyệt: tháng 1–6 lập bán mới; tháng 7–12 giữ chứng từ khớp, lập mới phần thiếu/lệch; HĐ cũ chỉ có F0 làm thay thế về 0, chuỗi đã điều chỉnh làm điều chỉnh số dư về 0. Danh sách `HD CTY 2025` bản gốc (gid622685968) được người dùng xác nhận là danh sách không xuất meInvoice, không suy rộng mọi tên công ty.
+
+Đã đọc live AMIS bản sao, Ktoan bản sao, liên kết AMIS bản gốc và danh sách công ty; dùng AMIS xuất 08/11 tại `data/0811/`. Kết quả hiện hành sau sửa: 65.493 chứng từ bán; giữ 34.758, loại 396 công ty, dự thảo 30.212 HĐ mới/34.981 dòng (29.704 HĐ tháng 1–6, 508 HĐ tháng 7–12), còn 127 chứng từ chờ. Tạo 567 HĐ thay thế và 7 HĐ điều chỉnh về 0; 79 chuỗi còn chờ, không cộng số chuỗi vào số chứng từ. Bán mới trước trả: 37.002.145.463đ +2.960.169.846đ VAT =39.962.315.309đ. Không tự coi khớp tổng là khớp hàng hóa; cột so nguyên văn tên/ĐVT/SL nằm trong CSV.
+
+Theo yêu cầu tiếp của người dùng, đã tải danh sách trả hàng trên AMIS đang mở và đọc trực tiếp đủ 322 phiếu/412 dòng ở cột `Số CT bán hàng`. Nối đủ 322 chứng từ bán, mọi mã hàng trả có trong chứng từ bán; tổng 479.741.870đ. `BTL00511 → BHHS2025023615` là phiếu thêm so bộ 321 trước. Bán gốc và trả lại tách riêng theo pattern hiện có. Báo cáo có dự thảo trả 321 phiếu/410 dòng sau loại một phiếu công ty: 240 chờ số HĐ mới, 79 chờ kiểm trạng thái trả trên HĐ giữ, 2 ngoại lệ tiền/SL trả (`BTL00449 → BHHS2025006140`, `BTL00488 → BHHS2025012114`). Không tự sửa giá hoặc quy phần vượt thành giảm giá. Tham chiếu J:M trong dự thảo trả còn trống, chưa được nhập.
+
+Bộ file đã gọn lại theo phản hồi người dùng: `outputs/import-2025-20261109/deliverables/` có 5 Excel: `IMPORT_HD_MOI_2025.xlsx` (30.212 HĐ, STT liên tục), hai file xử lý về 0, `BAO_CAO_IMPORT_2025.xlsx` và **`IMPORT_DIEU_CHINH_BTL_2025_CHO_SO_HD.xlsx`**. File BTL riêng có 321 phiếu/410 dòng khớp tab dự thảo trong báo cáo; J:M vẫn trống chờ xác minh/điền HĐ thực tế và có hai phiếu ngoại lệ, chưa nhập được ngay. File chia tháng cũ giữ trong `archive/`, `.inspect.ndjson` ở `qa/`; không nhập cả bộ chia tháng và bộ gộp. Liên kết/STT trong báo cáo và CSV đã cập nhật theo file gộp. Xem `HUONG_DAN.md`, `final-summary.json`, `verification.json`, `return-verification.json`, các CSV toàn bộ/liên kết. Đã kiểm độc lập toàn bộ ô import xuất ra, tổng tiền theo chứng từ, STT, loại công ty, số dư sau xử lý và dữ liệu trả; xem ảnh vùng chính. Đã cập nhật bảng đích Google theo yêu cầu; không sửa bảng nguồn, không nhập/ký/phát hành. Nguồn meInvoice đến 29/10 và bổ sung 01/11; phải kiểm phát sinh mới hơn trước khi nhập thật. Các snapshot/cache/ảnh QA lớn giữ cục bộ và bỏ qua Git. Chưa commit/push.
+
+---
+
 # Đối soát 2025 và 25 cặp kế toán đã chốt phương án — 03/11/2026
 
 - Bàn giao chi tiết: [GHI_CHU_DOI_SOAT_HD_2025_20261103.md](GHI_CHU_DOI_SOAT_HD_2025_20261103.md).
@@ -175,6 +267,77 @@ Người dùng xác nhận: **“đã import và phát hành xuất mới 2024 r
 - Xác nhận này áp dụng phần **xuất mới 2024**; chưa có xác nhận mới cho phần **điều chỉnh trả hàng**. Không tự chuyển trạng thái phần trả hàng thành đã phát hành.
 - Các số bán mới và tổng sau phương án trong báo cáo lịch sử vẫn là số từ kế hoạch cho đến khi đối chiếu bảng kê sau phát hành. Cập nhật trạng thái thực hiện không đồng nghĩa đã kiểm chứng toàn bộ số phát hành thực tế; chưa đổi số tiền hoặc nhãn trên Google Sheets.
 - Khi có nguồn sau đợt xuất mới, đối chiếu với bộ import để kiểm thiếu/trùng và các khoản tiền; lấy số hóa đơn/ngày thực tế làm căn cứ nối phần trả hàng khi tiếp tục xử lý.
+# Đã bổ sung mã hàng vào bảng tổng và 12 tab tháng — 31/10/2026
+
+Đã chèn cột S `Mã hàng hóa/dịch vụ` trước `Mã đơn hàng` trong `Hóa đơn GTGT` và 12 tab `Tháng 01-2024` đến `Tháng 12-2024`. Mã đơn chuyển sang T, số chứng từ sang U; công thức tra mã đơn tự chuyển tham chiếu U đúng. Điền đủ 44.189 dòng bảng tổng và 44.189 dòng tương ứng trong các tab tháng. Ghép chính xác số chứng từ + tên hàng chuẩn hóa khoảng trắng với `data/Du lieu Amis/So_chi_tiet_ban_hang_2024.xlsx`, chỉ nhận khi có duy nhất một mã; không dòng nào thiếu/đa nghĩa. KA800 giữ phân biệt KA800XMFULL và TPMKA800 theo chứng từ. Đọc lại toàn bộ M:U cả13tab: mã khớp100%, các cột M:R và T:U khớp dữ liệu trước khi chèn; kiểm công thức mẫu và định dạng header/text. Tab `Import thử 1 HĐ` đã có mã KA600FULL/KA600FILTERFULL từ yêu cầu trước, không sửa lại. Bằng chứng `outputs/item-codes-20261031/verification.json`; chưa commit/push.
+
+# Đã tách import bán mới thành 12 tab tháng — 31/10/2026
+
+Theo yêu cầu người dùng, đã thêm12tab `Tháng 01-2024` đến `Tháng 12-2024` ngay sau tab `Hóa đơn GTGT` trong file `IMPORT MEINV 2024`; gid710000001–710000012. Phân theo ngày ở dòng đầu từng nhóm hóa đơn, giữ cả các dòng hàng tiếp theo có ngày trống. Giữ STT toàn cục của bảng tổng và thứ tự tương đối từng nhóm, không đánh số lại riêng từng tháng. Bản tổng và các tab nghiệp vụ khác giữ nguyên. Các tab tháng là snapshot, không tự đồng bộ khi sửa bảng tổng.
+
+Tổng12tab đủ34.739HĐ/44.189dòng hàng, không HĐ nào nằm nhiều tháng; tiền hàng49.533.443.555đ, VAT3.962.675.787đ, thanh toán53.496.119.342đ. SốHĐ/dòng theo tháng:01=2.180/2.911;02=1.016/1.158;03=1.598/1.891;04=3.030/4.375;05=2.486/3.201;06=3.046/3.885;07=3.290/4.051;08=3.436/4.451;09=3.493/4.602;10=4.034/4.762;11=3.586/4.384;12=3.544/4.518.
+
+Tạo bằngduplicateSheetvàxóa các khối dòng ngoài tháng từ dưới lên, giữ nguyên9hàng mẫu/tiêuđề, chiều rộng/cao/định dạng/côngthức native. Mỗi tab cóbộlọc hàng9, cốđịnh9hàng đầu. Đọc lại883.780ô của12tab khớp từng ô với nguồn và883.780ô bảng tổng không đổi; kiểm24ô côngthức tra mã đơn đầu/cuối các tháng cònformula/khônglỗi. Đã xem Chrome100% đủ12tab. Căn cứ `outputs/monthly-import-tabs-20261031/{plan,verification}.json`. Chưa commit/push.
+
+---
+
+# Đã đánh lại STT import bán mới 2024 — 31/10/2026
+
+Theo yêu cầu người dùng, đã đánh lại cột A tab `Hóa đơn GTGT` (gid555142675) trong `IMPORT MEINV 2024`: liên tục1–34.739, giữ nguyên34.739nhóm HĐ/44.189dòng hàng và ranh giới nhóm nhiều dòng. Chỉ5.135ô A39064:A44198đổi (STT cũ30732–34740giảm1); A39063giữ30730, nhóm tiếp theo thành30731, cuối34739. BHHT2024024972 vẫn ở dòng44180, STT mới34726 (cũ34727). Đọc lại toàn bộ44.189dòng:839.591ô B:T giữ nguyên, không thêm/xóa hàng hay đổi tiền/mãđơn/chứngtừ/côngthức/định dạng; chỉghi `userEnteredValue` ởA. Căn cứ `outputs/renumber-import-20261031/{stt-mapping,verification}.json`. Không đánh lại STT tab điều chỉnh hay workbook Excel cục bộ. Chưa commit/push.
+
+---
+
+# Kiểm riêng 81 chứng từ tháng 1/2025 và 1C25TUV/00000106 — 31/10/2026
+
+Theo ảnh và yêu cầu xác minh, đã đọc lại live đủ81chứng từ (AMIS62393–62966, đúng tập dòng lưu trongJSON), J106/Ktrống. Đối chiếu từng chứng từ với chi tiết sổ AMIS T1–6/2025 lịch sử đã khớp VAT/thanh toán live:121dòng hàng; tất cả ô ký hiệu/sốHĐ gốc trong sổ chi tiết này đều trống, không có liên kết trực tiếp chứng từ→HĐ. HĐ1C25TUV/00000106 ngày19/02/2025 có120dòng hàng ở bảng kê chi tiết, cộng khớp đúng tiền bảng kê tổng hiện hành:110.371.942đ+8.829.755đVAT=119.201.697đ. Nhóm81CT:117.682.464đ+9.414.590đVAT=127.097.054đ, lệchthanh toán+7.895.357đ. Kể cả cộng HĐđiều chỉnh1C25TUV/00000629 năm2025(+5.664.046đ), vẫn lệch+2.231.311đ. Cơ cấu theo họmodel/ĐVT cũng chưa khớp, nhưng đây chỉ là chẩn đoán, không đồng nhấtSKU hay quy đổiCái/Chiếc.
+
+Kết luận vẫnCHƯA ĐỦ CĂN CỨ xác nhận cả81CTthuộc1C25TUV/00000106. Không lấy khác tổng để kết luận chắc không thuộc (có thể lịch sử phát hành sai), cũng không lấy J106 làm bằng chứng xác nhận. Cần bảng kê đính kèm HĐgộp cómãđơn/chứngtừ hoặc danh sách liên kết được KT xác nhận. Chưa điền ký hiệu cho81dòng, không sửa Sheets. Căn cứ `outputs/doi-chieu-amis-j-20261031/january-81-vouchers-invoice-106.json`, `81_CHUNG_TU_THANG_1_HD_106.csv`; script `scripts/check_january_81_vouchers_invoice_106_20261031.py`. Đọc lại đủ81vàkiểm121/120dòng,hash/syntax/diffcheckđạt.
+
+---
+
+# Đã bổ sung 89 HĐ năm 2026 vào Ktoan — 31/10/2026
+
+Theo yêu cầu người dùng, đã thêm đúng89F0 vào `MEINV F0, F1, F2 (Ktoan)` trong fileHD2025, vùng A37088:AH37176.89HĐ khác năm khớp mã đơn/sốHĐ/VAT/thanh toán;10trường hợp chưa đủ căn cứ giữ nguyên, không thêm. Riêng1C26MUV/00000031 tại dòng37108 cóF1=1C26MUV/00058521 ngày03/07/2026, tiền hàng/VAT/thanh toán âm628.704/50.296/679.000đ; AD:AF đủ3khoản0. HĐ1C26MUV/00000106 tại dòng37145, AMIS10trả đúng4.279.000đ. Có ghi chú nhận diện chứng từ AMIS2025/phát hành2026 trên từng dòng mới; giữbuyer/MST nguồn, mã đơn và sốHĐ làtext.
+
+Đã chèn89dòng ngay trước dòng cuối cũ37088 để Google tự mở rộng các tham chiếu cuối37088→37177. Dòng cuối cũ1C25TUV/00013178 chuyển đến37177. Lượt ghi đầu cócopyPastebị Google từ chối vì hàng đang lọc, toàn batch không thực thi; lượt sau dùng định dạng CellDatađã đọc và insert+updateCellsatomic thành công, không xóa bộ lọc.7vùng định dạng điều kiện đều tự mở rộng đến37177.
+
+Đã so đủ1.260.992ô giá trị trước/sau của toàn bộ37.087dòng Ktoan cũ vàheader: giữ nguyên sau dịch vị trí. Đọc lại3.026ô mới, kiểm công thức I/AD:AF, mãtext, ngày, khôngvalidationlạ. Đối chiếu65.494dòng AMIS: chỉ176ô K/L thay đổi thuộc89chứng từ đã duyệt;89ký hiệu1C26MUV và89kết quả tiền đều đúng (31=0,88HĐcòn lại đúng nguồn). Không sửa J, mã đơn, tiền AMIS, ghi chú nguồn hoặc10trường hợp giữ lại. Xem Chrome100% cảF1vàAD:AFHĐ31, bố cục/tiền âm/số0đúng. Tab `HD gop nhieu chung tu` vẫn là snapshot phân tích trước bổ sung, chưa tái tạo số nhóm mới.
+
+Căn cứ `outputs/doi-chieu-amis-j-20261031/{ktoan-89-prepared,ktoan-89-google-verification,amis-89-lookup-changes}.json`, snapshot Ktoan trước ghi `ktoan-before-additions-values.json`; scriptchuẩn bị `scripts/prepare_ktoan_89_additions_20261031.py`. Chưa commit/push.
+
+---
+
+# Kiểm 99 nhóm khác năm/ký hiệu trước khi bổ sung Ktoan — 31/10/2026
+
+Theo yêu cầu chỉ kiểm tra trước khi bổ sung, chưa thêm dòng hay sửa Ktoan. Đọc lại live65.494dòng AMIS và ba khối khóa F0/F1/F2 Ktoan. Nguồn meInvoice mới có mã đơn hàng nên đã kiểm mã đầy đủ, số HĐ, VAT, thanh toán và duy nhất chứng từ; không dùng khớp tiền làm căn cứ độc lập.
+
+99HĐ ứng viên khác năm thuộc99nhóm được rà:89HĐ năm2026 khớp duy nhất mã đơn+sốHĐ+VAT+thanh toán với89chứng từ AMIS, chưa có ở F0/F1/F2 Ktoan. Trong đó1trường hợp BHHT2025040149/AMIS10→1C26MUV/00000106 đã được KT xác nhận qua người dùng; K10 đã được điền1C26MUV theo yêu cầu riêng, J10giữ106, L10vẫn0do nguồn tra Ktoan chưa có2026.88trường hợp còn lại có bằng chứng nguồn khớp đầy đủ, chưa có xác nhận KT riêng.9HĐ ứng viên có mã đơn nguồn không có trong AMIS;1C24TUV/00000478 nguồn không có mã đơn nên chỉ trùng tiền, không gán5chứng từ2025cho HĐ2024. Loại93lượt ứng viên chỉ khớp tiền do mã đơn khác/thiếu; không có nghĩa là93dòng AMIS sai.
+
+Đã quét33file bảng kê để kiểm trùng mã:1mã xuất hiện ở HĐ gốc và HĐ điều chỉnh chính thức.1C26MUV/00000031 (AMIS358/BHHS2025023987, mã251229MWJ0WUKR), gốc628.704đ+50.296đVAT=679.000đ, được1C26MUV/00058521 ngày03/07/2026 điều chỉnh-628.704/-50.296/-679.000đ; liên kết chính thức ở fileDIEU_CHINH phần5dòng491, số dư đủ3khoản0. Nếu bổ sung Ktoan phải giữ đủF0+F1, không ghi riêng gốc679.000đ như số dư còn hiệu lực.88HĐ còn lại là HĐ mới/HĐ hợp lệ và chưa thấy liên kết sửa trong bộ nguồn đến29/10.
+
+Mô phỏng tách89chứng từ khớp mạnh (chưa sửa dữ liệu):21nhóm còn lại khớp cảVAT/thanh toán với HĐ2025,3nhóm khớp thanh toán còn lệchVAT,75nhóm vẫn lệch/chưa chốt ký hiệu. Đây là mô phỏng kiểm số, chưa xác nhận nội dung từng đơn gộp. File đọc: `outputs/doi-chieu-amis-j-20261031/89_HD_KIEM_TRA_XONG_DANH_TINH_VA_CHUOI.csv`, `10_TRUONG_HOP_CHUA_DU_CAN_CU_KHAC_NAM.csv`, `RA_SOAT_99_NHOM_NAM_KY_HIEU.csv`, `SAU_KHI_TACH_UNG_VIEN_KHAC_NAM_99_NHOM.csv`. Căn cứ `year-signature-review.json`, `year-signature-verification.json`, `year-review-chains.json`. Script `scripts/{review_invoice_year_signature_20261031,verify_year_signature_review_20261031,check_year_review_invoice_chains_20261031}.py`. Kiểm89khóa duy nhất,99phân hoạch và số dư,7hash file chứa dòng đối chiếu,33file rà trùng mã,syntax/diff check đạt. Không ghi vào Google Sheets trong lượt rà99này; tab báo cáo chưa phản ánh bước rà mới, xem CSV/JSON mới này. Chưa commit/push.
+
+---
+
+# Rà nguyên nhân chênh hóa đơn gộp — 31/10/2026
+
+Đã kiểm tiếp 417 nhóm số J; thêm cột Q:S trên `HD gop nhieu chung tu` (gid700000030): phân loại, bằng chứng, phần chưa kết luận. Giữ nguyên AMIS/Ktoan và số đối chiếu A:P. Đọc lại live đủ22.022 dòng AMIS: không đổi VAT/thanh toán/mã/số J/ký hiệu. Kiểm lại1.254ô Q6:S423 và417nhãn rút gọn; đã xem Chrome100%.
+
+Phân loại loại trừ nhau:14nhóm khớp đủ VAT/thanh toán;11nhóm tái hiện cơ chế chênh VAT do cấp làm tròn;32nhóm thanh toán khớp nhưng VAT chưa chốt nguyên nhân;99nhóm cần phân biệt số HĐ trùng năm/ký hiệu;20nhóm có chênh tiền hàng trên mục cùng tên/ĐVT/tổng SL nhưng chưa chốt toàn bộ;241nhóm chênh thanh toán chưa đủ căn cứ. Tổng32nhóm có mục hàng cùng tên/ĐVT/SL nhưng khác tiền hàng (có giao với nhóm khớp tổng/VAT); không đồng nhất khớp tổng với khớp chi tiết đơn hàng.224nhóm chứa nhiều tháng,102nhóm có ứng viên năm khác khớp VAT/thanh toán từng chứng từ; đây là ứng viên, không tự đổi mapping. Ví dụ AMIS dòng10/BHHT2025040149 ghiJ106, VAT316.963đ/thanh toán4.279.000đ khớp riêng1C26MUV/00000106 ngày03/01/2026; nhóm106 còn81chứng từ tháng01/2025. Không gọi tất cả417nhóm là417HĐgộp đã xác nhận.
+
+Đã tìm sổ AMIS T1–6/2025 trong Git tại9c50b0424a242695fa31182ab826613bf0fa699f, đọc in-memory, không khôi phục nguồn đã xóa.21.814chứng từ có tổng VAT/thanh toán khớp live;216nhóm đủ chi tiết lịch sử khớp tổng từng chứng từ,201nhóm còn thiếu một phần. Nguồn lịch sử được dùng có điều kiện này, không coi là dữ liệu hiện hành mặc định. Đối chiếu42hash nguồn không đổi vàhash blob lịch sử. Nhóm427chênh+221.000đ và431chênh-4.941.342đ vẫn chưa truy được nguyên nhân nghiệp vụ cụ thể; đã kiểm đủ627/627và585/585chứng từ với sổ lịch sử, chi tiết meInvoice khớp bảng kê, không có chứng từ đơn nào có đúng cặp chênh VAT/thanh toán. Chưa có bảng kê gộp nối trực tiếp chứng từ→HĐ để chốt thiếu/thừa, chưa có đầy đủ chi tiết AMIS nửa cuối2025 và liên kết trả hàng tương ứng. Không tự bù, bỏ chứng từ hoặc sửa tiền.
+
+Căn cứ `outputs/doi-chieu-amis-j-20261031/{cause-investigation-final,historical-amis-detail-check}.json`, CSV `CHENH_TIEN_HANG_CUNG_TEN_DVT_SL.csv`; script `scripts/{investigate_grouped_invoice_differences_20261031,check_historical_amis_grouped_details_20261031,enrich_grouped_invoice_causes_20261031}.py`. Lưu ý ví dụKA100/nhóm465: AMIS ghi1Bộ còn meInvoice1Cái, dù cùng tên và khác tiền, chưa đưa vào nhóm cùngĐVT để chốt giá. Các file chẩn đoán bước đầu có trong thư mục; `cause-investigation-final.json` là bản phân loại cuối. Chưa commit/push.
+
+---
+
+# Tab HD gop nhieu chung tu — 31/10/2026
+
+Người dùng xác nhận một số HĐ có nhiều chứng từ vì kế toán cũ xuất gộp và yêu cầu thêm một sheet. Đã thêm đúng tab `HD gop nhieu chung tu` (gid 700000030) trong file `HD 2025` (`1bhOnhnBcHaHiy06-REAdVVEk160FG94a6XgkfH0AQsw`). Tổng hợp A6:P423 gồm 417 nhóm số HĐ nhập trực tiếp tại J AMIS có nhiều chứng từ; chi tiết 22.022 chứng từ tại A426:P22448 được thu gọn. Có bộ lọc, 6 hàng cố định, công thức chênh VAT/thanh toán và liên kết tới chi tiết/AMIS.
+
+So tổng thanh toán: 57 nhóm khớp, 360 chưa khớp; cả VAT và thanh toán: 14 khớp, 27 lệch tối đa 2đ, 376 lệch lớn hơn. Thiếu ký hiệu nên chưa khẳng định các nhóm là đúng một HĐ thực tế: cột ký hiệu so sánh hiển thị ứng viên lệch thanh toán nhỏ nhất rồi VAT nhỏ nhất, ghi rõ chưa chốt; các ứng viên khác lưu ngay bên cạnh. So tiền của HĐ nguồn trong 33 bảng kê đến 29/10/2026, không mặc định là số dư chuỗi sau điều chỉnh. Xuất gộp không tự nó là lỗi và lệch tổng chưa chứng minh từng chứng từ điền sai.
+
+Đã đọc lại toàn bộ 359.168 ô, kiểm công thức chênh và liên kết; xem Google Sheets trên Chrome 100%, tiêu đề/tóm tắt rõ và chi tiết thu gọn. Không ghi vào AMIS/Ktoan hay nguồn meInvoice. Căn cứ `outputs/doi-chieu-amis-j-20261031/{multi-voucher-audit,multi-voucher-verification,google-sheet-verification}.json`, hai CSV đối chiếu 417 nhóm; script `scripts/check_multi_voucher_amis_20261031.py`. Chưa commit/push.
 
 ---
 

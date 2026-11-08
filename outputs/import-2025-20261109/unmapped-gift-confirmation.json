@@ -1,0 +1,25 @@
+{
+  "confirmed_on": "2026-11-09",
+  "user_confirmation": "đưa ra 1 sheet riêng để hỏi lại kt nha",
+  "invoice_roots": [
+    "1C25TUV/00013159",
+    "1C25TUV/00013162",
+    "1C25TUV/00013163",
+    "1C25TUV/00013164",
+    "1C25TUV/00013165",
+    "1C25TUV/00013166",
+    "1C25TUV/00013167",
+    "1C25TUV/00013168",
+    "1C25TUV/00013169",
+    "1C25TUV/00013170",
+    "1C25TUV/00013171",
+    "1C25TUV/00013172",
+    "1C25TUV/00013173",
+    "1C25TUV/00013174",
+    "1C25TUV/00013175",
+    "1C25TUV/00013176"
+  ],
+  "keep_out_of_import": true,
+  "accountant_notes_column": "K",
+  "send_message_to_accountant": false
+}

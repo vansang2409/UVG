@@ -1,0 +1,15 @@
+# Bản cuối: điều chỉnh theo quy cách 2024 và báo cáo 2025 — 09/11/2026
+
+Đã sửa quy cách điều chỉnh: **25 HĐ / 33 dòng / 18 chuỗi**. Đảo riêng 7 HĐ điều chỉnh cũ còn tiền, rồi giảm toàn bộ chi tiết 18 F0; 13 điều chỉnh cũ tiền bằng 0 đã kiểm và không tạo bút toán đảo. Tất cả tham chiếu F0; tổng chỉ ghi dòng đầu mỗi HĐ. Giữ nguyên tên hàng, đơn vị, đơn giá nguồn, số lượng/tiền đảo dấu; 8 dòng khuyến mại có cờ 1. Có 13 dòng F0 đơn giá nguồn bằng 0 nhưng thành tiền khác 0: giữ đúng nguồn/quy cách 2024, không tự tính lại giá; xem source_price_flags trong adjustment-rule-2024-plan.json. Kiểm độc lập 86 dòng nguồn và 33 dòng xuất, toàn bộ 18 chuỗi về 0 sau dự thảo ở cả tiền hàng/VAT/thanh toán.
+
+**Tên khách hàng C = H trên F0; Người mua hàng F = L trên F0, lấy riêng đúng nguyên bản, kể cả để trống.** Không dùng tên này thay thế tên kia hoặc áp quy tắc khách lẻ vào bộ điều chỉnh. Bán mới, thay thế và BTL giữ nguyên byte so với ngay trước lượt sửa này. Thay thế vẫn 2.039 HĐ; bán mới 30.244 HĐ/35.016 dòng; BTL 321 phiếu/410 dòng, chưa có tham chiếu HĐ thực tế.
+
+Theo yêu cầu mới, đã thêm tab [Ra soat chuoi 2025](https://docs.google.com/spreadsheets/d/1jACpDPSlOCjq-25hF_g5-06eZKD3e2Fq88j472wjTiA/edit?gid=700000010#gid=700000010), theo bố cục tab báo cáo 2024 người dùng cung cấp. Có **46.194 chuỗi**, 46.208 dòng/18 cột. Số dự kiến chưa VAT: **80.193.955.311đ**, AMIS cùng phạm vi **80.408.395.929đ**, chênh **−214.440.618đ** = chênh nhóm giữ **−81.923.747đ** − 95 CT AMIS chờ **133.737.241đ** + 2 phiếu trả chờ giảm **1.220.370đ**. Các khoản công ty/chờ/16 HĐ biếu tặng tách cột O, không ép chênh bằng 0. BTL chỉ 319/321 phiếu đủ số liệu được cộng dự kiến; tất cả vẫn chờ HĐ tham chiếu. Đây là dự thảo, chưa nhập/ký/phát hành.
+
+Đã đọc lại **1.705.021 ô trên 6 tab**: 873.277 ô import/KT và 831.744 ô báo cáo; công thức đã đối chiếu kết quả tính độc lập. Metadata 5 tab cũ giữ nguyên khi thêm báo cáo; ý kiến KT cột K được bảo vệ. Nguồn meInvoice đến 01/11/2026; chưa kiểm CQT live mới hơn. Bằng chứng: adjustment-rule-2024-verification.json, annual-report-google-verification.json, google-upload-verification.json, report-2025/verification.json, verification.json, zip-verification.json. Ảnh hiển thị ở qa/google-report-2025-final.png và qa/google-adjustment-2024-money.png.
+
+Thứ tự tái tạo: prepare/finalize/enrich_returns/consolidate → audit/review/refine/append_unmapped → audit_adjustment_rule_2024 → apply_adjustment_2024_rule → builder chỉ số 1 và 3 → verify_adjustment_2024_rule + verify_import → prepare_revenue_report + verify_revenue_report → cập nhật Google có đọc live trước → đọc lại → package. Các verifier giữ nguyên dòng/STT của mốc bổ sung trước, unmapped-import-sequences.json và mapping điều chỉnh 18 dòng là **lịch sử trước tái dựng**, không chạy trên bản 25/33. Mapping hiện hành trong authoring.adjustment_rule_2024 và tab Excel Quy cach DC2024. Không chạy lại batch Google lịch sử; giữ mọi ghi chú live.
+
+Người dùng đã cho phép commit/push tất cả dữ liệu công việc, rồi đóng ứng dụng và tắt máy **sau khi xác nhận push thành công**. Runtime, cache phụ thuộc và thông tin xác thực không thuộc dữ liệu bàn giao.
+
+---

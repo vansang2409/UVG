@@ -1,0 +1,16 @@
+{
+  "previous_sales_files": [
+    "IMPORT_HD_MOI_2025_T01.xlsx",
+    "IMPORT_HD_MOI_2025_T02.xlsx",
+    "IMPORT_HD_MOI_2025_T03.xlsx",
+    "IMPORT_HD_MOI_2025_T04.xlsx",
+    "IMPORT_HD_MOI_2025_T05.xlsx",
+    "IMPORT_HD_MOI_2025_T06.xlsx",
+    "IMPORT_HD_MOI_2025_T07_T12.xlsx"
+  ],
+  "new_file": "IMPORT_HD_MOI_2025.xlsx",
+  "invoices": 30244,
+  "rows": 35016,
+  "updated_report_references": 957,
+  "money_unchanged": true
+}

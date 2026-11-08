@@ -1,0 +1,338 @@
+[
+  {
+    "doc": "BHHT2025015769",
+    "date": "2025-06-26",
+    "lines": [
+      {
+        "source": "SỔ CHI TIẾT BÁN HÀNG!34017",
+        "sku": "KM003FULL",
+        "quantity": "4",
+        "price": "210232",
+        "goods": "840926",
+        "delta": "2"
+      }
+    ],
+    "goods": 840926,
+    "vat": 67274,
+    "pay": 908200,
+    "reasons": [
+      "Tháng 1–6: tạo mới theo yêu cầu",
+      "Đơn giá × số lượng khác thành tiền quá 1đ"
+    ],
+    "chains": [
+      {
+        "root": "1C25TUV/00008740",
+        "balance": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "issues": []
+      }
+    ]
+  },
+  {
+    "doc": "BHHT2025018433",
+    "date": "2025-06-07",
+    "lines": [
+      {
+        "source": "SỔ CHI TIẾT BÁN HÀNG!28975",
+        "sku": "KM300FULL",
+        "quantity": "4",
+        "price": "474120",
+        "goods": "1896478",
+        "delta": "2"
+      }
+    ],
+    "goods": 1896478,
+    "vat": 151718,
+    "pay": 2048196,
+    "reasons": [
+      "Tháng 1–6: tạo mới theo yêu cầu",
+      "Đơn giá × số lượng khác thành tiền quá 1đ"
+    ],
+    "chains": [
+      {
+        "root": "1C25TUV/00003979",
+        "balance": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "issues": []
+      }
+    ]
+  },
+  {
+    "doc": "BHHT2025018570",
+    "date": "2025-06-06",
+    "lines": [
+      {
+        "source": "SỔ CHI TIẾT BÁN HÀNG!28652",
+        "sku": "KM300FULL",
+        "quantity": "4",
+        "price": "474120",
+        "goods": "1896478",
+        "delta": "2"
+      }
+    ],
+    "goods": 1896478,
+    "vat": 151718,
+    "pay": 2048196,
+    "reasons": [
+      "Tháng 1–6: tạo mới theo yêu cầu",
+      "Đơn giá × số lượng khác thành tiền quá 1đ"
+    ],
+    "chains": [
+      {
+        "root": "1C25TUV/00003419",
+        "balance": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "issues": []
+      }
+    ]
+  },
+  {
+    "doc": "BHHT2025011277",
+    "date": "2025-04-10",
+    "lines": [
+      {
+        "source": "SỔ CHI TIẾT BÁN HÀNG!17771",
+        "sku": "KA100UVC70",
+        "quantity": "1",
+        "price": "1067697",
+        "goods": "1067697",
+        "delta": "0"
+      },
+      {
+        "source": "SỔ CHI TIẾT BÁN HÀNG!17772",
+        "sku": "COKACN01CBFL",
+        "quantity": "4",
+        "price": "12320",
+        "goods": "49278",
+        "delta": "2"
+      },
+      {
+        "source": "SỔ CHI TIẾT BÁN HÀNG!17773",
+        "sku": "COKACN01PWSP",
+        "quantity": "1",
+        "price": "57492",
+        "goods": "57492",
+        "delta": "0"
+      }
+    ],
+    "goods": 1174467,
+    "vat": 93957,
+    "pay": 1268424,
+    "reasons": [
+      "Tháng 1–6: tạo mới theo yêu cầu",
+      "Đơn giá × số lượng khác thành tiền quá 1đ"
+    ],
+    "chains": [
+      {
+        "root": "1C25TUV/00000465",
+        "balance": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "issues": []
+      }
+    ]
+  },
+  {
+    "doc": "BHHT2025007519",
+    "date": "2025-03-09",
+    "lines": [
+      {
+        "source": "SỔ CHI TIẾT BÁN HÀNG!13335",
+        "sku": "KM300FULL",
+        "quantity": "4",
+        "price": "457408",
+        "goods": "1829630",
+        "delta": "2"
+      }
+    ],
+    "goods": 1829630,
+    "vat": 146370,
+    "pay": 1976000,
+    "reasons": [
+      "Tháng 1–6: tạo mới theo yêu cầu",
+      "Đơn giá × số lượng khác thành tiền quá 1đ"
+    ],
+    "chains": [
+      {
+        "root": "1C25TUV/00000411",
+        "balance": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "issues": []
+      }
+    ]
+  },
+  {
+    "doc": "BHHT2025003337",
+    "date": "2025-02-19",
+    "lines": [
+      {
+        "source": "SỔ CHI TIẾT BÁN HÀNG!8486",
+        "sku": "KM300FULL",
+        "quantity": "4",
+        "price": "380556",
+        "goods": "1522222",
+        "delta": "2"
+      }
+    ],
+    "goods": 1522222,
+    "vat": 121778,
+    "pay": 1644000,
+    "reasons": [
+      "Tháng 1–6: tạo mới theo yêu cầu",
+      "Đơn giá × số lượng khác thành tiền quá 1đ"
+    ],
+    "chains": [
+      {
+        "root": "1C25TUV/00000427",
+        "balance": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "issues": []
+      }
+    ]
+  },
+  {
+    "doc": "BHHT2025003984",
+    "date": "2025-02-14",
+    "lines": [
+      {
+        "source": "SỔ CHI TIẾT BÁN HÀNG!7223",
+        "sku": "KM300FULL",
+        "quantity": "4",
+        "price": "443518",
+        "goods": "1774070",
+        "delta": "2"
+      }
+    ],
+    "goods": 1774070,
+    "vat": 141926,
+    "pay": 1915996,
+    "reasons": [
+      "Tháng 1–6: tạo mới theo yêu cầu",
+      "Đơn giá × số lượng khác thành tiền quá 1đ"
+    ],
+    "chains": [
+      {
+        "root": "1C25TUV/00000425",
+        "balance": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "issues": []
+      }
+    ]
+  },
+  {
+    "doc": "BHHT2025004086",
+    "date": "2025-02-13",
+    "lines": [
+      {
+        "source": "SỔ CHI TIẾT BÁN HÀNG!6976",
+        "sku": "KM300FULL",
+        "quantity": "5",
+        "price": "443518",
+        "goods": "2217588",
+        "delta": "2"
+      }
+    ],
+    "goods": 2217588,
+    "vat": 177407,
+    "pay": 2394995,
+    "reasons": [
+      "Tháng 1–6: tạo mới theo yêu cầu",
+      "Đơn giá × số lượng khác thành tiền quá 1đ"
+    ],
+    "chains": [
+      {
+        "root": "1C25TUV/00000425",
+        "balance": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "issues": []
+      }
+    ]
+  },
+  {
+    "doc": "BHHT2025002013",
+    "date": "2025-01-04",
+    "lines": [
+      {
+        "source": "SỔ CHI TIẾT BÁN HÀNG!437",
+        "sku": "KA150SFULL",
+        "quantity": "5",
+        "price": "980556",
+        "goods": "4902778",
+        "delta": "2"
+      }
+    ],
+    "goods": 4902778,
+    "vat": 392222,
+    "pay": 5295000,
+    "reasons": [
+      "Tháng 1–6: tạo mới theo yêu cầu",
+      "Đơn giá × số lượng khác thành tiền quá 1đ"
+    ],
+    "chains": [
+      {
+        "root": "1C25TUV/00000423",
+        "balance": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "issues": []
+      }
+    ]
+  },
+  {
+    "doc": "BHHT2025001986",
+    "date": "2025-01-04",
+    "lines": [
+      {
+        "source": "SỔ CHI TIẾT BÁN HÀNG!402",
+        "sku": "KM300FULL",
+        "quantity": "5",
+        "price": "458332",
+        "goods": "2291662",
+        "delta": "-2"
+      }
+    ],
+    "goods": 2291662,
+    "vat": 183333,
+    "pay": 2474995,
+    "reasons": [
+      "Tháng 1–6: tạo mới theo yêu cầu",
+      "Đơn giá × số lượng khác thành tiền quá 1đ"
+    ],
+    "chains": [
+      {
+        "root": "1C25TUV/00000043",
+        "balance": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "issues": []
+      }
+    ]
+  }
+]

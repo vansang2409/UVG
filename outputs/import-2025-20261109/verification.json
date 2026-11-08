@@ -1,0 +1,462 @@
+{
+  "passed": true,
+  "source_hashes": [
+    {
+      "file": "data\\0811\\Ban_hang.xlsx",
+      "sha256": "4505d35c98f9559b75c73862cbbad82e9c5afeca92aa79fc99346856799e5aa5"
+    },
+    {
+      "file": "data\\0811\\So_chi_tiet_ban_hang.xlsx",
+      "sha256": "817a0ce45172edc65977f8fcf4577b5365f59281632e3e90ee9e241485bd3eb1"
+    },
+    {
+      "file": "outputs\\import-2025-20261109\\rounding-confirmation.json",
+      "sha256": "ecced507f33bbdf0b5fc75b7b8b4833fab9c6960bd0fbee10a8baf08f5660c7b"
+    },
+    {
+      "file": "outputs\\import-2025-20261109\\service-quantity-confirmations.json",
+      "sha256": "4edd1346fd931824c171911013a4da2121640051adb22fd99a3616b094aeeb67"
+    },
+    {
+      "file": "outputs\\import-2025-20261109\\h1-12-invoice-link-review.json",
+      "sha256": "f602a0ca8332111e4bdcf0e72ee941b91fe32ba65709721f1230eeff995fd115"
+    },
+    {
+      "file": "outputs\\import-2025-20261109\\promotion-confirmations.json",
+      "sha256": "11f5df8f833de9d86fd53d2df656733669e48cc3131f2d25e76ed8dc7fc97d96"
+    },
+    {
+      "file": "data\\Du lieu Meinvoice\\Mau_hoa_don_GTGT_MTT_1_thue_suat.xls",
+      "sha256": "64346fb386624e1f900ac9130303737f79348491951eb17e53133190514847be"
+    },
+    {
+      "file": "data\\Du lieu Meinvoice\\Mau HD Dieu chinh.xls",
+      "sha256": "34942d5919fe3c5f0e7ee9809e4446c262a07424d98fe7a1bc551b212324b147"
+    },
+    {
+      "file": "data\\Mau_hoa_don_GTGT_MTT_1_thue_suat_Thay_the.xls",
+      "sha256": "dfcedf40955d083e8f77da17e0c0c2aa3dd09ac743656c6b5b9dfbbb5139cc48"
+    },
+    {
+      "file": "data\\Meinv\\2025\\Bang_ke_hoa_don_da_su_dung_1793262482896_1.xls",
+      "sha256": "fa58052238a63951caf50fd459750d526c3507f7d59f361e98e24ad365f7ea2c"
+    },
+    {
+      "file": "data\\Meinv\\2025\\Bang_ke_hoa_don_da_su_dung_1793262482896_3.xls",
+      "sha256": "e015bf15e5c956a459fc21895b81a22f0cdec28062c2ecf49e3840e3fb732843"
+    },
+    {
+      "file": "data\\Meinv\\2025\\Bang_ke_hoa_don_da_su_dung_1793262482896_6.xls",
+      "sha256": "0e9c4df73c0299b84f26a06aa707efe96548473e1d81b37321d803848f176b90"
+    },
+    {
+      "file": "data\\Meinv\\2026\\Bang_ke_hoa_don_da_su_dung_1793263115369_10.xls",
+      "sha256": "fa1a588f6d6bf6cdf5d785e0f069afdc6bfa7965dcfee67d319b6fc6a139bb2c"
+    },
+    {
+      "file": "data\\Meinv\\2026\\Bang_ke_hoa_don_da_su_dung_1793263115369_11.xls",
+      "sha256": "e2aba7b15846f32949d7261cc106772573ad953981a50b45d4183eaea950f3e5"
+    },
+    {
+      "file": "data\\Meinv\\2026\\Bang_ke_hoa_don_da_su_dung_1793263115369_12.xls",
+      "sha256": "c0c8d2890570a825f903377e5aa533c3d8c9cef6d54a0782df0fad75e2938195"
+    },
+    {
+      "file": "data\\Meinv\\2026\\Bang_ke_hoa_don_da_su_dung_1793263115369_13.xls",
+      "sha256": "47085183fbc97e971c53bfdbc30f8da7347de345e9fc3f0d28d1b92440b0840a"
+    },
+    {
+      "file": "data\\Meinv\\2026\\Bang_ke_hoa_don_da_su_dung_1793263115369_14.xls",
+      "sha256": "cece9848e8db6b977c73870296395987235c0125e0b8cb3b75daa8797752ffca"
+    },
+    {
+      "file": "data\\Meinv\\2026\\Bang_ke_hoa_don_da_su_dung_1793263115369_15.xls",
+      "sha256": "1ef2a4340bb91c60aa6bf6302ef35796899ef3a4533575f9e18b5048b2d8d523"
+    },
+    {
+      "file": "data\\Meinv\\2026\\Bang_ke_hoa_don_da_su_dung_1793263115369_16.xls",
+      "sha256": "91a6226bca642800dc19a934b474a77570442eef321836703b75ccbde9e76f03"
+    },
+    {
+      "file": "data\\Meinv\\2026\\Bang_ke_hoa_don_da_su_dung_1793263115369_17.xls",
+      "sha256": "e6f136ec050102ea6909886883e7562000e0a8363bfd2824013e6692086f143b"
+    },
+    {
+      "file": "data\\Meinv\\2026\\Bang_ke_hoa_don_da_su_dung_1793263115369_18.xls",
+      "sha256": "446a7f62408a58c5cb04445448cbb0ddd29db17fb6cc7a7b02b9a423443414b2"
+    },
+    {
+      "file": "data\\Meinv\\2026\\Bang_ke_hoa_don_da_su_dung_1793263115369_19.xls",
+      "sha256": "6c7f76e0ed22cd5cfe629212da9ce4c73f34a0066b170c276aafb66f905ed5e5"
+    },
+    {
+      "file": "data\\Meinv\\2026\\Bang_ke_hoa_don_da_su_dung_1793263115369_2.xls",
+      "sha256": "742dee7f5d23a388d01d4373d3c8c1db50211e0e9f20a911b500aa8a25373e4b"
+    },
+    {
+      "file": "data\\Meinv\\2026\\Bang_ke_hoa_don_da_su_dung_1793263115369_20.xls",
+      "sha256": "2a803cb8dc2e9313f76310ff39f1c5a652670c4412ffd1fb709438a4a77e4528"
+    },
+    {
+      "file": "data\\Meinv\\2026\\Bang_ke_hoa_don_da_su_dung_1793263115369_21.xls",
+      "sha256": "2394d26259db209bbc725fecc89901c44d50a56f0fd701dc4c6a7d0dfc534ef0"
+    },
+    {
+      "file": "data\\Meinv\\2026\\Bang_ke_hoa_don_da_su_dung_1793263115369_22.xls",
+      "sha256": "f13b1efe7af988dc9eb4bf77333c67d580bb8bea2b5bffc57a035148e1a5c59d"
+    },
+    {
+      "file": "data\\Meinv\\2026\\Bang_ke_hoa_don_da_su_dung_1793263115369_23.xls",
+      "sha256": "53280a8a49dfad3e8452a3cf8c8d891754b5dd9088727a03294f6a0b4dd7c97b"
+    },
+    {
+      "file": "data\\Meinv\\2026\\Bang_ke_hoa_don_da_su_dung_1793263115369_3.xls",
+      "sha256": "01c560c5aee16ea004c5d005a725fc6eae08ae98d7bc61a3eb437b3f3faf04d2"
+    },
+    {
+      "file": "data\\Meinv\\2026\\Bang_ke_hoa_don_da_su_dung_1793263115369_4.xls",
+      "sha256": "d9d84a9a061e89c3ca4a4063db0bfd2c5e0677947c7ea7e0fd6a2f01852da379"
+    },
+    {
+      "file": "data\\Meinv\\2026\\Bang_ke_hoa_don_da_su_dung_1793263115369_5.xls",
+      "sha256": "e0ae8f1b306f00d7fcb7682aa7fa556fe936e96bd0655537dc0d8a1d97009d2f"
+    },
+    {
+      "file": "data\\Meinv\\2026\\Bang_ke_hoa_don_da_su_dung_1793263115369_6.xls",
+      "sha256": "ad97c25c0182c10bb7d3ddeb7fd11c813b0b46181b83cec84e7baf468a9774ef"
+    },
+    {
+      "file": "data\\Meinv\\2026\\Bang_ke_hoa_don_da_su_dung_1793263115369_7.xls",
+      "sha256": "c117ebc8b1eb21fc0932255419c7d73d3bc8cc5937f305ffbf5e4c5a4a2a1326"
+    },
+    {
+      "file": "data\\Meinv\\2026\\Bang_ke_hoa_don_da_su_dung_1793263115369_8.xls",
+      "sha256": "3f00fa8b31cd102d1dc3432a0eba446b84975b49c9f1446b8a93ee1c0ca93e72"
+    },
+    {
+      "file": "data\\Meinv\\2026\\Bang_ke_hoa_don_da_su_dung_1793263115369_9.xls",
+      "sha256": "0538752d24d78ca910cd73c7c15102c965da03c15f96b4c569b2d635ce42d505"
+    },
+    {
+      "file": "data\\Meinv_SAU_DIEU_CHINH_THAY_THE_20261101\\Bang_ke_hoa_don_da_su_dung_1793524594152_1.xls",
+      "sha256": "304f4f7a2a5a1937e057aa037ecc3bc3defb58e51209db896729bf1987d91422"
+    },
+    {
+      "file": "data\\Meinv_SAU_DIEU_CHINH_THAY_THE_20261101\\Bang_ke_hoa_don_da_su_dung_1793524594152_2.xls",
+      "sha256": "adc75c1eff4db7cd41bbf2d27b6198962ff96e96c1609b9b2cbc5cf0cfcfc25b"
+    },
+    {
+      "file": "scripts\\data\\post-issue-20261029\\audit.json",
+      "sha256": "45ad6e00c84d8f233c2f2410dda32675e92ea4f8b5db1a50fb5c5cbc22d6bcad"
+    },
+    {
+      "file": "outputs\\import-2025-20261109\\source\\amis.json",
+      "sha256": "c758cadf5cc8aed63b339d82e59a6e684f9257f4bcb960a0223e1845fc2ded84"
+    },
+    {
+      "file": "outputs\\import-2025-20261109\\source\\authoring-monthly.json",
+      "sha256": "fba0687d7fbc06b8e70469994cf8372a23ea9967ff36d0ea3f6572c8b72241c7"
+    },
+    {
+      "file": "outputs\\import-2025-20261109\\source\\company.json",
+      "sha256": "b4454b0862a7b2b8378a85cf73d2e891512dabbca800493fe831fe63a789e0fc"
+    },
+    {
+      "file": "outputs\\import-2025-20261109\\source\\h1-12-amis-live.json",
+      "sha256": "47c63a19a7d6176b5b58c6612f5013919d0440dcc30e445aa54bf0326119b8a4"
+    },
+    {
+      "file": "outputs\\import-2025-20261109\\source\\h1-12-google-evidence.json",
+      "sha256": "b75310f0b8612b40a678997ac6c4131e80b54a11fece94f2e3a8bb5a960c4ed3"
+    },
+    {
+      "file": "outputs\\import-2025-20261109\\source\\h1-12-ktoan-search.json",
+      "sha256": "23841e105dce72eace5c6d509146314f61c7d0a7a12240dc7b7996cfb16f2482"
+    },
+    {
+      "file": "outputs\\import-2025-20261109\\source\\kt_1.json",
+      "sha256": "7022964256e08d1aa6767f89ac938764b961d6daacee9e8fffcc137df16829b9"
+    },
+    {
+      "file": "outputs\\import-2025-20261109\\source\\kt_12001.json",
+      "sha256": "7cad913d38c7105779e69c1a59e2be655da47d2f4bd4da0f3414a9bc0ff74ec2"
+    },
+    {
+      "file": "outputs\\import-2025-20261109\\source\\kt_16001.json",
+      "sha256": "8dfe5aedf7cff04c6cbad4fd39beddb95142f1c80a30982066073b58b18e4059"
+    },
+    {
+      "file": "outputs\\import-2025-20261109\\source\\kt_20001.json",
+      "sha256": "d2a0dae1ec4c0bc82b99fd914ee0975d4cd02406d8f1f6f43ea78b10a1d57976"
+    },
+    {
+      "file": "outputs\\import-2025-20261109\\source\\kt_24001.json",
+      "sha256": "434cef59d288d9a4222c976f899bc78cdac9086d2bd8befeb43dcf6340a2665f"
+    },
+    {
+      "file": "outputs\\import-2025-20261109\\source\\kt_28001.json",
+      "sha256": "d931acf5a24d1f81ff1ba9c39bd70ab3abbd2f5f4e5be64c87ef0b76ab7eb888"
+    },
+    {
+      "file": "outputs\\import-2025-20261109\\source\\kt_32001.json",
+      "sha256": "28efe4a4c67bb92f4293e13e253c6c90cac44fc3c801714f83d553c518e47c06"
+    },
+    {
+      "file": "outputs\\import-2025-20261109\\source\\kt_36001.json",
+      "sha256": "ec357f836f56022cabd605d5a54e19e556c00ab3228d3f6d60e89d185a0080ed"
+    },
+    {
+      "file": "outputs\\import-2025-20261109\\source\\kt_4001.json",
+      "sha256": "e86d88d577242a7775114cfed2df48fe52a48fae699a78e2250857e9d849c0b7"
+    },
+    {
+      "file": "outputs\\import-2025-20261109\\source\\kt_8001.json",
+      "sha256": "a537b9faa3f5d22dad36d5359df3c46d6253b049af6b665babd7c346761b6661"
+    },
+    {
+      "file": "outputs\\import-2025-20261109\\source\\original_0.json",
+      "sha256": "08827596925af4e476203c2282cd6db7c5ec6ea00d14859ceac01081f9b9b917"
+    },
+    {
+      "file": "outputs\\import-2025-20261109\\source\\original_1.json",
+      "sha256": "298fde08268c8e16143eebb7eef660ac27048bbefda9aff7da9525a0129df2cd"
+    },
+    {
+      "file": "outputs\\import-2025-20261109\\source\\btl-links-ui.csv",
+      "sha256": "a58677a99f986e05b30caf0c6b217fae38c5e15e138aff684aa07aca8dd79f32"
+    },
+    {
+      "file": "outputs\\import-2025-20261109\\source\\Tra_lai_hang_ban_20261109.xlsx",
+      "sha256": "ac7609002d59c29a3e6e14672c077ae1ebd641d07a9304494aa18c69c4cea426"
+    },
+    {
+      "file": "outputs\\import-2025-20261109\\buyer-field-confirmation.json",
+      "sha256": "b40ce08fa5904d44eccb6ef3b8dc0a36651a84a94df1c5bcaa4f62f387afe9b0"
+    },
+    {
+      "file": "outputs\\import-2025-20261109\\unmapped-meinvoice-audit.json",
+      "sha256": "a97a21047a0929c13fa4bee8bd835d10ac2d046d22c0e634af8166638b5406d1"
+    },
+    {
+      "file": "outputs\\import-2025-20261109\\unmapped-invoice-detail-review.json",
+      "sha256": "d313bcd80b67c8b5a6244db0debc53fbc2db6ec123d58a37538d654fce57597c"
+    },
+    {
+      "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_1.xls",
+      "sha256": "da70182e4b691ca18e769b5403e2b0429babdc44b5971d9c715a28217cf920b4"
+    },
+    {
+      "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_2.xls",
+      "sha256": "8cae3ae1be2f71c57377656acdc118ccb7d850e0addc6792f676ace6f1904623"
+    },
+    {
+      "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_3.xls",
+      "sha256": "4b30094bb647e025c2dd87c93f2b86176a74e25f185f0cf66e8ec598bc795438"
+    },
+    {
+      "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_33.xls",
+      "sha256": "44542143675ae9ebf271176a200bd2ef0d5220c37f6866c56cfb550119d438c4"
+    },
+    {
+      "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_5.xls",
+      "sha256": "db5cbe855cb62c52f86af1003ea852c2601717c56c1287c40c3bbf87a06ed99d"
+    },
+    {
+      "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_6.xls",
+      "sha256": "8133cdd38b1ba03e6d4ac323b1cc5c80b60f3f3a095ed593c37d30b2fa574a31"
+    },
+    {
+      "file": "data\\Du lieu Amis\\So_chi_tiet_ban_hang_2024.xlsx",
+      "sha256": "3bd10cb45981c1634255e5a0a0a37237853e6bac2f637707514afaa01349df4d"
+    },
+    {
+      "file": "outputs\\import-2025-20261109\\unmapped-gift-confirmation.json",
+      "sha256": "c0f45214245ca7b154c9cdfda05267ac32f4017a3186a8fc22f41760e7fe7eab"
+    },
+    {
+      "file": "data\\Du lieu Meinvoice\\Bang_ke_hoa_don_dieu_chinh_xuat_theo_HD_dieu_chinh_2025.xls",
+      "sha256": "791d20968ca2f6ca29b4116c63803c00166150fac45ac9716e04fc0383c94e4d"
+    },
+    {
+      "file": "data\\Du lieu Meinvoice\\Bang_ke_hoa_don_thay_the_xuat_theo_HD_thay_the_2024_2025.xls",
+      "sha256": "519402e85435b628546dcace62460c3b54e4d665c75f6f819940075afc087193"
+    },
+    {
+      "file": "data\\Du lieu Meinvoice\\Xuat_lai_2026-10-22\\Bang_ke_hoa_don_dieu_chinh_xuat_theo_HD_dieu_chinh_1792636231350.xls",
+      "sha256": "6801ddc8ad0709352adf8462e07a2134abf9eaa040f5c5727109c3774f3daf98"
+    },
+    {
+      "file": "data\\Du lieu Meinvoice\\Xuat_lai_2026-10-22\\Bang_ke_hoa_don_thay_the_xuat_theo_HD_thay_the_1792637478021.xls",
+      "sha256": "c5a93fee4f809da713b7b1d405a0d0cdef94f05c8e9a1c5f93cf35da3bed3a67"
+    },
+    {
+      "file": "data\\Meinv_SAU_PHAT_HANH_20261029\\Bảng kê hóa đơn đã sử dụng\\Bang_ke_hoa_don_da_su_dung_1793291495460_1.xls",
+      "sha256": "da70182e4b691ca18e769b5403e2b0429babdc44b5971d9c715a28217cf920b4"
+    },
+    {
+      "file": "data\\Meinv_SAU_PHAT_HANH_20261029\\Bảng kê hóa đơn đã sử dụng\\Bang_ke_hoa_don_da_su_dung_1793291495460_2.xls",
+      "sha256": "8cae3ae1be2f71c57377656acdc118ccb7d850e0addc6792f676ace6f1904623"
+    },
+    {
+      "file": "data\\Meinv_SAU_PHAT_HANH_20261029\\Bảng kê hóa đơn đã sử dụng\\Bang_ke_hoa_don_da_su_dung_1793291495460_3.xls",
+      "sha256": "4b30094bb647e025c2dd87c93f2b86176a74e25f185f0cf66e8ec598bc795438"
+    },
+    {
+      "file": "data\\Meinv_SAU_PHAT_HANH_20261029\\Bảng kê hóa đơn đã sử dụng\\Bang_ke_hoa_don_da_su_dung_1793291495460_33.xls",
+      "sha256": "44542143675ae9ebf271176a200bd2ef0d5220c37f6866c56cfb550119d438c4"
+    },
+    {
+      "file": "data\\Meinv_SAU_PHAT_HANH_20261029\\Bảng kê hóa đơn đã sử dụng\\Bang_ke_hoa_don_da_su_dung_1793291495460_5.xls",
+      "sha256": "db5cbe855cb62c52f86af1003ea852c2601717c56c1287c40c3bbf87a06ed99d"
+    },
+    {
+      "file": "data\\Meinv_SAU_PHAT_HANH_20261029\\Bảng kê hóa đơn đã sử dụng\\Bang_ke_hoa_don_da_su_dung_1793291495460_6.xls",
+      "sha256": "8133cdd38b1ba03e6d4ac323b1cc5c80b60f3f3a095ed593c37d30b2fa574a31"
+    },
+    {
+      "file": "outputs\\import-2025-20261109\\prepared.json",
+      "sha256": "af5be250ddff53b8b0fd2d49ff307c7848adc5b757a736150726b3e831e9e6d8"
+    },
+    {
+      "file": "outputs\\import-2025-20261109\\source-index.json",
+      "sha256": "9d750acdcd93410ca398dcb220fced6a0d10f95be44e7eed8d96dabb057cbd9c"
+    },
+    {
+      "file": "outputs\\import-2025-20261109\\adjustment-rule-2024-audit.json",
+      "sha256": "fea9be37c54b3af113359be90b159f2b40cba56a4157178e8021ead7f00a2b74"
+    },
+    {
+      "file": "scripts\\data\\check-review\\add-adjusted-import.mjs",
+      "sha256": "6d49964826c0beb0a54836732f679da11e963b84d101eb79c698bd2723c1bc92"
+    },
+    {
+      "file": "scripts\\data\\check-review\\verify-adjusted-import.py",
+      "sha256": "f1b766555fae347aa0765116a30ca9e18343138bcfa5f4eff43c218c322a0aef"
+    },
+    {
+      "file": "data\\Meinv\\2025\\Bang_ke_hoa_don_da_su_dung_1793262482896_8.xls",
+      "sha256": "8325dac977050486fed3a6b1f94fa5dea58b35d7ec91c05a4da3fc925c754e30"
+    },
+    {
+      "file": "data\\Meinv\\2026\\Bang_ke_hoa_don_da_su_dung_1793263115369_1.xls",
+      "sha256": "dcff57b9725f8d804f2b421e8435ae9664a08aaba060d92d3204fe7afac9f001"
+    },
+    {
+      "file": "data\\Meinv\\2025\\Bang_ke_hoa_don_da_su_dung_1793262482896_7.xls",
+      "sha256": "c5be00f597c135920df8624328245afe6f321f8bc8feb78ea05f43769b038b3f"
+    },
+    {
+      "file": "data\\Meinv\\2025\\Bang_ke_hoa_don_da_su_dung_1793262482896_5.xls",
+      "sha256": "e6cb8e247d9105afbc2ed6c34a2a867b1783913bae999e9362d3fee84bf5794a"
+    },
+    {
+      "file": "data\\Meinv\\2025\\Bang_ke_hoa_don_da_su_dung_1793262482896_2.xls",
+      "sha256": "aace3c45ad60adba5007ef8fda02c0009b1dba80d63ce3a4ee5784e4f46177ec"
+    },
+    {
+      "file": "data\\Meinv\\2025\\Bang_ke_hoa_don_da_su_dung_1793262482896_4.xls",
+      "sha256": "57bb5572e7ebec8785b629896725769d3669e5e54c0ee97a32ef36d6cb22da8c"
+    },
+    {
+      "file": "data\\Du lieu Meinvoice\\Bang_ke_chi_tiet_HD_da_su_dung_2025.xls",
+      "sha256": "ddff45352ffa1a0310ea5883b86d44267e4cf736e9750f1e7d7438ccacade34c"
+    },
+    {
+      "file": "data\\Du lieu Meinvoice\\Bang_ke_chi_tiet_HD_da_su_dung_2025_MTT.xls",
+      "sha256": "982d1e4725fca090a22e16fff15eb8efc82cc3b3462a0636c21439fc336a608d"
+    },
+    {
+      "file": "data\\Meinv_SAU_DIEU_CHINH_THAY_THE_20261101\\CHI_TIET\\Bang_ke_chi_tiet_hoa_don_da_su_dung_20261101_161720.xls",
+      "sha256": "c9f1244fae37c5189888b578a68bbf4ffb196fbe3202b03799d354c620779375"
+    }
+  ],
+  "exported_files": [
+    {
+      "file": "IMPORT_HD_MOI_2025.xlsx",
+      "invoices": 30244,
+      "rows": 35016,
+      "sha256": "d38e211d908d9c4d39aac54f0089f0c5ab8146d9e1b5a261682f5f43894793b6"
+    },
+    {
+      "file": "IMPORT_DIEU_CHINH_VE_0_2025.xlsx",
+      "invoices": 25,
+      "rows": 33,
+      "sha256": "d9bd61b46cbb4daf65bc3fa49bd809d3d74cddcb6d240996e31f63ecf95ad70d"
+    },
+    {
+      "file": "IMPORT_THAY_THE_VE_0_2025.xlsx",
+      "invoices": 2039,
+      "rows": 2039,
+      "sha256": "c676a8a695b0b5ab4b6424ab7f5f07c9d9ce8c9e4ddf1258215d20bbba6c32e3"
+    },
+    {
+      "file": "BAO_CAO_IMPORT_2025.xlsx",
+      "sha256": "42c552a3035d98b405d1f6da90469446e737062e9983d1e6b2724050b0431786"
+    },
+    {
+      "file": "IMPORT_DIEU_CHINH_BTL_2025_CHO_SO_HD.xlsx",
+      "invoices": 321,
+      "rows": 410,
+      "sha256": "6573a515321dc212214c16fb7726db3d46514c32820bdf7af0098aec76ea51aa"
+    }
+  ],
+  "new_docs_unique": 30244,
+  "zero_chains": 2057,
+  "no_company_import": true,
+  "all_import_cells_roundtrip": true,
+  "new_invoice_references_checked": 638,
+  "return_links": 322,
+  "return_source_lines": 412,
+  "return_draft_docs": 321,
+  "return_draft_lines": 410,
+  "return_amount_exceptions": {
+    "BHHS2025006140": [
+      "Số lượng hoặc tiền trả vượt số bán cùng mã/ĐVT"
+    ],
+    "BHHS2025012114": [
+      "Số lượng hoặc tiền trả vượt số bán cùng mã/ĐVT"
+    ]
+  },
+  "limitations": [
+    "Đã nối đủ 322 phiếu/412 dòng trả hàng trực tiếp trên AMIS; dự thảo trả lại còn chờ số HĐ thực tế, không tự điền số tương lai.",
+    "Khớp đủ tiền được giữ theo yêu cầu. Cột kiểm chi tiết chỉ ghi kết quả so tên/ĐVT/SL nguyên văn, chưa quy đổi combo/model.",
+    "Chỉ có nguồn meInvoice đến 29/10 và bổ sung 01/11/2026, chưa xác minh phát sinh mới hơn.",
+    "Chuỗi thay thế phức tạp và chuỗi dùng chung với phần giữ/loại tách chờ."
+  ],
+  "matched_amis_zero_chains": 574,
+  "unmapped_zero_chains": 1483,
+  "historical_unmapped_source_verification": {
+    "passed": true,
+    "new_chains": 1483,
+    "new_replacements": 1472,
+    "new_adjustments": 11,
+    "payment_to_zero": 2560105903.0,
+    "all_f0_f1_f2_checked": true,
+    "original_cells_checked": 1505,
+    "old_import_rows_retained": true,
+    "sales_and_btl_binary_unchanged": true,
+    "gift_kt_check": 16,
+    "source_exceptions": 2
+  },
+  "historical_unmapped_source_verification_note": "Source-chain audit before adjustment rows were rebuilt under 2024 workflow; old row-retention checks describe that earlier snapshot only.",
+  "adjustment_rule_2024_verification": {
+    "passed": true,
+    "chains": 18,
+    "invoices": 25,
+    "rows": 33,
+    "reverse_prior_nonzero": 7,
+    "reverse_original_detail": 18,
+    "zero_prior_verified_not_reissued": 13,
+    "original_names_exact": true,
+    "all_references_f0": true,
+    "all_three_balances_zero": true,
+    "totals_unchanged": [
+      -24905775.0,
+      -1992466.0,
+      -26898241.0
+    ],
+    "other_three_imports_binary_unchanged": true,
+    "source_price_preserved_flags": 13,
+    "live_source_rows_checked": 86
+  }
+}

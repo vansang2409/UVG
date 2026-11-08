@@ -1,0 +1,37 @@
+{
+  "confirmed_on": "2026-11-09",
+  "user_confirmation": "số lượng đúng là 2 nha; với BHDV là dịch vụ nha",
+  "business_type_rule": {
+    "document_prefix": "BHDV",
+    "classification": "Dịch vụ",
+    "scope": "UVG sales/import documents; preserve existing source names, service units and tax amounts"
+  },
+  "quantity_scope": "Only these two documents; do not change every BHDV quantity",
+  "records": [
+    {
+      "doc": "BHDV20250104",
+      "source": "SỔ CHI TIẾT BÁN HÀNG!23903",
+      "sku": "PSC1",
+      "source_quantity": 1,
+      "import_quantity": 2,
+      "unit": "Lần",
+      "price": 138889,
+      "goods": 277778,
+      "vat": 22222,
+      "pay": 300000
+    },
+    {
+      "doc": "BHDV20250115",
+      "source": "SỔ CHI TIẾT BÁN HÀNG!996",
+      "sku": "PSC1",
+      "source_quantity": 1,
+      "import_quantity": 2,
+      "unit": "Lần",
+      "price": 138889,
+      "goods": 277778,
+      "vat": 22222,
+      "pay": 300000
+    }
+  ],
+  "source_files_preserved": true
+}

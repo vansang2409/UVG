@@ -1,0 +1,13 @@
+{
+  "groups": 34739,
+  "rows": 44189,
+  "changedCells": 5135,
+  "fromRow": 39064,
+  "toRow": 44198,
+  "verifiedRows": 44189,
+  "uniqueInvoices": 34739,
+  "unchangedOtherCells": 839591,
+  "lastInvoiceNumber": 34739,
+  "fieldMask": "userEnteredValue",
+  "date": "2026-10-31"
+}

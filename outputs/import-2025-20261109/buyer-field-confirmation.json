@@ -1,0 +1,8 @@
+{
+  "confirmed_on": "2026-11-09",
+  "user_confirmation": "Tên đơn vị mua hàng là tên công ty; khách lẻ phải để ở Người mua hàng",
+  "scope": "Bốn bộ dự thảo import và tab dự thảo BTL trong báo cáo",
+  "retail_rule": "Để trống tên đơn vị; giữ Người mua hàng đã có, nếu trống thì chuyển tên khách lẻ nguồn sang Người mua hàng",
+  "organization_rule": "Giữ nguyên tên đơn vị có tên pháp nhân/tổ chức rõ ràng, MST và thông tin liên hệ nguồn",
+  "preserve_source_files_and_financial_fields": true
+}

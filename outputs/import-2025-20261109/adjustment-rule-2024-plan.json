@@ -1,0 +1,897 @@
+{
+  "chains": [
+    {
+      "root": "1C25MUV/00032600",
+      "old_sequence": 1,
+      "sequences": [
+        1,
+        2
+      ],
+      "original_reversal_sequence": 2,
+      "before": [
+        829444.0,
+        66356.0,
+        895800.0
+      ],
+      "origin": "AMIS"
+    },
+    {
+      "root": "1C25MUV/00026690",
+      "old_sequence": 2,
+      "sequences": [
+        3,
+        4
+      ],
+      "original_reversal_sequence": 4,
+      "before": [
+        628702,
+        50297,
+        678999
+      ],
+      "origin": "AMIS"
+    },
+    {
+      "root": "1C25MUV/00026571",
+      "old_sequence": 3,
+      "sequences": [
+        5,
+        6
+      ],
+      "original_reversal_sequence": 6,
+      "before": [
+        628703,
+        50297,
+        679000
+      ],
+      "origin": "AMIS"
+    },
+    {
+      "root": "1C25MUV/00028813",
+      "old_sequence": 4,
+      "sequences": [
+        7,
+        8
+      ],
+      "original_reversal_sequence": 8,
+      "before": [
+        2693517.0,
+        215482.0,
+        2908999.0
+      ],
+      "origin": "AMIS"
+    },
+    {
+      "root": "1C25MUV/00016133",
+      "old_sequence": 5,
+      "sequences": [
+        9,
+        10
+      ],
+      "original_reversal_sequence": 10,
+      "before": [
+        1369445.0,
+        109555.0,
+        1479000.0
+      ],
+      "origin": "AMIS"
+    },
+    {
+      "root": "1C25MUV/00015799",
+      "old_sequence": 6,
+      "sequences": [
+        11,
+        12
+      ],
+      "original_reversal_sequence": 12,
+      "before": [
+        2443518.0,
+        195482.0,
+        2639000.0
+      ],
+      "origin": "AMIS"
+    },
+    {
+      "root": "1C25TUV/00012495",
+      "old_sequence": 7,
+      "sequences": [
+        13,
+        14
+      ],
+      "original_reversal_sequence": 14,
+      "before": [
+        -1291666.0,
+        -103334.0,
+        -1395000.0
+      ],
+      "origin": "AMIS"
+    },
+    {
+      "root": "1C25MUV/00026433",
+      "old_sequence": 8,
+      "sequences": [
+        15
+      ],
+      "original_reversal_sequence": 15,
+      "before": [
+        1055443.0,
+        84435.0,
+        1139878.0
+      ],
+      "origin": "Chưa nối AMIS"
+    },
+    {
+      "root": "1C25MUV/00026457",
+      "old_sequence": 9,
+      "sequences": [
+        16
+      ],
+      "original_reversal_sequence": 16,
+      "before": [
+        1259889.0,
+        100791.0,
+        1360680.0
+      ],
+      "origin": "Chưa nối AMIS"
+    },
+    {
+      "root": "1C25MUV/00026483",
+      "old_sequence": 10,
+      "sequences": [
+        17
+      ],
+      "original_reversal_sequence": 17,
+      "before": [
+        2073148.0,
+        165852.0,
+        2239000.0
+      ],
+      "origin": "Chưa nối AMIS"
+    },
+    {
+      "root": "1C25MUV/00026504",
+      "old_sequence": 11,
+      "sequences": [
+        18
+      ],
+      "original_reversal_sequence": 18,
+      "before": [
+        1309188.0,
+        104735.0,
+        1413923.0
+      ],
+      "origin": "Chưa nối AMIS"
+    },
+    {
+      "root": "1C25MUV/00026521",
+      "old_sequence": 12,
+      "sequences": [
+        19
+      ],
+      "original_reversal_sequence": 19,
+      "before": [
+        1096744.0,
+        87740.0,
+        1184484.0
+      ],
+      "origin": "Chưa nối AMIS"
+    },
+    {
+      "root": "1C25MUV/00026582",
+      "old_sequence": 13,
+      "sequences": [
+        20
+      ],
+      "original_reversal_sequence": 20,
+      "before": [
+        1795370.0,
+        143630.0,
+        1939000.0
+      ],
+      "origin": "Chưa nối AMIS"
+    },
+    {
+      "root": "1C25MUV/00026589",
+      "old_sequence": 14,
+      "sequences": [
+        21
+      ],
+      "original_reversal_sequence": 21,
+      "before": [
+        2073147.0,
+        165852.0,
+        2238999.0
+      ],
+      "origin": "Chưa nối AMIS"
+    },
+    {
+      "root": "1C25MUV/00026591",
+      "old_sequence": 15,
+      "sequences": [
+        22
+      ],
+      "original_reversal_sequence": 22,
+      "before": [
+        1999074.0,
+        159926.0,
+        2159000.0
+      ],
+      "origin": "Chưa nối AMIS"
+    },
+    {
+      "root": "1C25MUV/00026719",
+      "old_sequence": 16,
+      "sequences": [
+        23
+      ],
+      "original_reversal_sequence": 23,
+      "before": [
+        481107.0,
+        38489.0,
+        519596.0
+      ],
+      "origin": "Chưa nối AMIS"
+    },
+    {
+      "root": "1C25MUV/00026795",
+      "old_sequence": 17,
+      "sequences": [
+        24
+      ],
+      "original_reversal_sequence": 24,
+      "before": [
+        3128596.0,
+        250288.0,
+        3378884.0
+      ],
+      "origin": "Chưa nối AMIS"
+    },
+    {
+      "root": "1C25MUV/00026822",
+      "old_sequence": 18,
+      "sequences": [
+        25
+      ],
+      "original_reversal_sequence": 25,
+      "before": [
+        1332406.0,
+        106593.0,
+        1438999.0
+      ],
+      "origin": "Chưa nối AMIS"
+    }
+  ],
+  "rows": [
+    {
+      "seq": 1,
+      "root": "1C25MUV/00032600",
+      "source_invoice": "1C26MUV/00002643",
+      "role": "Đảo khoản điều chỉnh cũ",
+      "first": true,
+      "source": {
+        "file": "data\\Meinv\\2026\\Bang_ke_hoa_don_da_su_dung_1793263115369_1.xls",
+        "row": 2648
+      }
+    },
+    {
+      "seq": 2,
+      "root": "1C25MUV/00032600",
+      "source_invoice": "1C25MUV/00032600",
+      "role": "Giảm toàn bộ chi tiết F0",
+      "first": true,
+      "source": {
+        "file": "data\\Du lieu Meinvoice\\Bang_ke_chi_tiet_HD_da_su_dung_2025_MTT.xls",
+        "row": 2447
+      }
+    },
+    {
+      "seq": 2,
+      "root": "1C25MUV/00032600",
+      "source_invoice": "1C25MUV/00032600",
+      "role": "Giảm toàn bộ chi tiết F0",
+      "first": false,
+      "source": {
+        "file": "data\\Du lieu Meinvoice\\Bang_ke_chi_tiet_HD_da_su_dung_2025_MTT.xls",
+        "row": 2448
+      }
+    },
+    {
+      "seq": 2,
+      "root": "1C25MUV/00032600",
+      "source_invoice": "1C25MUV/00032600",
+      "role": "Giảm toàn bộ chi tiết F0",
+      "first": false,
+      "source": {
+        "file": "data\\Du lieu Meinvoice\\Bang_ke_chi_tiet_HD_da_su_dung_2025_MTT.xls",
+        "row": 2449
+      }
+    },
+    {
+      "seq": 3,
+      "root": "1C25MUV/00026690",
+      "source_invoice": "1C25MUV/00034888",
+      "role": "Đảo khoản điều chỉnh cũ",
+      "first": true,
+      "source": {
+        "file": "data\\Meinv\\2025\\Bang_ke_hoa_don_da_su_dung_1793262482896_8.xls",
+        "row": 4427
+      }
+    },
+    {
+      "seq": 4,
+      "root": "1C25MUV/00026690",
+      "source_invoice": "1C25MUV/00026690",
+      "role": "Giảm toàn bộ chi tiết F0",
+      "first": true,
+      "source": {
+        "file": "data\\Du lieu Meinvoice\\Bang_ke_chi_tiet_HD_da_su_dung_2025_MTT.xls",
+        "row": 9405
+      }
+    },
+    {
+      "seq": 5,
+      "root": "1C25MUV/00026571",
+      "source_invoice": "1C25MUV/00034889",
+      "role": "Đảo khoản điều chỉnh cũ",
+      "first": true,
+      "source": {
+        "file": "data\\Meinv\\2025\\Bang_ke_hoa_don_da_su_dung_1793262482896_8.xls",
+        "row": 4428
+      }
+    },
+    {
+      "seq": 6,
+      "root": "1C25MUV/00026571",
+      "source_invoice": "1C25MUV/00026571",
+      "role": "Giảm toàn bộ chi tiết F0",
+      "first": true,
+      "source": {
+        "file": "data\\Du lieu Meinvoice\\Bang_ke_chi_tiet_HD_da_su_dung_2025_MTT.xls",
+        "row": 9587
+      }
+    },
+    {
+      "seq": 7,
+      "root": "1C25MUV/00028813",
+      "source_invoice": "1C26MUV/00002199",
+      "role": "Đảo khoản điều chỉnh cũ",
+      "first": true,
+      "source": {
+        "file": "data\\Meinv\\2026\\Bang_ke_hoa_don_da_su_dung_1793263115369_1.xls",
+        "row": 2204
+      }
+    },
+    {
+      "seq": 8,
+      "root": "1C25MUV/00028813",
+      "source_invoice": "1C25MUV/00028813",
+      "role": "Giảm toàn bộ chi tiết F0",
+      "first": true,
+      "source": {
+        "file": "data\\Du lieu Meinvoice\\Bang_ke_chi_tiet_HD_da_su_dung_2025_MTT.xls",
+        "row": 6948
+      }
+    },
+    {
+      "seq": 8,
+      "root": "1C25MUV/00028813",
+      "source_invoice": "1C25MUV/00028813",
+      "role": "Giảm toàn bộ chi tiết F0",
+      "first": false,
+      "source": {
+        "file": "data\\Du lieu Meinvoice\\Bang_ke_chi_tiet_HD_da_su_dung_2025_MTT.xls",
+        "row": 6949
+      }
+    },
+    {
+      "seq": 8,
+      "root": "1C25MUV/00028813",
+      "source_invoice": "1C25MUV/00028813",
+      "role": "Giảm toàn bộ chi tiết F0",
+      "first": false,
+      "source": {
+        "file": "data\\Du lieu Meinvoice\\Bang_ke_chi_tiet_HD_da_su_dung_2025_MTT.xls",
+        "row": 6950
+      }
+    },
+    {
+      "seq": 9,
+      "root": "1C25MUV/00016133",
+      "source_invoice": "1C25MUV/00017326",
+      "role": "Đảo khoản điều chỉnh cũ",
+      "first": true,
+      "source": {
+        "file": "data\\Meinv\\2025\\Bang_ke_hoa_don_da_su_dung_1793262482896_5.xls",
+        "row": 5229
+      }
+    },
+    {
+      "seq": 10,
+      "root": "1C25MUV/00016133",
+      "source_invoice": "1C25MUV/00016133",
+      "role": "Giảm toàn bộ chi tiết F0",
+      "first": true,
+      "source": {
+        "file": "data\\Du lieu Meinvoice\\Bang_ke_chi_tiet_HD_da_su_dung_2025_MTT.xls",
+        "row": 21846
+      }
+    },
+    {
+      "seq": 11,
+      "root": "1C25MUV/00015799",
+      "source_invoice": "1C25MUV/00017327",
+      "role": "Đảo khoản điều chỉnh cũ",
+      "first": true,
+      "source": {
+        "file": "data\\Meinv\\2025\\Bang_ke_hoa_don_da_su_dung_1793262482896_5.xls",
+        "row": 5230
+      }
+    },
+    {
+      "seq": 12,
+      "root": "1C25MUV/00015799",
+      "source_invoice": "1C25MUV/00015799",
+      "role": "Giảm toàn bộ chi tiết F0",
+      "first": true,
+      "source": {
+        "file": "data\\Du lieu Meinvoice\\Bang_ke_chi_tiet_HD_da_su_dung_2025_MTT.xls",
+        "row": 22193
+      }
+    },
+    {
+      "seq": 13,
+      "root": "1C25TUV/00012495",
+      "source_invoice": "1C25TUV/00012922",
+      "role": "Đảo khoản điều chỉnh cũ",
+      "first": true,
+      "source": {
+        "file": "data\\Meinv\\2025\\Bang_ke_hoa_don_da_su_dung_1793262482896_4.xls",
+        "row": 1665
+      }
+    },
+    {
+      "seq": 14,
+      "root": "1C25TUV/00012495",
+      "source_invoice": "1C25TUV/00012495",
+      "role": "Giảm toàn bộ chi tiết F0",
+      "first": true,
+      "source": {
+        "file": "data\\Du lieu Meinvoice\\Bang_ke_chi_tiet_HD_da_su_dung_2025.xls",
+        "row": 801
+      }
+    },
+    {
+      "seq": 15,
+      "root": "1C25MUV/00026433",
+      "source_invoice": "1C25MUV/00026433",
+      "role": "Giảm toàn bộ chi tiết F0",
+      "first": true,
+      "source": {
+        "file": "data\\Du lieu Meinvoice\\Bang_ke_chi_tiet_HD_da_su_dung_2025_MTT.xls",
+        "row": 9725
+      }
+    },
+    {
+      "seq": 16,
+      "root": "1C25MUV/00026457",
+      "source_invoice": "1C25MUV/00026457",
+      "role": "Giảm toàn bộ chi tiết F0",
+      "first": true,
+      "source": {
+        "file": "data\\Du lieu Meinvoice\\Bang_ke_chi_tiet_HD_da_su_dung_2025_MTT.xls",
+        "row": 9701
+      }
+    },
+    {
+      "seq": 17,
+      "root": "1C25MUV/00026483",
+      "source_invoice": "1C25MUV/00026483",
+      "role": "Giảm toàn bộ chi tiết F0",
+      "first": true,
+      "source": {
+        "file": "data\\Du lieu Meinvoice\\Bang_ke_chi_tiet_HD_da_su_dung_2025_MTT.xls",
+        "row": 9675
+      }
+    },
+    {
+      "seq": 18,
+      "root": "1C25MUV/00026504",
+      "source_invoice": "1C25MUV/00026504",
+      "role": "Giảm toàn bộ chi tiết F0",
+      "first": true,
+      "source": {
+        "file": "data\\Du lieu Meinvoice\\Bang_ke_chi_tiet_HD_da_su_dung_2025_MTT.xls",
+        "row": 9654
+      }
+    },
+    {
+      "seq": 19,
+      "root": "1C25MUV/00026521",
+      "source_invoice": "1C25MUV/00026521",
+      "role": "Giảm toàn bộ chi tiết F0",
+      "first": true,
+      "source": {
+        "file": "data\\Du lieu Meinvoice\\Bang_ke_chi_tiet_HD_da_su_dung_2025_MTT.xls",
+        "row": 9637
+      }
+    },
+    {
+      "seq": 20,
+      "root": "1C25MUV/00026582",
+      "source_invoice": "1C25MUV/00026582",
+      "role": "Giảm toàn bộ chi tiết F0",
+      "first": true,
+      "source": {
+        "file": "data\\Du lieu Meinvoice\\Bang_ke_chi_tiet_HD_da_su_dung_2025_MTT.xls",
+        "row": 9565
+      }
+    },
+    {
+      "seq": 20,
+      "root": "1C25MUV/00026582",
+      "source_invoice": "1C25MUV/00026582",
+      "role": "Giảm toàn bộ chi tiết F0",
+      "first": false,
+      "source": {
+        "file": "data\\Du lieu Meinvoice\\Bang_ke_chi_tiet_HD_da_su_dung_2025_MTT.xls",
+        "row": 9566
+      }
+    },
+    {
+      "seq": 21,
+      "root": "1C25MUV/00026589",
+      "source_invoice": "1C25MUV/00026589",
+      "role": "Giảm toàn bộ chi tiết F0",
+      "first": true,
+      "source": {
+        "file": "data\\Du lieu Meinvoice\\Bang_ke_chi_tiet_HD_da_su_dung_2025_MTT.xls",
+        "row": 9551
+      }
+    },
+    {
+      "seq": 21,
+      "root": "1C25MUV/00026589",
+      "source_invoice": "1C25MUV/00026589",
+      "role": "Giảm toàn bộ chi tiết F0",
+      "first": false,
+      "source": {
+        "file": "data\\Du lieu Meinvoice\\Bang_ke_chi_tiet_HD_da_su_dung_2025_MTT.xls",
+        "row": 9552
+      }
+    },
+    {
+      "seq": 22,
+      "root": "1C25MUV/00026591",
+      "source_invoice": "1C25MUV/00026591",
+      "role": "Giảm toàn bộ chi tiết F0",
+      "first": true,
+      "source": {
+        "file": "data\\Du lieu Meinvoice\\Bang_ke_chi_tiet_HD_da_su_dung_2025_MTT.xls",
+        "row": 9547
+      }
+    },
+    {
+      "seq": 22,
+      "root": "1C25MUV/00026591",
+      "source_invoice": "1C25MUV/00026591",
+      "role": "Giảm toàn bộ chi tiết F0",
+      "first": false,
+      "source": {
+        "file": "data\\Du lieu Meinvoice\\Bang_ke_chi_tiet_HD_da_su_dung_2025_MTT.xls",
+        "row": 9548
+      }
+    },
+    {
+      "seq": 23,
+      "root": "1C25MUV/00026719",
+      "source_invoice": "1C25MUV/00026719",
+      "role": "Giảm toàn bộ chi tiết F0",
+      "first": true,
+      "source": {
+        "file": "data\\Du lieu Meinvoice\\Bang_ke_chi_tiet_HD_da_su_dung_2025_MTT.xls",
+        "row": 9376
+      }
+    },
+    {
+      "seq": 24,
+      "root": "1C25MUV/00026795",
+      "source_invoice": "1C25MUV/00026795",
+      "role": "Giảm toàn bộ chi tiết F0",
+      "first": true,
+      "source": {
+        "file": "data\\Du lieu Meinvoice\\Bang_ke_chi_tiet_HD_da_su_dung_2025_MTT.xls",
+        "row": 9266
+      }
+    },
+    {
+      "seq": 24,
+      "root": "1C25MUV/00026795",
+      "source_invoice": "1C25MUV/00026795",
+      "role": "Giảm toàn bộ chi tiết F0",
+      "first": false,
+      "source": {
+        "file": "data\\Du lieu Meinvoice\\Bang_ke_chi_tiet_HD_da_su_dung_2025_MTT.xls",
+        "row": 9267
+      }
+    },
+    {
+      "seq": 25,
+      "root": "1C25MUV/00026822",
+      "source_invoice": "1C25MUV/00026822",
+      "role": "Giảm toàn bộ chi tiết F0",
+      "first": true,
+      "source": {
+        "file": "data\\Du lieu Meinvoice\\Bang_ke_chi_tiet_HD_da_su_dung_2025_MTT.xls",
+        "row": 9238
+      }
+    }
+  ],
+  "skipped_zero_adjustments": [
+    {
+      "root": "1C25MUV/00026690",
+      "invoice": "1C25MUV/00027917",
+      "money": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "root": "1C25MUV/00026571",
+      "invoice": "1C25MUV/00028269",
+      "money": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "root": "1C25MUV/00026433",
+      "invoice": "1C25MUV/00028131",
+      "money": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "root": "1C25MUV/00026457",
+      "invoice": "1C25MUV/00028155",
+      "money": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "root": "1C25MUV/00026483",
+      "invoice": "1C25MUV/00028181",
+      "money": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "root": "1C25MUV/00026504",
+      "invoice": "1C25MUV/00028202",
+      "money": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "root": "1C25MUV/00026521",
+      "invoice": "1C25MUV/00028219",
+      "money": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "root": "1C25MUV/00026582",
+      "invoice": "1C25MUV/00027849",
+      "money": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "root": "1C25MUV/00026589",
+      "invoice": "1C25MUV/00027856",
+      "money": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "root": "1C25MUV/00026591",
+      "invoice": "1C25MUV/00027858",
+      "money": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "root": "1C25MUV/00026719",
+      "invoice": "1C25MUV/00027946",
+      "money": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "root": "1C25MUV/00026795",
+      "invoice": "1C25MUV/00028022",
+      "money": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "root": "1C25MUV/00026822",
+      "invoice": "1C25MUV/00028049",
+      "money": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "source_price_flags": [
+    {
+      "root": "1C25MUV/00026690",
+      "source": {
+        "file": "data\\Du lieu Meinvoice\\Bang_ke_chi_tiet_HD_da_su_dung_2025_MTT.xls",
+        "row": 9405
+      },
+      "source_qty": 1,
+      "source_price": 0,
+      "source_goods": 545369,
+      "preserved": true
+    },
+    {
+      "root": "1C25MUV/00026571",
+      "source": {
+        "file": "data\\Du lieu Meinvoice\\Bang_ke_chi_tiet_HD_da_su_dung_2025_MTT.xls",
+        "row": 9587
+      },
+      "source_qty": 1,
+      "source_price": 0,
+      "source_goods": 499074,
+      "preserved": true
+    },
+    {
+      "root": "1C25MUV/00026433",
+      "source": {
+        "file": "data\\Du lieu Meinvoice\\Bang_ke_chi_tiet_HD_da_su_dung_2025_MTT.xls",
+        "row": 9725
+      },
+      "source_qty": 1,
+      "source_price": 0,
+      "source_goods": 1055443,
+      "preserved": true
+    },
+    {
+      "root": "1C25MUV/00026457",
+      "source": {
+        "file": "data\\Du lieu Meinvoice\\Bang_ke_chi_tiet_HD_da_su_dung_2025_MTT.xls",
+        "row": 9701
+      },
+      "source_qty": 1,
+      "source_price": 0,
+      "source_goods": 1259889,
+      "preserved": true
+    },
+    {
+      "root": "1C25MUV/00026483",
+      "source": {
+        "file": "data\\Du lieu Meinvoice\\Bang_ke_chi_tiet_HD_da_su_dung_2025_MTT.xls",
+        "row": 9675
+      },
+      "source_qty": 1,
+      "source_price": 0,
+      "source_goods": 2073148,
+      "preserved": true
+    },
+    {
+      "root": "1C25MUV/00026504",
+      "source": {
+        "file": "data\\Du lieu Meinvoice\\Bang_ke_chi_tiet_HD_da_su_dung_2025_MTT.xls",
+        "row": 9654
+      },
+      "source_qty": 1,
+      "source_price": 0,
+      "source_goods": 1309188,
+      "preserved": true
+    },
+    {
+      "root": "1C25MUV/00026521",
+      "source": {
+        "file": "data\\Du lieu Meinvoice\\Bang_ke_chi_tiet_HD_da_su_dung_2025_MTT.xls",
+        "row": 9637
+      },
+      "source_qty": 1,
+      "source_price": 0,
+      "source_goods": 1096744,
+      "preserved": true
+    },
+    {
+      "root": "1C25MUV/00026582",
+      "source": {
+        "file": "data\\Du lieu Meinvoice\\Bang_ke_chi_tiet_HD_da_su_dung_2025_MTT.xls",
+        "row": 9565
+      },
+      "source_qty": 1,
+      "source_price": 0,
+      "source_goods": 1795370,
+      "preserved": true
+    },
+    {
+      "root": "1C25MUV/00026589",
+      "source": {
+        "file": "data\\Du lieu Meinvoice\\Bang_ke_chi_tiet_HD_da_su_dung_2025_MTT.xls",
+        "row": 9551
+      },
+      "source_qty": 1,
+      "source_price": 0,
+      "source_goods": 2073147,
+      "preserved": true
+    },
+    {
+      "root": "1C25MUV/00026591",
+      "source": {
+        "file": "data\\Du lieu Meinvoice\\Bang_ke_chi_tiet_HD_da_su_dung_2025_MTT.xls",
+        "row": 9547
+      },
+      "source_qty": 1,
+      "source_price": 0,
+      "source_goods": 1999074,
+      "preserved": true
+    },
+    {
+      "root": "1C25MUV/00026719",
+      "source": {
+        "file": "data\\Du lieu Meinvoice\\Bang_ke_chi_tiet_HD_da_su_dung_2025_MTT.xls",
+        "row": 9376
+      },
+      "source_qty": 1,
+      "source_price": 0,
+      "source_goods": 481107,
+      "preserved": true
+    },
+    {
+      "root": "1C25MUV/00026795",
+      "source": {
+        "file": "data\\Du lieu Meinvoice\\Bang_ke_chi_tiet_HD_da_su_dung_2025_MTT.xls",
+        "row": 9266
+      },
+      "source_qty": 1,
+      "source_price": 0,
+      "source_goods": 3128596,
+      "preserved": true
+    },
+    {
+      "root": "1C25MUV/00026822",
+      "source": {
+        "file": "data\\Du lieu Meinvoice\\Bang_ke_chi_tiet_HD_da_su_dung_2025_MTT.xls",
+        "row": 9238
+      },
+      "source_qty": 1,
+      "source_price": 0,
+      "source_goods": 1332406,
+      "preserved": true
+    }
+  ],
+  "invoices": 25,
+  "line_count": 33,
+  "identity_rule": "C=H và F=L của bảng tổng F0, giữ riêng hai trường, không fallback",
+  "workflow": "Đảo khoản điều chỉnh cũ khác0 → giảm chi tiết F0",
+  "audit_file": "adjustment-rule-2024-audit.json"
+}

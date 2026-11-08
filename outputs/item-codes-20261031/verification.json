@@ -1,0 +1,74 @@
+{
+  "date": "2026-10-31",
+  "spreadsheet": "1d4fLQRALDLXOFOQQlZuXMCTAg4lnRQ7NbKH-UPJN0XE",
+  "source": "data/Du lieu Amis/So_chi_tiet_ban_hang_2024.xlsx",
+  "match": "Exact voucher + whitespace-normalized item name, unique code required",
+  "column": "S",
+  "checks": [
+    {
+      "tab": "Hóa đơn GTGT",
+      "lines": 44189,
+      "mismatches": 0
+    },
+    {
+      "tab": "Tháng 01-2024",
+      "lines": 2911,
+      "mismatches": 0
+    },
+    {
+      "tab": "Tháng 02-2024",
+      "lines": 1158,
+      "mismatches": 0
+    },
+    {
+      "tab": "Tháng 03-2024",
+      "lines": 1891,
+      "mismatches": 0
+    },
+    {
+      "tab": "Tháng 04-2024",
+      "lines": 4375,
+      "mismatches": 0
+    },
+    {
+      "tab": "Tháng 05-2024",
+      "lines": 3201,
+      "mismatches": 0
+    },
+    {
+      "tab": "Tháng 06-2024",
+      "lines": 3885,
+      "mismatches": 0
+    },
+    {
+      "tab": "Tháng 07-2024",
+      "lines": 4051,
+      "mismatches": 0
+    },
+    {
+      "tab": "Tháng 08-2024",
+      "lines": 4451,
+      "mismatches": 0
+    },
+    {
+      "tab": "Tháng 09-2024",
+      "lines": 4602,
+      "mismatches": 0
+    },
+    {
+      "tab": "Tháng 10-2024",
+      "lines": 4762,
+      "mismatches": 0
+    },
+    {
+      "tab": "Tháng 11-2024",
+      "lines": 4384,
+      "mismatches": 0
+    },
+    {
+      "tab": "Tháng 12-2024",
+      "lines": 4518,
+      "mismatches": 0
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "verified_strong_matches": 89,
+  "unique_amis_rows": 89,
+  "residual_groups_verified": 99,
+  "source_hashes_verified": 7,
+  "source_total_files_scanned_for_order_reuse": 33,
+  "strong_order_codes_on_multiple_invoices": {
+    "251229MWJ0WUKR": [
+      {
+        "key": [
+          "1C26MUV",
+          "00000031"
+        ],
+        "date": "02/01/2026",
+        "status": "Hóa đơn đã bị điều chỉnh",
+        "vat": "50296",
+        "payment": "679000",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4480
+      },
+      {
+        "key": [
+          "1C26MUV",
+          "00058521"
+        ],
+        "date": "03/07/2026",
+        "status": "Hoá đơn điều chỉnh",
+        "vat": "-50296",
+        "payment": "-679000",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_23.xls",
+        "row": 1481
+      }
+    ]
+  },
+  "read_only": true
+}

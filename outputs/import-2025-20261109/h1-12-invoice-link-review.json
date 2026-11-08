@@ -1,0 +1,261 @@
+{
+  "checked_on": "2026-11-09",
+  "records": [
+    {
+      "doc": "BHHS2025010077",
+      "order": "250627KTGAJCGY",
+      "date": "2025-06-27",
+      "goods": 656481,
+      "vat": 52519,
+      "pay": 709000,
+      "snapshot_invoice": "1C25TUV/00012546",
+      "snapshot_invoice_date": "2025-07-11",
+      "snapshot_invoice_pay": "2355049",
+      "snapshot_invoice_source": {
+        "file": "data\\Meinv\\2025\\Bang_ke_hoa_don_da_su_dung_1793262482896_2.xls",
+        "row": 6174
+      },
+      "amis_status": "Đã lập hóa đơn Chưa phát hành",
+      "amis_symbol": null,
+      "amis_invoice_number": null,
+      "amis_url": "https://actapp.misa.vn/app/popup/SAVoucherDetail/525853fd-7d5b-40cd-af07-68cee63d7a8b",
+      "confirmed_invoice": null,
+      "conclusion": "T1–T6 tạo mới; HĐ thực tế chưa xác định. Không dùng liên kết Sheet chưa xác minh để xử lý HĐ tháng 7 đang giữ."
+    },
+    {
+      "doc": "BHHS2025010076",
+      "order": "250627KS0TDUU2",
+      "date": "2025-06-27",
+      "goods": 656481,
+      "vat": 52519,
+      "pay": 709000,
+      "snapshot_invoice": "1C25TUV/00012546",
+      "snapshot_invoice_date": "2025-07-11",
+      "snapshot_invoice_pay": "2355049",
+      "snapshot_invoice_source": {
+        "file": "data\\Meinv\\2025\\Bang_ke_hoa_don_da_su_dung_1793262482896_2.xls",
+        "row": 6174
+      },
+      "amis_status": "Đã lập hóa đơn Chưa phát hành",
+      "amis_symbol": null,
+      "amis_invoice_number": null,
+      "amis_url": "https://actapp.misa.vn/app/popup/SAVoucherDetail/1619d4c9-24e1-4999-843d-f62a6d222786",
+      "confirmed_invoice": null,
+      "conclusion": "T1–T6 tạo mới; HĐ thực tế chưa xác định. Không dùng liên kết Sheet chưa xác minh để xử lý HĐ tháng 7 đang giữ."
+    },
+    {
+      "doc": "BHHS2025010073",
+      "order": "250627K87BTMF8",
+      "date": "2025-06-27",
+      "goods": 656481,
+      "vat": 52519,
+      "pay": 709000,
+      "snapshot_invoice": "1C25TUV/00012547",
+      "snapshot_invoice_date": "2025-07-11",
+      "snapshot_invoice_pay": "2355049",
+      "snapshot_invoice_source": {
+        "file": "data\\Meinv\\2025\\Bang_ke_hoa_don_da_su_dung_1793262482896_2.xls",
+        "row": 6175
+      },
+      "amis_status": "Đã lập hóa đơn Chưa phát hành",
+      "amis_symbol": null,
+      "amis_invoice_number": null,
+      "amis_url": "https://actapp.misa.vn/app/popup/SAVoucherDetail/956e27ab-a622-49f2-8ce6-3c0df53a913c",
+      "confirmed_invoice": null,
+      "conclusion": "T1–T6 tạo mới; HĐ thực tế chưa xác định. Không dùng liên kết Sheet chưa xác minh để xử lý HĐ tháng 7 đang giữ."
+    },
+    {
+      "doc": "BHHS2025010072",
+      "order": "250627K7GQYS3N",
+      "date": "2025-06-27",
+      "goods": 1980556,
+      "vat": 158444,
+      "pay": 2139000,
+      "snapshot_invoice": "1C25TUV/00012253",
+      "snapshot_invoice_date": "2025-07-11",
+      "snapshot_invoice_pay": "645049",
+      "snapshot_invoice_source": {
+        "file": "data\\Meinv\\2025\\Bang_ke_hoa_don_da_su_dung_1793262482896_2.xls",
+        "row": 5881
+      },
+      "amis_status": "Đã lập hóa đơn Chưa phát hành",
+      "amis_symbol": null,
+      "amis_invoice_number": null,
+      "amis_url": "https://actapp.misa.vn/app/popup/SAVoucherDetail/a5a826ed-82fb-417b-89f7-a9aeb786f19f",
+      "confirmed_invoice": null,
+      "conclusion": "T1–T6 tạo mới; HĐ thực tế chưa xác định. Không dùng liên kết Sheet chưa xác minh để xử lý HĐ tháng 7 đang giữ."
+    },
+    {
+      "doc": "BHHS2025010071",
+      "order": "250627K21YNH6T",
+      "date": "2025-06-27",
+      "goods": 656481,
+      "vat": 52519,
+      "pay": 709000,
+      "snapshot_invoice": "1C25TUV/00012257",
+      "snapshot_invoice_date": "2025-07-11",
+      "snapshot_invoice_pay": "1303750",
+      "snapshot_invoice_source": {
+        "file": "data\\Meinv\\2025\\Bang_ke_hoa_don_da_su_dung_1793262482896_2.xls",
+        "row": 5885
+      },
+      "amis_status": "Đã lập hóa đơn Chưa phát hành",
+      "amis_symbol": null,
+      "amis_invoice_number": null,
+      "amis_url": "https://actapp.misa.vn/app/popup/SAVoucherDetail/85539782-5c49-4f98-9e88-e41f93ed78e4",
+      "confirmed_invoice": null,
+      "conclusion": "T1–T6 tạo mới; HĐ thực tế chưa xác định. Không dùng liên kết Sheet chưa xác minh để xử lý HĐ tháng 7 đang giữ."
+    },
+    {
+      "doc": "BHHS2025010068",
+      "order": "250627K1BWWXX6",
+      "date": "2025-06-27",
+      "goods": 2573148,
+      "vat": 205852,
+      "pay": 2779000,
+      "snapshot_invoice": "1C25TUV/00012309",
+      "snapshot_invoice_date": "2025-07-11",
+      "snapshot_invoice_pay": "178999",
+      "snapshot_invoice_source": {
+        "file": "data\\Meinv\\2025\\Bang_ke_hoa_don_da_su_dung_1793262482896_2.xls",
+        "row": 5937
+      },
+      "amis_status": "Đã lập hóa đơn Chưa phát hành",
+      "amis_symbol": null,
+      "amis_invoice_number": null,
+      "amis_url": "https://actapp.misa.vn/app/popup/SAVoucherDetail/420d717c-b0a0-4e4a-b40d-8883eca22f67",
+      "confirmed_invoice": null,
+      "conclusion": "T1–T6 tạo mới; HĐ thực tế chưa xác định. Không dùng liên kết Sheet chưa xác minh để xử lý HĐ tháng 7 đang giữ."
+    },
+    {
+      "doc": "BHHS2025010067",
+      "order": "250627K06RPXWW",
+      "date": "2025-06-27",
+      "goods": 656481,
+      "vat": 52519,
+      "pay": 709000,
+      "snapshot_invoice": "1C25TUV/00012303",
+      "snapshot_invoice_date": "2025-07-11",
+      "snapshot_invoice_pay": "645049",
+      "snapshot_invoice_source": {
+        "file": "data\\Meinv\\2025\\Bang_ke_hoa_don_da_su_dung_1793262482896_2.xls",
+        "row": 5931
+      },
+      "amis_status": "Đã lập hóa đơn Chưa phát hành",
+      "amis_symbol": null,
+      "amis_invoice_number": null,
+      "amis_url": "https://actapp.misa.vn/app/popup/SAVoucherDetail/1497548b-8277-49e0-862e-98a5f25fe3b2",
+      "confirmed_invoice": null,
+      "conclusion": "T1–T6 tạo mới; HĐ thực tế chưa xác định. Không dùng liên kết Sheet chưa xác minh để xử lý HĐ tháng 7 đang giữ."
+    },
+    {
+      "doc": "BHHS2025010066",
+      "order": "250626JY99GK7F",
+      "date": "2025-06-27",
+      "goods": 972222,
+      "vat": 77778,
+      "pay": 1050000,
+      "snapshot_invoice": "1C25TUV/00012336",
+      "snapshot_invoice_date": "2025-07-11",
+      "snapshot_invoice_pay": "645049",
+      "snapshot_invoice_source": {
+        "file": "data\\Meinv\\2025\\Bang_ke_hoa_don_da_su_dung_1793262482896_2.xls",
+        "row": 5964
+      },
+      "amis_status": "Đã lập hóa đơn Chưa phát hành",
+      "amis_symbol": null,
+      "amis_invoice_number": null,
+      "amis_url": "https://actapp.misa.vn/app/popup/SAVoucherDetail/fd5e056a-e3b0-4856-98ad-c02078199572",
+      "confirmed_invoice": null,
+      "conclusion": "T1–T6 tạo mới; HĐ thực tế chưa xác định. Không dùng liên kết Sheet chưa xác minh để xử lý HĐ tháng 7 đang giữ."
+    },
+    {
+      "doc": "BHHS2025010065",
+      "order": "250626JUTV4KF5",
+      "date": "2025-06-27",
+      "goods": 1054630,
+      "vat": 84370,
+      "pay": 1139000,
+      "snapshot_invoice": "1C25TUV/00012365",
+      "snapshot_invoice_date": "2025-07-11",
+      "snapshot_invoice_pay": "1138000",
+      "snapshot_invoice_source": {
+        "file": "data\\Meinv\\2025\\Bang_ke_hoa_don_da_su_dung_1793262482896_2.xls",
+        "row": 5993
+      },
+      "amis_status": "Đã lập hóa đơn Chưa phát hành",
+      "amis_symbol": null,
+      "amis_invoice_number": null,
+      "amis_url": "https://actapp.misa.vn/app/popup/SAVoucherDetail/dea989c5-945a-4560-a03d-412ddc2b68a7",
+      "confirmed_invoice": null,
+      "conclusion": "T1–T6 tạo mới; HĐ thực tế chưa xác định. Không dùng liên kết Sheet chưa xác minh để xử lý HĐ tháng 7 đang giữ."
+    },
+    {
+      "doc": "BHHS2025010064",
+      "order": "250626JTAUSGA7",
+      "date": "2025-06-27",
+      "goods": 221296,
+      "vat": 17704,
+      "pay": 239000,
+      "snapshot_invoice": "1C25TUV/00012625",
+      "snapshot_invoice_date": "2025-07-11",
+      "snapshot_invoice_pay": "645049",
+      "snapshot_invoice_source": {
+        "file": "data\\Meinv\\2025\\Bang_ke_hoa_don_da_su_dung_1793262482896_2.xls",
+        "row": 6253
+      },
+      "amis_status": "Đã lập hóa đơn Chưa phát hành",
+      "amis_symbol": null,
+      "amis_invoice_number": null,
+      "amis_url": "https://actapp.misa.vn/app/popup/SAVoucherDetail/aa914cb1-a2ef-414d-a9d9-732053f80f87",
+      "confirmed_invoice": null,
+      "conclusion": "T1–T6 tạo mới; HĐ thực tế chưa xác định. Không dùng liên kết Sheet chưa xác minh để xử lý HĐ tháng 7 đang giữ."
+    },
+    {
+      "doc": "BHHS2025010062",
+      "order": "250626JQVT4CEM",
+      "date": "2025-06-27",
+      "goods": 526852,
+      "vat": 42148,
+      "pay": 569000,
+      "snapshot_invoice": "1C25TUV/00012330",
+      "snapshot_invoice_date": "2025-07-11",
+      "snapshot_invoice_pay": "483031",
+      "snapshot_invoice_source": {
+        "file": "data\\Meinv\\2025\\Bang_ke_hoa_don_da_su_dung_1793262482896_2.xls",
+        "row": 5958
+      },
+      "amis_status": "Đã lập hóa đơn Chưa phát hành",
+      "amis_symbol": null,
+      "amis_invoice_number": null,
+      "amis_url": "https://actapp.misa.vn/app/popup/SAVoucherDetail/b8fe4c05-218e-4578-bd00-31bfa583f783",
+      "confirmed_invoice": null,
+      "conclusion": "T1–T6 tạo mới; HĐ thực tế chưa xác định. Không dùng liên kết Sheet chưa xác minh để xử lý HĐ tháng 7 đang giữ."
+    },
+    {
+      "doc": "BHHS2025010060",
+      "order": "250626JPVUQX66",
+      "date": "2025-06-27",
+      "goods": 221296,
+      "vat": 17704,
+      "pay": 239000,
+      "snapshot_invoice": "1C25TUV/00012329",
+      "snapshot_invoice_date": "2025-07-11",
+      "snapshot_invoice_pay": "483031",
+      "snapshot_invoice_source": {
+        "file": "data\\Meinv\\2025\\Bang_ke_hoa_don_da_su_dung_1793262482896_2.xls",
+        "row": 5957
+      },
+      "amis_status": "Đã lập hóa đơn Chưa phát hành",
+      "amis_symbol": null,
+      "amis_invoice_number": null,
+      "amis_url": "https://actapp.misa.vn/app/popup/SAVoucherDetail/cd7d70f9-bee8-445b-894f-31370e2cf7af",
+      "confirmed_invoice": null,
+      "conclusion": "T1–T6 tạo mới; HĐ thực tế chưa xác định. Không dùng liên kết Sheet chưa xác minh để xử lý HĐ tháng 7 đang giữ."
+    }
+  ],
+  "source_files_checked": 591,
+  "exact_order_matches": 0,
+  "limitation": "AMIS status and blank reference fields do not exclude issuance outside AMIS; no invoice number inferred.",
+  "policy": "Tháng 1–6 tạo mới toàn bộ trừ danh sách công ty; phần xác định/xử lý HĐ cũ theo dõi riêng, không tự gán hóa đơn."
+}

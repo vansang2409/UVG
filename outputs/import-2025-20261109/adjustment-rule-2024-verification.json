@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "chains": 18,
+  "invoices": 25,
+  "rows": 33,
+  "reverse_prior_nonzero": 7,
+  "reverse_original_detail": 18,
+  "zero_prior_verified_not_reissued": 13,
+  "original_names_exact": true,
+  "all_references_f0": true,
+  "all_three_balances_zero": true,
+  "totals_unchanged": [
+    -24905775.0,
+    -1992466.0,
+    -26898241.0
+  ],
+  "other_three_imports_binary_unchanged": true,
+  "source_price_preserved_flags": 13,
+  "live_source_rows_checked": 86
+}

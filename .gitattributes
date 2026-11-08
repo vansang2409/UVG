@@ -6,3 +6,11 @@ scripts/data/check-review/kt-workbook-20261011/confirmed-plan-data.json -text wh
 
 # Giữ nguyên byte JSON căn cứ và xác nhận của đợt đối soát sau phát hành.
 scripts/data/post-issue-20261029/*.json -text whitespace=cr-at-eol
+
+# Verified 2025 draft imports and source snapshots retain exact SHA-256 bytes.
+outputs/import-2025-20261109/** -text whitespace=cr-at-eol
+data/git-evidence-20261109/** -text whitespace=cr-at-eol
+outputs/doi-chieu-amis-j-20261031/** -text whitespace=cr-at-eol
+outputs/item-codes-20261031/** -text whitespace=cr-at-eol
+outputs/monthly-import-tabs-20261031/** -text whitespace=cr-at-eol
+outputs/renumber-import-20261031/** -text whitespace=cr-at-eol

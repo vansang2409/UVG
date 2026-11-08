@@ -102,3 +102,19 @@ node_modules/
 /outputs/map-hd-cty-amis-20261108/chain-current/kt_*.json
 /outputs/map-hd-cty-amis-20261108/chain-current/source-index.json
 /outputs/map-hd-cty-amis-20261108/chain-current/chain-resolution.json
+
+# Snapshot/cache và ảnh kiểm tra cục bộ của bộ import 2025; giữ Excel/CSV và kết quả cuối.
+/outputs/import-2025-20261109/source/*.json
+/outputs/import-2025-20261109/source-index.json
+/outputs/import-2025-20261109/prepared.json
+/outputs/import-2025-20261109/authoring.json
+/outputs/import-2025-20261109/node_modules/
+/outputs/import-2025-20261109/*.png
+/outputs/import-2025-20261109/deliverables/*.inspect.ndjson
+/outputs/import-2025-20261109/qa/
+/outputs/import-2025-20261109/archive/
+/outputs/import-2025-20261109/google-upload/
+/outputs/import-2025-20261109/google-unmapped-patch/
+/outputs/import-2025-20261109/google-buyer-service-patch/
+/outputs/import-2025-20261109/unmapped-meinvoice-audit.json
+/outputs/import-2025-20261109/unmapped-invoice-detail-review.json

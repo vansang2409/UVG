@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-31",
+  "spreadsheetId": "1bhOnhnBcHaHiy06-REAdVVEk160FG94a6XgkfH0AQsw",
+  "sheetId": 700000030,
+  "title": "HD gop nhieu chung tu",
+  "summaryRange": "A6:P423",
+  "detailRange": "A426:P22448",
+  "groups": 417,
+  "vouchers": 22022,
+  "verifiedCells": 359168,
+  "sourceFilesAsOf": "2026-10-29",
+  "paymentMatches": 57,
+  "vatAndPaymentMatches": 14,
+  "nearTwoVnd": 27,
+  "largerDifferences": 376,
+  "comparisonSignatureUnconfirmed": true,
+  "comparisonCandidateRule": "smallest absolute payment difference, then VAT difference; not confirmed mapping",
+  "existingSourceTabsWritten": false,
+  "visualCheck": "Google Sheets Chrome 100%; summary header readable; details collapsed"
+}

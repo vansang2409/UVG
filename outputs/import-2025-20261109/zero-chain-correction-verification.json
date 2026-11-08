@@ -1,0 +1,134 @@
+{
+  "passed": true,
+  "added_invoices": 419,
+  "added_item_rows": 469,
+  "added_totals": {
+    "goods": "489664860",
+    "vat": "39173168",
+    "pay": "528838028"
+  },
+  "roots": {
+    "1C25TUV/00000781": 81,
+    "1C25TUV/00000732": 43,
+    "1C25TUV/00000720": 173,
+    "1C25TUV/00000702": 65,
+    "1C25TUV/00000541": 57
+  },
+  "all_existing_item_rows_unchanged": 34512,
+  "old_zeroing_files_binary_unchanged": true,
+  "return_row_changes": [
+    {
+      "row": 216,
+      "return": "BTL00356",
+      "sale": "BHHT2025014212",
+      "invoice_sequence": 30073
+    },
+    {
+      "row": 217,
+      "return": "BTL00356",
+      "sale": "BHHT2025014212",
+      "invoice_sequence": 30073
+    },
+    {
+      "row": 251,
+      "return": "BTL00378",
+      "sale": "BHHT2025014037",
+      "invoice_sequence": 29973
+    },
+    {
+      "row": 252,
+      "return": "BTL00378",
+      "sale": "BHHT2025014037",
+      "invoice_sequence": 29973
+    },
+    {
+      "row": 287,
+      "return": "BTL00407",
+      "sale": "BHHT2025014069",
+      "invoice_sequence": 29953
+    }
+  ],
+  "still_blocked": [
+    {
+      "sale": "BHHT2025014083",
+      "decision": {
+        "Chứng từ AMIS": "BHHT2025014083",
+        "Ngày hạch toán": "2025-05-09",
+        "Phân loại": "Chờ xác minh",
+        "Tiền hàng AMIS": "0",
+        "VAT AMIS": "0",
+        "Thanh toán AMIS": "0",
+        "Dòng AMIS bản sao": "",
+        "Lệch trên Sheet": "",
+        "Chuỗi liên quan": "1C25TUV/00000720",
+        "Kiểm chi tiết": "Chưa so chi tiết",
+        "Ghi chú": "Tháng 1–6: tạo mới theo yêu cầu; Chưa xác định duy nhất thuế suất; Thuế suất chứng từ không duy nhất"
+      }
+    }
+  ],
+  "new_summary": {
+    "total": 65493,
+    "actions": {
+      "keep": 34758,
+      "company": 396,
+      "new": 30212,
+      "review": 127
+    },
+    "new_invoices": 30212,
+    "new_lines": 34981,
+    "adjustment": 7,
+    "replacement": 567,
+    "zero_pending": 79,
+    "new_goods": 37002145463.0,
+    "new_vat": 2960169846.0,
+    "new_pay": 39962315309.0,
+    "source_returns_docs": 322,
+    "source_returns_lines": 412,
+    "source_returns_pay": -479741870.0,
+    "sheet_only": [
+      "BHHN2025000066",
+      "BHHS2025023446",
+      "BHHS2025023753",
+      "BHHS2025023814",
+      "BHHS2025023843",
+      "BHHS2025023939",
+      "BHHS2025023992",
+      "BHHS2025023996",
+      "BHHS2025024003",
+      "BHHS2025024092"
+    ],
+    "limitations": [
+      "Đã nối đủ 322 phiếu/412 dòng trả hàng trực tiếp trên AMIS; dự thảo trả lại còn chờ số HĐ thực tế, không tự điền số tương lai.",
+      "Khớp đủ tiền được giữ theo yêu cầu. Cột kiểm chi tiết chỉ ghi kết quả so tên/ĐVT/SL nguyên văn, chưa quy đổi combo/model.",
+      "Chỉ có nguồn meInvoice đến 29/10 và bổ sung 01/11/2026, chưa xác minh phát sinh mới hơn.",
+      "Chuỗi thay thế phức tạp và chuỗi dùng chung với phần giữ/loại tách chờ."
+    ],
+    "returns": {
+      "docs": 322,
+      "lines": 412,
+      "sales": 322,
+      "full_return_sales": 307,
+      "draft_docs": 321,
+      "draft_lines": 410,
+      "draft_statuses": {
+        "Chờ số HĐ bán mới sau phát hành": 240,
+        "Chờ đối chiếu trạng thái trả hàng trên HĐ đang giữ": 79,
+        "Chờ kiểm tra số lượng/tiền trả": 2
+      },
+      "issues": {
+        "BHHS2025006140": [
+          "Số lượng hoặc tiền trả vượt số bán cùng mã/ĐVT"
+        ],
+        "BHHS2025012114": [
+          "Số lượng hoặc tiền trả vượt số bán cùng mã/ĐVT"
+        ]
+      },
+      "source_goods": 444205449.0,
+      "source_vat": -35536421.0,
+      "source_pay": -479741870.0,
+      "import_file": "IMPORT_DIEU_CHINH_BTL_2025_CHO_SO_HD.xlsx"
+    },
+    "delivery_files": 5,
+    "sales_import_file": "IMPORT_HD_MOI_2025.xlsx"
+  }
+}

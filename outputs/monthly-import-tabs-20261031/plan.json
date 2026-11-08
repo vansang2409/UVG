@@ -1,0 +1,264 @@
+{
+  "sourceSheetId": 555142675,
+  "sourceRows": 44189,
+  "sourceInvoices": 34739,
+  "globalInvoiceNumbersPreserved": true,
+  "months": [
+    {
+      "month": 1,
+      "title": "Tháng 01-2024",
+      "sid": 710000001,
+      "invoices": 2180,
+      "vat": 294205442,
+      "net": 3677566926,
+      "deletions": [
+        {
+          "startIndex": 44007,
+          "endIndex": 44198
+        },
+        {
+          "startIndex": 2896,
+          "endIndex": 43983
+        }
+      ]
+    },
+    {
+      "month": 2,
+      "title": "Tháng 02-2024",
+      "sid": 710000002,
+      "invoices": 1016,
+      "vat": 144012606,
+      "net": 1800158066,
+      "deletions": [
+        {
+          "startIndex": 44012,
+          "endIndex": 44198
+        },
+        {
+          "startIndex": 4049,
+          "endIndex": 44007
+        },
+        {
+          "startIndex": 9,
+          "endIndex": 2896
+        }
+      ]
+    },
+    {
+      "month": 3,
+      "title": "Tháng 03-2024",
+      "sid": 710000003,
+      "invoices": 1598,
+      "vat": 202198815,
+      "net": 2527483774,
+      "deletions": [
+        {
+          "startIndex": 44023,
+          "endIndex": 44198
+        },
+        {
+          "startIndex": 5929,
+          "endIndex": 44012
+        },
+        {
+          "startIndex": 9,
+          "endIndex": 4049
+        }
+      ]
+    },
+    {
+      "month": 4,
+      "title": "Tháng 04-2024",
+      "sid": 710000004,
+      "invoices": 3030,
+      "vat": 382348688,
+      "net": 4779355346,
+      "deletions": [
+        {
+          "startIndex": 44043,
+          "endIndex": 44198
+        },
+        {
+          "startIndex": 10284,
+          "endIndex": 44023
+        },
+        {
+          "startIndex": 9,
+          "endIndex": 5929
+        }
+      ]
+    },
+    {
+      "month": 5,
+      "title": "Tháng 05-2024",
+      "sid": 710000005,
+      "invoices": 2486,
+      "vat": 264746314,
+      "net": 3309325015,
+      "deletions": [
+        {
+          "startIndex": 44058,
+          "endIndex": 44198
+        },
+        {
+          "startIndex": 13470,
+          "endIndex": 44043
+        },
+        {
+          "startIndex": 9,
+          "endIndex": 10284
+        }
+      ]
+    },
+    {
+      "month": 6,
+      "title": "Tháng 06-2024",
+      "sid": 710000006,
+      "invoices": 3046,
+      "vat": 330239035,
+      "net": 4127984087,
+      "deletions": [
+        {
+          "startIndex": 44080,
+          "endIndex": 44198
+        },
+        {
+          "startIndex": 17333,
+          "endIndex": 44058
+        },
+        {
+          "startIndex": 9,
+          "endIndex": 13470
+        }
+      ]
+    },
+    {
+      "month": 7,
+      "title": "Tháng 07-2024",
+      "sid": 710000007,
+      "invoices": 3290,
+      "vat": 369742835,
+      "net": 4621787546,
+      "deletions": [
+        {
+          "startIndex": 44091,
+          "endIndex": 44198
+        },
+        {
+          "startIndex": 21373,
+          "endIndex": 44080
+        },
+        {
+          "startIndex": 9,
+          "endIndex": 17333
+        }
+      ]
+    },
+    {
+      "month": 8,
+      "title": "Tháng 08-2024",
+      "sid": 710000008,
+      "invoices": 3436,
+      "vat": 382264882,
+      "net": 4778312442,
+      "deletions": [
+        {
+          "startIndex": 44112,
+          "endIndex": 44198
+        },
+        {
+          "startIndex": 25803,
+          "endIndex": 44091
+        },
+        {
+          "startIndex": 9,
+          "endIndex": 21373
+        }
+      ]
+    },
+    {
+      "month": 9,
+      "title": "Tháng 09-2024",
+      "sid": 710000009,
+      "invoices": 3493,
+      "vat": 396895556,
+      "net": 4961195157,
+      "deletions": [
+        {
+          "startIndex": 44134,
+          "endIndex": 44198
+        },
+        {
+          "startIndex": 30383,
+          "endIndex": 44112
+        },
+        {
+          "startIndex": 9,
+          "endIndex": 25803
+        }
+      ]
+    },
+    {
+      "month": 10,
+      "title": "Tháng 10-2024",
+      "sid": 710000010,
+      "invoices": 4034,
+      "vat": 406858198,
+      "net": 5085729852,
+      "deletions": [
+        {
+          "startIndex": 44162,
+          "endIndex": 44198
+        },
+        {
+          "startIndex": 35117,
+          "endIndex": 44134
+        },
+        {
+          "startIndex": 9,
+          "endIndex": 30383
+        }
+      ]
+    },
+    {
+      "month": 11,
+      "title": "Tháng 11-2024",
+      "sid": 710000011,
+      "invoices": 3586,
+      "vat": 386353862,
+      "net": 4829423930,
+      "deletions": [
+        {
+          "startIndex": 44185,
+          "endIndex": 44198
+        },
+        {
+          "startIndex": 39478,
+          "endIndex": 44162
+        },
+        {
+          "startIndex": 9,
+          "endIndex": 35117
+        }
+      ]
+    },
+    {
+      "month": 12,
+      "title": "Tháng 12-2024",
+      "sid": 710000012,
+      "invoices": 3544,
+      "vat": 402809554,
+      "net": 5035121414,
+      "deletions": [
+        {
+          "startIndex": 43983,
+          "endIndex": 44185
+        },
+        {
+          "startIndex": 9,
+          "endIndex": 39478
+        }
+      ]
+    }
+  ]
+}

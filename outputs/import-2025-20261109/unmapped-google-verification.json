@@ -1,0 +1,468 @@
+{
+  "passed": true,
+  "verified_on": "2026-11-09",
+  "source_cutoff": "2026-11-01",
+  "spreadsheet_id": "1jACpDPSlOCjq-25hF_g5-06eZKD3e2Fq88j472wjTiA",
+  "url": "https://docs.google.com/spreadsheets/d/1jACpDPSlOCjq-25hF_g5-06eZKD3e2Fq88j472wjTiA/edit?gid=700000104#gid=700000104",
+  "added_adjustments": 11,
+  "added_replacements": 1472,
+  "total_adjustments": 18,
+  "total_replacements": 2039,
+  "already_zero_excluded": 955,
+  "company_chains_excluded": 395,
+  "gift_kt_review": 16,
+  "source_exceptions": [
+    "1C25MUV/00012398",
+    "1C25TUV/00001943"
+  ],
+  "all_related_invoices_checked": true,
+  "readback_chunks": 48,
+  "readback_cells": 872842,
+  "preserved_kt_notes": [],
+  "all_existing_import_rows_retained": true,
+  "existing_metadata_preserved_except_two_import_ranges": true,
+  "visual_checked": [
+    "Dieu chinh ve 0",
+    "Thay the ve 0",
+    "16 HD bieu tang - KT check"
+  ],
+  "visual_zoom": "100%",
+  "screenshot": "qa/google-unmapped-kt-final.png",
+  "writes": [
+    {
+      "file": "700000101-16.json",
+      "rows": 11,
+      "columns": 29,
+      "native_readback": true
+    },
+    {
+      "file": "700000102-576.json",
+      "rows": 250,
+      "columns": 26,
+      "native_readback": true
+    },
+    {
+      "file": "700000102-826.json",
+      "rows": 250,
+      "columns": 26,
+      "native_readback": true
+    },
+    {
+      "file": "700000102-1076.json",
+      "rows": 250,
+      "columns": 26,
+      "native_readback": true
+    },
+    {
+      "file": "700000102-1326.json",
+      "rows": 250,
+      "columns": 26,
+      "native_readback": true
+    },
+    {
+      "file": "700000102-1576.json",
+      "rows": 250,
+      "columns": 26,
+      "native_readback": true
+    },
+    {
+      "file": "700000102-1826.json",
+      "rows": 222,
+      "columns": 26,
+      "native_readback": true
+    },
+    {
+      "file": "700000104-0.json",
+      "rows": 19,
+      "columns": 13,
+      "native_readback": true
+    }
+  ],
+  "readback": [
+    {
+      "sheetId": 0,
+      "file": "0-0.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-1000.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-2000.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-3000.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-4000.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-5000.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-6000.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-7000.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-8000.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-9000.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-10000.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-11000.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-12000.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-13000.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-14000.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-15000.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-16000.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-17000.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-18000.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-19000.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-20000.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-21000.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-22000.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-23000.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-24000.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-25000.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-26000.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-27000.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-28000.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-29000.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-30000.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-31000.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-32000.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-33000.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-34000.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-35000.json",
+      "rows": 25,
+      "columns": 23,
+      "cells": 575,
+      "passed": true
+    },
+    {
+      "sheetId": 700000101,
+      "file": "700000101-0.json",
+      "rows": 27,
+      "columns": 29,
+      "cells": 783,
+      "passed": true
+    },
+    {
+      "sheetId": 700000102,
+      "file": "700000102-0.json",
+      "rows": 250,
+      "columns": 26,
+      "cells": 6500,
+      "passed": true
+    },
+    {
+      "sheetId": 700000102,
+      "file": "700000102-250.json",
+      "rows": 250,
+      "columns": 26,
+      "cells": 6500,
+      "passed": true
+    },
+    {
+      "sheetId": 700000102,
+      "file": "700000102-500.json",
+      "rows": 250,
+      "columns": 26,
+      "cells": 6500,
+      "passed": true
+    },
+    {
+      "sheetId": 700000102,
+      "file": "700000102-750.json",
+      "rows": 250,
+      "columns": 26,
+      "cells": 6500,
+      "passed": true
+    },
+    {
+      "sheetId": 700000102,
+      "file": "700000102-1000.json",
+      "rows": 250,
+      "columns": 26,
+      "cells": 6500,
+      "passed": true
+    },
+    {
+      "sheetId": 700000102,
+      "file": "700000102-1250.json",
+      "rows": 250,
+      "columns": 26,
+      "cells": 6500,
+      "passed": true
+    },
+    {
+      "sheetId": 700000102,
+      "file": "700000102-1500.json",
+      "rows": 250,
+      "columns": 26,
+      "cells": 6500,
+      "passed": true
+    },
+    {
+      "sheetId": 700000102,
+      "file": "700000102-1750.json",
+      "rows": 250,
+      "columns": 26,
+      "cells": 6500,
+      "passed": true
+    },
+    {
+      "sheetId": 700000102,
+      "file": "700000102-2000.json",
+      "rows": 48,
+      "columns": 26,
+      "cells": 1248,
+      "passed": true
+    },
+    {
+      "sheetId": 700000103,
+      "file": "700000103-0.json",
+      "rows": 419,
+      "columns": 31,
+      "cells": 12989,
+      "passed": true
+    },
+    {
+      "sheetId": 700000104,
+      "file": "700000104-0.json",
+      "rows": 19,
+      "columns": 13,
+      "cells": 247,
+      "passed": true
+    }
+  ],
+  "not_issued": true
+}

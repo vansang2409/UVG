@@ -1,0 +1,3241 @@
+{
+  "passed": true,
+  "spreadsheetId": "1jACpDPSlOCjq-25hF_g5-06eZKD3e2Fq88j472wjTiA",
+  "report_sheet": "Ra soat chuoi 2025",
+  "report_sheet_id": 700000010,
+  "old_tabs_preserved": true,
+  "old_tabs_cells": 873277,
+  "report_cells": 831744,
+  "total_cells": 1705021,
+  "report_readback": [
+    {
+      "start": 0,
+      "rows": 750,
+      "cells": 13500,
+      "matched": true
+    },
+    {
+      "start": 750,
+      "rows": 750,
+      "cells": 13500,
+      "matched": true
+    },
+    {
+      "start": 1500,
+      "rows": 750,
+      "cells": 13500,
+      "matched": true
+    },
+    {
+      "start": 2250,
+      "rows": 750,
+      "cells": 13500,
+      "matched": true
+    },
+    {
+      "start": 3000,
+      "rows": 750,
+      "cells": 13500,
+      "matched": true
+    },
+    {
+      "start": 3750,
+      "rows": 750,
+      "cells": 13500,
+      "matched": true
+    },
+    {
+      "start": 4500,
+      "rows": 750,
+      "cells": 13500,
+      "matched": true
+    },
+    {
+      "start": 5250,
+      "rows": 750,
+      "cells": 13500,
+      "matched": true
+    },
+    {
+      "start": 6000,
+      "rows": 750,
+      "cells": 13500,
+      "matched": true
+    },
+    {
+      "start": 6750,
+      "rows": 750,
+      "cells": 13500,
+      "matched": true
+    },
+    {
+      "start": 7500,
+      "rows": 750,
+      "cells": 13500,
+      "matched": true
+    },
+    {
+      "start": 8250,
+      "rows": 750,
+      "cells": 13500,
+      "matched": true
+    },
+    {
+      "start": 9000,
+      "rows": 750,
+      "cells": 13500,
+      "matched": true
+    },
+    {
+      "start": 9750,
+      "rows": 750,
+      "cells": 13500,
+      "matched": true
+    },
+    {
+      "start": 10500,
+      "rows": 750,
+      "cells": 13500,
+      "matched": true
+    },
+    {
+      "start": 11250,
+      "rows": 750,
+      "cells": 13500,
+      "matched": true
+    },
+    {
+      "start": 12000,
+      "rows": 750,
+      "cells": 13500,
+      "matched": true
+    },
+    {
+      "start": 12750,
+      "rows": 750,
+      "cells": 13500,
+      "matched": true
+    },
+    {
+      "start": 13500,
+      "rows": 750,
+      "cells": 13500,
+      "matched": true
+    },
+    {
+      "start": 14250,
+      "rows": 750,
+      "cells": 13500,
+      "matched": true
+    },
+    {
+      "start": 15000,
+      "rows": 750,
+      "cells": 13500,
+      "matched": true
+    },
+    {
+      "start": 15750,
+      "rows": 750,
+      "cells": 13500,
+      "matched": true
+    },
+    {
+      "start": 16500,
+      "rows": 750,
+      "cells": 13500,
+      "matched": true
+    },
+    {
+      "start": 17250,
+      "rows": 750,
+      "cells": 13500,
+      "matched": true
+    },
+    {
+      "start": 18000,
+      "rows": 750,
+      "cells": 13500,
+      "matched": true
+    },
+    {
+      "start": 18750,
+      "rows": 750,
+      "cells": 13500,
+      "matched": true
+    },
+    {
+      "start": 19500,
+      "rows": 750,
+      "cells": 13500,
+      "matched": true
+    },
+    {
+      "start": 20250,
+      "rows": 750,
+      "cells": 13500,
+      "matched": true
+    },
+    {
+      "start": 21000,
+      "rows": 750,
+      "cells": 13500,
+      "matched": true
+    },
+    {
+      "start": 21750,
+      "rows": 750,
+      "cells": 13500,
+      "matched": true
+    },
+    {
+      "start": 22500,
+      "rows": 750,
+      "cells": 13500,
+      "matched": true
+    },
+    {
+      "start": 23250,
+      "rows": 750,
+      "cells": 13500,
+      "matched": true
+    },
+    {
+      "start": 24000,
+      "rows": 750,
+      "cells": 13500,
+      "matched": true
+    },
+    {
+      "start": 24750,
+      "rows": 750,
+      "cells": 13500,
+      "matched": true
+    },
+    {
+      "start": 25500,
+      "rows": 750,
+      "cells": 13500,
+      "matched": true
+    },
+    {
+      "start": 26250,
+      "rows": 750,
+      "cells": 13500,
+      "matched": true
+    },
+    {
+      "start": 27000,
+      "rows": 750,
+      "cells": 13500,
+      "matched": true
+    },
+    {
+      "start": 27750,
+      "rows": 750,
+      "cells": 13500,
+      "matched": true
+    },
+    {
+      "start": 28500,
+      "rows": 750,
+      "cells": 13500,
+      "matched": true
+    },
+    {
+      "start": 29250,
+      "rows": 750,
+      "cells": 13500,
+      "matched": true
+    },
+    {
+      "start": 30000,
+      "rows": 750,
+      "cells": 13500,
+      "matched": true
+    },
+    {
+      "start": 30750,
+      "rows": 750,
+      "cells": 13500,
+      "matched": true
+    },
+    {
+      "start": 31500,
+      "rows": 750,
+      "cells": 13500,
+      "matched": true
+    },
+    {
+      "start": 32250,
+      "rows": 750,
+      "cells": 13500,
+      "matched": true
+    },
+    {
+      "start": 33000,
+      "rows": 750,
+      "cells": 13500,
+      "matched": true
+    },
+    {
+      "start": 33750,
+      "rows": 750,
+      "cells": 13500,
+      "matched": true
+    },
+    {
+      "start": 34500,
+      "rows": 750,
+      "cells": 13500,
+      "matched": true
+    },
+    {
+      "start": 35250,
+      "rows": 750,
+      "cells": 13500,
+      "matched": true
+    },
+    {
+      "start": 36000,
+      "rows": 750,
+      "cells": 13500,
+      "matched": true
+    },
+    {
+      "start": 36750,
+      "rows": 750,
+      "cells": 13500,
+      "matched": true
+    },
+    {
+      "start": 37500,
+      "rows": 750,
+      "cells": 13500,
+      "matched": true
+    },
+    {
+      "start": 38250,
+      "rows": 750,
+      "cells": 13500,
+      "matched": true
+    },
+    {
+      "start": 39000,
+      "rows": 750,
+      "cells": 13500,
+      "matched": true
+    },
+    {
+      "start": 39750,
+      "rows": 750,
+      "cells": 13500,
+      "matched": true
+    },
+    {
+      "start": 40500,
+      "rows": 750,
+      "cells": 13500,
+      "matched": true
+    },
+    {
+      "start": 41250,
+      "rows": 750,
+      "cells": 13500,
+      "matched": true
+    },
+    {
+      "start": 42000,
+      "rows": 750,
+      "cells": 13500,
+      "matched": true
+    },
+    {
+      "start": 42750,
+      "rows": 750,
+      "cells": 13500,
+      "matched": true
+    },
+    {
+      "start": 43500,
+      "rows": 750,
+      "cells": 13500,
+      "matched": true
+    },
+    {
+      "start": 44250,
+      "rows": 750,
+      "cells": 13500,
+      "matched": true
+    },
+    {
+      "start": 45000,
+      "rows": 750,
+      "cells": 13500,
+      "matched": true
+    },
+    {
+      "start": 45750,
+      "rows": 458,
+      "cells": 8244,
+      "matched": true
+    }
+  ],
+  "adjustment_readback": [
+    {
+      "sheetId": 0,
+      "start": 0,
+      "rows": 1000,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "start": 1000,
+      "rows": 1000,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "start": 2000,
+      "rows": 1000,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "start": 3000,
+      "rows": 1000,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "start": 4000,
+      "rows": 1000,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "start": 5000,
+      "rows": 1000,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "start": 6000,
+      "rows": 1000,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "start": 7000,
+      "rows": 1000,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "start": 8000,
+      "rows": 1000,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "start": 9000,
+      "rows": 1000,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "start": 10000,
+      "rows": 1000,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "start": 11000,
+      "rows": 1000,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "start": 12000,
+      "rows": 1000,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "start": 13000,
+      "rows": 1000,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "start": 14000,
+      "rows": 1000,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "start": 15000,
+      "rows": 1000,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "start": 16000,
+      "rows": 1000,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "start": 17000,
+      "rows": 1000,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "start": 18000,
+      "rows": 1000,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "start": 19000,
+      "rows": 1000,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "start": 20000,
+      "rows": 1000,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "start": 21000,
+      "rows": 1000,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "start": 22000,
+      "rows": 1000,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "start": 23000,
+      "rows": 1000,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "start": 24000,
+      "rows": 1000,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "start": 25000,
+      "rows": 1000,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "start": 26000,
+      "rows": 1000,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "start": 27000,
+      "rows": 1000,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "start": 28000,
+      "rows": 1000,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "start": 29000,
+      "rows": 1000,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "start": 30000,
+      "rows": 1000,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "start": 31000,
+      "rows": 1000,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "start": 32000,
+      "rows": 1000,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "start": 33000,
+      "rows": 1000,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "start": 34000,
+      "rows": 1000,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "start": 35000,
+      "rows": 25,
+      "cells": 575,
+      "passed": true
+    },
+    {
+      "sheetId": 700000101,
+      "start": 0,
+      "rows": 42,
+      "cells": 1218,
+      "passed": true
+    },
+    {
+      "sheetId": 700000102,
+      "start": 0,
+      "rows": 250,
+      "cells": 6500,
+      "passed": true
+    },
+    {
+      "sheetId": 700000102,
+      "start": 250,
+      "rows": 250,
+      "cells": 6500,
+      "passed": true
+    },
+    {
+      "sheetId": 700000102,
+      "start": 500,
+      "rows": 250,
+      "cells": 6500,
+      "passed": true
+    },
+    {
+      "sheetId": 700000102,
+      "start": 750,
+      "rows": 250,
+      "cells": 6500,
+      "passed": true
+    },
+    {
+      "sheetId": 700000102,
+      "start": 1000,
+      "rows": 250,
+      "cells": 6500,
+      "passed": true
+    },
+    {
+      "sheetId": 700000102,
+      "start": 1250,
+      "rows": 250,
+      "cells": 6500,
+      "passed": true
+    },
+    {
+      "sheetId": 700000102,
+      "start": 1500,
+      "rows": 250,
+      "cells": 6500,
+      "passed": true
+    },
+    {
+      "sheetId": 700000102,
+      "start": 1750,
+      "rows": 250,
+      "cells": 6500,
+      "passed": true
+    },
+    {
+      "sheetId": 700000102,
+      "start": 2000,
+      "rows": 48,
+      "cells": 1248,
+      "passed": true
+    },
+    {
+      "sheetId": 700000103,
+      "start": 0,
+      "rows": 419,
+      "cells": 12989,
+      "passed": true
+    },
+    {
+      "sheetId": 700000104,
+      "start": 0,
+      "rows": 19,
+      "cells": 247,
+      "passed": true
+    }
+  ],
+  "adjustment": {
+    "passed": true,
+    "requests": 13,
+    "new_rows": 33,
+    "invoices": 25
+  },
+  "report_write_chunks": [
+    {
+      "start": 0,
+      "rows": 250
+    },
+    {
+      "start": 250,
+      "rows": 250
+    },
+    {
+      "start": 500,
+      "rows": 250
+    },
+    {
+      "start": 750,
+      "rows": 250
+    },
+    {
+      "start": 1000,
+      "rows": 250
+    },
+    {
+      "start": 1250,
+      "rows": 250
+    },
+    {
+      "start": 1500,
+      "rows": 250
+    },
+    {
+      "start": 1750,
+      "rows": 250
+    },
+    {
+      "start": 2000,
+      "rows": 250
+    },
+    {
+      "start": 2250,
+      "rows": 250
+    },
+    {
+      "start": 2500,
+      "rows": 250
+    },
+    {
+      "start": 2750,
+      "rows": 250
+    },
+    {
+      "start": 3000,
+      "rows": 250
+    },
+    {
+      "start": 3250,
+      "rows": 250
+    },
+    {
+      "start": 3500,
+      "rows": 250
+    },
+    {
+      "start": 3750,
+      "rows": 250
+    },
+    {
+      "start": 4000,
+      "rows": 250
+    },
+    {
+      "start": 4250,
+      "rows": 250
+    },
+    {
+      "start": 4500,
+      "rows": 250
+    },
+    {
+      "start": 4750,
+      "rows": 250
+    },
+    {
+      "start": 5000,
+      "rows": 250
+    },
+    {
+      "start": 5250,
+      "rows": 250
+    },
+    {
+      "start": 5500,
+      "rows": 250
+    },
+    {
+      "start": 5750,
+      "rows": 250
+    },
+    {
+      "start": 6000,
+      "rows": 250
+    },
+    {
+      "start": 6250,
+      "rows": 250
+    },
+    {
+      "start": 6500,
+      "rows": 250
+    },
+    {
+      "start": 6750,
+      "rows": 250
+    },
+    {
+      "start": 7000,
+      "rows": 250
+    },
+    {
+      "start": 7250,
+      "rows": 250
+    },
+    {
+      "start": 7500,
+      "rows": 250
+    },
+    {
+      "start": 7750,
+      "rows": 250
+    },
+    {
+      "start": 8000,
+      "rows": 250
+    },
+    {
+      "start": 8250,
+      "rows": 250
+    },
+    {
+      "start": 8500,
+      "rows": 250
+    },
+    {
+      "start": 8750,
+      "rows": 250
+    },
+    {
+      "start": 9000,
+      "rows": 250
+    },
+    {
+      "start": 9250,
+      "rows": 250
+    },
+    {
+      "start": 9500,
+      "rows": 250
+    },
+    {
+      "start": 9750,
+      "rows": 250
+    },
+    {
+      "start": 10000,
+      "rows": 250
+    },
+    {
+      "start": 10250,
+      "rows": 250
+    },
+    {
+      "start": 10500,
+      "rows": 250
+    },
+    {
+      "start": 10750,
+      "rows": 250
+    },
+    {
+      "start": 11000,
+      "rows": 250
+    },
+    {
+      "start": 11250,
+      "rows": 250
+    },
+    {
+      "start": 11500,
+      "rows": 250
+    },
+    {
+      "start": 11750,
+      "rows": 250
+    },
+    {
+      "start": 12000,
+      "rows": 250
+    },
+    {
+      "start": 12250,
+      "rows": 250
+    },
+    {
+      "start": 12500,
+      "rows": 250
+    },
+    {
+      "start": 12750,
+      "rows": 250
+    },
+    {
+      "start": 13000,
+      "rows": 250
+    },
+    {
+      "start": 13250,
+      "rows": 250
+    },
+    {
+      "start": 13500,
+      "rows": 250
+    },
+    {
+      "start": 13750,
+      "rows": 250
+    },
+    {
+      "start": 14000,
+      "rows": 250
+    },
+    {
+      "start": 14250,
+      "rows": 250
+    },
+    {
+      "start": 14500,
+      "rows": 250
+    },
+    {
+      "start": 14750,
+      "rows": 250
+    },
+    {
+      "start": 15000,
+      "rows": 250
+    },
+    {
+      "start": 15250,
+      "rows": 250
+    },
+    {
+      "start": 15500,
+      "rows": 250
+    },
+    {
+      "start": 15750,
+      "rows": 250
+    },
+    {
+      "start": 16000,
+      "rows": 250
+    },
+    {
+      "start": 16250,
+      "rows": 250
+    },
+    {
+      "start": 16500,
+      "rows": 250
+    },
+    {
+      "start": 16750,
+      "rows": 250
+    },
+    {
+      "start": 17000,
+      "rows": 250
+    },
+    {
+      "start": 17250,
+      "rows": 250
+    },
+    {
+      "start": 17500,
+      "rows": 250
+    },
+    {
+      "start": 17750,
+      "rows": 250
+    },
+    {
+      "start": 18000,
+      "rows": 250
+    },
+    {
+      "start": 18250,
+      "rows": 250
+    },
+    {
+      "start": 18500,
+      "rows": 250
+    },
+    {
+      "start": 18750,
+      "rows": 250
+    },
+    {
+      "start": 19000,
+      "rows": 250
+    },
+    {
+      "start": 19250,
+      "rows": 250
+    },
+    {
+      "start": 19500,
+      "rows": 250
+    },
+    {
+      "start": 19750,
+      "rows": 250
+    },
+    {
+      "start": 20000,
+      "rows": 250
+    },
+    {
+      "start": 20250,
+      "rows": 250
+    },
+    {
+      "start": 20500,
+      "rows": 250
+    },
+    {
+      "start": 20750,
+      "rows": 250
+    },
+    {
+      "start": 21000,
+      "rows": 250
+    },
+    {
+      "start": 21250,
+      "rows": 250
+    },
+    {
+      "start": 21500,
+      "rows": 250
+    },
+    {
+      "start": 21750,
+      "rows": 250
+    },
+    {
+      "start": 22000,
+      "rows": 250
+    },
+    {
+      "start": 22250,
+      "rows": 250
+    },
+    {
+      "start": 22500,
+      "rows": 250
+    },
+    {
+      "start": 22750,
+      "rows": 250
+    },
+    {
+      "start": 23000,
+      "rows": 250
+    },
+    {
+      "start": 23250,
+      "rows": 250
+    },
+    {
+      "start": 23500,
+      "rows": 250
+    },
+    {
+      "start": 23750,
+      "rows": 250
+    },
+    {
+      "start": 24000,
+      "rows": 250
+    },
+    {
+      "start": 24250,
+      "rows": 250
+    },
+    {
+      "start": 24500,
+      "rows": 250
+    },
+    {
+      "start": 24750,
+      "rows": 250
+    },
+    {
+      "start": 25000,
+      "rows": 250
+    },
+    {
+      "start": 25250,
+      "rows": 250
+    },
+    {
+      "start": 25500,
+      "rows": 250
+    },
+    {
+      "start": 25750,
+      "rows": 250
+    },
+    {
+      "start": 26000,
+      "rows": 250
+    },
+    {
+      "start": 26250,
+      "rows": 250
+    },
+    {
+      "start": 26500,
+      "rows": 250
+    },
+    {
+      "start": 26750,
+      "rows": 250
+    },
+    {
+      "start": 27000,
+      "rows": 250
+    },
+    {
+      "start": 27250,
+      "rows": 250
+    },
+    {
+      "start": 27500,
+      "rows": 250
+    },
+    {
+      "start": 27750,
+      "rows": 250
+    },
+    {
+      "start": 28000,
+      "rows": 250
+    },
+    {
+      "start": 28250,
+      "rows": 250
+    },
+    {
+      "start": 28500,
+      "rows": 250
+    },
+    {
+      "start": 28750,
+      "rows": 250
+    },
+    {
+      "start": 29000,
+      "rows": 250
+    },
+    {
+      "start": 29250,
+      "rows": 250
+    },
+    {
+      "start": 29500,
+      "rows": 250
+    },
+    {
+      "start": 29750,
+      "rows": 250
+    },
+    {
+      "start": 30000,
+      "rows": 250
+    },
+    {
+      "start": 30250,
+      "rows": 250
+    },
+    {
+      "start": 30500,
+      "rows": 250
+    },
+    {
+      "start": 30750,
+      "rows": 250
+    },
+    {
+      "start": 31000,
+      "rows": 250
+    },
+    {
+      "start": 31250,
+      "rows": 250
+    },
+    {
+      "start": 31500,
+      "rows": 250
+    },
+    {
+      "start": 31750,
+      "rows": 250
+    },
+    {
+      "start": 32000,
+      "rows": 250
+    },
+    {
+      "start": 32250,
+      "rows": 250
+    },
+    {
+      "start": 32500,
+      "rows": 250
+    },
+    {
+      "start": 32750,
+      "rows": 250
+    },
+    {
+      "start": 33000,
+      "rows": 250
+    },
+    {
+      "start": 33250,
+      "rows": 250
+    },
+    {
+      "start": 33500,
+      "rows": 250
+    },
+    {
+      "start": 33750,
+      "rows": 250
+    },
+    {
+      "start": 34000,
+      "rows": 250
+    },
+    {
+      "start": 34250,
+      "rows": 250
+    },
+    {
+      "start": 34500,
+      "rows": 250
+    },
+    {
+      "start": 34750,
+      "rows": 250
+    },
+    {
+      "start": 35000,
+      "rows": 250
+    },
+    {
+      "start": 35250,
+      "rows": 250
+    },
+    {
+      "start": 35500,
+      "rows": 250
+    },
+    {
+      "start": 35750,
+      "rows": 250
+    },
+    {
+      "start": 36000,
+      "rows": 250
+    },
+    {
+      "start": 36250,
+      "rows": 250
+    },
+    {
+      "start": 36500,
+      "rows": 250
+    },
+    {
+      "start": 36750,
+      "rows": 250
+    },
+    {
+      "start": 37000,
+      "rows": 250
+    },
+    {
+      "start": 37250,
+      "rows": 250
+    },
+    {
+      "start": 37500,
+      "rows": 250
+    },
+    {
+      "start": 37750,
+      "rows": 250
+    },
+    {
+      "start": 38000,
+      "rows": 250
+    },
+    {
+      "start": 38250,
+      "rows": 250
+    },
+    {
+      "start": 38500,
+      "rows": 250
+    },
+    {
+      "start": 38750,
+      "rows": 250
+    },
+    {
+      "start": 39000,
+      "rows": 250
+    },
+    {
+      "start": 39250,
+      "rows": 250
+    },
+    {
+      "start": 39500,
+      "rows": 250
+    },
+    {
+      "start": 39750,
+      "rows": 250
+    },
+    {
+      "start": 40000,
+      "rows": 250
+    },
+    {
+      "start": 40250,
+      "rows": 250
+    },
+    {
+      "start": 40500,
+      "rows": 250
+    },
+    {
+      "start": 40750,
+      "rows": 250
+    },
+    {
+      "start": 41000,
+      "rows": 250
+    },
+    {
+      "start": 41250,
+      "rows": 250
+    },
+    {
+      "start": 41500,
+      "rows": 250
+    },
+    {
+      "start": 41750,
+      "rows": 250
+    },
+    {
+      "start": 42000,
+      "rows": 250
+    },
+    {
+      "start": 42250,
+      "rows": 250
+    },
+    {
+      "start": 42500,
+      "rows": 250
+    },
+    {
+      "start": 42750,
+      "rows": 250
+    },
+    {
+      "start": 43000,
+      "rows": 250
+    },
+    {
+      "start": 43250,
+      "rows": 250
+    },
+    {
+      "start": 43500,
+      "rows": 250
+    },
+    {
+      "start": 43750,
+      "rows": 250
+    },
+    {
+      "start": 44000,
+      "rows": 250
+    },
+    {
+      "start": 44250,
+      "rows": 250
+    },
+    {
+      "start": 44500,
+      "rows": 250
+    },
+    {
+      "start": 44750,
+      "rows": 250
+    },
+    {
+      "start": 45000,
+      "rows": 250
+    },
+    {
+      "start": 45250,
+      "rows": 250
+    },
+    {
+      "start": 45500,
+      "rows": 250
+    },
+    {
+      "start": 45750,
+      "rows": 250
+    },
+    {
+      "start": 46000,
+      "rows": 208
+    }
+  ],
+  "summary": {
+    "old_before": 46862306387,
+    "adjustment": -24905775,
+    "replacement_effect": -3237398520,
+    "old_kept": 43600002092,
+    "new_sales": 37033879723,
+    "returns_ready": -439926504,
+    "returns_all": -441146874,
+    "returns_held": -1220370,
+    "amis_sales_all": 82487620841,
+    "company_sales": 1638078038,
+    "amis_net_scope": 80408395929,
+    "projected": 80193955311,
+    "gap": -214440618,
+    "held_source_goods": 2133412265,
+    "amis_keep_goods": 43681925839,
+    "amis_pending_goods": 133737241,
+    "kept_group_difference": -81923747,
+    "return_hold_effect": 1220370
+  },
+  "scope": "Draft imports and projected revenue; no issuance",
+  "metadata_before": {
+    "spreadsheetId": "1jACpDPSlOCjq-25hF_g5-06eZKD3e2Fq88j472wjTiA",
+    "properties": {
+      "title": "Xử lý HĐ 2025",
+      "locale": "vi_VN",
+      "autoRecalc": "ON_CHANGE",
+      "timeZone": "Asia/Bangkok",
+      "defaultFormat": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        },
+        "padding": {
+          "top": 2,
+          "right": 3,
+          "bottom": 2,
+          "left": 3
+        },
+        "verticalAlignment": "BOTTOM",
+        "wrapStrategy": "OVERFLOW_CELL",
+        "textFormat": {
+          "foregroundColor": {},
+          "fontFamily": "arial,sans,sans-serif",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "foregroundColorStyle": {
+            "rgbColor": {}
+          }
+        },
+        "backgroundColorStyle": {
+          "rgbColor": {
+            "red": 1,
+            "green": 1,
+            "blue": 1
+          }
+        }
+      },
+      "spreadsheetTheme": {
+        "primaryFontFamily": "Arial",
+        "themeColors": [
+          {
+            "colorType": "TEXT",
+            "color": {
+              "rgbColor": {}
+            }
+          },
+          {
+            "colorType": "BACKGROUND",
+            "color": {
+              "rgbColor": {
+                "red": 1,
+                "green": 1,
+                "blue": 1
+              }
+            }
+          },
+          {
+            "colorType": "ACCENT1",
+            "color": {
+              "rgbColor": {
+                "red": 0.25882354,
+                "green": 0.52156866,
+                "blue": 0.95686275
+              }
+            }
+          },
+          {
+            "colorType": "ACCENT2",
+            "color": {
+              "rgbColor": {
+                "red": 0.91764706,
+                "green": 0.2627451,
+                "blue": 0.20784314
+              }
+            }
+          },
+          {
+            "colorType": "ACCENT3",
+            "color": {
+              "rgbColor": {
+                "red": 0.9843137,
+                "green": 0.7372549,
+                "blue": 0.015686275
+              }
+            }
+          },
+          {
+            "colorType": "ACCENT4",
+            "color": {
+              "rgbColor": {
+                "red": 0.20392157,
+                "green": 0.65882355,
+                "blue": 0.3254902
+              }
+            }
+          },
+          {
+            "colorType": "ACCENT5",
+            "color": {
+              "rgbColor": {
+                "red": 1,
+                "green": 0.42745098,
+                "blue": 0.003921569
+              }
+            }
+          },
+          {
+            "colorType": "ACCENT6",
+            "color": {
+              "rgbColor": {
+                "red": 0.27450982,
+                "green": 0.7411765,
+                "blue": 0.7764706
+              }
+            }
+          },
+          {
+            "colorType": "LINK",
+            "color": {
+              "rgbColor": {
+                "red": 0.06666667,
+                "green": 0.33333334,
+                "blue": 0.8
+              }
+            }
+          }
+        ]
+      }
+    },
+    "sheets": [
+      {
+        "properties": {
+          "sheetId": 0,
+          "title": "Import HD moi",
+          "index": 0,
+          "sheetType": "GRID",
+          "gridProperties": {
+            "rowCount": 35025,
+            "columnCount": 23,
+            "frozenRowCount": 9,
+            "hideGridlines": true
+          }
+        },
+        "merges": [
+          {
+            "startRowIndex": 0,
+            "endRowIndex": 1,
+            "startColumnIndex": 0,
+            "endColumnIndex": 8
+          },
+          {
+            "startRowIndex": 1,
+            "endRowIndex": 2,
+            "startColumnIndex": 0,
+            "endColumnIndex": 8
+          },
+          {
+            "startRowIndex": 2,
+            "endRowIndex": 3,
+            "startColumnIndex": 0,
+            "endColumnIndex": 8
+          },
+          {
+            "startRowIndex": 3,
+            "endRowIndex": 4,
+            "startColumnIndex": 0,
+            "endColumnIndex": 8
+          },
+          {
+            "startRowIndex": 4,
+            "endRowIndex": 5,
+            "startColumnIndex": 0,
+            "endColumnIndex": 8
+          },
+          {
+            "startRowIndex": 5,
+            "endRowIndex": 6,
+            "startColumnIndex": 0,
+            "endColumnIndex": 8
+          },
+          {
+            "startRowIndex": 6,
+            "endRowIndex": 7,
+            "startColumnIndex": 0,
+            "endColumnIndex": 8
+          }
+        ],
+        "basicFilter": {
+          "range": {
+            "startRowIndex": 8,
+            "endRowIndex": 35025,
+            "startColumnIndex": 0,
+            "endColumnIndex": 23
+          }
+        },
+        "bandedRanges": [
+          {
+            "bandedRangeId": 1542052287,
+            "range": {
+              "startRowIndex": 8,
+              "endRowIndex": 35025,
+              "startColumnIndex": 0,
+              "endColumnIndex": 23
+            },
+            "rowProperties": {
+              "headerColor": {
+                "red": 0.14117648,
+                "green": 0.2627451,
+                "blue": 0.36078432
+              },
+              "firstBandColor": {
+                "red": 0.75686276,
+                "green": 0.8980392,
+                "blue": 0.94509804
+              },
+              "secondBandColor": {
+                "red": 1,
+                "green": 1,
+                "blue": 1
+              },
+              "headerColorStyle": {
+                "rgbColor": {
+                  "red": 0.14117648,
+                  "green": 0.2627451,
+                  "blue": 0.36078432
+                }
+              },
+              "firstBandColorStyle": {
+                "rgbColor": {
+                  "red": 0.75686276,
+                  "green": 0.8980392,
+                  "blue": 0.94509804
+                }
+              },
+              "secondBandColorStyle": {
+                "rgbColor": {
+                  "red": 1,
+                  "green": 1,
+                  "blue": 1
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "properties": {
+          "sheetId": 700000101,
+          "title": "Dieu chinh ve 0",
+          "index": 1,
+          "sheetType": "GRID",
+          "gridProperties": {
+            "rowCount": 42,
+            "columnCount": 29,
+            "frozenRowCount": 9,
+            "hideGridlines": true
+          }
+        },
+        "merges": [
+          {
+            "sheetId": 700000101,
+            "startRowIndex": 0,
+            "endRowIndex": 1,
+            "startColumnIndex": 0,
+            "endColumnIndex": 8
+          },
+          {
+            "sheetId": 700000101,
+            "startRowIndex": 1,
+            "endRowIndex": 2,
+            "startColumnIndex": 0,
+            "endColumnIndex": 8
+          },
+          {
+            "sheetId": 700000101,
+            "startRowIndex": 2,
+            "endRowIndex": 3,
+            "startColumnIndex": 0,
+            "endColumnIndex": 8
+          },
+          {
+            "sheetId": 700000101,
+            "startRowIndex": 3,
+            "endRowIndex": 4,
+            "startColumnIndex": 0,
+            "endColumnIndex": 8
+          },
+          {
+            "sheetId": 700000101,
+            "startRowIndex": 4,
+            "endRowIndex": 5,
+            "startColumnIndex": 0,
+            "endColumnIndex": 8
+          },
+          {
+            "sheetId": 700000101,
+            "startRowIndex": 5,
+            "endRowIndex": 6,
+            "startColumnIndex": 0,
+            "endColumnIndex": 8
+          },
+          {
+            "sheetId": 700000101,
+            "startRowIndex": 6,
+            "endRowIndex": 7,
+            "startColumnIndex": 0,
+            "endColumnIndex": 8
+          }
+        ],
+        "basicFilter": {
+          "range": {
+            "sheetId": 700000101,
+            "startRowIndex": 8,
+            "endRowIndex": 42,
+            "startColumnIndex": 0,
+            "endColumnIndex": 29
+          }
+        },
+        "bandedRanges": [
+          {
+            "bandedRangeId": 1351810443,
+            "range": {
+              "sheetId": 700000101,
+              "startRowIndex": 8,
+              "endRowIndex": 42,
+              "startColumnIndex": 0,
+              "endColumnIndex": 29
+            },
+            "rowProperties": {
+              "headerColor": {
+                "red": 0.14117648,
+                "green": 0.2627451,
+                "blue": 0.36078432
+              },
+              "firstBandColor": {
+                "red": 0.75686276,
+                "green": 0.8980392,
+                "blue": 0.94509804
+              },
+              "secondBandColor": {
+                "red": 1,
+                "green": 1,
+                "blue": 1
+              },
+              "headerColorStyle": {
+                "rgbColor": {
+                  "red": 0.14117648,
+                  "green": 0.2627451,
+                  "blue": 0.36078432
+                }
+              },
+              "firstBandColorStyle": {
+                "rgbColor": {
+                  "red": 0.75686276,
+                  "green": 0.8980392,
+                  "blue": 0.94509804
+                }
+              },
+              "secondBandColorStyle": {
+                "rgbColor": {
+                  "red": 1,
+                  "green": 1,
+                  "blue": 1
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "properties": {
+          "sheetId": 700000102,
+          "title": "Thay the ve 0",
+          "index": 2,
+          "sheetType": "GRID",
+          "gridProperties": {
+            "rowCount": 2048,
+            "columnCount": 26,
+            "frozenRowCount": 9,
+            "hideGridlines": true
+          }
+        },
+        "merges": [
+          {
+            "sheetId": 700000102,
+            "startRowIndex": 0,
+            "endRowIndex": 1,
+            "startColumnIndex": 0,
+            "endColumnIndex": 8
+          },
+          {
+            "sheetId": 700000102,
+            "startRowIndex": 1,
+            "endRowIndex": 2,
+            "startColumnIndex": 0,
+            "endColumnIndex": 8
+          },
+          {
+            "sheetId": 700000102,
+            "startRowIndex": 2,
+            "endRowIndex": 3,
+            "startColumnIndex": 0,
+            "endColumnIndex": 8
+          },
+          {
+            "sheetId": 700000102,
+            "startRowIndex": 3,
+            "endRowIndex": 4,
+            "startColumnIndex": 0,
+            "endColumnIndex": 8
+          },
+          {
+            "sheetId": 700000102,
+            "startRowIndex": 4,
+            "endRowIndex": 5,
+            "startColumnIndex": 0,
+            "endColumnIndex": 8
+          },
+          {
+            "sheetId": 700000102,
+            "startRowIndex": 5,
+            "endRowIndex": 6,
+            "startColumnIndex": 0,
+            "endColumnIndex": 8
+          },
+          {
+            "sheetId": 700000102,
+            "startRowIndex": 6,
+            "endRowIndex": 7,
+            "startColumnIndex": 0,
+            "endColumnIndex": 8
+          }
+        ],
+        "basicFilter": {
+          "range": {
+            "sheetId": 700000102,
+            "startRowIndex": 8,
+            "endRowIndex": 2048,
+            "startColumnIndex": 0,
+            "endColumnIndex": 26
+          }
+        },
+        "bandedRanges": [
+          {
+            "bandedRangeId": 1962280819,
+            "range": {
+              "sheetId": 700000102,
+              "startRowIndex": 8,
+              "endRowIndex": 2048,
+              "startColumnIndex": 0,
+              "endColumnIndex": 26
+            },
+            "rowProperties": {
+              "headerColor": {
+                "red": 0.14117648,
+                "green": 0.2627451,
+                "blue": 0.36078432
+              },
+              "firstBandColor": {
+                "red": 0.75686276,
+                "green": 0.8980392,
+                "blue": 0.94509804
+              },
+              "secondBandColor": {
+                "red": 1,
+                "green": 1,
+                "blue": 1
+              },
+              "headerColorStyle": {
+                "rgbColor": {
+                  "red": 0.14117648,
+                  "green": 0.2627451,
+                  "blue": 0.36078432
+                }
+              },
+              "firstBandColorStyle": {
+                "rgbColor": {
+                  "red": 0.75686276,
+                  "green": 0.8980392,
+                  "blue": 0.94509804
+                }
+              },
+              "secondBandColorStyle": {
+                "rgbColor": {
+                  "red": 1,
+                  "green": 1,
+                  "blue": 1
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "properties": {
+          "sheetId": 700000103,
+          "title": "Dieu chinh BTL - cho so HD",
+          "index": 3,
+          "sheetType": "GRID",
+          "gridProperties": {
+            "rowCount": 419,
+            "columnCount": 31,
+            "frozenRowCount": 9,
+            "hideGridlines": true
+          }
+        },
+        "merges": [
+          {
+            "sheetId": 700000103,
+            "startRowIndex": 0,
+            "endRowIndex": 1,
+            "startColumnIndex": 0,
+            "endColumnIndex": 8
+          },
+          {
+            "sheetId": 700000103,
+            "startRowIndex": 1,
+            "endRowIndex": 2,
+            "startColumnIndex": 0,
+            "endColumnIndex": 8
+          },
+          {
+            "sheetId": 700000103,
+            "startRowIndex": 2,
+            "endRowIndex": 3,
+            "startColumnIndex": 0,
+            "endColumnIndex": 8
+          },
+          {
+            "sheetId": 700000103,
+            "startRowIndex": 3,
+            "endRowIndex": 4,
+            "startColumnIndex": 0,
+            "endColumnIndex": 8
+          },
+          {
+            "sheetId": 700000103,
+            "startRowIndex": 4,
+            "endRowIndex": 5,
+            "startColumnIndex": 0,
+            "endColumnIndex": 8
+          },
+          {
+            "sheetId": 700000103,
+            "startRowIndex": 5,
+            "endRowIndex": 6,
+            "startColumnIndex": 0,
+            "endColumnIndex": 8
+          },
+          {
+            "sheetId": 700000103,
+            "startRowIndex": 6,
+            "endRowIndex": 7,
+            "startColumnIndex": 0,
+            "endColumnIndex": 8
+          }
+        ],
+        "conditionalFormats": [
+          {
+            "ranges": [
+              {
+                "sheetId": 700000103,
+                "startRowIndex": 9,
+                "endRowIndex": 419,
+                "startColumnIndex": 30,
+                "endColumnIndex": 31
+              }
+            ],
+            "booleanRule": {
+              "condition": {
+                "type": "CUSTOM_FORMULA",
+                "values": [
+                  {
+                    "userEnteredValue": "=$AE10=\"Chờ kiểm tra số lượng/tiền trả\""
+                  }
+                ]
+              },
+              "format": {
+                "backgroundColor": {
+                  "red": 0.99215686,
+                  "green": 0.9137255,
+                  "blue": 0.90588236
+                },
+                "textFormat": {
+                  "foregroundColor": {
+                    "red": 0.6117647,
+                    "blue": 0.023529412
+                  },
+                  "bold": true,
+                  "foregroundColorStyle": {
+                    "rgbColor": {
+                      "red": 0.6117647,
+                      "blue": 0.023529412
+                    }
+                  }
+                },
+                "backgroundColorStyle": {
+                  "rgbColor": {
+                    "red": 0.99215686,
+                    "green": 0.9137255,
+                    "blue": 0.90588236
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "basicFilter": {
+          "range": {
+            "sheetId": 700000103,
+            "startRowIndex": 8,
+            "endRowIndex": 419,
+            "startColumnIndex": 0,
+            "endColumnIndex": 31
+          },
+          "criteria": {
+            "30": {}
+          },
+          "filterSpecs": [
+            {
+              "columnIndex": 30,
+              "filterCriteria": {}
+            }
+          ]
+        },
+        "bandedRanges": [
+          {
+            "bandedRangeId": 1022542948,
+            "range": {
+              "sheetId": 700000103,
+              "startRowIndex": 8,
+              "endRowIndex": 419,
+              "startColumnIndex": 0,
+              "endColumnIndex": 31
+            },
+            "rowProperties": {
+              "headerColor": {
+                "red": 0.14117648,
+                "green": 0.2627451,
+                "blue": 0.36078432
+              },
+              "firstBandColor": {
+                "red": 0.75686276,
+                "green": 0.8980392,
+                "blue": 0.94509804
+              },
+              "secondBandColor": {
+                "red": 1,
+                "green": 1,
+                "blue": 1
+              },
+              "headerColorStyle": {
+                "rgbColor": {
+                  "red": 0.14117648,
+                  "green": 0.2627451,
+                  "blue": 0.36078432
+                }
+              },
+              "firstBandColorStyle": {
+                "rgbColor": {
+                  "red": 0.75686276,
+                  "green": 0.8980392,
+                  "blue": 0.94509804
+                }
+              },
+              "secondBandColorStyle": {
+                "rgbColor": {
+                  "red": 1,
+                  "green": 1,
+                  "blue": 1
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "properties": {
+          "sheetId": 700000104,
+          "title": "16 HD bieu tang - KT check",
+          "index": 4,
+          "sheetType": "GRID",
+          "gridProperties": {
+            "rowCount": 19,
+            "columnCount": 13,
+            "frozenRowCount": 3,
+            "hideGridlines": true
+          }
+        },
+        "merges": [
+          {
+            "sheetId": 700000104,
+            "startRowIndex": 0,
+            "endRowIndex": 1,
+            "startColumnIndex": 0,
+            "endColumnIndex": 13
+          },
+          {
+            "sheetId": 700000104,
+            "startRowIndex": 1,
+            "endRowIndex": 2,
+            "startColumnIndex": 0,
+            "endColumnIndex": 13
+          }
+        ],
+        "basicFilter": {
+          "range": {
+            "sheetId": 700000104,
+            "startRowIndex": 2,
+            "endRowIndex": 19,
+            "startColumnIndex": 0,
+            "endColumnIndex": 13
+          }
+        },
+        "bandedRanges": [
+          {
+            "bandedRangeId": 701334701,
+            "range": {
+              "sheetId": 700000104,
+              "startRowIndex": 2,
+              "endRowIndex": 19,
+              "startColumnIndex": 0,
+              "endColumnIndex": 13
+            },
+            "rowProperties": {
+              "headerColor": {
+                "red": 0.14117648,
+                "green": 0.2627451,
+                "blue": 0.36078432
+              },
+              "firstBandColor": {
+                "red": 0.75686276,
+                "green": 0.8980392,
+                "blue": 0.94509804
+              },
+              "secondBandColor": {
+                "red": 1,
+                "green": 1,
+                "blue": 1
+              },
+              "headerColorStyle": {
+                "rgbColor": {
+                  "red": 0.14117648,
+                  "green": 0.2627451,
+                  "blue": 0.36078432
+                }
+              },
+              "firstBandColorStyle": {
+                "rgbColor": {
+                  "red": 0.75686276,
+                  "green": 0.8980392,
+                  "blue": 0.94509804
+                }
+              },
+              "secondBandColorStyle": {
+                "rgbColor": {
+                  "red": 1,
+                  "green": 1,
+                  "blue": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/1jACpDPSlOCjq-25hF_g5-06eZKD3e2Fq88j472wjTiA/edit?ouid=112010810663898553785"
+  },
+  "metadata_after": {
+    "spreadsheetId": "1jACpDPSlOCjq-25hF_g5-06eZKD3e2Fq88j472wjTiA",
+    "properties": {
+      "title": "Xử lý HĐ 2025",
+      "locale": "vi_VN",
+      "autoRecalc": "ON_CHANGE",
+      "timeZone": "Asia/Bangkok",
+      "defaultFormat": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        },
+        "padding": {
+          "top": 2,
+          "right": 3,
+          "bottom": 2,
+          "left": 3
+        },
+        "verticalAlignment": "BOTTOM",
+        "wrapStrategy": "OVERFLOW_CELL",
+        "textFormat": {
+          "foregroundColor": {},
+          "fontFamily": "arial,sans,sans-serif",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "foregroundColorStyle": {
+            "rgbColor": {}
+          }
+        },
+        "backgroundColorStyle": {
+          "rgbColor": {
+            "red": 1,
+            "green": 1,
+            "blue": 1
+          }
+        }
+      },
+      "spreadsheetTheme": {
+        "primaryFontFamily": "Arial",
+        "themeColors": [
+          {
+            "colorType": "TEXT",
+            "color": {
+              "rgbColor": {}
+            }
+          },
+          {
+            "colorType": "BACKGROUND",
+            "color": {
+              "rgbColor": {
+                "red": 1,
+                "green": 1,
+                "blue": 1
+              }
+            }
+          },
+          {
+            "colorType": "ACCENT1",
+            "color": {
+              "rgbColor": {
+                "red": 0.25882354,
+                "green": 0.52156866,
+                "blue": 0.95686275
+              }
+            }
+          },
+          {
+            "colorType": "ACCENT2",
+            "color": {
+              "rgbColor": {
+                "red": 0.91764706,
+                "green": 0.2627451,
+                "blue": 0.20784314
+              }
+            }
+          },
+          {
+            "colorType": "ACCENT3",
+            "color": {
+              "rgbColor": {
+                "red": 0.9843137,
+                "green": 0.7372549,
+                "blue": 0.015686275
+              }
+            }
+          },
+          {
+            "colorType": "ACCENT4",
+            "color": {
+              "rgbColor": {
+                "red": 0.20392157,
+                "green": 0.65882355,
+                "blue": 0.3254902
+              }
+            }
+          },
+          {
+            "colorType": "ACCENT5",
+            "color": {
+              "rgbColor": {
+                "red": 1,
+                "green": 0.42745098,
+                "blue": 0.003921569
+              }
+            }
+          },
+          {
+            "colorType": "ACCENT6",
+            "color": {
+              "rgbColor": {
+                "red": 0.27450982,
+                "green": 0.7411765,
+                "blue": 0.7764706
+              }
+            }
+          },
+          {
+            "colorType": "LINK",
+            "color": {
+              "rgbColor": {
+                "red": 0.06666667,
+                "green": 0.33333334,
+                "blue": 0.8
+              }
+            }
+          }
+        ]
+      }
+    },
+    "sheets": [
+      {
+        "properties": {
+          "sheetId": 0,
+          "title": "Import HD moi",
+          "index": 0,
+          "sheetType": "GRID",
+          "gridProperties": {
+            "rowCount": 35025,
+            "columnCount": 23,
+            "frozenRowCount": 9,
+            "hideGridlines": true
+          }
+        },
+        "merges": [
+          {
+            "startRowIndex": 0,
+            "endRowIndex": 1,
+            "startColumnIndex": 0,
+            "endColumnIndex": 8
+          },
+          {
+            "startRowIndex": 1,
+            "endRowIndex": 2,
+            "startColumnIndex": 0,
+            "endColumnIndex": 8
+          },
+          {
+            "startRowIndex": 2,
+            "endRowIndex": 3,
+            "startColumnIndex": 0,
+            "endColumnIndex": 8
+          },
+          {
+            "startRowIndex": 3,
+            "endRowIndex": 4,
+            "startColumnIndex": 0,
+            "endColumnIndex": 8
+          },
+          {
+            "startRowIndex": 4,
+            "endRowIndex": 5,
+            "startColumnIndex": 0,
+            "endColumnIndex": 8
+          },
+          {
+            "startRowIndex": 5,
+            "endRowIndex": 6,
+            "startColumnIndex": 0,
+            "endColumnIndex": 8
+          },
+          {
+            "startRowIndex": 6,
+            "endRowIndex": 7,
+            "startColumnIndex": 0,
+            "endColumnIndex": 8
+          }
+        ],
+        "basicFilter": {
+          "range": {
+            "startRowIndex": 8,
+            "endRowIndex": 35025,
+            "startColumnIndex": 0,
+            "endColumnIndex": 23
+          }
+        },
+        "bandedRanges": [
+          {
+            "bandedRangeId": 1542052287,
+            "range": {
+              "startRowIndex": 8,
+              "endRowIndex": 35025,
+              "startColumnIndex": 0,
+              "endColumnIndex": 23
+            },
+            "rowProperties": {
+              "headerColor": {
+                "red": 0.14117648,
+                "green": 0.2627451,
+                "blue": 0.36078432
+              },
+              "firstBandColor": {
+                "red": 0.75686276,
+                "green": 0.8980392,
+                "blue": 0.94509804
+              },
+              "secondBandColor": {
+                "red": 1,
+                "green": 1,
+                "blue": 1
+              },
+              "headerColorStyle": {
+                "rgbColor": {
+                  "red": 0.14117648,
+                  "green": 0.2627451,
+                  "blue": 0.36078432
+                }
+              },
+              "firstBandColorStyle": {
+                "rgbColor": {
+                  "red": 0.75686276,
+                  "green": 0.8980392,
+                  "blue": 0.94509804
+                }
+              },
+              "secondBandColorStyle": {
+                "rgbColor": {
+                  "red": 1,
+                  "green": 1,
+                  "blue": 1
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "properties": {
+          "sheetId": 700000101,
+          "title": "Dieu chinh ve 0",
+          "index": 1,
+          "sheetType": "GRID",
+          "gridProperties": {
+            "rowCount": 42,
+            "columnCount": 29,
+            "frozenRowCount": 9,
+            "hideGridlines": true
+          }
+        },
+        "merges": [
+          {
+            "sheetId": 700000101,
+            "startRowIndex": 0,
+            "endRowIndex": 1,
+            "startColumnIndex": 0,
+            "endColumnIndex": 8
+          },
+          {
+            "sheetId": 700000101,
+            "startRowIndex": 1,
+            "endRowIndex": 2,
+            "startColumnIndex": 0,
+            "endColumnIndex": 8
+          },
+          {
+            "sheetId": 700000101,
+            "startRowIndex": 2,
+            "endRowIndex": 3,
+            "startColumnIndex": 0,
+            "endColumnIndex": 8
+          },
+          {
+            "sheetId": 700000101,
+            "startRowIndex": 3,
+            "endRowIndex": 4,
+            "startColumnIndex": 0,
+            "endColumnIndex": 8
+          },
+          {
+            "sheetId": 700000101,
+            "startRowIndex": 4,
+            "endRowIndex": 5,
+            "startColumnIndex": 0,
+            "endColumnIndex": 8
+          },
+          {
+            "sheetId": 700000101,
+            "startRowIndex": 5,
+            "endRowIndex": 6,
+            "startColumnIndex": 0,
+            "endColumnIndex": 8
+          },
+          {
+            "sheetId": 700000101,
+            "startRowIndex": 6,
+            "endRowIndex": 7,
+            "startColumnIndex": 0,
+            "endColumnIndex": 8
+          }
+        ],
+        "basicFilter": {
+          "range": {
+            "sheetId": 700000101,
+            "startRowIndex": 8,
+            "endRowIndex": 42,
+            "startColumnIndex": 0,
+            "endColumnIndex": 29
+          }
+        },
+        "bandedRanges": [
+          {
+            "bandedRangeId": 1351810443,
+            "range": {
+              "sheetId": 700000101,
+              "startRowIndex": 8,
+              "endRowIndex": 42,
+              "startColumnIndex": 0,
+              "endColumnIndex": 29
+            },
+            "rowProperties": {
+              "headerColor": {
+                "red": 0.14117648,
+                "green": 0.2627451,
+                "blue": 0.36078432
+              },
+              "firstBandColor": {
+                "red": 0.75686276,
+                "green": 0.8980392,
+                "blue": 0.94509804
+              },
+              "secondBandColor": {
+                "red": 1,
+                "green": 1,
+                "blue": 1
+              },
+              "headerColorStyle": {
+                "rgbColor": {
+                  "red": 0.14117648,
+                  "green": 0.2627451,
+                  "blue": 0.36078432
+                }
+              },
+              "firstBandColorStyle": {
+                "rgbColor": {
+                  "red": 0.75686276,
+                  "green": 0.8980392,
+                  "blue": 0.94509804
+                }
+              },
+              "secondBandColorStyle": {
+                "rgbColor": {
+                  "red": 1,
+                  "green": 1,
+                  "blue": 1
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "properties": {
+          "sheetId": 700000102,
+          "title": "Thay the ve 0",
+          "index": 2,
+          "sheetType": "GRID",
+          "gridProperties": {
+            "rowCount": 2048,
+            "columnCount": 26,
+            "frozenRowCount": 9,
+            "hideGridlines": true
+          }
+        },
+        "merges": [
+          {
+            "sheetId": 700000102,
+            "startRowIndex": 0,
+            "endRowIndex": 1,
+            "startColumnIndex": 0,
+            "endColumnIndex": 8
+          },
+          {
+            "sheetId": 700000102,
+            "startRowIndex": 1,
+            "endRowIndex": 2,
+            "startColumnIndex": 0,
+            "endColumnIndex": 8
+          },
+          {
+            "sheetId": 700000102,
+            "startRowIndex": 2,
+            "endRowIndex": 3,
+            "startColumnIndex": 0,
+            "endColumnIndex": 8
+          },
+          {
+            "sheetId": 700000102,
+            "startRowIndex": 3,
+            "endRowIndex": 4,
+            "startColumnIndex": 0,
+            "endColumnIndex": 8
+          },
+          {
+            "sheetId": 700000102,
+            "startRowIndex": 4,
+            "endRowIndex": 5,
+            "startColumnIndex": 0,
+            "endColumnIndex": 8
+          },
+          {
+            "sheetId": 700000102,
+            "startRowIndex": 5,
+            "endRowIndex": 6,
+            "startColumnIndex": 0,
+            "endColumnIndex": 8
+          },
+          {
+            "sheetId": 700000102,
+            "startRowIndex": 6,
+            "endRowIndex": 7,
+            "startColumnIndex": 0,
+            "endColumnIndex": 8
+          }
+        ],
+        "basicFilter": {
+          "range": {
+            "sheetId": 700000102,
+            "startRowIndex": 8,
+            "endRowIndex": 2048,
+            "startColumnIndex": 0,
+            "endColumnIndex": 26
+          }
+        },
+        "bandedRanges": [
+          {
+            "bandedRangeId": 1962280819,
+            "range": {
+              "sheetId": 700000102,
+              "startRowIndex": 8,
+              "endRowIndex": 2048,
+              "startColumnIndex": 0,
+              "endColumnIndex": 26
+            },
+            "rowProperties": {
+              "headerColor": {
+                "red": 0.14117648,
+                "green": 0.2627451,
+                "blue": 0.36078432
+              },
+              "firstBandColor": {
+                "red": 0.75686276,
+                "green": 0.8980392,
+                "blue": 0.94509804
+              },
+              "secondBandColor": {
+                "red": 1,
+                "green": 1,
+                "blue": 1
+              },
+              "headerColorStyle": {
+                "rgbColor": {
+                  "red": 0.14117648,
+                  "green": 0.2627451,
+                  "blue": 0.36078432
+                }
+              },
+              "firstBandColorStyle": {
+                "rgbColor": {
+                  "red": 0.75686276,
+                  "green": 0.8980392,
+                  "blue": 0.94509804
+                }
+              },
+              "secondBandColorStyle": {
+                "rgbColor": {
+                  "red": 1,
+                  "green": 1,
+                  "blue": 1
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "properties": {
+          "sheetId": 700000103,
+          "title": "Dieu chinh BTL - cho so HD",
+          "index": 3,
+          "sheetType": "GRID",
+          "gridProperties": {
+            "rowCount": 419,
+            "columnCount": 31,
+            "frozenRowCount": 9,
+            "hideGridlines": true
+          }
+        },
+        "merges": [
+          {
+            "sheetId": 700000103,
+            "startRowIndex": 0,
+            "endRowIndex": 1,
+            "startColumnIndex": 0,
+            "endColumnIndex": 8
+          },
+          {
+            "sheetId": 700000103,
+            "startRowIndex": 1,
+            "endRowIndex": 2,
+            "startColumnIndex": 0,
+            "endColumnIndex": 8
+          },
+          {
+            "sheetId": 700000103,
+            "startRowIndex": 2,
+            "endRowIndex": 3,
+            "startColumnIndex": 0,
+            "endColumnIndex": 8
+          },
+          {
+            "sheetId": 700000103,
+            "startRowIndex": 3,
+            "endRowIndex": 4,
+            "startColumnIndex": 0,
+            "endColumnIndex": 8
+          },
+          {
+            "sheetId": 700000103,
+            "startRowIndex": 4,
+            "endRowIndex": 5,
+            "startColumnIndex": 0,
+            "endColumnIndex": 8
+          },
+          {
+            "sheetId": 700000103,
+            "startRowIndex": 5,
+            "endRowIndex": 6,
+            "startColumnIndex": 0,
+            "endColumnIndex": 8
+          },
+          {
+            "sheetId": 700000103,
+            "startRowIndex": 6,
+            "endRowIndex": 7,
+            "startColumnIndex": 0,
+            "endColumnIndex": 8
+          }
+        ],
+        "conditionalFormats": [
+          {
+            "ranges": [
+              {
+                "sheetId": 700000103,
+                "startRowIndex": 9,
+                "endRowIndex": 419,
+                "startColumnIndex": 30,
+                "endColumnIndex": 31
+              }
+            ],
+            "booleanRule": {
+              "condition": {
+                "type": "CUSTOM_FORMULA",
+                "values": [
+                  {
+                    "userEnteredValue": "=$AE10=\"Chờ kiểm tra số lượng/tiền trả\""
+                  }
+                ]
+              },
+              "format": {
+                "backgroundColor": {
+                  "red": 0.99215686,
+                  "green": 0.9137255,
+                  "blue": 0.90588236
+                },
+                "textFormat": {
+                  "foregroundColor": {
+                    "red": 0.6117647,
+                    "blue": 0.023529412
+                  },
+                  "bold": true,
+                  "foregroundColorStyle": {
+                    "rgbColor": {
+                      "red": 0.6117647,
+                      "blue": 0.023529412
+                    }
+                  }
+                },
+                "backgroundColorStyle": {
+                  "rgbColor": {
+                    "red": 0.99215686,
+                    "green": 0.9137255,
+                    "blue": 0.90588236
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "basicFilter": {
+          "range": {
+            "sheetId": 700000103,
+            "startRowIndex": 8,
+            "endRowIndex": 419,
+            "startColumnIndex": 0,
+            "endColumnIndex": 31
+          },
+          "criteria": {
+            "30": {}
+          },
+          "filterSpecs": [
+            {
+              "columnIndex": 30,
+              "filterCriteria": {}
+            }
+          ]
+        },
+        "bandedRanges": [
+          {
+            "bandedRangeId": 1022542948,
+            "range": {
+              "sheetId": 700000103,
+              "startRowIndex": 8,
+              "endRowIndex": 419,
+              "startColumnIndex": 0,
+              "endColumnIndex": 31
+            },
+            "rowProperties": {
+              "headerColor": {
+                "red": 0.14117648,
+                "green": 0.2627451,
+                "blue": 0.36078432
+              },
+              "firstBandColor": {
+                "red": 0.75686276,
+                "green": 0.8980392,
+                "blue": 0.94509804
+              },
+              "secondBandColor": {
+                "red": 1,
+                "green": 1,
+                "blue": 1
+              },
+              "headerColorStyle": {
+                "rgbColor": {
+                  "red": 0.14117648,
+                  "green": 0.2627451,
+                  "blue": 0.36078432
+                }
+              },
+              "firstBandColorStyle": {
+                "rgbColor": {
+                  "red": 0.75686276,
+                  "green": 0.8980392,
+                  "blue": 0.94509804
+                }
+              },
+              "secondBandColorStyle": {
+                "rgbColor": {
+                  "red": 1,
+                  "green": 1,
+                  "blue": 1
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "properties": {
+          "sheetId": 700000104,
+          "title": "16 HD bieu tang - KT check",
+          "index": 4,
+          "sheetType": "GRID",
+          "gridProperties": {
+            "rowCount": 19,
+            "columnCount": 13,
+            "frozenRowCount": 3,
+            "hideGridlines": true
+          }
+        },
+        "merges": [
+          {
+            "sheetId": 700000104,
+            "startRowIndex": 0,
+            "endRowIndex": 1,
+            "startColumnIndex": 0,
+            "endColumnIndex": 13
+          },
+          {
+            "sheetId": 700000104,
+            "startRowIndex": 1,
+            "endRowIndex": 2,
+            "startColumnIndex": 0,
+            "endColumnIndex": 13
+          }
+        ],
+        "basicFilter": {
+          "range": {
+            "sheetId": 700000104,
+            "startRowIndex": 2,
+            "endRowIndex": 19,
+            "startColumnIndex": 0,
+            "endColumnIndex": 13
+          }
+        },
+        "bandedRanges": [
+          {
+            "bandedRangeId": 701334701,
+            "range": {
+              "sheetId": 700000104,
+              "startRowIndex": 2,
+              "endRowIndex": 19,
+              "startColumnIndex": 0,
+              "endColumnIndex": 13
+            },
+            "rowProperties": {
+              "headerColor": {
+                "red": 0.14117648,
+                "green": 0.2627451,
+                "blue": 0.36078432
+              },
+              "firstBandColor": {
+                "red": 0.75686276,
+                "green": 0.8980392,
+                "blue": 0.94509804
+              },
+              "secondBandColor": {
+                "red": 1,
+                "green": 1,
+                "blue": 1
+              },
+              "headerColorStyle": {
+                "rgbColor": {
+                  "red": 0.14117648,
+                  "green": 0.2627451,
+                  "blue": 0.36078432
+                }
+              },
+              "firstBandColorStyle": {
+                "rgbColor": {
+                  "red": 0.75686276,
+                  "green": 0.8980392,
+                  "blue": 0.94509804
+                }
+              },
+              "secondBandColorStyle": {
+                "rgbColor": {
+                  "red": 1,
+                  "green": 1,
+                  "blue": 1
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "properties": {
+          "sheetId": 700000010,
+          "title": "Ra soat chuoi 2025",
+          "index": 5,
+          "sheetType": "GRID",
+          "gridProperties": {
+            "rowCount": 46208,
+            "columnCount": 18,
+            "frozenRowCount": 3,
+            "hideGridlines": true
+          }
+        },
+        "merges": [
+          {
+            "sheetId": 700000010,
+            "startRowIndex": 7,
+            "endRowIndex": 8,
+            "startColumnIndex": 2,
+            "endColumnIndex": 6
+          },
+          {
+            "sheetId": 700000010,
+            "startRowIndex": 8,
+            "endRowIndex": 9,
+            "startColumnIndex": 2,
+            "endColumnIndex": 6
+          },
+          {
+            "sheetId": 700000010,
+            "startRowIndex": 9,
+            "endRowIndex": 10,
+            "startColumnIndex": 2,
+            "endColumnIndex": 6
+          },
+          {
+            "sheetId": 700000010,
+            "startRowIndex": 10,
+            "endRowIndex": 11,
+            "startColumnIndex": 2,
+            "endColumnIndex": 6
+          },
+          {
+            "sheetId": 700000010,
+            "startRowIndex": 11,
+            "endRowIndex": 12,
+            "startColumnIndex": 2,
+            "endColumnIndex": 6
+          },
+          {
+            "sheetId": 700000010,
+            "startRowIndex": 12,
+            "endRowIndex": 13,
+            "startColumnIndex": 2,
+            "endColumnIndex": 6
+          },
+          {
+            "sheetId": 700000010,
+            "startRowIndex": 0,
+            "endRowIndex": 1,
+            "startColumnIndex": 0,
+            "endColumnIndex": 6
+          },
+          {
+            "sheetId": 700000010,
+            "startRowIndex": 1,
+            "endRowIndex": 2,
+            "startColumnIndex": 0,
+            "endColumnIndex": 6
+          },
+          {
+            "sheetId": 700000010,
+            "startRowIndex": 2,
+            "endRowIndex": 3,
+            "startColumnIndex": 2,
+            "endColumnIndex": 6
+          },
+          {
+            "sheetId": 700000010,
+            "startRowIndex": 3,
+            "endRowIndex": 4,
+            "startColumnIndex": 2,
+            "endColumnIndex": 6
+          },
+          {
+            "sheetId": 700000010,
+            "startRowIndex": 4,
+            "endRowIndex": 5,
+            "startColumnIndex": 2,
+            "endColumnIndex": 6
+          },
+          {
+            "sheetId": 700000010,
+            "startRowIndex": 5,
+            "endRowIndex": 6,
+            "startColumnIndex": 2,
+            "endColumnIndex": 6
+          },
+          {
+            "sheetId": 700000010,
+            "startRowIndex": 6,
+            "endRowIndex": 7,
+            "startColumnIndex": 2,
+            "endColumnIndex": 6
+          }
+        ],
+        "conditionalFormats": [
+          {
+            "ranges": [
+              {
+                "sheetId": 700000010,
+                "startRowIndex": 14,
+                "endRowIndex": 46208,
+                "startColumnIndex": 12,
+                "endColumnIndex": 13
+              }
+            ],
+            "booleanRule": {
+              "condition": {
+                "type": "CUSTOM_FORMULA",
+                "values": [
+                  {
+                    "userEnteredValue": "=$M15<>0"
+                  }
+                ]
+              },
+              "format": {
+                "backgroundColor": {
+                  "red": 1,
+                  "green": 0.9372549,
+                  "blue": 0.80784315
+                },
+                "textFormat": {
+                  "bold": true
+                },
+                "backgroundColorStyle": {
+                  "rgbColor": {
+                    "red": 1,
+                    "green": 0.9372549,
+                    "blue": 0.80784315
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "basicFilter": {
+          "range": {
+            "sheetId": 700000010,
+            "startRowIndex": 13,
+            "endRowIndex": 46208,
+            "startColumnIndex": 0,
+            "endColumnIndex": 18
+          }
+        },
+        "bandedRanges": [
+          {
+            "bandedRangeId": 1734920729,
+            "range": {
+              "sheetId": 700000010,
+              "startRowIndex": 13,
+              "endRowIndex": 46208,
+              "startColumnIndex": 0,
+              "endColumnIndex": 18
+            },
+            "rowProperties": {
+              "headerColor": {
+                "red": 0.11764706,
+                "green": 0.24705882,
+                "blue": 0.3372549
+              },
+              "firstBandColor": {
+                "red": 0.9490196,
+                "green": 0.96862745,
+                "blue": 0.9764706
+              },
+              "secondBandColor": {
+                "red": 1,
+                "green": 1,
+                "blue": 1
+              },
+              "headerColorStyle": {
+                "rgbColor": {
+                  "red": 0.11764706,
+                  "green": 0.24705882,
+                  "blue": 0.3372549
+                }
+              },
+              "firstBandColorStyle": {
+                "rgbColor": {
+                  "red": 0.9490196,
+                  "green": 0.96862745,
+                  "blue": 0.9764706
+                }
+              },
+              "secondBandColorStyle": {
+                "rgbColor": {
+                  "red": 1,
+                  "green": 1,
+                  "blue": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/1jACpDPSlOCjq-25hF_g5-06eZKD3e2Fq88j472wjTiA/edit?ouid=112010810663898553785"
+  }
+}

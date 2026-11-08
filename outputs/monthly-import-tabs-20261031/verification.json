@@ -1,0 +1,125 @@
+{
+  "months": [
+    {
+      "title": "Tháng 01-2024",
+      "sheetId": 710000001,
+      "invoices": 2180,
+      "rows": 2911,
+      "net": 3677566926,
+      "vat": 294205442
+    },
+    {
+      "title": "Tháng 02-2024",
+      "sheetId": 710000002,
+      "invoices": 1016,
+      "rows": 1158,
+      "net": 1800158066,
+      "vat": 144012606
+    },
+    {
+      "title": "Tháng 03-2024",
+      "sheetId": 710000003,
+      "invoices": 1598,
+      "rows": 1891,
+      "net": 2527483774,
+      "vat": 202198815
+    },
+    {
+      "title": "Tháng 04-2024",
+      "sheetId": 710000004,
+      "invoices": 3030,
+      "rows": 4375,
+      "net": 4779355346,
+      "vat": 382348688
+    },
+    {
+      "title": "Tháng 05-2024",
+      "sheetId": 710000005,
+      "invoices": 2486,
+      "rows": 3201,
+      "net": 3309325015,
+      "vat": 264746314
+    },
+    {
+      "title": "Tháng 06-2024",
+      "sheetId": 710000006,
+      "invoices": 3046,
+      "rows": 3885,
+      "net": 4127984087,
+      "vat": 330239035
+    },
+    {
+      "title": "Tháng 07-2024",
+      "sheetId": 710000007,
+      "invoices": 3290,
+      "rows": 4051,
+      "net": 4621787546,
+      "vat": 369742835
+    },
+    {
+      "title": "Tháng 08-2024",
+      "sheetId": 710000008,
+      "invoices": 3436,
+      "rows": 4451,
+      "net": 4778312442,
+      "vat": 382264882
+    },
+    {
+      "title": "Tháng 09-2024",
+      "sheetId": 710000009,
+      "invoices": 3493,
+      "rows": 4602,
+      "net": 4961195157,
+      "vat": 396895556
+    },
+    {
+      "title": "Tháng 10-2024",
+      "sheetId": 710000010,
+      "invoices": 4034,
+      "rows": 4762,
+      "net": 5085729852,
+      "vat": 406858198
+    },
+    {
+      "title": "Tháng 11-2024",
+      "sheetId": 710000011,
+      "invoices": 3586,
+      "rows": 4384,
+      "net": 4829423930,
+      "vat": 386353862
+    },
+    {
+      "title": "Tháng 12-2024",
+      "sheetId": 710000012,
+      "invoices": 3544,
+      "rows": 4518,
+      "net": 5035121414,
+      "vat": 402809554
+    }
+  ],
+  "invoiceCount": 34739,
+  "dataRows": 44189,
+  "verifiedCells": 883780,
+  "net": 49533443555,
+  "vat": 3962675787,
+  "sameGlobalInvoiceNumbers": true,
+  "date": "2026-10-31",
+  "sourceUnchangedCells": 883780,
+  "lookupFormulaSamplesVerified": 24,
+  "visualCheckedMonths": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sourceSheetPreserved": true,
+  "monthlyTabsAreSnapshots": true
+}

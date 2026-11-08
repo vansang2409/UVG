@@ -1,0 +1,2977 @@
+{
+  "exact_order_ids": {
+    "250627KTGAJCGY": "BHHS2025010077",
+    "250627KS0TDUU2": "BHHS2025010076",
+    "250627K87BTMF8": "BHHS2025010073",
+    "250627K7GQYS3N": "BHHS2025010072",
+    "250627K21YNH6T": "BHHS2025010071",
+    "250627K1BWWXX6": "BHHS2025010068",
+    "250627K06RPXWW": "BHHS2025010067",
+    "250626JY99GK7F": "BHHS2025010066",
+    "250626JUTV4KF5": "BHHS2025010065",
+    "250626JTAUSGA7": "BHHS2025010064",
+    "250626JQVT4CEM": "BHHS2025010062",
+    "250626JPVUQX66": "BHHS2025010060"
+  },
+  "files_checked": 591,
+  "controls": [
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-00000003-00000508/1C24TUV_00000003.xml",
+      "bytes": 29967,
+      "sha256": "6c7d5e1ad62e5c5093e453dd8c87bd04fb98a8517fc548f0db96bf8f3af40155"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-00000003-00000508/1C25TUV_00000508.xml",
+      "bytes": 12906,
+      "sha256": "1a40b5a1bf289f1959de7bab551587b2fba7a9d129df778a6f0eccb72c22ec5b"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00000601.xml",
+      "bytes": 12884,
+      "sha256": "081d8bf645ddea75b47e32584bdff41fa1491234a3c2b9ce534f9862af74a0d4"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00000602.xml",
+      "bytes": 12894,
+      "sha256": "4c235c79f9be080b341a916a6365dd960991f25bb7766d3106c4fe43cd553d35"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00000603.xml",
+      "bytes": 12879,
+      "sha256": "388a413752012c9988affc224d989083e23d3934e0cc06922f0dfce76fe06dac"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00000604.xml",
+      "bytes": 12895,
+      "sha256": "ddeae943695ea9e82b2f49c042dc99a3230a0437fb79454e4b1df873171923d0"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00000605.xml",
+      "bytes": 12885,
+      "sha256": "4b9efe8fdc19fbc509f423c3ab6a049efcadc428b65804b1e259089157d22ef4"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00001361.xml",
+      "bytes": 12976,
+      "sha256": "2e984111df5d6986af02390d23af5651ff6e5af11a56db90fa0956838ed86fda"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00001810.xml",
+      "bytes": 12900,
+      "sha256": "c382a7d13cb11ae4396d6cee6475a0dc5bf7f89b69f4776ad2462a2a03ebd6ba"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00002063.xml",
+      "bytes": 12935,
+      "sha256": "947fd96b25f3320b91fe02c16ad81fff5fdf4bce1141a9f5a07be9bf62f00483"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00002120.xml",
+      "bytes": 12974,
+      "sha256": "94af7332f1be5531ce2b406ccf4cce9eed6268e999bb25e203a6b131120496c7"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00002157.xml",
+      "bytes": 12916,
+      "sha256": "78a77b357443d96996a3bc4b455a73ae2e4c5d08a651858629ec1bdc7a8e6d25"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00002158.xml",
+      "bytes": 12951,
+      "sha256": "d1b9c5e478b10ba6df8098fe142cb4f02c663403a6381b5dcb20e59b649b5ffb"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00002190.xml",
+      "bytes": 12903,
+      "sha256": "667774d1925969962a07816f8e37ad90a5d29333e33e819034aebb7d602361d3"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00002200.xml",
+      "bytes": 12928,
+      "sha256": "8c1bd867ad7ee56798850fd4c9dc0a2fca8de9e206d91b9ee1656f0ca0555d4b"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00002242.xml",
+      "bytes": 12948,
+      "sha256": "0df34ce5ff055a4b2b4a8f62b7b2f805be5fe70daefd9c399a5450d0a46f8ad4"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00002244.xml",
+      "bytes": 12944,
+      "sha256": "0bda21617f98cb3a7730399b2dd30e92412d8d6e925935c6b56abb99f988c74f"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00002286.xml",
+      "bytes": 12876,
+      "sha256": "45ec39304ebb1b49f177ce2391fd9a292b574e2236a3bd4f21b50767f18eca02"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00002309.xml",
+      "bytes": 12907,
+      "sha256": "d51e9c175e6548d5cfaf5a9eb0bc08e90cfc8e0fa757801798048b0e9543ca4d"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00002618.xml",
+      "bytes": 12936,
+      "sha256": "b5350c45e56e3a49d0e5e661dfdd3cf079c846e7df8e911092e4bbe98cfc2c4c"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00005661.xml",
+      "bytes": 13135,
+      "sha256": "27ec644ad0ec361acbdc17be9a1d08624979fd3ca0e3928e77c95fc0fe9c2dd0"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012778.xml",
+      "bytes": 13208,
+      "sha256": "4f2ba644507e0e1c01b7a81ba7870271332e146489ee241a7794440397432bab"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012779.xml",
+      "bytes": 13208,
+      "sha256": "83a5c6fc9542be3cb803374092a598f1121598cc550c5263cabd58cf535976fc"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012780.xml",
+      "bytes": 13206,
+      "sha256": "150218da9aba04ebf00bbb7fe84e884c5060ec49f73ddc7c5fc60a3094c69c9a"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012781.xml",
+      "bytes": 13309,
+      "sha256": "b217a78249a491a660984c9f8594b35383372799c26e2430e1ca4ac89c116f47"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012782.xml",
+      "bytes": 13208,
+      "sha256": "3e73895875fb8621924d47bcc6d260ae39d46a9bf8e82528e06482015b70c82f"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012783.xml",
+      "bytes": 13208,
+      "sha256": "b234be850cc676e72a9301f6ae8b210a8dcfc4bd580da141994528a958e7c509"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012784.xml",
+      "bytes": 13208,
+      "sha256": "f714343ce9685a06e1f640c2bbcf2813ec3a1a3863bfbeac7500a53ce174481f"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012785.xml",
+      "bytes": 13209,
+      "sha256": "bc236eb9ab0d6faa7b0f69d2ba831da6e175c72c74f856cd0e5b5c4836d1d0fd"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012786.xml",
+      "bytes": 13248,
+      "sha256": "f2cbc59c8ea25c55bfa23998be64b1bfa2396c7087a3b8d8c3f3a73393462f8a"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012787.xml",
+      "bytes": 13208,
+      "sha256": "9b129c4f22e2ad306ee86b4f7a4f59ac967ac4063e89aedd4b2f9309caaae529"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012788.xml",
+      "bytes": 13250,
+      "sha256": "24af58c972d900465ac9f3d2a65f73081c8c11a114812e8461ac9d345e1f8c6e"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012789.xml",
+      "bytes": 13209,
+      "sha256": "88241b6c7a6dec1a8fa28e190440887be454aef3a0910d468fef44cecac994bd"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012790.xml",
+      "bytes": 13239,
+      "sha256": "788b694d7c2fa671563f3910e3ed52d719c58fdaebacc92f0d761dabcc40fc4c"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012804.xml",
+      "bytes": 13305,
+      "sha256": "67742983d61085de715b8badc8e17ce431c198ea1b23ea3ba1f2ea4aa20d1bb4"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012805.xml",
+      "bytes": 13305,
+      "sha256": "c69d8b74053ac5a9e01a8ed0d1bfac42c41283cc1cf71eaeafbf10bfd778280a"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012806.xml",
+      "bytes": 13289,
+      "sha256": "cb43507d1e9f5a712e4f463b8c07eeafe9d3558118131307d5b279de15e032fe"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012807.xml",
+      "bytes": 13289,
+      "sha256": "0640d5d14c8f6ae4f29c56ff7937a6f5c5c5dfc358202fd45b838c15dbb37367"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012808.xml",
+      "bytes": 13263,
+      "sha256": "eb1bbdea9acc903f21136a9a8ee0ae0c1326c2d83956dfa309ff1954e9bf1d6c"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012809.xml",
+      "bytes": 13279,
+      "sha256": "394a2bbd17f920a9f14321fb92a6cc2f755ae8aceba99fa823d410dc623bced0"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012810.xml",
+      "bytes": 13289,
+      "sha256": "8d6beceacd5838f13b5f882a61e4ef682061d8007e56cb449e1c29e1fab6ec89"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012811.xml",
+      "bytes": 13240,
+      "sha256": "845bd6063ee923ab5b30e148dac36226b7a002147d071a842f070a62dbc684d7"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012812.xml",
+      "bytes": 13240,
+      "sha256": "1864827fc6b8df5378ca1e8b0f880725ee839c9b461fd4809fecd0ff2e2d32a9"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012813.xml",
+      "bytes": 13240,
+      "sha256": "d329b184a41ab665da42772f97a509cfe0f1d3a4cee81ee029082670509731cb"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012814.xml",
+      "bytes": 13268,
+      "sha256": "3bcd3b7ecc53a3508b1cfcf60e5427110624b34303e431ebf9ebe10c8809daff"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012815.xml",
+      "bytes": 13268,
+      "sha256": "014ec2b5050cb05a111329b90a29c6ce6a474fde20938e496bf7377d69027aac"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012816.xml",
+      "bytes": 13273,
+      "sha256": "f2b0a63af94013ece309087c38f3af9a7548aa644614d85384429b193fbb48b0"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012817.xml",
+      "bytes": 13228,
+      "sha256": "2e5418a664a37451ea913405213f4bd7ff534557b26c64334a1183beca89729e"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012818.xml",
+      "bytes": 13228,
+      "sha256": "a2531ceed72864dcce7b2209a9e014a63feed2acf677d9bde8d1f87cab9c9b3c"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012819.xml",
+      "bytes": 13276,
+      "sha256": "e636b146ea7ce29fa2d758cdd131f646f3d55b5d8f34a1bde01b124551a39c43"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012820.xml",
+      "bytes": 13289,
+      "sha256": "688ceb4cdc4b0ac7a6154cb8bb1c1c6ca346c8675edf757d1c12d9a1a75e8918"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012824.xml",
+      "bytes": 13289,
+      "sha256": "6cbed3256fe9803952734ce21c4f08c57ef9b165adba1a04a98a6d1f6f8908a9"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012826.xml",
+      "bytes": 13289,
+      "sha256": "56500355098b6dbc4c60956d285b2139996c50d20a0a3cbd4fa44e4c5f321819"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012827.xml",
+      "bytes": 13263,
+      "sha256": "cf501d137a5898f523bcba9cbc3c2a6e64de42c23f7b6d561cdd90d9fcf01c00"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012832.xml",
+      "bytes": 13248,
+      "sha256": "febe9f3ed4599171df78e1718f490c70688bfd7a0d9a79ecc4a5862e95770497"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012833.xml",
+      "bytes": 13228,
+      "sha256": "7df6e38b8f92e09a469171dec5ade4b30845ef6b86ba782da4efd009d5a62892"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012834.xml",
+      "bytes": 13309,
+      "sha256": "f0cc7c3b5868ad0c48ad1e42b53c7f0f6fa080185d4f89ec1b2c3c78e3a3ed72"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012835.xml",
+      "bytes": 13321,
+      "sha256": "071b87a7344fc8ecbdec25426f765b0e24e7da966ab5f4a25816ee4bc7c372d5"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012836.xml",
+      "bytes": 13208,
+      "sha256": "f05d02f7d5717d2f67462e1bbb4d471730f2f94eb5ea2e74ec06af7c947c359a"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012837.xml",
+      "bytes": 13208,
+      "sha256": "d50f18805b28e32da07541ab600f7e4ef231c025966642c58c37f41c9fa4216a"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012838.xml",
+      "bytes": 13208,
+      "sha256": "584a89928a6a3d63560e02dd1ba67ca139421cc632bf9f2665b70bb6e0148309"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012839.xml",
+      "bytes": 13250,
+      "sha256": "7ea44d0d0262203cefad7a239642c1c651102aea1ea80657ee189a34dfabe369"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012840.xml",
+      "bytes": 13250,
+      "sha256": "8dec759c4efd47c81dad903414c790039d38616bba1df1d246909149521a7108"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012841.xml",
+      "bytes": 13250,
+      "sha256": "efaedb83a16d154bd0776d1752d7dc5f2d659ab359c1de413b1ba05b1222590d"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012842.xml",
+      "bytes": 13208,
+      "sha256": "f8150d2ff330d32cae80efd081669627c7b4bd61fd9cf32d6d9c69304723c16d"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012843.xml",
+      "bytes": 13250,
+      "sha256": "b8aaf532510d61abcdbc6fec48f518524d3ad79d3a17f0b75a9890fd32464d9b"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012844.xml",
+      "bytes": 13294,
+      "sha256": "8f44fe2380559b9d9d08fb7b1e31cab95fe22ddbeb16d7842e347a552e1a759f"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012845.xml",
+      "bytes": 13208,
+      "sha256": "2a233af4086a2e6138ea4dace40eef8ce83453a78b1ab901bcf08b93f75b5eec"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012846.xml",
+      "bytes": 13250,
+      "sha256": "bf0944539de71dd1c31a82be54001e031bad9491319fecd98874d8c846e91891"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012847.xml",
+      "bytes": 13250,
+      "sha256": "41b8c688b679d22b9e8f18593daa85ec84b91d36da8e9cb9b73086e3f118e6f6"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012848.xml",
+      "bytes": 13208,
+      "sha256": "5b48f80b5a67131d9a73e9bc87b08ea04e71cc1514a08fbb757cd378187ac1f9"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012849.xml",
+      "bytes": 13208,
+      "sha256": "ce988422ec79c6d03ae9dae041bd1a13621ddcd61aae2d7d4a93338ba90dada9"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012850.xml",
+      "bytes": 13309,
+      "sha256": "f031f4c936e1dab6afbdd652898a80aa53b04cca78776ae65c962974788393dd"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012851.xml",
+      "bytes": 13241,
+      "sha256": "e0f83956f13947d183619c09fbbbcbf6dbdded4146358c52a42724eb362536d7"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012852.xml",
+      "bytes": 13309,
+      "sha256": "555dd748e5544111467ad164a8f722a790758714d685f96e3fe56a504513125d"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012853.xml",
+      "bytes": 13208,
+      "sha256": "d24b6beaeb591d70a98026e4113f520fcc62de521b7114695ed0fd0117781258"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012854.xml",
+      "bytes": 13208,
+      "sha256": "84c8894f1d91b84123ebc30de8bc1e39cd11b0ab57e2c96d3430ea217eadc0c0"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012855.xml",
+      "bytes": 13208,
+      "sha256": "4b2284e76195ba03929e72e40be34a966f6fa0fdec2440be6ef0b3be464d5d80"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012856.xml",
+      "bytes": 13208,
+      "sha256": "a800541422e4ef950eca694f05f1b2c92da795acc28884af8177139d035cc4d8"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012857.xml",
+      "bytes": 13208,
+      "sha256": "42017e0478042e7d6bf0fe19862a2878c4a31327d8cfd395fd113f8661a76197"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012858.xml",
+      "bytes": 13208,
+      "sha256": "95e0cca53a1b3d18f92a967549eba7c3c606b85777f059002d7237536f90c16d"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012859.xml",
+      "bytes": 13205,
+      "sha256": "48662a3da34bed0db1959f8d8e7cc88cf65662411aab2d2773e9c6bf556abeb6"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012860.xml",
+      "bytes": 13250,
+      "sha256": "e28e47f7f386638dc69c39511b60b494fd7c9310baea131edede6e21ec29bae3"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012861.xml",
+      "bytes": 13208,
+      "sha256": "cbcfc7f68d04cc11e3dc02968d6127c569d285879693c8c6c3a407c8472af6be"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012862.xml",
+      "bytes": 13208,
+      "sha256": "12e03772fd5259e096dac3f1aed54692d1936679a41c38715c27e8b8d0d0ae83"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012863.xml",
+      "bytes": 13309,
+      "sha256": "4c5765ae573eecd3a08daf43e63fc09c6ae0d2e063b2205c52deac9d7a33341e"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012864.xml",
+      "bytes": 13248,
+      "sha256": "8e15d9c715602fc53000f2ed07116b046f478eeba173c854c9cc0632615da697"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012865.xml",
+      "bytes": 13250,
+      "sha256": "c6321e399b88c7dd9dedefeb2d26becea631792abdf3246b23f72530093ba7a7"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012866.xml",
+      "bytes": 13208,
+      "sha256": "22869d69a19b33e024043f766d05e3407217024c4308d1bf82767967592cf982"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012867.xml",
+      "bytes": 13208,
+      "sha256": "0b77e18c4680416cafc38689ea7e57285455826b943bdc9174f3a648ac54370d"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012868.xml",
+      "bytes": 13208,
+      "sha256": "676094df59228b6c13677cb5ab0d452d058cbf7fefc11205d4c7a29db86fc87b"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012869.xml",
+      "bytes": 13128,
+      "sha256": "2c39153c8a13639a9d1144ad7ba73ec035300bae4797ba5afbfc5d93f994394f"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012870.xml",
+      "bytes": 13250,
+      "sha256": "22631000b77f4155a583b2836b10f0813b761490a8ba8238d4e3dd2e2787c6bd"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012872.xml",
+      "bytes": 13210,
+      "sha256": "14e8683c5c4d032f2868398c23165d0d884f8b32c0307a3d5deafc5f9f741703"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012873.xml",
+      "bytes": 13253,
+      "sha256": "0c13ee56a1f13fa8b6efd915d49301b1475500d0945c72cee29f0224a7d0aca2"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012874.xml",
+      "bytes": 13207,
+      "sha256": "b5b7a90743799d719fd1553e0f186a6aa977bad307be0df4df5c039e18990b51"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012875.xml",
+      "bytes": 13246,
+      "sha256": "d789ff675e68c124ec24b6696586715457d54b6ce3ac7aca2ea212b53649fc4e"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012876.xml",
+      "bytes": 13250,
+      "sha256": "7410f32af3b87f5ce428971a1a2278e298a0b96671056f8175074d444e8a74a7"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012877.xml",
+      "bytes": 13247,
+      "sha256": "ad8fea10fb0db6ede5e674227384cd8ee236e9e9437c716e4e2b464759d2eca0"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012878.xml",
+      "bytes": 13253,
+      "sha256": "e3c3f359f81cdbed8922a6ccd09751cce2783172847518bd280eb94ac4da1e6f"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012879.xml",
+      "bytes": 13207,
+      "sha256": "9e2a77aecb3704c0e7f2addf6f767f51b33e66a79b71f4f154d6acddbf106cdb"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012880.xml",
+      "bytes": 13253,
+      "sha256": "d36b1455a514229685f0c6eca77b742f162de01169649dc619e2f998b36a7054"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012881.xml",
+      "bytes": 13246,
+      "sha256": "4ff0e8b8a932fb6cf2bd5de972b894e16249a3339dfa3caf5ae5dd0f10df51e9"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012882.xml",
+      "bytes": 13209,
+      "sha256": "010c935c4f3f26d98d5e01d77925d7ecc6b490c50bada511944fef9287364d8a"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012883.xml",
+      "bytes": 13210,
+      "sha256": "b2819cfcf6cdcac6e58223aa147c4fc36115517cc91f3ee7a06984cb00cd9354"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012884.xml",
+      "bytes": 13210,
+      "sha256": "6a312ef933d16366a6b755db2bdc949d06d38fb09b8ff9124860c908ad716cd1"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012885.xml",
+      "bytes": 13253,
+      "sha256": "de9ace23978c62c6f8b5a71d47fc5537dffcc996f3d68966904269942b31c53c"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012886.xml",
+      "bytes": 13253,
+      "sha256": "0d11efd326ab65fb2db912d344141ea230fd9c79419d7fbd93f3ab4a21495480"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012887.xml",
+      "bytes": 13197,
+      "sha256": "b3999b048757863390443497ddff94ac807c767c2f7b7cc94e6fa91180607800"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012888.xml",
+      "bytes": 13253,
+      "sha256": "7f27d1204d02399a848a71f736067c8a0b2b514334bcd2a3a79d7a99b15d26b9"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012889.xml",
+      "bytes": 13247,
+      "sha256": "340c8a9e3fd1627224501f97748b5837deac9dc87c1a98859992a493d457235e"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012890.xml",
+      "bytes": 13207,
+      "sha256": "3cd993e0e944c6e35e57723db7dba39fd1fe7b660ebbc2449460ae1330be4a92"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012891.xml",
+      "bytes": 13254,
+      "sha256": "757d2cfe9e1baa645b6102e5dd006ebea605c6918a133af545a7061216c0d14c"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012892.xml",
+      "bytes": 13253,
+      "sha256": "a4c1145694ec6e9684a29be54290e5193752a2f5ebf69ce3dec2b7ab41c83647"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012893.xml",
+      "bytes": 13244,
+      "sha256": "066d6b71356e458398dcb16b4cc5d533b721d5f326984737a427b40122467fb4"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012894.xml",
+      "bytes": 13243,
+      "sha256": "14f05f37aa1576150ae5dfd2fc056b2e287a769f0bc001a85240dc2040acfb52"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012895.xml",
+      "bytes": 13180,
+      "sha256": "6358892d58d3f44d161204507d5720f1ed1eb26da25092110e42980fd5ccc6fe"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012896.xml",
+      "bytes": 13205,
+      "sha256": "ae45f15a09f01b846256c05116aebf412b17a23c25cb3e958ab08d9b34023f91"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012897.xml",
+      "bytes": 13208,
+      "sha256": "7d7340d153433ad4d971244e85471b238027f2f5e9d62b4098bd55f48323488b"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012898.xml",
+      "bytes": 13250,
+      "sha256": "92069f2c4792414b7f6a74fd9b48b64e3ea7e479c2be8c37f2e5f623afeae2ec"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012899.xml",
+      "bytes": 13205,
+      "sha256": "60891c566cc7e034680c65c41879b992e8e9849f5fa301e6b9b70b894e57efd3"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012900.xml",
+      "bytes": 13210,
+      "sha256": "a2cde777288fd5cd75d63325d229143c4c1ca151dc4784239b56c312bbb19163"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012901.xml",
+      "bytes": 13243,
+      "sha256": "583cd0b56abe74f16e8884c336945bf155a7ba419bc99831ba79d6a0f61759bc"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012902.xml",
+      "bytes": 13211,
+      "sha256": "d8754b601ba04b3dafb4c4ae3eb94f157012922b45caae528120b458fdafb73b"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012903.xml",
+      "bytes": 13210,
+      "sha256": "5254408c9f56fe590590fde5a480e19ea134624310acc92da6a70673a88a1513"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012904.xml",
+      "bytes": 13207,
+      "sha256": "1b44dc8fb9a73e4b7752c3b750071756ae24cf2a25e22facc4f5dfec1442645b"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012905.xml",
+      "bytes": 13253,
+      "sha256": "5980fdf396a54ecceea996ee3b1201b5da27cc0d29e881c4bf7fe87f22b00636"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012906.xml",
+      "bytes": 13210,
+      "sha256": "52d39fac68331bd7e2cce0994c6fcef671869e8d029b6e3b1ffa4ad5a1cc12ae"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012909.xml",
+      "bytes": 13252,
+      "sha256": "fda41057d2d65ba0aabb5fc10950654e1d0fa0fc78c2d4442b2e06ade7062069"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012910.xml",
+      "bytes": 13209,
+      "sha256": "7ec7b5bee40468351d7b58956450d1bea5793d18d8e439cf391d129c799a83da"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012917.xml",
+      "bytes": 13089,
+      "sha256": "5a7589b79c8301ffc1d8ffc78bd03ffb564efa1ca4effa9793a3d3442311675a"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012920.xml",
+      "bytes": 13092,
+      "sha256": "8bfeea80c588d87ce7eb94856734c34a4a425b1d76925a156208550a89175ece"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012921.xml",
+      "bytes": 13093,
+      "sha256": "2c941e07c03dc9adb20cea9629fd5c5669d36821b2ec4716b31fbb1b47633cb1"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012923.xml",
+      "bytes": 13134,
+      "sha256": "5555c0dd009c1f69801ee5ea0875d2941b73f1a67e9d107cba36a5b2aae672a8"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012954.xml",
+      "bytes": 13251,
+      "sha256": "74fdfa9b16a8d4f33739fe2f3398515a7214876f309820fc0ec169dba6e8dd81"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012959.xml",
+      "bytes": 13245,
+      "sha256": "d674be5c7812aa30a7edb94dae0cc3efb16a7ab1b0a5dd149cca7731cee70527"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012960.xml",
+      "bytes": 13206,
+      "sha256": "884241a8032a3c2609d8f142315b9868c7fc30bd00a94a76ef2a6bc7592aeecd"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012961.xml",
+      "bytes": 13209,
+      "sha256": "e0e8797fb885fffad2264e222bc7cbe6be89c1b63cc223d5ec0d3e1704638b99"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012962.xml",
+      "bytes": 13206,
+      "sha256": "df5df9e305a552d39aa132a030fbcd822443de0381a2d5f2347174cfde76d5fd"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012963.xml",
+      "bytes": 13129,
+      "sha256": "250f583fbe2e45a3d0a115b8268176d48e61795e01bc72c71d83030ac9a2917b"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012964.xml",
+      "bytes": 13090,
+      "sha256": "4a77fcf09724c4397a41c49092d64063adf388d3039e9bbc201e02a82f08a606"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012965.xml",
+      "bytes": 13078,
+      "sha256": "97c4b1c73ba3acd8d2c69957b604222699d1eda0c2ab1c381e7814a9f98fecf4"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012966.xml",
+      "bytes": 13124,
+      "sha256": "ead2979e67e93a24089f893b2217dedcbd249073652496f7913a83c294aac5c5"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012967.xml",
+      "bytes": 13130,
+      "sha256": "0292c9a03fe779d3fdd44d775ceb498d2f2f5babba851540fc94b39843560486"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012968.xml",
+      "bytes": 13085,
+      "sha256": "08154478314206448e4e7eeb23d60a0316aff4197fc929090c6c4ab709943e45"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012969.xml",
+      "bytes": 13091,
+      "sha256": "e892fd36c24ae9b49c0631f51015ab84f3a6c411bf8a184df72c83b8970f768e"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012970.xml",
+      "bytes": 13094,
+      "sha256": "898d8f02ae75e18b5732af9aebaddec08cb010b2af21622916e9632000de12a1"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012971.xml",
+      "bytes": 13088,
+      "sha256": "bd860643ebef824e6284692afa6482ab0b16709fa264f3ad94bcc561de628f28"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012972.xml",
+      "bytes": 13085,
+      "sha256": "fcfbfebda149eaec7cc010d29c26a7dbd07c86c03cbdfb85c6d1f00f23fa24ab"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012973.xml",
+      "bytes": 13087,
+      "sha256": "dc80a582577d42f9a2b2db7e4e48e4caff3b50b53ff4245a5ab319b2cc315003"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012974.xml",
+      "bytes": 13088,
+      "sha256": "0d023b8b107f85d75b9cfb817f750dc00fd56e9734b9fb0d256b048c748c874d"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012975.xml",
+      "bytes": 13093,
+      "sha256": "40a9d31392d68799ac8095c01b802095b69296b46e9c05caa59991098af05fa9"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012976.xml",
+      "bytes": 13085,
+      "sha256": "9bcb03756ca1c9cf6076f284b042594c3fc52d4f7f0f801550947bbd0d172893"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012977.xml",
+      "bytes": 13090,
+      "sha256": "c7889d9cafd121965864390ed6171959818035b0ee2cbd7ab03e6873b928f34b"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012978.xml",
+      "bytes": 13087,
+      "sha256": "ab78f7d85ab09da5f164db28723cc65ac48ce2c2c90dc2462f34dbcc079dd279"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012979.xml",
+      "bytes": 13104,
+      "sha256": "f6b97fa2885c0e39f9c03b291eac946e5f45107e1a367c3eb389b7ee8e96ce99"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012980.xml",
+      "bytes": 13077,
+      "sha256": "276511f1a822b618e099eed8054e147b4a7da25577c32e14fec62ca87c310183"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012981.xml",
+      "bytes": 13088,
+      "sha256": "d3eb3ce46d9076b0c2bb74e4d15e4fd669c5b18e2af99e8b0dced9dd1390b759"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012982.xml",
+      "bytes": 13132,
+      "sha256": "e79ebbbd081c126c90c346d8f0718385d0b4a3a699316cdf436bf0f85ed7cbfa"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012983.xml",
+      "bytes": 13086,
+      "sha256": "4bb5b16a2f24895dcb520651e462416ce79eb55afa45083195007d2f75730008"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012984.xml",
+      "bytes": 13108,
+      "sha256": "584956c9b68a423415a9374869fce68828e63ca329b505d6f9d127f2e21cd707"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012985.xml",
+      "bytes": 13075,
+      "sha256": "f5adb88a697703f077afcfd5940bc020fb2468f453f8782934312d14b740b8f4"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012986.xml",
+      "bytes": 13078,
+      "sha256": "3a52ad2897e2074a8d0b13ea23a3ecf5aaf04bba7cc034eda31477d87e5f7a48"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012987.xml",
+      "bytes": 13092,
+      "sha256": "1095b10f3396adef7a7b5e1698cbac50278705715ecc0f8b0903517a5f96b8b0"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012988.xml",
+      "bytes": 13057,
+      "sha256": "95c628ce6a0b90f09dd9374457e0d25a218ad33a137c59107d72e188d7b1578d"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012989.xml",
+      "bytes": 13132,
+      "sha256": "2f37c85d6fd8041dca6ac990112da1387dff95407211b1ed3a38edb9d5062fc4"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012990.xml",
+      "bytes": 13078,
+      "sha256": "764b2fadf4e60b3cf6d660954098f571b21bfbfbb757bf11e1b8eebc784945e8"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012991.xml",
+      "bytes": 13099,
+      "sha256": "444c85a7302ef7015f617a8953cc2bd41a3830cb85cb4dba5e1bf246ef3dd680"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012992.xml",
+      "bytes": 13091,
+      "sha256": "96c801536626f3b2a4bd00c4796f0b57cec405cba639dd9da51194d1ac30e542"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012993.xml",
+      "bytes": 13143,
+      "sha256": "d16d1e3c70e1917e5e4dc101ae8854a1d827ea858c30c41a00c785333f1ab289"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012994.xml",
+      "bytes": 13093,
+      "sha256": "96d98955175bcf943a1d185e2670bffe8a58a9149d545022151e51bf8c4f5cf1"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012995.xml",
+      "bytes": 13062,
+      "sha256": "bc9181047d9317027896decf7301241e0b6f5c7495ea272f5f45b416386bb8ac"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012996.xml",
+      "bytes": 13081,
+      "sha256": "690f8e4875d3f6a068dcc570c6ca9879954df3f263238fc86794fe19c5a8e5cd"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012997.xml",
+      "bytes": 13091,
+      "sha256": "5feacfbbf76383dfd6046609a084291af241ca6b9f3571c5857579c5ad771d39"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012998.xml",
+      "bytes": 13082,
+      "sha256": "43752bf399c0797bba64fd2009ec6cac72bfb21eedfb77b0e25884e523372c46"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00012999.xml",
+      "bytes": 13085,
+      "sha256": "f677ada0f62ec642e3c784f6c3b0fa2042f71a232f2b7a3f7fa835f5b43cc7c7"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013000.xml",
+      "bytes": 13129,
+      "sha256": "5ed909177840bfae8c835ef0d4b14d6a825ad2ed542a61e9b63296f6693c0b70"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013001.xml",
+      "bytes": 13122,
+      "sha256": "549ed341ec09562ac709e6ba8a42b99d468fbd1880ba419aeb040b2fb93b7ef8"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013003.xml",
+      "bytes": 13084,
+      "sha256": "1dc1ab169bf3f3be35bfa05d46c47ef8296f84475c9feeec9335c1b36a666f7f"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013004.xml",
+      "bytes": 13095,
+      "sha256": "dbcb809baa4906e8585089bb7d921bebf286b217587e9e391bfa29755f136e24"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013005.xml",
+      "bytes": 13087,
+      "sha256": "9ffe26286ff3b1a91b5646773f5073ed818d165fd06a864de355d8d28d4f70ad"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013006.xml",
+      "bytes": 13095,
+      "sha256": "bce50baadc83e75b7d4d1a1ce79bf47f594722dc5a9870471877f186f0016cc3"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013007.xml",
+      "bytes": 13088,
+      "sha256": "3261ecbfaf8f65dd7112e745a3ee351657bf4c2de6527a19ce77c08ea502eb75"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013008.xml",
+      "bytes": 13131,
+      "sha256": "20d1fe8ae75060ce1b29f05e305f0f4864714c2519e40d25d936686def8375f8"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013009.xml",
+      "bytes": 13083,
+      "sha256": "c803ba0d4b8459ffb4dbb14153cdc4daefead3326ae7d9ce498c123bab18ea12"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013010.xml",
+      "bytes": 13092,
+      "sha256": "1b8b6d91fab7d96e8cfe7640370ca98d96979fc57f985b64bef3f1eb9c499d5b"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013011.xml",
+      "bytes": 13085,
+      "sha256": "8c01f5ec24154a04b764e1a19eff2ebf651ecbb881e497469e93c5b7f907b9d6"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013012.xml",
+      "bytes": 13126,
+      "sha256": "f27d5a7f6345bc7367ff135cfdae6ab4efba2d41d39c15f8a61e19028bf8e6b0"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013014.xml",
+      "bytes": 13087,
+      "sha256": "fe4cc5e6132766e37a4a8210bc091d13e431a02279d869f5593a11ced61f58b2"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013015.xml",
+      "bytes": 13071,
+      "sha256": "64d85e6f48458fbd423a54cb64f5fcb4b3dee521fbf33dfbdfee16a14a7b815c"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013016.xml",
+      "bytes": 13131,
+      "sha256": "a1a2b6bbc9a5bbfed53f6201e89a8eeb5f02fbc32a666645345067101bf24da9"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013018.xml",
+      "bytes": 13093,
+      "sha256": "6109fad7b35ce660abafc7cc370184859bffd7bd40ac16bcc96571ab1a9fef3a"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013019.xml",
+      "bytes": 13087,
+      "sha256": "9a44873c4bfd16244337012f55055c6093c94b57c4a72fa09108e8a12d52aaf3"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013020.xml",
+      "bytes": 13088,
+      "sha256": "1b239071ed8fc21ba93055d8c377e043d80ae4680cad384812d966baf8d5bddf"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013021.xml",
+      "bytes": 13122,
+      "sha256": "6833428bbffd865d156763aca285013b877fa74a944c94775c75706b6dc51b6c"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013022.xml",
+      "bytes": 13132,
+      "sha256": "ea306c90dcf83f6c4f970a5888cf96ae27444ff2f4b67e72a7164e25b1a8e37f"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013023.xml",
+      "bytes": 13132,
+      "sha256": "efe050a41c3ff55d51157e339f102bac3e4c8a7ad653b32448598f45580bac04"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013024.xml",
+      "bytes": 13089,
+      "sha256": "64a47fb43302d7d81af3da6580fd820cce9d3b7c7fe820e2d7111e4479aa60c5"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013032.xml",
+      "bytes": 13340,
+      "sha256": "0a3343e9f064a05d7fddcfdf21f1edd8c73a9ee2d060f0a2231f91d8090243d3"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013033.xml",
+      "bytes": 13328,
+      "sha256": "77b3e5f6678fbaf032788347e4e92ce80a21dd534262dcfb79b4a6da92562e4b"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013034.xml",
+      "bytes": 13382,
+      "sha256": "92b262dde2551fe0c48d71aaa6316344b1d2caab5b370da38e3bc56b0b97fda5"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013035.xml",
+      "bytes": 13334,
+      "sha256": "5706b9b718e88170df8a0958d35d20c15852acd09763a2b7b6ec516c9c64ae13"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013038.xml",
+      "bytes": 13410,
+      "sha256": "374262c4a2738cf0491ac63732cedc4c9401d12621b297d3a212dd1529db7068"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013065.xml",
+      "bytes": 13493,
+      "sha256": "bbd025c144d594ef9d6ccaf46f129027f5751fcd17593bcc49355b89cb245d69"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013066.xml",
+      "bytes": 13487,
+      "sha256": "dcfa7417edab041fd66e5da8c4a357701be9878dc22bc7476e0915dc5a480ec2"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013067.xml",
+      "bytes": 13471,
+      "sha256": "4748a829b6d8abcfd8dcd7d3276fbe97240ee15f839d699f21d079ba355f6bff"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013068.xml",
+      "bytes": 13415,
+      "sha256": "bb3abb0493f91c3eb81af5f9ccca29fee91c1a4ef970d97ce23903bc36ab118c"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013069.xml",
+      "bytes": 13485,
+      "sha256": "1623c85ee270f6b932da34b03935cbb08d363ac9b27f5faa8e70ded426a50937"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013071.xml",
+      "bytes": 13366,
+      "sha256": "62d71f2aa906982ec54694822a4e16973a7e4ff8eff53fe7e91a85a5275759d8"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013072.xml",
+      "bytes": 13331,
+      "sha256": "b291282b71bc5ac4320e923a393db597f03cd3e70fa0a55380c1be74673a4deb"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013073.xml",
+      "bytes": 13416,
+      "sha256": "8821eb377544aa4b48ecf00f34deaeb5c286607c476c50e5a6f0383400ed0904"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013074.xml",
+      "bytes": 13417,
+      "sha256": "61f65f09d842eac5c09753aa49e4f6c94e326b4916b22f78e59cc78c17562831"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013075.xml",
+      "bytes": 13422,
+      "sha256": "67c096c355d8bf689fc05d7fd078d27b7b3029e9a4a6ca3ae7e328f6baf1b769"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013076.xml",
+      "bytes": 13380,
+      "sha256": "4e72328cc1062d15798a7846e924d291425f4d9ce05decb95c7cd7dc000b0590"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013077.xml",
+      "bytes": 13423,
+      "sha256": "b52dd4c62523513819bfc2a4311cff23a392ec58216ed19363cad9dc3c40e7d2"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013078.xml",
+      "bytes": 13372,
+      "sha256": "6faf51a426a4cd36d903535f6bd4edde09f7f1c5c7c48ca7ed809cf8789238d7"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013079.xml",
+      "bytes": 13364,
+      "sha256": "e473878c5c3d9e9c2949c26e3bf9cdd50edc80013cd194b16dd4adbf3f0257c8"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013080.xml",
+      "bytes": 13401,
+      "sha256": "222bba4b382e772d431de6a2f13b2e62eaa2c20b0247e7450746140a490d4c3b"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013081.xml",
+      "bytes": 13383,
+      "sha256": "33567f81d3f686614c8a1b557ee69f05b4cfe0f924725eca21a65698cf95dae4"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013082.xml",
+      "bytes": 13321,
+      "sha256": "e6a7a732f3e4fb33cbb0109b622c5072a7247d0f848629aa1a9d069bfd0ebcb6"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013083.xml",
+      "bytes": 13311,
+      "sha256": "c88277359085597a5abeca5513e3b5f38d67e17cd25cd1fbf49b936a4a184783"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013084.xml",
+      "bytes": 13313,
+      "sha256": "c2674854b9c56a69fffad098621bd61608cff59c196a5c2dc7e4b611bc41d3bf"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013085.xml",
+      "bytes": 13320,
+      "sha256": "192045499a4263d0dc4a28f676ec4f63e8d3e78db967a0191b834ea7e0212793"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013086.xml",
+      "bytes": 13364,
+      "sha256": "69ff7986338a7becc9dded33ff999f6e20a625d5e1d1229ab1f48417afb68b9d"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013087.xml",
+      "bytes": 13411,
+      "sha256": "5078fe88fc97e03e8e64eb102436d6f904c339b44ea2a2689aa710417f2bd5a1"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013088.xml",
+      "bytes": 13413,
+      "sha256": "baa7c22aa4b08826eed5801908b04571b4bd9657e8d8ae4fb92d503266604088"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013089.xml",
+      "bytes": 13446,
+      "sha256": "b8f2f488b5cf0a20a30efa6cc0769028068b7d84c8f20ea6910199f4c70e5304"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013090.xml",
+      "bytes": 13371,
+      "sha256": "c9114430bc7fd804ca03a1df5eb068ee65abeb9b3aa0b776120013adda0b1612"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013091.xml",
+      "bytes": 13376,
+      "sha256": "21808a00831adf6f2782c0f16984f87926208cf0c67de43178ec305ceabd04e8"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013092.xml",
+      "bytes": 13373,
+      "sha256": "92f6dc2a1e37691c1ae9c519068ee6aaa8ea622a73975bf2ab7f990cd53c9b4a"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013093.xml",
+      "bytes": 13371,
+      "sha256": "460d4221cc3f9d74bfcfd208a1479eec87fac3aa6e70c37bcaed6b969981b579"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013094.xml",
+      "bytes": 13338,
+      "sha256": "aa17da6c5365075376382937f1bb89d6fb34e36341dbfecbaa31a928ebb4fa6e"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013095.xml",
+      "bytes": 13305,
+      "sha256": "203cdec2e1d19a15196c41a3499e8550e65d55a855284bd2cf042defb2a64aaa"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013096.xml",
+      "bytes": 13322,
+      "sha256": "eff276315d5a5f619d6092d615fc2bece89767cae740b566f68bd0ab144e41f3"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013097.xml",
+      "bytes": 13390,
+      "sha256": "d44dd60da384861ed53f6acfdd5cfe2730672da1ca7adc3c260178b439a26658"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013098.xml",
+      "bytes": 13363,
+      "sha256": "b226df1243114ea4c8183afb0e2420ac1035ffe932e3ceeec083aa2a547d4892"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013099.xml",
+      "bytes": 13417,
+      "sha256": "b66dfa408435fe527e8389350ff733e75bcd90f8ed838e9b8b1261100d2c5a8c"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013100.xml",
+      "bytes": 13394,
+      "sha256": "ffb27006c1bea491e23e26912e9adcc463424774e4d8ab13873e4f5877f7680f"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-09-237-XML/1C25TUV_00013101.xml",
+      "bytes": 13308,
+      "sha256": "d88fc454bd00577c577698de89fd36f1ade395dbe630a612b9dda4ff6ea1e156"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-10-57-F0/1C24TUV_00000724.xml",
+      "bytes": 188097,
+      "sha256": "7ecd5673721832e7da2368f2ff31b57e7589226d911e5ac680081277f8888e29"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-10-57-F0/1C24TUV_00000725.xml",
+      "bytes": 229903,
+      "sha256": "15c47b6c36d0fdf24fa7f89159c3760b83a9efe79139b501eb5cd56af1130a83"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-10-57-F0/1C24TUV_00000726.xml",
+      "bytes": 167628,
+      "sha256": "bf5a618ca4f8e3837846ce3357362dfee685971d78030451b0d4a658cebc6de9"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-10-57-F0/1C24TUV_00000727.xml",
+      "bytes": 235073,
+      "sha256": "d1a7ffac5f4b5820a76c789401207ff00e2bf271f71214a7cbb6da89c0188a15"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-10-57-F0/1C24TUV_00000728.xml",
+      "bytes": 196169,
+      "sha256": "a19742aead5a858beb41774e5bce37e73b4c3bf05a105fd57e9607034c7b60a0"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-10-57-F0/1C24TUV_00000729.xml",
+      "bytes": 216886,
+      "sha256": "6c658de3e4a6bfaddb1ee80e5baf755b1a7b414a5fa9ad25eb6cb911db7a75e9"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-10-57-F0/1C24TUV_00000730.xml",
+      "bytes": 14233,
+      "sha256": "a56dcec513ba885fa50c4aabe98063bc45c7c06b65a1e3ce7fbee767b525cc6d"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-10-57-F0/1C24TUV_00000731.xml",
+      "bytes": 475969,
+      "sha256": "d4d3af8fd9620f14d01439cdb312e55db70f8a6846d35548649fdb76b79e8bca"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-10-57-F0/1C24TUV_00000732.xml",
+      "bytes": 16994,
+      "sha256": "c5b4e15fe29a92cf0968f54b87f68b82c9efff9839f91fb0a14e4cfe3b9f60b0"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-10-57-F0/1C24TUV_00000733.xml",
+      "bytes": 14262,
+      "sha256": "ca15ffd599c7e5bd6f18a92c4ada5dd4b1b083fe1562a1e7c8f329831761c254"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-10-57-F0/1C24TUV_00000734.xml",
+      "bytes": 71395,
+      "sha256": "418d4f42ab8e9584721415e6164464d49dcd3b0584f8d811b701cb494c40c8a7"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-10-57-F0/1C24TUV_00000735.xml",
+      "bytes": 139188,
+      "sha256": "1fb339d429725a1ae8a9f547965f00004950e5b67314394253acf9355287cc8c"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-10-57-F0/1C24TUV_00000736.xml",
+      "bytes": 162245,
+      "sha256": "ce106db976ca01316bc3c9099011149ddba5d8d068f0a604490f7c8f213de023"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-10-57-F0/1C24TUV_00000737.xml",
+      "bytes": 175491,
+      "sha256": "ec3a3297b64e03ea2aaaa743ca6b506ff21083139baf0765fca9f99fbfe2627b"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-10-57-F0/1C24TUV_00000738.xml",
+      "bytes": 152023,
+      "sha256": "30f18a41e79c36fd3b7315648cf6587b8a88b8d4e6b006550024e66e444bd3b3"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-10-57-F0/1C24TUV_00000739.xml",
+      "bytes": 139031,
+      "sha256": "abd8a55a70c54c4a4e2d6960d0758d47a6d4969b56fb45a39cc7c1ffd701d1a4"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-10-57-F0/1C24TUV_00000740.xml",
+      "bytes": 32183,
+      "sha256": "7ac562cfe1fac514d48aebfed079e7239a61f05b7caab9354301cabe9eb479a5"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-10-57-F0/1C24TUV_00000741.xml",
+      "bytes": 24711,
+      "sha256": "73859166894d2a5feccf2f2aca8b14c13e00e3df096ec9c79718327b163d8dfd"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-10-57-F0/1C24TUV_00000742.xml",
+      "bytes": 14278,
+      "sha256": "d0d0688f5d867ed889498f4d9f88c8864e60fb4cf654b9a81a461a967474cd38"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-10-57-F0/1C24TUV_00000743.xml",
+      "bytes": 14364,
+      "sha256": "051564c49902cb5d0c3c7035d879123da6af392e9f2b5c78d9364f7b8a73058f"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-10-57-F0/Bang_ke_chi_tiet_hoa_don_da_su_dung_1791595024735.xls",
+      "bytes": 3414309,
+      "sha256": "8d6eef9d069e8eee3aca67db2b897d51b41e78daef8dd5992b396e934ea2a9c5"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000543.xml",
+      "bytes": 29929,
+      "sha256": "c0339884779eb803ce7f615680eb077307b2d1c70479735ea18360197807d714"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000544.xml",
+      "bytes": 25064,
+      "sha256": "36fd69e534150d33f55205c72c556d37ec209afc3de9bc3220d66996c988b9e3"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000545.xml",
+      "bytes": 12858,
+      "sha256": "177aec779270ff7888083df949724b1debc6df08a5245339f8413240b062221f"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000546.xml",
+      "bytes": 12874,
+      "sha256": "643445b5503c651e5b4d62877b07dd823708dcf95538b2e74636408f13e05073"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000547.xml",
+      "bytes": 12805,
+      "sha256": "7973015c5ddec29193bd5d61e8546ea37270ee6c30d2f28a9218fc2f8f5d65f9"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000548.xml",
+      "bytes": 12909,
+      "sha256": "620a99606fc0025d387a9c00006f0ed29d2589e991fd91aae7919cf4afe4b151"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000549.xml",
+      "bytes": 12912,
+      "sha256": "a89ab98fdd6b96a279a5c3061e6004cdc1ef7287c8b49f331d77e02d6f1c1edf"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000550.xml",
+      "bytes": 12905,
+      "sha256": "b2e5db37f9fb06a7fac5b61067a90c3aaa69c8a07c27173a67679fcdf22440df"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000551.xml",
+      "bytes": 12896,
+      "sha256": "075b02905a9d43988649ecf845785126258045f541bf3c7c4267f1c9304d8632"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000552.xml",
+      "bytes": 12860,
+      "sha256": "f69e89e6826b8a42dc6ac9478b59888d36b24b33060fc5d9a111fa9704b76200"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000553.xml",
+      "bytes": 12904,
+      "sha256": "335d8472f1553a4ea842bb4b1d14dd9c2c01676dc453a322797c6adae47b68e6"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000554.xml",
+      "bytes": 12910,
+      "sha256": "eb3d8f534c3c355e723c06f01e88b16eb9e4e8d814334e054f72b66a258ba7af"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000555.xml",
+      "bytes": 12896,
+      "sha256": "488d32502a828492f95f7ae641b19e2e6b1e4ccc979b6af32a6027dae4b3bc21"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000556.xml",
+      "bytes": 12847,
+      "sha256": "f31b7988dc00e76fd03cf0d6713dcf00b5071ba2da08e502f9d0401c55ed7eb1"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000557.xml",
+      "bytes": 12942,
+      "sha256": "b528f290004eab6e61d454ce123be8b55b325711273f35e0953f1daa98d8e5eb"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000558.xml",
+      "bytes": 12907,
+      "sha256": "cf37ae8513dd1d8e45f29eb719c08c614074a567706a59912d2473b55f678b0f"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000559.xml",
+      "bytes": 12920,
+      "sha256": "b53302d974b9a4ea8d74ab43233abd1a4ee8ab9b4f923d6cbb34b9c038a1ba72"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000560.xml",
+      "bytes": 12911,
+      "sha256": "80682a5e182825e28b57aaf38ec0ff492b7e64a8d7666f695529202cdb1c0a78"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000561.xml",
+      "bytes": 12926,
+      "sha256": "a6a6c505c0f693410b073ac1842f2bc6af222522aa924d12f96e0839c5b6e3dd"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000562.xml",
+      "bytes": 12859,
+      "sha256": "802efdeea05af054e4c8cb75277745adf9412d8221e23f7abda350455bdad9d7"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000563.xml",
+      "bytes": 12948,
+      "sha256": "fb458ef7989eec3b4a0e5689efbf75137e7dca0293af8950ef3ca1987ce11ac2"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000564.xml",
+      "bytes": 12915,
+      "sha256": "4d08b4574ccf5ed8bac9d9de27fe216f8d8c28936306fe80a34385e8ffd70b25"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000565.xml",
+      "bytes": 12906,
+      "sha256": "a25528d489b5a5aeb1df83b1a606af53f1baea8f35faddbf1c34e8d2fc9039f8"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000566.xml",
+      "bytes": 12928,
+      "sha256": "2dd75d2c76a88d834c733a9a299957be0231b8368faed6fad9cebe7c177fcdcf"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000567.xml",
+      "bytes": 12923,
+      "sha256": "ae0896977799fc589bda1a03ad923831accc9c1f7b80051981cb2516361b248a"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000568.xml",
+      "bytes": 12919,
+      "sha256": "02f8d0abcda6b22b005f3923f3764196d0d015556d10ce52bba295f9b5ddac19"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000569.xml",
+      "bytes": 12910,
+      "sha256": "af8bb79edbbf5192ee2231de61d763ded555d88538463f833b8fa515d4f9af6f"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000570.xml",
+      "bytes": 12911,
+      "sha256": "e34f2e41cfa3a88ed0e3d357252e6b14fd8f18496acd4db28aab0fc52a6c30db"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000571.xml",
+      "bytes": 12946,
+      "sha256": "12a9fe997d98bbf9fa38367cd74c084294054d48611fbec02b8afdc9630dd944"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000572.xml",
+      "bytes": 12887,
+      "sha256": "94e0278976108d468159289d3e144c4c01348aade5aec98fcf862ea4d8743f1a"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000573.xml",
+      "bytes": 12851,
+      "sha256": "19c990f25f21a7c06913dadc3e31dcc4ca959dfb617f505a990ccd16e8d8e8f7"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000574.xml",
+      "bytes": 12783,
+      "sha256": "9866a96bd7547a14b9bc8f212d45e5cb4ebfb19b338f24811d8e599d1ede86c0"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000575.xml",
+      "bytes": 12876,
+      "sha256": "b3745e957e593236e37e9859281031c3583643ccaef862508b139b5d6fb8f540"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000576.xml",
+      "bytes": 12916,
+      "sha256": "f429c66ad2d001f2d9c3f85a87517c8e8de5f5a396f1f83232a1eb7df5ff8603"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000577.xml",
+      "bytes": 12871,
+      "sha256": "3fcfd0d826ba0a1a03b454256f33fb2558e6434419ffec2f54a2715734b841d5"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000578.xml",
+      "bytes": 12947,
+      "sha256": "e8be2f9691920c6dbbdb617da5ed59973f016ebc7cc64aaf8ec12301938533f2"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000579.xml",
+      "bytes": 12900,
+      "sha256": "3ef17bd2e6c1fe156d111367b3c81d1cc7ceb0f6ed7bf4f06fe2de83a76c31bb"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000580.xml",
+      "bytes": 12836,
+      "sha256": "33217f34035f649c9ba17e1da2218ce1918278a80a6026737e1d7cedf331fbaa"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000581.xml",
+      "bytes": 12785,
+      "sha256": "4ae557205d912cca0eb9e5e6d7b6a9815ce7a40c0c32e7f4618dbd8882017f5b"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000582.xml",
+      "bytes": 12911,
+      "sha256": "186b70aa0b3d3a5f1c4e72811014a6d2293eeda8f14b7f2a62dfa6183dc836ae"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000583.xml",
+      "bytes": 12826,
+      "sha256": "fae4ac71f78729ea709b3ae72d57b333d058116318455b263351dc3653d59200"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000584.xml",
+      "bytes": 12836,
+      "sha256": "0f9f6dfd5eb2ed60cb177db5f7b6d15e07061958e048eab337741cd5246ca69f"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000585.xml",
+      "bytes": 12896,
+      "sha256": "4abfbcdf969fed4e55c3e4e9f492b265cb73185fb5b722157117ea2449946cea"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000586.xml",
+      "bytes": 12793,
+      "sha256": "d133b610f7de6a37c90587c040ecb2e1ed19b51f3cda3b07c0eff53e03f636a5"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000587.xml",
+      "bytes": 12879,
+      "sha256": "bf8c5de7f158a96da2ef836033d5322d027cf63b5e12193359fcd0ab9bdc8378"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000588.xml",
+      "bytes": 12919,
+      "sha256": "c7c0185908554e30265acebeab641ee08d8d4b23d5bbf99956604a5624d89b1b"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000589.xml",
+      "bytes": 12956,
+      "sha256": "92795578fa7fb204382ce85e1635aee1db6e4886d917fc27fa28733b8f78a8ac"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000590.xml",
+      "bytes": 12929,
+      "sha256": "230f64696abb005bd5d8751f57127f9cd69c22078d209df3d3a4cdf65c02e0f6"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000591.xml",
+      "bytes": 12920,
+      "sha256": "6e520b44b5a63d372019149f575bc4304d5f99b5aae23851ff7a53712ec9aec1"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000592.xml",
+      "bytes": 12939,
+      "sha256": "90abb42d8feb8fa5f3f84b6d74a70c0ca29ac4d4c5f9d51944dd4fc1f89fcc51"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000593.xml",
+      "bytes": 12949,
+      "sha256": "da0fa4ccc1bf7f25379b24e92ef192c973e5afc217e4f6f6aefc70f200e38c90"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000594.xml",
+      "bytes": 12930,
+      "sha256": "4679d7ee004f831662ebc4d18cc53aeeddef4c5818c93415fa19e9b382709d39"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000595.xml",
+      "bytes": 12926,
+      "sha256": "9e98f635e575a888a981589a22df27385123bcf5ac44cb735498c59254b9f224"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000596.xml",
+      "bytes": 12925,
+      "sha256": "87da05c99bd801452f4fd692a48df7902743be29a59e89c5407b63e39e116270"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000597.xml",
+      "bytes": 12851,
+      "sha256": "1a16978d7e14b32d5bfc02c517e9209406cf5925ae57845ba9647167bdd3d1d9"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000598.xml",
+      "bytes": 12821,
+      "sha256": "e3ebb99b6b14be36cfb1dfd415c02dd99587239f0e2167a09379f4382d4822b2"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000599.xml",
+      "bytes": 12893,
+      "sha256": "577bac396c654e2238de3ce9ff4da8f39d54a8a876419ff92932f313e8b88c79"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000600.xml",
+      "bytes": 12951,
+      "sha256": "5ae41cf2aadc134b12995a1a9e4b301f79a528ab8957a474d808f89ff9a96948"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000601.xml",
+      "bytes": 12884,
+      "sha256": "081d8bf645ddea75b47e32584bdff41fa1491234a3c2b9ce534f9862af74a0d4"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000602.xml",
+      "bytes": 12894,
+      "sha256": "4c235c79f9be080b341a916a6365dd960991f25bb7766d3106c4fe43cd553d35"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000603.xml",
+      "bytes": 12879,
+      "sha256": "388a413752012c9988affc224d989083e23d3934e0cc06922f0dfce76fe06dac"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000604.xml",
+      "bytes": 12895,
+      "sha256": "ddeae943695ea9e82b2f49c042dc99a3230a0437fb79454e4b1df873171923d0"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000605.xml",
+      "bytes": 12885,
+      "sha256": "4b9efe8fdc19fbc509f423c3ab6a049efcadc428b65804b1e259089157d22ef4"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000606.xml",
+      "bytes": 12898,
+      "sha256": "72ccdd16b8664ef49dd3bc5caf3a6aea4f88b325baef41bccec81f449bf59c64"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000607.xml",
+      "bytes": 12948,
+      "sha256": "16eeb157ac048ce73c536cddf8ee443e1f34f5e6ffe1804934d22dcdd43f34d4"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000608.xml",
+      "bytes": 12945,
+      "sha256": "58157deb08f8cf85ac96f7735995dda6b395e4147306d14117c30f367f21d904"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000609.xml",
+      "bytes": 12912,
+      "sha256": "74764086a614ddc61938ecb2343c36c2803eb02e57c7ee90d27e6d57e43be179"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000610.xml",
+      "bytes": 12928,
+      "sha256": "32acebcc711a9268d84d2216f79b2298d662d2d3e874ec8afd0bad02ed8a092c"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000611.xml",
+      "bytes": 12903,
+      "sha256": "180427c9217dcacca74297b8e3f741cd2b8b6ab66992d2ab64c4369deb55f71d"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000612.xml",
+      "bytes": 12924,
+      "sha256": "9e344414168e1a855e677cdb5b68cac90ecea0772e09fdb9d46df2f69749f59f"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000613.xml",
+      "bytes": 12893,
+      "sha256": "6997b3e7dc5037d45cf0be48dce4847a9c64230e7379c8f0f2ef51962d88dde6"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000614.xml",
+      "bytes": 12930,
+      "sha256": "1088a2fe4de92aa8d83b562bff0b9c826337345885aa4ab468b56d0306a8a63d"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000615.xml",
+      "bytes": 12927,
+      "sha256": "b4763281dbc2bc55865091dd1ea5da1825ea3146463e4a39d60f02908f6a55f3"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000616.xml",
+      "bytes": 12918,
+      "sha256": "d22e202bf00d5df1a6563d115af0afd6b94a283c3b4b98560a36bf594679305f"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000617.xml",
+      "bytes": 12893,
+      "sha256": "c580a868d85c1358b21a502892b9f6896cdc57ac3512dd0785fb9138ddaf3adb"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000618.xml",
+      "bytes": 12912,
+      "sha256": "84405367faa5be7b18bac63d13b04f84e460f8d5b792702d4eaab717d0c27d3c"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000619.xml",
+      "bytes": 12889,
+      "sha256": "72640fa08161b0436209ddea72239c080e8c0273122f40e43ecbd164b0a3028a"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000620.xml",
+      "bytes": 12923,
+      "sha256": "549d7b58e53b905c4cf7af0f5acfb20278a19535d7b9bbf981cc4bc81ed143c2"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000621.xml",
+      "bytes": 12870,
+      "sha256": "8ecdfb53d167547e4d40ab7ff4444c2df7dc429e2e98dac54b90a23daa3f4309"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000622.xml",
+      "bytes": 12850,
+      "sha256": "389d5900eba2342f289a15d32c94a4afcfe54a1bd19da7653a6f39f840e25afd"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000623.xml",
+      "bytes": 12884,
+      "sha256": "e14a779237cddd96cdb237a30f9d5ea31289d9161f4902bb5bffa865555e8629"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000624.xml",
+      "bytes": 12930,
+      "sha256": "8049c9036d4c64b1c3a150785f4edd6df44e93c50e4eca8953ebd542a3e05e80"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000625.xml",
+      "bytes": 12898,
+      "sha256": "384cad7297b0caed368e24e65d0e220ddb182b63f3154560226c7247b912dc3c"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000626.xml",
+      "bytes": 12918,
+      "sha256": "836b427146c2adcb3def573f8729174dd92bbae6aea1d783458e11c2cba75a31"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000627.xml",
+      "bytes": 12919,
+      "sha256": "b2cfce14171373e5c77f6b9526fe8280d9b7c7573b13b3e9d256b6f559deaa0b"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000628.xml",
+      "bytes": 12926,
+      "sha256": "7a97fe7febf13db7a4c2a59a90777329a5f0a4f2ab573acf42ff1c6e3c607fbe"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000629.xml",
+      "bytes": 12915,
+      "sha256": "160a4420acfe791db9dd24c8cfd4c6b784ce60797f3dd56e0cdb158e464dc867"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000630.xml",
+      "bytes": 12916,
+      "sha256": "67fbedef12fac43ff4282b0ae86755893ce36a77e14c8267666649e390d3c18f"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000631.xml",
+      "bytes": 12911,
+      "sha256": "e2b34f39f243d22b7a02f0ef40c37e81e15cf25be4eaf1b0c0b5c0c23577f44e"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000632.xml",
+      "bytes": 12936,
+      "sha256": "6cadb09a8175ee8fc5d2ac9ab73da8e326e8f3874cb18b9d47680659e8f25d50"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000633.xml",
+      "bytes": 12890,
+      "sha256": "000fc31af53eef29e4f1c93f1301d0599592ae72a7fe956da28cf4c329e5202a"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000634.xml",
+      "bytes": 12933,
+      "sha256": "2c38d01c045dd5870e7a7f24df4d264accf105bd8bc4dcb96002d42707b31ce1"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000635.xml",
+      "bytes": 12884,
+      "sha256": "53928e76d91b9ea86c0201b70b8be54c6fee9445b68a8046412141bee826c334"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000636.xml",
+      "bytes": 12876,
+      "sha256": "abc1910cd5740fef3f31904036118686603670c6304b64ba4f1fe9601db09493"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000637.xml",
+      "bytes": 12938,
+      "sha256": "b35b52a417f0c65891d32ba3fae9e57152225b647d430da654390a1f5a7bb86e"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000638.xml",
+      "bytes": 12820,
+      "sha256": "62cf9747b85623c816af92c42edc06d1647dd8cb94d15803c4abed120b34556b"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000639.xml",
+      "bytes": 12893,
+      "sha256": "ec1428678eb0062c23f021893cd38f79392c7e9dd24eabc85f3c5b514a1e95dd"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000640.xml",
+      "bytes": 12924,
+      "sha256": "5b37c6d93d75a130a2884ba924299df1d6239cc4acde5ad01c6150223cedd86f"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000641.xml",
+      "bytes": 12875,
+      "sha256": "9fe65507ec07e1de409ae6ba6e0677ea8b8c932600f788f064ffb60dc38704d1"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000642.xml",
+      "bytes": 12907,
+      "sha256": "9b4419851dea3c458ab6ffde2ddde5d6c27f082ba69c0646c925179d731bb588"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000643.xml",
+      "bytes": 12922,
+      "sha256": "02799f8608d687916e051c0af51e997031057b3a445a6940bc01ce6abdc05fc5"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000644.xml",
+      "bytes": 12902,
+      "sha256": "4f0b2a82d36b79999536ae6fc884faf4d5ba725d77625ea844643ad64d9e3615"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000645.xml",
+      "bytes": 12916,
+      "sha256": "c5bfa887a64efbb442b7bf4eae005d763337103312e9958522f54442c1d9d847"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000646.xml",
+      "bytes": 12931,
+      "sha256": "c8ab0c522e1a90ec799e065c444eb8cb848ac5f43d0ee5d0f191a7c91b2454ad"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000647.xml",
+      "bytes": 12876,
+      "sha256": "78b5f13e79ed07bde67521f05bd18dc5c5e3ee6caae8fb587c3a13e6e66efbd6"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000648.xml",
+      "bytes": 12896,
+      "sha256": "cdc48c4161c57e50978e9051992ae714b6640908af1632d5ad5cd59a96d6b4cc"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000649.xml",
+      "bytes": 12896,
+      "sha256": "b5965bd2ecf57a42c5f0cd2c16601e1043ed8a9aca21cc2769e6db1d0928542d"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000650.xml",
+      "bytes": 12960,
+      "sha256": "b52ca2cab926d8b8d257cefc6e655971a3db9256f7cbe80455c8f3ca6faa684f"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000651.xml",
+      "bytes": 12925,
+      "sha256": "580bbabe1cedea3f7df7c39bbe289d7eb47f039f3ee32791b58fe14bfe1e0c2c"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000652.xml",
+      "bytes": 13004,
+      "sha256": "85faabffd25eeda716484e8a3957ce744713c982b342438adab15e7d99992c88"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000653.xml",
+      "bytes": 13028,
+      "sha256": "d417c38bc838cd12c877e45dce477e3f05e874f0124c03d920858ea286aaba83"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000654.xml",
+      "bytes": 13024,
+      "sha256": "b6ba1d21c6f5b065e91a266a8bd071a0bc176bc91f2fa353e92a16542b730005"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000655.xml",
+      "bytes": 12876,
+      "sha256": "9f0552364f5fa1f2f865be572f57011e6fb166e75c5c7644ab7c2e2b43a0d321"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000656.xml",
+      "bytes": 12951,
+      "sha256": "b6038eda0a2953a4e0cf6a3bb2df871fea48f53ec62d0b6ecb38527274116aed"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000657.xml",
+      "bytes": 12876,
+      "sha256": "8b0686f62571b2c7c77d68bfaf49e94e2c880f44ba35981f3d8485ef78bcc75f"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000658.xml",
+      "bytes": 13032,
+      "sha256": "0b1b22755f804055a2c78ac4839efc199bb0aca60532ed4c50b9926401f16fb7"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000659.xml",
+      "bytes": 13043,
+      "sha256": "7d36c39392453b30ddb2a339d0a2ed95b2a7f9bcfc269c761ec3e9f7feacbd82"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000660.xml",
+      "bytes": 13034,
+      "sha256": "3ff6eef5d127267d6612e425b5d29665efcc928b16073dac443ee8bb0b9eee34"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000661.xml",
+      "bytes": 13002,
+      "sha256": "2d7f9d7bb6213a9177ffe3155987f24c7516d415bd0e41091183fde75ad60906"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000662.xml",
+      "bytes": 12965,
+      "sha256": "243c4c74cd850a3ad557f183e38cba42f53a084cac87ee15ff4d37f8fd1bd689"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000663.xml",
+      "bytes": 13023,
+      "sha256": "1d73db05d827fccb25a3996c460468783ab80ed7556c5a83d15dd5becb2e0822"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000664.xml",
+      "bytes": 12969,
+      "sha256": "56b4ab5717b45d4c9c018088ea094a5ebd13e67525e1361a87f8cedd3b53d662"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000665.xml",
+      "bytes": 12983,
+      "sha256": "b6a5f0c08eed78a9593744ffa6573dbe5752b3702ac288d2c4d823515668e93c"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000666.xml",
+      "bytes": 13024,
+      "sha256": "b5dd55b2aff6ffb71d3c6eb0095eeda2494efdfef3c97a9a9278aaafc92b27e1"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000667.xml",
+      "bytes": 13016,
+      "sha256": "7175e826613c726b2858347df88c9a756de49cb1ea02d4ac63dd933940f93a95"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000668.xml",
+      "bytes": 13002,
+      "sha256": "eda174e77b9a6923d64b92ee642586ca6a7345c4edb2fb5af46afac0fc7394e5"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000669.xml",
+      "bytes": 13028,
+      "sha256": "329f4d512995b9060306a06bf55822726bc27ba6f46aaa7d3950ec687e029a3a"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000670.xml",
+      "bytes": 13007,
+      "sha256": "5b6f3905ef86f2931f8ce9cad0d06352c2b6b342dc1483ff469ccfd41b7ce831"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000671.xml",
+      "bytes": 13050,
+      "sha256": "ab121aba0ad7c52c2ca589085090226aacaf34f982c93d9db272367bed35517d"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000672.xml",
+      "bytes": 13051,
+      "sha256": "e6e62a1763d4455a577a13e816fda067e32c552cb0ff8ef4539fc1cb8cefdb43"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000673.xml",
+      "bytes": 13023,
+      "sha256": "cb164941152fb0098131b94dea5d03c6aa3060054414f6a415b7d5f21ebb91de"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000674.xml",
+      "bytes": 13047,
+      "sha256": "657393471785ae7912cb221bfbfe5fdf6a63de78ed72b919bcbda2c1b2b56c3c"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000675.xml",
+      "bytes": 13042,
+      "sha256": "fc03af10d3cbc5b48a1fd5ecd0eaca8884eefc32aa159ed01ff5cdcffe42b137"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000676.xml",
+      "bytes": 13046,
+      "sha256": "0d9073d4e9c6a416d3c8634b330221005b9591c21888735b448e69628d16659c"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000677.xml",
+      "bytes": 12976,
+      "sha256": "62d593fc0da176dd1d76e40966ce81ff0d0b1da43324bb89952fa687c9f621b2"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000678.xml",
+      "bytes": 13052,
+      "sha256": "f2745dd1a88d8eda15dec152d8ea8b0acb474a05736a7668a12ff6162f9e0c93"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000679.xml",
+      "bytes": 13050,
+      "sha256": "87a1b2d22749700c97c6f177ada2662be876083622d242f2f2053244035f6c28"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000680.xml",
+      "bytes": 13047,
+      "sha256": "78ae4719c2b70a70c9f1d2b9f99b1c1b48e30043f2b9a345f401097a3a77f239"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000681.xml",
+      "bytes": 13047,
+      "sha256": "a2809e61e3068944a6753ba9106307f9a511fc87c5bcba624c81eadc3ce822d9"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000682.xml",
+      "bytes": 13047,
+      "sha256": "4d1b6b4de7e249ddcf56e8202a6c48d64873f93edaa15e6de0bdad95aa426aba"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000683.xml",
+      "bytes": 13037,
+      "sha256": "90139c48800d0683fcde3f194c4c022fb02a5de207eba13bd96e098e4a6ed460"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000684.xml",
+      "bytes": 13049,
+      "sha256": "5863206e050583d879a62d4f78f14304c3605f294c445e97aecca517c8f209c9"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000685.xml",
+      "bytes": 13064,
+      "sha256": "1edf710f48b4b27444ab360a7e36488cde758bf735d09b156b0b37138e5d4cf5"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000686.xml",
+      "bytes": 13047,
+      "sha256": "7de034ec14235350bef61c5906873f8b3850b81091153edcb25f714fc254b6cd"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000687.xml",
+      "bytes": 13050,
+      "sha256": "9abfadaf96f16b731ceccfeeb7e3414d3d0c312c373bee8a7d7ecef2d2ce9294"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000688.xml",
+      "bytes": 13049,
+      "sha256": "bccb83d537eb9531e6db4dcb88991c41011670d522c08b700bd303912a9877f2"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000689.xml",
+      "bytes": 13100,
+      "sha256": "81884c2668d41eac96cc955da7c58ce2d1b9c0c47afa0d0317c20fb696a3c71a"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000690.xml",
+      "bytes": 13050,
+      "sha256": "b0950f30bff0d9fac6f6169d544e412ea07186bb40d034ae9d12f061d9b42c87"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000691.xml",
+      "bytes": 13089,
+      "sha256": "d53a485056d37e46d4e97f0f034c0f4ef1f1e98ba68bb6336c8789d56a7d4a3b"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000692.xml",
+      "bytes": 13037,
+      "sha256": "04cd1636abea5471cd33099b2ce064a9f48ecc5b8432c99726455e90455791b8"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000693.xml",
+      "bytes": 13023,
+      "sha256": "26d6c9f33e2a753627173ad304862ea3a5bd792d8aa2dd933902da7e8651ff52"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000694.xml",
+      "bytes": 13098,
+      "sha256": "c531925ef33816e0dfdccd6dc7dbf81cce06cf70d3eeb27050bdae3544d09858"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000695.xml",
+      "bytes": 13073,
+      "sha256": "b8aac979a2857fe58b821044aeac3e47e1dcc2ad0714c37035c16c86d27028a7"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000696.xml",
+      "bytes": 13042,
+      "sha256": "1d9b9637046943ac68c0c237b8eaa645e35a985e2f10b466f3547819fdd095b2"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000697.xml",
+      "bytes": 13103,
+      "sha256": "65ceabad96b2d7008a66bc6f4ca59360a1b1cbb09b907c7fa7eccb584a0a0d87"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000698.xml",
+      "bytes": 13026,
+      "sha256": "c007df974c9ea384b87528b2300b39b03e6180b9efb50e3d9b4d922d9af110d9"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000699.xml",
+      "bytes": 13042,
+      "sha256": "8fa87e7f413d4d00c973b89e71841c068ae62d74deb0d3d9f46bd54b4ec90aaf"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000700.xml",
+      "bytes": 13099,
+      "sha256": "b95f1e74fabe81f755b959b5391749c223648143713dd33e1a7c17f1ce01e888"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000701.xml",
+      "bytes": 46697,
+      "sha256": "2bc51340ad5b9ab1dc5593073d6bb2caac82d60db1cd802e647e3c87f68ea018"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000702.xml",
+      "bytes": 34977,
+      "sha256": "0266ed320cabc2253e7fccf7fe7dd8642c3a316b7e66c2b51f4a1b688d41d8f9"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000703.xml",
+      "bytes": 12802,
+      "sha256": "d71cdcbb5075ace42b75957c35dae7f15254db06f5492f8715adba0807f3a8dc"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000704.xml",
+      "bytes": 12847,
+      "sha256": "192a32027e510de47cbbaf19bd50944e65fe43678c33da28301a755448856b10"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000705.xml",
+      "bytes": 14909,
+      "sha256": "33f2c1fb50a7fb47100b1bafeaa45cfa4fbb4c92359698492a9ba84dad23d1f7"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000706.xml",
+      "bytes": 60355,
+      "sha256": "63afe4e56b87962caa602127727f2df309862b268129f0b196abdb8e2429e564"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000707.xml",
+      "bytes": 34961,
+      "sha256": "083232e3387a00963a603db76be208b011cc8aefe09ddc2f210a50a7be6bd574"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000708.xml",
+      "bytes": 13993,
+      "sha256": "db064a6680264e2c2a9b1bc6261172719bd5f2976fc10d1e09658372373c2797"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000709.xml",
+      "bytes": 46999,
+      "sha256": "48e2ff0bd00cc64e9f88eb0055d5803617ea12b2e863ae263baa05285f214685"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000710.xml",
+      "bytes": 70503,
+      "sha256": "327ee34b2fa84cb390e95e2058f3bf5b5661ad3887b902f6411acfb0e949a905"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000711.xml",
+      "bytes": 12962,
+      "sha256": "46a94d8907b07aa2ac1200d105de054d3708fe366d66720cdf5d8f3dd2c1d67e"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000712.xml",
+      "bytes": 12893,
+      "sha256": "ca25ce131f6427612be8b3ac467176a1b4e373e278d9e83fa88893e48d8165c3"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000713.xml",
+      "bytes": 12861,
+      "sha256": "c1be1f88d3f24970084feff30300c6626ad9985b2ab79e5952c7046d046afffa"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000714.xml",
+      "bytes": 12896,
+      "sha256": "ab0cd4e97a307764f80abdcb09f9c9bd3be5f7465a9653cf1de2ec50e2ff0017"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000715.xml",
+      "bytes": 12965,
+      "sha256": "5e5dfc2de104de3b681848d6e1dec7104ca2b538787e276cb74d63ed7f68b3a4"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000716.xml",
+      "bytes": 40108,
+      "sha256": "8220aea9ca765b3fd14be2904c3170bf8c2c95760b4f42f06b53bb5e6c82321e"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000717.xml",
+      "bytes": 63787,
+      "sha256": "adb4fa4d8f504491ac3d474ca7b0cc7561db64b8c6dd92338f68f0beca2adc0a"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000718.xml",
+      "bytes": 12892,
+      "sha256": "9132f8532200cbf68af461c1ac2864bbdfef83473dc04d052ed6462e22a8ff9f"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000719.xml",
+      "bytes": 12949,
+      "sha256": "60988018f3f2197dcdd14d906d8195ea49ec254a6200739446564ec62d497e6e"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000720.xml",
+      "bytes": 69755,
+      "sha256": "fc66820b8f6bf74e733b0104a057c2eb9976bc43dfb2cb4e69f0371435bf4f53"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000721.xml",
+      "bytes": 43058,
+      "sha256": "c15b24ad86199ecc66460e0d31c55053afd9543933d40b23a64e20106bf2115b"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000722.xml",
+      "bytes": 14907,
+      "sha256": "118a2b0e1993bbea514536ac7a34a8e4b72341e92222371de179547a0256efd9"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000723.xml",
+      "bytes": 12912,
+      "sha256": "4ca3959d5add0183b7045c57224de525b43bcb36f4bb1cca1508619049fb2580"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000724.xml",
+      "bytes": 32395,
+      "sha256": "837462a182ca106e2c2d78b0f7567a7cd0fa3e88096cdd78c536287a88aed5ce"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000725.xml",
+      "bytes": 66804,
+      "sha256": "a659501ba87f042ee27be1fc032cca5ede4ed5d55c0afeb0e2ede29918b0cfa7"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000726.xml",
+      "bytes": 12892,
+      "sha256": "edbe53015fe3292d6f41adcd9b1a432ed2ea4e6bf241ac57c30143e60f2e3c03"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000727.xml",
+      "bytes": 12746,
+      "sha256": "b78682440b0c32e3a22a51aafb9d61e4a2e7c1b6d4360709e0e225517702f91a"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000728.xml",
+      "bytes": 63570,
+      "sha256": "f69e00c9fb38b7ab5ceb23df7b96993f409f3b9dbbce9bf8d3b6b709e2b38b46"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000729.xml",
+      "bytes": 41017,
+      "sha256": "361659227a2d5653335ae1c5f44ba611a5d2256d5bad5e65694c3217fff09e35"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000730.xml",
+      "bytes": 12868,
+      "sha256": "437d17543364462b5f1bd836759abedf10a4494944aa38434981aab157737531"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000731.xml",
+      "bytes": 41322,
+      "sha256": "9774949208ba352076fd9de478e786e7c5732ef78ef2e10ff21de9b38afb113a"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000732.xml",
+      "bytes": 26136,
+      "sha256": "98a5da5da31791b991b22fc68808d5ccbc1fa1bd04de74ef20a332f16acfcf58"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000733.xml",
+      "bytes": 12814,
+      "sha256": "9b9bafe13f6ec85b4edb0d0a4f9452c894c219c6d3894fbd0303e53a09fd5c10"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000734.xml",
+      "bytes": 13881,
+      "sha256": "c27c9b75906ca0954f46bca7351eaab01c7173aeef21d2855a15ea568c7ba26f"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000735.xml",
+      "bytes": 34241,
+      "sha256": "980e6f1164289c7c2ef405798184cb49eeea04d3476fa621b22bfe4d5656665a"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000736.xml",
+      "bytes": 48583,
+      "sha256": "814903ead3d9e7b4fb83b6d17fd3ece2c0db966d240fe3065f5161bc506b4f10"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000737.xml",
+      "bytes": 41361,
+      "sha256": "bb6958fea0c46c68c4baff7ddeae97a061e9422d729865bb8b023c48f91ca775"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000738.xml",
+      "bytes": 28318,
+      "sha256": "dfa061fa6fb32e271c4810a55c81fbfa3eb0c9bf605f0af6bca57f08ba0ef735"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000739.xml",
+      "bytes": 12811,
+      "sha256": "00ad8f47770cefa873bdffeecddeef993c94648dd1aecdff893c229e7c6fb681"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000740.xml",
+      "bytes": 18927,
+      "sha256": "4049bf3c01196509345f79dcc5dc93a6cb21a6f78d0482e5841c3c2d6fa5dae4"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000741.xml",
+      "bytes": 30268,
+      "sha256": "63921a4b82f0d8a2b9073ed7ba7f62b6ab9066d42541c76f1e423f85d9ef3824"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00000742.xml",
+      "bytes": 51444,
+      "sha256": "713f63c4fc8ba719759f3f8c1eab309e777ad988776911d009b1b40f5d6fe6d8"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00001167.xml",
+      "bytes": 12872,
+      "sha256": "3c0e07df4b027f354c3425a4b8c1e2a2278e46520bec6434389e5b4426b8ce87"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00001819.xml",
+      "bytes": 12919,
+      "sha256": "b6d25d5d85f64b434db8f7f9815e4f272f964d0498bd0b4e3aa9d93b2d3a8a50"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00001821.xml",
+      "bytes": 12931,
+      "sha256": "f7564ecdd8c7b8dd5645de3c273819b498b1a8edb1a4e55b8d4417e64b505264"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00002140.xml",
+      "bytes": 12054,
+      "sha256": "820127322f74fe5179b69c27305d828b99ffd84148f217058a9457088effdc70"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00002145.xml",
+      "bytes": 12905,
+      "sha256": "a755ca0fa0866898a52ff40ccf19bbab8fa346cb3f468dce3026635d924604ea"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00002189.xml",
+      "bytes": 12874,
+      "sha256": "dfe9a25b0d42a1adde64ec16063954059b939e78f20557dd11041183018dcd59"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00002619.xml",
+      "bytes": 12897,
+      "sha256": "d8d2c14c18b80ccc89cd14523a631b56424886229185b4e49f75350a778d70c1"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00002632.xml",
+      "bytes": 12870,
+      "sha256": "3c0585f2cd4503c45988b64b6ffd9877ecf58c204fbb2bff687e901a9c88881e"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00002646.xml",
+      "bytes": 12930,
+      "sha256": "f8ee785d58a9fca67f6f7b8331b4aa699b7024abc593c2991e1df62f03664738"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00004203.xml",
+      "bytes": 11436,
+      "sha256": "33c04541df967c00e4d8b064ce495d26c9c06110df05c29ae96349795b30ba49"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00004204.xml",
+      "bytes": 11436,
+      "sha256": "57b8499ba9ebb181c8705f9d09ef0d1e605cb3396eb9f309c9d3b09fc7c8bff8"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00006108.xml",
+      "bytes": 11721,
+      "sha256": "c2b040544b22a8991443418b467201aaa232ca7c7aaef0b5a4a89d3cbe3eee44"
+    },
+    {
+      "file": "data/Bo sung/meInvoice/2026-10-11-pending-XML/1C25TUV_00009186.xml",
+      "bytes": 13332,
+      "sha256": "ad50c6d83f0e5b4deb4a3951e545ee680fb6a8521d98aa25adc36450f34e9c71"
+    },
+    {
+      "file": "data/Du lieu Meinvoice/Bang_ke_chi_tiet_HD_da_su_dung_2024.xls",
+      "bytes": 4381618,
+      "sha256": "0667285dec31e8b0ff5b463c21a405ef15c0a86ff1f84a25eac33866d10dede4"
+    },
+    {
+      "file": "data/Du lieu Meinvoice/Bang_ke_chi_tiet_HD_da_su_dung_2025.xls",
+      "bytes": 3620900,
+      "sha256": "ddff45352ffa1a0310ea5883b86d44267e4cf736e9750f1e7d7438ccacade34c"
+    },
+    {
+      "file": "data/Du lieu Meinvoice/Bang_ke_chi_tiet_HD_da_su_dung_2025_MTT.xls",
+      "bytes": 7631133,
+      "sha256": "982d1e4725fca090a22e16fff15eb8efc82cc3b3462a0636c21439fc336a608d"
+    },
+    {
+      "file": "data/Du lieu Meinvoice/Bang_ke_hoa_don_da_su_dung_2024_2025/Bang_ke_hoa_don_da_su_dung_1791380301707_1.xlsx",
+      "bytes": 725340,
+      "sha256": "99bc8550b4dae85793b7b5baebf27b0543116e4a70956750092f1e259b948918"
+    },
+    {
+      "file": "data/Du lieu Meinvoice/Bang_ke_hoa_don_da_su_dung_2024_2025/Bang_ke_hoa_don_da_su_dung_1791380301707_10.xlsx",
+      "bytes": 606740,
+      "sha256": "96475567ed78e1276c126bf04fc416c131b5eb2dfa6e35f2fa88952dde568a4f"
+    },
+    {
+      "file": "data/Du lieu Meinvoice/Bang_ke_hoa_don_da_su_dung_2024_2025/Bang_ke_hoa_don_da_su_dung_1791380301707_2.xlsx",
+      "bytes": 728833,
+      "sha256": "55447835cba9a69f2d0a0057760769c33139837687259f8259b97a8506a7042e"
+    },
+    {
+      "file": "data/Du lieu Meinvoice/Bang_ke_hoa_don_da_su_dung_2024_2025/Bang_ke_hoa_don_da_su_dung_1791380301707_3.xlsx",
+      "bytes": 692059,
+      "sha256": "ac315d8ccbd6f4d77ed0584d09b268beae39276507bd43529fce16d78011d303"
+    },
+    {
+      "file": "data/Du lieu Meinvoice/Bang_ke_hoa_don_da_su_dung_2024_2025/Bang_ke_hoa_don_da_su_dung_1791380301707_4.xlsx",
+      "bytes": 607156,
+      "sha256": "5bc2275ade60933ab2bbfe39d3de1cdfa260da6db0fa7e6ba4a689fe4582a9bc"
+    },
+    {
+      "file": "data/Du lieu Meinvoice/Bang_ke_hoa_don_da_su_dung_2024_2025/Bang_ke_hoa_don_da_su_dung_1791380301707_5.xlsx",
+      "bytes": 638903,
+      "sha256": "1a92fc7536b78441354c9cc2a1d6bff8b0d8c2cd4d9655bf1e6d154f0070407f"
+    },
+    {
+      "file": "data/Du lieu Meinvoice/Bang_ke_hoa_don_da_su_dung_2024_2025/Bang_ke_hoa_don_da_su_dung_1791380301707_6.xlsx",
+      "bytes": 616282,
+      "sha256": "8c4b280b4c256c4cf780b0032b0329786c74ac6b2527955b523bbf41152137cd"
+    },
+    {
+      "file": "data/Du lieu Meinvoice/Bang_ke_hoa_don_da_su_dung_2024_2025/Bang_ke_hoa_don_da_su_dung_1791380301707_7.xlsx",
+      "bytes": 655479,
+      "sha256": "eaedcd7cbeaed3679451024f2dd5a752bc3308b57926551e88f97615200c18f2"
+    },
+    {
+      "file": "data/Du lieu Meinvoice/Bang_ke_hoa_don_da_su_dung_2024_2025/Bang_ke_hoa_don_da_su_dung_1791380301707_8.xlsx",
+      "bytes": 686360,
+      "sha256": "07b8bf38067d19d75f1bbaa0f6ff9ff8b46b18987c901ea7ee04105aa2bd881a"
+    },
+    {
+      "file": "data/Du lieu Meinvoice/Bang_ke_hoa_don_da_su_dung_2024_2025/Bang_ke_hoa_don_da_su_dung_1791380301707_9.xlsx",
+      "bytes": 655122,
+      "sha256": "515ee38914bace28f767d502c89573c8cbd499b60264178a6ec69cd8e73c3631"
+    },
+    {
+      "file": "data/Du lieu Meinvoice/Bang_ke_hoa_don_dieu_chinh_xuat_theo_HD_dieu_chinh_2024.xls",
+      "bytes": 287721,
+      "sha256": "755a717e2f64bcac36448e9187f675048816b9adfa6ad0f5ee26d3d1af7f5ea3"
+    },
+    {
+      "file": "data/Du lieu Meinvoice/Bang_ke_hoa_don_dieu_chinh_xuat_theo_HD_dieu_chinh_2025.xls",
+      "bytes": 287701,
+      "sha256": "791d20968ca2f6ca29b4116c63803c00166150fac45ac9716e04fc0383c94e4d"
+    },
+    {
+      "file": "data/Du lieu Meinvoice/Bang_ke_hoa_don_thay_the_xuat_theo_HD_bi_thay_the_1793158686512.xls",
+      "bytes": 11451,
+      "sha256": "4c015c740185be2c856838c47667d42a02c6bd16c40ed6584010efb961b05b4a"
+    },
+    {
+      "file": "data/Du lieu Meinvoice/Bang_ke_hoa_don_thay_the_xuat_theo_HD_thay_the_2024_2025.xls",
+      "bytes": 26215,
+      "sha256": "519402e85435b628546dcace62460c3b54e4d665c75f6f819940075afc087193"
+    },
+    {
+      "file": "data/Du lieu Meinvoice/Mau HD Dieu chinh.xls",
+      "bytes": 20924,
+      "sha256": "34942d5919fe3c5f0e7ee9809e4446c262a07424d98fe7a1bc551b212324b147"
+    },
+    {
+      "file": "data/Du lieu Meinvoice/Mau_hoa_don_GTGT_MTT_1_thue_suat.xls",
+      "bytes": 14988,
+      "sha256": "64346fb386624e1f900ac9130303737f79348491951eb17e53133190514847be"
+    },
+    {
+      "file": "data/Du lieu Meinvoice/T7_T12_2025_HD_da_su_dung/Bang_ke_hoa_don_da_su_dung_1792470703507_1.xlsx",
+      "bytes": 748818,
+      "sha256": "448e8318fdacd1b6eacc9d5da90dfaa037c0e6d4f4a75e3b649753d0fc6acdd5"
+    },
+    {
+      "file": "data/Du lieu Meinvoice/T7_T12_2025_HD_da_su_dung/Bang_ke_hoa_don_da_su_dung_1792470703507_2.xlsx",
+      "bytes": 643427,
+      "sha256": "d52cad5493012f7f03d3906eb12d804ada88ba616b512e5dcec1064f30b088c5"
+    },
+    {
+      "file": "data/Du lieu Meinvoice/T7_T12_2025_HD_da_su_dung/Bang_ke_hoa_don_da_su_dung_1792470703507_3.xlsx",
+      "bytes": 669698,
+      "sha256": "3b00785b70594d20c43aabc54cc5e704a6da6ae079e7b0ee507a08efd4f9a903"
+    },
+    {
+      "file": "data/Du lieu Meinvoice/T7_T12_2025_HD_da_su_dung/Bang_ke_hoa_don_da_su_dung_1792470703507_4.xlsx",
+      "bytes": 668021,
+      "sha256": "ce450eacbb4bdad92ca58f8ff80b8e6e16ea7268e23020a5b160326c1e525b77"
+    },
+    {
+      "file": "data/Du lieu Meinvoice/T7_T12_2025_HD_da_su_dung/Bang_ke_hoa_don_da_su_dung_1792470703507_5.xlsx",
+      "bytes": 713351,
+      "sha256": "179d0d96856f00704fcdbbe5855b306d8dbc16bfa2bbf383b14b42eed96aa037"
+    },
+    {
+      "file": "data/Du lieu Meinvoice/T7_T12_2025_HD_da_su_dung/Bang_ke_hoa_don_da_su_dung_1792470703507_6.xlsx",
+      "bytes": 746310,
+      "sha256": "211774f380c27dedbd608e4920d235a58c801d3b787fd1873900ff26e93265e4"
+    },
+    {
+      "file": "data/Du lieu Meinvoice/T7_T12_2025_HD_da_su_dung/Bang_ke_hoa_don_da_su_dung_1792470703507_7.xlsx",
+      "bytes": 612794,
+      "sha256": "a1c6a98abed5c66281a69a24dd906c355705ecaf02746dfff1e9dfe13ce975c8"
+    },
+    {
+      "file": "data/Du lieu Meinvoice/T7_T12_2025_HD_da_su_dung/Bang_ke_hoa_don_da_su_dung_1792470703507_8.xlsx",
+      "bytes": 656475,
+      "sha256": "1bbe0239afc8de02be0e48b008dd3cdaf992868ecbe62ab2b8112bade88bc7fe"
+    },
+    {
+      "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_chi_tiet_hoa_don_da_su_dung_1791533073074.xlsx",
+      "bytes": 3816136,
+      "sha256": "129e18bc609c19ebddf0c16dc553eb4be1c6a5e3606efb0b05c6ebda4e19cfa7"
+    },
+    {
+      "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_da_su_dung_1791532882546.xlsx",
+      "bytes": 135343,
+      "sha256": "95ec590e9c3d4ef021513d9c2854d435390b45486c2cbeef90860253798042fc"
+    },
+    {
+      "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_dieu_chinh_xuat_theo_HD_dieu_chinh_1791533363253.xls",
+      "bytes": 9478,
+      "sha256": "9c4d7fd2748782f7029c6619c69ecec9bfcec15ba3726dfa3312b2a7fd0c10a7"
+    },
+    {
+      "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_dieu_chinh_xuat_theo_HD_dieu_chinh_1791533378419.xls",
+      "bytes": 287701,
+      "sha256": "1984590a5d17c9484e275b1508b7a5c462b67d04fa9852bd0439071d409afca5"
+    },
+    {
+      "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_dieu_chinh_xuat_theo_HD_dieu_chinh_1791535046109.xls",
+      "bytes": 184164,
+      "sha256": "a22f4b45e748bd1e0515ded6abc869bfb9c4fc607c78abbdc524dd7545c7cee8"
+    },
+    {
+      "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_thay_the_xuat_theo_HD_thay_the_1791533430588.xls",
+      "bytes": 26170,
+      "sha256": "617565f39b96937ad1a975a2802d40e0b71d5b97554cbfd0f0da45852cfb5737"
+    },
+    {
+      "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-09/Bang_ke_hoa_don_thay_the_xuat_theo_HD_thay_the_1791535075764.xls",
+      "bytes": 63875,
+      "sha256": "d1a4f4ee5c4cd6942bf4d38b125e539e87861d33d1af1f16639c952e09ffad8e"
+    },
+    {
+      "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-22/Bang_ke_hoa_don_dieu_chinh_xuat_theo_HD_dieu_chinh_1792636231350.xls",
+      "bytes": 184191,
+      "sha256": "6801ddc8ad0709352adf8462e07a2134abf9eaa040f5c5727109c3774f3daf98"
+    },
+    {
+      "file": "data/Du lieu Meinvoice/Xuat_lai_2026-10-22/Bang_ke_hoa_don_thay_the_xuat_theo_HD_thay_the_1792637478021.xls",
+      "bytes": 67675,
+      "sha256": "c5a93fee4f809da713b7b1d405a0d0cdef94f05c8e9a1c5f93cf35da3bed3a67"
+    },
+    {
+      "file": "data/Meinv/2024.xls",
+      "bytes": 148411,
+      "sha256": "609aee522d4d2a334a6e2c3f03c3d960bc687e8863d14f4b6b41f36257a65d11"
+    },
+    {
+      "file": "data/Meinv/2025/Bang_ke_hoa_don_da_su_dung_1793262482896_1.xls",
+      "bytes": 1022098,
+      "sha256": "fa58052238a63951caf50fd459750d526c3507f7d59f361e98e24ad365f7ea2c"
+    },
+    {
+      "file": "data/Meinv/2025/Bang_ke_hoa_don_da_su_dung_1793262482896_2.xls",
+      "bytes": 1009770,
+      "sha256": "aace3c45ad60adba5007ef8fda02c0009b1dba80d63ce3a4ee5784e4f46177ec"
+    },
+    {
+      "file": "data/Meinv/2025/Bang_ke_hoa_don_da_su_dung_1793262482896_3.xls",
+      "bytes": 862607,
+      "sha256": "e015bf15e5c956a459fc21895b81a22f0cdec28062c2ecf49e3840e3fb732843"
+    },
+    {
+      "file": "data/Meinv/2025/Bang_ke_hoa_don_da_su_dung_1793262482896_4.xls",
+      "bytes": 859791,
+      "sha256": "57bb5572e7ebec8785b629896725769d3669e5e54c0ee97a32ef36d6cb22da8c"
+    },
+    {
+      "file": "data/Meinv/2025/Bang_ke_hoa_don_da_su_dung_1793262482896_5.xls",
+      "bytes": 907132,
+      "sha256": "e6cb8e247d9105afbc2ed6c34a2a867b1783913bae999e9362d3fee84bf5794a"
+    },
+    {
+      "file": "data/Meinv/2025/Bang_ke_hoa_don_da_su_dung_1793262482896_6.xls",
+      "bytes": 960359,
+      "sha256": "0e9c4df73c0299b84f26a06aa707efe96548473e1d81b37321d803848f176b90"
+    },
+    {
+      "file": "data/Meinv/2025/Bang_ke_hoa_don_da_su_dung_1793262482896_7.xls",
+      "bytes": 802681,
+      "sha256": "c5be00f597c135920df8624328245afe6f321f8bc8feb78ea05f43769b038b3f"
+    },
+    {
+      "file": "data/Meinv/2025/Bang_ke_hoa_don_da_su_dung_1793262482896_8.xls",
+      "bytes": 656455,
+      "sha256": "8325dac977050486fed3a6b1f94fa5dea58b35d7ec91c05a4da3fc925c754e30"
+    },
+    {
+      "file": "data/Meinv/2026/Bang_ke_hoa_don_da_su_dung_1793263115369_1.xls",
+      "bytes": 706252,
+      "sha256": "dcff57b9725f8d804f2b421e8435ae9664a08aaba060d92d3204fe7afac9f001"
+    },
+    {
+      "file": "data/Meinv/2026/Bang_ke_hoa_don_da_su_dung_1793263115369_10.xls",
+      "bytes": 688580,
+      "sha256": "fa1a588f6d6bf6cdf5d785e0f069afdc6bfa7965dcfee67d319b6fc6a139bb2c"
+    },
+    {
+      "file": "data/Meinv/2026/Bang_ke_hoa_don_da_su_dung_1793263115369_11.xls",
+      "bytes": 705267,
+      "sha256": "e2aba7b15846f32949d7261cc106772573ad953981a50b45d4183eaea950f3e5"
+    },
+    {
+      "file": "data/Meinv/2026/Bang_ke_hoa_don_da_su_dung_1793263115369_12.xls",
+      "bytes": 651097,
+      "sha256": "c0c8d2890570a825f903377e5aa533c3d8c9cef6d54a0782df0fad75e2938195"
+    },
+    {
+      "file": "data/Meinv/2026/Bang_ke_hoa_don_da_su_dung_1793263115369_13.xls",
+      "bytes": 681045,
+      "sha256": "47085183fbc97e971c53bfdbc30f8da7347de345e9fc3f0d28d1b92440b0840a"
+    },
+    {
+      "file": "data/Meinv/2026/Bang_ke_hoa_don_da_su_dung_1793263115369_14.xls",
+      "bytes": 674161,
+      "sha256": "cece9848e8db6b977c73870296395987235c0125e0b8cb3b75daa8797752ffca"
+    },
+    {
+      "file": "data/Meinv/2026/Bang_ke_hoa_don_da_su_dung_1793263115369_15.xls",
+      "bytes": 623821,
+      "sha256": "1ef2a4340bb91c60aa6bf6302ef35796899ef3a4533575f9e18b5048b2d8d523"
+    },
+    {
+      "file": "data/Meinv/2026/Bang_ke_hoa_don_da_su_dung_1793263115369_16.xls",
+      "bytes": 613532,
+      "sha256": "91a6226bca642800dc19a934b474a77570442eef321836703b75ccbde9e76f03"
+    },
+    {
+      "file": "data/Meinv/2026/Bang_ke_hoa_don_da_su_dung_1793263115369_17.xls",
+      "bytes": 662491,
+      "sha256": "e6f136ec050102ea6909886883e7562000e0a8363bfd2824013e6692086f143b"
+    },
+    {
+      "file": "data/Meinv/2026/Bang_ke_hoa_don_da_su_dung_1793263115369_18.xls",
+      "bytes": 577219,
+      "sha256": "446a7f62408a58c5cb04445448cbb0ddd29db17fb6cc7a7b02b9a423443414b2"
+    },
+    {
+      "file": "data/Meinv/2026/Bang_ke_hoa_don_da_su_dung_1793263115369_19.xls",
+      "bytes": 640014,
+      "sha256": "6c7f76e0ed22cd5cfe629212da9ce4c73f34a0066b170c276aafb66f905ed5e5"
+    },
+    {
+      "file": "data/Meinv/2026/Bang_ke_hoa_don_da_su_dung_1793263115369_2.xls",
+      "bytes": 707472,
+      "sha256": "742dee7f5d23a388d01d4373d3c8c1db50211e0e9f20a911b500aa8a25373e4b"
+    },
+    {
+      "file": "data/Meinv/2026/Bang_ke_hoa_don_da_su_dung_1793263115369_20.xls",
+      "bytes": 627489,
+      "sha256": "2a803cb8dc2e9313f76310ff39f1c5a652670c4412ffd1fb709438a4a77e4528"
+    },
+    {
+      "file": "data/Meinv/2026/Bang_ke_hoa_don_da_su_dung_1793263115369_21.xls",
+      "bytes": 555185,
+      "sha256": "2394d26259db209bbc725fecc89901c44d50a56f0fd701dc4c6a7d0dfc534ef0"
+    },
+    {
+      "file": "data/Meinv/2026/Bang_ke_hoa_don_da_su_dung_1793263115369_22.xls",
+      "bytes": 428452,
+      "sha256": "f13b1efe7af988dc9eb4bf77333c67d580bb8bea2b5bffc57a035148e1a5c59d"
+    },
+    {
+      "file": "data/Meinv/2026/Bang_ke_hoa_don_da_su_dung_1793263115369_23.xls",
+      "bytes": 327011,
+      "sha256": "53280a8a49dfad3e8452a3cf8c8d891754b5dd9088727a03294f6a0b4dd7c97b"
+    },
+    {
+      "file": "data/Meinv/2026/Bang_ke_hoa_don_da_su_dung_1793263115369_3.xls",
+      "bytes": 696304,
+      "sha256": "01c560c5aee16ea004c5d005a725fc6eae08ae98d7bc61a3eb437b3f3faf04d2"
+    },
+    {
+      "file": "data/Meinv/2026/Bang_ke_hoa_don_da_su_dung_1793263115369_4.xls",
+      "bytes": 710112,
+      "sha256": "d9d84a9a061e89c3ca4a4063db0bfd2c5e0677947c7ea7e0fd6a2f01852da379"
+    },
+    {
+      "file": "data/Meinv/2026/Bang_ke_hoa_don_da_su_dung_1793263115369_5.xls",
+      "bytes": 666473,
+      "sha256": "e0ae8f1b306f00d7fcb7682aa7fa556fe936e96bd0655537dc0d8a1d97009d2f"
+    },
+    {
+      "file": "data/Meinv/2026/Bang_ke_hoa_don_da_su_dung_1793263115369_6.xls",
+      "bytes": 546723,
+      "sha256": "ad97c25c0182c10bb7d3ddeb7fd11c813b0b46181b83cec84e7baf468a9774ef"
+    },
+    {
+      "file": "data/Meinv/2026/Bang_ke_hoa_don_da_su_dung_1793263115369_7.xls",
+      "bytes": 675497,
+      "sha256": "c117ebc8b1eb21fc0932255419c7d73d3bc8cc5937f305ffbf5e4c5a4a2a1326"
+    },
+    {
+      "file": "data/Meinv/2026/Bang_ke_hoa_don_da_su_dung_1793263115369_8.xls",
+      "bytes": 673530,
+      "sha256": "3f00fa8b31cd102d1dc3432a0eba446b84975b49c9f1446b8a93ee1c0ca93e72"
+    },
+    {
+      "file": "data/Meinv/2026/Bang_ke_hoa_don_da_su_dung_1793263115369_9.xls",
+      "bytes": 718788,
+      "sha256": "0538752d24d78ca910cd73c7c15102c965da03c15f96b4c569b2d635ce42d505"
+    },
+    {
+      "file": "data/Meinv/HD_bi_dieu_chinh_2024_2026/Bang_ke_hoa_don_dieu_chinh_xuat_theo_HD_bi_dieu_chinh_1793263851149_1.xls",
+      "bytes": 637048,
+      "sha256": "98ad67a73b6f6cfb82657935c85a6beed059498648db50e7e41d71a5b7d90755"
+    },
+    {
+      "file": "data/Meinv/HD_bi_dieu_chinh_2024_2026/Bang_ke_hoa_don_dieu_chinh_xuat_theo_HD_bi_dieu_chinh_1793263851149_2.xls",
+      "bytes": 66687,
+      "sha256": "7b0081ab4dd9e16a1ef7a3c02b25eb6f563f7584c4f50957c6a2aece781cb347"
+    },
+    {
+      "file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Bang_ke_hoa_don_da_su_dung_1793524594152_1.xls",
+      "bytes": 1266175,
+      "sha256": "304f4f7a2a5a1937e057aa037ecc3bc3defb58e51209db896729bf1987d91422"
+    },
+    {
+      "file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Bang_ke_hoa_don_da_su_dung_1793524594152_2.xls",
+      "bytes": 3805996,
+      "sha256": "adc75c1eff4db7cd41bbf2d27b6198962ff96e96c1609b9b2cbc5cf0cfcfc25b"
+    },
+    {
+      "file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/CHI_TIET/Bang_ke_chi_tiet_hoa_don_da_su_dung_20261101_161720.xls",
+      "bytes": 14766118,
+      "sha256": "c9f1244fae37c5189888b578a68bbf4ffb196fbe3202b03799d354c620779375"
+    },
+    {
+      "file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Danh_sach_hoa_don_dieu_chinh.xlsx",
+      "bytes": 22440,
+      "sha256": "33d61f21df00ba914a15ae1ac577d99e0eb0b96f117a9d1c73002d78e2b8e5ad"
+    },
+    {
+      "file": "data/Meinv_SAU_DIEU_CHINH_THAY_THE_20261101/Danh_sach_hoa_don_thay_the.xlsx",
+      "bytes": 148412,
+      "sha256": "1006300c73476d0cc87ce6b1ce5cfbf610774cf0c872c36ec91354fae705be19"
+    },
+    {
+      "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_1.xls",
+      "bytes": 805831,
+      "sha256": "da70182e4b691ca18e769b5403e2b0429babdc44b5971d9c715a28217cf920b4"
+    },
+    {
+      "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+      "bytes": 705880,
+      "sha256": "840e41162a0ad2504e05854df9613448e83cb090c651f4d7413f776798c8d51d"
+    },
+    {
+      "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_11.xls",
+      "bytes": 715310,
+      "sha256": "35c81ca35cc7ebeb670fbff8824ee3e7265fb0f9ad8aa3909299f1358ff092bb"
+    },
+    {
+      "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_12.xls",
+      "bytes": 715748,
+      "sha256": "37a8c14ea30e5ca131928b93e7f9d5cfc19bfc7b6aab5eef21aa2649812f4efb"
+    },
+    {
+      "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_13.xls",
+      "bytes": 683933,
+      "sha256": "d311f63641580f44f30c60baa1205e4949e82cd2466925bea768c669fa2eb344"
+    },
+    {
+      "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_14.xls",
+      "bytes": 692858,
+      "sha256": "175da205761a567ad589d610d4ab64809b6a6258ab8836de2b9b979c62094071"
+    },
+    {
+      "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_15.xls",
+      "bytes": 710873,
+      "sha256": "82027d9b39bebd997aa02d2fee08c7bf9040214da096844f7aefca163635d68a"
+    },
+    {
+      "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_16.xls",
+      "bytes": 662130,
+      "sha256": "2d5e4a98e029cbd3878ec574cf54c063b8fdc23b6f3085e4dd3e6b58b60931fc"
+    },
+    {
+      "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_17.xls",
+      "bytes": 752874,
+      "sha256": "f670f4e1cb4c838946cbc4f8b66c7723b3b19d252dcd9163d68a92f6e7fe54e3"
+    },
+    {
+      "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_18.xls",
+      "bytes": 694071,
+      "sha256": "5e1924f9241e284eb8138586d68dfb2bf7595edb59922abcbf81443a78e0d654"
+    },
+    {
+      "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_19.xls",
+      "bytes": 748794,
+      "sha256": "44efaa45132c86a74ad44ced70b136fdbba8daec3f551436fe8f7b4d3e3724f1"
+    },
+    {
+      "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_2.xls",
+      "bytes": 798503,
+      "sha256": "8cae3ae1be2f71c57377656acdc118ccb7d850e0addc6792f676ace6f1904623"
+    },
+    {
+      "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_20.xls",
+      "bytes": 673749,
+      "sha256": "33d1745caf99d2188b66132a450aaab006f6a6a47a087ca9629147a714e33432"
+    },
+    {
+      "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_21.xls",
+      "bytes": 652350,
+      "sha256": "732ab6493e6ca1659d0c033006115d7bb3a11d5d7b4651fd588553107ae02de2"
+    },
+    {
+      "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_22.xls",
+      "bytes": 688408,
+      "sha256": "0434c639751a6e2b01aa2a75a75a75ae68b2d7a8e37f7a1347c9c6ac9bcfd64c"
+    },
+    {
+      "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_23.xls",
+      "bytes": 689101,
+      "sha256": "a7525c82449cb8f69dc98c2cc357ab6ae486cb6f205eecef26efddedda649dd7"
+    },
+    {
+      "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_24.xls",
+      "bytes": 639762,
+      "sha256": "ff4542a1c486623b94b52cf14049faea4b1bb8db761a9aea6f23ed9e16c12ca0"
+    },
+    {
+      "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_25.xls",
+      "bytes": 535856,
+      "sha256": "87458c4b8f9aa06cb866ad278c983e3950c544be0606324cb171ff26d5d31013"
+    },
+    {
+      "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_26.xls",
+      "bytes": 534675,
+      "sha256": "2c5ca282fa4c95b706be41a297fa927081fb151d3107e326c12b54efe66f7b14"
+    },
+    {
+      "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_27.xls",
+      "bytes": 620840,
+      "sha256": "4ad0cce616f4dac71ad75713e5b160bab73f815b06ba50af1e12366aff33eb76"
+    },
+    {
+      "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_28.xls",
+      "bytes": 661924,
+      "sha256": "6cab86d157f388cc03676691f55fa3ce0a529b2c18968a7eb58d3ed53bc56fae"
+    },
+    {
+      "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_29.xls",
+      "bytes": 612600,
+      "sha256": "4c791724243d49e0dcb8a5ee7800202f3855b14060dd5ad686052692bcf006b8"
+    },
+    {
+      "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_3.xls",
+      "bytes": 762339,
+      "sha256": "4b30094bb647e025c2dd87c93f2b86176a74e25f185f0cf66e8ec598bc795438"
+    },
+    {
+      "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_30.xls",
+      "bytes": 674926,
+      "sha256": "c67c95a1f27fe0d40d1e8623b0aca368ddb4acda9c57bb8e837f9607bf2e0624"
+    },
+    {
+      "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_31.xls",
+      "bytes": 650004,
+      "sha256": "11bb0308292927bd228b59b5027ed26b3fff2ff6fa06c83c9bfc3c6aa328fc5e"
+    },
+    {
+      "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_32.xls",
+      "bytes": 174664,
+      "sha256": "6eb46ed75f4aa5d200f8c88863a87478fb82798d29f333965ba20cece2043341"
+    },
+    {
+      "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_33.xls",
+      "bytes": 1472197,
+      "sha256": "44542143675ae9ebf271176a200bd2ef0d5220c37f6866c56cfb550119d438c4"
+    },
+    {
+      "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_4.xls",
+      "bytes": 666958,
+      "sha256": "1bcb0adfd93406c21233c1db6344e05bb22d07450affd153da8764184e510560"
+    },
+    {
+      "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_5.xls",
+      "bytes": 700183,
+      "sha256": "db5cbe855cb62c52f86af1003ea852c2601717c56c1287c40c3bbf87a06ed99d"
+    },
+    {
+      "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_6.xls",
+      "bytes": 681774,
+      "sha256": "8133cdd38b1ba03e6d4ac323b1cc5c80b60f3f3a095ed593c37d30b2fa574a31"
+    },
+    {
+      "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_7.xls",
+      "bytes": 709533,
+      "sha256": "1ac2a74a9d6b00e557668fa9cd4e5e35ec496ccd1cc8a9ec42151e16c307679e"
+    },
+    {
+      "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_8.xls",
+      "bytes": 742023,
+      "sha256": "97ade71b4681d99b9b384ff0c75abf0ca24673d77fcada7eafa9946866de8701"
+    },
+    {
+      "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_9.xls",
+      "bytes": 708465,
+      "sha256": "e073a521b60e2a6f520a1d64f76986b00a2d5b102c94671c3570f78346b2c4cb"
+    },
+    {
+      "file": "data/Meinv_SAU_PHAT_HANH_20261029/DIEU_CHINH/Bang_ke_hoa_don_dieu_chinh_xuat_theo_HD_bi_dieu_chinh_1793291608325_1.xls",
+      "bytes": 621566,
+      "sha256": "be2d669db5fdaf1c58fa3d3a4b034b87a877158941e86787226064aab91d153e"
+    },
+    {
+      "file": "data/Meinv_SAU_PHAT_HANH_20261029/DIEU_CHINH/Bang_ke_hoa_don_dieu_chinh_xuat_theo_HD_bi_dieu_chinh_1793291608325_2.xls",
+      "bytes": 381128,
+      "sha256": "bbb31bd0809f34afff0288163e6be87e9c691a473e1e51803ee668ffb23a4c39"
+    },
+    {
+      "file": "data/Meinv_SAU_PHAT_HANH_20261029/DIEU_CHINH/Bang_ke_hoa_don_dieu_chinh_xuat_theo_HD_bi_dieu_chinh_1793291608325_3.xls",
+      "bytes": 377212,
+      "sha256": "fb289e6d945f9c344b87e36d89ed35c958018fbc781dd2df2d3d7c79fd56d09a"
+    },
+    {
+      "file": "data/Meinv_SAU_PHAT_HANH_20261029/DIEU_CHINH/Bang_ke_hoa_don_dieu_chinh_xuat_theo_HD_bi_dieu_chinh_1793291608325_4.xls",
+      "bytes": 351087,
+      "sha256": "ff880e07c63f0f6c14da7d856a8515f2d0aea9babdde75565b68989199d8ac40"
+    },
+    {
+      "file": "data/Meinv_SAU_PHAT_HANH_20261029/DIEU_CHINH/Bang_ke_hoa_don_dieu_chinh_xuat_theo_HD_bi_dieu_chinh_1793291608325_5.xls",
+      "bytes": 239245,
+      "sha256": "6462c7dd2cc964a25e8ce00a23bcb3d825af0b2a3d90dc4484eb974f6ed819d7"
+    },
+    {
+      "file": "data/Meinv_SAU_PHAT_HANH_20261029/THAY_THE/Bang_ke_hoa_don_thay_the_xuat_theo_HD_thay_the_1793293386111.xls",
+      "bytes": 10127,
+      "sha256": "b13451d54e1194a975849af41f9ff597f3efdb49cebc833496565daaaf809160"
+    },
+    {
+      "file": "data/Meinv_SAU_PHAT_HANH_20261029/THAY_THE/Thay_the.xls",
+      "bytes": 69234,
+      "sha256": "a7c375e4bc4601011b270be27e60837805c5b79d4102f2e6bc9469a7aaa6a9dc"
+    },
+    {
+      "file": "data/Meinv_SAU_XUAT_MOI_20261101/Bang_ke_hoa_don_da_su_dung_1793518718337_1.xls",
+      "bytes": 1266141,
+      "sha256": "ccfdfbf2b044358281d2c7de03ba29cab1d61b78cf68e094b8d1c67ba8dc4ee0"
+    },
+    {
+      "file": "data/Meinv_SAU_XUAT_MOI_20261101/Bang_ke_hoa_don_da_su_dung_1793518718337_2.xls",
+      "bytes": 3561592,
+      "sha256": "2af5d4a20627895b7a948c5926c6c3ca52981d9b0cac49bb2068ff5aed005f35"
+    },
+    {
+      "file": "data/Meinv_SAU_XUAT_MOI_20261101/CHI_TIET/Bang_ke_chi_tiet_hoa_don_da_su_dung_20261101_143931.xls",
+      "bytes": 5855539,
+      "sha256": "0d0c87f6a488418005fd84dada91e8f84d9c6cb9dbb8bd02492e59322cca1094"
+    }
+  ],
+  "hits": [],
+  "unreadable_files": [],
+  "scope": "All local .xls/.xlsx/.xml under data paths containing meinv; no invoice inferred from amount or number alone"
+}

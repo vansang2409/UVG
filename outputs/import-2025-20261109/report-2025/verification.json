@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "rows": 46208,
+  "roots": 46194,
+  "old_chains_planned_zero_checked": 2057,
+  "all_source_hashes_match": true,
+  "scope_and_return_exclusions_checked": true,
+  "projected_goods": 80193955311.0,
+  "amis_goods_scope": 80408395929.0,
+  "difference": -214440618.0,
+  "difference_components": [
+    -81923747.0,
+    -133737241.0,
+    1220370.0
+  ],
+  "draft_not_issued": true,
+  "no_forced_zero_difference": true,
+  "formula_cells": 83011
+}

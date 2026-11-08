@@ -1,0 +1,23 @@
+﻿KIỂM TRA CỘT J AMIS - 31/10/2026
+Nguồn AMIS: snapshot Google Sheets trực tiếp trong cuộc trao đổi; meInvoice: 33 bảng kê xuất đến 29/10/2026, 159.589 HĐ duy nhất.
+Phạm vi: 31.231 ô J nhập giá trị trực tiếp, gồm 1.145 ô đối chiếu mã đuôi 000 đã làm trước. Không khẳng định cả 31.231 ô là kế toán vừa bổ sung.
+30.086 ô chưa có ký hiệu gồm 29.765 ô số đơn, 13 tham chiếu năm 2026, 13 ghi chú số HĐ - 0, 1 ô hai HĐ, 294 ghi chú văn bản.
+Các nhóm số đơn được gom theo năm hạch toán AMIS, ký hiệu nếu đã có, số J. Khi thiếu ký hiệu có thể trộn các HĐ cùng số; vì vậy lệch tổng chưa chứng minh từng dòng điền sai.
+Khớp tiền chỉ là khớp số HĐ + tổng VAT/thanh toán, chưa xác nhận nội dung hàng hóa hoặc từng đơn trong hóa đơn gộp. Ngày AMIS và ngày HĐ được lưu riêng; không tự ép cùng kỳ.
+So với số tiền của chính HĐ nguồn, không mặc định lấy số dư chuỗi sau điều chỉnh. Trạng thái nguồn được ghi rõ.
+
+Nhóm số đơn chưa có ký hiệu:
+Tổng nhóm chưa khớp ứng viên cùng số: 587 nhóm / 20863 dòng
+Khớp VAT và thanh toán với một ứng viên: 6915 nhóm / 7089 dòng
+Lệch tối đa 2đ, chưa tự chấp nhận: 241 nhóm / 1396 dòng
+Nhiều ký hiệu cùng khớp tiền: 417 nhóm / 417 dòng
+
+13 tham chiếu năm 2026: tìm đủ 13; 12 khớp cả VAT/thanh toán; HĐ 1C26MUV/00005767, AMIS dòng 50940, thanh toán AMIS 2.977.000đ, HĐ 2.976.999đ (lệch 1đ).
+Ví dụ: J=427: 627 dòng, AMIS 875.996.776đ; 1C25TUV/427 875.775.776đ, chênh +221.000đ. Có cả 1C25MUV/427, cần xác định ký hiệu trước khi sửa.
+Ví dụ: J=431: 585 dòng, AMIS 799.932.550đ; 1C25TUV/431 804.873.892đ, chênh -4.941.342đ.
+Ví dụ khớp: J=489, 68 dòng, VAT 7.652.427đ và thanh toán 103.307.763đ khớp 1C25TUV/489. Đây là HĐ đã bị điều chỉnh; khớp số gốc không xác nhận số dư chuỗi hiện tại.
+
+Kiểm chứng: phủ đủ 31.231 dòng, không trùng/thiếu dòng; hash 33 nguồn không đổi; đọc lại độc lập bằng openpyxl 10 HĐ thuộc 5 số 106/427/431/489/12255, khớp dữ liệu đã trích.
+Không sửa Google Sheets, nguồn meInvoice, import hoặc phát hành hóa đơn.
+CHI_TIET_CAN_DOI_CHIEU.csv: từng nhóm và từng ứng viên nguồn, có chênh lệch, số dòng và chứng từ. Một nhóm có thể có nhiều ứng viên; không cộng các dòng ứng viên như các hóa đơn đã ghép.
+THAM_CHIEU_DAC_BIET.csv: chi tiết toàn bộ ô J không phải một số HĐ đơn.

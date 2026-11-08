@@ -1,0 +1,23 @@
+{
+  "confirmed_on": "2026-11-09",
+  "user_confirmation": "lệch 1 2 đ cho xuất luôn nha",
+  "max_abs_delta_vnd": 2,
+  "scope": "Số lượng × đơn giá so với thành tiền dòng AMIS; không nới tiêu chí đối chiếu AMIS–meInvoice, thuế suất hoặc loại công ty",
+  "preserve_source_values": true,
+  "newly_eligible_documents": [
+    "BHHT2025001986",
+    "BHHT2025002013",
+    "BHHT2025003337",
+    "BHHT2025003984",
+    "BHHT2025004086",
+    "BHHT2025007519",
+    "BHHT2025011277",
+    "BHHT2025015769",
+    "BHHT2025018433",
+    "BHHT2025018570"
+  ],
+  "newly_eligible_rows": 12,
+  "goods": 20346299,
+  "vat": 1627703,
+  "pay": 21974002
+}

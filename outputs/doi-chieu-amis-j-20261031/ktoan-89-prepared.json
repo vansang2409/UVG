@@ -1,0 +1,6347 @@
+{
+  "insert_before_row": 37088,
+  "new_rows": [
+    37088,
+    37176
+  ],
+  "old_last_row_after": 37177,
+  "rows": [
+    {
+      "row": 37088,
+      "amis_row": 476,
+      "voucher": "BHHT2025040369",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000001"
+        ],
+        "date": "2026-01-02",
+        "order_code": "581819571144263360",
+        "buyer": "m***anh14095",
+        "net": "499074",
+        "vat": "39926",
+        "payment": "539000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4450
+      },
+      "links": [],
+      "values": [
+        37088,
+        "m***anh14095",
+        null,
+        "581819571144263360",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37088=\"\";\"F0; \";\"\")&IF(AND(Q37088<>\"\";V37088=\"\");\"F1; \";\"\")&IF(AND(X37088<>\"\";AC37088=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000001",
+        46024,
+        499074,
+        39926,
+        539000,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37088)=1;SUM(M37088);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37088)=1;SUM(N37088);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37088)=1;SUM(O37088);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHT2025040369 (AMIS dòng 476). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        499074,
+        39926,
+        539000
+      ]
+    },
+    {
+      "row": 37089,
+      "amis_row": 198,
+      "voucher": "BHHT2025040272",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000004"
+        ],
+        "date": "2026-01-02",
+        "order_code": "581818117416715667",
+        "buyer": "p***0310",
+        "net": "2073148",
+        "vat": "165852",
+        "payment": "2239000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4453
+      },
+      "links": [],
+      "values": [
+        37089,
+        "p***0310",
+        null,
+        "581818117416715667",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37089=\"\";\"F0; \";\"\")&IF(AND(Q37089<>\"\";V37089=\"\");\"F1; \";\"\")&IF(AND(X37089<>\"\";AC37089=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000004",
+        46024,
+        2073148,
+        165852,
+        2239000,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37089)=1;SUM(M37089);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37089)=1;SUM(N37089);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37089)=1;SUM(O37089);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHT2025040272 (AMIS dòng 198). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        2073148,
+        165852,
+        2239000
+      ]
+    },
+    {
+      "row": 37090,
+      "amis_row": 468,
+      "voucher": "BHHT2025040377",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000007"
+        ],
+        "date": "2026-01-02",
+        "order_code": "581816253708797198",
+        "buyer": "n***enhaiduong10",
+        "net": "1101333",
+        "vat": "88107",
+        "payment": "1189440",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4456
+      },
+      "links": [],
+      "values": [
+        37090,
+        "n***enhaiduong10",
+        null,
+        "581816253708797198",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37090=\"\";\"F0; \";\"\")&IF(AND(Q37090<>\"\";V37090=\"\");\"F1; \";\"\")&IF(AND(X37090<>\"\";AC37090=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000007",
+        46024,
+        1101333,
+        88107,
+        1189440,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37090)=1;SUM(M37090);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37090)=1;SUM(N37090);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37090)=1;SUM(O37090);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHT2025040377 (AMIS dòng 468). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        1101333,
+        88107,
+        1189440
+      ]
+    },
+    {
+      "row": 37091,
+      "amis_row": 924,
+      "voucher": "BHHS2025023846",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000010"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251227FD1DB955",
+        "buyer": "dngnh813",
+        "net": "2073148",
+        "vat": "165852",
+        "payment": "2239000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4459
+      },
+      "links": [],
+      "values": [
+        37091,
+        "dngnh813",
+        null,
+        "251227FD1DB955",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37091=\"\";\"F0; \";\"\")&IF(AND(Q37091<>\"\";V37091=\"\");\"F1; \";\"\")&IF(AND(X37091<>\"\";AC37091=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000010",
+        46024,
+        2073148,
+        165852,
+        2239000,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37091)=1;SUM(M37091);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37091)=1;SUM(N37091);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37091)=1;SUM(O37091);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHS2025023846 (AMIS dòng 924). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        2073148,
+        165852,
+        2239000
+      ]
+    },
+    {
+      "row": 37092,
+      "amis_row": 646,
+      "voucher": "BHHS2025023879",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000011"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251228H91EQ066",
+        "buyer": "thubui0507",
+        "net": "628704",
+        "vat": "50296",
+        "payment": "679000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4460
+      },
+      "links": [],
+      "values": [
+        37092,
+        "thubui0507",
+        null,
+        "251228H91EQ066",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37092=\"\";\"F0; \";\"\")&IF(AND(Q37092<>\"\";V37092=\"\");\"F1; \";\"\")&IF(AND(X37092<>\"\";AC37092=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000011",
+        46024,
+        628704,
+        50296,
+        679000,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37092)=1;SUM(M37092);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37092)=1;SUM(N37092);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37092)=1;SUM(O37092);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHS2025023879 (AMIS dòng 646). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        628704,
+        50296,
+        679000
+      ]
+    },
+    {
+      "row": 37093,
+      "amis_row": 644,
+      "voucher": "BHHS2025023881",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000012"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251228HA4NY5GF",
+        "buyer": "qynhkun75",
+        "net": "628704",
+        "vat": "50296",
+        "payment": "679000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4461
+      },
+      "links": [],
+      "values": [
+        37093,
+        "qynhkun75",
+        null,
+        "251228HA4NY5GF",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37093=\"\";\"F0; \";\"\")&IF(AND(Q37093<>\"\";V37093=\"\");\"F1; \";\"\")&IF(AND(X37093<>\"\";AC37093=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000012",
+        46024,
+        628704,
+        50296,
+        679000,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37093)=1;SUM(M37093);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37093)=1;SUM(N37093);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37093)=1;SUM(O37093);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHS2025023881 (AMIS dòng 644). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        628704,
+        50296,
+        679000
+      ]
+    },
+    {
+      "row": 37094,
+      "amis_row": 643,
+      "voucher": "BHHS2025023882",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000013"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251228HD3CSNVF",
+        "buyer": "trammoon_281297",
+        "net": "1369444",
+        "vat": "109556",
+        "payment": "1479000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4462
+      },
+      "links": [],
+      "values": [
+        37094,
+        "trammoon_281297",
+        null,
+        "251228HD3CSNVF",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37094=\"\";\"F0; \";\"\")&IF(AND(Q37094<>\"\";V37094=\"\");\"F1; \";\"\")&IF(AND(X37094<>\"\";AC37094=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000013",
+        46024,
+        1369444,
+        109556,
+        1479000,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37094)=1;SUM(M37094);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37094)=1;SUM(N37094);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37094)=1;SUM(O37094);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHS2025023882 (AMIS dòng 643). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        1369444,
+        109556,
+        1479000
+      ]
+    },
+    {
+      "row": 37095,
+      "amis_row": 637,
+      "voucher": "BHHS2025023888",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000015"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251228HKBJJJ40",
+        "buyer": "vantho302",
+        "net": "1183332",
+        "vat": "94667",
+        "payment": "1277999",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4464
+      },
+      "links": [],
+      "values": [
+        37095,
+        "vantho302",
+        null,
+        "251228HKBJJJ40",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37095=\"\";\"F0; \";\"\")&IF(AND(Q37095<>\"\";V37095=\"\");\"F1; \";\"\")&IF(AND(X37095<>\"\";AC37095=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000015",
+        46024,
+        1183332,
+        94667,
+        1277999,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37095)=1;SUM(M37095);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37095)=1;SUM(N37095);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37095)=1;SUM(O37095);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHS2025023888 (AMIS dòng 637). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        1183332,
+        94667,
+        1277999
+      ]
+    },
+    {
+      "row": 37096,
+      "amis_row": 624,
+      "voucher": "BHHS2025023901",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000018"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251228HY7WC7T3",
+        "buyer": "hachi39",
+        "net": "2443518",
+        "vat": "195481",
+        "payment": "2638999",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4467
+      },
+      "links": [],
+      "values": [
+        37096,
+        "hachi39",
+        null,
+        "251228HY7WC7T3",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37096=\"\";\"F0; \";\"\")&IF(AND(Q37096<>\"\";V37096=\"\");\"F1; \";\"\")&IF(AND(X37096<>\"\";AC37096=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000018",
+        46024,
+        2443518,
+        195481,
+        2638999,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37096)=1;SUM(M37096);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37096)=1;SUM(N37096);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37096)=1;SUM(O37096);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHS2025023901 (AMIS dòng 624). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        2443518,
+        195481,
+        2638999
+      ]
+    },
+    {
+      "row": 37097,
+      "amis_row": 616,
+      "voucher": "BHHS2025023909",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000019"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251228JATWN3JR",
+        "buyer": "hahp810",
+        "net": "2813889",
+        "vat": "225111",
+        "payment": "3039000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4468
+      },
+      "links": [],
+      "values": [
+        37097,
+        "hahp810",
+        null,
+        "251228JATWN3JR",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37097=\"\";\"F0; \";\"\")&IF(AND(Q37097<>\"\";V37097=\"\");\"F1; \";\"\")&IF(AND(X37097<>\"\";AC37097=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000019",
+        46024,
+        2813889,
+        225111,
+        3039000,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37097)=1;SUM(M37097);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37097)=1;SUM(N37097);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37097)=1;SUM(O37097);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHS2025023909 (AMIS dòng 616). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        2813889,
+        225111,
+        3039000
+      ]
+    },
+    {
+      "row": 37098,
+      "amis_row": 602,
+      "voucher": "BHHS2025023923",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000020"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251229K0SXW095",
+        "buyer": "nguyenphuongmai54829",
+        "net": "2443518",
+        "vat": "195481",
+        "payment": "2638999",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4469
+      },
+      "links": [],
+      "values": [
+        37098,
+        "nguyenphuongmai54829",
+        null,
+        "251229K0SXW095",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37098=\"\";\"F0; \";\"\")&IF(AND(Q37098<>\"\";V37098=\"\");\"F1; \";\"\")&IF(AND(X37098<>\"\";AC37098=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000020",
+        46024,
+        2443518,
+        195481,
+        2638999,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37098)=1;SUM(M37098);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37098)=1;SUM(N37098);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37098)=1;SUM(O37098);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHS2025023923 (AMIS dòng 602). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        2443518,
+        195481,
+        2638999
+      ]
+    },
+    {
+      "row": 37099,
+      "amis_row": 601,
+      "voucher": "BHHS2025023924",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000021"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251229K13QP008",
+        "buyer": "hinhin108",
+        "net": "628703",
+        "vat": "50296",
+        "payment": "678999",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4470
+      },
+      "links": [],
+      "values": [
+        37099,
+        "hinhin108",
+        null,
+        "251229K13QP008",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37099=\"\";\"F0; \";\"\")&IF(AND(Q37099<>\"\";V37099=\"\");\"F1; \";\"\")&IF(AND(X37099<>\"\";AC37099=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000021",
+        46024,
+        628703,
+        50296,
+        678999,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37099)=1;SUM(M37099);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37099)=1;SUM(N37099);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37099)=1;SUM(O37099);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHS2025023924 (AMIS dòng 601). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        628703,
+        50296,
+        678999
+      ]
+    },
+    {
+      "row": 37100,
+      "amis_row": 600,
+      "voucher": "BHHS2025023925",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000022"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251229K1CB9B3M",
+        "buyer": "phammai_237hg",
+        "net": "1795369",
+        "vat": "143630",
+        "payment": "1938999",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4471
+      },
+      "links": [],
+      "values": [
+        37100,
+        "phammai_237hg",
+        null,
+        "251229K1CB9B3M",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37100=\"\";\"F0; \";\"\")&IF(AND(Q37100<>\"\";V37100=\"\");\"F1; \";\"\")&IF(AND(X37100<>\"\";AC37100=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000022",
+        46024,
+        1795369,
+        143630,
+        1938999,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37100)=1;SUM(M37100);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37100)=1;SUM(N37100);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37100)=1;SUM(O37100);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHS2025023925 (AMIS dòng 600). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        1795369,
+        143630,
+        1938999
+      ]
+    },
+    {
+      "row": 37101,
+      "amis_row": 589,
+      "voucher": "BHHS2025023936",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000023"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251229KJSRSVM7",
+        "buyer": "chbong2705",
+        "net": "2443518",
+        "vat": "195481",
+        "payment": "2638999",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4472
+      },
+      "links": [],
+      "values": [
+        37101,
+        "chbong2705",
+        null,
+        "251229KJSRSVM7",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37101=\"\";\"F0; \";\"\")&IF(AND(Q37101<>\"\";V37101=\"\");\"F1; \";\"\")&IF(AND(X37101<>\"\";AC37101=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000023",
+        46024,
+        2443518,
+        195481,
+        2638999,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37101)=1;SUM(M37101);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37101)=1;SUM(N37101);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37101)=1;SUM(O37101);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHS2025023936 (AMIS dòng 589). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        2443518,
+        195481,
+        2638999
+      ]
+    },
+    {
+      "row": 37102,
+      "amis_row": 588,
+      "voucher": "BHHS2025023937",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000024"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251229KK62N2JJ",
+        "buyer": "hoangngu53",
+        "net": "499074",
+        "vat": "39926",
+        "payment": "539000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4473
+      },
+      "links": [],
+      "values": [
+        37102,
+        "hoangngu53",
+        null,
+        "251229KK62N2JJ",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37102=\"\";\"F0; \";\"\")&IF(AND(Q37102<>\"\";V37102=\"\");\"F1; \";\"\")&IF(AND(X37102<>\"\";AC37102=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000024",
+        46024,
+        499074,
+        39926,
+        539000,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37102)=1;SUM(M37102);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37102)=1;SUM(N37102);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37102)=1;SUM(O37102);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHS2025023937 (AMIS dòng 588). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        499074,
+        39926,
+        539000
+      ]
+    },
+    {
+      "row": 37103,
+      "amis_row": 578,
+      "voucher": "BHHS2025023947",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000025"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251229KVNWAYNQ",
+        "buyer": "nhunnhun955",
+        "net": "628704",
+        "vat": "50296",
+        "payment": "679000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4474
+      },
+      "links": [],
+      "values": [
+        37103,
+        "nhunnhun955",
+        null,
+        "251229KVNWAYNQ",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37103=\"\";\"F0; \";\"\")&IF(AND(Q37103<>\"\";V37103=\"\");\"F1; \";\"\")&IF(AND(X37103<>\"\";AC37103=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000025",
+        46024,
+        628704,
+        50296,
+        679000,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37103)=1;SUM(M37103);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37103)=1;SUM(N37103);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37103)=1;SUM(O37103);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHS2025023947 (AMIS dòng 578). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        628704,
+        50296,
+        679000
+      ]
+    },
+    {
+      "row": 37104,
+      "amis_row": 575,
+      "voucher": "BHHS2025023950",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000026"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251229KX7STK3J",
+        "buyer": "thanhnga_90",
+        "net": "2443518",
+        "vat": "195481",
+        "payment": "2638999",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4475
+      },
+      "links": [],
+      "values": [
+        37104,
+        "thanhnga_90",
+        null,
+        "251229KX7STK3J",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37104=\"\";\"F0; \";\"\")&IF(AND(Q37104<>\"\";V37104=\"\");\"F1; \";\"\")&IF(AND(X37104<>\"\";AC37104=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000026",
+        46024,
+        2443518,
+        195481,
+        2638999,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37104)=1;SUM(M37104);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37104)=1;SUM(N37104);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37104)=1;SUM(O37104);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHS2025023950 (AMIS dòng 575). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        2443518,
+        195481,
+        2638999
+      ]
+    },
+    {
+      "row": 37105,
+      "amis_row": 567,
+      "voucher": "BHHS2025023958",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000028"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251229M3WWPFKN",
+        "buyer": "nguyenthituyetanh1.",
+        "net": "1795369",
+        "vat": "143630",
+        "payment": "1938999",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4477
+      },
+      "links": [],
+      "values": [
+        37105,
+        "nguyenthituyetanh1.",
+        null,
+        "251229M3WWPFKN",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37105=\"\";\"F0; \";\"\")&IF(AND(Q37105<>\"\";V37105=\"\");\"F1; \";\"\")&IF(AND(X37105<>\"\";AC37105=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000028",
+        46024,
+        1795369,
+        143630,
+        1938999,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37105)=1;SUM(M37105);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37105)=1;SUM(N37105);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37105)=1;SUM(O37105);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHS2025023958 (AMIS dòng 567). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        1795369,
+        143630,
+        1938999
+      ]
+    },
+    {
+      "row": 37106,
+      "amis_row": 566,
+      "voucher": "BHHS2025023959",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000029"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251229M648C2FJ",
+        "buyer": "miumiuumeo6868",
+        "net": "231704",
+        "vat": "18536",
+        "payment": "250240",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4478
+      },
+      "links": [],
+      "values": [
+        37106,
+        "miumiuumeo6868",
+        null,
+        "251229M648C2FJ",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37106=\"\";\"F0; \";\"\")&IF(AND(Q37106<>\"\";V37106=\"\");\"F1; \";\"\")&IF(AND(X37106<>\"\";AC37106=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000029",
+        46024,
+        231704,
+        18536,
+        250240,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37106)=1;SUM(M37106);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37106)=1;SUM(N37106);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37106)=1;SUM(O37106);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHS2025023959 (AMIS dòng 566). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        231704,
+        18536,
+        250240
+      ]
+    },
+    {
+      "row": 37107,
+      "amis_row": 360,
+      "voucher": "BHHS2025023985",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000030"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251229MUDBN2GA",
+        "buyer": "dohaidoan480",
+        "net": "628704",
+        "vat": "50296",
+        "payment": "679000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4479
+      },
+      "links": [],
+      "values": [
+        37107,
+        "dohaidoan480",
+        null,
+        "251229MUDBN2GA",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37107=\"\";\"F0; \";\"\")&IF(AND(Q37107<>\"\";V37107=\"\");\"F1; \";\"\")&IF(AND(X37107<>\"\";AC37107=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000030",
+        46024,
+        628704,
+        50296,
+        679000,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37107)=1;SUM(M37107);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37107)=1;SUM(N37107);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37107)=1;SUM(O37107);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHS2025023985 (AMIS dòng 360). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        628704,
+        50296,
+        679000
+      ]
+    },
+    {
+      "row": 37108,
+      "amis_row": 358,
+      "voucher": "BHHS2025023987",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000031"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251229MWJ0WUKR",
+        "buyer": "thaoandduc1409",
+        "net": "628704",
+        "vat": "50296",
+        "payment": "679000",
+        "status": "Hóa đơn đã bị điều chỉnh",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4480
+      },
+      "links": [
+        {
+          "kind": "adjustment",
+          "old": [
+            "1C26MUV",
+            "00000031"
+          ],
+          "new": [
+            "1C26MUV",
+            "00058521"
+          ],
+          "new_date": "2026-07-03",
+          "new_net": "-628704",
+          "new_vat": "-50296",
+          "new_payment": "-679000",
+          "file": "data/Meinv_SAU_PHAT_HANH_20261029/DIEU_CHINH/Bang_ke_hoa_don_dieu_chinh_xuat_theo_HD_bi_dieu_chinh_1793291608325_5.xls",
+          "row": 491
+        }
+      ],
+      "values": [
+        37108,
+        "thaoandduc1409",
+        null,
+        "251229MWJ0WUKR",
+        null,
+        null,
+        null,
+        1,
+        {
+          "formulaValue": "=IF(O37108=\"\";\"F0; \";\"\")&IF(AND(Q37108<>\"\";V37108=\"\");\"F1; \";\"\")&IF(AND(X37108<>\"\";AC37108=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000031",
+        46024,
+        628704,
+        50296,
+        679000,
+        "Điều chỉnh",
+        "1C26MUV",
+        "00058521",
+        46206,
+        -628704,
+        -50296,
+        -679000,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37108;T37108)=2;SUM(M37108;T37108);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37108;U37108)=2;SUM(N37108;U37108);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37108;V37108)=2;SUM(O37108;V37108);\"\")"
+        },
+        "Có điều chỉnh",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHS2025023987 (AMIS dòng 358). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026. Có HĐ điều chỉnh 1C26MUV/00058521 ngày 03/07/2026, số dư chuỗi 0 đủ 3 khoản."
+      ],
+      "expected_current_money": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "row": 37109,
+      "amis_row": 354,
+      "voucher": "BHHS2025023991",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000033"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251230N1VS76C2",
+        "buyer": "adrwfbgj_123",
+        "net": "1147220",
+        "vat": "91778",
+        "payment": "1238998",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4482
+      },
+      "links": [],
+      "values": [
+        37109,
+        "adrwfbgj_123",
+        null,
+        "251230N1VS76C2",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37109=\"\";\"F0; \";\"\")&IF(AND(Q37109<>\"\";V37109=\"\");\"F1; \";\"\")&IF(AND(X37109<>\"\";AC37109=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000033",
+        46024,
+        1147220,
+        91778,
+        1238998,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37109)=1;SUM(M37109);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37109)=1;SUM(N37109);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37109)=1;SUM(O37109);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHS2025023991 (AMIS dòng 354). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        1147220,
+        91778,
+        1238998
+      ]
+    },
+    {
+      "row": 37110,
+      "amis_row": 351,
+      "voucher": "BHHS2025023994",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000034"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251230N6FM05VA",
+        "buyer": "soccondh",
+        "net": "185185",
+        "vat": "14815",
+        "payment": "200000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4483
+      },
+      "links": [],
+      "values": [
+        37110,
+        "soccondh",
+        null,
+        "251230N6FM05VA",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37110=\"\";\"F0; \";\"\")&IF(AND(Q37110<>\"\";V37110=\"\");\"F1; \";\"\")&IF(AND(X37110<>\"\";AC37110=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000034",
+        46024,
+        185185,
+        14815,
+        200000,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37110)=1;SUM(M37110);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37110)=1;SUM(N37110);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37110)=1;SUM(O37110);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHS2025023994 (AMIS dòng 351). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        185185,
+        14815,
+        200000
+      ]
+    },
+    {
+      "row": 37111,
+      "amis_row": 347,
+      "voucher": "BHHS2025023998",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000035"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251230NXYFJNEF",
+        "buyer": "hoangann97",
+        "net": "628704",
+        "vat": "50296",
+        "payment": "679000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4484
+      },
+      "links": [],
+      "values": [
+        37111,
+        "hoangann97",
+        null,
+        "251230NXYFJNEF",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37111=\"\";\"F0; \";\"\")&IF(AND(Q37111<>\"\";V37111=\"\");\"F1; \";\"\")&IF(AND(X37111<>\"\";AC37111=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000035",
+        46024,
+        628704,
+        50296,
+        679000,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37111)=1;SUM(M37111);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37111)=1;SUM(N37111);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37111)=1;SUM(O37111);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHS2025023998 (AMIS dòng 347). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        628704,
+        50296,
+        679000
+      ]
+    },
+    {
+      "row": 37112,
+      "amis_row": 345,
+      "voucher": "BHHS2025024000",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000036"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251230NYK6UPR3",
+        "buyer": "ezickun",
+        "net": "2073148",
+        "vat": "165852",
+        "payment": "2239000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4485
+      },
+      "links": [],
+      "values": [
+        37112,
+        "ezickun",
+        null,
+        "251230NYK6UPR3",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37112=\"\";\"F0; \";\"\")&IF(AND(Q37112<>\"\";V37112=\"\");\"F1; \";\"\")&IF(AND(X37112<>\"\";AC37112=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000036",
+        46024,
+        2073148,
+        165852,
+        2239000,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37112)=1;SUM(M37112);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37112)=1;SUM(N37112);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37112)=1;SUM(O37112);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHS2025024000 (AMIS dòng 345). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        2073148,
+        165852,
+        2239000
+      ]
+    },
+    {
+      "row": 37113,
+      "amis_row": 331,
+      "voucher": "BHHS2025024014",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000037"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251230PA9W4A52",
+        "buyer": "sakura9x1",
+        "net": "499074",
+        "vat": "39926",
+        "payment": "539000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4486
+      },
+      "links": [],
+      "values": [
+        37113,
+        "sakura9x1",
+        null,
+        "251230PA9W4A52",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37113=\"\";\"F0; \";\"\")&IF(AND(Q37113<>\"\";V37113=\"\");\"F1; \";\"\")&IF(AND(X37113<>\"\";AC37113=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000037",
+        46024,
+        499074,
+        39926,
+        539000,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37113)=1;SUM(M37113);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37113)=1;SUM(N37113);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37113)=1;SUM(O37113);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHS2025024014 (AMIS dòng 331). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        499074,
+        39926,
+        539000
+      ]
+    },
+    {
+      "row": 37114,
+      "amis_row": 326,
+      "voucher": "BHHS2025024019",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000038"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251230PG7Q553W",
+        "buyer": "1i8q_hstpn",
+        "net": "499074",
+        "vat": "39926",
+        "payment": "539000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4487
+      },
+      "links": [],
+      "values": [
+        37114,
+        "1i8q_hstpn",
+        null,
+        "251230PG7Q553W",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37114=\"\";\"F0; \";\"\")&IF(AND(Q37114<>\"\";V37114=\"\");\"F1; \";\"\")&IF(AND(X37114<>\"\";AC37114=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000038",
+        46024,
+        499074,
+        39926,
+        539000,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37114)=1;SUM(M37114);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37114)=1;SUM(N37114);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37114)=1;SUM(O37114);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHS2025024019 (AMIS dòng 326). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        499074,
+        39926,
+        539000
+      ]
+    },
+    {
+      "row": 37115,
+      "amis_row": 324,
+      "voucher": "BHHS2025024021",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000039"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251230PJPR90VM",
+        "buyer": "n_loanhien282",
+        "net": "2073148",
+        "vat": "165852",
+        "payment": "2239000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4488
+      },
+      "links": [],
+      "values": [
+        37115,
+        "n_loanhien282",
+        null,
+        "251230PJPR90VM",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37115=\"\";\"F0; \";\"\")&IF(AND(Q37115<>\"\";V37115=\"\");\"F1; \";\"\")&IF(AND(X37115<>\"\";AC37115=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000039",
+        46024,
+        2073148,
+        165852,
+        2239000,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37115)=1;SUM(M37115);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37115)=1;SUM(N37115);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37115)=1;SUM(O37115);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHS2025024021 (AMIS dòng 324). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        2073148,
+        165852,
+        2239000
+      ]
+    },
+    {
+      "row": 37116,
+      "amis_row": 323,
+      "voucher": "BHHS2025024022",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000040"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251230PK1XTR8P",
+        "buyer": "kuangtran",
+        "net": "251852",
+        "vat": "20148",
+        "payment": "272000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4489
+      },
+      "links": [],
+      "values": [
+        37116,
+        "kuangtran",
+        null,
+        "251230PK1XTR8P",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37116=\"\";\"F0; \";\"\")&IF(AND(Q37116<>\"\";V37116=\"\");\"F1; \";\"\")&IF(AND(X37116<>\"\";AC37116=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000040",
+        46024,
+        251852,
+        20148,
+        272000,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37116)=1;SUM(M37116);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37116)=1;SUM(N37116);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37116)=1;SUM(O37116);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHS2025024022 (AMIS dòng 323). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        251852,
+        20148,
+        272000
+      ]
+    },
+    {
+      "row": 37117,
+      "amis_row": 322,
+      "voucher": "BHHS2025024023",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000041"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251230PMKY2WK5",
+        "buyer": "ximxinhdep",
+        "net": "499074",
+        "vat": "39926",
+        "payment": "539000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4490
+      },
+      "links": [],
+      "values": [
+        37117,
+        "ximxinhdep",
+        null,
+        "251230PMKY2WK5",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37117=\"\";\"F0; \";\"\")&IF(AND(Q37117<>\"\";V37117=\"\");\"F1; \";\"\")&IF(AND(X37117<>\"\";AC37117=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000041",
+        46024,
+        499074,
+        39926,
+        539000,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37117)=1;SUM(M37117);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37117)=1;SUM(N37117);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37117)=1;SUM(O37117);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHS2025024023 (AMIS dòng 322). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        499074,
+        39926,
+        539000
+      ]
+    },
+    {
+      "row": 37118,
+      "amis_row": 321,
+      "voucher": "BHHS2025024024",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000042"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251230PP6U19FM",
+        "buyer": "0gae_0huah",
+        "net": "2443518",
+        "vat": "195481",
+        "payment": "2638999",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4491
+      },
+      "links": [],
+      "values": [
+        37118,
+        "0gae_0huah",
+        null,
+        "251230PP6U19FM",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37118=\"\";\"F0; \";\"\")&IF(AND(Q37118<>\"\";V37118=\"\");\"F1; \";\"\")&IF(AND(X37118<>\"\";AC37118=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000042",
+        46024,
+        2443518,
+        195481,
+        2638999,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37118)=1;SUM(M37118);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37118)=1;SUM(N37118);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37118)=1;SUM(O37118);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHS2025024024 (AMIS dòng 321). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        2443518,
+        195481,
+        2638999
+      ]
+    },
+    {
+      "row": 37119,
+      "amis_row": 319,
+      "voucher": "BHHS2025024026",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000043"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251230PREBU9D6",
+        "buyer": "hoai_tc",
+        "net": "542472",
+        "vat": "43398",
+        "payment": "585870",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4492
+      },
+      "links": [],
+      "values": [
+        37119,
+        "hoai_tc",
+        null,
+        "251230PREBU9D6",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37119=\"\";\"F0; \";\"\")&IF(AND(Q37119<>\"\";V37119=\"\");\"F1; \";\"\")&IF(AND(X37119<>\"\";AC37119=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000043",
+        46024,
+        542472,
+        43398,
+        585870,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37119)=1;SUM(M37119);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37119)=1;SUM(N37119);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37119)=1;SUM(O37119);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHS2025024026 (AMIS dòng 319). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        542472,
+        43398,
+        585870
+      ]
+    },
+    {
+      "row": 37120,
+      "amis_row": 317,
+      "voucher": "BHHS2025024028",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000044"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251230PT4NG39A",
+        "buyer": "lamtgduy",
+        "net": "170370",
+        "vat": "13630",
+        "payment": "184000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4493
+      },
+      "links": [],
+      "values": [
+        37120,
+        "lamtgduy",
+        null,
+        "251230PT4NG39A",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37120=\"\";\"F0; \";\"\")&IF(AND(Q37120<>\"\";V37120=\"\");\"F1; \";\"\")&IF(AND(X37120<>\"\";AC37120=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000044",
+        46024,
+        170370,
+        13630,
+        184000,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37120)=1;SUM(M37120);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37120)=1;SUM(N37120);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37120)=1;SUM(O37120);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHS2025024028 (AMIS dòng 317). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        170370,
+        13630,
+        184000
+      ]
+    },
+    {
+      "row": 37121,
+      "amis_row": 315,
+      "voucher": "BHHS2025024030",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000045"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251230PXQRS7D9",
+        "buyer": "n5gs27wylb",
+        "net": "628704",
+        "vat": "50296",
+        "payment": "679000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4494
+      },
+      "links": [],
+      "values": [
+        37121,
+        "n5gs27wylb",
+        null,
+        "251230PXQRS7D9",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37121=\"\";\"F0; \";\"\")&IF(AND(Q37121<>\"\";V37121=\"\");\"F1; \";\"\")&IF(AND(X37121<>\"\";AC37121=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000045",
+        46024,
+        628704,
+        50296,
+        679000,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37121)=1;SUM(M37121);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37121)=1;SUM(N37121);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37121)=1;SUM(O37121);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHS2025024030 (AMIS dòng 315). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        628704,
+        50296,
+        679000
+      ]
+    },
+    {
+      "row": 37122,
+      "amis_row": 161,
+      "voucher": "BHHS2025024032",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000046"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251230Q252VW03",
+        "buyer": "63emb_1e34",
+        "net": "628704",
+        "vat": "50296",
+        "payment": "679000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4495
+      },
+      "links": [],
+      "values": [
+        37122,
+        "63emb_1e34",
+        null,
+        "251230Q252VW03",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37122=\"\";\"F0; \";\"\")&IF(AND(Q37122<>\"\";V37122=\"\");\"F1; \";\"\")&IF(AND(X37122<>\"\";AC37122=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000046",
+        46024,
+        628704,
+        50296,
+        679000,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37122)=1;SUM(M37122);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37122)=1;SUM(N37122);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37122)=1;SUM(O37122);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHS2025024032 (AMIS dòng 161). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        628704,
+        50296,
+        679000
+      ]
+    },
+    {
+      "row": 37123,
+      "amis_row": 159,
+      "voucher": "BHHS2025024034",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000047"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251230Q6THHGPV",
+        "buyer": "nvthanh29",
+        "net": "231704",
+        "vat": "18536",
+        "payment": "250240",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4496
+      },
+      "links": [],
+      "values": [
+        37123,
+        "nvthanh29",
+        null,
+        "251230Q6THHGPV",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37123=\"\";\"F0; \";\"\")&IF(AND(Q37123<>\"\";V37123=\"\");\"F1; \";\"\")&IF(AND(X37123<>\"\";AC37123=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000047",
+        46024,
+        231704,
+        18536,
+        250240,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37123)=1;SUM(M37123);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37123)=1;SUM(N37123);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37123)=1;SUM(O37123);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHS2025024034 (AMIS dòng 159). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        231704,
+        18536,
+        250240
+      ]
+    },
+    {
+      "row": 37124,
+      "amis_row": 157,
+      "voucher": "BHHS2025024036",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000048"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251230Q8BDGXCR",
+        "buyer": "sam020618",
+        "net": "1147220",
+        "vat": "91778",
+        "payment": "1238998",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4497
+      },
+      "links": [],
+      "values": [
+        37124,
+        "sam020618",
+        null,
+        "251230Q8BDGXCR",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37124=\"\";\"F0; \";\"\")&IF(AND(Q37124<>\"\";V37124=\"\");\"F1; \";\"\")&IF(AND(X37124<>\"\";AC37124=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000048",
+        46024,
+        1147220,
+        91778,
+        1238998,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37124)=1;SUM(M37124);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37124)=1;SUM(N37124);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37124)=1;SUM(O37124);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHS2025024036 (AMIS dòng 157). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        1147220,
+        91778,
+        1238998
+      ]
+    },
+    {
+      "row": 37125,
+      "amis_row": 156,
+      "voucher": "BHHS2025024037",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000049"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251230QA73RGMG",
+        "buyer": "lthanhsonn",
+        "net": "1369444",
+        "vat": "109556",
+        "payment": "1479000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4498
+      },
+      "links": [],
+      "values": [
+        37125,
+        "lthanhsonn",
+        null,
+        "251230QA73RGMG",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37125=\"\";\"F0; \";\"\")&IF(AND(Q37125<>\"\";V37125=\"\");\"F1; \";\"\")&IF(AND(X37125<>\"\";AC37125=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000049",
+        46024,
+        1369444,
+        109556,
+        1479000,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37125)=1;SUM(M37125);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37125)=1;SUM(N37125);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37125)=1;SUM(O37125);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHS2025024037 (AMIS dòng 156). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        1369444,
+        109556,
+        1479000
+      ]
+    },
+    {
+      "row": 37126,
+      "amis_row": 155,
+      "voucher": "BHHS2025024038",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000050"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251230QBER64X4",
+        "buyer": "9et3d3hkqv",
+        "net": "499074",
+        "vat": "39926",
+        "payment": "539000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4499
+      },
+      "links": [],
+      "values": [
+        37126,
+        "9et3d3hkqv",
+        null,
+        "251230QBER64X4",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37126=\"\";\"F0; \";\"\")&IF(AND(Q37126<>\"\";V37126=\"\");\"F1; \";\"\")&IF(AND(X37126<>\"\";AC37126=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000050",
+        46024,
+        499074,
+        39926,
+        539000,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37126)=1;SUM(M37126);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37126)=1;SUM(N37126);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37126)=1;SUM(O37126);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHS2025024038 (AMIS dòng 155). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        499074,
+        39926,
+        539000
+      ]
+    },
+    {
+      "row": 37127,
+      "amis_row": 152,
+      "voucher": "BHHS2025024041",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000051"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251230QDKBHVER",
+        "buyer": "xuanhau18",
+        "net": "1795370",
+        "vat": "143630",
+        "payment": "1939000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4500
+      },
+      "links": [],
+      "values": [
+        37127,
+        "xuanhau18",
+        null,
+        "251230QDKBHVER",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37127=\"\";\"F0; \";\"\")&IF(AND(Q37127<>\"\";V37127=\"\");\"F1; \";\"\")&IF(AND(X37127<>\"\";AC37127=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000051",
+        46024,
+        1795370,
+        143630,
+        1939000,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37127)=1;SUM(M37127);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37127)=1;SUM(N37127);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37127)=1;SUM(O37127);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHS2025024041 (AMIS dòng 152). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        1795370,
+        143630,
+        1939000
+      ]
+    },
+    {
+      "row": 37128,
+      "amis_row": 149,
+      "voucher": "BHHS2025024044",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000052"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251231QJC8T6GQ",
+        "buyer": "nhatsinh97",
+        "net": "721295",
+        "vat": "57704",
+        "payment": "778999",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4501
+      },
+      "links": [],
+      "values": [
+        37128,
+        "nhatsinh97",
+        null,
+        "251231QJC8T6GQ",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37128=\"\";\"F0; \";\"\")&IF(AND(Q37128<>\"\";V37128=\"\");\"F1; \";\"\")&IF(AND(X37128<>\"\";AC37128=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000052",
+        46024,
+        721295,
+        57704,
+        778999,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37128)=1;SUM(M37128);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37128)=1;SUM(N37128);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37128)=1;SUM(O37128);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHS2025024044 (AMIS dòng 149). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        721295,
+        57704,
+        778999
+      ]
+    },
+    {
+      "row": 37129,
+      "amis_row": 144,
+      "voucher": "BHHS2025024049",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000053"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251231QSVANU71",
+        "buyer": "i8dr2ts0m6",
+        "net": "499074",
+        "vat": "39926",
+        "payment": "539000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4502
+      },
+      "links": [],
+      "values": [
+        37129,
+        "i8dr2ts0m6",
+        null,
+        "251231QSVANU71",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37129=\"\";\"F0; \";\"\")&IF(AND(Q37129<>\"\";V37129=\"\");\"F1; \";\"\")&IF(AND(X37129<>\"\";AC37129=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000053",
+        46024,
+        499074,
+        39926,
+        539000,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37129)=1;SUM(M37129);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37129)=1;SUM(N37129);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37129)=1;SUM(O37129);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHS2025024049 (AMIS dòng 144). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        499074,
+        39926,
+        539000
+      ]
+    },
+    {
+      "row": 37130,
+      "amis_row": 143,
+      "voucher": "BHHS2025024050",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000054"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251231R54A39E4",
+        "buyer": "thienbui1397",
+        "net": "628704",
+        "vat": "50296",
+        "payment": "679000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4503
+      },
+      "links": [],
+      "values": [
+        37130,
+        "thienbui1397",
+        null,
+        "251231R54A39E4",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37130=\"\";\"F0; \";\"\")&IF(AND(Q37130<>\"\";V37130=\"\");\"F1; \";\"\")&IF(AND(X37130<>\"\";AC37130=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000054",
+        46024,
+        628704,
+        50296,
+        679000,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37130)=1;SUM(M37130);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37130)=1;SUM(N37130);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37130)=1;SUM(O37130);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHS2025024050 (AMIS dòng 143). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        628704,
+        50296,
+        679000
+      ]
+    },
+    {
+      "row": 37131,
+      "amis_row": 142,
+      "voucher": "BHHS2025024051",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000055"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251231RJUYM4TU",
+        "buyer": "sonnguyen0802",
+        "net": "499074",
+        "vat": "39926",
+        "payment": "539000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4504
+      },
+      "links": [],
+      "values": [
+        37131,
+        "sonnguyen0802",
+        null,
+        "251231RJUYM4TU",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37131=\"\";\"F0; \";\"\")&IF(AND(Q37131<>\"\";V37131=\"\");\"F1; \";\"\")&IF(AND(X37131<>\"\";AC37131=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000055",
+        46024,
+        499074,
+        39926,
+        539000,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37131)=1;SUM(M37131);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37131)=1;SUM(N37131);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37131)=1;SUM(O37131);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHS2025024051 (AMIS dòng 142). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        499074,
+        39926,
+        539000
+      ]
+    },
+    {
+      "row": 37132,
+      "amis_row": 141,
+      "voucher": "BHHS2025024052",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000056"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251231RKN3J8QT",
+        "buyer": "coconhinguyen",
+        "net": "721295",
+        "vat": "57704",
+        "payment": "778999",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4505
+      },
+      "links": [],
+      "values": [
+        37132,
+        "coconhinguyen",
+        null,
+        "251231RKN3J8QT",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37132=\"\";\"F0; \";\"\")&IF(AND(Q37132<>\"\";V37132=\"\");\"F1; \";\"\")&IF(AND(X37132<>\"\";AC37132=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000056",
+        46024,
+        721295,
+        57704,
+        778999,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37132)=1;SUM(M37132);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37132)=1;SUM(N37132);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37132)=1;SUM(O37132);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHS2025024052 (AMIS dòng 141). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        721295,
+        57704,
+        778999
+      ]
+    },
+    {
+      "row": 37133,
+      "amis_row": 138,
+      "voucher": "BHHS2025024055",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000057"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251231RV56PJCS",
+        "buyer": "khoiminhduong787",
+        "net": "2073148",
+        "vat": "165852",
+        "payment": "2239000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4506
+      },
+      "links": [],
+      "values": [
+        37133,
+        "khoiminhduong787",
+        null,
+        "251231RV56PJCS",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37133=\"\";\"F0; \";\"\")&IF(AND(Q37133<>\"\";V37133=\"\");\"F1; \";\"\")&IF(AND(X37133<>\"\";AC37133=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000057",
+        46024,
+        2073148,
+        165852,
+        2239000,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37133)=1;SUM(M37133);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37133)=1;SUM(N37133);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37133)=1;SUM(O37133);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHS2025024055 (AMIS dòng 138). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        2073148,
+        165852,
+        2239000
+      ]
+    },
+    {
+      "row": 37134,
+      "amis_row": 137,
+      "voucher": "BHHS2025024056",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000058"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251231RYQE3XJ6",
+        "buyer": "ngaluu526",
+        "net": "591665",
+        "vat": "47333",
+        "payment": "638998",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4507
+      },
+      "links": [],
+      "values": [
+        37134,
+        "ngaluu526",
+        null,
+        "251231RYQE3XJ6",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37134=\"\";\"F0; \";\"\")&IF(AND(Q37134<>\"\";V37134=\"\");\"F1; \";\"\")&IF(AND(X37134<>\"\";AC37134=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000058",
+        46024,
+        591665,
+        47333,
+        638998,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37134)=1;SUM(M37134);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37134)=1;SUM(N37134);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37134)=1;SUM(O37134);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHS2025024056 (AMIS dòng 137). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        591665,
+        47333,
+        638998
+      ]
+    },
+    {
+      "row": 37135,
+      "amis_row": 136,
+      "voucher": "BHHS2025024057",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000059"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251231S6J19R65",
+        "buyer": "linhphuong1006",
+        "net": "499074",
+        "vat": "39926",
+        "payment": "539000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4508
+      },
+      "links": [],
+      "values": [
+        37135,
+        "linhphuong1006",
+        null,
+        "251231S6J19R65",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37135=\"\";\"F0; \";\"\")&IF(AND(Q37135<>\"\";V37135=\"\");\"F1; \";\"\")&IF(AND(X37135<>\"\";AC37135=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000059",
+        46024,
+        499074,
+        39926,
+        539000,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37135)=1;SUM(M37135);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37135)=1;SUM(N37135);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37135)=1;SUM(O37135);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHS2025024057 (AMIS dòng 136). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        499074,
+        39926,
+        539000
+      ]
+    },
+    {
+      "row": 37136,
+      "amis_row": 135,
+      "voucher": "BHHS2025024058",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000060"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251231S7HWR7GT",
+        "buyer": "lemylinh_2108",
+        "net": "2443518",
+        "vat": "195481",
+        "payment": "2638999",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4509
+      },
+      "links": [],
+      "values": [
+        37136,
+        "lemylinh_2108",
+        null,
+        "251231S7HWR7GT",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37136=\"\";\"F0; \";\"\")&IF(AND(Q37136<>\"\";V37136=\"\");\"F1; \";\"\")&IF(AND(X37136<>\"\";AC37136=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000060",
+        46024,
+        2443518,
+        195481,
+        2638999,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37136)=1;SUM(M37136);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37136)=1;SUM(N37136);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37136)=1;SUM(O37136);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHS2025024058 (AMIS dòng 135). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        2443518,
+        195481,
+        2638999
+      ]
+    },
+    {
+      "row": 37137,
+      "amis_row": 134,
+      "voucher": "BHHS2025024059",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000061"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251231S7XYFD5V",
+        "buyer": "2uxd_meiul",
+        "net": "1795370",
+        "vat": "143630",
+        "payment": "1939000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4510
+      },
+      "links": [],
+      "values": [
+        37137,
+        "2uxd_meiul",
+        null,
+        "251231S7XYFD5V",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37137=\"\";\"F0; \";\"\")&IF(AND(Q37137<>\"\";V37137=\"\");\"F1; \";\"\")&IF(AND(X37137<>\"\";AC37137=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000061",
+        46024,
+        1795370,
+        143630,
+        1939000,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37137)=1;SUM(M37137);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37137)=1;SUM(N37137);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37137)=1;SUM(O37137);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHS2025024059 (AMIS dòng 134). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        1795370,
+        143630,
+        1939000
+      ]
+    },
+    {
+      "row": 37138,
+      "amis_row": 133,
+      "voucher": "BHHS2025024060",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000062"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251231S906SC89",
+        "buyer": "imgailne",
+        "net": "2073148",
+        "vat": "165852",
+        "payment": "2239000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4511
+      },
+      "links": [],
+      "values": [
+        37138,
+        "imgailne",
+        null,
+        "251231S906SC89",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37138=\"\";\"F0; \";\"\")&IF(AND(Q37138<>\"\";V37138=\"\");\"F1; \";\"\")&IF(AND(X37138<>\"\";AC37138=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000062",
+        46024,
+        2073148,
+        165852,
+        2239000,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37138)=1;SUM(M37138);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37138)=1;SUM(N37138);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37138)=1;SUM(O37138);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHS2025024060 (AMIS dòng 133). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        2073148,
+        165852,
+        2239000
+      ]
+    },
+    {
+      "row": 37139,
+      "amis_row": 131,
+      "voucher": "BHHS2025024062",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000063"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251231SBJUAR2S",
+        "buyer": "linh140196",
+        "net": "499074",
+        "vat": "39926",
+        "payment": "539000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4512
+      },
+      "links": [],
+      "values": [
+        37139,
+        "linh140196",
+        null,
+        "251231SBJUAR2S",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37139=\"\";\"F0; \";\"\")&IF(AND(Q37139<>\"\";V37139=\"\");\"F1; \";\"\")&IF(AND(X37139<>\"\";AC37139=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000063",
+        46024,
+        499074,
+        39926,
+        539000,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37139)=1;SUM(M37139);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37139)=1;SUM(N37139);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37139)=1;SUM(O37139);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHS2025024062 (AMIS dòng 131). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        499074,
+        39926,
+        539000
+      ]
+    },
+    {
+      "row": 37140,
+      "amis_row": 130,
+      "voucher": "BHHS2025024063",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000064"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251231SC92S0QN",
+        "buyer": "nguyenthuyduong1504",
+        "net": "1369444",
+        "vat": "109556",
+        "payment": "1479000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4513
+      },
+      "links": [],
+      "values": [
+        37140,
+        "nguyenthuyduong1504",
+        null,
+        "251231SC92S0QN",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37140=\"\";\"F0; \";\"\")&IF(AND(Q37140<>\"\";V37140=\"\");\"F1; \";\"\")&IF(AND(X37140<>\"\";AC37140=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000064",
+        46024,
+        1369444,
+        109556,
+        1479000,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37140)=1;SUM(M37140);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37140)=1;SUM(N37140);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37140)=1;SUM(O37140);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHS2025024063 (AMIS dòng 130). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        1369444,
+        109556,
+        1479000
+      ]
+    },
+    {
+      "row": 37141,
+      "amis_row": 129,
+      "voucher": "BHHS2025024064",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000065"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251231SCRV5KWX",
+        "buyer": "btsmiling",
+        "net": "2443518",
+        "vat": "195481",
+        "payment": "2638999",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4514
+      },
+      "links": [],
+      "values": [
+        37141,
+        "btsmiling",
+        null,
+        "251231SCRV5KWX",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37141=\"\";\"F0; \";\"\")&IF(AND(Q37141<>\"\";V37141=\"\");\"F1; \";\"\")&IF(AND(X37141<>\"\";AC37141=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000065",
+        46024,
+        2443518,
+        195481,
+        2638999,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37141)=1;SUM(M37141);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37141)=1;SUM(N37141);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37141)=1;SUM(O37141);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHS2025024064 (AMIS dòng 129). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        2443518,
+        195481,
+        2638999
+      ]
+    },
+    {
+      "row": 37142,
+      "amis_row": 625,
+      "voucher": "BHHS2025023900",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000102"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251228HW43T32J",
+        "buyer": "dung.nguyen14",
+        "net": "4054630",
+        "vat": "324370",
+        "payment": "4379000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4551
+      },
+      "links": [],
+      "values": [
+        37142,
+        "dung.nguyen14",
+        null,
+        "251228HW43T32J",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37142=\"\";\"F0; \";\"\")&IF(AND(Q37142<>\"\";V37142=\"\");\"F1; \";\"\")&IF(AND(X37142<>\"\";AC37142=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000102",
+        46024,
+        4054630,
+        324370,
+        4379000,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37142)=1;SUM(M37142);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37142)=1;SUM(N37142);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37142)=1;SUM(O37142);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHS2025023900 (AMIS dòng 625). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        4054630,
+        324370,
+        4379000
+      ]
+    },
+    {
+      "row": 37143,
+      "amis_row": 574,
+      "voucher": "BHHS2025023951",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000103"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251229KXREXRC2",
+        "buyer": "tao8866",
+        "net": "1941667",
+        "vat": "155333",
+        "payment": "2097000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4552
+      },
+      "links": [],
+      "values": [
+        37143,
+        "tao8866",
+        null,
+        "251229KXREXRC2",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37143=\"\";\"F0; \";\"\")&IF(AND(Q37143<>\"\";V37143=\"\");\"F1; \";\"\")&IF(AND(X37143<>\"\";AC37143=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000103",
+        46024,
+        1941667,
+        155333,
+        2097000,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37143)=1;SUM(M37143);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37143)=1;SUM(N37143);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37143)=1;SUM(O37143);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHS2025023951 (AMIS dòng 574). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        1941667,
+        155333,
+        2097000
+      ]
+    },
+    {
+      "row": 37144,
+      "amis_row": 151,
+      "voucher": "BHHS2025024042",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000105"
+        ],
+        "date": "2026-01-02",
+        "order_code": "251230QGHK1Q63",
+        "buyer": "hophuong631",
+        "net": "998148",
+        "vat": "79852",
+        "payment": "1078000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4554
+      },
+      "links": [],
+      "values": [
+        37144,
+        "hophuong631",
+        "3703029382",
+        "251230QGHK1Q63",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37144=\"\";\"F0; \";\"\")&IF(AND(Q37144<>\"\";V37144=\"\");\"F1; \";\"\")&IF(AND(X37144<>\"\";AC37144=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000105",
+        46024,
+        998148,
+        79852,
+        1078000,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37144)=1;SUM(M37144);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37144)=1;SUM(N37144);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37144)=1;SUM(O37144);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHS2025024042 (AMIS dòng 151). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        998148,
+        79852,
+        1078000
+      ]
+    },
+    {
+      "row": 37145,
+      "amis_row": 10,
+      "voucher": "BHHT2025040149",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000106"
+        ],
+        "date": "2026-01-03",
+        "order_code": "581740479291950316",
+        "buyer": "t***hoang_co.ltd",
+        "net": "3962037",
+        "vat": "316963",
+        "payment": "4279000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4555
+      },
+      "links": [],
+      "values": [
+        37145,
+        "t***hoang_co.ltd",
+        null,
+        "581740479291950316",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37145=\"\";\"F0; \";\"\")&IF(AND(Q37145<>\"\";V37145=\"\");\"F1; \";\"\")&IF(AND(X37145<>\"\";AC37145=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000106",
+        46025,
+        3962037,
+        316963,
+        4279000,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37145)=1;SUM(M37145);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37145)=1;SUM(N37145);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37145)=1;SUM(O37145);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHT2025040149 (AMIS dòng 10). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        3962037,
+        316963,
+        4279000
+      ]
+    },
+    {
+      "row": 37146,
+      "amis_row": 12,
+      "voucher": "BHHT2025040147",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000107"
+        ],
+        "date": "2026-01-03",
+        "order_code": "581765758488314985",
+        "buyer": "d***ochunglua_",
+        "net": "1948759",
+        "vat": "155901",
+        "payment": "2104660",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4556
+      },
+      "links": [],
+      "values": [
+        37146,
+        "d***ochunglua_",
+        null,
+        "581765758488314985",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37146=\"\";\"F0; \";\"\")&IF(AND(Q37146<>\"\";V37146=\"\");\"F1; \";\"\")&IF(AND(X37146<>\"\";AC37146=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000107",
+        46025,
+        1948759,
+        155901,
+        2104660,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37146)=1;SUM(M37146);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37146)=1;SUM(N37146);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37146)=1;SUM(O37146);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHT2025040147 (AMIS dòng 12). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        1948759,
+        155901,
+        2104660
+      ]
+    },
+    {
+      "row": 37147,
+      "amis_row": 14,
+      "voucher": "BHHT2025040145",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000111"
+        ],
+        "date": "2026-01-03",
+        "order_code": "581782611472254410",
+        "buyer": "2***nh45",
+        "net": "499074",
+        "vat": "39926",
+        "payment": "539000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4560
+      },
+      "links": [],
+      "values": [
+        37147,
+        "2***nh45",
+        null,
+        "581782611472254410",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37147=\"\";\"F0; \";\"\")&IF(AND(Q37147<>\"\";V37147=\"\");\"F1; \";\"\")&IF(AND(X37147<>\"\";AC37147=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000111",
+        46025,
+        499074,
+        39926,
+        539000,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37147)=1;SUM(M37147);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37147)=1;SUM(N37147);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37147)=1;SUM(O37147);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHT2025040145 (AMIS dòng 14). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        499074,
+        39926,
+        539000
+      ]
+    },
+    {
+      "row": 37148,
+      "amis_row": 15,
+      "voucher": "BHHT2025040144",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000114"
+        ],
+        "date": "2026-01-03",
+        "order_code": "581786473186755744",
+        "buyer": "m***20995",
+        "net": "2443519",
+        "vat": "195481",
+        "payment": "2639000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4563
+      },
+      "links": [],
+      "values": [
+        37148,
+        "m***20995",
+        null,
+        "581786473186755744",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37148=\"\";\"F0; \";\"\")&IF(AND(Q37148<>\"\";V37148=\"\");\"F1; \";\"\")&IF(AND(X37148<>\"\";AC37148=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000114",
+        46025,
+        2443519,
+        195481,
+        2639000,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37148)=1;SUM(M37148);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37148)=1;SUM(N37148);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37148)=1;SUM(O37148);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHT2025040144 (AMIS dòng 15). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        2443519,
+        195481,
+        2639000
+      ]
+    },
+    {
+      "row": 37149,
+      "amis_row": 16,
+      "voucher": "BHHT2025040143",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000117"
+        ],
+        "date": "2026-01-03",
+        "order_code": "581799568787670320",
+        "buyer": "t***gdng093",
+        "net": "1369444",
+        "vat": "109555",
+        "payment": "1478999",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4566
+      },
+      "links": [],
+      "values": [
+        37149,
+        "t***gdng093",
+        null,
+        "581799568787670320",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37149=\"\";\"F0; \";\"\")&IF(AND(Q37149<>\"\";V37149=\"\");\"F1; \";\"\")&IF(AND(X37149<>\"\";AC37149=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000117",
+        46025,
+        1369444,
+        109555,
+        1478999,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37149)=1;SUM(M37149);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37149)=1;SUM(N37149);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37149)=1;SUM(O37149);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHT2025040143 (AMIS dòng 16). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        1369444,
+        109555,
+        1478999
+      ]
+    },
+    {
+      "row": 37150,
+      "amis_row": 18,
+      "voucher": "BHHT2025040141",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000118"
+        ],
+        "date": "2026-01-03",
+        "order_code": "581800458559915328",
+        "buyer": "p***.to.ni",
+        "net": "1369444",
+        "vat": "109555",
+        "payment": "1478999",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4567
+      },
+      "links": [],
+      "values": [
+        37150,
+        "p***.to.ni",
+        null,
+        "581800458559915328",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37150=\"\";\"F0; \";\"\")&IF(AND(Q37150<>\"\";V37150=\"\");\"F1; \";\"\")&IF(AND(X37150<>\"\";AC37150=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000118",
+        46025,
+        1369444,
+        109555,
+        1478999,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37150)=1;SUM(M37150);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37150)=1;SUM(N37150);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37150)=1;SUM(O37150);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHT2025040141 (AMIS dòng 18). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        1369444,
+        109555,
+        1478999
+      ]
+    },
+    {
+      "row": 37151,
+      "amis_row": 20,
+      "voucher": "BHHT2025040139",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000121"
+        ],
+        "date": "2026-01-03",
+        "order_code": "581821956586440264",
+        "buyer": "p***kbvision",
+        "net": "170370",
+        "vat": "13630",
+        "payment": "184000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4570
+      },
+      "links": [],
+      "values": [
+        37151,
+        "p***kbvision",
+        null,
+        "581821956586440264",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37151=\"\";\"F0; \";\"\")&IF(AND(Q37151<>\"\";V37151=\"\");\"F1; \";\"\")&IF(AND(X37151<>\"\";AC37151=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000121",
+        46025,
+        170370,
+        13630,
+        184000,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37151)=1;SUM(M37151);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37151)=1;SUM(N37151);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37151)=1;SUM(O37151);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHT2025040139 (AMIS dòng 20). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        170370,
+        13630,
+        184000
+      ]
+    },
+    {
+      "row": 37152,
+      "amis_row": 23,
+      "voucher": "BHHT2025040136",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000126"
+        ],
+        "date": "2026-01-03",
+        "order_code": "581836766921720935",
+        "buyer": "z***2223",
+        "net": "1999074",
+        "vat": "159926",
+        "payment": "2159000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4575
+      },
+      "links": [],
+      "values": [
+        37152,
+        "z***2223",
+        null,
+        "581836766921720935",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37152=\"\";\"F0; \";\"\")&IF(AND(Q37152<>\"\";V37152=\"\");\"F1; \";\"\")&IF(AND(X37152<>\"\";AC37152=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000126",
+        46025,
+        1999074,
+        159926,
+        2159000,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37152)=1;SUM(M37152);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37152)=1;SUM(N37152);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37152)=1;SUM(O37152);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHT2025040136 (AMIS dòng 23). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        1999074,
+        159926,
+        2159000
+      ]
+    },
+    {
+      "row": 37153,
+      "amis_row": 25,
+      "voucher": "BHHT2025040134",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000128"
+        ],
+        "date": "2026-01-03",
+        "order_code": "581841230806418569",
+        "buyer": "h***huc98",
+        "net": "1369444",
+        "vat": "109555",
+        "payment": "1478999",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4577
+      },
+      "links": [],
+      "values": [
+        37153,
+        "h***huc98",
+        null,
+        "581841230806418569",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37153=\"\";\"F0; \";\"\")&IF(AND(Q37153<>\"\";V37153=\"\");\"F1; \";\"\")&IF(AND(X37153<>\"\";AC37153=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000128",
+        46025,
+        1369444,
+        109555,
+        1478999,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37153)=1;SUM(M37153);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37153)=1;SUM(N37153);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37153)=1;SUM(O37153);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHT2025040134 (AMIS dòng 25). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        1369444,
+        109555,
+        1478999
+      ]
+    },
+    {
+      "row": 37154,
+      "amis_row": 26,
+      "voucher": "BHHT2025040133",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000130"
+        ],
+        "date": "2026-01-03",
+        "order_code": "581843157706441800",
+        "buyer": "d***inhtuan8686",
+        "net": "1999074",
+        "vat": "159926",
+        "payment": "2159000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4579
+      },
+      "links": [],
+      "values": [
+        37154,
+        "d***inhtuan8686",
+        null,
+        "581843157706441800",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37154=\"\";\"F0; \";\"\")&IF(AND(Q37154<>\"\";V37154=\"\");\"F1; \";\"\")&IF(AND(X37154<>\"\";AC37154=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000130",
+        46025,
+        1999074,
+        159926,
+        2159000,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37154)=1;SUM(M37154);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37154)=1;SUM(N37154);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37154)=1;SUM(O37154);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHT2025040133 (AMIS dòng 26). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        1999074,
+        159926,
+        2159000
+      ]
+    },
+    {
+      "row": 37155,
+      "amis_row": 27,
+      "voucher": "BHHT2025040132",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000131"
+        ],
+        "date": "2026-01-03",
+        "order_code": "581844683620386040",
+        "buyer": "d***c92",
+        "net": "3962037",
+        "vat": "316963",
+        "payment": "4279000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4580
+      },
+      "links": [],
+      "values": [
+        37155,
+        "d***c92",
+        null,
+        "581844683620386040",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37155=\"\";\"F0; \";\"\")&IF(AND(Q37155<>\"\";V37155=\"\");\"F1; \";\"\")&IF(AND(X37155<>\"\";AC37155=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000131",
+        46025,
+        3962037,
+        316963,
+        4279000,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37155)=1;SUM(M37155);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37155)=1;SUM(N37155);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37155)=1;SUM(O37155);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHT2025040132 (AMIS dòng 27). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        3962037,
+        316963,
+        4279000
+      ]
+    },
+    {
+      "row": 37156,
+      "amis_row": 34,
+      "voucher": "BHHT2025040125",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000137"
+        ],
+        "date": "2026-01-03",
+        "order_code": "581850378133800482",
+        "buyer": "t***ahebentiu",
+        "net": "2073148",
+        "vat": "165852",
+        "payment": "2239000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4586
+      },
+      "links": [],
+      "values": [
+        37156,
+        "t***ahebentiu",
+        null,
+        "581850378133800482",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37156=\"\";\"F0; \";\"\")&IF(AND(Q37156<>\"\";V37156=\"\");\"F1; \";\"\")&IF(AND(X37156<>\"\";AC37156=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000137",
+        46025,
+        2073148,
+        165852,
+        2239000,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37156)=1;SUM(M37156);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37156)=1;SUM(N37156);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37156)=1;SUM(O37156);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHT2025040125 (AMIS dòng 34). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        2073148,
+        165852,
+        2239000
+      ]
+    },
+    {
+      "row": 37157,
+      "amis_row": 37,
+      "voucher": "BHHT2025040122",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000140"
+        ],
+        "date": "2026-01-03",
+        "order_code": "581850902823601895",
+        "buyer": "t***haisonbac3rd",
+        "net": "591667",
+        "vat": "47333",
+        "payment": "639000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4589
+      },
+      "links": [],
+      "values": [
+        37157,
+        "t***haisonbac3rd",
+        null,
+        "581850902823601895",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37157=\"\";\"F0; \";\"\")&IF(AND(Q37157<>\"\";V37157=\"\");\"F1; \";\"\")&IF(AND(X37157<>\"\";AC37157=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000140",
+        46025,
+        591667,
+        47333,
+        639000,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37157)=1;SUM(M37157);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37157)=1;SUM(N37157);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37157)=1;SUM(O37157);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHT2025040122 (AMIS dòng 37). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        591667,
+        47333,
+        639000
+      ]
+    },
+    {
+      "row": 37158,
+      "amis_row": 41,
+      "voucher": "BHHT2025040118",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000151"
+        ],
+        "date": "2026-01-03",
+        "order_code": "581852157676193045",
+        "buyer": "i***012023_milo",
+        "net": "499074",
+        "vat": "39926",
+        "payment": "539000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4600
+      },
+      "links": [],
+      "values": [
+        37158,
+        "i***012023_milo",
+        null,
+        "581852157676193045",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37158=\"\";\"F0; \";\"\")&IF(AND(Q37158<>\"\";V37158=\"\");\"F1; \";\"\")&IF(AND(X37158<>\"\";AC37158=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000151",
+        46025,
+        499074,
+        39926,
+        539000,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37158)=1;SUM(M37158);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37158)=1;SUM(N37158);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37158)=1;SUM(O37158);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHT2025040118 (AMIS dòng 41). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        499074,
+        39926,
+        539000
+      ]
+    },
+    {
+      "row": 37159,
+      "amis_row": 43,
+      "voucher": "BHHT2025040116",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000157"
+        ],
+        "date": "2026-01-03",
+        "order_code": "581853952755270671",
+        "buyer": "y***_177",
+        "net": "1147222",
+        "vat": "91778",
+        "payment": "1239000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4606
+      },
+      "links": [],
+      "values": [
+        37159,
+        "y***_177",
+        null,
+        "581853952755270671",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37159=\"\";\"F0; \";\"\")&IF(AND(Q37159<>\"\";V37159=\"\");\"F1; \";\"\")&IF(AND(X37159<>\"\";AC37159=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000157",
+        46025,
+        1147222,
+        91778,
+        1239000,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37159)=1;SUM(M37159);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37159)=1;SUM(N37159);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37159)=1;SUM(O37159);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHT2025040116 (AMIS dòng 43). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        1147222,
+        91778,
+        1239000
+      ]
+    },
+    {
+      "row": 37160,
+      "amis_row": 45,
+      "voucher": "BHHT2025040114",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000159"
+        ],
+        "date": "2026-01-03",
+        "order_code": "581855730894735118",
+        "buyer": ".***.hunh1",
+        "net": "2995369",
+        "vat": "239630",
+        "payment": "3234999",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4608
+      },
+      "links": [],
+      "values": [
+        37160,
+        ".***.hunh1",
+        null,
+        "581855730894735118",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37160=\"\";\"F0; \";\"\")&IF(AND(Q37160<>\"\";V37160=\"\");\"F1; \";\"\")&IF(AND(X37160<>\"\";AC37160=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000159",
+        46025,
+        2995369,
+        239630,
+        3234999,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37160)=1;SUM(M37160);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37160)=1;SUM(N37160);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37160)=1;SUM(O37160);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHT2025040114 (AMIS dòng 45). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        2995369,
+        239630,
+        3234999
+      ]
+    },
+    {
+      "row": 37161,
+      "amis_row": 47,
+      "voucher": "BHHT2025040112",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000166"
+        ],
+        "date": "2026-01-03",
+        "order_code": "581857539913516244",
+        "buyer": "n***uyt7612",
+        "net": "1795370",
+        "vat": "143630",
+        "payment": "1939000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4615
+      },
+      "links": [],
+      "values": [
+        37161,
+        "n***uyt7612",
+        null,
+        "581857539913516244",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37161=\"\";\"F0; \";\"\")&IF(AND(Q37161<>\"\";V37161=\"\");\"F1; \";\"\")&IF(AND(X37161<>\"\";AC37161=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000166",
+        46025,
+        1795370,
+        143630,
+        1939000,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37161)=1;SUM(M37161);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37161)=1;SUM(N37161);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37161)=1;SUM(O37161);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHT2025040112 (AMIS dòng 47). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        1795370,
+        143630,
+        1939000
+      ]
+    },
+    {
+      "row": 37162,
+      "amis_row": 84,
+      "voucher": "BHHT2025040075",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000332"
+        ],
+        "date": "2026-01-03",
+        "order_code": "581878249351120584",
+        "buyer": "t***antho78",
+        "net": "2592833",
+        "vat": "207427",
+        "payment": "2800260",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4781
+      },
+      "links": [],
+      "values": [
+        37162,
+        "t***antho78",
+        null,
+        "581878249351120584",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37162=\"\";\"F0; \";\"\")&IF(AND(Q37162<>\"\";V37162=\"\");\"F1; \";\"\")&IF(AND(X37162<>\"\";AC37162=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000332",
+        46025,
+        2592833,
+        207427,
+        2800260,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37162)=1;SUM(M37162);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37162)=1;SUM(N37162);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37162)=1;SUM(O37162);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHT2025040075 (AMIS dòng 84). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        2592833,
+        207427,
+        2800260
+      ]
+    },
+    {
+      "row": 37163,
+      "amis_row": 89,
+      "voucher": "BHHT2025040070",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000333"
+        ],
+        "date": "2026-01-03",
+        "order_code": "581878689143424330",
+        "buyer": "h***.nguyen0909",
+        "net": "2551458",
+        "vat": "204117",
+        "payment": "2755575",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4782
+      },
+      "links": [],
+      "values": [
+        37163,
+        "h***.nguyen0909",
+        null,
+        "581878689143424330",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37163=\"\";\"F0; \";\"\")&IF(AND(Q37163<>\"\";V37163=\"\");\"F1; \";\"\")&IF(AND(X37163<>\"\";AC37163=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000333",
+        46025,
+        2551458,
+        204117,
+        2755575,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37163)=1;SUM(M37163);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37163)=1;SUM(N37163);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37163)=1;SUM(O37163);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHT2025040070 (AMIS dòng 89). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        2551458,
+        204117,
+        2755575
+      ]
+    },
+    {
+      "row": 37164,
+      "amis_row": 24,
+      "voucher": "BHHT2025040135",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000335"
+        ],
+        "date": "2026-01-03",
+        "order_code": "581839724908872763",
+        "buyer": "a***uctrunghoa2",
+        "net": "2701851",
+        "vat": "216148",
+        "payment": "2917999",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_10.xls",
+        "row": 4784
+      },
+      "links": [],
+      "values": [
+        37164,
+        "a***uctrunghoa2",
+        null,
+        "581839724908872763",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37164=\"\";\"F0; \";\"\")&IF(AND(Q37164<>\"\";V37164=\"\");\"F1; \";\"\")&IF(AND(X37164<>\"\";AC37164=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000335",
+        46025,
+        2701851,
+        216148,
+        2917999,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37164)=1;SUM(M37164);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37164)=1;SUM(N37164);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37164)=1;SUM(O37164);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHT2025040135 (AMIS dòng 24). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        2701851,
+        216148,
+        2917999
+      ]
+    },
+    {
+      "row": 37165,
+      "amis_row": 1160,
+      "voucher": "BHHS2025023764",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000716"
+        ],
+        "date": "2026-01-05",
+        "order_code": "251226B2M778Q9",
+        "buyer": "vutman",
+        "net": "628704",
+        "vat": "50296",
+        "payment": "679000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_11.xls",
+        "row": 384
+      },
+      "links": [],
+      "values": [
+        37165,
+        "vutman",
+        null,
+        "251226B2M778Q9",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37165=\"\";\"F0; \";\"\")&IF(AND(Q37165<>\"\";V37165=\"\");\"F1; \";\"\")&IF(AND(X37165<>\"\";AC37165=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000716",
+        46027,
+        628704,
+        50296,
+        679000,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37165)=1;SUM(M37165);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37165)=1;SUM(N37165);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37165)=1;SUM(O37165);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHS2025023764 (AMIS dòng 1160). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        628704,
+        50296,
+        679000
+      ]
+    },
+    {
+      "row": 37166,
+      "amis_row": 369,
+      "voucher": "BHHS2025023976",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000720"
+        ],
+        "date": "2026-01-05",
+        "order_code": "251229MN9WEHBQ",
+        "buyer": "luanntbg1986",
+        "net": "1369444",
+        "vat": "109556",
+        "payment": "1479000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_11.xls",
+        "row": 388
+      },
+      "links": [],
+      "values": [
+        37166,
+        "luanntbg1986",
+        null,
+        "251229MN9WEHBQ",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37166=\"\";\"F0; \";\"\")&IF(AND(Q37166<>\"\";V37166=\"\");\"F1; \";\"\")&IF(AND(X37166<>\"\";AC37166=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000720",
+        46027,
+        1369444,
+        109556,
+        1479000,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37166)=1;SUM(M37166);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37166)=1;SUM(N37166);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37166)=1;SUM(O37166);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHS2025023976 (AMIS dòng 369). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        1369444,
+        109556,
+        1479000
+      ]
+    },
+    {
+      "row": 37167,
+      "amis_row": 153,
+      "voucher": "BHHS2025024040",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000724"
+        ],
+        "date": "2026-01-05",
+        "order_code": "251230QCN3JC26",
+        "buyer": "mwfud9dayh",
+        "net": "499074",
+        "vat": "39926",
+        "payment": "539000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_11.xls",
+        "row": 392
+      },
+      "links": [],
+      "values": [
+        37167,
+        "mwfud9dayh",
+        null,
+        "251230QCN3JC26",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37167=\"\";\"F0; \";\"\")&IF(AND(Q37167<>\"\";V37167=\"\");\"F1; \";\"\")&IF(AND(X37167<>\"\";AC37167=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000724",
+        46027,
+        499074,
+        39926,
+        539000,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37167)=1;SUM(M37167);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37167)=1;SUM(N37167);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37167)=1;SUM(O37167);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHS2025024040 (AMIS dòng 153). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        499074,
+        39926,
+        539000
+      ]
+    },
+    {
+      "row": 37168,
+      "amis_row": 148,
+      "voucher": "BHHS2025024045",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000725"
+        ],
+        "date": "2026-01-05",
+        "order_code": "251231QJF0HN7U",
+        "buyer": "vananh.ta",
+        "net": "499074",
+        "vat": "39926",
+        "payment": "539000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_11.xls",
+        "row": 393
+      },
+      "links": [],
+      "values": [
+        37168,
+        "vananh.ta",
+        null,
+        "251231QJF0HN7U",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37168=\"\";\"F0; \";\"\")&IF(AND(Q37168<>\"\";V37168=\"\");\"F1; \";\"\")&IF(AND(X37168<>\"\";AC37168=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000725",
+        46027,
+        499074,
+        39926,
+        539000,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37168)=1;SUM(M37168);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37168)=1;SUM(N37168);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37168)=1;SUM(O37168);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHS2025024045 (AMIS dòng 148). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        499074,
+        39926,
+        539000
+      ]
+    },
+    {
+      "row": 37169,
+      "amis_row": 147,
+      "voucher": "BHHS2025024046",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000726"
+        ],
+        "date": "2026-01-05",
+        "order_code": "251231QJKCR2X2",
+        "buyer": "vananh.ta",
+        "net": "4491669",
+        "vat": "359334",
+        "payment": "4851003",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_11.xls",
+        "row": 394
+      },
+      "links": [],
+      "values": [
+        37169,
+        "vananh.ta",
+        null,
+        "251231QJKCR2X2",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37169=\"\";\"F0; \";\"\")&IF(AND(Q37169<>\"\";V37169=\"\");\"F1; \";\"\")&IF(AND(X37169<>\"\";AC37169=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000726",
+        46027,
+        4491669,
+        359334,
+        4851003,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37169)=1;SUM(M37169);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37169)=1;SUM(N37169);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37169)=1;SUM(O37169);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHS2025024046 (AMIS dòng 147). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        4491669,
+        359334,
+        4851003
+      ]
+    },
+    {
+      "row": 37170,
+      "amis_row": 146,
+      "voucher": "BHHS2025024047",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000727"
+        ],
+        "date": "2026-01-05",
+        "order_code": "251231QKK95NY3",
+        "buyer": "mxj3q_mm41",
+        "net": "1369444",
+        "vat": "109556",
+        "payment": "1479000",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_11.xls",
+        "row": 395
+      },
+      "links": [],
+      "values": [
+        37170,
+        "mxj3q_mm41",
+        null,
+        "251231QKK95NY3",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37170=\"\";\"F0; \";\"\")&IF(AND(Q37170<>\"\";V37170=\"\");\"F1; \";\"\")&IF(AND(X37170<>\"\";AC37170=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000727",
+        46027,
+        1369444,
+        109556,
+        1479000,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37170)=1;SUM(M37170);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37170)=1;SUM(N37170);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37170)=1;SUM(O37170);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHS2025024047 (AMIS dòng 146). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        1369444,
+        109556,
+        1479000
+      ]
+    },
+    {
+      "row": 37171,
+      "amis_row": 139,
+      "voucher": "BHHS2025024054",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000728"
+        ],
+        "date": "2026-01-05",
+        "order_code": "251231RUPJEA6E",
+        "buyer": "krisrysg",
+        "net": "1060989",
+        "vat": "84879",
+        "payment": "1145868",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_11.xls",
+        "row": 396
+      },
+      "links": [],
+      "values": [
+        37171,
+        "krisrysg",
+        null,
+        "251231RUPJEA6E",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37171=\"\";\"F0; \";\"\")&IF(AND(Q37171<>\"\";V37171=\"\");\"F1; \";\"\")&IF(AND(X37171<>\"\";AC37171=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000728",
+        46027,
+        1060989,
+        84879,
+        1145868,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37171)=1;SUM(M37171);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37171)=1;SUM(N37171);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37171)=1;SUM(O37171);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHS2025024054 (AMIS dòng 139). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        1060989,
+        84879,
+        1145868
+      ]
+    },
+    {
+      "row": 37172,
+      "amis_row": 132,
+      "voucher": "BHHS2025024061",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000729"
+        ],
+        "date": "2026-01-05",
+        "order_code": "251231SB0QFFG3",
+        "buyer": "nd70w9k4up",
+        "net": "721295",
+        "vat": "57704",
+        "payment": "778999",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_11.xls",
+        "row": 397
+      },
+      "links": [],
+      "values": [
+        37172,
+        "nd70w9k4up",
+        null,
+        "251231SB0QFFG3",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37172=\"\";\"F0; \";\"\")&IF(AND(Q37172<>\"\";V37172=\"\");\"F1; \";\"\")&IF(AND(X37172<>\"\";AC37172=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000729",
+        46027,
+        721295,
+        57704,
+        778999,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37172)=1;SUM(M37172);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37172)=1;SUM(N37172);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37172)=1;SUM(O37172);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHS2025024061 (AMIS dòng 132). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        721295,
+        57704,
+        778999
+      ]
+    },
+    {
+      "row": 37173,
+      "amis_row": 128,
+      "voucher": "BHHS2025024065",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000730"
+        ],
+        "date": "2026-01-05",
+        "order_code": "251231SCSAH975",
+        "buyer": "hngdungng981",
+        "net": "1795369",
+        "vat": "143630",
+        "payment": "1938999",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_11.xls",
+        "row": 398
+      },
+      "links": [],
+      "values": [
+        37173,
+        "hngdungng981",
+        null,
+        "251231SCSAH975",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37173=\"\";\"F0; \";\"\")&IF(AND(Q37173<>\"\";V37173=\"\");\"F1; \";\"\")&IF(AND(X37173<>\"\";AC37173=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000730",
+        46027,
+        1795369,
+        143630,
+        1938999,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37173)=1;SUM(M37173);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37173)=1;SUM(N37173);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37173)=1;SUM(O37173);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHS2025024065 (AMIS dòng 128). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        1795369,
+        143630,
+        1938999
+      ]
+    },
+    {
+      "row": 37174,
+      "amis_row": 162,
+      "voucher": "BHHS2025023151",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000946"
+        ],
+        "date": "2026-01-05",
+        "order_code": "251217HGN8RP3D",
+        "buyer": "minhquanleo18",
+        "net": "5536110",
+        "vat": "442889",
+        "payment": "5978999",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_11.xls",
+        "row": 614
+      },
+      "links": [],
+      "values": [
+        37174,
+        "minhquanleo18",
+        null,
+        "251217HGN8RP3D",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37174=\"\";\"F0; \";\"\")&IF(AND(Q37174<>\"\";V37174=\"\");\"F1; \";\"\")&IF(AND(X37174<>\"\";AC37174=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000946",
+        46027,
+        5536110,
+        442889,
+        5978999,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37174)=1;SUM(M37174);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37174)=1;SUM(N37174);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37174)=1;SUM(O37174);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHS2025023151 (AMIS dòng 162). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        5536110,
+        442889,
+        5978999
+      ]
+    },
+    {
+      "row": 37175,
+      "amis_row": 594,
+      "voucher": "BHHS2025023931",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000948"
+        ],
+        "date": "2026-01-05",
+        "order_code": "251229KDRUUSHV",
+        "buyer": "truongtrinh2612",
+        "net": "4850925",
+        "vat": "388074",
+        "payment": "5238999",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_11.xls",
+        "row": 616
+      },
+      "links": [],
+      "values": [
+        37175,
+        "truongtrinh2612",
+        null,
+        "251229KDRUUSHV",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37175=\"\";\"F0; \";\"\")&IF(AND(Q37175<>\"\";V37175=\"\");\"F1; \";\"\")&IF(AND(X37175<>\"\";AC37175=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000948",
+        46027,
+        4850925,
+        388074,
+        5238999,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37175)=1;SUM(M37175);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37175)=1;SUM(N37175);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37175)=1;SUM(O37175);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHS2025023931 (AMIS dòng 594). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        4850925,
+        388074,
+        5238999
+      ]
+    },
+    {
+      "row": 37176,
+      "amis_row": 336,
+      "voucher": "BHHS2025024009",
+      "source": {
+        "key": [
+          "1C26MUV",
+          "00000952"
+        ],
+        "date": "2026-01-05",
+        "order_code": "251230P73RY1WP",
+        "buyer": "tramanhmap",
+        "net": "6405555",
+        "vat": "512444",
+        "payment": "6917999",
+        "status": "Hoá đơn mới",
+        "cqt_status": "HĐ hợp lệ",
+        "file": "data/Meinv_SAU_PHAT_HANH_20261029/Bảng kê hóa đơn đã sử dụng/Bang_ke_hoa_don_da_su_dung_1793291495460_11.xls",
+        "row": 620
+      },
+      "links": [],
+      "values": [
+        37176,
+        "tramanhmap",
+        null,
+        "251230P73RY1WP",
+        null,
+        null,
+        null,
+        0,
+        {
+          "formulaValue": "=IF(O37176=\"\";\"F0; \";\"\")&IF(AND(Q37176<>\"\";V37176=\"\");\"F1; \";\"\")&IF(AND(X37176<>\"\";AC37176=\"\");\"F2; \";\"\")"
+        },
+        "1C26MUV",
+        "00000952",
+        46027,
+        6405555,
+        512444,
+        6917999,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "formulaValue": "=IF(COUNT(M37176)=1;SUM(M37176);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(N37176)=1;SUM(N37176);\"\")"
+        },
+        {
+          "formulaValue": "=IF(COUNT(O37176)=1;SUM(O37176);\"\")"
+        },
+        "Chưa có HĐ liên quan",
+        "Bổ sung HĐ phát hành 2026 cho chứng từ AMIS 2025: BHHS2025024009 (AMIS dòng 336). Khớp mã đơn, số HĐ, VAT và thanh toán với nguồn đến 29/10/2026."
+      ],
+      "expected_current_money": [
+        6405555,
+        512444,
+        6917999
+      ]
+    }
+  ]
+}

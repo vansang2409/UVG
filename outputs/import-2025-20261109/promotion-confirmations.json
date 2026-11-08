@@ -1,0 +1,108 @@
+{
+  "confirmed_on": "2026-11-09",
+  "user_confirmation": "này là hàng khuyển mãi nha",
+  "scope": "Only the eight zero-amount H1 documents selected by the user",
+  "amis_live_checked": true,
+  "records": [
+    {
+      "doc": "BHHT2025017828",
+      "sku": "KH100FULL",
+      "qty": 1,
+      "promotion": true,
+      "rate": 8,
+      "price": 0,
+      "goods": 0,
+      "vat": 0,
+      "pay": 0,
+      "amis_url": "https://actapp.misa.vn/app/popup/SAVoucherDetail/9aaec7fb-1f10-4043-a1ab-76dfb8b71430"
+    },
+    {
+      "doc": "BHHT2025012513",
+      "sku": "KM300FULL",
+      "qty": 1,
+      "promotion": true,
+      "rate": 8,
+      "price": 0,
+      "goods": 0,
+      "vat": 0,
+      "pay": 0,
+      "amis_url": "https://actapp.misa.vn/app/popup/SAVoucherDetail/5ad7b6e0-d265-4c87-86c5-34e493d42fb9"
+    },
+    {
+      "doc": "BHHT2025014083",
+      "sku": "KH100FULL",
+      "qty": 1,
+      "promotion": true,
+      "rate": 8,
+      "price": 0,
+      "goods": 0,
+      "vat": 0,
+      "pay": 0,
+      "amis_url": "https://actapp.misa.vn/app/popup/SAVoucherDetail/4d6b10fc-e657-4153-865d-36ca20535b5b"
+    },
+    {
+      "doc": "BHHT2025011992",
+      "sku": "KM300FULL",
+      "qty": 1,
+      "promotion": true,
+      "rate": 8,
+      "price": 0,
+      "goods": 0,
+      "vat": 0,
+      "pay": 0,
+      "amis_url": "https://actapp.misa.vn/app/popup/SAVoucherDetail/90bf64a8-afce-47b7-b6d9-730d579e7f25"
+    },
+    {
+      "doc": "BHHT2025004652",
+      "sku": "KH200FULL",
+      "qty": 1,
+      "promotion": true,
+      "rate": 8,
+      "price": 0,
+      "goods": 0,
+      "vat": 0,
+      "pay": 0,
+      "amis_url": "https://actapp.misa.vn/app/popup/SAVoucherDetail/2b5bf267-8eb7-4e8e-b079-4fadacaf151d"
+    },
+    {
+      "doc": "BHHT2025002208",
+      "sku": "KH200FULL",
+      "qty": 1,
+      "promotion": true,
+      "rate": 8,
+      "price": 0,
+      "goods": 0,
+      "vat": 0,
+      "pay": 0,
+      "amis_url": "https://actapp.misa.vn/app/popup/SAVoucherDetail/f870ef11-528a-42b2-bc2c-7a98024b0923"
+    },
+    {
+      "doc": "BHHT2025002229",
+      "sku": "KH200FULL",
+      "qty": 1,
+      "promotion": true,
+      "rate": 8,
+      "price": 0,
+      "goods": 0,
+      "vat": 0,
+      "pay": 0,
+      "amis_url": "https://actapp.misa.vn/app/popup/SAVoucherDetail/cb2d2d61-8e74-46b5-9bc0-74984c9ebb24"
+    },
+    {
+      "doc": "BHHT2025000347",
+      "sku": "KM300FULL",
+      "qty": 1,
+      "promotion": true,
+      "rate": 8,
+      "price": 0,
+      "goods": 0,
+      "vat": 0,
+      "pay": 0,
+      "amis_url": "https://actapp.misa.vn/app/popup/SAVoucherDetail/3db32f05-d84d-4ebc-b5ce-75d042679eaf"
+    }
+  ],
+  "import_column": "Hàng khuyến mại",
+  "marker": 1,
+  "template_documentation": "https://helpv4.meinvoice.vn/kb/nhap-khau-hoa-don-mot-thue-suat/",
+  "note": "Promotion checkbox and 8% read separately on AMIS for all eight; do not infer zero rate from zero tax."
+}

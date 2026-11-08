@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "promotion_docs": [
+    "BHHT2025000347",
+    "BHHT2025002208",
+    "BHHT2025002229",
+    "BHHT2025004652",
+    "BHHT2025011992",
+    "BHHT2025012513",
+    "BHHT2025014083",
+    "BHHT2025017828"
+  ],
+  "promotion_rows": 8,
+  "rate_read_on_amis": 8,
+  "promotion_marker_column": "W - Hàng khuyến mại",
+  "marker": 1,
+  "old_34994_rows_A_to_V_unchanged": true,
+  "all_monetary_totals_unchanged": true,
+  "other_three_imports_binary_unchanged": true,
+  "sequences": {
+    "BHHT2025000347": 30225,
+    "BHHT2025004652": 30226,
+    "BHHT2025002208": 30227,
+    "BHHT2025002229": 30228,
+    "BHHT2025012513": 30229,
+    "BHHT2025014083": 30230,
+    "BHHT2025011992": 30231,
+    "BHHT2025017828": 30232
+  },
+  "new_invoices": 30232,
+  "new_rows": 35002,
+  "h1_new": 29724,
+  "h1_pending": 14
+}

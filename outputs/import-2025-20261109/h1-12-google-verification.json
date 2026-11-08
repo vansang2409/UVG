@@ -1,0 +1,295 @@
+{
+  "passed": true,
+  "spreadsheet_id": "1jACpDPSlOCjq-25hF_g5-06eZKD3e2Fq88j472wjTiA",
+  "spreadsheet_url": "https://docs.google.com/spreadsheets/d/1jACpDPSlOCjq-25hF_g5-06eZKD3e2Fq88j472wjTiA/edit",
+  "verified_cells": 798495,
+  "verified_chunks": 39,
+  "sheets": [
+    {
+      "sheetId": 0,
+      "title": "Import HD moi",
+      "rows": 35003,
+      "columns": 22,
+      "invoices": 30224,
+      "source_file": "IMPORT_HD_MOI_2025.xlsx",
+      "sha256": "522fbff0fb9774fe03e81a7e267507cf9fc2a988651526e9b5bb9c948e702fec"
+    },
+    {
+      "sheetId": 700000101,
+      "title": "Dieu chinh ve 0",
+      "rows": 16,
+      "columns": 29,
+      "invoices": 7,
+      "source_file": "IMPORT_DIEU_CHINH_VE_0_2025.xlsx",
+      "sha256": "4cb34ab2e7e8aa576959e44e074c81d40d9250b2db5086147ea924aef376d5f6"
+    },
+    {
+      "sheetId": 700000102,
+      "title": "Thay the ve 0",
+      "rows": 576,
+      "columns": 26,
+      "invoices": 567,
+      "source_file": "IMPORT_THAY_THE_VE_0_2025.xlsx",
+      "sha256": "a14bbe7267088b31572488e7c8f264c2b1bcaf1ff687f7f6b8016d2623ffdcb9"
+    },
+    {
+      "sheetId": 700000103,
+      "title": "Dieu chinh BTL - cho so HD",
+      "rows": 419,
+      "columns": 31,
+      "invoices": 321,
+      "source_file": "IMPORT_DIEU_CHINH_BTL_2025_CHO_SO_HD.xlsx",
+      "sha256": "7be9a8ea98d72b9c7ddf986f847041a68d1645ac15a928c81c37af6b8a65e408"
+    }
+  ],
+  "appended_rows": 13,
+  "existing_cells_changed": 1,
+  "existing_sales_rows_unchanged": 34981,
+  "other_three_sheets_unchanged": true,
+  "metadata_preserved_except_sales_range_extension": true,
+  "report_not_uploaded": true,
+  "actual_invoice_unresolved_docs": 12,
+  "native_visual_check": {
+    "passed": true,
+    "sheet": "Import HD moi",
+    "first_appended_row": 34991,
+    "first_appended_invoice_sequence": 30213,
+    "zoom": "100%"
+  },
+  "checked_chunks": [
+    {
+      "sheetId": 0,
+      "start": 0,
+      "rows": 1000,
+      "cells": 22000
+    },
+    {
+      "sheetId": 0,
+      "start": 1000,
+      "rows": 1000,
+      "cells": 22000
+    },
+    {
+      "sheetId": 0,
+      "start": 2000,
+      "rows": 1000,
+      "cells": 22000
+    },
+    {
+      "sheetId": 0,
+      "start": 3000,
+      "rows": 1000,
+      "cells": 22000
+    },
+    {
+      "sheetId": 0,
+      "start": 4000,
+      "rows": 1000,
+      "cells": 22000
+    },
+    {
+      "sheetId": 0,
+      "start": 5000,
+      "rows": 1000,
+      "cells": 22000
+    },
+    {
+      "sheetId": 0,
+      "start": 6000,
+      "rows": 1000,
+      "cells": 22000
+    },
+    {
+      "sheetId": 0,
+      "start": 7000,
+      "rows": 1000,
+      "cells": 22000
+    },
+    {
+      "sheetId": 0,
+      "start": 8000,
+      "rows": 1000,
+      "cells": 22000
+    },
+    {
+      "sheetId": 0,
+      "start": 9000,
+      "rows": 1000,
+      "cells": 22000
+    },
+    {
+      "sheetId": 0,
+      "start": 10000,
+      "rows": 1000,
+      "cells": 22000
+    },
+    {
+      "sheetId": 0,
+      "start": 11000,
+      "rows": 1000,
+      "cells": 22000
+    },
+    {
+      "sheetId": 0,
+      "start": 12000,
+      "rows": 1000,
+      "cells": 22000
+    },
+    {
+      "sheetId": 0,
+      "start": 13000,
+      "rows": 1000,
+      "cells": 22000
+    },
+    {
+      "sheetId": 0,
+      "start": 14000,
+      "rows": 1000,
+      "cells": 22000
+    },
+    {
+      "sheetId": 0,
+      "start": 15000,
+      "rows": 1000,
+      "cells": 22000
+    },
+    {
+      "sheetId": 0,
+      "start": 16000,
+      "rows": 1000,
+      "cells": 22000
+    },
+    {
+      "sheetId": 0,
+      "start": 17000,
+      "rows": 1000,
+      "cells": 22000
+    },
+    {
+      "sheetId": 0,
+      "start": 18000,
+      "rows": 1000,
+      "cells": 22000
+    },
+    {
+      "sheetId": 0,
+      "start": 19000,
+      "rows": 1000,
+      "cells": 22000
+    },
+    {
+      "sheetId": 0,
+      "start": 20000,
+      "rows": 1000,
+      "cells": 22000
+    },
+    {
+      "sheetId": 0,
+      "start": 21000,
+      "rows": 1000,
+      "cells": 22000
+    },
+    {
+      "sheetId": 0,
+      "start": 22000,
+      "rows": 1000,
+      "cells": 22000
+    },
+    {
+      "sheetId": 0,
+      "start": 23000,
+      "rows": 1000,
+      "cells": 22000
+    },
+    {
+      "sheetId": 0,
+      "start": 24000,
+      "rows": 1000,
+      "cells": 22000
+    },
+    {
+      "sheetId": 0,
+      "start": 25000,
+      "rows": 1000,
+      "cells": 22000
+    },
+    {
+      "sheetId": 0,
+      "start": 26000,
+      "rows": 1000,
+      "cells": 22000
+    },
+    {
+      "sheetId": 0,
+      "start": 27000,
+      "rows": 1000,
+      "cells": 22000
+    },
+    {
+      "sheetId": 0,
+      "start": 28000,
+      "rows": 1000,
+      "cells": 22000
+    },
+    {
+      "sheetId": 0,
+      "start": 29000,
+      "rows": 1000,
+      "cells": 22000
+    },
+    {
+      "sheetId": 0,
+      "start": 30000,
+      "rows": 1000,
+      "cells": 22000
+    },
+    {
+      "sheetId": 0,
+      "start": 31000,
+      "rows": 1000,
+      "cells": 22000
+    },
+    {
+      "sheetId": 0,
+      "start": 32000,
+      "rows": 1000,
+      "cells": 22000
+    },
+    {
+      "sheetId": 0,
+      "start": 33000,
+      "rows": 1000,
+      "cells": 22000
+    },
+    {
+      "sheetId": 0,
+      "start": 34000,
+      "rows": 1000,
+      "cells": 22000
+    },
+    {
+      "sheetId": 0,
+      "start": 35000,
+      "rows": 3,
+      "cells": 66
+    },
+    {
+      "sheetId": 700000101,
+      "start": 0,
+      "rows": 16,
+      "cells": 464
+    },
+    {
+      "sheetId": 700000102,
+      "start": 0,
+      "rows": 576,
+      "cells": 14976
+    },
+    {
+      "sheetId": 700000103,
+      "start": 0,
+      "rows": 419,
+      "cells": 12989
+    }
+  ]
+}

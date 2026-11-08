@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "new_chains": 1483,
+  "new_replacements": 1472,
+  "new_adjustments": 11,
+  "payment_to_zero": 2560105903.0,
+  "all_f0_f1_f2_checked": true,
+  "original_cells_checked": 1505,
+  "old_import_rows_retained": true,
+  "sales_and_btl_binary_unchanged": true,
+  "gift_kt_check": 16,
+  "source_exceptions": 2
+}

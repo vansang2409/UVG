@@ -1,0 +1,13 @@
+{
+  "groups": 417,
+  "vouchers": 22022,
+  "both_vat_payment": {
+    "LECH_TIEN": 376,
+    "KHOP_TONG_DUY_NHAT": 14,
+    "LECH_TOI_DA_2D": 27
+  },
+  "payment_only_exact_groups": 57,
+  "payment_only_not_exact_groups": 360,
+  "live_recheck_unchanged_rows": 22022,
+  "source_hashes_verified": 33
+}

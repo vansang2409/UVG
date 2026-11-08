@@ -1,0 +1,581 @@
+{
+  "passed": true,
+  "verified_on": "2026-11-09",
+  "spreadsheet_id": "1jACpDPSlOCjq-25hF_g5-06eZKD3e2Fq88j472wjTiA",
+  "url": "https://docs.google.com/spreadsheets/d/1jACpDPSlOCjq-25hF_g5-06eZKD3e2Fq88j472wjTiA/edit",
+  "scope": "Hai CT dịch vụ SL2, 10 CT lệch2đ, tên đơn vị/người mua trên bốn bộ import; không tải báo cáo",
+  "new_invoices": 30244,
+  "new_lines": 35016,
+  "h1_new": 29736,
+  "h1_pending": 2,
+  "append_rows": 14,
+  "changed_existing_cells": 71387,
+  "readback_chunks": 39,
+  "readback_cells": 834004,
+  "all_cells_match_verified_xlsx": true,
+  "metadata_preserved_except_sales_row_filter_banding_extension": true,
+  "timezone": "Asia/Bangkok",
+  "native_structure_checked": true,
+  "native_visual_checked_sheets": [
+    "Import HD moi",
+    "Dieu chinh ve 0",
+    "Thay the ve 0",
+    "Dieu chinh BTL - cho so HD"
+  ],
+  "native_visual_zoom": "100%",
+  "proof": "qa/google-buyer-fields-final.png",
+  "name_batches": [
+    {
+      "file": "0-9.json",
+      "rows": 1000,
+      "requests": 2,
+      "readback": true
+    },
+    {
+      "file": "0-1009.json",
+      "rows": 1000,
+      "requests": 2,
+      "readback": true
+    },
+    {
+      "file": "0-2009.json",
+      "rows": 1000,
+      "requests": 2,
+      "readback": true
+    },
+    {
+      "file": "0-3009.json",
+      "rows": 1000,
+      "requests": 2,
+      "readback": true
+    },
+    {
+      "file": "0-4009.json",
+      "rows": 1000,
+      "requests": 2,
+      "readback": true
+    },
+    {
+      "file": "0-5009.json",
+      "rows": 1000,
+      "requests": 2,
+      "readback": true
+    },
+    {
+      "file": "0-6009.json",
+      "rows": 1000,
+      "requests": 2,
+      "readback": true
+    },
+    {
+      "file": "0-7009.json",
+      "rows": 1000,
+      "requests": 2,
+      "readback": true
+    },
+    {
+      "file": "0-8009.json",
+      "rows": 1000,
+      "requests": 2,
+      "readback": true
+    },
+    {
+      "file": "0-9009.json",
+      "rows": 1000,
+      "requests": 2,
+      "readback": true
+    },
+    {
+      "file": "0-10009.json",
+      "rows": 1000,
+      "requests": 2,
+      "readback": true
+    },
+    {
+      "file": "0-11009.json",
+      "rows": 1000,
+      "requests": 2,
+      "readback": true
+    },
+    {
+      "file": "0-12009.json",
+      "rows": 1000,
+      "requests": 2,
+      "readback": true
+    },
+    {
+      "file": "0-13009.json",
+      "rows": 1000,
+      "requests": 2,
+      "readback": true
+    },
+    {
+      "file": "0-14009.json",
+      "rows": 1000,
+      "requests": 2,
+      "readback": true
+    },
+    {
+      "file": "0-15009.json",
+      "rows": 1000,
+      "requests": 2,
+      "readback": true
+    },
+    {
+      "file": "0-16009.json",
+      "rows": 1000,
+      "requests": 2,
+      "readback": true
+    },
+    {
+      "file": "0-17009.json",
+      "rows": 1000,
+      "requests": 2,
+      "readback": true
+    },
+    {
+      "file": "0-18009.json",
+      "rows": 1000,
+      "requests": 2,
+      "readback": true
+    },
+    {
+      "file": "0-19009.json",
+      "rows": 1000,
+      "requests": 2,
+      "readback": true
+    },
+    {
+      "file": "0-20009.json",
+      "rows": 1000,
+      "requests": 2,
+      "readback": true
+    },
+    {
+      "file": "0-21009.json",
+      "rows": 1000,
+      "requests": 2,
+      "readback": true
+    },
+    {
+      "file": "0-22009.json",
+      "rows": 1000,
+      "requests": 2,
+      "readback": true
+    },
+    {
+      "file": "0-23009.json",
+      "rows": 1000,
+      "requests": 2,
+      "readback": true
+    },
+    {
+      "file": "0-24009.json",
+      "rows": 1000,
+      "requests": 2,
+      "readback": true
+    },
+    {
+      "file": "0-25009.json",
+      "rows": 1000,
+      "requests": 2,
+      "readback": true
+    },
+    {
+      "file": "0-26009.json",
+      "rows": 1000,
+      "requests": 2,
+      "readback": true
+    },
+    {
+      "file": "0-27009.json",
+      "rows": 1000,
+      "requests": 2,
+      "readback": true
+    },
+    {
+      "file": "0-28009.json",
+      "rows": 1000,
+      "requests": 2,
+      "readback": true
+    },
+    {
+      "file": "0-29009.json",
+      "rows": 1000,
+      "requests": 2,
+      "readback": true
+    },
+    {
+      "file": "0-30009.json",
+      "rows": 1000,
+      "requests": 2,
+      "readback": true
+    },
+    {
+      "file": "0-31009.json",
+      "rows": 1000,
+      "requests": 2,
+      "readback": true
+    },
+    {
+      "file": "0-32009.json",
+      "rows": 1000,
+      "requests": 2,
+      "readback": true
+    },
+    {
+      "file": "0-33009.json",
+      "rows": 1000,
+      "requests": 2,
+      "readback": true
+    },
+    {
+      "file": "0-34009.json",
+      "rows": 1000,
+      "requests": 2,
+      "readback": true
+    },
+    {
+      "file": "0-35009.json",
+      "rows": 2,
+      "requests": 2,
+      "readback": true
+    },
+    {
+      "file": "700000101-9.json",
+      "rows": 7,
+      "requests": 1,
+      "readback": true
+    },
+    {
+      "file": "700000102-9.json",
+      "rows": 567,
+      "requests": 1,
+      "readback": true
+    },
+    {
+      "file": "700000103-9.json",
+      "rows": 410,
+      "requests": 2,
+      "readback": true
+    }
+  ],
+  "readback": [
+    {
+      "sheetId": 0,
+      "file": "0-0.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-1000.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-2000.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-3000.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-4000.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-5000.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-6000.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-7000.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-8000.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-9000.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-10000.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-11000.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-12000.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-13000.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-14000.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-15000.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-16000.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-17000.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-18000.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-19000.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-20000.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-21000.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-22000.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-23000.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-24000.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-25000.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-26000.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-27000.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-28000.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-29000.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-30000.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-31000.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-32000.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-33000.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-34000.json",
+      "rows": 1000,
+      "columns": 23,
+      "cells": 23000,
+      "passed": true
+    },
+    {
+      "sheetId": 0,
+      "file": "0-35000.json",
+      "rows": 25,
+      "columns": 23,
+      "cells": 575,
+      "passed": true
+    },
+    {
+      "sheetId": 700000101,
+      "file": "700000101-0.json",
+      "rows": 16,
+      "columns": 29,
+      "cells": 464,
+      "passed": true
+    },
+    {
+      "sheetId": 700000102,
+      "file": "700000102-0.json",
+      "rows": 576,
+      "columns": 26,
+      "cells": 14976,
+      "passed": true
+    },
+    {
+      "sheetId": 700000103,
+      "file": "700000103-0.json",
+      "rows": 419,
+      "columns": 31,
+      "cells": 12989,
+      "passed": true
+    }
+  ],
+  "limitations": [
+    "Dự thảo, chưa nhập/ký/phát hành.",
+    "BTL chờ số hóa đơn thực tế; nguồn meInvoice đến 01/11/2026."
+  ]
+}

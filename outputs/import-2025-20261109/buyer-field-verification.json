@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "tables": {
+    "new": {
+      "changed_rows": 35010,
+      "company_rows": 6
+    },
+    "adjustment": {
+      "changed_rows": 7,
+      "company_rows": 0
+    },
+    "replacement": {
+      "changed_rows": 567,
+      "company_rows": 0
+    },
+    "Tra lai cho so HD": {
+      "changed_rows": 410,
+      "company_rows": 0
+    },
+    "return_adjustment": {
+      "changed_rows": 410,
+      "company_rows": 0
+    }
+  },
+  "all_other_cells_unchanged": true,
+  "financial_totals_unchanged": true,
+  "existing_person_names_retained": true
+}

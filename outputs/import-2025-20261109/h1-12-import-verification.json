@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "added_docs": 12,
+  "added_rows": 13,
+  "added_pay": 11699000,
+  "existing_rows_unchanged": 34981,
+  "other_three_imports_binary_unchanged": true,
+  "actual_invoice_unresolved_docs": [
+    "BHHS2025010060",
+    "BHHS2025010062",
+    "BHHS2025010064",
+    "BHHS2025010065",
+    "BHHS2025010066",
+    "BHHS2025010067",
+    "BHHS2025010068",
+    "BHHS2025010071",
+    "BHHS2025010072",
+    "BHHS2025010073",
+    "BHHS2025010076",
+    "BHHS2025010077"
+  ],
+  "sales_sequences": {
+    "BHHS2025010077": 30213,
+    "BHHS2025010076": 30214,
+    "BHHS2025010073": 30215,
+    "BHHS2025010072": 30216,
+    "BHHS2025010071": 30217,
+    "BHHS2025010068": 30218,
+    "BHHS2025010067": 30219,
+    "BHHS2025010066": 30220,
+    "BHHS2025010065": 30221,
+    "BHHS2025010064": 30222,
+    "BHHS2025010062": 30223,
+    "BHHS2025010060": 30224
+  },
+  "source_files_checked": 591,
+  "actions": {
+    "keep": 34758,
+    "company": 396,
+    "new": 30224,
+    "review": 115
+  },
+  "h1_new": 29716,
+  "h1_pending": 22
+}
