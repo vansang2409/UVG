@@ -91,3 +91,14 @@ node_modules/
 
 # Sao lưu ô Google Sheets trước khi dựng lại báo cáo 03/11; chỉ giữ cục bộ.
 /outputs/ra-soat-hd-gop-20261103/before-cells-*.json
+
+# Cache và snapshot ô trung gian của đối soát AMIS 08/11; giữ nguồn và kết quả cuối.
+/outputs/doi-chieu-amis-0811-20261108/live/
+/outputs/doi-chieu-amis-0811-20261108/detail-aggregates.json
+/outputs/doi-chieu-amis-0811-20261108/inspect_sources.py
+/outputs/map-hd-cty-amis-20261108/hd-cty-target-cells-before.json
+/outputs/map-hd-cty-amis-20261108/prewrite-cells.json
+/outputs/map-hd-cty-amis-20261108/chain-current/prewrite-cells.json
+/outputs/map-hd-cty-amis-20261108/chain-current/kt_*.json
+/outputs/map-hd-cty-amis-20261108/chain-current/source-index.json
+/outputs/map-hd-cty-amis-20261108/chain-current/chain-resolution.json

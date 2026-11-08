@@ -1,0 +1,175 @@
+{
+  "not_in_new": {
+    "BHHN2025000066": {
+      "row": 381,
+      "values": [
+        "2025-12-30",
+        "BHHN2025000066",
+        "KH01246",
+        "Hoang Hau",
+        "Doanh thu bán hàng hoá ngày30/12/2025",
+        49630,
+        670000
+      ],
+      "order": "HD010135",
+      "invoice": "",
+      "symbol": "",
+      "mi_money": "",
+      "delta": 670000
+    },
+    "BHHS2025023446": {
+      "row": 2316,
+      "values": [
+        "2025-12-22",
+        "BHHS2025023446",
+        "KH00002",
+        "Khách hàng Shoppe",
+        "Doanh thu bán hàng hoá ngày22/12/2025",
+        43398,
+        585870
+      ],
+      "order": "251221VD36WJBM",
+      "invoice": "kế toán xuất thiếu, bổ sung hđ mới",
+      "symbol": "",
+      "mi_money": 0,
+      "delta": 585870
+    },
+    "BHHS2025023753": {
+      "row": 1171,
+      "values": [
+        "2025-12-26",
+        "BHHS2025023753",
+        "KH00002",
+        "Khách hàng Shoppe",
+        "Doanh thu bán hàng hoá ngày26/12/2025",
+        156119,
+        2107609
+      ],
+      "order": "251225AVP6JJGE",
+      "invoice": "00034081",
+      "symbol": "1C25MUV",
+      "mi_money": 1939000,
+      "delta": 168609
+    },
+    "BHHS2025023814": {
+      "row": 956,
+      "values": [
+        "2025-12-27",
+        "BHHS2025023814",
+        "KH00002",
+        "Khách hàng Shoppe",
+        "Doanh thu bán hàng hoá ngày27/12/2025",
+        320370,
+        4325000
+      ],
+      "order": "251227DT69KBGY",
+      "invoice": "kế toán xuất thiếu, bổ sung hđ mới",
+      "symbol": "",
+      "mi_money": 0,
+      "delta": 4325000
+    },
+    "BHHS2025023843": {
+      "row": 927,
+      "values": [
+        "2025-12-27",
+        "BHHS2025023843",
+        "KH00002",
+        "Khách hàng Shoppe",
+        "Doanh thu bán hàng hoá ngày27/12/2025",
+        125926,
+        1700000
+      ],
+      "order": "251227F585QYAR",
+      "invoice": "00034116",
+      "symbol": "1C25MUV",
+      "mi_money": 1700000,
+      "delta": 0
+    },
+    "BHHS2025023939": {
+      "row": 586,
+      "values": [
+        "2025-12-29",
+        "BHHS2025023939",
+        "KH00002",
+        "Khách hàng Shoppe",
+        "Doanh thu bán hàng hoá ngày29/12/2025",
+        54670,
+        738043
+      ],
+      "order": "251229KPA7WGJ9",
+      "invoice": "00034582",
+      "symbol": "1C25MUV",
+      "mi_money": 678999,
+      "delta": 59044
+    },
+    "BHHS2025023992": {
+      "row": 353,
+      "values": [
+        "2025-12-30",
+        "BHHS2025023992",
+        "KH00002",
+        "Khách hàng Shoppe",
+        "Doanh thu bán hàng hoá ngày30/12/2025",
+        156119,
+        2107609
+      ],
+      "order": "251230N232FV8S",
+      "invoice": "00034507",
+      "symbol": "1C25MUV",
+      "mi_money": 1939000,
+      "delta": 168609
+    },
+    "BHHS2025023996": {
+      "row": 349,
+      "values": [
+        "2025-12-30",
+        "BHHS2025023996",
+        "KH00002",
+        "Khách hàng Shoppe",
+        "Doanh thu bán hàng hoá ngày30/12/2025",
+        43398,
+        585870
+      ],
+      "order": "251230NBAK2649",
+      "invoice": "",
+      "symbol": "",
+      "mi_money": 0,
+      "delta": 585870
+    },
+    "BHHS2025024003": {
+      "row": 342,
+      "values": [
+        "2025-12-30",
+        "BHHS2025024003",
+        "KH00002",
+        "Khách hàng Shoppe",
+        "Doanh thu bán hàng hoá ngày30/12/2025",
+        272052,
+        3672700
+      ],
+      "order": "251230P1C1H30J",
+      "invoice": "00034513",
+      "symbol": "1C25MUV",
+      "mi_money": 3378884,
+      "delta": 293816
+    },
+    "BHHS2025024092": {
+      "row": 35643,
+      "values": [
+        "2025-12-30",
+        "BHHS2025024092",
+        "KH00002",
+        "Khách hàng Shoppe",
+        "Doanh thu bán hàng hoá ngày 30/12/2025",
+        54000,
+        729000
+      ],
+      "order": "",
+      "invoice": "",
+      "symbol": "",
+      "mi_money": 0,
+      "delta": 729000
+    }
+  },
+  "only_in_new_h2": {}
+}

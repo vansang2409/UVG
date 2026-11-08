@@ -1,0 +1,18 @@
+{
+  "rows": 408,
+  "uniqueChains": 391,
+  "moneyBad": 36,
+  "vatBad": 47,
+  "anyBad": 49,
+  "vatOnly": 13,
+  "counts": {
+    "Khớp số dư cuối chuỗi": 349,
+    "Lệch cuối chuỗi 1–2 đ": 30,
+    "Lệch số dư cuối chuỗi": 12,
+    "Cần kiểm tra liên kết CT–chuỗi": 16,
+    "Không tìm thấy CT AMIS 08/11": 1
+  },
+  "issues": [],
+  "sourceThrough": "meInvoice 29/10/2026 + phát hành 01/11/2026; Ktoan đọc 08/11/2026",
+  "outsideAtoTPreserved": true
+}

@@ -1,0 +1,15 @@
+{
+  "range": "HD CTY 2025!S4:W412",
+  "dataRows": 408,
+  "formulaCount": 1171,
+  "results": {
+    "Khớp tiền và VAT": 327,
+    "Lệch 1–2 đ": 20,
+    "Lệch tiền hoặc VAT": 10,
+    "Cùng CT có 2 HĐ; kiểm tra theo chuỗi": 49,
+    "HĐ đã bị thay thế; kiểm tra chuỗi": 1,
+    "Không tìm thấy CT trong AMIS 08/11": 1
+  },
+  "issues": [],
+  "originalAtoRPreserved": true
+}

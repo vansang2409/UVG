@@ -1476,6 +1476,12 @@ Chỉ sau khi giải thích được lịch sử và giá trị, mới chốt t�
 
 Khi đó mới chọn mẫu meInvoice đúng trên môi trường công ty thực dùng, ánh xạ các trường và kiểm tra file import. Mẫu trên testapp3 chưa chứng minh cấu hình môi trường thật. Cần kiểm tra quy định áp dụng tại thời điểm xử lý trước khi chọn nghiệp vụ sửa và thời điểm phát hành.
 
+## Cập nhật ngày 08/11/2026 — AMIS xuất lại và HD CTY theo chuỗi
+
+Đã nhận hai bản xuất AMIS năm 2025 tại `data/0811/` và đối chiếu với bản sao HD 2025. Có 10 chứng từ tháng 12 trên link không tìm thấy trong bản xuất mới; tổng thanh toán 17.221.701 đ. Chi tiết và SHA-256 nguồn tại `outputs/doi-chieu-amis-0811-20261108/`.
+
+Tab **HD CTY 2025** của bản gốc đã được map ở **S–AB** theo số dư cuối chuỗi, gồm phát sinh điều chỉnh/thay thế năm 2026. Cột I–K vẫn là tiền từng hóa đơn; đọc X–Z để xem doanh thu, VAT, thanh toán cuối chuỗi. Kết quả hiện hành tại `outputs/map-hd-cty-amis-20261108/chain-current/final-chain-results.json` và `final-verification.json`: 408 dòng, 391 chuỗi; 13 dòng khớp thanh toán nhưng lệch VAT/doanh thu. Tiếp tục xem 16 dòng cần kiểm tra liên kết, dòng 391 chưa ghép chứng từ và chuỗi về 0 xuất hiện tại dòng 309/388. Đọc phần ngày 08/11 trong `GHI_CHU_PHAN_LOAI_HD_2025_20261105.md` trước khi dùng các thống kê cũ.
+
 ## Mở dự án trên máy khác
 
 Lần đầu:

@@ -1,0 +1,188 @@
+{
+  "live_docs": 35646,
+  "new_full_year_docs": 65493,
+  "new_h2_docs": 35636,
+  "common_docs": 35636,
+  "unchanged_common_docs": 35635,
+  "changed_docs": 1,
+  "changed_fields": {
+    "Diễn giải": 1
+  },
+  "change_cells": 1,
+  "not_in_new_export": [
+    "BHHN2025000066",
+    "BHHS2025023446",
+    "BHHS2025023753",
+    "BHHS2025023814",
+    "BHHS2025023843",
+    "BHHS2025023939",
+    "BHHS2025023992",
+    "BHHS2025023996",
+    "BHHS2025024003",
+    "BHHS2025024092"
+  ],
+  "only_in_new_h2": [],
+  "monthly": {
+    "7": {
+      "live_docs": 5865,
+      "new_docs": 5865,
+      "changed_docs": 0,
+      "only_new": 0,
+      "not_in_new": 0,
+      "live_vat": 481409666,
+      "new_vat": 481409666,
+      "change_vat": 0,
+      "live_money": 6499035266,
+      "new_money": 6499035266,
+      "change_money": 0
+    },
+    "8": {
+      "live_docs": 6024,
+      "new_docs": 6024,
+      "changed_docs": 0,
+      "only_new": 0,
+      "not_in_new": 0,
+      "live_vat": 512307329,
+      "new_vat": 512307329,
+      "change_vat": 0,
+      "live_money": 6916155468,
+      "new_money": 6916155468,
+      "change_money": 0
+    },
+    "9": {
+      "live_docs": 4810,
+      "new_docs": 4810,
+      "changed_docs": 0,
+      "only_new": 0,
+      "not_in_new": 0,
+      "live_vat": 454282084,
+      "new_vat": 454282084,
+      "change_vat": 0,
+      "live_money": 6132811060,
+      "new_money": 6132811060,
+      "change_money": 0
+    },
+    "10": {
+      "live_docs": 4579,
+      "new_docs": 4579,
+      "changed_docs": 0,
+      "only_new": 0,
+      "not_in_new": 0,
+      "live_vat": 445863768,
+      "new_vat": 445863768,
+      "change_vat": 0,
+      "live_money": 6019160007,
+      "new_money": 6019160007,
+      "change_money": 0
+    },
+    "11": {
+      "live_docs": 4495,
+      "new_docs": 4495,
+      "changed_docs": 0,
+      "only_new": 0,
+      "not_in_new": 0,
+      "live_vat": 498006881,
+      "new_vat": 498006881,
+      "change_vat": 0,
+      "live_money": 6723092577,
+      "new_money": 6723092577,
+      "change_money": 0
+    },
+    "12": {
+      "live_docs": 9873,
+      "new_docs": 9863,
+      "changed_docs": 1,
+      "only_new": 0,
+      "not_in_new": 10,
+      "live_vat": 1279166177,
+      "new_vat": 1277890495,
+      "change_vat": -1275682,
+      "live_money": 17268740771,
+      "new_money": 17251519070,
+      "change_money": -17221701
+    }
+  },
+  "impact_holding_existing_meinvoice_mapping": {
+    "still_matched": 35069,
+    "still_mismatched": 555,
+    "unavailable_invoice_mapping": 12
+  },
+  "impact_monthly": {
+    "12": {
+      "still_matched": 9711,
+      "still_mismatched": 151,
+      "unavailable_invoice_mapping": 1
+    },
+    "11": {
+      "still_matched": 4468,
+      "still_mismatched": 24,
+      "unavailable_invoice_mapping": 3
+    },
+    "10": {
+      "still_matched": 4429,
+      "still_mismatched": 147,
+      "unavailable_invoice_mapping": 3
+    },
+    "09": {
+      "still_matched": 4734,
+      "unavailable_invoice_mapping": 2,
+      "still_mismatched": 74
+    },
+    "08": {
+      "still_matched": 5958,
+      "still_mismatched": 64,
+      "unavailable_invoice_mapping": 2
+    },
+    "07": {
+      "still_matched": 5769,
+      "still_mismatched": 95,
+      "unavailable_invoice_mapping": 1
+    }
+  },
+  "source_controls": [
+    {
+      "sheet": "Bán hàng",
+      "docs": 50000,
+      "footer": [
+        [
+          50004,
+          [
+            null,
+            "Tổng",
+            null,
+            null,
+            null,
+            null,
+            4940290783,
+            66693947726,
+            null,
+            null,
+            null
+          ]
+        ]
+      ]
+    },
+    {
+      "sheet": "Bán hàng_2",
+      "docs": 15493,
+      "footer": [
+        [
+          15497,
+          [
+            null,
+            "Tổng",
+            null,
+            null,
+            null,
+            null,
+            1658716288,
+            22392680186,
+            null,
+            null,
+            null
+          ]
+        ]
+      ]
+    }
+  ]
+}
