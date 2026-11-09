@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "checked_updates": 6,
+  "old_replacement_seq": 1230,
+  "sale_seq": 29640,
+  "root": "1C25MUV/00012497",
+  "doc": "BHHT2025027502",
+  "new": [
+    1276767,
+    102141,
+    1378908
+  ],
+  "errors": []
+}

@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "checked_written_cells": 680,
+  "source_commit": "9d11749",
+  "sale_range": "'Import HD moi'!A35034:W35045",
+  "replacement_range": "'Thay the ve 0'!A1990:Z2000",
+  "totals": {
+    "projectedGoods": 80377588438,
+    "projectedVat": 6430266820,
+    "gapGoods": -43232773,
+    "gapVat": -3396300,
+    "oldBeforeGoods": 46975200999,
+    "oldBeforeVat": 3757132172,
+    "replacementGoods": -3191465578,
+    "replacementVat": -254434134,
+    "heldGoods": 43758829646,
+    "heldVat": 3500705572,
+    "addedGoods": 15834409,
+    "addedVat": 1266753,
+    "zeroed": [
+      17605890,
+      1408470,
+      19014360
+    ]
+  },
+  "counts": {
+    "new": 30259,
+    "lines": 35036,
+    "replacement": 1991,
+    "review": 18
+  },
+  "shared_rows_preserved": [
+    22500,
+    22505
+  ],
+  "errors": []
+}

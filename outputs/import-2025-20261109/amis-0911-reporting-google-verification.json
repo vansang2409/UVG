@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "cells_written": 9,
+  "cells_unchanged_checked": 101,
+  "scope_current": [
+    80418470211,
+    6433663120
+  ],
+  "projection": [
+    80413598640,
+    6433147637
+  ],
+  "gap": [
+    -4871571,
+    -515483
+  ],
+  "source_files": [
+    {
+      "file": "data/0911/Ban_hang.xlsx",
+      "sha256": "660898005c0a95133176fe473d4d5966ec0fa1656d1235be8fd69df36adf4949"
+    },
+    {
+      "file": "data/0911/So_chi_tiet_ban_hang.xlsx",
+      "sha256": "bdce4e07492df7a3f2bd26ca2d517c4981a98dc1cdab0edb45780ca9bc7c1bdf"
+    }
+  ],
+  "other_tab_order_diff_from_prior_snapshot": true,
+  "errors": []
+}

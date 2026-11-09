@@ -5,6 +5,8 @@ from decimal import Decimal,ROUND_HALF_UP
 from openpyxl import load_workbook
 import csv,json,hashlib,sys
 ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/'outputs/import-2025-20261109'
+if len(sys.argv)>1:
+    OUT=Path(sys.argv[1]).resolve()
 sys.stdout.reconfigure(encoding='utf-8')
 def n(x):return Decimal(str(x or 0))
 def main():
@@ -16,6 +18,14 @@ def main():
     reissues=p['summary'].get('rounding_reissue_20261109',{})
     effective_prices={r['source']:r for r in reissues.get('effective_prices',[])}
     replacement_overrides={r['root']:r for r in reissues.get('records',[])}
+    continuation=p['summary'].get('continued_reissue_20261109',{}).get('records',[])
+    replacement_overrides.update({r['root']:r for r in continuation})
+    confirmed_reissue=p['summary'].get('confirmed_reissue_7502')
+    if confirmed_reissue:
+        replacement_overrides[confirmed_reissue['root']]=confirmed_reissue
+    final_reissue=p['summary'].get('final_pending_reissues_20261109')
+    confirmed_keep=p['summary'].get('confirmed_keep_12515_20261109')
+    confirmed_duplicate=p['summary'].get('confirmed_duplicate_12392')
     replacement_rows={}
     service_path=OUT/'service-quantity-confirmations.json'
     service_corrections={r['doc']:r for r in json.loads(service_path.read_text(encoding='utf-8'))['records']} if service_path.exists() else {}
@@ -37,7 +47,11 @@ def main():
     with (OUT/'DOI_CHIEU_TOAN_BO_65493_CHUNG_TU.csv').open(encoding='utf-8-sig',newline='') as f:
         decisions={r['Chứng từ AMIS']:r for r in csv.DictReader(f)}
     assert len(decisions)==len(docs)==65493
-    assert Counter(r['Phân loại'] for r in decisions.values())==Counter({'Tạo import mới':p['summary']['new_invoices'],'Giữ nguyên, không import':p['summary']['actions']['keep'],'Loại theo HD CTY 2025':p['summary']['actions']['company'],'Chờ xác minh':p['summary']['actions']['review']})
+    gift_update=p['summary'].get('gift_keeps_and_amis_deletion_20261109',{})
+    deleted=set(gift_update.get('deleted_amis',[]))
+    assert {code for code,row in decisions.items() if row['Phân loại']=='Đã xóa trên AMIS'}==deleted
+    counts=Counter(row['Phân loại'] for code,row in decisions.items() if code not in deleted)
+    assert counts==Counter({'Tạo import mới':p['summary']['new_invoices'],'Giữ nguyên, không import':p['summary']['actions']['keep'],'Loại theo HD CTY 2025':p['summary']['actions']['company'],'Chờ xác minh':p['summary']['actions']['review']})
     for o in p['outputs']:
         path=OUT/'deliverables'/o['file'];wb=load_workbook(path,read_only=True,data_only=False)
         if o['kind']=='report':
@@ -66,6 +80,8 @@ def main():
                 d=docs[code]
                 source_lines=d['lines']
                 excluded_goods=Decimal(0)
+                expected_vat=n(d['vat'])
+                assert n(d['goods'])+expected_vat==n(d['pay']),code
                 if code in exchanges:
                     exchange=exchanges[code]
                     excluded=[line for line in source_lines if line['v'][15]=='PSC2']
@@ -74,13 +90,22 @@ def main():
                     excluded_goods=n(excluded[0]['v'][24])
                     assert excluded_goods==n(exchange['excluded_goods']),code
                     source_lines=[line for line in source_lines if line not in excluded]
-                    assert len(source_lines)==1 and source_lines[0]['source']==exchange['product_source'],code
-                    assert ls[0][10]==exchange['rate'] and n(ls[0][11])==n(source_lines[0]['v'][41]),code
-                    assert n(ls[0][16])==n(exchange['goods']) and n(ls[0][16])+n(ls[0][11])==n(exchange['payment']),code
+                    expected_sources=(exchange['product_sources'] if 'product_sources' in exchange else [exchange['product_source']])
+                    assert [line['source'] for line in source_lines]==expected_sources,code
+                    goods=sum(n(line['v'][24]) for line in source_lines)
+                    source_vat=sum(n(line['v'][41]) for line in source_lines)
+                    assert source_vat==n(d['vat']),code
+                    if exchange.get('rate_policy')=='recalculate':
+                        assert exchange['rate']==8 and n(exchange['source_vat'])==source_vat,code
+                        expected_vat=(goods*Decimal('0.08')).quantize(Decimal(1),rounding=ROUND_HALF_UP)
+                    else:
+                        expected_vat=source_vat
+                    assert n(exchange['vat'])==expected_vat and all(r[10]==exchange['rate'] for r in ls),code
+                    assert goods==n(exchange['goods']) and goods+expected_vat==n(exchange['payment']),code
                 assert len(ls)==len(source_lines)
                 assert sum(n(r[16]) for r in ls)==n(d['goods'])-excluded_goods,code
-                assert sum(n(r[11]) for r in ls)==n(d['vat']),code
-                assert sum(n(r[16])+n(r[11]) for r in ls)==n(d['pay'])-excluded_goods,code
+                assert sum(n(r[11]) for r in ls)==expected_vat,code
+                assert sum(n(r[16])+n(r[11]) for r in ls)==n(d['goods'])-excluded_goods+expected_vat,code
                 assert len({r[0] for r in ls})==1
                 newmap[code]=(o['file'],ls[0][0])
                 for r,l in zip(ls,source_lines):
@@ -113,6 +138,18 @@ def main():
                     assert all(n(first[a])+n(first[b])==0 for a,b in [(19,26),(21,27),(22,28)])
                     assert all(all(r[i] is None for i in [19,20,21,22,26,27,28]) for r in rs[1:])
                 check=json.loads((OUT/'adjustment-rule-2024-verification.json').read_text(encoding='utf-8'));assert check['passed']
+                if final_reissue:
+                    plan=p['adjustment_rule_2024']
+                    assert len(plan['chains'])==p['summary']['adjustment_chains']==19
+                    assert len(actual)==plan['line_count']==35 and len(grouped)==plan['invoices']==27
+                    reissue=next(r for r in final_reissue['records'] if r['kind']=='adjustment')
+                    reversal,reduction=[grouped[seq][0] for seq in reissue['zero_seqs']]
+                    f0=reissue['root'].split('/')
+                    assert all(list(row[9:11])==f0 and row[24:26]==(reissue['code'],reissue['root'])
+                               for row in (reversal,reduction))
+                    assert reversal[2:6]==reduction[2:6]
+                    assert [reversal[i]+reduction[i] for i in (19,21,22)]==[-v for v in reissue['before']]
+                    assert reversal[16:18]==(None,None) and reduction[16:18]==(-1,600411)
             else:
                 for r in actual:
                     assert n(r[18])==n(r[19]) and n(r[19])+n(r[21])==n(r[22])
@@ -130,8 +167,46 @@ def main():
     companykeys={x['key'] for x in prepared['company_rows'] if x['key']}
     assert not companykeys & {z['root'] for z in p['zero_audit']}
     assert len({z['root'] for z in p['zero_audit']})==len(p['zero_audit'])
+    if final_reissue:
+        pending=final_reissue['pending']
+        assert pending['candidate'] not in replacement_rows
+        assert all(pending['candidate'] not in z.get('keys',[z['root']])
+                   for z in p['zero_audit']+p['unmapped_zero_audit'])
+        assert pending['doc'] not in seen
+        if confirmed_keep:
+            row=decisions[pending['doc']]
+            assert row['Phân loại']=='Giữ nguyên, không import' and confirmed_keep['doc']==pending['doc']
+            assert row['Chuỗi liên quan']==confirmed_keep['invoice']==pending['candidate']
+            assert confirmed_keep['detached_invoice']==pending['sheet_link']
+            detached=confirmed_keep['detached_invoice']
+            if confirmed_duplicate and confirmed_duplicate['root']==detached:
+                assert confirmed_duplicate['doc']!=confirmed_keep['doc']
+            else:
+                assert detached not in replacement_rows
+                assert not any(detached in z.get('keys',[z['root']])
+                               for z in p['zero_audit']+p['unmapped_zero_audit'])
+        else:
+            assert decisions[pending['doc']]['Phân loại']=='Chờ xác minh'
+        for record in final_reissue['records']:
+            assert newmap[record['code']][1]==record['new_seq']
+            if record['kind']=='replacement':
+                row=replacement_rows[record['root']]
+                assert row[0]==record['zero_seqs'][0] and row[24]==record['code']
+                assert '/'.join(row[11:13])==record['root'] and row[14]
     for z in p['zero_audit']:
         assert all(n(a)+n(b)==0 for a,b in zip(z['before'],z['change']))
+        if confirmed_duplicate and z['root']==confirmed_duplicate['root']:
+            doc=confirmed_duplicate['doc']
+            decision=decisions[doc]
+            assert decision['Phân loại']=='Giữ nguyên, không import' and doc not in seen
+            assert decision['Chuỗi liên quan']==confirmed_duplicate['kept_invoice']
+            assert confirmed_duplicate['kept_invoice'] not in replacement_rows
+            assert z['kind']=='replacement' and z['keys']==[z['root']] and z['docs']==[doc]
+            assert z['before']==confirmed_duplicate['money']
+            row=replacement_rows[z['root']]
+            assert row[0]==z['sequence']==confirmed_duplicate['zero_seq']
+            assert '/'.join(row[11:13])==z['root'] and row[14] and row[24]==doc
+            continue
         assert all(decisions[c]['Phân loại']=='Tạo import mới' for c in z['docs'])
         if z['kind']=='replacement':
             root=z['root']
@@ -142,7 +217,11 @@ def main():
             row=replacement_rows[root]
             assert row[0]==z['sequence']==override['zero_seq']
             assert row[11]+'/'+row[12]==override['active'] and row[14]
-            assert row[24]==override['doc'] and newmap[row[24]][1]==override['new_seq']
+            if 'new_sequences' in override:
+                assert row[24]==', '.join(override['docs'])
+                assert {code:newmap[code][1] for code in override['docs']}==override['new_sequences']
+            else:
+                assert row[24]==override['doc'] and newmap[row[24]][1]==override['new_seq']
             assert [n(x) for x in z['before']]==[n(x) for x in override['before']]
             chain=prepared['chains'].get(root)
             if chain:
@@ -157,6 +236,28 @@ def main():
     report=next(o for o in p['outputs'] if o['kind']=='report')
     returns=next(s for s in report['sheets'] if s['name']=='Tra lai cho so HD')
     w=load_workbook(OUT/'deliverables'/report['file'],read_only=True,data_only=True)
+    reporting=p['summary'].get('amis_reporting_0911')
+    if reporting:
+        scope,projection,gap=list(w['Tong hop'].iter_rows(min_row=34,max_row=36,min_col=6,max_col=7,values_only=True))
+        assert [list(r) for r in (scope,projection,gap)]==[reporting['scope_current'],reporting['projection'],reporting['gap']]
+        source_note=next(w['Tong hop'].iter_rows(min_row=17,max_row=17,min_col=2,max_col=2,values_only=True))[0]
+        assert f"Báo cáo lấy AMIS 2025 xuất {reporting['source_date']}" in source_note
+        for code,entry in reporting['psc2_documents'].items():
+            row=decisions[code]
+            assert [int(row[k]) for k in ('Tiền hàng AMIS','VAT AMIS','Thanh toán AMIS')]==entry['money']
+            assert entry['draft'][0]==entry['money'][0]==exchanges[code]['goods']
+        assert sum(e['draft'][1]-e['money'][1] for e in reporting['psc2_documents'].values())==reporting['vat_policy_delta']
+    if gift_update:
+        gifts={entry['root']:entry['money'] for entry in gift_update['records']}
+        kept={row[0]:row for row in w['MI2025 chua map'].iter_rows(min_row=2,values_only=True) if row[0] in gifts}
+        assert kept.keys()==gifts.keys() and len(kept)==3
+        assert all(row[1]=='Giữ HĐ biếu tặng KOL/KOC' and row[2] is None and row[10] is None
+                   and list(row[4:7])==gifts[root] for root,row in kept.items())
+        assert not any(gifts.keys() & set(plan.get('keys',[plan['root']]))
+                       for plan in p['zero_audit']+p['unmapped_zero_audit'])
+        assert [row[0] for row in w['Cho xac minh'].iter_rows(min_row=2,values_only=True) if row[0]]==[
+            code for code,row in decisions.items() if row['Phân loại']=='Chờ xác minh']
+        assert sum(p['summary']['actions'].values())==p['summary']['total']==len(decisions)-len(deleted)
     kept_gifts=p['summary'].get('unmapped_meinvoice',{}).get('gift_kt_kept',0)
     if kept_gifts:
         policy=json.loads((OUT/'unmapped-gift-confirmation.json').read_text(encoding='utf-8'))

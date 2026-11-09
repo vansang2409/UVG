@@ -1,0 +1,89 @@
+{
+  "spreadsheetId": "1jACpDPSlOCjq-25hF_g5-06eZKD3e2Fq88j472wjTiA",
+  "tabs": [
+    {
+      "title": "Import HD moi",
+      "invoices": 30265,
+      "lines": 35047,
+      "columns": 23
+    },
+    {
+      "title": "Dieu chinh ve 0",
+      "invoices": 27,
+      "lines": 35,
+      "columns": 29
+    },
+    {
+      "title": "Thay the ve 0",
+      "invoices": 1989,
+      "lines": 1989,
+      "columns": 26
+    },
+    {
+      "title": "Dieu chinh BTL - cho so HD",
+      "invoices": 321,
+      "lines": 410,
+      "columns": 31
+    },
+    {
+      "title": "Dieu chinh BGG - cho so HD",
+      "invoices": 1,
+      "lines": 1,
+      "columns": 31
+    }
+  ],
+  "checks": {
+    "comparedHeaders": true,
+    "allSequencesContinuous": true,
+    "returnAndDiscountReferencesBlank": true,
+    "checkedTailRows": 51,
+    "liveAndFileDataDifferences": [
+      {
+        "row": 338,
+        "code": "BTL00449",
+        "column": 31,
+        "field": "Trạng thái",
+        "excel": "Chờ kiểm tra số lượng/tiền trả",
+        "sheets": "Theo số phiếu BTL. Chờ số HĐ bán mới"
+      },
+      {
+        "row": 393,
+        "code": "BTL00488",
+        "column": 31,
+        "field": "Trạng thái",
+        "excel": "Chờ kiểm tra số lượng/tiền trả",
+        "sheets": "Theo số phiếu BTL. Chờ số HĐ bán mới"
+      }
+    ],
+    "amounts": {
+      "sales": [
+        37073556035,
+        2966070771
+      ],
+      "btl": [
+        -441146874,
+        -35291735
+      ],
+      "bgg": [
+        -1282122,
+        -102570
+      ],
+      "companyInclusive": [
+        82039782270,
+        6563368080
+      ],
+      "scope": [
+        80418470211,
+        6433663120
+      ],
+      "scopeGap": [
+        0,
+        0
+      ]
+    },
+    "liveAndFileDataDifferencesAfterSync": 0,
+    "allZipMembersMatch": true,
+    "bggStandalone": true
+  },
+  "passed": true
+}

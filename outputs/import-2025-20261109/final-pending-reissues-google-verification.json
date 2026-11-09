@@ -1,0 +1,175 @@
+{
+  "passed": true,
+  "checked_written_cells": 463,
+  "replacement_ids_checked": 1989,
+  "records": [
+    {
+      "root": "1C25MUV/00027821",
+      "code": "BHHT2025038444",
+      "kind": "replacement",
+      "zero_seqs": [
+        1248
+      ],
+      "before": [
+        2516666,
+        102213,
+        2618879
+      ],
+      "new_seq": 30261,
+      "new": [
+        2516666,
+        201333,
+        2717999
+      ],
+      "note": "Thay thế F0 về 0 STT 1248; bán mới STT 30261. Đã xác nhận xử lý chênh VAT trên HĐ cũ."
+    },
+    {
+      "root": "1C25MUV/00027825",
+      "code": "BHHT2025038427",
+      "kind": "replacement",
+      "zero_seqs": [
+        1987
+      ],
+      "before": [
+        3312963,
+        221917,
+        3534880
+      ],
+      "new_seq": 30262,
+      "new": [
+        3312963,
+        265037,
+        3578000
+      ],
+      "note": "Thay thế F0 về 0 STT 1987; bán mới STT 30262. Đã xác nhận xử lý chênh VAT trên HĐ cũ."
+    },
+    {
+      "root": "1C25MUV/00027826",
+      "code": "BHHT2025038199",
+      "kind": "replacement",
+      "zero_seqs": [
+        1988
+      ],
+      "before": [
+        3266667,
+        218213,
+        3484880
+      ],
+      "new_seq": 30263,
+      "new": [
+        3266667,
+        261333,
+        3528000
+      ],
+      "note": "Thay thế F0 về 0 STT 1988; bán mới STT 30263. Đã xác nhận xử lý chênh VAT trên HĐ cũ."
+    },
+    {
+      "root": "1C25MUV/00017875",
+      "code": "BHHT2025029713",
+      "kind": "replacement",
+      "zero_seqs": [
+        1989
+      ],
+      "before": [
+        707393,
+        14851,
+        722244
+      ],
+      "new_seq": 30264,
+      "new": [
+        707393,
+        56591,
+        763984
+      ],
+      "note": "Thay thế F0 về 0 STT 1989; bán mới STT 30264. Đã xác nhận xử lý chênh VAT trên HĐ cũ."
+    },
+    {
+      "root": "1C25MUV/00013149",
+      "code": "BHHT2025027227",
+      "kind": "adjustment",
+      "zero_seqs": [
+        26,
+        27
+      ],
+      "before": [
+        499485,
+        39959,
+        539444
+      ],
+      "new_seq": 30265,
+      "new": [
+        491411,
+        39313,
+        530724
+      ],
+      "note": "Đảo F1 STT 26, giảm F0 STT 27; bán mới STT 30265. Trừ PSC2 109.000đ; VAT 8% là 39.313đ."
+    }
+  ],
+  "pending": {
+    "doc": "BHHT2025027490",
+    "order": "580369342577804306",
+    "sheet_link": "1C25MUV/00012392",
+    "candidate": "1C25MUV/00012515",
+    "removed_replacement_seq": 1248,
+    "candidate_money": [
+      4659259,
+      372741,
+      5032000
+    ],
+    "source": {
+      "file": "data\\Meinv\\2025\\Bang_ke_hoa_don_da_su_dung_1793262482896_5.xls",
+      "row": 347
+    },
+    "note": "Mã đơn 580369342577804306, NB dòng 15512. 1C25MUV/00012515 khớp người mua, 8 KH200 và 4.659.259đ tiền hàng + 372.741đ VAT = 5.032.000đ. Mã đơn trống trên HĐ gốc. Tạm rút 1C25MUV/00012515 khỏi lô thay thế; chờ chốt liên kết.",
+    "nb_row": 15512,
+    "ktoan_row": 12506,
+    "meinvoice_sheet_row": 15226,
+    "order_direct_in_meinvoice": false,
+    "exact_local_files_scanned": 591,
+    "exact_local_hits": 0
+  },
+  "report_rows": {
+    "1C25MUV/00027821": 39408,
+    "1C25MUV/00027825": 39412,
+    "1C25MUV/00027826": 39413,
+    "1C25MUV/00017875": 29502,
+    "1C25MUV/00013149": 24792,
+    "1C25MUV/00012392": 24035,
+    "1C25MUV/00012515": 24158
+  },
+  "totals": {
+    "4": [
+      46926001638,
+      3752969123
+    ],
+    "5": [
+      -25405260,
+      -2032425
+    ],
+    "6": [
+      -3122784036,
+      -248712509
+    ],
+    "7": [
+      43777812342,
+      3502224189
+    ],
+    "8": [
+      37073556035,
+      2965945012
+    ],
+    "11": [
+      80408939381,
+      6432774896
+    ],
+    "12": [
+      80420821211,
+      6433663120
+    ],
+    "13": [
+      -11881830,
+      -888224
+    ]
+  },
+  "errors": []
+}

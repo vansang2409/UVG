@@ -1,0 +1,111 @@
+{
+  "passed": true,
+  "checked_written_cells": 162,
+  "errors": [],
+  "records": [
+    {
+      "doc": "BHHT2025027442",
+      "order": "580356480920290819",
+      "actual": "1C25MUV/00012483",
+      "money": [
+        628698,
+        50296,
+        678994
+      ],
+      "removed_replacement_seq": 1216,
+      "kept_doc": "BHHT2025028267",
+      "kept_order": "580299168658785596",
+      "root": "1C25MUV/00010850",
+      "kept_invoice": "1C25MUV/00012360",
+      "kept_money": [
+        1616759,
+        129341,
+        1746100
+      ]
+    },
+    {
+      "doc": "BHHT2025027439",
+      "order": "580357260801967142",
+      "actual": "1C25MUV/00012486",
+      "money": [
+        2295365,
+        183629,
+        2478994
+      ],
+      "removed_replacement_seq": 1219,
+      "kept_doc": "BHHT2025028252",
+      "kept_order": "580300943056209030",
+      "root": "1C25MUV/00010855",
+      "kept_invoice": "1C25MUV/00012363",
+      "kept_money": [
+        1616759,
+        129341,
+        1746100
+      ]
+    }
+  ],
+  "moved": [
+    {
+      "root": "1C25MUV/00019154",
+      "active": "1C25MUV/00019659",
+      "doc": "BHHS2025018941",
+      "from": 1990,
+      "to": 1216
+    },
+    {
+      "root": "1C25MUV/00017292",
+      "active": "1C25MUV/00019221",
+      "doc": "BHHS2025018207",
+      "from": 1991,
+      "to": 1219
+    }
+  ],
+  "totals": {
+    "projectedGoods": 80383746019,
+    "projectedVat": 6430759427,
+    "gapGoods": -37075192,
+    "gapVat": -2903693,
+    "oldGoods": 46978434517,
+    "oldVat": 3757390854,
+    "heldGoods": 43764987227,
+    "heldVat": 3501198179,
+    "replacementGoods": -3188541515,
+    "replacementVat": -254200209,
+    "newGoods": 37061187788,
+    "newVat": 2964955553
+  },
+  "replacement": 1989,
+  "newSales": 30259,
+  "pending": 16,
+  "source_sheets": [
+    "AMIS",
+    "AMIS 1",
+    "Đối soát NB",
+    "MEINV F0, F1, F2 (Ktoan)"
+  ],
+  "buyer_match_after_normalization": [
+    {
+      "key": "00012483",
+      "match": [
+        true,
+        false
+      ],
+      "ends": [
+        false,
+        false
+      ]
+    },
+    {
+      "key": "00012486",
+      "match": [
+        false,
+        true
+      ],
+      "ends": [
+        false,
+        true
+      ]
+    }
+  ],
+  "live_meinvoice_login_required": true
+}

@@ -1,0 +1,124 @@
+{
+  "passed": true,
+  "checked_written_cells": 190,
+  "checked_replacement_ids": 1986,
+  "replacement": 1986,
+  "records": [
+    {
+      "root": "1C25TUV/00013178",
+      "date": "2025-12-31",
+      "money": [
+        24810677,
+        1984854,
+        26795531
+      ],
+      "removed_seq": 257,
+      "report_row": 46035
+    },
+    {
+      "root": "1C25TUV/00013158",
+      "date": "2025-10-31",
+      "money": [
+        20838358,
+        1667069,
+        22505427
+      ],
+      "removed_seq": 706,
+      "report_row": 31280
+    },
+    {
+      "root": "1C25TUV/00013177",
+      "date": "2025-12-20",
+      "money": [
+        25252874,
+        2020230,
+        27273104
+      ],
+      "removed_seq": 707,
+      "report_row": 43219
+    }
+  ],
+  "moves": [
+    {
+      "root": "1C25MUV/00027452",
+      "from": 1987,
+      "to": 257,
+      "report_row": 39039
+    },
+    {
+      "root": "1C25MUV/00025109",
+      "from": 1988,
+      "to": 706,
+      "report_row": 36698
+    },
+    {
+      "root": "1C25MUV/00022235",
+      "from": 1989,
+      "to": 707,
+      "report_row": 33846
+    }
+  ],
+  "deleted_amis": {
+    "doc": "BHDV20250045",
+    "source": "user confirmation",
+    "remaining": [
+      "BHHT2025038444",
+      "BHHT2025038427",
+      "BHHT2025038199",
+      "BHHT2025029713",
+      "BHHT2025027227",
+      "BHHT2025027490"
+    ]
+  },
+  "totals": {
+    "4:2": {
+      "number": 46920357723,
+      "formula": "=SUM(G15:G46208)"
+    },
+    "4:7": {
+      "number": 3752744711,
+      "formula": "=SUM(H15:H46208)"
+    },
+    "6:2": {
+      "number": -3117639606,
+      "formula": "=SUM(K15:K46208)"
+    },
+    "6:7": {
+      "number": -248528056,
+      "formula": "=-SUMIFS(H15:H46208;N15:N46208;\"Về0 theo dự thảo, chưa phát hành\";C15:C46208;\"Thay thế\")"
+    },
+    "7:2": {
+      "number": 43777812342,
+      "formula": "=SUM(L15:L46208)"
+    },
+    "7:7": {
+      "number": 3502224189,
+      "formula": "=SUM(S15:S46208)"
+    },
+    "11:2": {
+      "number": 80398644281,
+      "formula": "=SUM(B7:B10)"
+    },
+    "11:7": {
+      "number": 6431951289,
+      "formula": "=SUM(G7:G10)"
+    },
+    "12:2": {
+      "number": 80420821211,
+      "formula": "=80408395929+962037+4816666+7928701+B10"
+    },
+    "12:7": {
+      "number": 6433663120,
+      "formula": "=6599007071-131046240+76963+385334+634297+SUM('Dieu chinh BTL - cho so HD'!V10:V419)+G10"
+    },
+    "13:2": {
+      "number": -22176930,
+      "formula": "=B11-B12"
+    },
+    "13:7": {
+      "number": -1711831,
+      "formula": "=G11-G12"
+    }
+  },
+  "errors": []
+}

@@ -1,0 +1,52 @@
+{
+  "passed": true,
+  "checked_written_cells": 62,
+  "errors": [],
+  "totals": {
+    "oldGoods": 46991259632,
+    "oldVat": 3758416864,
+    "heldGoods": 43777812342,
+    "heldVat": 3502224189,
+    "newGoods": 37063260935,
+    "newVat": 2965121405,
+    "projectedGoods": 80398644281,
+    "projectedVat": 6431951289,
+    "gapGoods": -22176930,
+    "gapVat": -1711831
+  },
+  "new_invoice_draft": {
+    "doc": "BHHT2025035946",
+    "seq": 30260,
+    "row": 35046,
+    "money": [
+      2073147,
+      165852,
+      2238999
+    ],
+    "zero_chain": [
+      "1C25MUV/00031054",
+      "1C25MUV/00034893",
+      "1C26MUV/00002639"
+    ],
+    "source": "Ktoan, dòng 30482, AD:AF = 0/0/0"
+  },
+  "kept_invoice": {
+    "doc": "BHHT2025040425",
+    "invoice": "1C26MUV/00005776",
+    "invoice_date": "2026-01-27",
+    "order": "580221132778210811",
+    "model": "KA150P",
+    "quantity": 2,
+    "unit": "Cái",
+    "goods": 2461111,
+    "vat": 196889,
+    "pay": 2658000,
+    "source": "Bản thể hiện hóa đơn tại trang tra cứu chính thức MISA meInvoice",
+    "other_zero_chain": [
+      "1C26MUV/00038350",
+      "1C26MUV/00058635"
+    ]
+  },
+  "portal_detail_verified": true,
+  "remaining_pending": 7
+}

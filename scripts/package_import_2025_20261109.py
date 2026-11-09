@@ -2,6 +2,8 @@
 from pathlib import Path
 import hashlib,json,zipfile,sys
 ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/'outputs/import-2025-20261109'
+if len(sys.argv)>1:
+    OUT=Path(sys.argv[1]).resolve()
 sys.stdout.reconfigure(encoding='utf-8')
 def main():
     v=json.loads((OUT/'verification.json').read_text(encoding='utf-8'));assert v['passed']

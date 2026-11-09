@@ -372,40 +372,48 @@
     {
       "file": "scripts\\apply_psc2_exchange_20261109.py",
       "sha256": "0cba30222615b9ea300efea2478cf1f51b694fd07ed9d45e8d613a72c7578727"
+    },
+    {
+      "file": "data/0911/Ban_hang.xlsx",
+      "sha256": "660898005c0a95133176fe473d4d5966ec0fa1656d1235be8fd69df36adf4949"
+    },
+    {
+      "file": "data/0911/So_chi_tiet_ban_hang.xlsx",
+      "sha256": "bdce4e07492df7a3f2bd26ca2d517c4981a98dc1cdab0edb45780ca9bc7c1bdf"
     }
   ],
   "exported_files": [
     {
       "file": "IMPORT_HD_MOI_2025.xlsx",
-      "invoices": 30248,
-      "rows": 35024,
-      "sha256": "3a97b97dd4b3086005ac155d6cca7412d4100b9fe94fb18f42623604d3bf5135"
+      "invoices": 30265,
+      "rows": 35047,
+      "sha256": "a9d9b6d9667274121bab3baba778b1b1ecbdfd774d40e693b0d3f5558a7ae4bb"
     },
     {
       "file": "IMPORT_DIEU_CHINH_VE_0_2025.xlsx",
-      "invoices": 25,
-      "rows": 33,
-      "sha256": "d9bd61b46cbb4daf65bc3fa49bd809d3d74cddcb6d240996e31f63ecf95ad70d"
+      "invoices": 27,
+      "rows": 35,
+      "sha256": "8a6d5313fddb896b4e687ccd30eca4f38d0c97d09da89e1fb4eb22a0833b990e"
     },
     {
       "file": "IMPORT_THAY_THE_VE_0_2025.xlsx",
-      "invoices": 1980,
-      "rows": 1980,
-      "sha256": "9ad0000a708b9781e62d21d32a35afd758a7b10455737250a0d6616a8aa83d55"
+      "invoices": 1989,
+      "rows": 1989,
+      "sha256": "b3ba45243a2b1cf3ba660bf38db78301f9bd30a996493de5ba682358dbada329"
     },
     {
       "file": "BAO_CAO_IMPORT_2025.xlsx",
-      "sha256": "875dcd10a67410edb754747922578698497c6b32d76b236f0f2281d47dd71bc2"
+      "sha256": "a1ba9ffe54306f7bdfea9677465ceb640bd229e0c68fb5a52c39483ea50e76ab"
     },
     {
       "file": "IMPORT_DIEU_CHINH_BTL_2025_CHO_SO_HD.xlsx",
       "invoices": 321,
       "rows": 410,
-      "sha256": "6573a515321dc212214c16fb7726db3d46514c32820bdf7af0098aec76ea51aa"
+      "sha256": "31702bcc4a979a0cc691f1924d3c648bdfab71c5b4834944bf0ce085b6a07f42"
     }
   ],
-  "new_docs_unique": 30248,
-  "zero_chains": 1998,
+  "new_docs_unique": 30265,
+  "zero_chains": 2008,
   "no_company_import": true,
   "all_import_cells_roundtrip": true,
   "new_invoice_references_checked": 638,
@@ -425,11 +433,10 @@
     "Đã nối đủ 322 phiếu/412 dòng trả hàng trực tiếp trên AMIS; dự thảo trả lại còn chờ số HĐ thực tế, không tự điền số tương lai.",
     "Khớp đủ tiền được giữ theo yêu cầu. Cột kiểm chi tiết chỉ ghi kết quả so tên/ĐVT/SL nguyên văn, chưa quy đổi combo/model.",
     "Chỉ có nguồn meInvoice đến 29/10 và bổ sung 01/11/2026, chưa xác minh phát sinh mới hơn.",
-    "Chuỗi thay thế phức tạp và chuỗi dùng chung với phần giữ/loại tách chờ.",
-    "BHHT2025027502 chờ KT chốt chênh thanh toán 723.000đ trước khi dùng."
+    "Chuỗi thay thế phức tạp và chuỗi dùng chung với phần giữ/loại tách chờ."
   ],
-  "matched_amis_zero_chains": 574,
-  "unmapped_zero_chains": 1424,
+  "matched_amis_zero_chains": 592,
+  "unmapped_zero_chains": 1416,
   "historical_unmapped_source_verification": {
     "passed": true,
     "new_chains": 1483,
@@ -486,11 +493,67 @@
       "product_source": "SỔ CHI TIẾT BÁN HÀNG!18058",
       "psc2_source": "SỔ CHI TIẾT BÁN HÀNG!18059",
       "old_root": "1C25TUV/00000459"
+    },
+    "BHHT2025034835": {
+      "excluded_goods": 66000,
+      "goods": 165704,
+      "vat": 18536,
+      "payment": 184240,
+      "rate": 8,
+      "product_sources": [
+        "SỔ CHI TIẾT BÁN HÀNG_1!24980"
+      ],
+      "psc2_source": "SỔ CHI TIẾT BÁN HÀNG_1!24981",
+      "old_root": "1C25MUV/00033213",
+      "rate_policy": "amis_0911",
+      "source_vat": 18536
+    },
+    "BHHT2025032283": {
+      "excluded_goods": 1160000,
+      "goods": 1283519,
+      "vat": 195481,
+      "payment": 1479000,
+      "rate": 8,
+      "product_sources": [
+        "SỔ CHI TIẾT BÁN HÀNG_1!12577"
+      ],
+      "psc2_source": "SỔ CHI TIẾT BÁN HÀNG_1!12578",
+      "old_root": "1C25MUV/00022235",
+      "rate_policy": "amis_0911",
+      "source_vat": 195481
+    },
+    "BHHS2025018941": {
+      "excluded_goods": 237000,
+      "goods": 2418998,
+      "vat": 212480,
+      "payment": 2631478,
+      "rate": 8,
+      "product_sources": [
+        "SỔ CHI TIẾT BÁN HÀNG_1!8614",
+        "SỔ CHI TIẾT BÁN HÀNG_1!8615"
+      ],
+      "psc2_source": "SỔ CHI TIẾT BÁN HÀNG_1!8616",
+      "old_root": "1C25MUV/00019154",
+      "rate_policy": "amis_0911",
+      "source_vat": 212480
+    },
+    "BHHT2025027227": {
+      "excluded_goods": 109000,
+      "goods": 491411,
+      "vat": 48033,
+      "payment": 539444,
+      "rate": 8,
+      "product_sources": [
+        "SỔ CHI TIẾT BÁN HÀNG_1!1740"
+      ],
+      "psc2_source": "SỔ CHI TIẾT BÁN HÀNG_1!1741",
+      "old_root": "1C25MUV/00013149",
+      "rate_policy": "amis_0911",
+      "source_vat": 48033
     }
   },
   "scripts_verified_with_normalized_line_endings": [
-    "scripts\\data\\check-review\\add-adjusted-import.mjs",
-    "scripts\\data\\check-review\\verify-adjusted-import.py"
+    "scripts\\apply_psc2_exchange_20261109.py"
   ],
   "gift_invoices_kept": 16
 }

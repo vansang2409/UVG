@@ -1,7 +1,8 @@
 import fs from 'node:fs/promises';
 import {Workbook,SpreadsheetFile} from '@oai/artifact-tool';
-const dir='D:/UVG/outputs/import-2025-20261109';
+const dir=process.argv[3] ?? 'D:/UVG/outputs/import-2025-20261109';
 const p=JSON.parse(await fs.readFile(`${dir}/authoring.json`,'utf8'));
+const reporting=p.summary.amis_reporting_0911;
 const serviceInput=p.manifest.find(m=>m.file.endsWith('service-quantity-confirmations.json'));
 const confirmedServices=serviceInput?JSON.parse(await fs.readFile(`D:/UVG/${serviceInput.file}`,'utf8')).records:[];
 const roundingInput=p.manifest.find(m=>m.file.endsWith('rounding-confirmation.json'));
@@ -48,7 +49,11 @@ for(let index=0;index<p.outputs.length;index++){
   const s=w.worksheets.getItem('Tong hop');
   s.getRange('A14').values=[['Tổng']];s.getRange('B14:G14').formulas=[['=SUM(B2:B13)','=SUM(C2:C13)','=SUM(D2:D13)','=SUM(E2:E13)','=SUM(F2:F13)','=SUM(G2:G13)']];
   s.getRange('A14:G14').format={fill:'#E6EEF4',font:{bold:true},rowHeight:30};s.getRange('G2:G14').setNumberFormat('#,##0');
-  const notes=[['Phạm vi','AMIS 2025 xuất 08/11/2026; danh sách công ty và AMIS bản sao đọc live 09/11/2026.'],['Trạng thái','DỰ THẢO. Chưa nhập, ký hoặc phát hành.'],['Trả hàng',`${p.summary.source_returns_docs} phiếu/${p.summary.source_returns_lines} dòng, tổng thanh toán ${p.summary.source_returns_pay}đ. Đã nối số CT bán gốc từ AMIS live. Bán gốc và điều chỉnh trả hàng tách riêng.`],['Ngày hóa đơn','Dự thảo 09/11/2026; ngày AMIS 2025 giữ ở cột kiểm tra, không dùng làm ngày phát hành mới.'],['Khớp tiền','Giữ nguyên các đơn khớp tiền hàng/VAT/thanh toán. Khác tên hàng/ĐVT/SL nguyên văn vẫn ghi ở CSV toàn bộ; chưa kết luận sai hàng vì có combo/tên khác.'],['Lịch sử meInvoice','Đến 29/10/2026 và bổ sung 01/11/2026. Cần kiểm lại phát sinh mới hơn trước khi nhập.'],['Danh sách nguồn công ty','https://docs.google.com/spreadsheets/d/1bhOnhnBcHaHiy06-REAdVVEk160FG94a6XgkfH0AQsw/edit#gid=622685968'],['AMIS bản sao','https://docs.google.com/spreadsheets/d/1C5hoPDvZKB1vGFSUG9rzChcORt2L9NnsqETVHxPui9I/edit#gid=1264954379'],['Dự thảo trả lại',`${p.summary.returns.draft_docs} phiếu/${p.summary.returns.draft_lines} dòng trong tab Tra lai cho so HD. Cột J:M trống: không nhập trước khi xác định hóa đơn thực tế. 2 chứng từ có ngoại lệ tiền trả.`]];
+  const returnStatus=p.summary.return_status_sync?.documents.map(item=>item.code).join(', ');
+  const returnDetail=returnStatus
+   ?`${returnStatus} dùng số tiền trên phiếu và chờ số HĐ bán mới.`
+   :'2 chứng từ có ngoại lệ tiền trả.';
+  const notes=[['Phạm vi',`Báo cáo lấy AMIS 2025 xuất ${reporting?.source_date ?? '08/11/2026'}. Danh sách công ty và AMIS bản sao đọc ngày 09/11/2026.`],['Trạng thái','DỰ THẢO. Chưa nhập, ký hoặc phát hành.'],['Trả hàng',`${p.summary.source_returns_docs} phiếu/${p.summary.source_returns_lines} dòng, tổng thanh toán ${p.summary.source_returns_pay}đ. Đã nối số CT bán gốc từ AMIS live. Bán gốc và điều chỉnh trả hàng tách riêng.`],['Ngày hóa đơn','Dự thảo 09/11/2026; ngày AMIS 2025 giữ ở cột kiểm tra, không dùng làm ngày phát hành mới.'],['Khớp tiền','Giữ nguyên các đơn khớp tiền hàng/VAT/thanh toán. Khác tên hàng/ĐVT/SL nguyên văn vẫn ghi ở CSV toàn bộ; chưa kết luận sai hàng vì có combo/tên khác.'],['Lịch sử meInvoice','Đến 29/10/2026 và bổ sung 01/11/2026. Cần kiểm lại phát sinh mới hơn trước khi nhập.'],['Danh sách nguồn công ty','https://docs.google.com/spreadsheets/d/1bhOnhnBcHaHiy06-REAdVVEk160FG94a6XgkfH0AQsw/edit#gid=622685968'],['AMIS bản sao','https://docs.google.com/spreadsheets/d/1C5hoPDvZKB1vGFSUG9rzChcORt2L9NnsqETVHxPui9I/edit#gid=1264954379'],['Dự thảo trả lại',`${p.summary.returns.draft_docs} phiếu/${p.summary.returns.draft_lines} dòng trong tab Tra lai cho so HD. Điền cột J:M theo HĐ thực tế trước khi nhập. ${returnDetail}`]];
   if(confirmedServices.length)notes.push(['SL dịch vụ đã xác nhận',confirmedServices.map(c=>`${c.doc}: SL nguồn ${c.source_quantity}, SL import ${c.import_quantity} ${c.unit}`).join('. ')+'. Áp dụng xác nhận người dùng cho hai dòng dịch vụ này; giữ đơn giá/tiền hàng/VAT/thanh toán và file AMIS gốc.']);
   if(roundingPolicy)notes.push(['Chênh làm tròn đã chấp nhận',`Chấp nhận tối đa ${roundingPolicy.max_abs_delta_vnd}đ giữa SL × đơn giá và thành tiền AMIS theo xác nhận người dùng. Giữ nguyên SL/đơn giá/tiền hàng/VAT/thanh toán nguồn; không nới tiêu chí khớp AMIS–meInvoice. Bổ sung ${roundingPolicy.newly_eligible_documents.length} chứng từ/${roundingPolicy.newly_eligible_rows} dòng.`]);
   for(let i=0;i<notes.length;i++){let row=17+i;s.getRange(`A${row}`).values=[[notes[i][0]]];s.mergeCells(`B${row}:G${row}`);s.getRange(`B${row}`).values=[[notes[i][1]]];s.getRange(`A${row}:G${row}`).format={rowHeight:43,wrapText:true};}
@@ -69,23 +74,46 @@ for(let index=0;index<p.outputs.length;index++){
  if(o.kind==='report'&&buyerPolicy){const s=w.worksheets.getItem('Tong hop');s.getRange('A28:B28').values=[['Tên đơn vị / người mua','Khách lẻ: trống tên đơn vị, dùng Người mua hàng. Giữ tên người mua đã có và thông tin pháp nhân/MST nguồn; không đổi số tiền.']];s.mergeCells('B28:G28');s.getRange('A28:G28').format={font:{name:'Arial',size:10},rowHeight:44,wrapText:true,verticalAlignment:'center'};}
  if(o.kind==='report'&&p.summary.unmapped_meinvoice){
   const s=w.worksheets.getItem('Tong hop'),u=p.summary.unmapped_meinvoice;
+  const keeps=p.summary.gift_keeps_and_amis_deletion_20261109;
   const gifts=u.gift_kt_kept?`KT chốt giữ ${u.gift_kt_kept} HĐ biếu tặng, theo dõi riêng.`:`${u.gift_kt_check} HĐ biếu tặng tách KT kiểm.`;
-  s.getRange('A29:B29').values=[['Bổ sung meInvoice2025 chưa nối AMIS',`Đã kiểm toàn bộ chuỗi liên quan. Bổ sung ${u.added.adjustment||0} điều chỉnh và ${u.added.replacement||0} thay thế về 0. ${gifts} ${u.remaining_source_exceptions} ngoại lệ nguồn chưa nhập. Bảng tổng AMIS phía trên không cộng lại nhóm này.`]];
+  const confirmed=keeps?` Giữ thêm ${keeps.records.length} HĐ KOL/KOC. ${keeps.deleted_amis.join(', ')} đã xóa trên AMIS theo xác nhận.`:'';
+  s.getRange('A29:B29').values=[['Bổ sung meInvoice2025 chưa nối AMIS',`Đã kiểm toàn bộ chuỗi liên quan. Bổ sung ${u.added.adjustment||0} điều chỉnh và ${u.added.replacement||0} thay thế về 0. ${gifts} ${u.remaining_source_exceptions} ngoại lệ nguồn chưa nhập.${confirmed}`]];
   s.mergeCells('B29:G29');s.getRange('A29:G29').format={font:{name:'Arial',size:10},rowHeight:70,wrapText:true,verticalAlignment:'center'};
  }
- if(o.kind==='report'&&p.adjustment_rule_2024){const s=w.worksheets.getItem('Tong hop');s.getRange('B28').values=[['Riêng điều chỉnh về0: Tên khách hàng và Người mua hàng chép riêng nguyên trạng HĐ F0; các bộ bán mới/thay thế/BTL giữ quy tắc tên trước đó.']];s.getRange('A30:B30').values=[['Điều chỉnh theo quy trình2024','18 chuỗi /25 HĐ /33 dòng: đảo7 khoản cũ còn tiền rồi giảm chi tiết18 F0. 13 khoản cũ0đ đã kiểm, không phát sinh HĐ đảo0. Số dư cuối bằng0 đủ3 khoản; tổng tiền không đổi.']];s.mergeCells('B30:G30');s.getRange('A30:G30').format={font:{name:'Arial',size:10},rowHeight:70,wrapText:true,verticalAlignment:'center'};}
+ if(o.kind==='report'&&p.adjustment_rule_2024){
+  const s=w.worksheets.getItem('Tong hop'),plan=p.adjustment_rule_2024;
+  const originals=plan.chains.length, reversals=plan.invoices-originals;
+  s.getRange('B28').values=[['Riêng điều chỉnh về0: Tên khách hàng và Người mua hàng chép riêng nguyên trạng HĐ F0; các bộ bán mới/thay thế/BTL giữ quy tắc tên trước đó.']];
+  s.getRange('A30:B30').values=[['Điều chỉnh theo quy trình2024',`${originals} chuỗi / ${plan.invoices} HĐ / ${plan.line_count} dòng: đảo ${reversals} khoản cũ còn tiền, sau đó giảm chi tiết ${originals} F0. ${plan.skipped_zero_adjustments.length} khoản cũ 0đ không tạo thêm. Số dư cuối bằng 0 đủ ba khoản.`]];
+  s.mergeCells('B30:G30');s.getRange('A30:G30').format={font:{name:'Arial',size:10},rowHeight:70,wrapText:true,verticalAlignment:'center'};
+ }
  const exchanges=p.summary.psc2_exchanges;
  if(o.kind==='report'&&exchanges){
   const s=w.worksheets.getItem('Tong hop');
-  const details=Object.entries(exchanges).map(([code,e])=>`${code} trừ PSC2 ${e.excluded_goods}đ, giữ VAT ${e.vat}đ.`).join(' ');
+  const details=reporting
+   ?reporting.vat_policy_delta===0
+    ?'Sáu chứng từ đã bỏ PSC2. Tiền hàng, VAT và thanh toán trên dự thảo lấy theo AMIS 09/11.'
+    :`Bản AMIS 09/11 đã bỏ 6 dòng PSC2. VAT dự thảo chênh ${reporting.vat_policy_delta.toLocaleString('vi-VN')}đ so với AMIS.`
+   :Object.entries(exchanges).map(([code,e])=>`${code} trừ PSC2 ${e.excluded_goods}đ, ${e.rate_policy==='recalculate'?'tính lại VAT 8% thành':'giữ VAT'} ${e.vat}đ.`).join(' ');
   s.mergeCells('B31:G31');
   s.getRange('A31:B31').values=[['Đổi sản phẩm PSC2',details]];
   s.getRange('A31:G31').format={font:{name:'Arial',size:10},rowHeight:44,wrapText:true,verticalAlignment:'center'};
  }
+ if(o.kind==='report'&&reporting){
+  const s=w.worksheets.getItem('Tong hop');
+  const labels=['Đối chiếu cùng phạm vi','AMIS theo bản 09/11/2026','Doanh thu theo phương án dự kiến','Chênh lệch dự kiến so với AMIS'];
+  labels.forEach((label,i)=>{const row=33+i;s.mergeCells(`A${row}:E${row}`);s.getRange(`A${row}`).values=[[label]];});
+  s.getRange('F33:G35').values=[['Tiền hàng (đ)','VAT (đ)'],reporting.scope_current,reporting.projection];
+  s.getRange('F36:G36').formulas=[['=F35-F34','=G35-G34']];
+  s.getRange('A33:G36').format={font:{name:'Arial',size:10},rowHeight:28,verticalAlignment:'center'};
+  s.getRange('A33:G33').format={fill:'#24435C',font:{name:'Arial',size:10,bold:true,color:'#FFFFFF'}};
+  s.getRange('A36:G36').format={fill:'#E6EEF4',font:{name:'Arial',size:10,bold:true}};
+  s.getRange('F34:G36').setNumberFormat('#,##0;[Red](#,##0);0');
+ }
  w.recalculate();
  if(o.kind==='new'&&exchanges){
   const rows=o.rows.flatMap((r,i)=>r[18] in exchanges?[i+10]:[]);
-  const q=await w.render({sheetName:'Hoa don GTGT',range:`K${Math.min(...rows)}:Q${Math.max(...rows)}`,scale:1,format:'png'});
+  const q=await w.render({sheetName:'Hoa don GTGT',range:`K${rows.at(-1)-1}:Q${rows.at(-1)}`,scale:1,format:'png'});
   await fs.writeFile(`${dir}/qa/preview-psc2.png`,new Uint8Array(await q.arrayBuffer()));
  }
  if(o.kind==='new'&&buyerPolicy){const q=await w.render({sheetName:'Hoa don GTGT',range:'C9:F13',scale:1,format:'png'});await fs.writeFile(`${dir}/preview-buyer-fields.png`,new Uint8Array(await q.arrayBuffer()));}

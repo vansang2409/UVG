@@ -1,0 +1,195 @@
+{
+  "passed": true,
+  "checked_written_cells": 77,
+  "kept": 7,
+  "remaining_pending": 9,
+  "duplicate_invoices_pending": 6,
+  "zero_claims_pending": 3,
+  "totals": {
+    "addedGoods": 10364004,
+    "addedVat": 829121,
+    "addedPayment": 11193125,
+    "heldGoods": 43775351231,
+    "heldVat": 3502027300,
+    "oldGoods": 46988798521,
+    "oldVat": 3758219975,
+    "projectedGoods": 80394110023,
+    "projectedVat": 6431588548,
+    "gapGoods": -26711188,
+    "gapVat": -2074572
+  },
+  "errors": [],
+  "records": [
+    {
+      "doc": "BHHT2025038170",
+      "invoice": "1C25MUV/00029306",
+      "order": "581562017688946109",
+      "amis_row": 5480,
+      "report_row": 40461,
+      "kt_row": 31780,
+      "money": [
+        3832406,
+        306593,
+        4138999
+      ],
+      "other": [
+        {
+          "key": "1C25MUV/00029307",
+          "report_row": 40462,
+          "status": "duplicate"
+        }
+      ]
+    },
+    {
+      "doc": "BHHT2025039308",
+      "invoice": "1C25MUV/00025916",
+      "order": "581552381877388498",
+      "amis_row": 8120,
+      "report_row": 37504,
+      "kt_row": 28734,
+      "money": [
+        1314666,
+        105173,
+        1419839
+      ],
+      "other": [
+        {
+          "key": "1C25MUV/00025917",
+          "report_row": 37505,
+          "status": "duplicate"
+        }
+      ]
+    },
+    {
+      "doc": "BHHL2025000226",
+      "invoice": "1C25MUV/00021270",
+      "order": "517633221987111",
+      "amis_row": 12592,
+      "report_row": 32886,
+      "kt_row": 12663,
+      "money": [
+        444827,
+        35586,
+        480413
+      ],
+      "other": [
+        {
+          "key": "1C25MUV/00021512",
+          "report_row": 33123,
+          "status": "duplicate"
+        }
+      ]
+    },
+    {
+      "doc": "BHHT2025040437",
+      "invoice": "1C25MUV/00021799",
+      "order": "581066749866116615",
+      "amis_row": 13422,
+      "report_row": 33410,
+      "kt_row": 26240,
+      "money": [
+        1369444,
+        109556,
+        1479000
+      ],
+      "other": [
+        {
+          "key": "1C25MUV/00026381",
+          "report_row": 37968,
+          "status": "verify_zero",
+          "adjustment": "1C25MUV/00028079"
+        }
+      ]
+    },
+    {
+      "doc": "BHHT2025029775",
+      "invoice": "1C25MUV/00017754",
+      "order": "580771131904198000",
+      "amis_row": 16169,
+      "report_row": 29381,
+      "kt_row": 22964,
+      "money": [
+        1108217,
+        88657,
+        1196874
+      ],
+      "other": [
+        {
+          "key": "1C25MUV/00017811",
+          "report_row": 29438,
+          "status": "duplicate"
+        },
+        {
+          "key": "1C25MUV/00017994",
+          "report_row": 29620,
+          "status": "duplicate"
+        },
+        {
+          "key": "1C25MUV/00018305",
+          "report_row": 29927,
+          "status": "duplicate"
+        }
+      ]
+    },
+    {
+      "doc": "BHHT2025040427",
+      "invoice": "1C25MUV/00021798",
+      "order": "580776485358634323",
+      "amis_row": 16404,
+      "report_row": 33409,
+      "kt_row": 25778,
+      "money": [
+        1147222,
+        91778,
+        1239000
+      ],
+      "other": [
+        {
+          "key": "1C25MUV/00026380",
+          "report_row": 37967,
+          "status": "verify_zero",
+          "adjustment": "1C25MUV/00028078"
+        }
+      ]
+    },
+    {
+      "doc": "BHHT2025040428",
+      "invoice": "1C25MUV/00021797",
+      "order": "580767119224636718",
+      "amis_row": 16573,
+      "report_row": 33408,
+      "kt_row": 22770,
+      "money": [
+        1147222,
+        91778,
+        1239000
+      ],
+      "other": [
+        {
+          "key": "1C25MUV/00026379",
+          "report_row": 37966,
+          "status": "verify_zero",
+          "adjustment": "1C25MUV/00028077"
+        }
+      ]
+    }
+  ],
+  "remaining": [
+    {
+      "doc": "BHHT2025035946",
+      "order": "581667348155958686",
+      "chain": [
+        "1C25MUV/00031054",
+        "1C25MUV/00034893",
+        "1C26MUV/00002639"
+      ],
+      "reason": "HĐ cuối thay thế về 0. Không có HĐ còn số tiền khớp AMIS để giữ."
+    },
+    {
+      "doc": "BHHT2025040425",
+      "order": "580221132778210811",
+      "invoice": "1C26MUV/00005776",
+      "reason": "Khớp mã đơn và ba khoản tiền. Chưa có bảng chi tiết để xác minh 2 máy KA150P. Chuỗi 00038350 → 00058635 đã về 0."
+    }
+  ]
+}

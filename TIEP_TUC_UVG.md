@@ -1,3 +1,138 @@
+# Kiểm tra bàn giao bộ import HĐ 2025 — 09/11/2026
+
+Đã đối chiếu đủ 5 tab import trên [Xử lý HĐ 2025](https://docs.google.com/spreadsheets/d/1jACpDPSlOCjq-25hF_g5-06eZKD3e2Fq88j472wjTiA/edit?gid=700000107#gid=700000107) với Excel. BTL00449 và BTL00488 đã đồng bộ trạng thái dùng số trên phiếu AMIS và chờ số HĐ bán mới. Xem kết quả chi tiết, đường dẫn bộ ZIP và file BGG riêng trong `outputs/import-2025-20261109/HUONG_DAN.md`.
+
+Tổng doanh thu dự kiến gồm HĐ công ty là 82.039.782.270đ chưa VAT và 6.563.368.080đ VAT. Phạm vi bộ xử lý khớp AMIS 09/11 ở 80.418.470.211đ tiền hàng và 6.433.663.120đ VAT. Các bộ import là dự thảo. BTL và BGG còn chờ thông tin HĐ thực tế ở cột J:M.
+
+---
+
+# Tách tổng hợp và chi tiết chuỗi HĐ 2025 — 09/11/2026
+
+Tab `Tổng hợp HĐ 2025` (gid 700000107) hiển thị các tổng tiền hàng, VAT và chênh lệch. Các ô lấy trực tiếp từ báo cáo nguồn. Tab `Ra soat chuoi 2025` (gid 700000010) hiển thị danh sách chi tiết, giữ nguyên số dòng và bộ lọc. Dòng tổng hợp 1–13 ở tab nguồn được ẩn để duy trì công thức và các liên kết hiện có. Đã kiểm 46 ô tổng hợp và hiển thị hai tab trên Google Sheets.
+
+---
+
+# Thay thế HĐ xuất trùng 00012392 về 0 — 09/11/2026
+
+Đã chốt giữ `1C25MUV/00012263` cho `BHHT2025027643`, mã đơn `580325498726155292`. Theo xác nhận người dùng, bổ sung thay thế HĐ trùng `1C25MUV/00012392` về 0 ở STT **1.990**, số dư gốc 1.616.713đ tiền hàng, 129.337đ VAT, tổng 1.746.050đ. Hai HĐ cùng ngày, người mua và chi tiết 1 KA350 Light. Mã đơn HĐ trùng trống trên bảng kê gốc, đối chiếu qua NB và HĐ đang giữ.
+
+Đã cập nhật Google Sheets, báo cáo Excel, CSV và ZIP. Xác minh dòng thay thế và trạng thái giữ, BHH không có dòng bán mới. Tổng phương án dự kiến không đổi. Căn cứ `confirmed_duplicate_12392` trong `final-summary.json` và `confirmed-duplicate-12392-google-verification.json`.
+
+---
+
+# Chốt thay thế và bán mới BHHT2025027502 — 09/11/2026
+
+Đã chốt theo yêu cầu người dùng. Thay thế HĐ `1C25MUV/00012497` về 0 ở STT **1.230**, nối trực tiếp với `BHHT2025027502`. Dự thảo bán mới STT **29.640** theo AMIS 09/11 gồm 1 máy KA150P, tiền hàng **1.276.767đ**, VAT **102.141đ**, thanh toán **1.378.908đ**. HĐ cũ `00012497` có 655.908đ, chênh 723.000đ. HĐ `1C25MUV/00012374` thuộc chứng từ giữ `BHHT2025027561`.
+
+Đã bỏ ghi chú chờ chốt, đồng bộ Google Sheets, Excel, CSV liên kết và ZIP. Đã kiểm cả hai STT, số tiền và báo cáo sau xử lý. Bộ file ở trạng thái dự thảo. Căn cứ `confirmed_reissue_7502` trong `final-summary.json` và `confirmed-reissue-7502-google-verification.json`.
+
+---
+
+# Cập nhật mốc đối chiếu theo AMIS 09/11 — 09/11/2026
+
+Báo cáo và CSV đối soát dùng hai file AMIS trong `data/0911/`. Bảng bán hàng có 65.492 chứng từ. `BHDV20250045` đã xóa, hai BHDV sửa số lượng lên 2 khớp dự thảo. Sáu chứng từ đã bỏ dòng PSC2 trên AMIS, giảm tổng tiền hàng 2.351.000đ. Báo cáo lấy trực tiếp số mới, phần chênh do tính lại VAT 8% cho bốn HĐ là 125.759đ.
+
+AMIS cùng phạm vi có **80.418.470.211đ tiền hàng** và **6.433.663.120đ VAT**. Phương án dự kiến **80.413.598.640đ tiền hàng** và **6.433.147.637đ VAT**, chênh **−4.871.571đ** và **−515.483đ**. Đã cập nhật Google Sheets, Excel và ZIP, kiểm hash bốn file import. Căn cứ `amis_reporting_0911` trong `final-summary.json` và `amis-0911-reporting-google-verification.json`.
+
+---
+
+# Giữ HĐ 00012515 cho BHHT2025027490 — 09/11/2026
+
+Đã sửa liên kết sang `1C25MUV/00012515` cho `BHHT2025027490`, mã đơn `580369342577804306`. HĐ khớp 8 KH200, tiền hàng 4.659.259đ, VAT 372.741đ và thanh toán 5.032.000đ. Đã cập nhật AMIS, AMIS 1, Đối soát NB, Ktoan và liên kết ngược meInvoice trên Bản sao HD 2025. Cột mã đơn gốc trên bảng kê meInvoice vẫn giữ nguyên dữ liệu nguồn. Gỡ `1C25MUV/00012392` và theo dõi riêng để xác định chứng từ thực tế.
+
+Đã đọc lại 25 ô cập nhật trên hai bảng, xác minh số lệch của BHH bằng 0 và kiểm tra Excel/ZIP. Còn **0 chứng từ AMIS chờ** trong danh sách này. Bốn file import giữ nguyên nội dung vì HĐ `00012515` đã được rút khỏi dự thảo thay thế ở lượt trước. Tổng dự kiến 80.413.598.640đ tiền hàng và 6.433.147.637đ VAT. Chênh so AMIS −7.222.571đ tiền hàng và −515.483đ VAT. Căn cứ `confirmed_keep_12515_20261109` trong `final-summary.json` và `confirmed-keep-12515-google-verification.json`.
+
+---
+
+# Xuất lại 5 BHH và xác minh liên kết BHH cuối — 09/11/2026
+
+Đã lập thay thế về 0 cho 4 F0 của `BHHT2025038444`, `BHHT2025038427`, `BHHT2025038199` và `BHHT2025029713`. STT thay thế lần lượt 1.248, 1.987, 1.988, 1.989. STT bán mới 30.261–30.264, giữ số tiền AMIS.
+
+`BHHT2025027227` dùng quy trình điều chỉnh 2024. STT 26 đảo F1 `1C25MUV/00017218` tăng 109.000đ. STT 27 giảm toàn bộ F0 `1C25MUV/00013149` 648.444đ. Hai dự thảo cùng tham chiếu F0 và chép riêng đúng Tên khách hàng/Người mua hàng F0. Số dư chuỗi từ 539.444đ về 0. STT bán mới 30.265 bỏ PSC2 109.000đ, tiền hàng 491.411đ, VAT 8% là 39.313đ, thanh toán 530.724đ.
+
+`BHHT2025027490` vẫn chờ chốt liên kết. Mã đơn `580369342577804306` ở NB dòng 15512 giúp xác định ứng viên `1C25MUV/00012515` khớp người mua, 8 KH200 và đủ 3 khoản, thanh toán 5.032.000đ. Mã đơn trống trên HĐ gốc và không tìm được trực tiếp trong 591 file meInvoice. Liên kết hiện hành `1C25MUV/00012392` khác người mua và hàng. Tạm rút `00012515` khỏi lô thay thế STT 1.248 trong khi chờ chốt.
+
+Đã kiểm Excel, ZIP và đọc lại 463 ô cập nhật trên Google Sheets. Tổng hiện hành **30.265 HĐ bán mới / 35.047 dòng**, **1.989 HĐ thay thế**, **27 HĐ điều chỉnh / 19 chuỗi** và **1 BHH chờ**. Báo cáo dự kiến 80.408.939.381đ tiền hàng và 6.432.774.896đ VAT. Căn cứ `final_pending_reissues_20261109` trong `final-summary.json` và `final-pending-reissues-google-verification.json`.
+
+Kiểm bổ sung bản AMIS 09/11 ở `data/0911/`. Bốn BHH thay thế khớp các dòng tiền đã dùng. `BHHT2025027227` đã bỏ dòng PSC2 trong bản 09/11, còn 491.411đ tiền hàng và VAT nguồn 48.033đ. Dự thảo giữ đúng tiền hàng và tính lại VAT 8% là 39.313đ. Sáu BHH đều để trống ký hiệu và số HĐ ở sổ chi tiết AMIS. Tổng đối chiếu năm trong báo cáo vẫn theo bản trích đã dùng để lập bộ 2025.
+
+---
+
+# Giữ ba HĐ KOL/KOC và loại một chứng từ AMIS đã xóa — 09/11/2026
+
+Giữ `1C25TUV/00013158`, `1C25TUV/00013177` và `1C25TUV/00013178` theo danh sách biếu tặng bổ sung và xác nhận của người dùng. Rút khỏi dự thảo thay thế về 0. Theo dõi riêng ở cột O của tab `Ra soat chuoi 2025` và tab Excel `MI2025 chua map`. Tổng tiền hàng 70.901.909đ, VAT 5.672.153đ, thanh toán 76.574.062đ.
+
+`BHDV20250045` đã xóa trên AMIS theo xác nhận người dùng. Ghi dấu vết trong CSV đối soát và rút khỏi danh sách chờ. Hiện còn **1.986 HĐ thay thế về 0**, **30.260 HĐ bán mới / 35.037 dòng** và **6 chứng từ AMIS chờ**. Tổng dự kiến 80.398.644.281đ tiền hàng và 6.431.951.289đ VAT.
+
+Đã kiểm lại 190 ô cập nhật và đủ 1.986 mã HĐ trên Sheets, đối chiếu năm Excel và năm thành viên ZIP. Bằng chứng tại `gift_keeps_and_amis_deletion_20261109` trong `final-summary.json` và `gift-keeps-and-amis-deletion-google-verification.json`.
+
+---
+
+# Bán mới một BHH đã về 0 và giữ HĐ 00005776 — 09/11/2026
+
+Đã thêm `BHHT2025035946` vào dự thảo bán mới ở **STT 30.260**, dòng 35046, 1 máy KA350 Standard. Tiền hàng **2.073.147đ**, VAT **165.852đ**, thanh toán **2.238.999đ**. Chuỗi `1C25MUV/00031054 → 1C25MUV/00034893 → 1C26MUV/00002639` có số dư 0 ở cả ba khoản theo dòng 30482 tab Ktoan. Báo cáo đã nối đủ chuỗi và gộp phần theo dõi của HĐ giữa chuỗi. Không thêm lô điều chỉnh/thay thế về 0 cho BHH này.
+
+Đã mở trực tiếp bản thể hiện HĐ `1C26MUV/00005776` ngày **27/01/2026** trên trang tra cứu chính thức MISA. HĐ có mã đơn `580221132778210811`, mặt hàng **KA150P**, số lượng **2 Cái**, tiền hàng **2.461.111đ**, VAT **196.889đ**, thanh toán **2.658.000đ**. Giữ HĐ cho `BHHT2025040425`. Chuỗi khác cùng mã đơn `1C26MUV/00038350 → 1C26MUV/00058635` đã về 0 theo nguồn. Mã tra cứu không lưu trong dữ liệu bàn giao.
+
+Hiện có **30.260 HĐ bán mới / 35.037 dòng**, **1.989 HĐ thay thế về 0** và **7 chứng từ AMIS chờ**. Báo cáo dự kiến **80.398.644.281đ** tiền hàng và **6.431.951.289đ** VAT, chênh AMIS **−22.176.930đ** và **−1.711.831đ**. Đã kiểm 5 Excel, ZIP và đọc lại 62 ô ghi trên Google Sheets. Bằng chứng trong `verified_zero_and_keep_20261109` của `final-summary.json` và `verified-zero-and-keep-google-verification.json`.
+
+---
+
+# Chốt giữ 7 HĐ theo đối chiếu kế toán — 09/11/2026
+
+Đã rà 9 chứng từ có nhiều HĐ ứng viên. Giữ 7 HĐ vì khớp mã đơn và ba khoản tiền, đã đọc lại chi tiết hàng/người mua và dòng KT ghi “xuất đúng”. BHH `BHHT2025038170` ghi hai máy và hai lõi theo combo, tên lõi KA350S trên HĐ khác cách ghi FT KA350 trên AMIS. Tổng đưa vào nhóm giữ **10.364.004đ tiền hàng, 829.121đ VAT, 11.193.125đ thanh toán**.
+
+| BHH | HĐ giữ |
+| --- | --- |
+| BHHT2025038170 | 1C25MUV/00029306 |
+| BHHT2025039308 | 1C25MUV/00025916 |
+| BHHL2025000226 | 1C25MUV/00021270 |
+| BHHT2025040437 | 1C25MUV/00021799 |
+| BHHT2025029775 | 1C25MUV/00017754 |
+| BHHT2025040427 | 1C25MUV/00021798 |
+| BHHT2025040428 | 1C25MUV/00021797 |
+
+Còn hai BHH trong nhóm này. `BHHT2025035946` có chuỗi `00031054 → 00034893 → 1C26MUV/00002639` đã về 0 theo tab KT, nên chưa có HĐ còn tiền để giữ. `BHHT2025040425` có `1C26MUV/00005776` khớp mã đơn và thanh toán 2.658.000đ, nhưng thiếu bảng chi tiết để kiểm 2 máy KA150P. Chuỗi cạnh tranh `00038350 → 00058635` đã về 0.
+
+Đã ghi riêng 6 HĐ KT đánh dấu xuất trùng và 3 chuỗi KT ghi đã điều chỉnh về 0 nhưng HĐ điều chỉnh chỉ có tiền hàng/VAT 0, ô thanh toán tổng trống. Chưa xác nhận ba chuỗi này về 0. Không tạo dự thảo mới cho các HĐ này trong lượt chốt giữ.
+
+Tổng còn **9 chứng từ AMIS chờ**. Báo cáo dự kiến **80.394.110.023đ** tiền hàng và **6.431.588.548đ** VAT, chênh AMIS lần lượt **−26.711.188đ** và **−2.074.572đ**. Bốn Excel import giữ nguyên SHA-256. Đã kiểm lại Excel báo cáo, ZIP và 77 ô Google Sheets. Quyết định lưu tại `ktoan_confirmed_keep_20261109` trong `final-summary.json` và bằng chứng trong `ktoan-confirmed-keep-google-verification.json`.
+
+---
+
+# Sửa hai liên kết nhầm và giữ bốn HĐ đúng — 09/11/2026
+
+Đã gỡ map nhầm theo xác nhận người dùng. Giữ `1C25MUV/00012360` cho `BHHT2025028267` (mã đơn `580299168658785596`) và `1C25MUV/00012363` cho `BHHT2025028252` (mã đơn `580300943056209030`). Hai chuỗi này khớp tiền hàng/VAT/thanh toán **1.616.759đ / 129.341đ / 1.746.100đ** mỗi chuỗi.
+
+| BHH | Mã đơn | HĐ riêng được giữ | Tiền hàng / VAT / Thanh toán |
+| --- | --- | --- | --- |
+| BHHT2025027442 | 580356480920290819 | 1C25MUV/00012483 | 628.698đ / 50.296đ / 678.994đ |
+| BHHT2025027439 | 580357260801967142 | 1C25MUV/00012486 | 2.295.365đ / 183.629đ / 2.478.994đ |
+
+Đối soát NB dòng 15480/15483 xác nhận mã đơn và tên người mua. Bảng kê và chi tiết meInvoice xác nhận mỗi HĐ đúng khớp tên sau chuẩn hóa, ngày 15/09/2025, mặt hàng, số lượng và cả ba khoản. Mỗi đơn chỉ có một ứng viên khớp cả tên trong nhóm cùng hàng và tiền đã rà. Mã đơn gốc trên bảng kê meInvoice để trống. Các bản ghi KT cùng số nhưng khác ký hiệu/tháng được phân biệt bằng ký hiệu `1C25MUV` và ngày. MeInvoice web yêu cầu đăng nhập; kiểm tra dựa trên bảng kê/chi tiết có sẵn và Google Sheets kế toán.
+
+Đã sửa đúng hai map trên AMIS, AMIS 1, Đối soát NB, điền mã đơn đối chiếu trên Ktoan và cập nhật báo cáo. Rút `00012483` và `00012486` khỏi lô thay thế, chuyển STT `1990 → 1216` (`1C25MUV/00019659`) và `1991 → 1219` (`1C25MUV/00019221`) để giữ dãy liên tục. Hiện còn **1.989 HĐ thay thế về 0, 30.259 HĐ bán mới và 16 chứng từ chờ**. HĐ bán mới giữ nguyên file đã kiểm; hai BHH trên đã có HĐ riêng.
+
+Báo cáo dự kiến **80.383.746.019đ** tiền hàng và **6.430.759.427đ** VAT, chênh AMIS **−37.075.192đ** và **−2.903.693đ**. Đã kiểm lại 5 Excel, ZIP và 162 ô ghi trên Google Sheets. Chi tiết trong `final-summary.json` mục `shared_invoice_map_fix_20261109` và `shared-invoice-map-google-verification.json`.
+
+---
+
+# Thay thế tiếp HĐ cuối chuỗi và lập lại theo AMIS — 09/11/2026
+
+Đã bổ sung dự thảo cho **11/13 chứng từ** theo yêu cầu. STT thay thế **1.981–1.991** tham chiếu đúng HĐ thay thế còn hiệu lực trong từng chuỗi, có ngày và mã CQT nguồn. Tổng số dư được dự kiến đưa về 0: tiền hàng **17.605.890đ**, VAT **1.408.470đ**, thanh toán **19.014.360đ**. STT bán mới **30.249–30.259**, 12 dòng. Bảng đầy đủ nằm trong `continued_reissue_20261109` của `final-summary.json`.
+
+| Chứng từ | PSC2 trừ | Tiền hàng còn lại | VAT tính lại 8% | Thanh toán |
+| --- | ---: | ---: | ---: | ---: |
+| BHHT2025034835 | 66.000đ | 165.704đ | 13.256đ | 178.960đ |
+| BHHT2025032283 | 1.160.000đ | 1.283.519đ | 102.682đ | 1.386.201đ |
+| BHHS2025018941 | 237.000đ | 2.418.998đ | 193.520đ | 2.612.518đ |
+
+Hai chuỗi tách chờ xác minh: `BHHT2025027442` gắn HĐ cuối `1C25MUV/00012360`, còn `BHHT2025028267` đang giữ qua F0 `1C25MUV/00010850`; `BHHT2025027439` gắn HĐ cuối `1C25MUV/00012363`, còn `BHHT2025028252` đang giữ qua F0 `1C25MUV/00010855`. Hai chứng từ đang giữ có mã đơn khác với hai chứng từ chờ. Cần chốt liên kết trước khi lập phương án làm mất hiệu lực HĐ cuối.
+
+Hiện có **30.259 HĐ bán mới / 35.036 dòng**, **1.991 HĐ thay thế về 0**, **25 HĐ điều chỉnh về 0**, **18 chứng từ AMIS chờ**. Bảng dự kiến Google còn chênh AMIS **−43.232.773đ tiền hàng** và **−3.396.300đ VAT**. Đã kiểm bộ 5 Excel, ZIP và đọc lại 680 ô đã ghi trên Google Sheets. Bộ vẫn ở trạng thái dự thảo. Phần đối soát năm trên Google Sheets là bản hiện hành; các snapshot trong `report-2025/` lưu mốc dựng trước. Bằng chứng trong `verification.json`, `zip-verification.json` và `continued-reissue-google-verification.json`.
+
+---
+
 # Chốt giữ 10 HĐ khớp và cập nhật bộ import — 09/11/2026
 
 Đã xác nhận 10 HĐ hiện tại khớp tiền hàng, VAT và thanh toán với chứng từ AMIS. Cột Q nguồn AMIS ghi “Giữ HĐ hiện tại — khớp 3 khoản”. Bộ import còn **29 chứng từ chờ**, **1.980 HĐ thay thế về 0** và **30.248 HĐ bán mới**. Rút đúng 7 HĐ trong nhóm vừa chốt khỏi lô thay thế và cập nhật lại STT của 7 dòng chuyển vị trí.
