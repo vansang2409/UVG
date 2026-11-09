@@ -11,13 +11,28 @@ def main():
     p=json.loads((OUT/'authoring.json').read_text(encoding='utf-8'))
     prepared=json.loads((OUT/'prepared.json').read_text(encoding='utf-8'))
     docs=prepared['docs'];seen=set();sourcecontrols=[];exports=[];newmap={}
+    normalized_scripts=[]
+    exchanges=p['summary'].get('psc2_exchanges',{})
+    reissues=p['summary'].get('rounding_reissue_20261109',{})
+    effective_prices={r['source']:r for r in reissues.get('effective_prices',[])}
+    replacement_overrides={r['root']:r for r in reissues.get('records',[])}
+    replacement_rows={}
     service_path=OUT/'service-quantity-confirmations.json'
     service_corrections={r['doc']:r for r in json.loads(service_path.read_text(encoding='utf-8'))['records']} if service_path.exists() else {}
     rounding_path=OUT/'rounding-confirmation.json'
     rounding_limit=n(json.loads(rounding_path.read_text(encoding='utf-8'))['max_abs_delta_vnd']) if rounding_path.exists() else Decimal(1)
     assert Decimal(1)<=rounding_limit<=Decimal(2)
     for m in p['manifest']:
-        assert hashlib.sha256((ROOT/m['file']).read_bytes()).hexdigest()==m['sha256'],m
+        path=ROOT/m['file']
+        source=path.read_bytes()
+        digest=hashlib.sha256(source).hexdigest()
+        if digest!=m['sha256'] and path.suffix in {'.py','.mjs'}:
+            lf=source.replace(b'\r\n',b'\n')
+            digests={hashlib.sha256(v).hexdigest() for v in (lf,lf.replace(b'\n',b'\r\n'))}
+            assert m['sha256'] in digests,m
+            normalized_scripts.append(m['file'])
+        else:
+            assert digest==m['sha256'],m
         sourcecontrols.append(m)
     with (OUT/'DOI_CHIEU_TOAN_BO_65493_CHUNG_TU.csv').open(encoding='utf-8-sig',newline='') as f:
         decisions={r['Chứng từ AMIS']:r for r in csv.DictReader(f)}
@@ -49,13 +64,26 @@ def main():
                 assert code not in seen,code;seen.add(code)
                 assert decisions[code]['Phân loại']=='Tạo import mới',code
                 d=docs[code]
-                assert len(ls)==len(d['lines'])
-                assert sum(n(r[16]) for r in ls)==n(d['goods']),code
+                source_lines=d['lines']
+                excluded_goods=Decimal(0)
+                if code in exchanges:
+                    exchange=exchanges[code]
+                    excluded=[line for line in source_lines if line['v'][15]=='PSC2']
+                    assert len(excluded)==1 and excluded[0]['source']==exchange['psc2_source'],code
+                    assert n(excluded[0]['v'][41])==0 and n(excluded[0]['v'][43])==n(exchange['excluded_goods']),code
+                    excluded_goods=n(excluded[0]['v'][24])
+                    assert excluded_goods==n(exchange['excluded_goods']),code
+                    source_lines=[line for line in source_lines if line not in excluded]
+                    assert len(source_lines)==1 and source_lines[0]['source']==exchange['product_source'],code
+                    assert ls[0][10]==exchange['rate'] and n(ls[0][11])==n(source_lines[0]['v'][41]),code
+                    assert n(ls[0][16])==n(exchange['goods']) and n(ls[0][16])+n(ls[0][11])==n(exchange['payment']),code
+                assert len(ls)==len(source_lines)
+                assert sum(n(r[16]) for r in ls)==n(d['goods'])-excluded_goods,code
                 assert sum(n(r[11]) for r in ls)==n(d['vat']),code
-                assert sum(n(r[16])+n(r[11]) for r in ls)==n(d['pay']),code
+                assert sum(n(r[16])+n(r[11]) for r in ls)==n(d['pay'])-excluded_goods,code
                 assert len({r[0] for r in ls})==1
                 newmap[code]=(o['file'],ls[0][0])
-                for r,l in zip(ls,d['lines']):
+                for r,l in zip(ls,source_lines):
                     sr=l['v'];assert r[19]==str(sr[15]).strip(),code
                     expected_quantity=n(sr[22])
                     if code in service_corrections:
@@ -63,11 +91,18 @@ def main():
                         assert l['source']==c['source'] and str(sr[15]).strip()==c['sku'] and n(sr[22])==n(c['source_quantity'])
                         assert docs[code]['business_type']=='Dịch vụ' and str(sr[19]).strip()==c['unit']
                         expected_quantity=n(c['import_quantity'])
-                    assert n(r[14])==expected_quantity and n(r[15])==n(sr[23]) and n(r[16])==n(sr[24]),code
+                    expected_price=n(sr[23])
+                    if l['source'] in effective_prices:
+                        price=effective_prices[l['source']]
+                        assert price['doc']==code and n(price['source_unit_price'])==expected_price
+                        expected_price=n(price['import_unit_price'])
+                        assert expected_quantity*expected_price==n(sr[24]),code
+                    assert n(r[14])==expected_quantity and n(r[15])==expected_price and n(r[16])==n(sr[24]),code
                     assert abs((n(r[14])*n(r[15])).quantize(Decimal(1),rounding=ROUND_HALF_UP)-n(r[16]))<=rounding_limit,code
         elif o['kind']=='replacement':
             assert len({r[25] for r in actual})==len(actual)
             for r in actual:assert all(n(r[i])==0 for i in [17,18,19,21]) and r[23]==1
+            replacement_rows.update({r[25]:r for r in actual})
         elif o['kind']=='adjustment':
             if p.get('adjustment_rule_2024'):
                 grouped=defaultdict(list)
@@ -98,7 +133,23 @@ def main():
     for z in p['zero_audit']:
         assert all(n(a)+n(b)==0 for a,b in zip(z['before'],z['change']))
         assert all(decisions[c]['Phân loại']=='Tạo import mới' for c in z['docs'])
-        if z['kind']=='replacement':assert len(prepared['chains'][z['root']]['keys'])==1
+        if z['kind']=='replacement':
+            root=z['root']
+            if root not in replacement_overrides:
+                assert len(prepared['chains'][root]['keys'])==1
+                continue
+            override=replacement_overrides[root]
+            row=replacement_rows[root]
+            assert row[0]==z['sequence']==override['zero_seq']
+            assert row[11]+'/'+row[12]==override['active'] and row[14]
+            assert row[24]==override['doc'] and newmap[row[24]][1]==override['new_seq']
+            assert [n(x) for x in z['before']]==[n(x) for x in override['before']]
+            chain=prepared['chains'].get(root)
+            if chain:
+                assert chain['active']==[override['active']] and not chain['issues']
+                assert chain['keys']==override['keys'] and chain['balance']==z['before']
+            else:
+                assert override['keys']==[root] and override['active']==root
     ret=json.loads((OUT/'return-verification.json').read_text(encoding='utf-8'))
     assert ret['source_ui_docs']==322 and ret['source_ui_lines']==412
     assert len(ret['checks'])==322
@@ -106,6 +157,18 @@ def main():
     report=next(o for o in p['outputs'] if o['kind']=='report')
     returns=next(s for s in report['sheets'] if s['name']=='Tra lai cho so HD')
     w=load_workbook(OUT/'deliverables'/report['file'],read_only=True,data_only=True)
+    kept_gifts=p['summary'].get('unmapped_meinvoice',{}).get('gift_kt_kept',0)
+    if kept_gifts:
+        policy=json.loads((OUT/'unmapped-gift-confirmation.json').read_text(encoding='utf-8'))
+        keys=set(policy['invoice_roots'])
+        assert policy['accountant_decision']=='keep' and len(keys)==kept_gifts==16
+        gift_rows=list(w['Bieu tang - KT check'].iter_rows(min_row=2,values_only=True))
+        assert {row[0] for row in gift_rows}==keys and len(gift_rows)==kept_gifts
+        assert all('Kế toán chốt giữ lại' in row[9] for row in gift_rows)
+        mapped=[row for row in w['MI2025 chua map'].iter_rows(min_row=2,values_only=True) if row[0] in keys]
+        assert len(mapped)==kept_gifts
+        assert all('Kế toán chốt giữ lại' in row[1] and row[2] is None and row[10] is None for row in mapped)
+        assert not any(keys.intersection(plan.get('keys',[plan['root']])) for plan in p['zero_audit']+p['unmapped_zero_audit'])
     reference_count=0
     for sh in report['sheets']:
         h=sh['headers']
@@ -147,6 +210,13 @@ def main():
     if p.get('adjustment_rule_2024'):
         current=json.loads((OUT/'adjustment-rule-2024-verification.json').read_text(encoding='utf-8'));assert current['passed']
         result['adjustment_rule_2024_verification']=current
+    if exchanges:
+        assert exchanges.keys()<=seen
+        result['psc2_exchanges']=exchanges
+    if normalized_scripts:
+        result['scripts_verified_with_normalized_line_endings']=normalized_scripts
+    if kept_gifts:
+        result['gift_invoices_kept']=kept_gifts
     (OUT/'verification.json').write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf-8')
     print(json.dumps({'passed':True,'files':len(exports),'new_invoices':len(seen),'zero_chains':result['zero_chains']}))
 if __name__=='__main__':main()

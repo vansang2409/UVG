@@ -19,6 +19,9 @@
     "1C25TUV/00013175",
     "1C25TUV/00013176"
   ],
+  "accountant_decision": "keep",
+  "accountant_decision_date": "2026-11-09",
+  "accountant_decision_source": "Người dùng báo kế toán chốt giữ lại cả 16 hóa đơn biếu tặng.",
   "keep_out_of_import": true,
   "accountant_notes_column": "K",
   "send_message_to_accountant": false

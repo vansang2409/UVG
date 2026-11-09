@@ -16,7 +16,10 @@ def native(v):
     if isinstance(v,list):return list(map(native,v))
     if isinstance(v,dict):return {k:native(x) for k,x in v.items()}
     return v
-def save(path,v):path.write_text(json.dumps(native(v),ensure_ascii=False,separators=(',',':')),encoding='utf-8')
+def save(path,v):
+    temporary=path.with_suffix('.json.tmp')
+    temporary.write_text(json.dumps(native(v),ensure_ascii=False,separators=(',',':')),encoding='utf-8')
+    temporary.replace(path)
 def main():
     WORK.mkdir(exist_ok=True);a=read(OUT/'authoring.json');p=read(OUT/'prepared.json');u=read(OUT/'unmapped-meinvoice-audit.json')
     script=ROOT/'scripts/classify_2025_20261105.py';prefix=script.read_text(encoding='utf-8').split("amis=read(SRC/'plan25AMIS.json')",1)[0].replace("OUT=ROOT/'outputs/phan-loai-2025-20261105'",'OUT=Path('+repr(str(OUT))+')')
@@ -33,6 +36,13 @@ def main():
     with (OUT/'DOI_CHIEU_TOAN_BO_65493_CHUNG_TU.csv').open(encoding='utf-8-sig') as f:final={r['Chứng từ AMIS']:r['Phân loại'] for r in csv.DictReader(f)}
     keepgoods=sum(n(p['docs'][code]['goods']) for code,label in final.items() if label=='Giữ nguyên, không import')
     pendinggoods=sum(n(p['docs'][code]['goods']) for code,label in final.items() if label=='Chờ xác minh')
+    pending_count=sum(label=='Chờ xác minh' for label in final.values())
+    exchanges=a['summary'].get('psc2_exchanges',{})
+    exchange_goods=sum(n(row['excluded_goods']) for row in exchanges.values())
+    gift_policy=OUT/'unmapped-gift-confirmation.json'
+    gift_decision=read(gift_policy) if gift_policy.exists() else {}
+    kept_gifts=set(gift_decision['invoice_roots']) if gift_decision.get('accountant_decision')=='keep' else set()
+    assert not kept_gifts.intersection(planned)
     adj=defaultdict(Decimal);adjseq=defaultdict(set)
     for o in a['outputs']:
         if o['kind']=='adjustment':
@@ -44,11 +54,12 @@ def main():
         if ch is None or ch.get('balance') is None:ch=ns['chain'](root)
         keys=ch.get('keys',rec['keys']);active=ch.get('active',[]);excluded=ch.get('excluded',[k for k in keys if k not in active]);balance=ch.get('balance',[None]*3);issues=ch.get('issues',[])
         if root in comps and comps[root].get('balance_evidence'):basis.append({'root':root,'basis':comps[root]['balance_evidence']})
-        ds=byroot.get(root,[]);pending=any(d['action']=='review' for d in ds);gift=rec.get('status')=='kt_review';complete=all(n(v) is not None for v in balance)
+        ds=byroot.get(root,[]);pending=any(d['action']=='review' and d['doc'] not in exchanges for d in ds);gift=rec.get('status')=='kt_review';complete=all(n(v) is not None for v in balance)
         status='';hold=root in company or gift or pending or bool(issues) or not complete
         if root in planned:assert complete and not hold,(root,issues)
         if root in company:status='Công ty — ngoài phạm vi'
-        elif gift:status='Biếu tặng — chờ KT, chưa cộng DT'
+        elif gift:
+            status='Biếu tặng — KT chốt giữ, theo dõi riêng' if root in kept_gifts else 'Biếu tặng — chờ KT, chưa cộng DT'
         elif issues or not complete:status='Chờ nguồn/liên kết — chưa cộng DT'
         elif pending:status='Chờ đối chiếu AMIS — chưa cộng DT'
         elif root in planned:status='Về0 theo dự thảo, chưa phát hành'
@@ -93,14 +104,24 @@ def main():
     summaries=[['Các bước xử lý','Số tiền (đ)','Giải thích'],['1. Hóa đơn cũ trước xử lý — phạm vi đủ dữ liệu',G,'Tổng cộtG; gồm gốc2025 và các chuỗi gốc khác năm đã nối AMIS2025. Các khoản chờ/công ty ở cộtO không cộng.'],['2. Điều chỉnh về0 — dự kiến',J,'25 HĐ/18 chuỗi; đảo7 khoản điều chỉnh cũ còn tiền rồi giảm chi tiết18 F0. Chưa phát hành.'],['3. Thay thế về0 — giảm DT dự kiến',K,'2.039 F0, mỗi HĐ thay thế có tiền0; cộtK ghi tác động loại doanh thu HĐ cũ, không phải tiền trên HĐ mới.'],['4. Hóa đơn cũ giữ lại — dự kiến',L,'G+J+K của phần đủ dữ liệu; nguồn chưa đủ căn cứ/16HĐ biếu tặng/đơn công ty tách riêng.'],['5. Bán mới AMIS — dự thảo',newgoods,'30.244 HĐ/35.016 dòng theo file bán mới; tiền bán gốc trước trả lại, đã loại396CT công ty và95CT chưa đủ dữ liệu.'],['6. Trả hàng — dự kiến đủ điều kiện số liệu',readyreturns,'319/321 phiếu trong dự thảo;2 phiếu có ngoại lệ tiền/SL giữ ngoài số dự kiến. Tất cả vẫn chờ HĐ tham chiếu thực tế.'],['DOANH THU THEO PHƯƠNG ÁN ĐÃ CHUẨN BỊ',projected,'Cũ giữ lại + bán mới − trả lại đủ số liệu. Không phải kết quả đã phát hành.'],['Doanh thu AMIS2025 — cùng phạm vi meInvoice',amisnet,'Bán gốc '+str(sales)+' −396CT công ty '+str(companysales)+' + trả lại321phiếu '+str(allreturns)+'.'],['CHÊNH CẦN ĐỐI CHIẾU',gap,'Dự kiến trừ AMIS cùng phạm vi; còn95CT AMIS chờ,16HĐ biếu tặng,2ngoại lệ nguồn và2phiếu trả cần KT chốt. Không tự ép chênh bằng0.'],['Nguồn chờ/ngoài phạm vi — không cộng DT',O,'Tổng cộtO; giá trị nguồn để kiểm tra, không phải phần giải thích định lượng toàn bộ chênh B12. Phần trả chờ thêm '+str(heldreturns)+'đ.']]
     headers=['HĐ gốc','Ngày gốc','Loại chuỗi','Số HĐ trước xử lý','HĐ trước xử lý được cộng','HĐ trước xử lý bị loại','DT trước xử lý tính trong PV','VAT trước','Thanh toán trước','Điều chỉnh dự kiến','Thay thế: giảm DT dự kiến','DT cũ giữ lại dự kiến','Kiểm phương án về0','Trạng thái/đánh giá','Giá trị chờ/ngoài PV (không cộng DT)','Liên kết trong chuỗi','Nguồn kiểm tra','Ghi chú']
     matrix=[[titles[0]]+[None]*17,[titles[1]]+[None]*17]+[r+[None]*15 for r in summaries]+[headers]+detail
+    if exchange_goods:
+        sale_count=a['summary']['new_invoices'];line_count=a['summary']['new_lines']
+        matrix[7][2]=f'{sale_count} HĐ / {line_count} dòng dự thảo trước trả lại. Đã loại 396 CT công ty, {pending_count} CT chờ và {exchange_goods}đ PSC2 của hai chứng từ đổi sản phẩm.'
+        matrix[11][2]=f'Dự kiến trừ AMIS cùng phạm vi. Xem các nhóm chênh tại dòng 13, gồm {pending_count} CT AMIS chờ và khoản đổi sản phẩm PSC2 đã loại.'
+    if kept_gifts:
+        assert states['Biếu tặng — KT chốt giữ, theo dõi riêng']==len(kept_gifts)
+        matrix[6][2]=f'G+J+K của phần đủ dữ liệu. {len(kept_gifts)} HĐ biếu tặng KT chốt giữ, theo dõi riêng ở cột O cùng các nhóm ngoài phạm vi.'
     matrix[12][0]='Giải thích chênh theo nhóm';matrix[12][1]=gap
-    matrix[12][2]='DT cũ giữ − AMIS giữ: '+str(L-keepgoods)+'; AMIS95CT chờ chưa xuất: −'+str(pendinggoods)+'; trả chờ chưa giảm: +'+str(readyreturns-allreturns)+'. Tổng = '+str(gap)+'đ. Giá trị cộtO tách riêng, không cộng DT.'
+    matrix[12][2]=f'DT cũ giữ − AMIS giữ {L-keepgoods}đ. AMIS {pending_count} CT chờ −{pendinggoods}đ. Trả chờ chưa giảm +{readyreturns-allreturns}đ.'
+    if exchange_goods:matrix[12][2]+=f' Trừ PSC2 đổi sản phẩm −{exchange_goods}đ.'
+    matrix[12][2]+=f' Tổng {gap}đ. Giá trị cột O tách riêng.'
     matrix[13][12]='Chênh so AMIS giữ / kiểm về0'
-    assert (L-keepgoods)-pendinggoods+(readyreturns-allreturns)==gap
+    assert (L-keepgoods)-pendinggoods+(readyreturns-allreturns)-exchange_goods==gap
     values=[r.copy() for r in matrix];end=len(matrix)
     formula={3:f'=SUM(G15:G{end})',4:f'=SUM(J15:J{end})',5:f'=SUM(K15:K{end})',6:f'=SUM(L15:L{end})',9:'=SUM(B7:B9)',11:'=B10-B11',12:f'=SUM(O15:O{end})'}
     for i,f in formula.items():matrix[i][1]=f
     matrix[12][1]=f'=B7-{formula_number(keepgoods)}-{formula_number(pendinggoods)}+B9-({formula_number(allreturns)})'
+    if exchange_goods:matrix[12][1]+=f'-{formula_number(exchange_goods)}'
     for i,r in enumerate(roots,14):
         matrix[i][11]=f'=IF(G{i+1}="";"";SUM(G{i+1};J{i+1};K{i+1}))'
         if r['has_amis_keep']:matrix[i][12]=f'=N(L{i+1})-{formula_number(r["amis_keep_goods"])}'
@@ -110,9 +131,12 @@ def main():
     for start in range(0,end,250):
         name=f'{start}.json';save(WORK/name,{'start':start,'rows':matrix[start:start+250],'expected':values[start:start+250]});chunks.append({'file':name,'start':start,'rows':min(250,end-start)})
     inputs=[OUT/'authoring.json',OUT/'prepared.json',OUT/'unmapped-meinvoice-audit.json',OUT/'source-index.json',OUT/'source/report-2024-reference.json']
+    if kept_gifts:inputs.append(gift_policy)
     summary={'old_before':G,'adjustment':J,'replacement_effect':K,'old_kept':L,'new_sales':newgoods,'returns_ready':readyreturns,'returns_all':allreturns,'returns_held':heldreturns,'amis_sales_all':sales,'company_sales':companysales,'amis_net_scope':amisnet,'projected':projected,'gap':gap,'held_source_goods':O}
     manifest={'spreadsheetId':'1jACpDPSlOCjq-25hF_g5-06eZKD3e2Fq88j472wjTiA','sheetId':700000010,'title':'Ra soat chuoi 2025','rows':end,'columns':18,'detail_rows':len(roots),'chunks':chunks,'states':dict(states),'summary':summary,'sources':[{'file':str(f.relative_to(ROOT)),'sha256':hashlib.sha256(f.read_bytes()).hexdigest()} for f in inputs]}
     manifest['summary'].update(amis_keep_goods=keepgoods,amis_pending_goods=pendinggoods,kept_group_difference=L-keepgoods,return_hold_effect=readyreturns-allreturns)
+    if exchange_goods:manifest['summary']['psc2_excluded_goods']=exchange_goods
+    if kept_gifts:manifest['summary']['gift_invoices_kept']=len(kept_gifts)
     save(WORK/'manifest.json',manifest)
     with (WORK/'BAO_CAO_CHUOI_2025.csv').open('w',encoding='utf-8-sig',newline='') as f:csv.writer(f).writerows(values)
     print(json.dumps(native({'rows':end,'states':dict(states),'summary':summary}),ensure_ascii=False),flush=True)

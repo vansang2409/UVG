@@ -1,4 +1,89 @@
-# Bản cuối: điều chỉnh theo quy cách 2024 và báo cáo 2025 — 09/11/2026
+# Chốt giữ 10 HĐ khớp và cập nhật bộ import — 09/11/2026
+
+Đã xác nhận 10 HĐ hiện tại khớp tiền hàng, VAT và thanh toán với chứng từ AMIS. Cột Q nguồn AMIS ghi “Giữ HĐ hiện tại — khớp 3 khoản”. Bộ import còn **29 chứng từ chờ**, **1.980 HĐ thay thế về 0** và **30.248 HĐ bán mới**. Rút đúng 7 HĐ trong nhóm vừa chốt khỏi lô thay thế và cập nhật lại STT của 7 dòng chuyển vị trí.
+
+| Chứng từ AMIS | HĐ giữ lại |
+| --- | --- |
+| BHHT2025024984 | 1C25MUV/00006219 |
+| BHHT2025024919 | 1C25MUV/00006149 |
+| BHHS2025013243 | 1C25MUV/00005398 |
+| BHHT2025021341 | 1C25TUV/00012709 |
+| BHHT2025021319 | 1C25TUV/00012729 |
+| BHHT2025021665 | 1C25TUV/00012203 |
+| BHHT2025021657 | 1C25TUV/00012256 |
+| BHDV20250060 | 1C25MUV/00034385 |
+| BHHN2025000090 | 1C25MUV/00028840 |
+| BHHT2025031775 | 1C25MUV/00023087 |
+
+Đã gỡ liên kết cũ làm 12 HĐ riêng của các chứng từ đã chốt giữ bị treo. Đưa lại 22.660.951đ tiền hàng và 1.812.875đ VAT của 12 HĐ này vào tổng dự kiến. Cộng cả 10 HĐ vừa chốt, Sheets dự kiến 80.361.754.029đ tiền hàng và 6.429.000.067đ VAT, thấp hơn AMIS lần lượt 59.067.182đ và 4.663.053đ.
+
+Các STT thay thế sau khi dời dòng nằm trong mục `kt_keep_10_20261109` của `final-summary.json`. Cột Q nguồn và tab rà soát đã cập nhật lại STT cho 6 HĐ lệch 1–2đ ở đợt trước. Bộ import vẫn là dự thảo.
+
+---
+
+
+# Đưa HĐ lệch 1–2đ về 0 và xuất lại — 09/11/2026
+
+Áp dụng cả chênh âm và chênh dương khi tiền hàng, VAT và thanh toán đều chênh tối đa 2đ giữa AMIS và meInvoice. Trong nhóm khách lẻ tháng 7–12, có 135 trường hợp đã có dự thảo theo quy trình này và 6 trường hợp được bổ sung. Các HĐ công ty vẫn theo tab HĐ công ty.
+
+| Chứng từ AMIS | HĐ tham chiếu để thay thế về 0 | STT thay thế | STT bán mới |
+| --- | --- | ---: | ---: |
+| BHHT2025035240 | 1C25MUV/00034896 | 1982 | 30243 |
+| BHHL2025000205 | 1C25MUV/00018799 | 1983 | 30244 |
+| BHHT2025030189 | 1C25MUV/00022891 | 1984 | 30245 |
+| BHHS2025018044 | 1C25MUV/00018130 | 1985 | 30246 |
+| BHHS2025015861 | 1C25MUV/00011884 | 1986 | 30247 |
+| BHHT2025024845 | 1C25MUV/00006004 | 1987 | 30248 |
+
+Bốn trường hợp đầu tham chiếu HĐ thay thế còn hiệu lực. HĐ 00006004 được chuyển từ giữ sang thay thế về 0. Với dòng KA600FILTERFULL của BHHS2025015861, đơn giá trong file bán mới là 536.506,5đ, bằng 3.219.039đ chia cho 6 cái. Tiền hàng, VAT và thanh toán giữ đúng AMIS. Đã kiểm tra 6 chứng từ không phát sinh tham chiếu BTL hoặc BGG trong bộ hiện tại.
+
+Sheets và bộ import có **30.248 HĐ bán mới trên 35.024 dòng**, **1.987 HĐ thay thế** và **39 chứng từ chờ**. Doanh thu dự kiến trên Sheets là 80.328.071.601đ, thấp hơn AMIS 92.749.610đ. VAT dự kiến là 6.426.305.475đ, thấp hơn AMIS 7.357.645đ. Cột Q nguồn AMIS ghi “Lệch 1–2đ · về 0 và xuất lại”. Các dòng vẫn ở trạng thái dự thảo. Chi tiết nằm trong mục `rounding_reissue_20261109` của `final-summary.json`.
+
+---
+
+
+# Đồng bộ 8 HĐ khớp sau đợt tách số cuối — 09/11/2026
+
+Đã rút 8 HĐ khỏi lô thay thế và 4 chứng từ khỏi lô bán mới. Bộ import còn **30.242 HĐ bán mới**, **35.014 dòng**, **1.981 HĐ thay thế** và **44 chứng từ chờ**. Danh sách trong `final-summary.json`, mục `kt_final_8_20261109`. Dòng `BHHT2025027502` chờ KT chốt chênh 723.000đ trước khi dùng.
+
+---
+
+# Chốt giữ HĐ `1C25MUV/00006004` — 09/11/2026
+
+Đã chấp nhận chênh 1đ VAT và thanh toán cho `BHHT2025024845`, giữ HĐ và rút khỏi lô thay thế. Lô thay thế còn **1.989 HĐ** và báo cáo còn **51 chứng từ chờ**. Xem `keep_accepted_1dong_20261109` trong `final-summary.json`.
+
+---
+
+# Đồng bộ 18 chứng từ KT sửa số HĐ — 09/11/2026
+
+Đã rút 17 HĐ khớp khỏi lô thay thế về 0 và bỏ `BHHT2025024041` khỏi lô bán mới. Bộ dự thảo có 30.246 HĐ bán mới, 35.018 dòng và 1.990 HĐ thay thế. `1C25MUV/00006004` của `BHHT2025024845` lệch 1đ VAT và 1đ thanh toán, chờ KT chốt trước khi dùng. Xem `kt_remap_18_20261109` trong `final-summary.json`.
+
+---
+
+# Cập nhật theo số HĐ KT đã sửa — 09/11/2026
+
+Lô thay thế hiện có **2.007 HĐ**. Đã rút 25 HĐ chuyển sang giữ và tạm rút 6 HĐ chờ xác minh. Danh sách trong `final-summary.json`, mục `kt_remap_20261109`. Còn **66 chứng từ** trong tab `Cho xac minh` của báo cáo Excel.
+
+Bốn chứng từ `BHHT2025027505`, `BHHT2025027435`, `BHHT2025027502` và `BHHT2025027485` còn dòng trong dự thảo bán mới. Chờ KT chốt liên kết HĐ trùng trước khi dùng các dòng này. Đã ghi chú trên tab `Import HD moi` của Google Sheets.
+
+---
+
+# Kế toán chốt giữ 16 hóa đơn biếu tặng — 09/11/2026
+
+Cả 16 HĐ trong danh sách biếu tặng được giữ theo xác nhận của người dùng về quyết định kế toán. Xem trạng thái tại tab `Bieu tang - KT check` và `MI2025 chua map` trong báo cáo Excel. Số tiền nguồn theo dõi riêng ở cột O của báo cáo chuỗi, nằm ngoài số doanh thu bán hàng dự kiến. Google Sheets đã đồng bộ trạng thái J4:J19, giữ nguyên cột K.
+
+---
+
+# Bổ sung hai chứng từ đổi sản phẩm PSC2 — 09/11/2026
+
+- STT 30.245, `BHHT2025004408`. Bỏ PSC2 540.000đ. Dòng sản phẩm có tiền hàng 1.662.778đ, VAT 176.222đ, thanh toán 1.839.000đ.
+- STT 30.246, `BHHT2025011220`. Bỏ PSC2 239.000đ. Dòng sản phẩm có tiền hàng 203.593đ, VAT 35.407đ, thanh toán 239.000đ.
+- Thuế suất lưu 8% và giữ tiền VAT theo dòng AMIS người dùng xác nhận. Tiền VAT khác kết quả nhân lại với tiền hàng sau khi trừ PSC2. Kiểm cách meInvoice tiếp nhận tiền VAT trước khi sử dụng hai dòng này.
+- Bản cục bộ và Google Sheets có **30.246 HĐ / 35.018 dòng** bán mới, còn 93 chứng từ chờ đều thuộc H2. Báo cáo chuỗi tách riêng 779.000đ PSC2 trong phần giải thích chênh lệch. Xem `final-summary.json`, `verification.json` và `report-2025/verification.json`. Chưa nhập, ký hoặc phát hành.
+
+---
+
+# Điều chỉnh theo quy cách 2024 và báo cáo 2025 trước cập nhật PSC2 — 09/11/2026
 
 Đã sửa quy cách điều chỉnh: **25 HĐ / 33 dòng / 18 chuỗi**. Đảo riêng 7 HĐ điều chỉnh cũ còn tiền, rồi giảm toàn bộ chi tiết 18 F0; 13 điều chỉnh cũ tiền bằng 0 đã kiểm và không tạo bút toán đảo. Tất cả tham chiếu F0; tổng chỉ ghi dòng đầu mỗi HĐ. Giữ nguyên tên hàng, đơn vị, đơn giá nguồn, số lượng/tiền đảo dấu; 8 dòng khuyến mại có cờ 1. Có 13 dòng F0 đơn giá nguồn bằng 0 nhưng thành tiền khác 0: giữ đúng nguồn/quy cách 2024, không tự tính lại giá; xem source_price_flags trong adjustment-rule-2024-plan.json. Kiểm độc lập 86 dòng nguồn và 33 dòng xuất, toàn bộ 18 chuỗi về 0 sau dự thảo ở cả tiền hàng/VAT/thanh toán.
 

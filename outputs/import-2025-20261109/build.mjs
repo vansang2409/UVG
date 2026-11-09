@@ -67,9 +67,27 @@ for(let index=0;index<p.outputs.length;index++){
   }
  }
  if(o.kind==='report'&&buyerPolicy){const s=w.worksheets.getItem('Tong hop');s.getRange('A28:B28').values=[['Tên đơn vị / người mua','Khách lẻ: trống tên đơn vị, dùng Người mua hàng. Giữ tên người mua đã có và thông tin pháp nhân/MST nguồn; không đổi số tiền.']];s.mergeCells('B28:G28');s.getRange('A28:G28').format={font:{name:'Arial',size:10},rowHeight:44,wrapText:true,verticalAlignment:'center'};}
- if(o.kind==='report'&&p.summary.unmapped_meinvoice){const s=w.worksheets.getItem('Tong hop'),u=p.summary.unmapped_meinvoice;s.getRange('A29:B29').values=[['Bổ sung meInvoice2025 chưa nối AMIS',`Đã kiểm toàn bộ chuỗi liên quan. Bổ sung ${u.added.adjustment||0} điều chỉnh và ${u.added.replacement||0} thay thế về0. ${u.gift_kt_check} HĐ biếu tặng tách KT kiểm; ${u.remaining_source_exceptions} ngoại lệ nguồn chưa nhập. Bảng tổng AMIS phía trên không cộng lại nhóm này.`]];s.mergeCells('B29:G29');s.getRange('A29:G29').format={font:{name:'Arial',size:10},rowHeight:70,wrapText:true,verticalAlignment:'center'};}
+ if(o.kind==='report'&&p.summary.unmapped_meinvoice){
+  const s=w.worksheets.getItem('Tong hop'),u=p.summary.unmapped_meinvoice;
+  const gifts=u.gift_kt_kept?`KT chốt giữ ${u.gift_kt_kept} HĐ biếu tặng, theo dõi riêng.`:`${u.gift_kt_check} HĐ biếu tặng tách KT kiểm.`;
+  s.getRange('A29:B29').values=[['Bổ sung meInvoice2025 chưa nối AMIS',`Đã kiểm toàn bộ chuỗi liên quan. Bổ sung ${u.added.adjustment||0} điều chỉnh và ${u.added.replacement||0} thay thế về 0. ${gifts} ${u.remaining_source_exceptions} ngoại lệ nguồn chưa nhập. Bảng tổng AMIS phía trên không cộng lại nhóm này.`]];
+  s.mergeCells('B29:G29');s.getRange('A29:G29').format={font:{name:'Arial',size:10},rowHeight:70,wrapText:true,verticalAlignment:'center'};
+ }
  if(o.kind==='report'&&p.adjustment_rule_2024){const s=w.worksheets.getItem('Tong hop');s.getRange('B28').values=[['Riêng điều chỉnh về0: Tên khách hàng và Người mua hàng chép riêng nguyên trạng HĐ F0; các bộ bán mới/thay thế/BTL giữ quy tắc tên trước đó.']];s.getRange('A30:B30').values=[['Điều chỉnh theo quy trình2024','18 chuỗi /25 HĐ /33 dòng: đảo7 khoản cũ còn tiền rồi giảm chi tiết18 F0. 13 khoản cũ0đ đã kiểm, không phát sinh HĐ đảo0. Số dư cuối bằng0 đủ3 khoản; tổng tiền không đổi.']];s.mergeCells('B30:G30');s.getRange('A30:G30').format={font:{name:'Arial',size:10},rowHeight:70,wrapText:true,verticalAlignment:'center'};}
+ const exchanges=p.summary.psc2_exchanges;
+ if(o.kind==='report'&&exchanges){
+  const s=w.worksheets.getItem('Tong hop');
+  const details=Object.entries(exchanges).map(([code,e])=>`${code} trừ PSC2 ${e.excluded_goods}đ, giữ VAT ${e.vat}đ.`).join(' ');
+  s.mergeCells('B31:G31');
+  s.getRange('A31:B31').values=[['Đổi sản phẩm PSC2',details]];
+  s.getRange('A31:G31').format={font:{name:'Arial',size:10},rowHeight:44,wrapText:true,verticalAlignment:'center'};
+ }
  w.recalculate();
+ if(o.kind==='new'&&exchanges){
+  const rows=o.rows.flatMap((r,i)=>r[18] in exchanges?[i+10]:[]);
+  const q=await w.render({sheetName:'Hoa don GTGT',range:`K${Math.min(...rows)}:Q${Math.max(...rows)}`,scale:1,format:'png'});
+  await fs.writeFile(`${dir}/qa/preview-psc2.png`,new Uint8Array(await q.arrayBuffer()));
+ }
  if(o.kind==='new'&&buyerPolicy){const q=await w.render({sheetName:'Hoa don GTGT',range:'C9:F13',scale:1,format:'png'});await fs.writeFile(`${dir}/preview-buyer-fields.png`,new Uint8Array(await q.arrayBuffer()));}
  if(o.kind==='new'&&confirmedServices.length){
   const codes=new Set(confirmedServices.map(c=>c.doc)),rs=o.rows.flatMap((r,i)=>codes.has(r[18])?[i+10]:[]);
@@ -82,6 +100,10 @@ for(let index=0;index<p.outputs.length;index++){
  const sh=o.kind==='report'?'Tong hop':'Hoa don GTGT',range=o.kind==='report'?'A1:G14':'J9:Q12';
  const preview=await w.render({sheetName:sh,range,scale:1,format:'png'});await fs.writeFile(`${dir}/preview-${index}.png`,new Uint8Array(await preview.arrayBuffer()));
  if(o.kind==='report'){
+  if(p.summary.unmapped_meinvoice?.gift_kt_kept){
+   const q=await w.render({sheetName:'Bieu tang - KT check',range:'I1:K5',scale:1,format:'png'});
+   await fs.writeFile(`${dir}/qa/gift-keep-after.png`,new Uint8Array(await q.arrayBuffer()));
+  }
   for(const name of ['MI2025 chua map','MI2025 chuoi','Bieu tang - KT check'])if(o.sheets.some(sh=>sh.name===name)){const q=await w.render({sheetName:name,range:'A1:G5',scale:1,format:'png'});await fs.writeFile(`${dir}/qa/preview-${name.replaceAll(' ','-')}.png`,new Uint8Array(await q.arrayBuffer()));}
   for(const [sn,rg,key]of [['Tra lai cho so HD','I9:P12','return-reference'],['Tra lai cho so HD','O9:W12','return-money'],['Cho xac minh','I1:K4','pending-reasons']]){const q=await w.render({sheetName:sn,range:rg,scale:1,format:'png'});await fs.writeFile(`${dir}/preview-${key}.png`,new Uint8Array(await q.arrayBuffer()));}
  }

@@ -36,13 +36,26 @@ def main():
     totals=defaultdict(Decimal)
     for d in decisions:totals[d['Phân loại']]+=n(p['docs'][d['Chứng từ AMIS']]['goods'])
     assert sum(totals.values())==n(m['summary']['amis_sales_all']) and totals['Loại theo HD CTY 2025']==n(m['summary']['company_sales'])
-    assert totals['Tạo import mới']==new and totals['Giữ nguyên, không import']==n(m['summary']['amis_keep_goods']) and totals['Chờ xác minh']==n(m['summary']['amis_pending_goods'])
+    exchanges=a['summary'].get('psc2_exchanges',{})
+    excluded=sum(n(line['v'][24]) for code in exchanges for line in p['docs'][code]['lines'] if line['v'][15]=='PSC2')
+    assert excluded==n(m['summary'].get('psc2_excluded_goods'))
+    assert totals['Tạo import mới']-excluded==new and totals['Giữ nguyên, không import']==n(m['summary']['amis_keep_goods']) and totals['Chờ xác minh']==n(m['summary']['amis_pending_goods'])
     projected=sums['old_kept']+new+validret;amis=sum(totals.values())-totals['Loại theo HD CTY 2025']+allret;gap=projected-amis
     assert projected==n(data[9][1])==n(m['summary']['projected']) and amis==n(data[10][1]) and gap==n(data[11][1])==n(data[12][1])
-    parts=[sums['old_kept']-totals['Giữ nguyên, không import'],-totals['Chờ xác minh'],validret-allret];assert sum(parts)==gap
+    parts=[sums['old_kept']-totals['Giữ nguyên, không import'],-totals['Chờ xác minh'],validret-allret]
+    if excluded:parts.append(-excluded)
+    assert sum(parts)==gap
     assert sum(n(r[12]) for r in body)==parts[0]
     assert all('dự' in str(matrix[i][0]).lower() or i in [6,10,11,12] for i in [4,5,6,7,8])
     assert all(str(matrix[i][11]).startswith('=IF(') for i in range(14,len(matrix)))
     proof={'passed':True,'rows':m['rows'],'roots':len(roots),'old_chains_planned_zero_checked':len(plans),'all_source_hashes_match':True,'scope_and_return_exclusions_checked':True,'projected_goods':float(projected),'amis_goods_scope':float(amis),'difference':float(gap),'difference_components':list(map(float,parts)),'draft_not_issued':True,'no_forced_zero_difference':True,'formula_cells':sum(isinstance(v,str) and v.startswith('=') for r in matrix for v in r)}
+    if m['summary'].get('gift_invoices_kept'):
+        policy=read(OUT/'unmapped-gift-confirmation.json')
+        kept={r['root'] for r in roots if r['state']=='Biếu tặng — KT chốt giữ, theo dõi riêng'}
+        assert policy['accountant_decision']=='keep' and kept==set(policy['invoice_roots'])
+        assert len(kept)==m['summary']['gift_invoices_kept']==16
+        assert not kept.intersection(plan['root'] for plan in plans)
+        assert all(byroot[key][6] is None and byroot[key][11] is None and byroot[key][14] is not None for key in kept)
+        proof['gift_invoices_kept']=len(kept)
     (WORK/'verification.json').write_text(json.dumps(proof,ensure_ascii=False,indent=2),encoding='utf-8');print(json.dumps(proof,ensure_ascii=False))
 if __name__=='__main__':main()
