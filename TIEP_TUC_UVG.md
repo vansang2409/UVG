@@ -1,3 +1,15 @@
+# Tách cột hàng hóa HĐ giữ lại và kiểm tra lô thay thế — 10/11/2026
+
+Tab [HĐ meInvoice giữ lại 2025](https://docs.google.com/spreadsheets/d/1jACpDPSlOCjq-25hF_g5-06eZKD3e2Fq88j472wjTiA/edit#gid=1330675350&range=J4:N90) có 35.242 dòng. Cột J:N hiển thị riêng tên và số lượng meInvoice, rồi mã, tên và số lượng AMIS. Nguồn meInvoice của tab chưa có mã hàng riêng. HĐ nhiều mặt hàng đánh số theo thứ tự của từng nguồn. Hai cột nội dung gốc O:P nằm trong nhóm thu gọn, mở bằng nút `+`. Đã đọc lại toàn bộ vùng J:P và kiểm tra bố cục trên Sheets.
+
+Ở tab thay thế về 0, đã đối chiếu bản thể hiện meInvoice và sửa thuế suất cho 8 HĐ từ 0% thành 8%. Nhóm này có tiền hàng và VAT dự thảo bằng 0. Lô 1.995 HĐ có 1.994 HĐ thuế suất 8% và 1 HĐ thuế suất 10%.
+
+File kết quả meInvoice báo lỗi định dạng ngày bị thay thế khi ô chứa số ngày Excel. Bản thử mới chuyển cột ngày bị thay thế sang văn bản `dd/mm/yyyy` và người dùng xác nhận **3/3 hợp lệ** ở bước Kiểm tra dữ liệu. Lô 998 HĐ không hiển thị kết quả. Chưa xác định nguyên nhân.
+
+Đã chuẩn bị 10 file kiểm tra, tối đa 200 HĐ mỗi file, ở thư mục cục bộ `outputs/import-2025-20261109/MEINVOICE_TEST_NGAY/LO_TOI_DA_200_HD/`. Đã đối chiếu đủ 1.995 tham chiếu và ngày, không trùng. Bước tiếp theo là kiểm tra từng file nhỏ trên meInvoice. Đây là các file thử riêng với bộ ZIP bàn giao, chưa có kết quả kiểm tra từng lô.
+
+---
+
 # Cập nhật tab TỔNG HỢP HĐ 2025 — 10/11/2026
 
 - Dòng 6–8 đã thể hiện giá trị gốc và phần giảm tương ứng của 3 dự thảo điều chỉnh và 6 dự thảo thay thế về 0. Tiêu đề phần I ghi rõ phạm vi theo ngày HĐ gốc từ T7/2025 đến T1/2026. Ghi chú tại dòng 6 và 8 nêu riêng phần HĐ gốc tháng 1/2026.
