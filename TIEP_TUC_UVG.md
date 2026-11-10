@@ -1,3 +1,11 @@
+# Bố cục chi tiết HĐ giữ lại — 10/11/2026
+
+Tab **HĐ meInvoice giữ lại 2025** hiển thị mỗi mặt hàng trên một dòng ở vùng `AE:AT`. Trong từng hóa đơn, các dòng meInvoice nằm trên các dòng AMIS. Số HĐ, mã đơn và chứng từ AMIS hiện ở dòng đầu của mỗi nhóm. Lọc theo số HĐ hoặc mã đơn để xem cả hai nhóm. Các khoản tiền chỉ hiện ở dòng đầu của hóa đơn.
+
+Vùng bố cục cũ `A:AD` được thu gọn trong cùng tab. Bấm nút `+` phía trên cột AE để mở lại.
+
+---
+
 # Tách cột hàng hóa HĐ giữ lại và kiểm tra lô thay thế — 10/11/2026
 
 Tab [HĐ meInvoice giữ lại 2025](https://docs.google.com/spreadsheets/d/1jACpDPSlOCjq-25hF_g5-06eZKD3e2Fq88j472wjTiA/edit#gid=1330675350&range=J4:N90) có 35.242 dòng. Cột J:N hiển thị riêng tên và số lượng meInvoice, rồi mã, tên và số lượng AMIS. Nguồn meInvoice của tab chưa có mã hàng riêng. HĐ nhiều mặt hàng đánh số theo thứ tự của từng nguồn. Hai cột nội dung gốc O:P nằm trong nhóm thu gọn, mở bằng nút `+`. Đã đọc lại toàn bộ vùng J:P và kiểm tra bố cục trên Sheets.
