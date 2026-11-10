@@ -385,34 +385,35 @@
   "exported_files": [
     {
       "file": "IMPORT_HD_MOI_2025.xlsx",
-      "invoices": 30265,
-      "rows": 35047,
-      "sha256": "a9d9b6d9667274121bab3baba778b1b1ecbdfd774d40e693b0d3f5558a7ae4bb"
+      "invoices": 30263,
+      "rows": 35042,
+      "sha256": "213623270644b0251f3327a2b99910e0461cfd052c3eb3d7d4a5437431d9fc29",
+      "columns": 22
     },
     {
       "file": "IMPORT_DIEU_CHINH_VE_0_2025.xlsx",
-      "invoices": 27,
-      "rows": 35,
-      "sha256": "8a6d5313fddb896b4e687ccd30eca4f38d0c97d09da89e1fb4eb22a0833b990e"
+      "invoices": 30,
+      "rows": 38,
+      "sha256": "06b5497b83b31664f8486cca5452733641a8415c1bcb02295893e9b57366661c"
     },
     {
       "file": "IMPORT_THAY_THE_VE_0_2025.xlsx",
-      "invoices": 1989,
-      "rows": 1989,
-      "sha256": "b3ba45243a2b1cf3ba660bf38db78301f9bd30a996493de5ba682358dbada329"
+      "invoices": 1995,
+      "rows": 1995,
+      "sha256": "329d9dbbb84196ebcc84a274ec65e3a97c1672bae5d8471060eabe0300c5e851"
     },
     {
       "file": "BAO_CAO_IMPORT_2025.xlsx",
-      "sha256": "a1ba9ffe54306f7bdfea9677465ceb640bd229e0c68fb5a52c39483ea50e76ab"
+      "sha256": "3e82a9631dfee662988a874236a7d761685f7914c2419bf120d03b0d278e19e5"
     },
     {
       "file": "IMPORT_DIEU_CHINH_BTL_2025_CHO_SO_HD.xlsx",
       "invoices": 321,
       "rows": 410,
-      "sha256": "31702bcc4a979a0cc691f1924d3c648bdfab71c5b4834944bf0ce085b6a07f42"
+      "sha256": "4415b5fc727d2086b03219d86a17d586542daa8c0df65866613dcfa3c4b66d3f"
     }
   ],
-  "new_docs_unique": 30265,
+  "new_docs_unique": 30263,
   "zero_chains": 2008,
   "no_company_import": true,
   "all_import_cells_roundtrip": true,
@@ -555,5 +556,276 @@
   "scripts_verified_with_normalized_line_endings": [
     "scripts\\apply_psc2_exchange_20261109.py"
   ],
-  "gift_invoices_kept": 16
+  "gift_invoices_kept": 16,
+  "akia_sync_20261110": {
+    "passed": true,
+    "all_sales_rows_compared": 35042,
+    "removed_sales_rows": 5,
+    "sheet_order_fingerprint": "cbc6189f4cd89183",
+    "btl_rows_checked": 410,
+    "btl_link_rows_checked": 412,
+    "bgg_rows_checked": 1,
+    "bgg_standalone_sha256": "3ead562547002e8060318c9be94afae59c80449d23f28a67bde2041b58b0283b",
+    "scope": [
+      80412620878,
+      6433195173
+    ],
+    "company_documents": 397,
+    "sheet_money_fingerprint": "80093ccbac32017f",
+    "csv_sale_notes_updated": 24,
+    "report_sale_notes_updated": 15,
+    "sheet_references_readback": true,
+    "sheet_review_notes_checked": 24
+  },
+  "new_import_sheet_layout_20261110": {
+    "passed": true,
+    "sheet_url": "https://docs.google.com/spreadsheets/d/1jACpDPSlOCjq-25hF_g5-06eZKD3e2Fq88j472wjTiA/edit#gid=0",
+    "rows_checked": 35042,
+    "columns": 22,
+    "removed_column": "Dòng nguồn",
+    "import_last_columns": [
+      "Hàng khuyến mại",
+      "Mã đơn hàng",
+      "Mã hàng"
+    ],
+    "audit_columns": [
+      "Số chứng từ",
+      "Ngày chứng từ AMIS"
+    ],
+    "invoices": 30263,
+    "goods": 37067706702,
+    "vat": 2965602824,
+    "promotion_lines": 8,
+    "source_xlsx_sha256": "f7d09d1a48baf47310a21267b5c1ba7574f6ed8486b2cfe7304430fde03b71c8",
+    "updated_xlsx_sha256": "341f249fc487ff5504cfc17464ebe1608e5ce83e507289854905e65a4644eb5f"
+  },
+  "nine_live_zero_drafts_20261110": {
+    "passed": true,
+    "records": [
+      {
+        "root": "1C25MUV/00017811",
+        "kept": "1C25MUV/00017754",
+        "doc": "BHHT2025029775",
+        "kind": "replacement",
+        "seq": 1990,
+        "before": [
+          1108217,
+          88657,
+          1196874
+        ],
+        "after": [
+          0,
+          0,
+          0
+        ],
+        "note": "Thay thế HĐ 1C25MUV/00017811 về 0 do xuất trùng. Giữ HĐ 1C25MUV/00017754 cho BHHT2025029775."
+      },
+      {
+        "root": "1C25MUV/00017994",
+        "kept": "1C25MUV/00017754",
+        "doc": "BHHT2025029775",
+        "kind": "replacement",
+        "seq": 1991,
+        "before": [
+          1108217,
+          88657,
+          1196874
+        ],
+        "after": [
+          0,
+          0,
+          0
+        ],
+        "note": "Thay thế HĐ 1C25MUV/00017994 về 0 do xuất trùng. Giữ HĐ 1C25MUV/00017754 cho BHHT2025029775."
+      },
+      {
+        "root": "1C25MUV/00018305",
+        "kept": "1C25MUV/00017754",
+        "doc": "BHHT2025029775",
+        "kind": "replacement",
+        "seq": 1992,
+        "before": [
+          1108217,
+          88657,
+          1196874
+        ],
+        "after": [
+          0,
+          0,
+          0
+        ],
+        "note": "Thay thế HĐ 1C25MUV/00018305 về 0 do xuất trùng. Giữ HĐ 1C25MUV/00017754 cho BHHT2025029775."
+      },
+      {
+        "root": "1C25MUV/00021512",
+        "kept": "1C25MUV/00021270",
+        "doc": "BHHL2025000226",
+        "kind": "replacement",
+        "seq": 1993,
+        "before": [
+          444827,
+          35586,
+          480413
+        ],
+        "after": [
+          0,
+          0,
+          0
+        ],
+        "note": "Thay thế HĐ 1C25MUV/00021512 về 0 do xuất trùng. Giữ HĐ 1C25MUV/00021270 cho BHHL2025000226."
+      },
+      {
+        "root": "1C25MUV/00025917",
+        "kept": "1C25MUV/00025916",
+        "doc": "BHHT2025039308",
+        "kind": "replacement",
+        "seq": 1994,
+        "before": [
+          1314666,
+          105173,
+          1419839
+        ],
+        "after": [
+          0,
+          0,
+          0
+        ],
+        "note": "Thay thế HĐ 1C25MUV/00025917 về 0 do xuất trùng. Giữ HĐ 1C25MUV/00025916 cho BHHT2025039308."
+      },
+      {
+        "root": "1C25MUV/00029307",
+        "kept": "1C25MUV/00029306",
+        "doc": "BHHT2025038170",
+        "kind": "replacement",
+        "seq": 1995,
+        "before": [
+          3832406,
+          306593,
+          4138999
+        ],
+        "after": [
+          0,
+          0,
+          0
+        ],
+        "note": "Thay thế HĐ 1C25MUV/00029307 về 0 do xuất trùng. Giữ HĐ 1C25MUV/00029306 cho BHHT2025038170."
+      },
+      {
+        "root": "1C25MUV/00026379",
+        "f1_zero": "1C25MUV/00028077",
+        "kept": "1C25MUV/00021797",
+        "doc": "BHHT2025040428",
+        "kind": "adjustment",
+        "seq": 28,
+        "before": [
+          1147222,
+          91778,
+          1239000
+        ],
+        "after": [
+          0,
+          0,
+          0
+        ],
+        "note": "Điều chỉnh giảm toàn bộ tiền hàng và VAT cho HĐ 1C25MUV/00026379 ngày 12/12/2025 do xuất trùng, đưa chuỗi về 0. Giữ HĐ 1C25MUV/00021797.",
+        "corrected_fields_from_f1": {
+          "unit": "Cái",
+          "price": 1147222
+        },
+        "source_detail": [
+          "Bang_ke_chi_tiet_HD_da_su_dung_2025_MTT.xls!9779",
+          "Bang_ke_chi_tiet_HD_da_su_dung_2025_MTT.xls!7795"
+        ]
+      },
+      {
+        "root": "1C25MUV/00026380",
+        "f1_zero": "1C25MUV/00028078",
+        "kept": "1C25MUV/00021798",
+        "doc": "BHHT2025040427",
+        "kind": "adjustment",
+        "seq": 29,
+        "before": [
+          1147222,
+          91778,
+          1239000
+        ],
+        "after": [
+          0,
+          0,
+          0
+        ],
+        "note": "Điều chỉnh giảm toàn bộ tiền hàng và VAT cho HĐ 1C25MUV/00026380 ngày 12/12/2025 do xuất trùng, đưa chuỗi về 0. Giữ HĐ 1C25MUV/00021798.",
+        "corrected_fields_from_f1": {
+          "unit": "Cái",
+          "price": 1147222
+        },
+        "source_detail": [
+          "Bang_ke_chi_tiet_HD_da_su_dung_2025_MTT.xls!9778",
+          "Bang_ke_chi_tiet_HD_da_su_dung_2025_MTT.xls!7794"
+        ]
+      },
+      {
+        "root": "1C25MUV/00026381",
+        "f1_zero": "1C25MUV/00028079",
+        "kept": "1C25MUV/00021799",
+        "doc": "BHHT2025040437",
+        "kind": "adjustment",
+        "seq": 30,
+        "before": [
+          1369444,
+          109556,
+          1479000
+        ],
+        "after": [
+          0,
+          0,
+          0
+        ],
+        "note": "Điều chỉnh giảm toàn bộ tiền hàng và VAT cho HĐ 1C25MUV/00026381 ngày 12/12/2025 do xuất trùng, đưa chuỗi về 0. Giữ HĐ 1C25MUV/00021799.",
+        "corrected_fields_from_f1": {
+          "unit": "Cái",
+          "price": 1369444
+        },
+        "source_detail": [
+          "Bang_ke_chi_tiet_HD_da_su_dung_2025_MTT.xls!9777",
+          "Bang_ke_chi_tiet_HD_da_su_dung_2025_MTT.xls!7793"
+        ]
+      }
+    ],
+    "excluded": "1C25MUV/00012398",
+    "money": [
+      12580438,
+      1006435,
+      13586873
+    ],
+    "report_projection_effect": [
+      0,
+      0
+    ],
+    "sheet_readback": {
+      "draft_rows": 9,
+      "review_statuses": 9,
+      "kept_invoices": 7,
+      "excluded_00012398_unchanged": true
+    }
+  },
+  "consumer_bhhn2025000211_sync": {
+    "passed": true,
+    "source_sheet": "Import HD moi",
+    "source_range": "C34124:F34124",
+    "document": "BHHN2025000211",
+    "invoice_sequence": 29529,
+    "buyer": "Bán cho người tiêu dùng",
+    "goods": 107407,
+    "vat": 8593,
+    "total": 116000,
+    "old_xlsx_sha256": "341f249fc487ff5504cfc17464ebe1608e5ce83e507289854905e65a4644eb5f",
+    "new_xlsx_sha256": "213623270644b0251f3327a2b99910e0461cfd052c3eb3d7d4a5437431d9fc29",
+    "verified_only_changed_cells": [
+      "C34124",
+      "D34124",
+      "E34124",
+      "F34124"
+    ]
+  }
 }

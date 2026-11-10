@@ -1,3 +1,18 @@
+# Đồng bộ bộ import HĐ 2025 — 10/11/2026
+
+Đã rút `BHHN2025000486` và `BHHN2025000611` khỏi Excel bán mới theo Google Sheets. Hai chứng từ khớp với HĐ công ty `1C25TUV/00001037` và `1C25TUV/00000027`. Phần rút gồm 5 dòng, 5.849.333đ tiền hàng và 467.947đ VAT.
+
+Bộ ZIP hiện hành có **30.263 HĐ bán mới trên 35.042 dòng**, **1.995 HĐ thay thế về 0**, **30 HĐ điều chỉnh về 0** và **321 phiếu trả hàng trên 410 dòng**. Phương án dự kiến cùng phạm vi khớp AMIS ở 80.412.620.878đ tiền hàng và 6.433.195.173đ VAT.
+
+Đã bổ sung 6 dự thảo thay thế HĐ trùng (STT 1990–1995) và 3 dự thảo điều chỉnh giảm chuỗi còn tiền (STT 28–30). Giữ 7 HĐ đã chốt và để HĐ `1C25MUV/00012398` ngoài lô. Dòng bán mới `BHHN2025000211` (STT 29529) đã lấy thông tin “Bán cho người tiêu dùng” từ Sheets.
+
+Đợt cập nhật ZIP này đồng bộ thông tin người mua của STT 29529. Các thay đổi khác ở cột Ngày hóa đơn và Người mua hàng trên tab Import HD moi còn chờ đồng bộ vào ZIP trước khi nhập meInvoice.
+
+Đã cập nhật STT và dòng đầu Excel trong CSV liên kết bán mới. Cập nhật 317 dòng BTL, phiếu `BGG00001` về STT bán mới 1.899 và 24 ghi chú trên tab rà soát. Cột J:M của BTL/BGG còn chờ thông tin HĐ thực tế. Bộ ZIP gồm 5 file đã kiểm tra CRC và SHA-256. File BGG cập nhật nằm cạnh ZIP. Kết quả kiểm tra nằm tại mục `akia_sync_20261110` trong `verification.json`. Các STT trong các mục bàn giao cũ là mốc lịch sử. Tra STT hiện hành tại `LIEN_KET_IMPORT_MOI.csv`.
+
+---
+
+
 # Kiểm tra bàn giao bộ import HĐ 2025 — 09/11/2026
 
 Đã đối chiếu đủ 5 tab import trên [Xử lý HĐ 2025](https://docs.google.com/spreadsheets/d/1jACpDPSlOCjq-25hF_g5-06eZKD3e2Fq88j472wjTiA/edit?gid=700000107#gid=700000107) với Excel. BTL00449 và BTL00488 đã đồng bộ trạng thái dùng số trên phiếu AMIS và chờ số HĐ bán mới. Xem kết quả chi tiết, đường dẫn bộ ZIP và file BGG riêng trong `outputs/import-2025-20261109/HUONG_DAN.md`.

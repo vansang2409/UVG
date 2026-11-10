@@ -1,4 +1,4 @@
-﻿Chứng từ AMIS,Ngày hạch toán,Phân loại,Tiền hàng AMIS,VAT AMIS,Thanh toán AMIS,Dòng AMIS bản sao,Lệch trên Sheet,Chuỗi liên quan,Kiểm chi tiết,Ghi chú
+Chứng từ AMIS,Ngày hạch toán,Phân loại,Tiền hàng AMIS,VAT AMIS,Thanh toán AMIS,Dòng AMIS bản sao,Lệch trên Sheet,Chuỗi liên quan,Kiểm chi tiết,Ghi chú
 BHHT2025040270,2025-12-31,"Giữ nguyên, không import",3962037,316963,4279000,2,0,1C25MUV/00034720,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHT2025040269,2025-12-31,"Giữ nguyên, không import",3499074,279926,3779000,3,0,1C25MUV/00034872,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHT2025040246,2025-12-31,"Giữ nguyên, không import",1317405,105392,1422797,4,0,1C25MUV/00034768,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
@@ -1579,7 +1579,7 @@ BHHT2025034860,2025-12-24,"Giữ nguyên, không import",170370,13630,184000,158
 BHHT2025034855,2025-12-24,"Giữ nguyên, không import",1369444,109555,1478999,1586,0,1C25MUV/00033195,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHT2025034849,2025-12-24,"Giữ nguyên, không import",3036111,242889,3279000,1587,0,1C25MUV/00033199,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHT2025034848,2025-12-24,"Giữ nguyên, không import",1147222,91778,1239000,1588,0,1C25MUV/00033200,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
-BHHT2025034835,2025-12-24,Tạo import mới,165704,18536,184240,1589,66000,1C25MUV/00033213,Chưa so chi tiết,"Thay thế HĐ cuối 1C25MUV/00034899 về 0, STT 1981. Bán mới STT 30249. VAT 18.536đ theo AMIS 09/11."
+BHHT2025034835,2025-12-24,Tạo import mới,165704,18536,184240,1589,66000,1C25MUV/00033213,Chưa so chi tiết,"Thay thế HĐ cuối 1C25MUV/00034899 về 0, STT 1981. Bán mới STT 30247. VAT 18.536đ theo AMIS 09/11."
 BHHT2025034826,2025-12-24,"Giữ nguyên, không import",231704,18536,250240,1590,0,1C25MUV/00033221,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHT2025034815,2025-12-24,"Giữ nguyên, không import",1147222,91778,1239000,1591,0,1C25MUV/00033225,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHT2025034813,2025-12-24,"Giữ nguyên, không import",2073148,165852,2239000,1592,0,1C25MUV/00033226,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
@@ -2238,7 +2238,7 @@ BHHS2025023518,2025-12-22,"Giữ nguyên, không import",1795369,143630,1938999,
 BHHS2025023517,2025-12-22,"Giữ nguyên, không import",499074,39926,539000,2245,0,1C25MUV/00033019,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHS2025023516,2025-12-22,"Giữ nguyên, không import",1795369,143630,1938999,2246,0,1C25MUV/00032941,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHS2025023515,2025-12-22,"Giữ nguyên, không import",2443518,195481,2638999,2247,0,1C25MUV/00032940,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
-BHHS2025023514,2025-12-22,Tạo import mới,499074,39926,539000,2248,-140000,1C25MUV/00033085,Chưa so chi tiết,"Số dư chuỗi khác AMIS; Chuỗi thay thế phức tạp. Thay thế tiếp HĐ cuối 1C26MUV/00020846 về 0, dự thảo thay thế STT 1982, bán mới STT 30250."
+BHHS2025023514,2025-12-22,Tạo import mới,499074,39926,539000,2248,-140000,1C25MUV/00033085,Chưa so chi tiết,"Số dư chuỗi khác AMIS; Chuỗi thay thế phức tạp. Thay thế tiếp HĐ cuối 1C26MUV/00020846 về 0, dự thảo thay thế STT 1982, bán mới STT 30248."
 BHHS2025023513,2025-12-22,"Giữ nguyên, không import",1091666,87333,1178999,2249,0,1C25MUV/00032939,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHS2025023512,2025-12-22,"Giữ nguyên, không import",3128596,250288,3378884,2250,0,1C25MUV/00033518,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHS2025023511,2025-12-22,"Giữ nguyên, không import",499074,39926,539000,2251,0,1C25MUV/00033517,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
@@ -2483,7 +2483,7 @@ BHHT2025035244,2025-12-21,"Giữ nguyên, không import",2443519,195481,2639000,
 BHHT2025035243,2025-12-21,"Giữ nguyên, không import",2443519,195481,2639000,2491,0,1C25MUV/00032435,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHT2025035242,2025-12-21,"Giữ nguyên, không import",1369444,109555,1478999,2492,0,1C25MUV/00032437,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHT2025035241,2025-12-21,"Giữ nguyên, không import",3128596,250288,3378884,2493,0,1C25MUV/00032439,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
-BHHT2025035240,2025-12-21,Tạo import mới,628704,50296,679000,2494,0,1C25MUV/00032440,Chưa so chi tiết,Lệch 1–2đ so với AMIS. Đưa 1C25MUV/00034896 về 0 ở STT 1982 và lập bán mới theo BHHT2025035240 ở STT 30243. HĐ gốc 1C25MUV/00032440 đã bị thay thế.
+BHHT2025035240,2025-12-21,Tạo import mới,628704,50296,679000,2494,0,1C25MUV/00032440,Chưa so chi tiết,Lệch 1–2đ so với AMIS. Đưa 1C25MUV/00034896 về 0 ở STT 1982 và lập bán mới theo BHHT2025035240 ở STT 30241. HĐ gốc 1C25MUV/00032440 đã bị thay thế.
 BHHT2025035239,2025-12-21,"Giữ nguyên, không import",499074,39926,539000,2495,0,1C25MUV/00032442,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHT2025035238,2025-12-21,"Giữ nguyên, không import",170370,13630,184000,2496,0,1C25MUV/00032443,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHT2025035237,2025-12-21,"Giữ nguyên, không import",1317405,105392,1422797,2497,0,1C25MUV/00032446,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
@@ -2501,7 +2501,7 @@ BHHT2025035226,2025-12-21,"Giữ nguyên, không import",628704,50296,679000,250
 BHHT2025035225,2025-12-21,"Giữ nguyên, không import",3128596,250288,3378884,2509,0,1C25MUV/00032469,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHT2025035224,2025-12-21,"Giữ nguyên, không import",499074,39926,539000,2510,0,1C25MUV/00032472,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHT2025035223,2025-12-21,"Giữ nguyên, không import",1795370,143630,1939000,2511,0,1C25MUV/00032471,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
-BHHT2025035222,2025-12-21,Tạo import mới,3165741,253259,3419000,2512,744000,1C25MUV/00032473,Chưa so chi tiết,"Số dư chuỗi khác AMIS; Chuỗi thay thế phức tạp. Thay thế tiếp HĐ cuối 1C25MUV/00034897 về 0, dự thảo thay thế STT 1983, bán mới STT 30251."
+BHHT2025035222,2025-12-21,Tạo import mới,3165741,253259,3419000,2512,744000,1C25MUV/00032473,Chưa so chi tiết,"Số dư chuỗi khác AMIS; Chuỗi thay thế phức tạp. Thay thế tiếp HĐ cuối 1C25MUV/00034897 về 0, dự thảo thay thế STT 1983, bán mới STT 30249."
 BHHT2025035221,2025-12-21,"Giữ nguyên, không import",628703,50296,678999,2513,0,1C25MUV/00032474,Khớp nguyên văn,
 BHHT2025035220,2025-12-21,"Giữ nguyên, không import",1147222,91778,1239000,2514,0,1C25MUV/00032475,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHT2025035219,2025-12-21,"Giữ nguyên, không import",1369444,109555,1478999,2515,0,1C25MUV/00032476,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
@@ -2945,7 +2945,7 @@ BHHT2025036079,2025-12-19,"Giữ nguyên, không import",915741,73259,989000,295
 BHHT2025036073,2025-12-19,"Giữ nguyên, không import",2738887,219111,2957998,2953,0,1C25MUV/00030871,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHT2025036066,2025-12-19,"Giữ nguyên, không import",1309189,104735,1413924,2954,0,1C25MUV/00030885,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHT2025036063,2025-12-19,"Giữ nguyên, không import",879111,70329,949440,2955,0,1C25MUV/00030889,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
-BHHT2025036055,2025-12-19,Tạo import mới,2813888,225111,3038999,2956,400000,1C25MUV/00030901,Chưa so chi tiết,"Số dư chuỗi khác AMIS; Chuỗi thay thế phức tạp. Thay thế tiếp HĐ cuối 1C26MUV/00002852 về 0, dự thảo thay thế STT 1984, bán mới STT 30252."
+BHHT2025036055,2025-12-19,Tạo import mới,2813888,225111,3038999,2956,400000,1C25MUV/00030901,Chưa so chi tiết,"Số dư chuỗi khác AMIS; Chuỗi thay thế phức tạp. Thay thế tiếp HĐ cuối 1C26MUV/00002852 về 0, dự thảo thay thế STT 1984, bán mới STT 30250."
 BHHT2025036043,2025-12-19,"Giữ nguyên, không import",1101333,88107,1189440,2957,0,1C25MUV/00030922,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHT2025036028,2025-12-19,"Giữ nguyên, không import",1795370,143630,1939000,2958,0,1C25MUV/00030942,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHT2025036027,2025-12-19,"Giữ nguyên, không import",1314666,105173,1419839,2959,0,1C25MUV/00030944,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
@@ -3736,7 +3736,7 @@ BHHT2025035950,2025-12-18,"Giữ nguyên, không import",1101333,88107,1189440,3
 BHHT2025035949,2025-12-18,"Giữ nguyên, không import",1314666,105173,1419839,3745,0,1C25MUV/00031048,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHT2025035948,2025-12-18,"Giữ nguyên, không import",1721296,137704,1859000,3746,0,1C25MUV/00031053,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHT2025035947,2025-12-18,"Giữ nguyên, không import",170370,13630,184000,3747,0,1C25MUV/00031051,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
-BHHT2025035946,2025-12-18,Tạo import mới,2073147,165852,2238999,3748,2238999,1C25MUV/00031054,Chưa so chi tiết,Chuỗi 1C25MUV/00031054 → 1C25MUV/00034893 → 1C26MUV/00002639 đã về 0 theo tab KT. Bán mới dự thảo STT 30260.
+BHHT2025035946,2025-12-18,Tạo import mới,2073147,165852,2238999,3748,2238999,1C25MUV/00031054,Chưa so chi tiết,Chuỗi 1C25MUV/00031054 → 1C25MUV/00034893 → 1C26MUV/00002639 đã về 0 theo tab KT. Bán mới dự thảo STT 30258.
 BHHT2025035945,2025-12-18,"Giữ nguyên, không import",1721296,137704,1859000,3749,0,1C25MUV/00031057,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHT2025035944,2025-12-18,"Giữ nguyên, không import",1309188,104735,1413923,3750,0,1C25MUV/00031058,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHT2025035943,2025-12-18,"Giữ nguyên, không import",1309189,104735,1413924,3751,0,1C25MUV/00031060,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
@@ -4477,7 +4477,7 @@ BHHT2025036321,2025-12-17,"Giữ nguyên, không import",915741,73259,989000,448
 BHHT2025036319,2025-12-17,"Giữ nguyên, không import",1314666,105173,1419839,4486,0,1C25MUV/00031041,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHT2025036318,2025-12-17,"Giữ nguyên, không import",3036111,242889,3279000,4487,0,1C25MUV/00031279,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHT2025036317,2025-12-17,"Giữ nguyên, không import",884259,70741,955000,4488,0,1C25MUV/00031045,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
-BHHT2025036316,2025-12-17,Tạo import mới,1314666,105173,1419839,4489,-519000,1C25MUV/00031049,Chưa so chi tiết,"Số dư chuỗi khác AMIS; Chuỗi thay thế phức tạp. Thay thế tiếp HĐ cuối 1C26MUV/00012290 về 0, dự thảo thay thế STT 1985, bán mới STT 30253."
+BHHT2025036316,2025-12-17,Tạo import mới,1314666,105173,1419839,4489,-519000,1C25MUV/00031049,Chưa so chi tiết,"Số dư chuỗi khác AMIS; Chuỗi thay thế phức tạp. Thay thế tiếp HĐ cuối 1C26MUV/00012290 về 0, dự thảo thay thế STT 1985, bán mới STT 30251."
 BHHT2025036315,2025-12-17,"Giữ nguyên, không import",1314666,105173,1419839,4490,0,1C25MUV/00031052,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHT2025036314,2025-12-17,"Giữ nguyên, không import",879111,70329,949440,4491,0,1C25MUV/00031050,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHT2025036313,2025-12-17,"Giữ nguyên, không import",2813888,225111,3038999,4492,0,1C25MUV/00031055,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
@@ -4679,7 +4679,7 @@ BHHT2025037752,2025-12-16,"Giữ nguyên, không import",896510,71721,968231,468
 BHHT2025037746,2025-12-16,"Giữ nguyên, không import",3036111,242889,3279000,4688,0,1C25MUV/00029226,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHT2025037740,2025-12-16,"Giữ nguyên, không import",645300,51624,696924,4689,0,1C25MUV/00029232,Khớp nguyên văn,
 BHHT2025037737,2025-12-16,"Giữ nguyên, không import",896510,71721,968231,4690,0,1C25MUV/00029233,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
-BHHT2025037734,2025-12-16,Tạo import mới,1300971,104078,1405049,4691,-1234000,1C25MUV/00029234,Chưa so chi tiết,"Số dư chuỗi khác AMIS; Chuỗi thay thế phức tạp. Thay thế tiếp HĐ cuối 1C25MUV/00034892 về 0, dự thảo thay thế STT 1986, bán mới STT 30254."
+BHHT2025037734,2025-12-16,Tạo import mới,1300971,104078,1405049,4691,-1234000,1C25MUV/00029234,Chưa so chi tiết,"Số dư chuỗi khác AMIS; Chuỗi thay thế phức tạp. Thay thế tiếp HĐ cuối 1C25MUV/00034892 về 0, dự thảo thay thế STT 1986, bán mới STT 30252."
 BHHT2025037727,2025-12-16,"Giữ nguyên, không import",1969490,157559,2127049,4692,0,1C25MUV/00029317,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHT2025037719,2025-12-16,"Giữ nguyên, không import",1147222,91778,1239000,4693,0,1C25MUV/00029253,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHT2025037716,2025-12-16,"Giữ nguyên, không import",1369444,109555,1478999,4694,0,1C25MUV/00029254,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
@@ -5417,7 +5417,7 @@ BHHT2025038492,2025-12-15,"Giữ nguyên, không import",1795370,143630,1939000,
 BHHT2025038471,2025-12-15,"Giữ nguyên, không import",1721296,137704,1859000,5426,0,1C25MUV/00027401,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHT2025038458,2025-12-15,"Giữ nguyên, không import",3962037,316963,4279000,5427,0,1C25MUV/00027833,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHT2025038446,2025-12-15,"Giữ nguyên, không import",1147222,91778,1239000,5428,0,1C25MUV/00027434,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
-BHHT2025038444,2025-12-15,Tạo import mới,2516666,201333,2717999,5429,99120,1C25MUV/00027821,Chưa so chi tiết,Thay thế F0 về 0 STT 1248; bán mới STT 30261. Đã xác nhận xử lý chênh VAT trên HĐ cũ.
+BHHT2025038444,2025-12-15,Tạo import mới,2516666,201333,2717999,5429,99120,1C25MUV/00027821,Chưa so chi tiết,Thay thế F0 về 0 STT 1248; bán mới STT 30259. Đã xác nhận xử lý chênh VAT trên HĐ cũ.
 BHHT2025038437,2025-12-15,"Giữ nguyên, không import",2073148,165852,2239000,5430,0,1C25MUV/00027446,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHT2025038429,2025-12-15,"Giữ nguyên, không import",2073148,165852,2239000,5431,0,1C25MUV/00027458,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHT2025038406,2025-12-15,"Giữ nguyên, không import",1127778,90222,1218000,5432,0,1C25MUV/00027510,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
@@ -6117,12 +6117,12 @@ BHHT2025038438,2025-12-14,"Giữ nguyên, không import",1721295,137704,1858999,
 BHHT2025038436,2025-12-14,"Giữ nguyên, không import",1721296,137704,1859000,6125,0,1C25MUV/00027448,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHT2025038435,2025-12-14,"Giữ nguyên, không import",2073148,165852,2239000,6126,0,1C25MUV/00027449,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHT2025038434,2025-12-14,"Giữ nguyên, không import",879111,70329,949440,6127,0,1C25MUV/00027450,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
-BHHT2025038433,2025-12-14,Tạo import mới,628330,50266,678596,6128,158841,1C25MUV/00027452,Chưa so chi tiết,"Số dư chuỗi khác AMIS; Chuỗi thay thế phức tạp. Thay thế tiếp HĐ cuối 1C25MUV/00034903 về 0, dự thảo thay thế STT 1987, bán mới STT 30255."
+BHHT2025038433,2025-12-14,Tạo import mới,628330,50266,678596,6128,158841,1C25MUV/00027452,Chưa so chi tiết,"Số dư chuỗi khác AMIS; Chuỗi thay thế phức tạp. Thay thế tiếp HĐ cuối 1C25MUV/00034903 về 0, dự thảo thay thế STT 1987, bán mới STT 30253."
 BHHT2025038432,2025-12-14,"Giữ nguyên, không import",2813889,225111,3039000,6129,0,1C25MUV/00027796,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHT2025038431,2025-12-14,"Giữ nguyên, không import",1096744,87740,1184484,6130,0,1C25MUV/00027454,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHT2025038430,2025-12-14,"Giữ nguyên, không import",628704,50296,679000,6131,0,1C25MUV/00027457,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHT2025038428,2025-12-14,"Giữ nguyên, không import",2073147,165852,2238999,6132,0,1C25MUV/00027460,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
-BHHT2025038427,2025-12-14,Tạo import mới,3312963,265037,3578000,6133,43120,1C25MUV/00027825,Chưa so chi tiết,Thay thế F0 về 0 STT 1987; bán mới STT 30262. Đã xác nhận xử lý chênh VAT trên HĐ cũ.
+BHHT2025038427,2025-12-14,Tạo import mới,3312963,265037,3578000,6133,43120,1C25MUV/00027825,Chưa so chi tiết,Thay thế F0 về 0 STT 1987; bán mới STT 30260. Đã xác nhận xử lý chênh VAT trên HĐ cũ.
 BHHT2025038426,2025-12-14,"Giữ nguyên, không import",628704,50296,679000,6134,0,1C25MUV/00027463,Khớp nguyên văn,
 BHHT2025038425,2025-12-14,"Giữ nguyên, không import",1369444,109555,1478999,6135,0,1C25MUV/00027464,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHT2025038424,2025-12-14,"Giữ nguyên, không import",2073148,165852,2239000,6136,0,1C25MUV/00027467,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
@@ -6319,7 +6319,7 @@ BHHT2025038203,2025-12-14,"Giữ nguyên, không import",2813888,225111,3038999,
 BHHT2025038202,2025-12-14,"Giữ nguyên, không import",1369444,109555,1478999,6327,0,1C25MUV/00027734,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHT2025038201,2025-12-14,"Giữ nguyên, không import",499074,39926,539000,6328,0,1C25MUV/00027735,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHT2025038200,2025-12-14,"Giữ nguyên, không import",499074,39926,539000,6329,0,1C25MUV/00027736,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
-BHHT2025038199,2025-12-14,Tạo import mới,3266667,261333,3528000,6330,43120,1C25MUV/00027826,Chưa so chi tiết,Thay thế F0 về 0 STT 1988; bán mới STT 30263. Đã xác nhận xử lý chênh VAT trên HĐ cũ.
+BHHT2025038199,2025-12-14,Tạo import mới,3266667,261333,3528000,6330,43120,1C25MUV/00027826,Chưa so chi tiết,Thay thế F0 về 0 STT 1988; bán mới STT 30261. Đã xác nhận xử lý chênh VAT trên HĐ cũ.
 BHHT2025038197,2025-12-14,"Giữ nguyên, không import",915741,73259,989000,6331,0,1C25MUV/00027742,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHT2025038196,2025-12-14,"Giữ nguyên, không import",628704,50296,679000,6332,0,1C25MUV/00027740,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHT2025038195,2025-12-14,"Giữ nguyên, không import",915741,73259,989000,6333,0,1C25MUV/00027741,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
@@ -7282,7 +7282,7 @@ BHHS2025022372,2025-12-12,Loại theo HD CTY 2025,2813889,225111,3039000,7289,0,
 BHHS2025022371,2025-12-12,"Giữ nguyên, không import",3962036,316963,4278999,7290,0,1C25MUV/00026660,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHS2025022370,2025-12-12,"Giữ nguyên, không import",2813889,225111,3039000,7291,0,1C25MUV/00027307,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHS2025022369,2025-12-12,"Giữ nguyên, không import",1442592,115407,1557999,7292,0,1C25MUV/00027028,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
-BHHS2025022368,2025-12-12,Loại theo HD CTY 2025,1369444,109556,1479000,7293,0,1C25MUV/00026644,Chưa so chi tiết,
+BHHS2025022368,2025-12-12,"Giữ nguyên, không import",1369444,109556,1479000,7293,0,1C25MUV/00026644,Chưa so chi tiết,"Khách lẻ. Giữ HĐ 1C25MUV/00026644, khớp tiền hàng, VAT và thanh toán theo AMIS dòng 7293 và tab Ra soat 2025 dòng 38231."
 BHHS2025022367,2025-12-12,"Giữ nguyên, không import",1369444,109556,1479000,7294,0,1C25MUV/00027225,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHS2025022366,2025-12-12,"Giữ nguyên, không import",2073148,165852,2239000,7295,0,1C25MUV/00028579,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHS2025022365,2025-12-12,"Giữ nguyên, không import",2813889,225111,3039000,7296,0,1C25MUV/00029610,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
@@ -9023,7 +9023,7 @@ BHHS2025021463,2025-12-06,"Giữ nguyên, không import",2443518,195481,2638999,
 BHHS2025021462,2025-12-06,"Giữ nguyên, không import",1369444,109556,1479000,9031,0,1C25MUV/00025715,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHS2025021461,2025-12-06,"Giữ nguyên, không import",998148,79852,1078000,9032,0,1C25MUV/00025226,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHS2025021460,2025-12-06,"Giữ nguyên, không import",499074,39926,539000,9033,0,1C25MUV/00025225,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
-BHHS2025021459,2025-12-06,Loại theo HD CTY 2025,499074,39926,539000,9034,0,1C25MUV/00025235,Chưa so chi tiết,
+BHHS2025021459,2025-12-06,"Giữ nguyên, không import",499074,39926,539000,9034,0,1C25MUV/00025235,Chưa so chi tiết,"Khách lẻ. Giữ HĐ 1C25MUV/00025235, khớp tiền hàng, VAT và thanh toán theo AMIS dòng 9034 và tab Ra soat 2025 dòng 36824."
 BHHS2025021458,2025-12-06,"Giữ nguyên, không import",628703,50296,678999,9035,0,1C25MUV/00025761,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHS2025021457,2025-12-06,"Giữ nguyên, không import",998148,79852,1078000,9036,0,1C25MUV/00025714,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHS2025021456,2025-12-06,"Giữ nguyên, không import",1795370,143630,1939000,9037,0,1C25MUV/00025713,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
@@ -9081,7 +9081,7 @@ BHHT2025039884,2025-12-05,Tạo import mới,1369444,109555,1478999,9088,-1,1C25
 BHHT2025039883,2025-12-05,"Giữ nguyên, không import",1369444,109556,1479000,9089,0,1C25MUV/00025107,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHT2025039882,2025-12-05,"Giữ nguyên, không import",2443519,195481,2639000,9090,0,1C25MUV/00025108,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHT2025039881,2025-12-05,"Giữ nguyên, không import",2073148,165852,2239000,9091,0,1C25MUV/00025035,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
-BHHT2025039880,2025-12-05,Tạo import mới,2073148,165852,2239000,9092,-1140000,1C25MUV/00025109,Chưa so chi tiết,"Số dư chuỗi khác AMIS; Chuỗi thay thế phức tạp. Thay thế tiếp HĐ cuối 1C26MUV/00002760 về 0, dự thảo thay thế STT 1988, bán mới STT 30256."
+BHHT2025039880,2025-12-05,Tạo import mới,2073148,165852,2239000,9092,-1140000,1C25MUV/00025109,Chưa so chi tiết,"Số dư chuỗi khác AMIS; Chuỗi thay thế phức tạp. Thay thế tiếp HĐ cuối 1C26MUV/00002760 về 0, dự thảo thay thế STT 1988, bán mới STT 30254."
 BHHT2025039879,2025-12-05,"Giữ nguyên, không import",628703,50296,678999,9093,0,1C25MUV/00025110,Khớp nguyên văn,
 BHHT2025039878,2025-12-05,"Giữ nguyên, không import",2073148,165852,2239000,9094,0,1C25MUV/00025111,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHT2025039877,2025-12-05,"Giữ nguyên, không import",1369444,109555,1478999,9095,0,1C25MUV/00025112,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
@@ -12045,7 +12045,7 @@ BHHT2025032287,2025-11-14,"Giữ nguyên, không import",2073148,165852,2239000,
 BHHT2025032286,2025-11-14,"Giữ nguyên, không import",2376852,190148,2567000,12053,0,1C25MUV/00021871,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHT2025032285,2025-11-14,"Giữ nguyên, không import",484102,38728,522830,12054,0,1C25MUV/00022233,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHT2025032284,2025-11-14,"Giữ nguyên, không import",484102,38728,522830,12055,0,1C25MUV/00022234,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
-BHHT2025032283,2025-11-14,Tạo import mới,1283519,195481,1479000,12056,1160000,1C25MUV/00022235,Chưa so chi tiết,"Thay thế HĐ cuối 1C25MUV/00023697 về 0, STT 707. Bán mới STT 30257. VAT 195.481đ theo AMIS 09/11."
+BHHT2025032283,2025-11-14,Tạo import mới,1283519,195481,1479000,12056,1160000,1C25MUV/00022235,Chưa so chi tiết,"Thay thế HĐ cuối 1C25MUV/00023697 về 0, STT 707. Bán mới STT 30255. VAT 195.481đ theo AMIS 09/11."
 BHHT2025032282,2025-11-14,"Giữ nguyên, không import",628704,50296,679000,12057,0,1C25MUV/00022236,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHT2025032281,2025-11-14,"Giữ nguyên, không import",628703,50296,678999,12058,0,1C25MUV/00022237,Khớp nguyên văn,
 BHHT2025032280,2025-11-14,"Giữ nguyên, không import",499074,39926,539000,12059,0,1C25MUV/00022238,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
@@ -12711,7 +12711,7 @@ BHHT2025032719,2025-11-11,"Giữ nguyên, không import",1369444,109556,1479000,
 BHHT2025032718,2025-11-11,"Giữ nguyên, không import",628704,50296,679000,12718,0,1C25MUV/00021235,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHT2025032717,2025-11-11,"Giữ nguyên, không import",2073148,165852,2239000,12719,0,1C25MUV/00021264,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHT2025032716,2025-11-11,"Giữ nguyên, không import",1727146,138172,1865318,12720,0,1C25MUV/00021358,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
-BHHS2025024086,2025-11-11,"Giữ nguyên, không import",1488527,119082,1607609,12721,1607609,1C26MUV/00005794,Thiếu chi tiết meInvoice,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết missing_detail cần kiểm riêng, không tự xuất lại"
+BHHS2025024086,2025-11-11,"Giữ nguyên, không import",1488527,119082,1607609,12721,0,1C26MUV/00005794,Thiếu chi tiết meInvoice,Giữ HĐ 1C26MUV/00005794 theo mã đơn 251111ED960XUR và đủ ba khoản. AMIS và AMIS 1 đã nối Ktoan dòng 37233. Chi tiết hàng trên HĐ chưa đối chiếu.
 BHHS2025020096,2025-11-11,"Giữ nguyên, không import",2010379,160830,2171209,12722,0,1C25MUV/00021482,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHS2025020095,2025-11-11,"Giữ nguyên, không import",2010379,160830,2171209,12723,0,1C25MUV/00021481,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHS2025020093,2025-11-11,"Giữ nguyên, không import",2010379,160830,2171209,12724,0,1C25MUV/00021640,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
@@ -15216,7 +15216,7 @@ BHHS2025018945,2025-10-25,"Giữ nguyên, không import",2337843,187027,2524870,
 BHHS2025018944,2025-10-25,"Giữ nguyên, không import",2073148,165852,2239000,15222,0,1C25MUV/00019079,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHS2025018943,2025-10-25,"Giữ nguyên, không import",628704,50296,679000,15223,0,1C25MUV/00019100,Khớp nguyên văn,
 BHHS2025018942,2025-10-25,"Giữ nguyên, không import",231704,18536,250240,15224,0,1C25MUV/00018858,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
-BHHS2025018941,2025-10-25,Tạo import mới,2418998,212480,2631478,15225,237000,1C25MUV/00019154,Chưa so chi tiết,"Thay thế HĐ cuối 1C25MUV/00019659 về 0, STT 1216. Bán mới STT 30258. VAT 212.480đ theo AMIS 09/11."
+BHHS2025018941,2025-10-25,Tạo import mới,2418998,212480,2631478,15225,237000,1C25MUV/00019154,Chưa so chi tiết,"Thay thế HĐ cuối 1C25MUV/00019659 về 0, STT 1216. Bán mới STT 30256. VAT 212.480đ theo AMIS 09/11."
 BHHS2025018940,2025-10-25,"Giữ nguyên, không import",2655998,212480,2868478,15226,0,1C25MUV/00019153,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHS2025018939,2025-10-25,"Giữ nguyên, không import",628704,50296,679000,15227,0,1C25MUV/00018857,Khớp nguyên văn,
 BHHS2025018938,2025-10-25,"Giữ nguyên, không import",499074,39926,539000,15228,0,1C25MUV/00019099,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
@@ -15864,7 +15864,7 @@ BHHS2025018633,2025-10-21,"Giữ nguyên, không import",600926,48074,649000,158
 BHHS2025018632,2025-10-21,"Giữ nguyên, không import",2443518,195481,2638999,15870,0,1C25MUV/00018299,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHS2025018631,2025-10-21,"Giữ nguyên, không import",2443518,195481,2638999,15871,0,1C25MUV/00018129,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHS2025018630,2025-10-21,"Giữ nguyên, không import",1121666,89733,1211399,15872,0,1C25MUV/00018113,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
-BHHL2025000205,2025-10-21,Tạo import mới,601435,48115,649550,15873,0,1C25MUV/00018215,Chưa so chi tiết,Lệch 1–2đ so với AMIS. Đưa 1C25MUV/00018799 về 0 ở STT 1983 và lập bán mới theo BHHL2025000205 ở STT 30244. HĐ gốc 1C25MUV/00018215 đã bị thay thế.
+BHHL2025000205,2025-10-21,Tạo import mới,601435,48115,649550,15873,0,1C25MUV/00018215,Chưa so chi tiết,Lệch 1–2đ so với AMIS. Đưa 1C25MUV/00018799 về 0 ở STT 1983 và lập bán mới theo BHHL2025000205 ở STT 30242. HĐ gốc 1C25MUV/00018215 đã bị thay thế.
 BHHL2025000204,2025-10-21,"Giữ nguyên, không import",496759,39741,536500,15874,0,1C25MUV/00018214,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHT2025029715,2025-10-20,"Giữ nguyên, không import",2813889,225111,3039000,15875,0,1C25MUV/00018038,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHT2025029714,2025-10-20,"Giữ nguyên, không import",2813889,225111,3039000,15876,0,1C25MUV/00018039,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
@@ -16077,7 +16077,7 @@ BHHT2025029719,2025-10-19,"Giữ nguyên, không import",2962037,236963,3199000,
 BHHT2025029718,2025-10-19,"Giữ nguyên, không import",1734328,138746,1873074,16083,0,1C25MUV/00017992,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHT2025029717,2025-10-19,"Giữ nguyên, không import",2443519,195481,2639000,16084,0,1C25MUV/00017993,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHT2025029716,2025-10-19,"Giữ nguyên, không import",2813889,225111,3039000,16085,0,1C25MUV/00018037,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
-BHHT2025029713,2025-10-19,Tạo import mới,707393,56591,763984,16086,41740,1C25MUV/00017875,Chưa so chi tiết,Thay thế F0 về 0 STT 1989; bán mới STT 30264. Đã xác nhận xử lý chênh VAT trên HĐ cũ.
+BHHT2025029713,2025-10-19,Tạo import mới,707393,56591,763984,16086,41740,1C25MUV/00017875,Chưa so chi tiết,Thay thế F0 về 0 STT 1989; bán mới STT 30262. Đã xác nhận xử lý chênh VAT trên HĐ cũ.
 BHHT2025029712,2025-10-19,"Giữ nguyên, không import",628704,50296,679000,16087,0,1C25MUV/00017809,Khớp nguyên văn,
 BHHT2025029711,2025-10-19,"Giữ nguyên, không import",3072222,245778,3318000,16088,0,1C25MUV/00018045,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHT2025029710,2025-10-19,"Giữ nguyên, không import",499074,39926,539000,16089,0,1C25MUV/00017997,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
@@ -16713,7 +16713,7 @@ BHHS2025018217,2025-10-15,"Giữ nguyên, không import",1369444,109556,1479000,
 BHHS2025018216,2025-10-15,"Giữ nguyên, không import",1147221,91778,1238999,16719,0,1C25MUV/00017675,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHS2025018215,2025-10-15,"Giữ nguyên, không import",499074,39926,539000,16720,0,1C25MUV/00017378,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHS2025018214,2025-10-15,"Giữ nguyên, không import",499074,39926,539000,16721,0,1C25TUV/00013107,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
-BHHN2025000225,2025-10-15,Loại theo HD CTY 2025,1147222,91778,1239000,16722,0,1C25MUV/00017119,Chưa so chi tiết,
+BHHN2025000225,2025-10-15,"Giữ nguyên, không import",1147222,91778,1239000,16722,0,1C25MUV/00017119,Chưa so chi tiết,"Khách lẻ. Giữ HĐ 1C25MUV/00017119, khớp tiền hàng, VAT và thanh toán theo AMIS dòng 16722 và tab Ra soat 2025 dòng 28759. AMIS ghi Hoàng Hà, bảng kê meInvoice ghi Nguyễn Thị Nghĩa."
 BHHL2025000197,2025-10-15,"Giữ nguyên, không import",594954,47596,642550,16723,0,1C25MUV/00017122,Khớp nguyên văn,
 BHHL2025000196,2025-10-15,Tạo import mới,1887804,151024,2038828,16724,4,1C25MUV/00017121,Chưa so chi tiết,Số dư chuỗi khác AMIS
 BHDV20250022,2025-10-15,"Giữ nguyên, không import",27778,2222,30000,16725,0,1C25MUV/00017328,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
@@ -16835,7 +16835,7 @@ BHHS2025018211,2025-10-14,"Giữ nguyên, không import",231704,18536,250240,168
 BHHS2025018210,2025-10-14,"Giữ nguyên, không import",231704,18536,250240,16841,0,1C25MUV/00017294,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHS2025018209,2025-10-14,"Giữ nguyên, không import",231704,18536,250240,16842,0,1C25MUV/00017376,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHS2025018208,2025-10-14,"Giữ nguyên, không import",499074,39926,539000,16843,0,1C25MUV/00017293,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
-BHHS2025018207,2025-10-14,Tạo import mới,170370,13630,184000,16844,-66000,1C25MUV/00017292,Chưa so chi tiết,"Số dư chuỗi khác AMIS; Chuỗi thay thế phức tạp. Thay thế tiếp HĐ cuối 1C25MUV/00019221 về 0, dự thảo thay thế STT 1991, bán mới STT 30259."
+BHHS2025018207,2025-10-14,Tạo import mới,170370,13630,184000,16844,-66000,1C25MUV/00017292,Chưa so chi tiết,"Số dư chuỗi khác AMIS; Chuỗi thay thế phức tạp. Thay thế tiếp HĐ cuối 1C25MUV/00019221 về 0, dự thảo thay thế STT 1991, bán mới STT 30257."
 BHHS2025018206,2025-10-14,"Giữ nguyên, không import",1369444,109556,1479000,16845,0,1C25MUV/00017291,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHS2025018205,2025-10-14,"Giữ nguyên, không import",499074,39926,539000,16846,0,1C25MUV/00017290,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHS2025018204,2025-10-14,"Giữ nguyên, không import",499074,39926,539000,16847,0,1C25MUV/00016997,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
@@ -16918,7 +16918,7 @@ BHHT2025030193,2025-10-13,"Giữ nguyên, không import",2073148,165852,2239000,
 BHHT2025030192,2025-10-13,"Giữ nguyên, không import",2073148,165852,2239000,16924,0,1C25MUV/00016819,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHT2025030191,2025-10-13,"Giữ nguyên, không import",3036111,242889,3279000,16925,0,1C25MUV/00016783,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHT2025030190,2025-10-13,"Giữ nguyên, không import",2443519,195481,2639000,16926,0,1C25MUV/00017093,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
-BHHT2025030189,2025-10-13,Tạo import mới,4831481,386519,5218000,16927,0,1C25MUV/00016820,Chưa so chi tiết,Lệch 1–2đ so với AMIS. Đưa 1C25MUV/00022891 về 0 ở STT 1984 và lập bán mới theo BHHT2025030189 ở STT 30245. HĐ gốc 1C25MUV/00016820 đã bị thay thế.
+BHHT2025030189,2025-10-13,Tạo import mới,4831481,386519,5218000,16927,0,1C25MUV/00016820,Chưa so chi tiết,Lệch 1–2đ so với AMIS. Đưa 1C25MUV/00022891 về 0 ở STT 1984 và lập bán mới theo BHHT2025030189 ở STT 30243. HĐ gốc 1C25MUV/00016820 đã bị thay thế.
 BHHT2025030188,2025-10-13,"Giữ nguyên, không import",499074,39926,539000,16928,0,1C25MUV/00016784,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHT2025030187,2025-10-13,"Giữ nguyên, không import",628704,50296,679000,16929,0,1C25MUV/00016785,Khớp nguyên văn,
 BHHT2025030186,2025-10-13,"Giữ nguyên, không import",499074,39926,539000,16930,0,1C25MUV/00017041,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
@@ -17277,7 +17277,7 @@ BHHS2025018049,2025-10-11,"Giữ nguyên, không import",499074,39926,539000,172
 BHHS2025018048,2025-10-11,"Giữ nguyên, không import",628704,50296,679000,17283,0,1C25MUV/00016960,Khớp nguyên văn,
 BHHS2025018047,2025-10-11,"Giữ nguyên, không import",2813889,225111,3039000,17284,0,1C25MUV/00016711,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHS2025018045,2025-10-11,"Giữ nguyên, không import",628703,50296,678999,17285,0,1C25MUV/00016710,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
-BHHS2025018044,2025-10-11,Tạo import mới,1369444,109555,1478999,17286,0,1C25MUV/00016490,Chưa so chi tiết,Lệch 1–2đ so với AMIS. Đưa 1C25MUV/00018130 về 0 ở STT 1985 và lập bán mới theo BHHS2025018044 ở STT 30246. HĐ gốc 1C25MUV/00016490 đã bị thay thế.
+BHHS2025018044,2025-10-11,Tạo import mới,1369444,109555,1478999,17286,0,1C25MUV/00016490,Chưa so chi tiết,Lệch 1–2đ so với AMIS. Đưa 1C25MUV/00018130 về 0 ở STT 1985 và lập bán mới theo BHHS2025018044 ở STT 30244. HĐ gốc 1C25MUV/00016490 đã bị thay thế.
 BHHS2025018043,2025-10-11,"Giữ nguyên, không import",3036110,242889,3278999,17287,0,1C25MUV/00016959,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHS2025018042,2025-10-11,"Giữ nguyên, không import",231704,18536,250240,17288,0,1C25MUV/00016489,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHS2025018041,2025-10-11,"Giữ nguyên, không import",1795370,143630,1939000,17289,0,1C25MUV/00016709,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
@@ -19848,7 +19848,7 @@ BHHS2025016732,2025-09-24,"Giữ nguyên, không import",1147220,91778,1238998,1
 BHHS2025016731,2025-09-24,"Giữ nguyên, không import",3058575,244686,3303261,19854,0,1C25MUV/00014070,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHS2025016730,2025-09-24,"Giữ nguyên, không import",2253422,180274,2433696,19855,0,1C25MUV/00014418,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHS2025016729,2025-09-24,"Giữ nguyên, không import",499074,39926,539000,19856,0,1C25MUV/00014208,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
-BHHS2025016728,2025-09-24,Loại theo HD CTY 2025,1369444,109556,1479000,19857,0,1C25MUV/00014069,Chưa so chi tiết,
+BHHS2025016728,2025-09-24,"Giữ nguyên, không import",1369444,109556,1479000,19857,0,1C25MUV/00014069,Chưa so chi tiết,"Khách lẻ. Giữ HĐ 1C25MUV/00014069, khớp tiền hàng, VAT và thanh toán theo AMIS dòng 19857 và tab Ra soat 2025 dòng 25712."
 BHHS2025016727,2025-09-24,"Giữ nguyên, không import",998148,79852,1078000,19858,0,1C25MUV/00014444,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHS2025016726,2025-09-24,"Giữ nguyên, không import",628704,50296,679000,19859,0,1C25MUV/00014066,Khớp nguyên văn,
 BHHS2025016725,2025-09-24,"Giữ nguyên, không import",499074,39926,539000,19860,0,1C25MUV/00014207,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
@@ -20408,7 +20408,7 @@ BHHS2025016486,2025-09-20,"Giữ nguyên, không import",499074,39926,539000,204
 BHHS2025016485,2025-09-20,"Giữ nguyên, không import",628704,50296,679000,20414,0,1C25MUV/00013545,Khớp nguyên văn,
 BHHS2025016484,2025-09-20,"Giữ nguyên, không import",628704,50296,679000,20415,0,1C25MUV/00014363,Khớp nguyên văn,
 BHHS2025016483,2025-09-20,"Giữ nguyên, không import",628704,50296,679000,20416,0,1C25MUV/00014027,Khớp nguyên văn,
-BHHS2025016482,2025-09-20,Loại theo HD CTY 2025,998148,79852,1078000,20417,0,1C25MUV/00013596,Chưa so chi tiết,
+BHHS2025016482,2025-09-20,"Giữ nguyên, không import",998148,79852,1078000,20417,0,1C25MUV/00013596,Chưa so chi tiết,"Khách lẻ. Giữ HĐ 1C25MUV/00013596, khớp tiền hàng, VAT và thanh toán theo AMIS dòng 20417 và tab Ra soat 2025 dòng 25239."
 BHHS2025016481,2025-09-20,"Giữ nguyên, không import",628704,50296,679000,20418,0,1C25MUV/00013712,Khớp nguyên văn,
 BHHS2025016480,2025-09-20,"Giữ nguyên, không import",628704,50296,679000,20419,0,1C25MUV/00013804,Khớp nguyên văn,
 BHHS2025016479,2025-09-20,"Giữ nguyên, không import",2073148,165852,2239000,20420,0,1C25MUV/00013711,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
@@ -20582,7 +20582,7 @@ BHHS2025016426,2025-09-19,"Giữ nguyên, không import",628704,50296,679000,205
 BHHS2025016425,2025-09-19,"Giữ nguyên, không import",170370,13630,184000,20588,0,1C25MUV/00013527,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHS2025016424,2025-09-19,"Giữ nguyên, không import",628704,50296,679000,20589,0,1C25MUV/00013700,Khớp nguyên văn,
 BHHS2025016423,2025-09-19,"Giữ nguyên, không import",3962037,316963,4279000,20590,0,1C25MUV/00013860,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
-BHHS2025016422,2025-09-19,Loại theo HD CTY 2025,1369444,109556,1479000,20591,0,1C25MUV/00013526,Chưa so chi tiết,
+BHHS2025016422,2025-09-19,"Giữ nguyên, không import",1369444,109556,1479000,20591,0,1C25MUV/00013526,Chưa so chi tiết,"Khách lẻ. Giữ HĐ 1C25MUV/00013526, khớp tiền hàng, VAT và thanh toán theo AMIS dòng 20591 và tab Ra soat 2025 dòng 25169."
 BHHS2025016421,2025-09-19,"Giữ nguyên, không import",628704,50296,679000,20592,0,1C25MUV/00013333,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHS2025016420,2025-09-19,"Giữ nguyên, không import",2443518,195481,2638999,20593,0,1C25MUV/00013525,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHS2025016419,2025-09-19,"Giữ nguyên, không import",499074,39926,539000,20594,0,1C25MUV/00013699,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
@@ -20812,7 +20812,7 @@ BHHT2025027231,2025-09-17,"Giữ nguyên, không import",596389,47711,644100,208
 BHHT2025027230,2025-09-17,"Giữ nguyên, không import",2620417,209633,2830050,20818,0,1C25MUV/00012904,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHT2025027229,2025-09-17,"Giữ nguyên, không import",210231,16818,227049,20819,0,1C25MUV/00013148,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHT2025027228,2025-09-17,"Giữ nguyên, không import",2442731,195418,2638149,20820,0,1C25MUV/00013225,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
-BHHT2025027227,2025-09-17,Tạo import mới,491411,48033,539444,20821,109000,1C25MUV/00013149,Chưa so chi tiết,"Đảo F1 STT 26, giảm F0 STT 27. Bán mới STT 30265. VAT 48.033đ theo AMIS 09/11."
+BHHT2025027227,2025-09-17,Tạo import mới,491411,48033,539444,20821,109000,1C25MUV/00013149,Chưa so chi tiết,"Đảo F1 STT 26, giảm F0 STT 27. Bán mới STT 30263. VAT 48.033đ theo AMIS 09/11."
 BHHT2025027226,2025-09-17,"Giữ nguyên, không import",2442731,195418,2638149,20822,0,1C25MUV/00013226,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHT2025027224,2025-09-17,"Giữ nguyên, không import",209306,16744,226050,20823,0,1C25MUV/00012905,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHT2025027223,2025-09-17,"Giữ nguyên, không import",473240,37859,511099,20824,0,1C25MUV/00012907,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
@@ -21149,7 +21149,7 @@ BHHT2025027449,2025-09-15,"Giữ nguyên, không import",2432445,194596,2627041,
 BHHT2025027448,2025-09-15,"Giữ nguyên, không import",499069,39925,538994,21155,0,1C25MUV/00012475,Chưa so chi tiết,KT sửa số HĐ từ 1C25MUV/00012352 sang 1C25MUV/00012475. Khớp ba khoản; đã giữ HĐ.
 BHHT2025027447,2025-09-15,"Giữ nguyên, không import",499069,39925,538994,21156,0,1C25MUV/00012476,Chưa so chi tiết,KT sửa số HĐ từ 1C25MUV/00012353 sang 1C25MUV/00012476. Khớp ba khoản; đã giữ HĐ.
 BHHT2025027445,2025-09-15,"Giữ nguyên, không import",2295365,183629,2478994,21157,0,1C25MUV/00012746,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
-BHHT2025027444,2025-09-15,Loại theo HD CTY 2025,1701850,136148,1837998,21158,-5632002,1C25MUV/00012357,Chưa so chi tiết,
+BHHT2025027444,2025-09-15,"Giữ nguyên, không import",1701850,136148,1837998,21158,0,1C25MUV/00012480,Chưa so chi tiết,"Khách lẻ. Giữ HĐ 1C25MUV/00012480, khớp tiền hàng, VAT và thanh toán theo AMIS dòng 21158 và tab Ra soat 2025 dòng 24123. Sửa liên kết cũ 1C25MUV/00012357."
 BHHT2025027443,2025-09-15,"Giữ nguyên, không import",1701850,136148,1837998,21159,0,1C25MUV/00012748,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHT2025027442,2025-09-15,"Giữ nguyên, không import",628698,50296,678994,21160,0,1C25MUV/00012483,Khớp hàng và số lượng,"Giữ HĐ riêng 1C25MUV/00012483. Đối chiếu mã đơn 580356480920290819 qua NB, người mua, hàng và đủ 3 khoản. Gỡ map nhầm 1C25MUV/00012360."
 BHHT2025027441,2025-09-15,"Giữ nguyên, không import",2571295,205704,2776999,21161,0,1C25MUV/00012750,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
@@ -21395,7 +21395,7 @@ BHHT2025027506,2025-09-14,"Giữ nguyên, không import",508333,40667,549000,214
 BHHT2025027505,2025-09-14,"Giữ nguyên, không import",2295365,183629,2478994,21401,0,1C25MUV/00012489,Chưa so chi tiết,"Giữ HĐ 1C25MUV/00012489 sau khi KT tách số HĐ. Khớp tiền hàng, VAT và thanh toán."
 BHHT2025027504,2025-09-14,"Giữ nguyên, không import",1901330,152106,2053436,21402,0,1C25MUV/00012332,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHT2025027503,2025-09-14,"Giữ nguyên, không import",2897221,231778,3128999,21403,0,1C25MUV/00012333,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
-BHHT2025027502,2025-09-14,Tạo import mới,1276767,102141,1378908,21404,723000,1C25MUV/00012497,Khác mặt hàng,"Đã chốt thay thế 1C25MUV/00012497 về 0, STT 1230, và bán mới BHHT2025027502, STT 29640, theo AMIS 09/11: 1 KA150P, thanh toán 1.378.908đ."
+BHHT2025027502,2025-09-14,Tạo import mới,1276767,102141,1378908,21404,723000,1C25MUV/00012497,Khác mặt hàng,"Đã chốt thay thế 1C25MUV/00012497 về 0, STT 1230, và bán mới BHHT2025027502, STT 29638, theo AMIS 09/11: 1 KA150P, thanh toán 1.378.908đ."
 BHHT2025027501,2025-09-14,"Giữ nguyên, không import",607322,48586,655908,21405,0,1C25MUV/00012334,Khớp nguyên văn,
 BHHT2025027500,2025-09-14,"Giữ nguyên, không import",159773,12782,172555,21406,0,1C25MUV/00012335,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHT2025027499,2025-09-14,Tạo import mới,2432445,194596,2627041,21407,1316992,1C25MUV/00012381,Chưa so chi tiết,Số dư chuỗi khác AMIS
@@ -22240,7 +22240,7 @@ BHHS2025015971,2025-09-10,"Giữ nguyên, không import",499074,39926,539000,222
 BHHS2025015970,2025-09-10,"Giữ nguyên, không import",1276852,102148,1379000,22246,0,1C25MUV/00011348,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHS2025015969,2025-09-10,"Giữ nguyên, không import",499074,39926,539000,22247,0,1C25MUV/00011955,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHS2025015968,2025-09-10,"Giữ nguyên, không import",499074,39926,539000,22248,0,1C25MUV/00012199,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
-BHHS2025015967,2025-09-10,Loại theo HD CTY 2025,1980556,158444,2139000,22249,0,1C25MUV/00011844,Chưa so chi tiết,
+BHHS2025015967,2025-09-10,"Giữ nguyên, không import",1980556,158444,2139000,22249,0,1C25MUV/00011844,Chưa so chi tiết,"Khách lẻ. Giữ HĐ 1C25MUV/00011844, khớp tiền hàng, VAT và thanh toán theo AMIS dòng 22249 và tab Ra soat 2025 dòng 23494."
 BHHS2025015966,2025-09-10,"Giữ nguyên, không import",499074,39926,539000,22250,0,1C25MUV/00011843,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHS2025015965,2025-09-10,"Giữ nguyên, không import",1276852,102148,1379000,22251,0,1C25MUV/00011842,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHS2025015964,2025-09-10,"Giữ nguyên, không import",628704,50296,679000,22252,0,1C25MUV/00011954,Khớp nguyên văn,
@@ -22344,7 +22344,7 @@ BHHS2025015865,2025-09-10,"Giữ nguyên, không import",499074,39926,539000,223
 BHHS2025015864,2025-09-10,"Giữ nguyên, không import",165741,13259,179000,22350,0,1C25MUV/00012187,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHS2025015863,2025-09-10,"Giữ nguyên, không import",1980556,158444,2139000,22351,0,1C25MUV/00012237,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHS2025015862,2025-09-10,"Giữ nguyên, không import",1276852,102148,1379000,22352,0,1C25MUV/00012186,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
-BHHS2025015861,2025-09-10,Tạo import mới,3296296,263704,3560000,22353,-1,1C25MUV/00011884,Chưa so chi tiết,"Lệch 1–2đ so với AMIS. Đưa 1C25MUV/00011884 về 0 ở STT 1986 và lập bán mới theo BHHS2025015861 ở STT 30247. Dòng lõi lọc dùng đơn giá thuần 536.506,5đ = 3.219.039đ ÷ 6 theo tiền hàng AMIS."
+BHHS2025015861,2025-09-10,Tạo import mới,3296296,263704,3560000,22353,-1,1C25MUV/00011884,Chưa so chi tiết,"Lệch 1–2đ so với AMIS. Đưa 1C25MUV/00011884 về 0 ở STT 1986 và lập bán mới theo BHHS2025015861 ở STT 30245. Dòng lõi lọc dùng đơn giá thuần 536.506,5đ = 3.219.039đ ÷ 6 theo tiền hàng AMIS."
 BHHS2025015860,2025-09-10,"Giữ nguyên, không import",499074,39926,539000,22354,0,1C25MUV/00011935,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHS2025015859,2025-09-10,"Giữ nguyên, không import",628704,50296,679000,22355,0,1C25MUV/00011327,Khớp nguyên văn,
 BHHS2025015858,2025-09-10,"Giữ nguyên, không import",499074,39926,539000,22356,0,1C25MUV/00011326,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
@@ -26810,7 +26810,7 @@ BHHT2025024849,2025-08-11,"Giữ nguyên, không import",2442731,195418,2638149,
 BHHT2025024848,2025-08-11,"Giữ nguyên, không import",611099,48888,659987,26816,0,1C25MUV/00006384,Khớp nguyên văn,
 BHHT2025024847,2025-08-11,"Giữ nguyên, không import",2442731,195418,2638149,26817,0,1C25MUV/00006559,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHT2025024846,2025-08-11,"Giữ nguyên, không import",1616758,129341,1746099,26818,0,1C25MUV/00006560,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
-BHHT2025024845,2025-08-11,Tạo import mới,3681619,294529,3976148,26819,-1,1C25MUV/00006004,Chưa so chi tiết,Lệch 1–2đ so với AMIS. Đưa 1C25MUV/00006004 về 0 ở STT 1987 và lập bán mới theo BHHT2025024845 ở STT 30248.
+BHHT2025024845,2025-08-11,Tạo import mới,3681619,294529,3976148,26819,-1,1C25MUV/00006004,Chưa so chi tiết,Lệch 1–2đ so với AMIS. Đưa 1C25MUV/00006004 về 0 ở STT 1987 và lập bán mới theo BHHT2025024845 ở STT 30246.
 BHHT2025024844,2025-08-11,"Giữ nguyên, không import",3763934,301115,4065049,26820,0,1C25MUV/00006180,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHT2025024843,2025-08-11,"Giữ nguyên, không import",611099,48888,659987,26821,0,1C25MUV/00006385,Khớp nguyên văn,
 BHHT2025024842,2025-08-11,"Giữ nguyên, không import",1213008,97041,1310049,26822,0,1C25MUV/00006387,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
@@ -29222,7 +29222,7 @@ BHHS2025012737,2025-08-04,"Giữ nguyên, không import",998148,79852,1078000,29
 BHHN2025000370,2025-08-04,"Giữ nguyên, không import",92593,7407,100000,29228,0,1C25MUV/00003952,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHN2025000369,2025-08-04,"Giữ nguyên, không import",2592593,207407,2800000,29229,0,1C25MUV/00003954,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHN2025000363,2025-08-04,"Giữ nguyên, không import",92593,7407,100000,29230,0,1C25MUV/00003950,Khớp nguyên văn,
-BHHN2025000353,2025-08-04,Loại theo HD CTY 2025,1800926,144074,1945000,29231,0,1C25MUV/00003953,Chưa so chi tiết,
+BHHN2025000353,2025-08-04,"Giữ nguyên, không import",1800926,144074,1945000,29231,0,1C25MUV/00003953,Chưa so chi tiết,"Khách lẻ. Giữ HĐ 1C25MUV/00003953, khớp tiền hàng, VAT và thanh toán theo AMIS dòng 29231 và tab Ra soat 2025 dòng 15591."
 BHHL2025000135,2025-08-04,"Giữ nguyên, không import",561204,44896,606100,29232,0,1C25MUV/00004388,Khớp nguyên văn,
 BHHL2025000134,2025-08-04,"Giữ nguyên, không import",615018,49201,664219,29233,0,1C25MUV/00004159,Khớp nguyên văn,
 BHDV20250089,2025-08-04,"Giữ nguyên, không import",138889,11111,150000,29234,0,1C25MUV/00003955,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
@@ -34310,7 +34310,7 @@ BHHS2025010858,2025-07-07,"Giữ nguyên, không import",499074,39926,539000,343
 BHHS2025010857,2025-07-07,Loại theo HD CTY 2025,2573148,205852,2779000,34315,0,1C25TUV/00011573,Chưa so chi tiết,
 BHHS2025010856,2025-07-07,Loại theo HD CTY 2025,628704,50296,679000,34316,0,1C25TUV/00011927,Chưa so chi tiết,
 BHHS2025010855,2025-07-07,"Giữ nguyên, không import",2295370,183630,2479000,34317,0,1C25TUV/00011449,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
-BHHS2025010854,2025-07-07,Loại theo HD CTY 2025,509259,40741,550000,34318,0,1C25TUV/00011551,Chưa so chi tiết,
+BHHS2025010854,2025-07-07,"Giữ nguyên, không import",509259,40741,550000,34318,0,1C25TUV/00011551,Chưa so chi tiết,"Khách lẻ. Giữ HĐ 1C25TUV/00011551, khớp tiền hàng, VAT và thanh toán theo AMIS dòng 34318 và tab Ra soat 2025 dòng 10427."
 BHHS2025010853,2025-07-07,"Giữ nguyên, không import",1702778,136222,1839000,34319,0,1C25TUV/00012394,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHS2025010852,2025-07-07,"Giữ nguyên, không import",1127778,90222,1218000,34320,0,1C25TUV/00011465,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
 BHHS2025010851,2025-07-07,"Giữ nguyên, không import",1276852,102148,1379000,34321,0,1C25TUV/00011550,Tên/ĐVT/SL khác nguyên văn,"Giữ đơn đã khớp đủ tiền theo yêu cầu; chi tiết different cần kiểm riêng, không tự xuất lại"
@@ -43146,7 +43146,7 @@ BHHS2025007338,2025-05-26,Tạo import mới,499074,39926,539000,,,1C25TUV/00001
 BHHS2025007337,2025-05-26,Tạo import mới,499074,39926,539000,,,1C25TUV/00001570,Chưa so chi tiết,Tháng 1–6: tạo mới theo yêu cầu
 BHHS2025007336,2025-05-26,Tạo import mới,628704,50296,679000,,,1C25TUV/00002017,Chưa so chi tiết,Tháng 1–6: tạo mới theo yêu cầu
 BHHS2025007334,2025-05-26,Tạo import mới,2165741,173259,2339000,,,1C25TUV/00002010,Chưa so chi tiết,Tháng 1–6: tạo mới theo yêu cầu
-BHHN2025000486,2025-05-26,Tạo import mới,4930000,394400,5324400,,,,Chưa so chi tiết,Tháng 1–6: tạo mới theo yêu cầu
+BHHN2025000486,2025-05-26,Loại theo HD CTY 2025,4930000,394400,5324400,,0,1C25TUV/00001037,Chưa so chi tiết,"Chuyển sang HĐ công ty trên Google Sheets dòng 290. HĐ 1C25TUV/00001037 khớp tiền hàng, VAT và thanh toán."
 BHHL2025000082,2025-05-26,Tạo import mới,1670976,133678,1804654,,,1C25TUV/00001217,Chưa so chi tiết,Tháng 1–6: tạo mới theo yêu cầu
 BHHT2025012421,2025-05-25,Tạo import mới,1702778,136222,1839000,,,1C25TUV/00001058,Chưa so chi tiết,Tháng 1–6: tạo mới theo yêu cầu
 BHHT2025012420,2025-05-25,Tạo import mới,499074,39926,539000,,,1C25TUV/00001061,Chưa so chi tiết,Tháng 1–6: tạo mới theo yêu cầu
@@ -63057,7 +63057,7 @@ BHHS2025000806,2025-01-20,Tạo import mới,2573148,205852,2779000,,,1C25TUV/00
 BHHN2025000613,2025-01-20,Tạo import mới,509259,40741,550000,,,1C25TUV/00000152,Chưa so chi tiết,Tháng 1–6: tạo mới theo yêu cầu
 BHHN2025000612,2025-01-20,Tạo import mới,2203704,176296,2380000,,,,Chưa so chi tiết,Tháng 1–6: tạo mới theo yêu cầu
 BHHN20250006111,2025-01-20,Loại theo HD CTY 2025,919333,73547,992880,,,,Chưa so chi tiết,
-BHHN2025000611,2025-01-20,Tạo import mới,919333,73547,992880,,,,Chưa so chi tiết,Tháng 1–6: tạo mới theo yêu cầu
+BHHN2025000611,2025-01-20,Loại theo HD CTY 2025,919333,73547,992880,,0,1C25TUV/00000027,Chưa so chi tiết,"Chuyển sang HĐ công ty trên Google Sheets dòng 362. HĐ 1C25TUV/00000027 khớp tiền hàng, VAT và thanh toán."
 BHHN2025000609,2025-01-20,Loại theo HD CTY 2025,1652000,132160,1784160,,,,Chưa so chi tiết,
 BHHN2025000608,2025-01-20,Tạo import mới,509259,40741,550000,,,1C25TUV/00000154,Chưa so chi tiết,Tháng 1–6: tạo mới theo yêu cầu
 BHHT2025000774,2025-01-19,Tạo import mới,2646296,211704,2858000,,,1C25TUV/00000105,Chưa so chi tiết,Tháng 1–6: tạo mới theo yêu cầu
