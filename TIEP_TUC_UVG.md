@@ -1,3 +1,13 @@
+# Đối soát sau phát hành HĐ 2025 — 11/11/2026
+
+- Bảng kê meInvoice xác nhận đủ 30 hóa đơn điều chỉnh và 1.995 hóa đơn thay thế về 0, đều ghi ngày 10/11/2026. Bộ xuất mới khớp 30.263 hóa đơn, gồm 8.000 ngày 10/11 và 22.263 ngày 11/11. Có một hóa đơn ngoài bộ, đã tách khỏi số đối chiếu.
+- Đã xóa 8.000 bản nháp nhập trùng ngày 10/11 của hai lô 16001–18000 và 18001–20000. Danh sách nháp theo bộ lọc về 0. Kiểm tra lại đủ 4.000 hóa đơn đã phát hành ngày 11/11 của hai lô, khớp mã đơn và số tiền. Tại thời điểm kiểm tra, 3.992 hóa đơn ghi HĐ hợp lệ và 8 hóa đơn ghi Đã gửi CQT.
+- Tab **Import HD moi** đã điền số HĐ và ký hiệu meInvoice tại W:X cho đủ 35.042 dòng hàng. Hai cột nằm trong bộ lọc của bảng.
+- Hai tab **Dieu chinh BTL - cho so HD** và **Dieu chinh BGG - cho so HD** đã điền ký hiệu, số, ngày và mã CQT của HĐ bị điều chỉnh tại J:M cho 321 phiếu BTL và một phiếu BGG. Hai tab đã bỏ ba cột tra cứu cũ và cột Trạng thái. Ghi chú BTL nằm tại ô mã phiếu. Bộ BTL chưa import. Cột B của cả hai tab đang ghi ngày dự thảo 09/11/2026.
+- Các cập nhật cột nằm trên Google Sheets. Bảng kê gốc dùng để đối chiếu lưu cục bộ trong `data/1111/`, gồm cả các bản tải thay thế trùng nhau.
+
+---
+
 # Bố cục chi tiết HĐ giữ lại — 10/11/2026
 
 Tab **HĐ meInvoice giữ lại 2025** hiển thị mỗi mặt hàng trên một dòng ở vùng `AE:AT`. Trong từng hóa đơn, các dòng meInvoice nằm trên các dòng AMIS. Số HĐ, mã đơn và chứng từ AMIS hiện ở dòng đầu của mỗi nhóm. Lọc theo số HĐ hoặc mã đơn để xem cả hai nhóm. Các khoản tiền chỉ hiện ở dòng đầu của hóa đơn.
