@@ -1,3 +1,11 @@
+# Cập nhật tab TỔNG HỢP HĐ 2025 — 10/11/2026
+
+- Dòng 6–8 đã thể hiện giá trị gốc và phần giảm tương ứng của 3 dự thảo điều chỉnh và 6 dự thảo thay thế về 0. Tiêu đề phần I ghi rõ phạm vi theo ngày HĐ gốc từ T7/2025 đến T1/2026. Ghi chú tại dòng 6 và 8 nêu riêng phần HĐ gốc tháng 1/2026.
+- Đã kiểm tra dòng 6 cộng dòng 7 và 8 khớp dòng 9. Chênh lệch doanh thu và VAT so với sổ AMIS tại dòng 3 đều bằng 0.
+- C20 hiện hiển thị VAT thuần khớp sổ AMIS. C17 vẫn liên kết tới VAT thuần, dù nhãn dòng 17 ghi trước trả hàng và giảm giá. Khi chỉnh cách trình bày, lấy VAT thuần trừ tổng hai khoản VAT âm ở C18:C19 cho C17, rồi cộng C17:C19 cho C20.
+
+---
+
 # Đồng bộ bộ import HĐ 2025 — 10/11/2026
 
 Đã rút `BHHN2025000486` và `BHHN2025000611` khỏi Excel bán mới theo Google Sheets. Hai chứng từ khớp với HĐ công ty `1C25TUV/00001037` và `1C25TUV/00000027`. Phần rút gồm 5 dòng, 5.849.333đ tiền hàng và 467.947đ VAT.
