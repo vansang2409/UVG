@@ -1,0 +1,13 @@
+{
+  "original_bytes": 366528,
+  "original_lines": 2091,
+  "compact_bytes": 8218,
+  "compact_lines": 69,
+  "reduction_percent": 97.8,
+  "archive": "docs/archive/TIEP_TUC_UVG_20261111_TRUOC_COMPACT.md",
+  "archive_sha256": "7d6886d37626035c172d8f937cdb27f9c0354e142fbd3ef391c3ac7783d4d65d",
+  "compact_sha256": "4fe43aa8af1dbd6bab2f5e21061ba04c01dfc31a019762c1e76bfdf43c8a13da",
+  "required_facts_preserved": true,
+  "local_source_paths_exist": true,
+  "archive_restorable": true
+}
