@@ -1,7 +1,7 @@
 {
   "archive": "support-data-20261113.zip",
-  "bytes": 66109385,
-  "sha256": "702a20c17734ec7ce8ab6d07502332419ef328a2876b9449ac1239934200ad13",
+  "bytes": 71541526,
+  "sha256": "d98a7894c01ed47f9c826c5b72942d20640cb32f71120e5f9dc0dede75e67470",
   "verified": true,
   "files": [
     {
@@ -25,6 +25,16 @@
       "sha256": "dbe9b2bfc23b343bd1347bc032dcb528672b6e8d1f579d2d03f15763efe4ae1c"
     },
     {
+      "file": "backup-ban-hang-before-chains-20261113/Ban_hang (2024).xlsx",
+      "bytes": 2294961,
+      "sha256": "8c6a7d96fa41c9b599976bdd75b736c07111f8366860e8357039bdf899545b6b"
+    },
+    {
+      "file": "backup-ban-hang-before-chains-20261113/Ban_hang (2025).xlsx",
+      "bytes": 4415697,
+      "sha256": "a1eac91e8d8173881c2dfceb85b4fc468bff43e791672cf5ccf8978679194c54"
+    },
+    {
       "file": "backup-before-final-link-correction-20261113_103937/So_chi_tiet_ban_hang (2025).xlsx",
       "bytes": 15161721,
       "sha256": "0f9170d935eefcc413de7de0fd030fe8580a513a9bdb08881a8be61723a14bcb"
@@ -33,6 +43,16 @@
       "file": "backup-before-final-link-correction-20261113_103937/mapping.json",
       "bytes": 81730954,
       "sha256": "bacf2c725bcd0530616071a2cc6a53a2a8ebd4f159d02a1961cab875e89e56ff"
+    },
+    {
+      "file": "ban-hang-chains-independent-verification.json",
+      "bytes": 1145,
+      "sha256": "6261267c9472fab1cae4f67a715cbb93d743eee04af69b8e849d1e232070293f"
+    },
+    {
+      "file": "ban-hang-chains-verification.json",
+      "bytes": 3039,
+      "sha256": "b6fc5907766895a59e119dfef5e3b9faa2de1dc7ad78ed01031d66c325153eb0"
     },
     {
       "file": "deep-live-duplicate-check.json",
@@ -108,6 +128,11 @@
       "file": "five-invoice-deep-evidence.json",
       "bytes": 61014,
       "sha256": "a5858d43d5e24f1ee6fd6517fe3bac9fabdfe86e69ecf53fbfa585b0dfafba23"
+    },
+    {
+      "file": "folder-reorganization-verification.json",
+      "bytes": 16491,
+      "sha256": "7d6842b88166090b9420e74c91b4c579d4314387f184c6d138224e03a3d927c1"
     },
     {
       "file": "history-manifest.json",

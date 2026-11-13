@@ -7,7 +7,8 @@ from datetime import datetime,date
 from lxml import etree
 import json,sys,re
 sys.stdout.reconfigure(encoding='utf-8');O=Path(__file__).parent;CHAINS='--chains' in sys.argv;COMPACT='--compact' in sys.argv or CHAINS
-p=O/('TONG_HOP_HD_2026_CHO_DON_2024_2025_CHUOI.xlsx' if CHAINS else 'TONG_HOP_HD_2026_CHO_DON_2024_2025_RUT_GON.xlsx' if COMPACT else 'TONG_HOP_HD_PHAT_HANH_2026_CHO_DON_2024_2025.xlsx')
+results=O.parent if O.name=='_support' else O
+p=(results if CHAINS else O)/('TONG_HOP_HD_2026_CHO_DON_2024_2025_CHUOI.xlsx' if CHAINS else 'TONG_HOP_HD_2026_CHO_DON_2024_2025_RUT_GON.xlsx' if COMPACT else 'TONG_HOP_HD_PHAT_HANH_2026_CHO_DON_2024_2025.xlsx')
 d=json.loads((O/'issued-2026-report-data.json').read_text(encoding='utf-8'))
 idx=next((i+6 for i,r in enumerate(d['bhh_rows']) if '\n' in r[12] and r[11]),6)
 specs=[('Tổng hợp','Tổng hợp',list(range(1,22)),list(range(1,8))),('HĐ 2026','HĐ 2026',list(range(1,14)),list(range(1,12))),('BHH và CT liên quan','BHH và CT liên quan',list(range(1,13)),list(range(1,9))),('Chuỗi thiếu BHH','Chuỗi thiếu BHH',list(range(1,13)),list(range(1,8))),('Liên kết BHH','BHH và CT liên quan',[5,idx,idx+1,idx+2],[2,12,13])]

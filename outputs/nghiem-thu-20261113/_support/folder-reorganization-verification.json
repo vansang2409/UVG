@@ -1,0 +1,443 @@
+{
+  "passed": true,
+  "top_level": [
+    "_support",
+    "README.md",
+    "TONG_HOP_HD_2026_CHO_DON_2024_2025_CHUOI.xlsx"
+  ],
+  "moved_file_count": 104,
+  "content_identical_file_count": 99,
+  "updated_path_scripts_and_readme": [
+    "add_ban_hang_chains.py",
+    "export_issued_2026_streaming.py",
+    "prepare_issued_2026_previews.py",
+    "README.md",
+    "verify_ban_hang_chains.py",
+    "verify_issued_2026_chain_book.py"
+  ],
+  "protected_amis_files_unchanged": 4,
+  "canonical_workbook_unchanged": true,
+  "library_junction_unchanged": true,
+  "original_hashes": [
+    {
+      "relative": "add_ban_hang_chains.py",
+      "sha256": "d5363ab7e2318dd7c80cdc3250642aa6c6026aa8ad415d9932798ab1322b75a3"
+    },
+    {
+      "relative": "amis-controls.json",
+      "sha256": "d5d0e96466e298c10c623b876c75660f5e1ee58b644be3c81d4c9ac43f2f0f78"
+    },
+    {
+      "relative": "amis.json",
+      "sha256": "31c01b70ab165e0d1991be94195508a70fd05049954c4a58f5a7c3ee924f1b5f"
+    },
+    {
+      "relative": "audit_final_links.py",
+      "sha256": "f2734a4437996db5d45f462d9435e7f85fbb38d58d7fa8b5d851a0d0f2cf6469"
+    },
+    {
+      "relative": "ban-hang-chains-independent-verification.json",
+      "sha256": "6261267c9472fab1cae4f67a715cbb93d743eee04af69b8e849d1e232070293f"
+    },
+    {
+      "relative": "ban-hang-chains-verification.json",
+      "sha256": "b6fc5907766895a59e119dfef5e3b9faa2de1dc7ad78ed01031d66c325153eb0"
+    },
+    {
+      "relative": "ban-hang-preview-2024 F0 F1.png",
+      "sha256": "fcd31b25447f2cd2284d8a05188e5c0df1acd1333ad48e098dc7b3711bea0a82"
+    },
+    {
+      "relative": "ban-hang-preview-2024 F2 F3 cuối.png",
+      "sha256": "84ca562925eb28b5094dfe7967c28a4e2053795ac09e519850a9e22c80c39673"
+    },
+    {
+      "relative": "ban-hang-preview-2025 F0 F1.png",
+      "sha256": "66fab150dfe5008221b42ebc6c3a104fd679369c92c30f14c841692928dc709d"
+    },
+    {
+      "relative": "ban-hang-preview-2025 F2 F3 cuối.png",
+      "sha256": "fa4c6758ae569d1a125ed0b8c493973e25d171d192d674fd9c0b2116f72bad2d"
+    },
+    {
+      "relative": "ban-hang-preview-cells.json",
+      "sha256": "59ce2a241d9f302ba4073719d158d04d25628eb82c1131867b3e96b7ff70fbd3"
+    },
+    {
+      "relative": "build_five_deep.mjs",
+      "sha256": "f8019501d480a024d9b8ca22c624b86ef04562b08982c018d3f80c654f602222"
+    },
+    {
+      "relative": "build_issued_2026.mjs",
+      "sha256": "694ed3fbe933836d4844da2e3398753c68621f049a38eb6878d530e90e1af38b"
+    },
+    {
+      "relative": "build_reverse_report.mjs",
+      "sha256": "e6f511ea2d256ad98492e03e3fc0a07f7b2db701c4712a1b197b641728e12c03"
+    },
+    {
+      "relative": "build.mjs",
+      "sha256": "7367e155a191272d8a112ae579850c06306774c6473985c8af9d8dce0d22ea4f"
+    },
+    {
+      "relative": "correct_from_final_links.py",
+      "sha256": "94cc27949ad0f4bcc1876537bd0ede0d324962cdbfe2470c46346712307993c7"
+    },
+    {
+      "relative": "deep_check_five.py",
+      "sha256": "554d30ff7afd1ac551786f0e6e9b9d8b37f0ddef37a241ad3ac660b5274d33d4"
+    },
+    {
+      "relative": "deep-live-duplicate-check.json",
+      "sha256": "ee45ab071d939b21e16e8fb66b56cb043f52ec1b32e4fbe51ca8c3bb2ce2f4ad"
+    },
+    {
+      "relative": "deep-live-kt-cells.json",
+      "sha256": "cf1ec224978c28a60464289458d28bff26e8949dcb1532d99afb7bdedaf9c32e"
+    },
+    {
+      "relative": "deep-live-nb-cells.json",
+      "sha256": "68961b8cf42304709d6ceab61658e62236f1e5a59c9db1be1c900ba00663cb9e"
+    },
+    {
+      "relative": "deep-live-review-cells.json",
+      "sha256": "20001c2bafcbd035e5ca0b0de2ea01f3b0c9deb4d5bcb9d92c3fc5999cebcffc"
+    },
+    {
+      "relative": "deep-misa-A1-B24000.json",
+      "sha256": "173f0d75151d38afd85e3bf8122721b3aa3ab115f21699f54ee2bec5e2289306"
+    },
+    {
+      "relative": "deep-misa-A24001-B48000.json",
+      "sha256": "fb7465bc3930f06d8baac4782d0b547c0f7e052e78c13b3ff9adc9eacf961409"
+    },
+    {
+      "relative": "deep-misa-A48001-B72219.json",
+      "sha256": "6928407e7267e8021767ff9d099c1347e13015c361be828fe4006e9f7cb4e5d4"
+    },
+    {
+      "relative": "derive_deep_five.py",
+      "sha256": "09ec275f8c2f32b65310c99ea12919a8cde7e44e335a2feaa845db32e2238b11"
+    },
+    {
+      "relative": "detail.json",
+      "sha256": "6c6d829f466b616e187a9889f68db26678cbac263f803b9838da92f850fd2066"
+    },
+    {
+      "relative": "edges.json",
+      "sha256": "0461addb2bc2e377db297bfae58dd68e68fdcf67dfebceeb262c3ddf6feb9ff8"
+    },
+    {
+      "relative": "export_issued_2026_streaming.py",
+      "sha256": "40ab4441306006db92c527400200d86dfeb1918a0690fc6f40d504b6c685a9ae"
+    },
+    {
+      "relative": "extract.py",
+      "sha256": "c0760ddf46d8e999494be5f144dc886292fa2aabdc3ca31df8b22ff0b2448685"
+    },
+    {
+      "relative": "fill_amis_originals.py",
+      "sha256": "dcd28d29063e0a69c70b9f18108774a7c803b955cde7570348ab3ff016a9690b"
+    },
+    {
+      "relative": "fill-amis-originals-verification.json",
+      "sha256": "17da385562fa2bc83c0e55c6f480e371664cf88061fe26398a978f491166c46b"
+    },
+    {
+      "relative": "final-link-correction-verification.json",
+      "sha256": "e6913f5ca10a47e8248b5435f4df020ab5011d5aff34619b75e0ccb08e9383e2"
+    },
+    {
+      "relative": "final-links-audit.json",
+      "sha256": "51e28daaa51d0767c88d28be92b5122bd5d41b80838a24275cad89f393396a09"
+    },
+    {
+      "relative": "five-deep-findings.json",
+      "sha256": "dc8a8d352b5799b350c60d17103368579edc6970f047091ab435f8bca9f8e2c6"
+    },
+    {
+      "relative": "five-deep-source-verification.json",
+      "sha256": "9df128aec64582ad7d9be250057991d432f17938d62fd1021d382a2a0390c00c"
+    },
+    {
+      "relative": "five-invoice-deep-evidence.json",
+      "sha256": "a5858d43d5e24f1ee6fd6517fe3bac9fabdfe86e69ecf53fbfa585b0dfafba23"
+    },
+    {
+      "relative": "handoff-support-manifest.json",
+      "sha256": "9e150b1191da49641bf76565f868678fe71affd3fc8a500dc09a35e5e6f82834"
+    },
+    {
+      "relative": "history-manifest.json",
+      "sha256": "85771ce4d07280f693f2165518590392db09b7fe51dd6564ec00ac9f6ce0df0f"
+    },
+    {
+      "relative": "inspect_sources.py",
+      "sha256": "144f50555c512a8eb45378aa65ebdd708561f3b66505a343b31d658d3664cacf"
+    },
+    {
+      "relative": "issued-2026-authoring-verification.json",
+      "sha256": "df108417d7150ffd08024944a6e43878c6d3b3b7bd8d0c5b0a79f67c2544c5e9"
+    },
+    {
+      "relative": "issued-2026-chain-authoring.json",
+      "sha256": "82190940f662e3659d35cfa06e450178d54f806aabdd3ef17189b22f98ae80c3"
+    },
+    {
+      "relative": "issued-2026-chain-book-verification.json",
+      "sha256": "1b0d198ba0d5f1b18682011cd24cb92e7b499da354cffeb2b0e2b5a3f8538ffb"
+    },
+    {
+      "relative": "issued-2026-chain-preview-cells.json",
+      "sha256": "882769bfd750b72c902c5f704602d5c3a270ad59ee808dcd27c1ced65f156b52"
+    },
+    {
+      "relative": "issued-2026-chain-view-audit.json",
+      "sha256": "16dfad7997c207b75a367eb94120214504afb2c0dc1d2e0bbed30db02be93291"
+    },
+    {
+      "relative": "issued-2026-chain-view.json",
+      "sha256": "11b2a6753ddef9def3cedfa80b6adf7b0fc15e084085c0afd99064e940414287"
+    },
+    {
+      "relative": "issued-2026-compact-authoring.json",
+      "sha256": "fa19f7531d1e618317918fcc3c47b6633363b2cc14d6f19519df8f36fa9de9f6"
+    },
+    {
+      "relative": "issued-2026-compact-preview-cells.json",
+      "sha256": "3176608d1758b48099d30e5ae2a7a1532e324e19fa0ee27939dc17ac237a3c5f"
+    },
+    {
+      "relative": "issued-2026-compact-verification.json",
+      "sha256": "afac276467610d7625a2c63f50fa1ea7d59dbb13f796dac2136375c7fc1c3f99"
+    },
+    {
+      "relative": "issued-2026-final-verification.json",
+      "sha256": "62d50b56baf22ec4d8f53d35f1c05e26011415ae36753339ccd70ac2118c6579"
+    },
+    {
+      "relative": "issued-2026-lookup-verification.json",
+      "sha256": "2956e5ac6fb8360e742aeda593d9a801fb839f10474383d3a662045605092b58"
+    },
+    {
+      "relative": "issued-2026-preview-cells.json",
+      "sha256": "abefc163718f5af3d708bb7f8900daae3b826fd0119387a9e362071b38101826"
+    },
+    {
+      "relative": "issued-2026-report-data.json",
+      "sha256": "c40ed32d5ba5beb53fbd5b200be3c541d46d3c001752bdbad77d79dcf9cf611c"
+    },
+    {
+      "relative": "issued-2026-selection-audit.json",
+      "sha256": "0934f39640aea6688cdf70202252aa73addb1d5093fd2ba1b191b13638f7bde0"
+    },
+    {
+      "relative": "issued-2026-source-verification.json",
+      "sha256": "27bcc29bccbb16d81ffba8693a9b8d70e9ab701bf17dd1b10883716d11567e7c"
+    },
+    {
+      "relative": "KIEM_TRA_KY_5_CAP_HD_1311.xlsx",
+      "sha256": "4354b3017b59bcc53878d1ad94aca469efdd5b4e5e944593f77ea7f74c61a9cd"
+    },
+    {
+      "relative": "ledger.json",
+      "sha256": "ed3bd78dfd0763eccd7882ac5c42f7c485e2f0c7f309c4b944707e9f5334c0a4"
+    },
+    {
+      "relative": "live-import-U10-X10009.json",
+      "sha256": "205e500bd29484d8fdf429e4d340d0e6380ff29c59eb24d879d0655667473c74"
+    },
+    {
+      "relative": "live-import-U10010-X20009.json",
+      "sha256": "1609dc59659b9edd6f8190a8600cf6dd4a8b6ed6b4e58ee55dffad664ff38fd3"
+    },
+    {
+      "relative": "live-import-U20010-X30009.json",
+      "sha256": "3f044312fe9dba642a05a8ec83bf6ed6f9e56d761ad1443266f5dd8764435a35"
+    },
+    {
+      "relative": "live-import-U30010-X35051.json",
+      "sha256": "9a925fef7d0dac9de571a0efb42cc94779e7d2942660f7fcc596b7f03eecc9bc"
+    },
+    {
+      "relative": "live-retained-B18003-C36002.json",
+      "sha256": "d0bd845ae08c0ec38257e9989cceeb85bea53c282ee7263eb2645012236cea57"
+    },
+    {
+      "relative": "live-retained-B3-C18002.json",
+      "sha256": "03927ecf18a5dd4d9b186dd733215c6998165fd5ad9dc16a084a434de8f988f2"
+    },
+    {
+      "relative": "live-retained-B36003-C41287.json",
+      "sha256": "315b8157ec2895aebf48f1b2d75de16e1451aac5bf5a23235b88942284aaf526"
+    },
+    {
+      "relative": "manifest.json",
+      "sha256": "6f773e7ba5b3b79e5da65de8e38584a45622bf9a422fb3cea545b18432806510"
+    },
+    {
+      "relative": "map_invoices.py",
+      "sha256": "3809834bc3de876dbc196452f17c705121ab347ca6f1028b64ceb7ecafaff2d4"
+    },
+    {
+      "relative": "MAP_SO_KY_HIEU_HD_AMIS_1311.xlsx",
+      "sha256": "b150b44205f2fefc2bc8734bf2624b6767f16da18cbbe223bd1ae35efced411b"
+    },
+    {
+      "relative": "mapping.json",
+      "sha256": "a155f4292ede2c452852d6bbd7f868ceac22a1dd5ab5e11029a9927203c01fc0"
+    },
+    {
+      "relative": "MEINVOICE_CHUA_NOI_AMIS_2024_2025_1311.xlsx",
+      "sha256": "f8f8f3fab551d32a23261088dbdb5938bdd5848aac17cdf0073db2a541c32ed6"
+    },
+    {
+      "relative": "meinvoice-controls.json",
+      "sha256": "ea156285123f3750b15d6f1e37da96546a7728673ef60d5539cd0aa4d6114105"
+    },
+    {
+      "relative": "money-source-conflicts.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "relative": "package_handoff.py",
+      "sha256": "f65d2c0a7eb02c4772da1d464bffd0c7828ff9c713f0da70491027458d3cbff9"
+    },
+    {
+      "relative": "prepare_issued_2026_chain_view.py",
+      "sha256": "53fe8bd3a9aa105a05c033bd3c26f55a38423ebd53bd1df33a8bffc8d9f3276f"
+    },
+    {
+      "relative": "prepare_issued_2026_previews.py",
+      "sha256": "c8c74e5d28f286ab2a5facca6afdda45c44d5cb822acc41b830de5139a5c7531"
+    },
+    {
+      "relative": "prepare_issued_2026.py",
+      "sha256": "53407d95ea41d8c6784e3ee8bd0bf077f438ba7dc76d1749c7ce39d1fec67270"
+    },
+    {
+      "relative": "prepare_reverse_report.py",
+      "sha256": "4371c0216dcdd5307b7624aff828dccb0ca6a2c7c34a5d4d75a1861193602e24"
+    },
+    {
+      "relative": "README.md",
+      "sha256": "b88613e4e2165f7a22c90f190eb4b29c77528cdeb0b22de4986bb9dfe22b86c8"
+    },
+    {
+      "relative": "render_issued_2026_previews.mjs",
+      "sha256": "9016d6fe9107ee95bd4fb7f36bece96770beebc4c8765b5fd33894632f320356"
+    },
+    {
+      "relative": "reverse_unmapped_chains.py",
+      "sha256": "ca858bf8f7e9a71165747d28026ed92e86ea912d26a296fcfc65c59034afd840"
+    },
+    {
+      "relative": "reverse-chain-audit.json",
+      "sha256": "9b7973bd8f94b13f9ecd4ed1d18e7850abf2b374e4352c6a9c42f922e3d4ecc8"
+    },
+    {
+      "relative": "reverse-chain-unmapped.json",
+      "sha256": "23efe14652106c05d35e1a9d5b97d1c47ef3b6e988ebdfce0dda7e064805909e"
+    },
+    {
+      "relative": "reverse-live-chain-31054.json",
+      "sha256": "a0880cfc9e21d517a0c39dda1ddbbfff8ffa6714779252991c473d5f1bdbe068"
+    },
+    {
+      "relative": "reverse-live-gifts.json",
+      "sha256": "f24f4e6c4147206661a0dd4021036d16ea443256346408d6e61653c8c433f6df"
+    },
+    {
+      "relative": "reverse-report-data.json",
+      "sha256": "abef59055084912a72d456950db0dff54d91b6f5cf051da8fde11e434dc63765"
+    },
+    {
+      "relative": "reverse-report-verification.json",
+      "sha256": "381a762f5f7ea24b06100f844ad1d070ce717af404633bda8635d23d1bd97fb4"
+    },
+    {
+      "relative": "source-issues.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "relative": "summary.json",
+      "sha256": "fa420d65e6f5173954df2be99ba3a2eca83959ad98f22042eb256679bf40f143"
+    },
+    {
+      "relative": "support-data-20261113.zip",
+      "sha256": "702a20c17734ec7ce8ab6d07502332419ef328a2876b9449ac1239934200ad13"
+    },
+    {
+      "relative": "TONG_HOP_HD_2026_CHO_DON_2024_2025_CHUOI.xlsx",
+      "sha256": "faf380cca006324ca055676b229ef326072926f328f1d4960e4adfdcf31c2b32"
+    },
+    {
+      "relative": "TONG_HOP_HD_2026_CHO_DON_2024_2025_RUT_GON.xlsx",
+      "sha256": "403bc88ad1d180de06caa56a6077d2cff6f1c2b4b12906838e7c4589583bc88d"
+    },
+    {
+      "relative": "TONG_HOP_HD_PHAT_HANH_2026_CHO_DON_2024_2025.xlsx",
+      "sha256": "487bb64447227e0dd87283aee097c25aaf90d4eebfdd07ea8deb6b51b6f1b2ee"
+    },
+    {
+      "relative": "verification.json",
+      "sha256": "59f600993cef9cd8386c5b0af4f160341629fc981cc726312e9598370adfdadb"
+    },
+    {
+      "relative": "verify_ban_hang_chains.py",
+      "sha256": "f3271eeab0913c76bf7017675b16c21654d341f68765d8e725e58f82edb5b4c3"
+    },
+    {
+      "relative": "verify_five_raw_sources.py",
+      "sha256": "0cfd21262670cba99efcb8036dec335d037d62cdc7a8eee52bac1b95fc6c708b"
+    },
+    {
+      "relative": "verify_issued_2026_chain_book.py",
+      "sha256": "ae21837eb4f91d4cf00a4207bda9c4c320593e065b2f3e1f064c7d4b7d13e774"
+    },
+    {
+      "relative": "verify_issued_2026_compact.py",
+      "sha256": "2a85de2221dd3728b5f4f9ba88ff47f6908b5de9c5a57f86150541c7e9bbcb72"
+    },
+    {
+      "relative": "verify_issued_2026_sources.py",
+      "sha256": "b0b30bf21829ab8a91c8771ab5e63353ef5b330adada1aba0f214f0dd0a56082"
+    },
+    {
+      "relative": "verify_issued_2026_workbook.py",
+      "sha256": "0abefdb46d1b46833159e182468616c653ec5b651001a970abbe6ec7a8a83387"
+    },
+    {
+      "relative": "verify.py",
+      "sha256": "36678542a3ed2beb33fa0cfd77570562294397806e855aeb2c11a017eadde036"
+    },
+    {
+      "relative": "workbook-specs.json",
+      "sha256": "30bb4b378dceed143509f160413510c3d1be15b14b7955e9902e004a5dd0584c"
+    },
+    {
+      "relative": "backup-before-final-link-correction-20261113_103937\\mapping.json",
+      "sha256": "bacf2c725bcd0530616071a2cc6a53a2a8ebd4f159d02a1961cab875e89e56ff"
+    },
+    {
+      "relative": "backup-before-final-link-correction-20261113_103937\\So_chi_tiet_ban_hang (2025).xlsx",
+      "sha256": "0f9170d935eefcc413de7de0fd030fe8580a513a9bdb08881a8be61723a14bcb"
+    },
+    {
+      "relative": "backup-ban-hang-before-chains-20261113\\Ban_hang (2024).xlsx",
+      "sha256": "8c6a7d96fa41c9b599976bdd75b736c07111f8366860e8357039bdf899545b6b"
+    },
+    {
+      "relative": "backup-ban-hang-before-chains-20261113\\Ban_hang (2025).xlsx",
+      "sha256": "a1eac91e8d8173881c2dfceb85b4fc468bff43e791672cf5ccf8978679194c54"
+    },
+    {
+      "relative": "backup-amis-before-fill-20261113_102407\\So_chi_tiet_ban_hang (2024).xlsx",
+      "sha256": "c75dd5719f13bf803259200d388ec5459471e801f9ccc26080bc1e03df194629"
+    },
+    {
+      "relative": "backup-amis-before-fill-20261113_102407\\So_chi_tiet_ban_hang (2025).xlsx",
+      "sha256": "dbe9b2bfc23b343bd1347bc032dcb528672b6e8d1f579d2d03f15763efe4ae1c"
+    }
+  ]
+}

@@ -10,7 +10,8 @@ d=json.loads((O/'issued-2026-report-data.json').read_text(encoding='utf-8'))
 v=json.loads((O/'issued-2026-source-verification.json').read_text(encoding='utf-8'));assert v['passed']
 CHAINS='--chains' in sys.argv
 COMPACT='--compact' in sys.argv or CHAINS
-p=O/('TONG_HOP_HD_2026_CHO_DON_2024_2025_CHUOI.xlsx' if CHAINS else 'TONG_HOP_HD_2026_CHO_DON_2024_2025_RUT_GON.xlsx' if COMPACT else 'TONG_HOP_HD_PHAT_HANH_2026_CHO_DON_2024_2025.xlsx')
+results=O.parent if O.name=='_support' else O
+p=(results if CHAINS else O)/('TONG_HOP_HD_2026_CHO_DON_2024_2025_CHUOI.xlsx' if CHAINS else 'TONG_HOP_HD_2026_CHO_DON_2024_2025_RUT_GON.xlsx' if COMPACT else 'TONG_HOP_HD_PHAT_HANH_2026_CHO_DON_2024_2025.xlsx')
 write_path=p.with_suffix('.xlsx.writing') if CHAINS else p
 w=xlsxwriter.Workbook(write_path,{'constant_memory':True,'strings_to_numbers':False,'strings_to_formulas':False,'strings_to_urls':False})
 w.set_properties({'title':'HĐ phát hành 2026 cho đơn 2024–2025','subject':'Đối chiếu meInvoice và AMIS đến 13/11/2026'})

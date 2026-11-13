@@ -1,0 +1,82 @@
+{
+  "passed": true,
+  "writer": "OOXML preservation fallback after previous Artifact Tool out-of-memory",
+  "files": [
+    {
+      "year": 2024,
+      "file": "D:\\UVG\\data\\1311\\amis\\Ban_hang (2024).xlsx",
+      "backup": "D:\\UVG\\outputs\\nghiem-thu-20261113\\backup-ban-hang-before-chains-20261113\\Ban_hang (2024).xlsx",
+      "before_sha256": "8c6a7d96fa41c9b599976bdd75b736c07111f8366860e8357039bdf899545b6b",
+      "after_sha256": "b2c68bba87208e1c2ab323be028e3f649b29bbbe1b159eff3b50cc3e2c49e122",
+      "documents": 34854,
+      "original_sheets": [
+        "Bán hàng"
+      ],
+      "original_A_L_cells_unchanged": true,
+      "new_columns": "M:AA",
+      "chain_type_column": "M",
+      "chain_type_counts": {
+        "HĐ mới": 32623,
+        "Điều chỉnh": 229,
+        "Thay thế": 2002
+      },
+      "chain_type_rule": "Thay thế nếu có thay thế; nếu không có thì Điều chỉnh nếu có điều chỉnh; còn lại HĐ mới. Chuỗi có cả hai ghi rõ tại AA.",
+      "detail_sheet": "Chi tiết chuỗi HĐ",
+      "detail_member": "xl/worksheets/sheet2.xml",
+      "original_members_unchanged_except": [
+        "xl/styles.xml",
+        "xl/workbook.xml",
+        "xl/_rels/workbook.xml.rels",
+        "[Content_Types].xml",
+        "xl/worksheets/sheet1.xml"
+      ],
+      "invoice_memberships": 39090,
+      "phase_counts": {
+        "0": 34854,
+        "2": 2164,
+        "1": 71,
+        "3": 2001
+      },
+      "raw_blank_payments": 2003
+    },
+    {
+      "year": 2025,
+      "file": "D:\\UVG\\data\\1311\\amis\\Ban_hang (2025).xlsx",
+      "backup": "D:\\UVG\\outputs\\nghiem-thu-20261113\\backup-ban-hang-before-chains-20261113\\Ban_hang (2025).xlsx",
+      "before_sha256": "a1eac91e8d8173881c2dfceb85b4fc468bff43e791672cf5ccf8978679194c54",
+      "after_sha256": "5cdc85f69b9edb96ecdf58b6170bccec4deb1baaaa28925f26568e1897dc9210",
+      "documents": 65492,
+      "original_sheets": [
+        "Bán hàng",
+        "Bán hàng_2"
+      ],
+      "original_A_L_cells_unchanged": true,
+      "new_columns": "M:AA",
+      "chain_type_column": "M",
+      "chain_type_counts": {
+        "HĐ mới": 34867,
+        "Thay thế": 686,
+        "Điều chỉnh": 29939
+      },
+      "chain_type_rule": "Thay thế nếu có thay thế; nếu không có thì Điều chỉnh nếu có điều chỉnh; còn lại HĐ mới. Chuỗi có cả hai ghi rõ tại AA.",
+      "detail_sheet": "Chi tiết chuỗi HĐ",
+      "detail_member": "xl/worksheets/sheet3.xml",
+      "original_members_unchanged_except": [
+        "xl/styles.xml",
+        "xl/workbook.xml",
+        "xl/_rels/workbook.xml.rels",
+        "[Content_Types].xml",
+        "xl/worksheets/sheet1.xml",
+        "xl/worksheets/sheet2.xml"
+      ],
+      "invoice_memberships": 152670,
+      "phase_counts": {
+        "0": 65718,
+        "2": 43416,
+        "3": 29750,
+        "1": 13786
+      },
+      "raw_blank_payments": 1033
+    }
+  ]
+}

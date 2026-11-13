@@ -119,15 +119,15 @@ node_modules/
 /outputs/import-2025-20261109/unmapped-meinvoice-audit.json
 /outputs/import-2025-20261109/unmapped-invoice-detail-review.json
 
-# Nghiệm thu 13/11: dữ liệu hỗ trợ được lưu trong gói nén có manifest SHA-256.
-/outputs/nghiem-thu-20261113/*.json
-!/outputs/nghiem-thu-20261113/*verification.json
-!/outputs/nghiem-thu-20261113/manifest.json
-!/outputs/nghiem-thu-20261113/history-manifest.json
-!/outputs/nghiem-thu-20261113/handoff-support-manifest.json
-/outputs/nghiem-thu-20261113/backup-*/
-/outputs/nghiem-thu-20261113/staged-*/
-/outputs/nghiem-thu-20261113/*preview*.png
-/outputs/nghiem-thu-20261113/TONG_HOP_HD_PHAT_HANH_2026_CHO_DON_2024_2025.xlsx
-!/outputs/nghiem-thu-20261113/support-data-20261113.zip
+# Nghiệm thu 13/11: hỗ trợ và bản cũ nằm trong _support, giữ mặt ngoài gọn.
+/outputs/nghiem-thu-20261113/_support/*.json
+!/outputs/nghiem-thu-20261113/_support/*verification.json
+!/outputs/nghiem-thu-20261113/_support/manifest.json
+!/outputs/nghiem-thu-20261113/_support/history-manifest.json
+!/outputs/nghiem-thu-20261113/_support/handoff-support-manifest.json
+/outputs/nghiem-thu-20261113/_support/backup-*/
+/outputs/nghiem-thu-20261113/_support/staged-*/
+/outputs/nghiem-thu-20261113/_support/*preview*.png
+/outputs/nghiem-thu-20261113/_support/TONG_HOP_HD_PHAT_HANH_2026_CHO_DON_2024_2025.xlsx
+!/outputs/nghiem-thu-20261113/_support/support-data-20261113.zip
 !/data/1311/meinvoice/*.zip

@@ -20,7 +20,8 @@ def digest_member(path,name):
     if not b:break
     h.update(b)
  return h.hexdigest()
-src=O/'TONG_HOP_HD_2026_CHO_DON_2024_2025_RUT_GON.xlsx';p=O/'TONG_HOP_HD_2026_CHO_DON_2024_2025_CHUOI.xlsx'
+results=O.parent if O.name=='_support' else O
+src=O/'TONG_HOP_HD_2026_CHO_DON_2024_2025_RUT_GON.xlsx';p=results/'TONG_HOP_HD_2026_CHO_DON_2024_2025_CHUOI.xlsx'
 assert hashlib.sha256(src.read_bytes()).hexdigest()=='403bc88ad1d180de06caa56a6077d2cff6f1c2b4b12906838e7c4589583bc88d'
 with ZipFile(p) as z:assert z.testzip() is None
 d=read('issued-2026-report-data.json');expected=read('issued-2026-chain-view.json');audit=read('issued-2026-chain-view-audit.json');ledger=read('ledger.json')

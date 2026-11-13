@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "files": [
+    {
+      "year": 2024,
+      "documents": 34854,
+      "invoice_memberships": 39090,
+      "original_A_L_cells_identical": true,
+      "all_amounts_dates_invoice_ids_formulas_verified": true,
+      "chain_type_column_verified": true,
+      "chain_type_counts": {
+        "HĐ mới": 32623,
+        "Điều chỉnh": 229,
+        "Thay thế": 2002
+      },
+      "invoice_ids_without_annotations_verified": true,
+      "unknown_final": 0,
+      "sha256": "b2c68bba87208e1c2ab323be028e3f649b29bbbe1b159eff3b50cc3e2c49e122"
+    },
+    {
+      "year": 2025,
+      "documents": 65492,
+      "invoice_memberships": 152670,
+      "original_A_L_cells_identical": true,
+      "all_amounts_dates_invoice_ids_formulas_verified": true,
+      "chain_type_column_verified": true,
+      "chain_type_counts": {
+        "HĐ mới": 34867,
+        "Thay thế": 686,
+        "Điều chỉnh": 29939
+      },
+      "invoice_ids_without_annotations_verified": true,
+      "unknown_final": 0,
+      "sha256": "5cdc85f69b9edb96ecdf58b6170bccec4deb1baaaa28925f26568e1897dc9210"
+    }
+  ]
+}

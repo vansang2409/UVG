@@ -1,8 +1,10 @@
 # Tiếp tục UVG
 
-Cập nhật nghiệm thu 13/11/2026: file đang dùng là `outputs/nghiem-thu-20261113/TONG_HOP_HD_2026_CHO_DON_2024_2025_CHUOI.xlsx`, gồm 82.207 HĐ phát hành 2026 cho đơn 2024–2025 và 68.928 nhóm chuỗi. Mỗi F có màu riêng, ngày, thanh toán và giá trị sau cùng đã gồm VAT. Xem [hướng dẫn nghiệm thu](outputs/nghiem-thu-20261113/README.md) để giải nén snapshot và tái xuất; kết quả kiểm cùng thư mục xác nhận toàn bộ công thức và dữ liệu.
+Cập nhật nghiệm thu 13/11/2026: file đang dùng là `outputs/nghiem-thu-20261113/TONG_HOP_HD_2026_CHO_DON_2024_2025_CHUOI.xlsx`, gồm 82.207 HĐ phát hành 2026 cho đơn 2024–2025 và 68.928 nhóm chuỗi. Mỗi F có màu riêng, ngày, thanh toán và giá trị sau cùng đã gồm VAT. Xem [hướng dẫn nghiệm thu](outputs/nghiem-thu-20261113/README.md). Thư mục này chỉ giữ Excel chính, README và `_support/`; toàn bộ script, JSON, bản sao lưu, bản Excel cũ và hướng dẫn tái xuất đã gom vào `_support/`. Các kết quả kiểm tại đó xác nhận toàn bộ công thức và dữ liệu.
 
 Các trạng thái Google Sheets bên dưới là mốc đã ghi nhận 11/11/2026; đọc lại live trước khi sửa. Cập nhật các mục hiện có, không nối nhật ký dài vào file này.
+
+Hai file `data/1311/amis/Ban_hang (2024).xlsx` và `Ban_hang (2025).xlsx` đã thêm chuỗi F0–F3 tại N:Y, ngày/tiền từng F và giá trị cuối tại Z; M là `Loại chuỗi` (HĐ mới / Điều chỉnh / Thay thế), AA là ghi chú. Chuỗi có cả điều chỉnh và thay thế xếp Thay thế, ghi rõ có cả hai tại AA; số HĐ không còn nhãn loại/trạng thái. Giữ nguyên ô A:L và dòng tổng. Mỗi file có tab `Chi tiết chuỗi HĐ`. Đã kiểm độc lập đủ 34.854 + 65.492 chứng từ, không có giá trị cuối thiếu căn cứ. Xem README nghiệm thu và hai JSON kiểm `ban-hang-chains-*verification.json` trong `_support/`.
 
 ## Việc còn chờ
 

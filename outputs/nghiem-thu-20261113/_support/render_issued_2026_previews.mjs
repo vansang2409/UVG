@@ -4,7 +4,8 @@ import {fileURLToPath} from 'node:url';
 import {Workbook} from '@oai/artifact-tool';
 const out=path.dirname(fileURLToPath(import.meta.url));
 const chains=process.argv.includes('--chains');const compact=process.argv.includes('--compact')||chains;
-const data=JSON.parse(await fs.readFile(path.join(out,chains?'issued-2026-chain-preview-cells.json':compact?'issued-2026-compact-preview-cells.json':'issued-2026-preview-cells.json'),'utf8'));
+const banHang=process.argv.includes('--ban-hang');
+const data=JSON.parse(await fs.readFile(path.join(out,banHang?'ban-hang-preview-cells.json':chains?'issued-2026-chain-preview-cells.json':compact?'issued-2026-compact-preview-cells.json':'issued-2026-preview-cells.json'),'utf8'));
 const wb=Workbook.create();
 for(const view of data){
  const sh=wb.worksheets.add(view.name);sh.showGridLines=false;
@@ -33,6 +34,6 @@ for(const view of data){
 wb.recalculate();
 for(const view of data){
  const p=await wb.render({sheetName:view.name,autoCrop:'all',scale:1,format:'png'});
- await fs.writeFile(path.join(out,(chains?'chain-final-preview-':compact?'compact-final-preview-':'final-issued-preview-')+view.name+'.png'),new Uint8Array(await p.arrayBuffer()));
+ await fs.writeFile(path.join(out,(banHang?'ban-hang-preview-':chains?'chain-final-preview-':compact?'compact-final-preview-':'final-issued-preview-')+view.name+'.png'),new Uint8Array(await p.arrayBuffer()));
  console.log('RENDERED actual workbook',view.name);
 }
