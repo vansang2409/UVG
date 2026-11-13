@@ -1,0 +1,1360 @@
+{
+  "date": "2026-11-13",
+  "root": "D:\\UVG",
+  "deleted_files": 224,
+  "freed_bytes": 1921973520.0,
+  "source_files_verified_unchanged": 638,
+  "canonical_workbook_unchanged": true,
+  "canonical_sha256": "faf380cca006324ca055676b229ef326072926f328f1d4960e4adfdcf31c2b32",
+  "removed_empty_cache_dirs": [
+    "scripts/__pycache__",
+    "outputs/nghiem-thu-20261113/__pycache__",
+    "tmp/akia-20261110/__pycache__"
+  ],
+  "items": [
+    {
+      "path": "tmp/akia-20261110/__pycache__/sync.cpython-312.pyc",
+      "bytes": 27996,
+      "last_write_ticks": 639298743944983244,
+      "reason": "python_bytecode_cache"
+    },
+    {
+      "path": "scripts/layout-tools/proposed-layout.xlsx.inspect.ndjson",
+      "bytes": 7132834,
+      "last_write_ticks": 639269443694741814,
+      "reason": "excel_inspection_generated"
+    },
+    {
+      "path": "scripts/layout-tools/rebuilt-check.xlsx.inspect.ndjson",
+      "bytes": 7133196,
+      "last_write_ticks": 639269548927701849,
+      "reason": "excel_inspection_generated"
+    },
+    {
+      "path": "scripts/data/untreated/build-error.log",
+      "bytes": 0,
+      "last_write_ticks": 639270314467881259,
+      "reason": "empty_log"
+    },
+    {
+      "path": "scripts/data/untreated/buyer-sync-error.log",
+      "bytes": 0,
+      "last_write_ticks": 639270391324874944,
+      "reason": "empty_log"
+    },
+    {
+      "path": "scripts/data/untreated/buyer-sync.png",
+      "bytes": 29813,
+      "last_write_ticks": 639270391805677801,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/untreated/confirmation-error.log",
+      "bytes": 0,
+      "last_write_ticks": 639270326355637110,
+      "reason": "empty_log"
+    },
+    {
+      "path": "scripts/data/untreated/confirmed-payment.xlsx.inspect.ndjson",
+      "bytes": 36378455,
+      "last_write_ticks": 639270326722146073,
+      "reason": "excel_inspection_generated"
+    },
+    {
+      "path": "scripts/data/untreated/final.inspect.ndjson",
+      "bytes": 38762677,
+      "last_write_ticks": 639270314934561630,
+      "reason": "excel_inspection_generated"
+    },
+    {
+      "path": "scripts/data/untreated/import-buyer.png",
+      "bytes": 29497,
+      "last_write_ticks": 639270387813083415,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/untreated/import-error.log",
+      "bytes": 0,
+      "last_write_ticks": 639270387187853920,
+      "reason": "empty_log"
+    },
+    {
+      "path": "scripts/data/untreated/import-money.png",
+      "bytes": 100378,
+      "last_write_ticks": 639270387799139256,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/untreated/payment-after.png",
+      "bytes": 50173,
+      "last_write_ticks": 639270326520823990,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/untreated/payment-before.png",
+      "bytes": 45908,
+      "last_write_ticks": 639270326516740121,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/untreated/untreated-guide.png",
+      "bytes": 76558,
+      "last_write_ticks": 639270314778942242,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/untreated/untreated-notes.png",
+      "bytes": 66787,
+      "last_write_ticks": 639270314775038982,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/untreated/untreated-values.png",
+      "bytes": 27422,
+      "last_write_ticks": 639270314769539239,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/untreated/with-buyer-sync.xlsx.inspect.ndjson",
+      "bytes": 105648581,
+      "last_write_ticks": 639270392356387131,
+      "reason": "excel_inspection_generated"
+    },
+    {
+      "path": "scripts/data/untreated/with-import.xlsx.inspect.ndjson",
+      "bytes": 106509923,
+      "last_write_ticks": 639270388590496430,
+      "reason": "excel_inspection_generated"
+    },
+    {
+      "path": "scripts/data/untreated/with-zero-exclusion.xlsx.inspect.ndjson",
+      "bytes": 105649857,
+      "last_write_ticks": 639270397708510100,
+      "reason": "excel_inspection_generated"
+    },
+    {
+      "path": "scripts/data/untreated/zero-excluded-import.png",
+      "bytes": 22769,
+      "last_write_ticks": 639270397055985558,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/untreated/zero-exclusion-error.log",
+      "bytes": 0,
+      "last_write_ticks": 639270396494726853,
+      "reason": "empty_log"
+    },
+    {
+      "path": "scripts/data/untreated/zero-review-notes.png",
+      "bytes": 52472,
+      "last_write_ticks": 639270397039196682,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/untreated/zero-review-values.png",
+      "bytes": 32435,
+      "last_write_ticks": 639270397016436490,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/replacement-zero-20261029/last-lines.png",
+      "bytes": 47882,
+      "last_write_ticks": 639288438486329335,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/replacement-zero-20261029/references.png",
+      "bytes": 19823,
+      "last_write_ticks": 639288438484450441,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/replacement-zero-20261029/template-preview.png",
+      "bytes": 29471,
+      "last_write_ticks": 639288438461579068,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/replacement-zero-20261029/zero-money.png",
+      "bytes": 42137,
+      "last_write_ticks": 639288438485576949,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/new-amis-2024-20261026/import-0.png",
+      "bytes": 25812,
+      "last_write_ticks": 639285819010432093,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/new-amis-2024-20261026/import-1.png",
+      "bytes": 23360,
+      "last_write_ticks": 639285819011842065,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/new-amis-2024-20261026/import-build-error.log",
+      "bytes": 0,
+      "last_write_ticks": 639285812483424700,
+      "reason": "empty_log"
+    },
+    {
+      "path": "scripts/data/new-amis-2024-20261026/import-money.png",
+      "bytes": 29801,
+      "last_write_ticks": 639285819012738265,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/new-amis-2024-20261026/preview-error.log",
+      "bytes": 0,
+      "last_write_ticks": 639285818954632790,
+      "reason": "empty_log"
+    },
+    {
+      "path": "scripts/data/new-amis-2024-20261026/review-0.png",
+      "bytes": 27356,
+      "last_write_ticks": 639285815237734955,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/new-amis-2024-20261026/review-1.png",
+      "bytes": 22386,
+      "last_write_ticks": 639285815286972400,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/new-amis-2024-20261026/review-2.png",
+      "bytes": 15514,
+      "last_write_ticks": 639285815390630505,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/new-amis-2024-20261026/review-3.png",
+      "bytes": 23862,
+      "last_write_ticks": 639285815473663566,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/new-amis-2024-20261026/review-4.png",
+      "bytes": 39814,
+      "last_write_ticks": 639285815528962470,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/new-amis-2024-20261026/review-5.png",
+      "bytes": 21459,
+      "last_write_ticks": 639285815627806815,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/new-amis-2024-20261026/review-6.png",
+      "bytes": 30224,
+      "last_write_ticks": 639285815739513373,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/new-amis-2024-20261026/review-build-error.log",
+      "bytes": 0,
+      "last_write_ticks": 639285813482642208,
+      "reason": "empty_log"
+    },
+    {
+      "path": "scripts/data/nb-fill-20261022/duplicate-marker-after.png",
+      "bytes": 254600,
+      "last_write_ticks": 639282402308565677,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/nb-fill-20261022/google-sheet-after.png",
+      "bytes": 254805,
+      "last_write_ticks": 639282391879502963,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/nb-fill-20261022/rounding-write-after.png",
+      "bytes": 264025,
+      "last_write_ticks": 639282399069486645,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/nb-fill-20261022/unmatched-cause-marker-after.png",
+      "bytes": 219214,
+      "last_write_ticks": 639282415044287388,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/import-reasons-20261014/authored-0.xlsx.inspect.ndjson",
+      "bytes": 6177583,
+      "last_write_ticks": 639275582483597998,
+      "reason": "excel_inspection_generated"
+    },
+    {
+      "path": "scripts/data/import-reasons-20261014/authored-1.xlsx.inspect.ndjson",
+      "bytes": 19046390,
+      "last_write_ticks": 639275583192238009,
+      "reason": "excel_inspection_generated"
+    },
+    {
+      "path": "scripts/data/import-reasons-20261014/preview-0.png",
+      "bytes": 13917,
+      "last_write_ticks": 639275582453841785,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/import-reasons-20261014/preview-1.png",
+      "bytes": 13348,
+      "last_write_ticks": 639275583114237482,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/h2-chain-readiness-20261022/preview-blank.png",
+      "bytes": 20395,
+      "last_write_ticks": 639282359028399785,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/h2-chain-readiness-20261022/preview-main.png",
+      "bytes": 39270,
+      "last_write_ticks": 639282358854754975,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/h2-chain-readiness-20261022/preview-source.png",
+      "bytes": 36109,
+      "last_write_ticks": 639282359208421328,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/count-difference-20261019/list-287-preview.png",
+      "bytes": 48381,
+      "last_write_ticks": 639280016138252796,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/check-review/195-after-plan.png",
+      "bytes": 34980,
+      "last_write_ticks": 639271369399644222,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/check-review/195-before-plan.png",
+      "bytes": 33331,
+      "last_write_ticks": 639271369288838274,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/check-review/195-import.png",
+      "bytes": 58337,
+      "last_write_ticks": 639271369466639676,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/check-review/195-note.png",
+      "bytes": 51496,
+      "last_write_ticks": 639271369432698164,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/check-review/42-good.png",
+      "bytes": 40497,
+      "last_write_ticks": 639271387400008970,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/check-review/42-review.png",
+      "bytes": 42659,
+      "last_write_ticks": 639271387434362654,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/check-review/adjusted-import-buyer.png",
+      "bytes": 29998,
+      "last_write_ticks": 639270425013937890,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/check-review/adjusted-import-error.log",
+      "bytes": 0,
+      "last_write_ticks": 639270422747285707,
+      "reason": "empty_log"
+    },
+    {
+      "path": "scripts/data/check-review/adjusted-import-money.png",
+      "bytes": 115669,
+      "last_write_ticks": 639270424976069497,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/check-review/adjusted-import-pending.png",
+      "bytes": 48982,
+      "last_write_ticks": 639270425049827491,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/check-review/adjustment-notes-before.png",
+      "bytes": 28223,
+      "last_write_ticks": 639270296533969029,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/check-review/adjustment-notes-error.log",
+      "bytes": 0,
+      "last_write_ticks": 639270296413711476,
+      "reason": "empty_log"
+    },
+    {
+      "path": "scripts/data/check-review/adjustment-notes-mixed.png",
+      "bytes": 43853,
+      "last_write_ticks": 639270296539010768,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/check-review/adjustment-notes-sale.png",
+      "bytes": 42772,
+      "last_write_ticks": 639270296541817260,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/check-review/before-plan.png",
+      "bytes": 29273,
+      "last_write_ticks": 639270257935759609,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/check-review/build-error.log",
+      "bytes": 0,
+      "last_write_ticks": 639270246918482069,
+      "reason": "empty_log"
+    },
+    {
+      "path": "scripts/data/check-review/date-12885-after.png",
+      "bytes": 19695,
+      "last_write_ticks": 639271330706996031,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/check-review/date-12885-before.png",
+      "bytes": 19759,
+      "last_write_ticks": 639271329161718897,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/check-review/date-12885-updated.xlsx.inspect.ndjson",
+      "bytes": 198342888,
+      "last_write_ticks": 639271332675952511,
+      "reason": "excel_inspection_generated"
+    },
+    {
+      "path": "scripts/data/check-review/plan-error.log",
+      "bytes": 0,
+      "last_write_ticks": 639270259900081100,
+      "reason": "empty_log"
+    },
+    {
+      "path": "scripts/data/check-review/plan-four-invoices.png",
+      "bytes": 19430,
+      "last_write_ticks": 639270260270570477,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/check-review/plan-new-1.png",
+      "bytes": 58396,
+      "last_write_ticks": 639270260261753268,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/check-review/plan-new-2.png",
+      "bytes": 36436,
+      "last_write_ticks": 639270260266876278,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/check-review/remove-notes-after.png",
+      "bytes": 34595,
+      "last_write_ticks": 639271377092080061,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/check-review/remove-notes-before.png",
+      "bytes": 51496,
+      "last_write_ticks": 639271376976210319,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/check-review/rename-after.png",
+      "bytes": 13244,
+      "last_write_ticks": 639270266742853457,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/check-review/rename-before.png",
+      "bytes": 14648,
+      "last_write_ticks": 639270266739854679,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/check-review/rename-error.log",
+      "bytes": 0,
+      "last_write_ticks": 639270266616213003,
+      "reason": "empty_log"
+    },
+    {
+      "path": "scripts/data/check-review/renamed.xlsx.inspect.ndjson",
+      "bytes": 17033964,
+      "last_write_ticks": 639270266850519642,
+      "reason": "excel_inspection_generated"
+    },
+    {
+      "path": "scripts/data/check-review/review-input.png",
+      "bytes": 73735,
+      "last_write_ticks": 639270246940418750,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/check-review/review-left.png",
+      "bytes": 89405,
+      "last_write_ticks": 639270246939262953,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/check-review/review-values.png",
+      "bytes": 42972,
+      "last_write_ticks": 639270246941607031,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/check-review/with-195-xml.xlsx.inspect.ndjson",
+      "bytes": 200878003,
+      "last_write_ticks": 639271371390607445,
+      "reason": "excel_inspection_generated"
+    },
+    {
+      "path": "scripts/data/check-review/with-adjusted-import.xlsx.inspect.ndjson",
+      "bytes": 198341716,
+      "last_write_ticks": 639270426743401988,
+      "reason": "excel_inspection_generated"
+    },
+    {
+      "path": "scripts/data/check-review/with-adjustment-notes.xlsx.inspect.ndjson",
+      "bytes": 17259238,
+      "last_write_ticks": 639270296654650714,
+      "reason": "excel_inspection_generated"
+    },
+    {
+      "path": "scripts/data/check-review/with-plan.xlsx.inspect.ndjson",
+      "bytes": 17033176,
+      "last_write_ticks": 639270260399877972,
+      "reason": "excel_inspection_generated"
+    },
+    {
+      "path": "scripts/data/check-review/with-split-42.xlsx.inspect.ndjson",
+      "bytes": 201192103,
+      "last_write_ticks": 639271389102243702,
+      "reason": "excel_inspection_generated"
+    },
+    {
+      "path": "scripts/data/check-review/with-zero-notes.xlsx.inspect.ndjson",
+      "bytes": 17181515,
+      "last_write_ticks": 639270290216061305,
+      "reason": "excel_inspection_generated"
+    },
+    {
+      "path": "scripts/data/check-review/without-195-notes.xlsx.inspect.ndjson",
+      "bytes": 200810727,
+      "last_write_ticks": 639271378758820912,
+      "reason": "excel_inspection_generated"
+    },
+    {
+      "path": "scripts/data/check-review/zero-notes-before.png",
+      "bytes": 9593,
+      "last_write_ticks": 639270290101216212,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/check-review/zero-notes-error.log",
+      "bytes": 0,
+      "last_write_ticks": 639270289987370195,
+      "reason": "empty_log"
+    },
+    {
+      "path": "scripts/data/check-review/zero-notes-mixed.png",
+      "bytes": 28223,
+      "last_write_ticks": 639270290106456597,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/check-review/zero-notes-sale.png",
+      "bytes": 27200,
+      "last_write_ticks": 639270290109159414,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/btl-bhh-live-20261026/BTL00071-AMIS.png",
+      "bytes": 191610,
+      "last_write_ticks": 639285874513922409,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/btl-bhh-live-20261026/BTL00145-AMIS.png",
+      "bytes": 216421,
+      "last_write_ticks": 639285874496261267,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/btl-bhh-live-20261026/build-error.log",
+      "bytes": 0,
+      "last_write_ticks": 639285874289952337,
+      "reason": "empty_log"
+    },
+    {
+      "path": "scripts/data/btl-bhh-live-20261026/detail.png",
+      "bytes": 44188,
+      "last_write_ticks": 639286730879130249,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/btl-bhh-live-20261026/docs.png",
+      "bytes": 28586,
+      "last_write_ticks": 639286730881087020,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/btl-bhh-live-20261026/info.png",
+      "bytes": 28476,
+      "last_write_ticks": 639286730881887009,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/btl-bhh-live-20261026/missing.png",
+      "bytes": 16537,
+      "last_write_ticks": 639285874376264504,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/btl-bhh-live-20261026/money.png",
+      "bytes": 42219,
+      "last_write_ticks": 639286730880507061,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/amis-2024-linked-20261026/_return-import.tmp.xlsx.inspect.ndjson",
+      "bytes": 1086373,
+      "last_write_ticks": 639287527997929701,
+      "reason": "excel_inspection_generated"
+    },
+    {
+      "path": "scripts/data/amis-2024-linked-20261026/net.png",
+      "bytes": 18094,
+      "last_write_ticks": 639286833022998976,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/amis-2024-linked-20261026/pending.png",
+      "bytes": 7800,
+      "last_write_ticks": 639286833021461694,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/amis-2024-linked-20261026/reason-details.png",
+      "bytes": 37903,
+      "last_write_ticks": 639286642792048425,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/amis-2024-linked-20261026/reasons.png",
+      "bytes": 8945,
+      "last_write_ticks": 639286833021958054,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/amis-2024-linked-20261026/return-import-map.png",
+      "bytes": 17043,
+      "last_write_ticks": 639287528052948967,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/amis-2024-linked-20261026/return-import-money.png",
+      "bytes": 54355,
+      "last_write_ticks": 639287528051237384,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/amis-2024-linked-20261026/summary.png",
+      "bytes": 40508,
+      "last_write_ticks": 639286833021051375,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/amis-2024-linked-20261026/template-left.png",
+      "bytes": 67684,
+      "last_write_ticks": 639286733076686839,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/data/amis-2024-linked-20261026/template-right.png",
+      "bytes": 43402,
+      "last_write_ticks": 639286733077476852,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "scripts/__pycache__/annotate_import_2024_differences.cpython-312.pyc",
+      "bytes": 11569,
+      "last_write_ticks": 639286642749401405,
+      "reason": "python_bytecode_cache"
+    },
+    {
+      "path": "scripts/__pycache__/apply_continued_reissue_20261109.cpython-312.pyc",
+      "bytes": 28081,
+      "last_write_ticks": 639298798776708413,
+      "reason": "python_bytecode_cache"
+    },
+    {
+      "path": "scripts/__pycache__/apply_psc2_exchange_20261109.cpython-312.pyc",
+      "bytes": 10844,
+      "last_write_ticks": 639298093983740216,
+      "reason": "python_bytecode_cache"
+    },
+    {
+      "path": "scripts/__pycache__/audit_h2_chain_readiness_20261022.cpython-312.pyc",
+      "bytes": 15901,
+      "last_write_ticks": 639282354941241574,
+      "reason": "python_bytecode_cache"
+    },
+    {
+      "path": "scripts/__pycache__/build_monthly_goods_requests.cpython-312.pyc",
+      "bytes": 11361,
+      "last_write_ticks": 639289517246265502,
+      "reason": "python_bytecode_cache"
+    },
+    {
+      "path": "scripts/__pycache__/export_import_2024_linked_returns.cpython-312.pyc",
+      "bytes": 10765,
+      "last_write_ticks": 639286678832211833,
+      "reason": "python_bytecode_cache"
+    },
+    {
+      "path": "scripts/__pycache__/filter_invoice_exceptions.cpython-312.pyc",
+      "bytes": 23339,
+      "last_write_ticks": 639269427949652612,
+      "reason": "python_bytecode_cache"
+    },
+    {
+      "path": "scripts/__pycache__/filter_invoice_exceptions.cpython-313.pyc",
+      "bytes": 23812,
+      "last_write_ticks": 639299793891679433,
+      "reason": "python_bytecode_cache"
+    },
+    {
+      "path": "scripts/__pycache__/import_2025_buyer_fields.cpython-312.pyc",
+      "bytes": 2731,
+      "last_write_ticks": 639297881149649680,
+      "reason": "python_bytecode_cache"
+    },
+    {
+      "path": "scripts/__pycache__/inspect_uvg.cpython-312.pyc",
+      "bytes": 10796,
+      "last_write_ticks": 639268800945294088,
+      "reason": "python_bytecode_cache"
+    },
+    {
+      "path": "scripts/__pycache__/match_import_2024_template.cpython-312.pyc",
+      "bytes": 33218,
+      "last_write_ticks": 639286732358696079,
+      "reason": "python_bytecode_cache"
+    },
+    {
+      "path": "scripts/__pycache__/match_uvg_documents.cpython-312.pyc",
+      "bytes": 22061,
+      "last_write_ticks": 639268800945415065,
+      "reason": "python_bytecode_cache"
+    },
+    {
+      "path": "scripts/__pycache__/prepare_btl_bhh_live_20261026.cpython-312.pyc",
+      "bytes": 12190,
+      "last_write_ticks": 639286732356926096,
+      "reason": "python_bytecode_cache"
+    },
+    {
+      "path": "scripts/__pycache__/prepare_gap_f_stages_20261030.cpython-312.pyc",
+      "bytes": 6315,
+      "last_write_ticks": 639289517246285525,
+      "reason": "python_bytecode_cache"
+    },
+    {
+      "path": "scripts/__pycache__/prepare_invoice_reports.cpython-312.pyc",
+      "bytes": 36748,
+      "last_write_ticks": 639280009657794206,
+      "reason": "python_bytecode_cache"
+    },
+    {
+      "path": "scripts/__pycache__/prepare_invoice_reports.cpython-313.pyc",
+      "bytes": 37721,
+      "last_write_ticks": 639299793859630960,
+      "reason": "python_bytecode_cache"
+    },
+    {
+      "path": "scripts/__pycache__/prepare_monthly_vat_quarters_20261030.cpython-312.pyc",
+      "bytes": 9160,
+      "last_write_ticks": 639289517246315543,
+      "reason": "python_bytecode_cache"
+    },
+    {
+      "path": "scripts/__pycache__/prepare_new_amis_2024_20261026.cpython-312.pyc",
+      "bytes": 18953,
+      "last_write_ticks": 639286022147400754,
+      "reason": "python_bytecode_cache"
+    },
+    {
+      "path": "scripts/__pycache__/prepare_return_adjustment_import.cpython-312.pyc",
+      "bytes": 28838,
+      "last_write_ticks": 639287531292272560,
+      "reason": "python_bytecode_cache"
+    },
+    {
+      "path": "scripts/__pycache__/rebuild_import_2024_linked_returns.cpython-312.pyc",
+      "bytes": 30616,
+      "last_write_ticks": 639286732357246100,
+      "reason": "python_bytecode_cache"
+    },
+    {
+      "path": "scripts/__pycache__/reconcile_uvg_groups.cpython-312.pyc",
+      "bytes": 31037,
+      "last_write_ticks": 639268800945573636,
+      "reason": "python_bytecode_cache"
+    },
+    {
+      "path": "scripts/__pycache__/reconcile_uvg_stage1.cpython-312.pyc",
+      "bytes": 15261,
+      "last_write_ticks": 639268800945671900,
+      "reason": "python_bytecode_cache"
+    },
+    {
+      "path": "scripts/__pycache__/verify_h2_workbook_20261022.cpython-312.pyc",
+      "bytes": 6598,
+      "last_write_ticks": 639282354941331611,
+      "reason": "python_bytecode_cache"
+    },
+    {
+      "path": "scripts/__pycache__/verify_import_2024_linked_returns.cpython-312.pyc",
+      "bytes": 19473,
+      "last_write_ticks": 639286732361551255,
+      "reason": "python_bytecode_cache"
+    },
+    {
+      "path": "outputs/DANH_SACH_287_HD_DIEU_CHINH_GOC_2022_2023.xlsx.inspect.ndjson",
+      "bytes": 1146679,
+      "last_write_ticks": 639280016151607863,
+      "reason": "excel_inspection_generated"
+    },
+    {
+      "path": "outputs/phan-loai-2025-20261105/preview-0.png",
+      "bytes": 60665,
+      "last_write_ticks": 639294493452163313,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "outputs/phan-loai-2025-20261105/preview-1.png",
+      "bytes": 66229,
+      "last_write_ticks": 639294493522683554,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "outputs/phan-loai-2025-20261105/preview-2.png",
+      "bytes": 70385,
+      "last_write_ticks": 639294493571851490,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "outputs/phan-loai-2025-20261105/preview-3.png",
+      "bytes": 69989,
+      "last_write_ticks": 639294493621787339,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "outputs/phan-loai-2025-20261105/preview-4.png",
+      "bytes": 74768,
+      "last_write_ticks": 639294493666673545,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "outputs/phan-loai-2025-20261105/preview-5.png",
+      "bytes": 63889,
+      "last_write_ticks": 639294493728173261,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "outputs/phan-loai-2025-20261105/preview-6.png",
+      "bytes": 63238,
+      "last_write_ticks": 639294493784300962,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "outputs/ngoai-le-meinvoice-2024/NGOAI_LE_2024_THEO_CHUOI_GON.xlsx.inspect.ndjson",
+      "bytes": 896988,
+      "last_write_ticks": 639269419366853250,
+      "reason": "excel_inspection_generated"
+    },
+    {
+      "path": "outputs/ngoai-le-meinvoice-2024/NGOAI_LE_2024_THEO_CHUOI.xlsx.inspect.ndjson",
+      "bytes": 858151,
+      "last_write_ticks": 639269418679868552,
+      "reason": "excel_inspection_generated"
+    },
+    {
+      "path": "outputs/nghiem-thu-20261113/chain-final-preview-Chuỗi F0 F1 F2.png",
+      "bytes": 53751,
+      "last_write_ticks": 639301555007844648,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "outputs/nghiem-thu-20261113/chain-final-preview-Chuỗi mẫu.png",
+      "bytes": 44614,
+      "last_write_ticks": 639301526631642666,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "outputs/nghiem-thu-20261113/chain-final-preview-F0 F1 ví dụ.png",
+      "bytes": 63880,
+      "last_write_ticks": 639301555009462813,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "outputs/nghiem-thu-20261113/chain-final-preview-F2 F3 ví dụ.png",
+      "bytes": 95502,
+      "last_write_ticks": 639301555011181407,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "outputs/nghiem-thu-20261113/chain-final-preview-Tổng hợp.png",
+      "bytes": 98905,
+      "last_write_ticks": 639301526628090688,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "outputs/nghiem-thu-20261113/compact-final-preview-BHH và CT liên quan.png",
+      "bytes": 57598,
+      "last_write_ticks": 639301517692348443,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "outputs/nghiem-thu-20261113/compact-final-preview-Chuỗi thiếu BHH.png",
+      "bytes": 85553,
+      "last_write_ticks": 639301517693989216,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "outputs/nghiem-thu-20261113/compact-final-preview-HĐ 2026.png",
+      "bytes": 92617,
+      "last_write_ticks": 639301517690773490,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "outputs/nghiem-thu-20261113/compact-final-preview-Liên kết BHH.png",
+      "bytes": 40206,
+      "last_write_ticks": 639301517694885093,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "outputs/nghiem-thu-20261113/compact-final-preview-Tổng hợp.png",
+      "bytes": 77647,
+      "last_write_ticks": 639301517688429175,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "outputs/nghiem-thu-20261113/deep-preview-AMIS đối chiếu.png",
+      "bytes": 63240,
+      "last_write_ticks": 639301401112116493,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "outputs/nghiem-thu-20261113/deep-preview-Chi tiết 10 HĐ.png",
+      "bytes": 60735,
+      "last_write_ticks": 639301401110963840,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "outputs/nghiem-thu-20261113/deep-preview-Kết luận 5 cặp.png",
+      "bytes": 72151,
+      "last_write_ticks": 639301401109719840,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "outputs/nghiem-thu-20261113/final-issued-preview-BHH và CT liên quan.png",
+      "bytes": 72053,
+      "last_write_ticks": 639301440834433598,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "outputs/nghiem-thu-20261113/final-issued-preview-Chuỗi thiếu BHH.png",
+      "bytes": 89338,
+      "last_write_ticks": 639301440836152299,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "outputs/nghiem-thu-20261113/final-issued-preview-HĐ 2026.png",
+      "bytes": 86515,
+      "last_write_ticks": 639301440833027291,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "outputs/nghiem-thu-20261113/final-issued-preview-Liên kết BHH.png",
+      "bytes": 29854,
+      "last_write_ticks": 639301440836777590,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "outputs/nghiem-thu-20261113/final-issued-preview-Tổng hợp.png",
+      "bytes": 86777,
+      "last_write_ticks": 639301440830996321,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "outputs/nghiem-thu-20261113/issued-id-test.tmp",
+      "bytes": 3488,
+      "last_write_ticks": 639301436362506880,
+      "reason": "obsolete_invoice_id_test"
+    },
+    {
+      "path": "outputs/nghiem-thu-20261113/issued-id-test.tmp.inspect.ndjson",
+      "bytes": 2230,
+      "last_write_ticks": 639301436362862761,
+      "reason": "excel_inspection_generated"
+    },
+    {
+      "path": "outputs/nghiem-thu-20261113/issued-preview-BHH và CT liên quan.png",
+      "bytes": 69790,
+      "last_write_ticks": 639301435993196342,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "outputs/nghiem-thu-20261113/issued-preview-Chuỗi thiếu BHH.png",
+      "bytes": 85414,
+      "last_write_ticks": 639301436109259003,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "outputs/nghiem-thu-20261113/issued-preview-HĐ 2026.png",
+      "bytes": 86263,
+      "last_write_ticks": 639301435871699684,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "outputs/nghiem-thu-20261113/issued-preview-Tổng hợp.png",
+      "bytes": 84637,
+      "last_write_ticks": 639301435726851565,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "outputs/nghiem-thu-20261113/KIEM_TRA_KY_5_CAP_HD_1311.xlsx.inspect.ndjson",
+      "bytes": 153997,
+      "last_write_ticks": 639301401118708783,
+      "reason": "excel_inspection_generated"
+    },
+    {
+      "path": "outputs/nghiem-thu-20261113/MAP_SO_KY_HIEU_HD_AMIS_1311.xlsx.inspect.ndjson",
+      "bytes": 119484580,
+      "last_write_ticks": 639301366476649053,
+      "reason": "excel_inspection_generated"
+    },
+    {
+      "path": "outputs/nghiem-thu-20261113/MEINVOICE_CHUA_NOI_AMIS_2024_2025_1311.xlsx.inspect.ndjson",
+      "bytes": 192586,
+      "last_write_ticks": 639301391961181116,
+      "reason": "excel_inspection_generated"
+    },
+    {
+      "path": "outputs/nghiem-thu-20261113/preview-Cần kiểm tra.png",
+      "bytes": 58352,
+      "last_write_ticks": 639301366106790622,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "outputs/nghiem-thu-20261113/preview-Map 2024.png",
+      "bytes": 43301,
+      "last_write_ticks": 639301366068800232,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "outputs/nghiem-thu-20261113/preview-Map 2025.png",
+      "bytes": 43315,
+      "last_write_ticks": 639301366087840670,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "outputs/nghiem-thu-20261113/preview-Tổng hợp.png",
+      "bytes": 60095,
+      "last_write_ticks": 639301366052984887,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "outputs/nghiem-thu-20261113/reverse-preview-Cần rà bán hàng.png",
+      "bytes": 50262,
+      "last_write_ticks": 639301391952159533,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "outputs/nghiem-thu-20261113/reverse-preview-CQT cần kiểm.png",
+      "bytes": 42760,
+      "last_write_ticks": 639301391953472815,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "outputs/nghiem-thu-20261113/reverse-preview-Theo dõi riêng.png",
+      "bytes": 51410,
+      "last_write_ticks": 639301391952894451,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "outputs/nghiem-thu-20261113/reverse-preview-Tổng hợp.png",
+      "bytes": 48385,
+      "last_write_ticks": 639301391951006276,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "outputs/nghiem-thu-20261113/__pycache__/export_issued_2026_streaming.cpython-312.pyc",
+      "bytes": 34918,
+      "last_write_ticks": 639301554488091049,
+      "reason": "python_bytecode_cache"
+    },
+    {
+      "path": "outputs/nghiem-thu-20261113/__pycache__/prepare_issued_2026_chain_view.cpython-312.pyc",
+      "bytes": 17933,
+      "last_write_ticks": 639301554487990773,
+      "reason": "python_bytecode_cache"
+    },
+    {
+      "path": "outputs/nghiem-thu-20261113/__pycache__/prepare_issued_2026_previews.cpython-312.pyc",
+      "bytes": 10782,
+      "last_write_ticks": 639301554488315324,
+      "reason": "python_bytecode_cache"
+    },
+    {
+      "path": "outputs/nghiem-thu-20261113/__pycache__/verify_issued_2026_chain_book.cpython-312.pyc",
+      "bytes": 17789,
+      "last_write_ticks": 639301554488131060,
+      "reason": "python_bytecode_cache"
+    },
+    {
+      "path": "outputs/kiem-tra-20261008/CAC_TRUONG_HOP_CAN_KIEM_TRA.xlsx.inspect.ndjson",
+      "bytes": 147915,
+      "last_write_ticks": 639270246954786776,
+      "reason": "excel_inspection_generated"
+    },
+    {
+      "path": "outputs/import-2025-20261109/IMPORT_DIEU_CHINH_BGG00001_CHO_SO_HD.xlsx.inspect.ndjson",
+      "bytes": 20314,
+      "last_write_ticks": 639297912493364405,
+      "reason": "excel_inspection_generated"
+    },
+    {
+      "path": "outputs/import-2025-20261109/preview-0.png",
+      "bytes": 34505,
+      "last_write_ticks": 639298164609553176,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "outputs/import-2025-20261109/preview-2.png",
+      "bytes": 58311,
+      "last_write_ticks": 639298194470057904,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "outputs/import-2025-20261109/preview-3.png",
+      "bytes": 54644,
+      "last_write_ticks": 639298194860286635,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "outputs/import-2025-20261109/preview-buyer-fields.png",
+      "bytes": 14821,
+      "last_write_ticks": 639298164488112467,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "outputs/import-2025-20261109/preview-h1-12-links.png",
+      "bytes": 31453,
+      "last_write_ticks": 639298194855967821,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "outputs/import-2025-20261109/preview-pending-reasons.png",
+      "bytes": 24389,
+      "last_write_ticks": 639298194880713307,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "outputs/import-2025-20261109/preview-promotions.png",
+      "bytes": 47117,
+      "last_write_ticks": 639298164570006681,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "outputs/import-2025-20261109/preview-return-money.png",
+      "bytes": 43254,
+      "last_write_ticks": 639298194878131504,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "outputs/import-2025-20261109/preview-return-reference.png",
+      "bytes": 47216,
+      "last_write_ticks": 639298194875376251,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "outputs/import-2025-20261109/preview-service-quantities.png",
+      "bytes": 14754,
+      "last_write_ticks": 639298164533314667,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "outputs/import-2025-20261109/qa/BAO_CAO_IMPORT_2025.xlsx.inspect.ndjson",
+      "bytes": 36371222,
+      "last_write_ticks": 639298195084486363,
+      "reason": "excel_inspection_generated"
+    },
+    {
+      "path": "outputs/import-2025-20261109/qa/before-psc2-BAO_CAO_IMPORT_2025.png",
+      "bytes": 54615,
+      "last_write_ticks": 639297881489747271,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "outputs/import-2025-20261109/qa/before-psc2-IMPORT_HD_MOI_2025.png",
+      "bytes": 34505,
+      "last_write_ticks": 639297881451207166,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "outputs/import-2025-20261109/qa/gift-keep-after.png",
+      "bytes": 24723,
+      "last_write_ticks": 639298194863056107,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "outputs/import-2025-20261109/qa/gift-keep-before.png",
+      "bytes": 24466,
+      "last_write_ticks": 639297889539591035,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "outputs/import-2025-20261109/qa/IMPORT_HD_MOI_2025.psc2.tmp.xlsx.inspect.ndjson",
+      "bytes": 167134112,
+      "last_write_ticks": 639297886528831399,
+      "reason": "excel_inspection_generated"
+    },
+    {
+      "path": "outputs/import-2025-20261109/qa/IMPORT_THAY_THE_VE_0_2025.xlsx.inspect.ndjson",
+      "bytes": 11605485,
+      "last_write_ticks": 639298194512956850,
+      "reason": "excel_inspection_generated"
+    },
+    {
+      "path": "outputs/import-2025-20261109/qa/preview-bgg00001.png",
+      "bytes": 27152,
+      "last_write_ticks": 639297912486809784,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "outputs/import-2025-20261109/qa/preview-Bieu-tang---KT-check.png",
+      "bytes": 31669,
+      "last_write_ticks": 639298194872240582,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "outputs/import-2025-20261109/qa/preview-MI2025-chua-map.png",
+      "bytes": 27533,
+      "last_write_ticks": 639298194865620637,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "outputs/import-2025-20261109/qa/preview-MI2025-chuoi.png",
+      "bytes": 24897,
+      "last_write_ticks": 639298194869465745,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "outputs/import-2025-20261109/qa/preview-psc2.png",
+      "bytes": 18985,
+      "last_write_ticks": 639298164446911723,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "outputs/chuoi-sau-xu-ly-20261030/CHUOI_F0_F1_SAU_XU_LY_20261029.xlsx.inspect.ndjson",
+      "bytes": 66867749,
+      "last_write_ticks": 639289329625147720,
+      "reason": "excel_inspection_generated"
+    },
+    {
+      "path": "outputs/chuoi-sau-xu-ly-20261030/dieu-chinh-cuoi.png",
+      "bytes": 7289,
+      "last_write_ticks": 639289329236063257,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "outputs/chuoi-sau-xu-ly-20261030/dieu-chinh.png",
+      "bytes": 78044,
+      "last_write_ticks": 639289329142741682,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "outputs/chuoi-sau-xu-ly-20261030/loai-tru.png",
+      "bytes": 18943,
+      "last_write_ticks": 639289329287039949,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "outputs/chuoi-sau-xu-ly-20261030/thay-the-cuoi.png",
+      "bytes": 78122,
+      "last_write_ticks": 639289329201097004,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "outputs/chuoi-sau-xu-ly-20261030/thay-the.png",
+      "bytes": 95234,
+      "last_write_ticks": 639289329173092341,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "outputs/btl-bhh-20261026/LIEN_KET_BTL_BHH_2024.xlsx.inspect.ndjson",
+      "bytes": 1814140,
+      "last_write_ticks": 639285874394257139,
+      "reason": "excel_inspection_generated"
+    },
+    {
+      "path": "outputs/bo-sung-13-20261029/IMPORT_DIEU_CHINH_BO_SUNG_13_HD.xlsx.inspect.ndjson",
+      "bytes": 917785,
+      "last_write_ticks": 639288615214087519,
+      "reason": "excel_inspection_generated"
+    },
+    {
+      "path": "outputs/bo-sung-13-20261029/last-lines.png",
+      "bytes": 52498,
+      "last_write_ticks": 639288615204917283,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "outputs/bo-sung-13-20261029/money.png",
+      "bytes": 57212,
+      "last_write_ticks": 639288615203270731,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "outputs/bo-sung-13-20261029/references.png",
+      "bytes": 68320,
+      "last_write_ticks": 639288615202276414,
+      "reason": "generated_preview_untracked"
+    },
+    {
+      "path": "outputs/amis-2024-theo-btl-bhh-20261026/IMPORT_THAY_THE_VE_0_6_CHUOI_2024.xlsx.inspect.ndjson",
+      "bytes": 659354,
+      "last_write_ticks": 639288438488977969,
+      "reason": "excel_inspection_generated"
+    },
+    {
+      "path": "outputs/amis-2024-theo-btl-bhh-20261026/KIEM_TRA_VA_LOAI_TRU_AMIS_2024.xlsx.inspect.ndjson",
+      "bytes": 3872141,
+      "last_write_ticks": 639286833042715030,
+      "reason": "excel_inspection_generated"
+    }
+  ]
+}

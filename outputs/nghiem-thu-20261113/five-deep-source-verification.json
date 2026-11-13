@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "invoice_keys_checked": 10,
+  "independent_detail_rows_checked": 20,
+  "current_relationship_rows_scanned": 18790,
+  "related_adjustment_replacement_rows": [],
+  "sources_unchanged": true
+}

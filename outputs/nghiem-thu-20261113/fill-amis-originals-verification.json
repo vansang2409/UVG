@@ -1,0 +1,118 @@
+{
+  "backup_directory": "D:\\UVG\\outputs\\nghiem-thu-20261113\\backup-amis-before-fill-20261113_102407",
+  "files": [
+    {
+      "file": "D:\\UVG\\data\\1311\\amis\\So_chi_tiet_ban_hang (2024).xlsx",
+      "backup": "D:\\UVG\\outputs\\nghiem-thu-20261113\\backup-amis-before-fill-20261113_102407\\So_chi_tiet_ban_hang (2024).xlsx",
+      "before_sha256": "c75dd5719f13bf803259200d388ec5459471e801f9ccc26080bc1e03df194629",
+      "after_sha256": "fe05d7cb6fb6b2821417ed6f93720b8d0befc2d76bb206f6dfa48906a9b39154",
+      "sheets": [
+        {
+          "sheet": "SỔ CHI TIẾT BÁN HÀNG",
+          "filled_detail_rows": 44578,
+          "filled_cells": 89156,
+          "prior_nonblank_target_cells": [
+            {
+              "row": 8020,
+              "column": "F",
+              "before": "BHHT2024004546",
+              "after": "00117400"
+            }
+          ]
+        }
+      ],
+      "only_D_F_cells_changed": true
+    },
+    {
+      "file": "D:\\UVG\\data\\1311\\amis\\So_chi_tiet_ban_hang (2025).xlsx",
+      "backup": "D:\\UVG\\outputs\\nghiem-thu-20261113\\backup-amis-before-fill-20261113_102407\\So_chi_tiet_ban_hang (2025).xlsx",
+      "before_sha256": "dbe9b2bfc23b343bd1347bc032dcb528672b6e8d1f579d2d03f15763efe4ae1c",
+      "after_sha256": "0f9170d935eefcc413de7de0fd030fe8580a513a9bdb08881a8be61723a14bcb",
+      "sheets": [
+        {
+          "sheet": "SỔ CHI TIẾT BÁN HÀNG",
+          "filled_detail_rows": 49999,
+          "filled_cells": 99998,
+          "prior_nonblank_target_cells": []
+        },
+        {
+          "sheet": "SỔ CHI TIẾT BÁN HÀNG_1",
+          "filled_detail_rows": 26675,
+          "filled_cells": 53350,
+          "prior_nonblank_target_cells": []
+        }
+      ],
+      "only_D_F_cells_changed": true
+    }
+  ],
+  "unmapped": [
+    {
+      "id": "2025/BHHN20250006111",
+      "rows": [
+        "SỔ CHI TIẾT BÁN HÀNG!3248"
+      ],
+      "candidates": [
+        "1C25TUV/00000027",
+        "1C25TUV/00000085"
+      ]
+    },
+    {
+      "id": "2025/BHHN2025000164",
+      "rows": [
+        "SỔ CHI TIẾT BÁN HÀNG_1!10679",
+        "SỔ CHI TIẾT BÁN HÀNG_1!10680",
+        "SỔ CHI TIẾT BÁN HÀNG_1!10681"
+      ],
+      "candidates": [
+        "1C25MUV/00020632",
+        "1C25MUV/00020633"
+      ]
+    },
+    {
+      "id": "2025/BHHN2025000166",
+      "rows": [
+        "SỔ CHI TIẾT BÁN HÀNG_1!11829",
+        "SỔ CHI TIẾT BÁN HÀNG_1!11830"
+      ],
+      "candidates": [
+        "1C25MUV/00021266",
+        "1C25MUV/00021267"
+      ]
+    },
+    {
+      "id": "2025/BHHN2025000135",
+      "rows": [
+        "SỔ CHI TIẾT BÁN HÀNG_1!13491",
+        "SỔ CHI TIẾT BÁN HÀNG_1!13492",
+        "SỔ CHI TIẾT BÁN HÀNG_1!13493"
+      ],
+      "candidates": [
+        "1C25MUV/00022777",
+        "1C25MUV/00022893"
+      ]
+    },
+    {
+      "id": "2025/BTL00510",
+      "rows": [
+        "SỔ CHI TIẾT BÁN HÀNG_1!19384",
+        "SỔ CHI TIẾT BÁN HÀNG_1!19385"
+      ],
+      "candidates": []
+    },
+    {
+      "id": "2025/BHHT2025035455",
+      "rows": [
+        "SỔ CHI TIẾT BÁN HÀNG_1!23834"
+      ],
+      "candidates": [
+        "1C25MUV/00032352",
+        "1C25MUV/00032610"
+      ]
+    }
+  ],
+  "unmapped_documents": 6,
+  "passed": true,
+  "filled_documents": 100826,
+  "filled_detail_rows": 121252,
+  "filled_cells": 242504
+}

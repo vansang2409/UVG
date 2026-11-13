@@ -1,0 +1,47 @@
+{
+  "passed": true,
+  "output_rows": {
+    "2024": 35017,
+    "2025": 65815
+  },
+  "mapped": 100826,
+  "unmapped": 6,
+  "review": 531,
+  "source_files_unchanged": 6,
+  "source_header_spot_checks": [
+    {
+      "doc": "BHHN2024000201",
+      "invoice": "1C26MUV/00111274",
+      "source": "Bang_ke_hoa_don_da_su_dung_1794536037209_35.xls!279"
+    },
+    {
+      "doc": "BHHT2024013907",
+      "invoice": "1C26MUV/00128575",
+      "source": "Bang_ke_hoa_don_da_su_dung_1794536037209_36.xls!7907"
+    },
+    {
+      "doc": "BHHT2024025182",
+      "invoice": "1C26MUV/00147851",
+      "source": "Bang_ke_hoa_don_da_su_dung_1794536037209_36.xls!27183"
+    },
+    {
+      "doc": "BHHT2025002128",
+      "invoice": "1C26MUV/00157632",
+      "source": "Bang_ke_hoa_don_da_su_dung_1794536037209_38.xls!5284"
+    },
+    {
+      "doc": "BHHT2025021060",
+      "invoice": "1C25MUV/00000559",
+      "source": "Bang_ke_hoa_don_da_su_dung_1794536037209_3.xls!4142"
+    },
+    {
+      "doc": "BTL00511",
+      "invoice": "1C26MUV/00184977",
+      "source": "Bang_ke_hoa_don_da_su_dung_1794536037209_39.xls!22603"
+    }
+  ],
+  "invoice_ids_are_text_8_digits": true,
+  "amis_totals_match_source_footers": true,
+  "formula_errors": [],
+  "output_sha256": "b150b44205f2fefc2bc8734bf2624b6767f16da18cbbe223bd1ae35efced411b"
+}

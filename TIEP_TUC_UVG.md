@@ -1,6 +1,8 @@
 # Tiếp tục UVG
 
-Cập nhật 11/11/2026. Đây là trạng thái cuối đã ghi nhận; đọc lại Google Sheets trước khi sửa. Cập nhật các mục hiện có, không nối nhật ký dài vào file này.
+Cập nhật nghiệm thu 13/11/2026: file đang dùng là `outputs/nghiem-thu-20261113/TONG_HOP_HD_2026_CHO_DON_2024_2025_CHUOI.xlsx`, gồm 82.207 HĐ phát hành 2026 cho đơn 2024–2025 và 68.928 nhóm chuỗi. Mỗi F có màu riêng, ngày, thanh toán và giá trị sau cùng đã gồm VAT. Xem [hướng dẫn nghiệm thu](outputs/nghiem-thu-20261113/README.md) để giải nén snapshot và tái xuất; kết quả kiểm cùng thư mục xác nhận toàn bộ công thức và dữ liệu.
+
+Các trạng thái Google Sheets bên dưới là mốc đã ghi nhận 11/11/2026; đọc lại live trước khi sửa. Cập nhật các mục hiện có, không nối nhật ký dài vào file này.
 
 ## Việc còn chờ
 

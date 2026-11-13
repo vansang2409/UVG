@@ -14,3 +14,7 @@ outputs/doi-chieu-amis-j-20261031/** -text whitespace=cr-at-eol
 outputs/item-codes-20261031/** -text whitespace=cr-at-eol
 outputs/monthly-import-tabs-20261031/** -text whitespace=cr-at-eol
 outputs/renumber-import-20261031/** -text whitespace=cr-at-eol
+
+# Bảo toàn byte nguồn, script và kết quả nghiệm thu dùng kiểm SHA-256.
+data/1311/** -text whitespace=cr-at-eol
+outputs/nghiem-thu-20261113/** -text whitespace=cr-at-eol

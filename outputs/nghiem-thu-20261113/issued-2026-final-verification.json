@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "invoices_verified": 82207,
+  "bhh_references_verified": 65726,
+  "unmapped_chains_verified": 2989,
+  "all_cells_compared": true,
+  "totals": [
+    40161,
+    42046,
+    82207,
+    3509666128,
+    280432207,
+    3788132116
+  ],
+  "blank_payments": 4022,
+  "error_cells": 0,
+  "native_filters_and_freeze_panes": true,
+  "bytes": 17663525,
+  "sha256": "487bb64447227e0dd87283aee097c25aaf90d4eebfdd07ea8deb6b51b6f1b2ee"
+}

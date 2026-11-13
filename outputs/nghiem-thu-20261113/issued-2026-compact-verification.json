@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "invoices": 82207,
+  "document_rows": 65726,
+  "unmapped_chains": 2989,
+  "columns_before_after": {
+    "HĐ 2026": [
+      30,
+      13
+    ],
+    "BHH và CT liên quan": [
+      13,
+      7
+    ],
+    "Chuỗi thiếu BHH": [
+      12,
+      7
+    ]
+  },
+  "money_and_mapping_unchanged": true,
+  "blank_payments": 4022,
+  "error_cells": 0,
+  "filters_and_freeze_panes": true,
+  "summary_formula_references_checked": true,
+  "original_file_unchanged": true,
+  "bytes": 9080365,
+  "sha256": "403bc88ad1d180de06caa56a6077d2cff6f1c2b4b12906838e7c4589583bc88d"
+}

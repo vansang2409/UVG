@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "updated_in_place": true,
+  "sheets": [
+    "HĐ 2026",
+    "Chuỗi F0 F1 F2"
+  ],
+  "removed_sheets": [
+    "Tổng hợp",
+    "BHH và CT liên quan",
+    "Chuỗi thiếu BHH"
+  ],
+  "main_values_dates_amounts_identical": true,
+  "invoice_count": 82207,
+  "chain_display_rows": 82817,
+  "chain_groups": 68928,
+  "documents": 65726,
+  "phase_count": 4,
+  "date_and_payment_for_each_invoice_verified": true,
+  "unknown_document_chains_retained": 2989,
+  "all_2026_invoices_represented": true,
+  "business_phases_verified": true,
+  "examples_zeroed_and_reissued_verified": true,
+  "blank_payment_events_marked": 4059,
+  "final_formulas_verified": 68928,
+  "phase_colors_verified": true,
+  "error_cells": 0,
+  "bytes": 12630306,
+  "sha256": "faf380cca006324ca055676b229ef326072926f328f1d4960e4adfdcf31c2b32"
+}

@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "main": 5,
+  "separate": 26,
+  "invalid_cqt": 3,
+  "independent_source_headers_verified": 31,
+  "main_payment": 9721681,
+  "all31_payment": 452682122,
+  "source_amis_unchanged": true,
+  "output_sha256": "f8f8f3fab551d32a23261088dbdb5938bdd5848aac17cdf0073db2a541c32ed6"
+}

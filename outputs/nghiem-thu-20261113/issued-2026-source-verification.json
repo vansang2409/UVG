@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "header_rows_read": 235263,
+  "headers_2026_in_source": 186389,
+  "selected_unique_invoices_verified": 82207,
+  "relationship_rows_verified": 18790,
+  "header_blank_cells": {
+    "2": 4022
+  },
+  "detail_fallback_invoices_verified": 0,
+  "mapped_documents": 65726,
+  "sources_unchanged": true,
+  "manifest": [
+    {
+      "file": "Bang_ke_hoa_don_da_su_dung_1794536037209.zip",
+      "sha256": "9cf3aa0b751d8a845c030fa8fd5cb17c00ef39da61572d88b2284b98947b3ce6"
+    },
+    {
+      "file": "Bang_ke_hoa_don_dieu_chinh_xuat_theo_HD_dieu_chinh_1794536167625.zip",
+      "sha256": "bf2c2769a769b7b76a5cf2b8ccc0c4cbe26972e71e1fe4f4b4fe75e537bc0552"
+    },
+    {
+      "file": "Bang_ke_hoa_don_thay_the_xuat_theo_HD_thay_the_1794536132501.zip",
+      "sha256": "7da239380734e71e13b92aa0380fe6ce315e88bf23ac0cf43a75b96a58c99605"
+    }
+  ]
+}

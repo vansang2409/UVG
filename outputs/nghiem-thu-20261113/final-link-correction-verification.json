@@ -1,0 +1,303 @@
+{
+  "passed": true,
+  "file": "D:\\UVG\\data\\1311\\amis\\So_chi_tiet_ban_hang (2025).xlsx",
+  "backup": "D:\\UVG\\outputs\\nghiem-thu-20261113\\backup-before-final-link-correction-20261113_103937\\So_chi_tiet_ban_hang (2025).xlsx",
+  "after_sha256": "e58cf5e38d635e6f530a0cb3e16a4bd7e41283029bfb04b0ccf30002732af748",
+  "filled_blank_documents": 5,
+  "corrected_existing_documents": 4,
+  "changed_rows": 16,
+  "sheets": [
+    {
+      "sheet": "SỔ CHI TIẾT BÁN HÀNG",
+      "rows": 7
+    },
+    {
+      "sheet": "SỔ CHI TIẾT BÁN HÀNG_1",
+      "rows": 9
+    }
+  ],
+  "changes": [
+    {
+      "doc": "BHHN2025000164",
+      "prior": null,
+      "final": "1C25MUV/00020632",
+      "stored_link": "1C25MUV/00020632",
+      "source": [
+        {
+          "range": "'HĐ meInvoice giữ lại 2025'!B18003:C36002",
+          "row": 25556,
+          "key": "1C25MUV/00020632"
+        },
+        {
+          "range": "'HĐ meInvoice giữ lại 2025'!B18003:C36002",
+          "row": 25557,
+          "key": "1C25MUV/00020632"
+        },
+        {
+          "range": "'HĐ meInvoice giữ lại 2025'!B18003:C36002",
+          "row": 25558,
+          "key": "1C25MUV/00020632"
+        }
+      ],
+      "money": [
+        34606478,
+        2768518,
+        37374996
+      ],
+      "invoice_money": [
+        34606478,
+        2768518,
+        37374996
+      ],
+      "status": "Hoá đơn mới"
+    },
+    {
+      "doc": "BHHN2025000166",
+      "prior": null,
+      "final": "1C25MUV/00021267",
+      "stored_link": "1C25MUV/00021267",
+      "source": [
+        {
+          "range": "'HĐ meInvoice giữ lại 2025'!B18003:C36002",
+          "row": 26690,
+          "key": "1C25MUV/00021267"
+        },
+        {
+          "range": "'HĐ meInvoice giữ lại 2025'!B18003:C36002",
+          "row": 26691,
+          "key": "1C25MUV/00021267"
+        }
+      ],
+      "money": [
+        12203705,
+        976296,
+        13180001
+      ],
+      "invoice_money": [
+        12203705,
+        976296,
+        13180001
+      ],
+      "status": "Hoá đơn mới"
+    },
+    {
+      "doc": "BHHN2025000135",
+      "prior": null,
+      "final": "1C25MUV/00022777",
+      "stored_link": "1C25MUV/00022777",
+      "source": [
+        {
+          "range": "'HĐ meInvoice giữ lại 2025'!B18003:C36002",
+          "row": 28333,
+          "key": "1C25MUV/00022777"
+        },
+        {
+          "range": "'HĐ meInvoice giữ lại 2025'!B18003:C36002",
+          "row": 28334,
+          "key": "1C25MUV/00022777"
+        },
+        {
+          "range": "'HĐ meInvoice giữ lại 2025'!B18003:C36002",
+          "row": 28335,
+          "key": "1C25MUV/00022777"
+        }
+      ],
+      "money": [
+        6742667,
+        539413,
+        7282080
+      ],
+      "invoice_money": [
+        6742667,
+        539413,
+        7282080
+      ],
+      "status": "Hoá đơn mới"
+    },
+    {
+      "doc": "BHHN20250006111",
+      "prior": null,
+      "final": "1C25TUV/00000085",
+      "stored_link": "1C25TUV/00000085",
+      "source": [
+        {
+          "range": "'HĐ meInvoice giữ lại 2025'!B3:C18002",
+          "row": 21,
+          "key": "1C25TUV/00000085"
+        }
+      ],
+      "money": [
+        919333,
+        73547,
+        992880
+      ],
+      "invoice_money": [
+        919333,
+        73547,
+        992880
+      ],
+      "status": "Hoá đơn mới"
+    },
+    {
+      "doc": "BHHL2025000106",
+      "prior": "1C25MUV/00020896",
+      "final": "1C25TUV/00011733",
+      "stored_link": "1C25TUV/00011733",
+      "source": [
+        {
+          "range": "'HĐ meInvoice giữ lại 2025'!B3:C18002",
+          "row": 1859,
+          "key": "1C25TUV/00011733"
+        }
+      ],
+      "money": [
+        561204,
+        44896,
+        606100
+      ],
+      "invoice_money": [
+        561204,
+        44896,
+        606100
+      ],
+      "status": "Hoá đơn mới"
+    },
+    {
+      "doc": "BHHT2025020869",
+      "prior": "1C25MUV/00000900",
+      "final": "1C25MUV/00000987",
+      "stored_link": "1C25MUV/00000987",
+      "source": [
+        {
+          "range": "'HĐ meInvoice giữ lại 2025'!B3:C18002",
+          "row": 4020,
+          "key": "1C25MUV/00000987"
+        },
+        {
+          "range": "'HĐ meInvoice giữ lại 2025'!B3:C18002",
+          "row": 4021,
+          "key": "1C25MUV/00000987"
+        }
+      ],
+      "money": [
+        3904629,
+        312370,
+        4216999
+      ],
+      "invoice_money": [
+        3904629,
+        312370,
+        4216999
+      ],
+      "status": "Hoá đơn mới"
+    },
+    {
+      "doc": "BHHT2025024460",
+      "prior": "1C25MUV/00006823",
+      "final": "1C25MUV/00007014",
+      "stored_link": "1C25MUV/00007014",
+      "source": [
+        {
+          "range": "'HĐ meInvoice giữ lại 2025'!B3:C18002",
+          "row": 10658,
+          "key": "1C25MUV/00007014"
+        },
+        {
+          "range": "'HĐ meInvoice giữ lại 2025'!B3:C18002",
+          "row": 10659,
+          "key": "1C25MUV/00007014"
+        }
+      ],
+      "money": [
+        2180600,
+        174448,
+        2355048
+      ],
+      "invoice_money": [
+        2180600,
+        174448,
+        2355048
+      ],
+      "status": "Hoá đơn mới"
+    },
+    {
+      "doc": "BHHT2025024138",
+      "prior": "1C25MUV/00007204",
+      "final": "1C25MUV/00007749",
+      "stored_link": "1C25MUV/00007749",
+      "source": [
+        {
+          "range": "'HĐ meInvoice giữ lại 2025'!B3:C18002",
+          "row": 11068,
+          "key": "1C25MUV/00007749"
+        }
+      ],
+      "money": [
+        1207902,
+        96632,
+        1304534
+      ],
+      "invoice_money": [
+        1207902,
+        96632,
+        1304534
+      ],
+      "status": "Hoá đơn mới"
+    },
+    {
+      "doc": "BHHT2025035455",
+      "prior": null,
+      "final": "1C25MUV/00032610",
+      "stored_link": "1C25MUV/00032610",
+      "source": [
+        {
+          "range": "'HĐ meInvoice giữ lại 2025'!B36003:C41287",
+          "row": 38411,
+          "key": "1C25MUV/00032610"
+        }
+      ],
+      "money": [
+        1147222,
+        91778,
+        1239000
+      ],
+      "invoice_money": [
+        1147222,
+        91778,
+        1239000
+      ],
+      "status": "Hoá đơn mới"
+    }
+  ],
+  "source_conflict_kept_unchanged": [
+    {
+      "doc": "BHHS2025010461",
+      "prior": "1C25TUV/00011929",
+      "final": "1C25TUV/00011927",
+      "stored_link": "1C25TUV/00011927",
+      "source": [
+        {
+          "range": "'HĐ meInvoice giữ lại 2025'!B3:C18002",
+          "row": 1021,
+          "key": "1C25TUV/00011927"
+        }
+      ],
+      "money": [
+        628704,
+        50296,
+        679000
+      ],
+      "invoice_money": [
+        628704,
+        50296,
+        679000
+      ],
+      "status": "Hoá đơn mới"
+    }
+  ],
+  "unmapped": [
+    "BTL00510"
+  ],
+  "only_D_F_changed": true,
+  "live_final_links_audited": 65487
+}

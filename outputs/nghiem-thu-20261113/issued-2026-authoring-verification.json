@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "writer": "streaming fallback after Artifact Tool out-of-memory at 6 GB",
+  "totals": [
+    40161,
+    42046,
+    82207,
+    3509666128,
+    280432207,
+    3788132116
+  ],
+  "blankPayment": 4022,
+  "sheets": [
+    [
+      "HĐ 2026",
+      82207
+    ],
+    [
+      "BHH và CT liên quan",
+      65726
+    ],
+    [
+      "Chuỗi thiếu BHH",
+      2989
+    ]
+  ]
+}
